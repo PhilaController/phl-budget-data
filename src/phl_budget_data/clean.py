@@ -3,6 +3,7 @@ import calendar
 import pandas as pd
 
 from . import DATA_DIR
+from .etl.collections import *
 from .etl.utils.misc import fiscal_from_calendar_year
 
 
@@ -16,7 +17,7 @@ def load_sales_collections_by_sector() -> pd.DataFrame:
         the annual sales collection data
     """
     # Get the path to the files to load
-    dirname = DATA_DIR / "processed" / "by-sector" / "sales"
+    dirname = SalesCollectionsByIndustry.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -55,7 +56,7 @@ def load_wage_collections_by_industry() -> pd.DataFrame:
         the monthly wage collection data
     """
     # Get the path to the files to load
-    dirname = DATA_DIR / "processed" / "collections" / "by-industry" / "wage-monthly"
+    dirname = WageCollectionsByIndustry.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -172,7 +173,7 @@ def load_monthly_other_govt_collections() -> pd.DataFrame:
     """
 
     # Get the path to the files to load
-    dirname = DATA_DIR / "processed" / "collections" / "city-monthly"
+    dirname = CityOtherGovtsCollections.get_data_directory("processed")
     files = dirname.glob("*-other-govts.csv")
 
     return _load_monthly_collections(files)
@@ -189,7 +190,7 @@ def load_monthly_nontax_collections() -> pd.DataFrame:
     """
 
     # Get the path to the files to load
-    dirname = DATA_DIR / "processed" / "collections" / "city-monthly"
+    dirname = CityNonTaxCollections.get_data_directory("processed")
     files = dirname.glob("*-nontax.csv")
 
     return _load_monthly_collections(files)
@@ -210,10 +211,13 @@ def load_monthly_tax_collections(kind: str) -> pd.DataFrame:
         the monthly tax collection data
     """
 
-    assert kind in ["city"]
+    assert kind in ["city", "school"]
 
     # Get the path to the files to load
-    dirname = DATA_DIR / "processed" / "collections" / f"{kind}-monthly"
+    if kind == "city":
+        dirname = CityTaxCollections.get_data_directory("processed")
+    elif kind == "school":
+        dirname = SchoolTaxCollections.get_data_directory("processed")
     files = dirname.glob("*-tax.csv")
 
     return _load_monthly_collections(files, total_only=True)

@@ -1,21 +1,18 @@
 [tool.poetry]
 name = "phl-budget-data"
-version = "0.0.1"
+version = "0.1.1"
 description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/PhiladelphiaController/phl-budget-data"
 repository = "https://github.com/PhiladelphiaController/phl-budget-data"
-documentation = "https://phl-budget-data.readthedocs.io"
 classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
 ]
-
-[tool.poetry.urls]
-Changelog = "https://github.com/PhiladelphiaController/phl-budget-data/releases"
+exclude = [ "src/phl_budget_data/data/raw"]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
@@ -23,47 +20,28 @@ click = "^7.0"
 selenium = "^3.141.0"
 numpy = "1.18.0"
 pandas = "^1.2.1"
-python-decouple = "^3.4"
 pdfplumber = "^0.5.25"
 webdriver-manager = "^3.3.0"
 desert = "^2020.11.18"
-jupyterlab_code_formatter = "^1.4.2"
-jedi = "0.17.1"
-isort = "^5.7.0"
-bs4 = "^0.0.1"
-camelot-py = {version = "<0.8", extras = ["cv"]}
 intervaltree = "^3.1.0"
-wheel = "^0.36.2"
-ipympl = "^0.6.3"
 loguru = "^0.5.3"
 python-dotenv = "^0.15.0"
 boto3 = "^1.17.12"
+beautifulsoup4 = "^4.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
 coverage = {extras = ["toml"], version = "^5.3"}
-safety = "^1.9.0"
 mypy = "^0.790"
-typeguard = "^2.9.1"
-xdoctest = {extras = ["colors"], version = "^0.15.0"}
-sphinx = "^3.3.1"
-sphinx-autobuild = "^2020.9.1"
 pre-commit = "^2.8.2"
 flake8 = "^3.8.4"
 black = "^20.8b1"
-flake8-bandit = "^2.1.2"
-flake8-bugbear = "^20.1.4"
-flake8-docstrings = "^1.5.0"
-flake8-rst-docstrings = "^0.0.14"
-pep8-naming = "^0.11.1"
-darglint = "^1.5.5"
-reorder-python-imports = "^2.3.6"
-pre-commit-hooks = "^3.3.0"
-sphinx-rtd-theme = "^0.5.0"
-sphinx-click = "^2.5.0"
-Pygments = "^2.7.2"
 jupyterlab = "^3.0.5"
 matplotlib = "^3.3.4"
+jupyterlab_code_formatter = "^1.4.2"
+jedi = "0.17.1"
+isort = "^5.7.0"
+ipympl = "^0.6.3"
 
 [tool.poetry.scripts]
 phl-monthly-collections-etl = "phl_budget_data.__main__:monthly_collections_etl"
