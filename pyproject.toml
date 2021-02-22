@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
-readme = "README.rst"
+readme = "README.md"
 homepage = "https://github.com/PhiladelphiaController/phl-budget-data"
 repository = "https://github.com/PhiladelphiaController/phl-budget-data"
 documentation = "https://phl-budget-data.readthedocs.io"
@@ -36,6 +36,8 @@ intervaltree = "^3.1.0"
 wheel = "^0.36.2"
 ipympl = "^0.6.3"
 loguru = "^0.5.3"
+python-dotenv = "^0.15.0"
+boto3 = "^1.17.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
@@ -65,8 +67,9 @@ matplotlib = "^3.3.4"
 
 [tool.poetry.scripts]
 phl-monthly-collections-etl = "phl_budget_data.__main__:monthly_collections_etl"
-phl-update-monthly-city-collections = "phl_budget_data.sentinel.core:update_monthly_city_collections"
-phl-update-monthly-wage-collections = "phl_budget_data.sentinel.core:update_monthly_wage_collections"
+phl-update-monthly-city-collections = "phl_budget_data.etl.sentinel.core:update_monthly_city_collections"
+phl-update-monthly-school-collections = "phl_budget_data.etl.sentinel.core:update_monthly_school_collections"
+phl-update-monthly-wage-collections = "phl_budget_data.etl.sentinel.core:update_monthly_wage_collections"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]

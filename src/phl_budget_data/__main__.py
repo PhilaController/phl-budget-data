@@ -1,8 +1,9 @@
 """Command-line interface."""
+
 import click
 from loguru import logger
 
-from . import DATA_DIR, collections
+from .etl import DATA_DIR, collections
 
 
 @click.command()
@@ -16,19 +17,14 @@ from . import DATA_DIR, collections
 def monthly_collections_etl(kind, month=None, year=None, dry_run=False) -> None:
     """Run the ETL pipeline for monthly collections"""
 
-    dirname = DATA_DIR / "raw" / "collections"
-    if kind == "wage":
-        cls = collections.WageCollectionsByIndustry
-        dirname = dirname / "by-industry" / "wage"
-    elif kind == "city-tax":
-        cls = collections.CityTaxCollections
-        dirname = dirname / "city-monthly"
-    elif kind == "city-nontax":
-        cls = collections.CityNonTaxCollections
-        dirname = dirname / "city-monthly"
-    elif kind == "city-other-govts":
-        cls = collections.CityOtherGovtsCollections
-        dirname = dirname / "city-monthly"
+    # Get the ETL class
+    ETL = {
+        "wage": collections.WageCollectionsByIndustry,
+        "city-tax": collections.CityTaxCollections,
+        "city-nontax": collections.CityNonTaxCollections,
+        "city-other-govts": collections.CityOtherGovtsCollections,
+    }
+    cls = ETL[kind]
 
     # Log
     logger.info(f"Processing ETL for '{cls.__name__}'")
@@ -49,6 +45,11 @@ def monthly_collections_etl(kind, month=None, year=None, dry_run=False) -> None:
             report = cls(year=year, month=month)
             report.extract_transform_load()
     else:
+
+        # Get the directory of raw files
+        dirname = cls.get_data_directory("raw")
+
+        # Glob the PDF files
         if year is not None:
             files = dirname.glob(f"{year}*.pdf")
         else:

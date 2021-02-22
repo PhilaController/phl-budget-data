@@ -3,7 +3,7 @@ import calendar
 import pandas as pd
 
 from . import DATA_DIR
-from .utils.misc import fiscal_from_calendar_year
+from .etl.utils.misc import fiscal_from_calendar_year
 
 
 def load_sales_collections_by_sector() -> pd.DataFrame:
