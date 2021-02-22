@@ -45,6 +45,7 @@ jobs:
         shell: bash -l {0}
         run: phl-update-monthly-wage-collections
       - name: Commit files
+        continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -52,6 +53,7 @@ jobs:
           git commit -m "Add monthly update files"
       - name: Push changes
         uses: ad-m/github-push-action@master
+        if: ${{ success() }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     
