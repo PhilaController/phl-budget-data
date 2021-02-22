@@ -103,7 +103,7 @@ def load_wage_collections_by_industry() -> pd.DataFrame:
         out["month"].astype(str) + "/" + out["year"].astype(str)
     )
 
-    return out.sort_values("date", ascending=True)
+    return out.sort_values("date", ascending=False).reset_index(drop=True)
 
 
 def _load_monthly_collections(files, total_only=False):
@@ -159,7 +159,7 @@ def _load_monthly_collections(files, total_only=False):
         out["month"].astype(str) + "/" + out["year"].astype(str)
     )
 
-    return out.sort_values("date", ascending=True)
+    return out.sort_values("date", ascending=False).reset_index(drop=True)
 
 
 def load_monthly_other_govt_collections() -> pd.DataFrame:
