@@ -2,6 +2,6 @@
 
 from pathlib import Path
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 DATA_DIR = Path(__file__).parent.absolute() / "data"
