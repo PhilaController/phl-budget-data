@@ -53,7 +53,6 @@ jobs:
           git commit -m "Add monthly update files"
       - name: Push changes
         uses: ad-m/github-push-action@master
-        if: ${{ !failure() }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     
