@@ -1,0 +1,57 @@
+name: Daily Update Check
+
+# on:
+#   schedule:
+#     - cron: '15 15 * * *'
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  daily-sync:
+    name: Daily Update Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false 
+          fetch-depth: 0
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          python-version: 3.7
+      - name: Conda info
+        shell: bash -l {0}
+        run: conda info
+      - name: Conda list
+        shell: bash -l {0}
+        run: conda list
+      - name: Install poetry
+        shell: bash -l {0}
+        run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+      - name: Install package
+        shell: bash -l {0}
+        run: poetry install
+      - name: Run City update
+        shell: bash -l {0}
+        run: phl-update-monthly-city-collections
+      - name: Run School District update
+        shell: bash -l {0}
+        run: phl-update-monthly-school-collections
+      - name: Run Wage update
+        shell: bash -l {0}
+        run: phl-update-monthly-wage-collections
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/phl_budget_data/data/processed/
+          git commit -m "Add monthly update files"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    
