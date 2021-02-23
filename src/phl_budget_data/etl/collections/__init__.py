@@ -1,3 +1,4 @@
+from .by_industry.birt import BIRTCollectionsByIndustry
 from .by_industry.sales import SalesCollectionsByIndustry
 from .by_industry.wage import WageCollectionsByIndustry
 from .monthly.city_nontax import CityNonTaxCollections

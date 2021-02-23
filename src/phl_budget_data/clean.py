@@ -7,9 +7,9 @@ from .etl.collections import *
 from .etl.utils.misc import fiscal_from_calendar_year
 
 
-def load_sales_collections_by_sector() -> pd.DataFrame:
+def load_sales_collections_by_industry() -> pd.DataFrame:
     """
-    Load annual sales tax collections by sector
+    Load annual sales tax collections by industry
 
     Returns
     -------
@@ -43,7 +43,32 @@ def load_sales_collections_by_sector() -> pd.DataFrame:
 
     return out.sort_values(
         ["fiscal_year", "parent_industry", "industry"], ascending=True
-    )
+    ).reset_index(drop=True)
+
+
+def load_birt_collections_by_industry() -> pd.DataFrame:
+    """
+    Load annual BIRT collections by industry
+
+    Returns
+    -------
+    data :
+        the annual sales collection data
+    """
+    # Get the path to the files to load
+    dirname = BIRTCollectionsByIndustry.get_data_directory("processed")
+    files = dirname.glob("*.csv")
+
+    out = []
+    for f in files:
+        out.append(pd.read_csv(f))
+
+    # Combine multiple months
+    out = pd.concat(out, ignore_index=True)
+
+    return out.sort_values(
+        ["tax_year", "parent_industry", "industry"], ascending=True
+    ).reset_index(drop=True)
 
 
 def load_wage_collections_by_industry() -> pd.DataFrame:

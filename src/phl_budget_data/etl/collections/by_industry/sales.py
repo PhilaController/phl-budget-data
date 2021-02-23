@@ -218,4 +218,4 @@ class SalesCollectionsByIndustry(ETLPipeline):
         path = self.get_data_directory("processed") / f"FY{fy_tag}.csv"
 
         # Load
-        super()._load_csv_data(path)
+        super()._load_csv_data(data, path)

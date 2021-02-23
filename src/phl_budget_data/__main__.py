@@ -66,3 +66,57 @@ def monthly_collections_etl(kind, month=None, year=None, dry_run=False) -> None:
             if not dry_run:
                 report = cls(year=year, month=month)
                 report.extract_transform_load()
+
+
+@click.command()
+@click.version_option()
+@click.option("--fiscal-year", type=int)
+@click.option("--dry-run", is_flag=True)
+def sales_collections_etl(fiscal_year=None, dry_run=False) -> None:
+    """Run the ETL pipeline for monthly sales collections"""
+
+    # Get the ETL class
+    cls = collections.SalesCollectionsByIndustry
+
+    # Log
+    logger.info(f"Processing ETL for '{cls.__name__}'")
+
+    # Get the directory of raw files
+    dirname = cls.get_data_directory("raw")
+
+    # Glob the PDF files
+    if fiscal_year is not None:
+        fy_tag = str(fiscal_year)[-2:]
+        files = dirname.glob(f"FY{fy_tag}.pdf")
+    else:
+        files = dirname.glob("*.pdf")
+
+    # Do all the files
+    for f in sorted(files):
+
+        # Get fiscal_year
+        fiscal_year = int(f"20{f.stem[2:]}")
+        logger.info(f"Processing fiscal_year='{fiscal_year}'")
+
+        # ETL
+        if not dry_run:
+            report = cls(fiscal_year=fiscal_year)
+            report.extract_transform_load()
+
+
+@click.command()
+@click.version_option()
+@click.option("--dry-run", is_flag=True)
+def birt_collections_etl(fiscal_year=None, dry_run=False) -> None:
+    """Run the ETL pipeline for monthly BIRT collections"""
+
+    # Get the ETL class
+    cls = collections.BIRTCollectionsByIndustry
+
+    # Log
+    logger.info(f"Processing ETL for '{cls.__name__}'")
+
+    # ETL
+    if not dry_run:
+        report = cls()
+        report.extract_transform_load()
