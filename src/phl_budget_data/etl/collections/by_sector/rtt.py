@@ -14,11 +14,11 @@ SECTORS = [
     "Office Buildings, Hotels and Garages",
     "Industrial",
     "Other Non-Residential",
-    "Total Non-Residential",
+    "Non-Residential",
     "Condos",
     "Apartments",
     "Single/Multi-family Homes",
-    "Total Residential",
+    "Residential",
     "Unclassified",
     "Total",
 ]
@@ -179,9 +179,7 @@ class RTTCollectionsBySector(ETLPipeline):
     def validate(self, data):
         """Validate the input data."""
 
-        sub = data.query(
-            "sector in ['Total Residential', 'Total Non-Residential', 'Unclassified']"
-        )
+        sub = data.query("sector in ['Residential', 'Non-Residential', 'Unclassified']")
         total = data.query("sector == 'Total'")["total"].squeeze()
 
         diff = sub["total"].sum() - total

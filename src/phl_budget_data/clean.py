@@ -35,7 +35,7 @@ def load_rtt_collections_by_sector() -> pd.DataFrame:
 
         # Load the data
         df = pd.read_csv(f)
-        df = df.loc[~df["sector"].str.contains("Total")]
+        df = df.query("sector != 'Total'")
 
         # Trim to the columns we want
         X = df[["total", "num_records", "sector", "parent_sector"]]
