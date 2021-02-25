@@ -44,12 +44,12 @@ isort = "^5.7.0"
 ipympl = "^0.6.3"
 
 [tool.poetry.scripts]
-phl-monthly-collections-etl = "phl_budget_data.__main__:monthly_collections_etl"
-phl-sales-collections-etl = "phl_budget_data.__main__:sales_collections_etl"
-phl-birt-collections-etl = "phl_budget_data.__main__:birt_collections_etl"
+phl-etl-monthly-collections = "phl_budget_data.__main__:monthly_collections_etl"
+phl-etl-sector-collections = "phl_budget_data.__main__:etl_sector_collections"
 phl-update-monthly-city-collections = "phl_budget_data.etl.sentinel.core:update_monthly_city_collections"
 phl-update-monthly-school-collections = "phl_budget_data.etl.sentinel.core:update_monthly_school_collections"
 phl-update-monthly-wage-collections = "phl_budget_data.etl.sentinel.core:update_monthly_wage_collections"
+
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]

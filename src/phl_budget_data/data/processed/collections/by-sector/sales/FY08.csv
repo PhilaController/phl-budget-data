@@ -1,0 +1,28 @@
+sector,number_entities,total,percent_of_total,parent_sector
+Construction,734.0,2617621,1.9,
+Manufacturing,1454.0,5349771,3.8,
+Public Utilities,26.0,6872573,4.9,
+Telecommunications,200.0,12459213,8.9,
+Wholesale,1988.0,11023248,7.9,
+Total Retail,7412.0,38711993,27.7,
+Furniture stores retail,181.0,2071848,1.5,Total Retail
+"Appliance, other electronics, retail",173.0,1955382,1.4,Total Retail
+"Computer and software stores, retail",127.0,1665295,1.2,Total Retail
+"Home centers, retail",27.0,3966638,2.8,Total Retail
+"Supermarkets, retail",925.0,2615931,1.9,Total Retail
+"Convenience stores, retail",343.0,1640702,1.2,Total Retail
+"Liquor and beer stores, retail",127.0,2880217,2.1,Total Retail
+"Pharmacies, retail",124.0,2117123,1.5,Total Retail
+"Department stores, retail",25.0,5024792,3.6,Total Retail
+"Office supplies stores, retail",75.0,1461642,1.0,Total Retail
+Other retail,5285.0,13312423,9.5,Total Retail
+Car and truck rental,139.0,3852800,2.8,
+Rentals except car and truck rentals,498.0,2743962,2.0,
+Repair services,1219.0,2353849,1.7,
+Services other than repair services,3328.0,8064773,5.8,
+Hotels,87.0,7356408,5.3,
+"Restaurants, bars, concessionaires and caterers",3876.0,15272622,10.9,
+All Other Sectors,1629.0,6161715,4.4,
+Unclassified,2628.0,2553912,1.8,
+Subtotal,25215.0,125394459,89.9,
+Motor Vehicle Sales Tax,,14133833,10.1,

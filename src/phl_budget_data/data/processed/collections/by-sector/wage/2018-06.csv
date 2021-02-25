@@ -1,0 +1,53 @@
+sector,jun_2018,jun_2017,jun_2016,jun_2015,growth_yoy_2018,growth_yoy_2017,growth_yoy_2016,growth_3yr,net_change,parent_sector
+Construction,5069429,4974681,4578259,4116741,1.9,8.7,11.2,7.2,94747,
+Manufacturing,8316710,8874821,8715287,7630385,-6.3,1.8,14.2,2.9,-558112,
+"Chemicals, Petroleum Refining",1819496,2004263,1795210,1441837,-9.2,11.6,24.5,8.1,-184766,Manufacturing
+Pharmaceuticals,1522375,1603847,1559928,1349870,-5.1,2.8,15.6,4.1,-81471,Manufacturing
+Transportation Equipment,760415,1012321,1125997,813800,-24.9,-10.1,38.4,-2.2,-251906,Manufacturing
+Food & Beverage Products,1216876,1286057,1271399,1112787,-5.4,1.2,14.3,3.0,-69181,Manufacturing
+"Machinery, Electronic, and Other Electric Equipment",632156,651102,692882,690472,-2.9,-6.0,0.3,-2.9,-18946,Manufacturing
+Metal Manufacturing,700750,674685,645403,639280,3.9,4.5,1.0,3.1,26065,Manufacturing
+Miscellaneous Manufacturing,1664641,1642547,1624468,1582339,1.3,1.1,2.7,1.7,22094,Manufacturing
+Public Utilities,1062706,950469,899635,465555,11.8,5.7,93.2,31.7,112237,
+Transportation and Warehousing,4960330,4740814,5242303,4287687,4.6,-9.6,22.3,5.0,219517,
+Telecommunication,3209462,4489140,3809752,2336133,-28.5,17.8,63.1,11.2,-1279678,
+"Publishing, Broadcasting, and Other Information",1745612,1633730,1863941,1530115,6.8,-12.4,21.8,4.5,111883,
+Wholesale Trade,2952915,2747969,2953658,2754669,7.5,-7.0,7.2,2.3,204946,
+Retail Trade,6371924,6628673,6740475,6157475,-3.9,-1.7,9.5,1.1,-256749,
+Banking & Credit Unions,2733222,3165812,2640675,2204118,-13.7,19.9,19.8,7.4,-432590,
+Securities / Financial Investments,4024984,6166528,5750707,5845701,-34.7,7.2,-1.6,-11.7,-2141544,
+Insurance,3111181,4937598,5213533,3438891,-37.0,-5.3,51.6,-3.3,-1826417,
+"Real Estate, Rental and Leasing",1844341,1876740,1706931,1713242,-1.7,9.9,-0.4,2.5,-32399,
+Health and Social Services,30411278,33817172,30044874,25730646,-10.1,12.6,16.8,5.7,-3405894,
+Hospitals,15854102,19215138,16226871,13514300,-17.5,18.4,20.1,5.5,-3361036,Health and Social Services
+"Doctors, Dentists, and Other Health Practitioners",3293270,3832553,3201128,3009700,-14.1,19.7,6.4,3.0,-539284,Health and Social Services
+Outpatient Care Centers and Other Health Services,4987294,4734053,4954186,4121327,5.3,-4.4,20.2,6.6,253241,Health and Social Services
+Nursing & Personal Care Facilities,3016693,2938704,3025784,2694455,2.7,-2.9,12.3,3.8,77989,Health and Social Services
+Social Services,3259920,3096724,2636904,2390865,5.3,17.4,10.3,10.9,163196,Health and Social Services
+Education,14659144,14706273,14123789,13220870,-0.3,4.1,6.8,3.5,-47128,
+College and Universities,11589598,11488644,10944734,10117955,0.9,5.0,8.2,4.6,100954,Education
+"Elementary, Secondary Schools",2146641,2299852,2232578,2182087,-6.7,3.0,2.3,-0.5,-153211,Education
+Other Educational Services,922905,917777,946477,920828,0.6,-3.0,2.8,0.1,5128,Education
+Professional Services,15039952,15003797,13870562,12456078,0.2,8.2,11.4,6.5,36154,
+Legal Services,4957417,5200875,5042632,4244054,-4.7,3.1,18.8,5.3,-243458,Professional Services
+Management Consulting,2767656,2320738,2172385,2091147,19.3,6.8,3.9,9.8,446918,Professional Services
+Engineering & Architectural Services,1785080,1760735,1541902,1440005,1.4,14.2,7.1,7.4,24345,Professional Services
+Computer,1403831,1474473,1355284,1313283,-4.8,8.8,3.2,2.2,-70642,Professional Services
+"Accounting, Auditing, Bookkeeping",1861271,1901406,1635670,1400926,-2.1,16.2,16.8,9.9,-40135,Professional Services
+Advertising and Other Professional Services,2264697,2345571,2122688,1966664,-3.4,10.5,7.9,4.8,-80874,Professional Services
+Hotels,845693,927453,904701,1066829,-8.8,2.5,-15.2,-7.5,-81760,
+Restaurants,3939823,3930376,3729561,3189564,0.2,5.4,16.9,7.3,9447,
+Sport Teams,1019799,1410663,1743081,975709,-27.7,-19.1,78.6,1.5,-390864,
+"Arts, Entertainment, and Other Recreation",1156844,1155035,1198353,1033412,0.2,-3.6,16.0,3.8,1809,
+Other Sectors,9697615,9422482,8959747,8633801,2.9,5.2,3.8,3.9,275133,
+Membership Organizations,2721193,2717138,2568284,2543878,0.1,5.8,1.0,2.3,4055,Other Sectors
+Employment/Outsourcing Agencies,2254258,2193012,2176015,1998671,2.8,0.8,8.9,4.1,61246,Other Sectors
+Security and Investigation Services,802585,730135,655710,601579,9.9,11.4,9.0,10.1,72450,Other Sectors
+Services to Buildings,784929,808000,870083,933245,-2.9,-7.1,-6.8,-5.6,-23070,Other Sectors
+Miscellaneous Sectors,3134649,2974197,2689655,2556428,5.4,10.6,5.2,7.0,160452,Other Sectors
+Government,15182702,13476338,13727125,23864306,12.7,-1.8,-42.5,-14.0,1706364,
+State Government (PA),1059333,998955,973197,1213050,6.0,2.6,-19.8,-4.4,60379,Government
+"City, School District, Local Quasi Govt.",9477024,8475335,8858164,11016157,11.8,-4.3,-19.6,-4.9,1001688,Government
+Federal Government,4470868,3847274,3680441,11473597,16.2,4.5,-67.9,-27.0,623594,Government
+Other Governments,175476,154773,215324,161503,13.4,-28.1,33.3,2.8,20703,Government
+Unclassified Accounts,274247,81424,85936,57732,236.8,-5.3,48.9,68.1,192823,

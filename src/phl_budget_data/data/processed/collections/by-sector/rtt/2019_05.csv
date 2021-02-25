@@ -1,0 +1,12 @@
+sector,num_records,total,parent_sector
+General Commercial,54.0,1528529.0,Non-Residential
+"Office Buildings, Hotels and Garages",7.0,760496.0,Non-Residential
+Industrial,34.0,844945.0,Non-Residential
+Other Non-Residential,133.0,978975.0,Non-Residential
+Total Non-Residential,228.0,4112944.0,Non-Residential
+Condos,260.0,3041459.0,Residential
+Apartments,25.0,4816367.0,Residential
+Single/Multi-family Homes,3353.0,17238816.0,Residential
+Total Residential,3638.0,25096642.0,Residential
+Unclassified,66.0,,
+Total,3932.0,29209586.0,
