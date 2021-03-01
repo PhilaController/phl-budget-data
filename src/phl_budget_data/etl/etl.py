@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 
 import pandas as pd
+from loguru import logger
 
 
 class ETLPipeline(ABC):
@@ -34,6 +35,7 @@ class ETLPipeline(ABC):
         if not path.parent.exists():
             path.parent.mkdir(parents=True)
 
+        logger.info(f"Saving file to {str(path)}")
         data.to_csv(path, index=False)
 
     @classmethod

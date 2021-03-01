@@ -98,7 +98,7 @@ def update_monthly_wage_collections():
     """Check for updates to the monthly wage collection report."""
 
     # Get the month/year of next PDF to look for
-    year, month = _get_latest_raw_pdf(WageCollectionsByIndustry)
+    year, month = _get_latest_raw_pdf(WageCollectionsBySector)
 
     # Log
     logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
@@ -108,7 +108,7 @@ def update_monthly_wage_collections():
     css_identifier = "wage-taxes"
 
     # Run the update
-    _run_monthly_update(month, year, url, css_identifier, WageCollectionsByIndustry)
+    _run_monthly_update(month, year, url, css_identifier, WageCollectionsBySector)
 
 
 @click.command()
