@@ -23,20 +23,20 @@ Monthly PDF reports are available on the City of Philadelphia's website accordin
 Load the data:
 
 ```python
-from phl_budget_data.clean import load_monthly_tax_collections
+from phl_budget_data.clean import load_city_collections
 
-data = load_monthly_tax_collections("city")
+data = load_city_collections()
 data.head()
 ```
 
 Output:
 ```python
-                             name  fiscal_year        total month_name  month  fiscal_month  year       date
-0  wage_earnings_net_profits_city         2021  112703449.0        dec     12             6  2020 2020-12-01
-1       wage_earnings_net_profits         2021  149179593.0        dec     12             6  2020 2020-12-01
-2                       wage_city         2021  111383438.0        dec     12             6  2020 2020-12-01
-3                       wage_pica         2021   35437417.0        dec     12             6  2020 2020-12-01
-4                            wage         2021  146820855.0        dec     12             6  2020 2020-12-01
+                        name  fiscal_year        total month_name  month  fiscal_month  year       date kind
+0                      sales         2021   14228731.0        jan      1             7  2021 2021-01-01  Tax
+1  wage_earnings_net_profits         2021  182689530.0        jan      1             7  2021 2021-01-01  Tax
+2                       soda         2021    5149478.0        jan      1             7  2021 2021-01-01  Tax
+3                outdoor_ads         2021     179166.0        jan      1             7  2021 2021-01-01  Tax
+4       real_estate_transfer         2021   27222198.0        jan      1             7  2021 2021-01-01  Tax
 ```
 ### School District Collections
 
@@ -45,9 +45,9 @@ Monthly PDF reports are available on the City of Philadelphia's website accordin
 Load the data:
 
 ```python
-from phl_budget_data.clean import load_monthly_tax_collections
+from phl_budget_data.clean import load_school_collections
 
-data = load_monthly_tax_collections("school")
+data = load_school_collections()
 data.head()
 ```
 
@@ -55,11 +55,11 @@ Output:
 
 ```python
                 name  fiscal_year     total month_name  month  fiscal_month  year       date
-0        real_estate         2021  30509964        dec     12             6  2020 2020-12-01
-1      school_income         2021    163926        dec     12             6  2020 2020-12-01
-2  use_and_occupancy         2021  15288162        dec     12             6  2020 2020-12-01
-3             liquor         2021   2207352        dec     12             6  2020 2020-12-01
-4       other_nontax         2021     45772        dec     12             6  2020 2020-12-01
+0        real_estate         2021  50817991        jan      1             7  2021 2021-01-01
+1      school_income         2021    436599        jan      1             7  2021 2021-01-01
+2  use_and_occupancy         2021  19395530        jan      1             7  2021 2021-01-01
+3             liquor         2021   1874302        jan      1             7  2021 2021-01-01
+4       other_nontax         2021      2000        jan      1             7  2021 2021-01-01
 ```
 
 ### Monthly Wage Tax Collections by Industry
@@ -70,9 +70,9 @@ Monthly PDF reports are available on the City of Philadelphia's website accordin
 Load the data:
 
 ```python
-from phl_budget_data.clean import load_wage_collections_by_industry
+from phl_budget_data.clean import load_wage_collections_by_sector
 
-data = load_wage_collections_by_industry()
+data = load_wage_collections_by_sector()
 data.head()
 ```
 
