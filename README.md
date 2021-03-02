@@ -21,8 +21,9 @@ Data is available from the City of Philadelphia's Revenue reports, as published 
 
 Monthly PDF reports are available on the City of Philadelphia's website according to fiscal year (example: [FY 2021](https://www.phila.gov/documents/fy-2021-city-monthly-revenue-collections/)).
 
+**Note:** Cleaned CSV files are available in the following folder: [src/phl_budget_data/data/processed/collections/monthly/city/](src/phl_budget_data/data/processed/collections/monthly/city/)
 
-Load the data:
+Load the data using Python:
 
 ```python
 from phl_budget_data.clean import load_city_collections
@@ -44,7 +45,9 @@ Output:
 
 Monthly PDF reports are available on the City of Philadelphia's website according to fiscal year (example: [FY 2021](https://www.phila.gov/documents/fy-2021-school-district-monthly-revenue-collections/)).
 
-Load the data:
+**Note:** Cleaned CSV files are available in the following folder: [src/phl_budget_data/data/processed/collections/monthly/school/](src/phl_budget_data/data/processed/collections/monthly/school/)
+
+Load the data using Python:
 
 ```python
 from phl_budget_data.clean import load_school_collections
@@ -68,8 +71,9 @@ Output:
 
 Monthly PDF reports are available on the City of Philadelphia's website according to calendar year (example: [2020](https://www.phila.gov/documents/2020-wage-tax-by-industry/)).
 
+**Note:** Cleaned CSV files are available in the following folder: [src/phl_budget_data/data/processed/collections/by-sector/wage/](src/phl_budget_data/data/processed/collections/by-sector/wage/)
 
-Load the data:
+Load the data using Python:
 
 ```python
 from phl_budget_data.clean import load_wage_collections_by_sector
