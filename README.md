@@ -4,6 +4,8 @@ Aggregating and cleaning City of Philadelphia budget-related data
 
 # Installation
 
+You can use the `pip` command:
+
 ```
 pip install phl_budget_data
 ```
