@@ -81,12 +81,12 @@ data.head()
 Output:
 
 ```python
-                                            industry             parent_industry       total month_name  month  fiscal_month  year  fiscal_year       date
-0                                  Other Governments                  Government    177693.0        dec     12             6  2020         2021 2020-12-01
-1                                    Social Services  Health and Social Services   4631670.0        dec     12             6  2020         2021 2020-12-01
-2  Outpatient Care Centers and Other Health Services  Health and Social Services   5302884.0        dec     12             6  2020         2021 2020-12-01
-3  Doctors, Dentists, and Other Health Practitioners  Health and Social Services   3390537.0        dec     12             6  2020         2021 2020-12-01
-4                                          Hospitals  Health and Social Services  19327622.0        dec     12             6  2020         2021 2020-12-01
+                                              sector               parent_sector      total month_name  month  fiscal_month  year  fiscal_year       date
+0                              Unclassified Accounts                         NaN   494978.0        jan      1             7  2021         2021 2021-01-01
+1                                    Wholesale Trade                         NaN  4497890.0        jan      1             7  2021         2021 2021-01-01
+2                 Nursing & Personal Care Facilities  Health and Social Services  3634459.0        jan      1             7  2021         2021 2021-01-01
+3  Outpatient Care Centers and Other Health Services  Health and Social Services  6267932.0        jan      1             7  2021         2021 2021-01-01
+4  Doctors, Dentists, and Other Health Practitioners  Health and Social Services  5392573.0        jan      1             7  2021         2021 2021-01-01
 ```
 
 
