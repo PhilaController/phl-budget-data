@@ -105,4 +105,9 @@ class MonthlyCollectionsReport(ETLPipeline):
             .pipe(remove_missing_rows, usecols=data.columns[1:])
         ).reset_index(drop=True)
 
+        # Remove any net accrual columns
+        if len(data.columns) == 14:
+            data = data.drop(labels=[7, 8, 9, 10], axis=1)
+            data.columns = list(range(len(data.columns)))
+
         return data

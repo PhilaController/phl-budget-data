@@ -172,7 +172,9 @@ def _load_monthly_collections(files, total_only=False):
     """Internal function to load monthly collections data."""
 
     out = []
-    for f in files:
+
+    # IMPORTANT: loop over files in descending order
+    for f in sorted(files, reverse=True):
 
         # Get month/year
         year, month, *_ = f.stem.split("-")
@@ -200,15 +202,14 @@ def _load_monthly_collections(files, total_only=False):
         )
 
         # Melt the data
-        X = (
-            X.melt(id_vars=["name"], var_name="fiscal_year", value_name="total")
-            .assign(
-                month_name=month_name,
-                month=month,
-                fiscal_month=((month - 7) % 12 + 1),
-                year=year,
-            )
-            .query(f"fiscal_year == {fiscal_year}")
+        X = X.melt(id_vars=["name"], var_name="fiscal_year", value_name="total").assign(
+            month_name=month_name,
+            month=month,
+            fiscal_month=((month - 7) % 12 + 1),
+            year=lambda df: df.apply(
+                lambda r: r["fiscal_year"] if r["month"] < 7 else r["fiscal_year"] - 1,
+                axis=1,
+            ),
         )
         X = X.fillna(0)
 
@@ -220,6 +221,10 @@ def _load_monthly_collections(files, total_only=False):
     out["date"] = pd.to_datetime(
         out["month"].astype(str) + "/" + out["year"].astype(str)
     )
+
+    # IMPORTANT: drop duplicates, keeping first
+    # This keeps latest data, if it is revised
+    out = out.drop_duplicates(subset=["name", "month", "year"], keep="first")
 
     return out.sort_values("date", ascending=False).reset_index(drop=True)
 

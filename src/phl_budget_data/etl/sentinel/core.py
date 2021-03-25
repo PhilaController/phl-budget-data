@@ -32,6 +32,7 @@ def _get_latest_raw_pdf(cls):
 
 
 def _run_monthly_update(month, year, url, css_identifier, *etls):
+    """Internal function to run update on monthly PDFs."""
 
     # Try to extract out the PDF links from the page
     try:
@@ -92,8 +93,14 @@ def _run_monthly_update(month, year, url, css_identifier, *etls):
         logger.info(f"...no updates found")
 
 
-@click.command()
+@click.group()
 @click.version_option()
+def phl_budget_sentinel():
+    """Parse the City's website to scrape and update City of Philadelphia budget data."""
+    pass
+
+
+@phl_budget_sentinel.command(name="wage")
 def update_monthly_wage_collections():
     """Check for updates to the monthly wage collection report."""
 
@@ -111,8 +118,7 @@ def update_monthly_wage_collections():
     _run_monthly_update(month, year, url, css_identifier, WageCollectionsBySector)
 
 
-@click.command()
-@click.version_option()
+@phl_budget_sentinel.command(name="city")
 def update_monthly_city_collections():
     """Check for updates to the monthly city collection report."""
 
@@ -144,8 +150,7 @@ def update_monthly_city_collections():
     )
 
 
-@click.command()
-@click.version_option()
+@phl_budget_sentinel.command(name="school")
 def update_monthly_school_collections():
     """Check for updates to the monthly school district collection report."""
 
@@ -167,3 +172,21 @@ def update_monthly_school_collections():
 
     # Run the update
     _run_monthly_update(month, year, url, css_identifier, SchoolTaxCollections)
+
+
+@phl_budget_sentinel.command(name="rtt")
+def update_monthly_rtt_collections():
+    """Check for updates to the monthly realty transfer collection report."""
+
+    # Get the month/year of next PDF to look for
+    year, month = _get_latest_raw_pdf(RTTCollectionsBySector)
+
+    # Log
+    logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
+
+    # Extract out PDF urls on the city's website
+    url = f"https://www.phila.gov/documents/{year}-realty-transfer-tax-collection/"
+    css_identifier = "realty-transfer-tax"
+
+    # Run the update
+    _run_monthly_update(month, year, url, css_identifier, WageCollectionsBySector)

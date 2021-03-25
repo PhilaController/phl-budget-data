@@ -12,12 +12,14 @@ MONTH_LOOKUP = [x.lower() for x in calendar.month_abbr[1:]]
 
 
 def parse_website(url):
+    """Parse the input website."""
     req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
     web_byte = urlopen(req).read()
     return web_byte.decode("utf-8")
 
 
 def extract_pdf_urls(url, id):
+    """Extract PDF urls from the input URL."""
 
     # Parse the website
     soup = BeautifulSoup(parse_website(url), features="html.parser")
@@ -38,6 +40,7 @@ def extract_pdf_urls(url, id):
 
 
 def get_driver(dirname):
+    """Load the driver."""
 
     options = webdriver.ChromeOptions()
     options.add_argument("--no-sandbox")

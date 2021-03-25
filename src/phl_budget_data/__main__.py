@@ -6,7 +6,7 @@ from loguru import logger
 from .etl import DATA_DIR, collections
 
 
-def _fiscal_year_etl(cls, fiscal_year, dry_run):
+def _fiscal_year_etl(cls, fiscal_year, dry_run, no_validate):
     """Internal function to run ETL on fiscal year data."""
 
     # Get the directory of raw files
@@ -29,10 +29,10 @@ def _fiscal_year_etl(cls, fiscal_year, dry_run):
         # ETL
         if not dry_run:
             report = cls(fiscal_year=fiscal_year)
-            report.extract_transform_load()
+            report.extract_transform_load(validate=(not no_validate))
 
 
-def _monthly_etl(cls, month, year, dry_run):
+def _monthly_etl(cls, month, year, dry_run, no_validate):
     """Internal function to run ETL on monthly data."""
 
     # If month is provided, we need the year too
@@ -49,7 +49,7 @@ def _monthly_etl(cls, month, year, dry_run):
         # Do the ETL
         if not dry_run:
             report = cls(year=year, month=month)
-            report.extract_transform_load()
+            report.extract_transform_load(validate=(not no_validate))
     else:
 
         # Get the directory of raw files
@@ -81,39 +81,51 @@ def _monthly_etl(cls, month, year, dry_run):
                 # ETL
                 if not dry_run:
                     report = cls(year=int(year), month=int(month))
-                    report.extract_transform_load()
+                    report.extract_transform_load(validate=(not no_validate))
 
 
-@click.command()
+@click.group()
 @click.version_option()
+def phl_budget_etl():
+    """Extract, transform, and load City of Philadelphia budget data."""
+    pass
+
+
+@phl_budget_etl.command(name="monthly-collections")
 @click.argument(
     "kind",
-    type=click.Choice(["city-tax", "city-nontax", "city-other-govts", "school-tax"]),
+    type=click.Choice(["city", "school"]),
 )
 @click.option("--month", type=int)
 @click.option("--year", type=int)
 @click.option("--dry-run", is_flag=True)
-def etl_monthly_collections(kind, month=None, year=None, dry_run=False) -> None:
+@click.option("--no-validate", is_flag=True)
+def etl_monthly_collections(
+    kind, month=None, year=None, dry_run=False, no_validate=False
+) -> None:
     """Run the ETL pipeline for monthly collections"""
 
     # Get the ETL class
     ETL = {
-        "city-tax": collections.CityTaxCollections,
-        "city-nontax": collections.CityNonTaxCollections,
-        "city-other-govts": collections.CityOtherGovtsCollections,
-        "school-tax": collections.SchoolTaxCollections,
+        "city": [
+            collections.CityTaxCollections,
+            collections.CityNonTaxCollections,
+            collections.CityOtherGovtsCollections,
+        ],
+        "school": [collections.SchoolTaxCollections],
     }
-    cls = ETL[kind]
 
-    # Log
-    logger.info(f"Processing ETL for '{cls.__name__}'")
+    # Run each ETL class
+    for cls in ETL[kind]:
 
-    # Run the ETL
-    _monthly_etl(cls, month, year, dry_run)
+        # Log
+        logger.info(f"Processing ETL for '{cls.__name__}'")
+
+        # Run the ETL
+        _monthly_etl(cls, month, year, dry_run, no_validate)
 
 
-@click.command()
-@click.version_option()
+@phl_budget_etl.command(name="sector-collections")
 @click.argument(
     "kind",
     type=click.Choice(["wage", "rtt", "sales", "birt"]),
@@ -121,8 +133,9 @@ def etl_monthly_collections(kind, month=None, year=None, dry_run=False) -> None:
 @click.option("--month", type=int)
 @click.option("--year", type=int)
 @click.option("--dry-run", is_flag=True)
+@click.option("--no-validate", is_flag=True)
 def etl_sector_collections(
-    kind, month=None, year=None, fiscal_year=None, dry_run=False
+    kind, month=None, year=None, fiscal_year=None, dry_run=False, no_validate=False
 ) -> None:
     """Run the ETL pipeline for sector collections"""
 
@@ -146,10 +159,10 @@ def etl_sector_collections(
             report.extract_transform_load()
     # Wage
     elif kind == "wage":
-        _monthly_etl(cls, month, year, dry_run)
+        _monthly_etl(cls, month, year, dry_run, no_validate)
     # Sales
     elif kind == "sales":
-        _fiscal_year_etl(cls, fiscal_year, dry_run)
+        _fiscal_year_etl(cls, fiscal_year, dry_run, no_validate)
     # RTT
     elif kind == "rtt":
-        _monthly_etl(cls, month, year, dry_run)
+        _monthly_etl(cls, month, year, dry_run, no_validate)
