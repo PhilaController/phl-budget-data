@@ -31,13 +31,16 @@ jobs:
         run: poetry install
       - name: Run City update
         shell: bash -l {0}
-        run: phl-update-monthly-city-collections
+        run: phl-budget-sentinel city
       - name: Run School District update
         shell: bash -l {0}
-        run: phl-update-monthly-school-collections
+        run: phl-budget-sentinel school
       - name: Run Wage update
         shell: bash -l {0}
-        run: phl-update-monthly-wage-collections
+        run: phl-budget-sentinel wage
+      - name: Run RTT update
+        shell: bash -l {0}
+        run: phl-budget-sentinel rtt
       - name: Commit files
         continue-on-error: true
         run: |
