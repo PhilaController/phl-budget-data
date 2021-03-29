@@ -189,4 +189,4 @@ def update_monthly_rtt_collections():
     css_identifier = "realty-transfer-tax"
 
     # Run the update
-    _run_monthly_update(month, year, url, css_identifier, WageCollectionsBySector)
+    _run_monthly_update(month, year, url, css_identifier, RTTCollectionsBySector)
