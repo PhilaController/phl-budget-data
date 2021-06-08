@@ -1,3 +1,4 @@
+import copy
 import itertools
 import re
 from dataclasses import dataclass
@@ -91,6 +92,9 @@ class Word:
         """
         schema = desert.schema(cls, meta={"unknown": marshmallow.EXCLUDE})
         return schema.load(data)
+
+    def copy(self):
+        return copy.deepcopy(self)
 
 
 def groupby(words: List[Word], key: str, sort: bool = False) -> Iterator:
@@ -234,6 +238,9 @@ def words_to_table(
     header_column_overlap: int = 10,
 ) -> pd.DataFrame:
     """Combine words into a table, returning a pandas DataFrame"""
+
+    # Make a copy
+    words = [word.copy() for word in words]
 
     # Group into words
     rows = fuzzy_groupby(
