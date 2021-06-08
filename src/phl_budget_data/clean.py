@@ -192,17 +192,25 @@ def _load_monthly_collections(files, total_only=False):
         if total_only:
             df = df.query("kind == 'total'")
 
+        # Keep the kind column?
+        keep_kind = "kind" in df.columns and df["kind"].nunique() > 1
+
         # Column names for this month
         a = f"{month_name}_fy{this_FY}"
         b = f"{month_name}_fy{last_FY}"
 
         # Trim to the columns we want
-        X = df[["name", a, b]].rename(
-            columns=dict(zip([a, b], [fiscal_year, fiscal_year - 1]))
-        )
+        cols = ["name", a, b]
+        if keep_kind:
+            cols.append("kind")
+        X = df[cols].rename(columns=dict(zip([a, b], [fiscal_year, fiscal_year - 1])))
+
+        id_vars = ["name"]
+        if keep_kind:
+            id_vars.append("kind")
 
         # Melt the data
-        X = X.melt(id_vars=["name"], var_name="fiscal_year", value_name="total").assign(
+        X = X.melt(id_vars=id_vars, var_name="fiscal_year", value_name="total").assign(
             month_name=month_name,
             month=month,
             fiscal_month=((month - 7) % 12 + 1),
@@ -227,6 +235,16 @@ def _load_monthly_collections(files, total_only=False):
     out = out.drop_duplicates(subset=["name", "month", "year"], keep="first")
 
     return out.sort_values("date", ascending=False).reset_index(drop=True)
+
+
+def load_city_tax_collections() -> pd.DataFrame:
+    """Tax collections."""
+
+    # Get the path to the files to load
+    dirname = CityTaxCollections.get_data_directory("processed")
+    files = dirname.glob(f"*-tax.csv")
+
+    return _load_monthly_collections(files, total_only=False)
 
 
 def load_city_collections() -> pd.DataFrame:
