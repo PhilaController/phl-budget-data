@@ -232,7 +232,10 @@ def _load_monthly_collections(files, total_only=False):
 
     # IMPORTANT: drop duplicates, keeping first
     # This keeps latest data, if it is revised
-    out = out.drop_duplicates(subset=["name", "month", "year"], keep="first")
+    subset = ["name", "month", "year"]
+    if keep_kind:
+        subset.append("kind")
+    out = out.drop_duplicates(subset=subset, keep="first")
 
     return out.sort_values("date", ascending=False).reset_index(drop=True)
 
