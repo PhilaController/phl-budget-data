@@ -96,6 +96,18 @@ class WageCollectionsBySector(ETLPipeline):
         # Month name
         self.month_name = calendar.month_abbr[self.month].lower()
 
+        # Number of pages
+        self.num_pages = len(pdfplumber.open(self.path).pages)
+        assert self.num_pages in [4, 5]
+
+        # Quarterly or monthly?
+        self.quarterly = self.num_pages == 5
+
+        # Rename columns to show quarter
+        if self.quarterly:
+            quarter_start = calendar.month_abbr[self.month - 2].lower()
+            self.month_name = f"{quarter_start}_to_{self.month_name}"
+
     @classmethod
     def get_data_directory(cls, kind: str) -> str:
         """Internal function to get the file path.
@@ -115,7 +127,10 @@ class WageCollectionsBySector(ETLPipeline):
         with pdfplumber.open(self.path) as pdf:
 
             # Only need first page
-            pg = pdf.pages[0]
+            if self.quarterly:
+                pg = pdf.pages[-1]
+            else:
+                pg = pdf.pages[0]
 
             # Determine crop areas
             all_words = extract_words(
