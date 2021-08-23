@@ -2,11 +2,19 @@ import tempfile
 from urllib.error import HTTPError
 
 import click
+import pandas as pd
 from loguru import logger
 
 from .. import DATA_DIR
 from ..collections import *
 from .scrape import *
+
+
+def _to_fiscal_month(month):
+    out = (month + 6) % 12
+    if out == 0:
+        out = 1
+    return out
 
 
 def _get_latest_raw_pdf(cls):
@@ -20,15 +28,7 @@ def _get_latest_raw_pdf(cls):
     latest = sorted(pdf_files)[-1]
     year, month = map(int, latest.stem.split("_"))
 
-    # Next month and year
-    if month == 12:
-        next_month = 1
-        next_year = year + 1
-    else:
-        next_month = month + 1
-        next_year = year
-
-    return next_year, next_month
+    return year, month
 
 
 def _run_monthly_update(month, year, url, css_identifier, *etls):
@@ -44,8 +44,15 @@ def _run_monthly_update(month, year, url, css_identifier, *etls):
         else:
             raise
 
+    # Find out which ones are new
+    last_dt = pd.to_datetime(f"{month}/{year}")
+    new_months = [dt for dt in pdf_urls if pd.to_datetime(dt) > last_dt]
+
     # Download and run ETL
-    if month in pdf_urls:
+    for dt in new_months:
+
+        # Split the date string
+        month, year = list(map(int, dt.split("/")))
 
         # Download to temp dir initially
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -54,7 +61,7 @@ def _run_monthly_update(month, year, url, css_identifier, *etls):
             driver = get_driver(tmpdir)
 
             # The remote URL
-            remote_pdf_path = pdf_urls[month]
+            remote_pdf_path = pdf_urls[dt]
 
             # Log
             logger.info(f"Downloading PDF from '{remote_pdf_path}'")
@@ -104,11 +111,13 @@ def phl_budget_sentinel():
 def update_monthly_wage_collections():
     """Check for updates to the monthly wage collection report."""
 
-    # Get the month/year of next PDF to look for
+    # Get the month/year of last PDF
     year, month = _get_latest_raw_pdf(WageCollectionsBySector)
 
     # Log
-    logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
+    logger.info(
+        f"Checking for PDF report for update since month '{month}' and year '{year}'"
+    )
 
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/{year}-wage-tax-by-industry/"
@@ -124,6 +133,7 @@ def update_monthly_city_collections():
 
     # Get the month/year of next PDF to look for
     year, month = _get_latest_raw_pdf(CityTaxCollections)
+    fiscal_m
 
     # Get the fiscal year
     if month < 7:
@@ -132,7 +142,9 @@ def update_monthly_city_collections():
         fiscal_year = year + 1
 
     # Log
-    logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
+    logger.info(
+        f"Checking for PDF report for update since month '{month}' and year '{year}'"
+    )
 
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/fy-{fiscal_year}-city-monthly-revenue-collections/"
@@ -164,7 +176,9 @@ def update_monthly_school_collections():
         fiscal_year = year + 1
 
     # Log
-    logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
+    logger.info(
+        f"Checking for PDF report for update since month '{month}' and year '{year}'"
+    )
 
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/fy-{fiscal_year}-school-district-monthly-revenue-collections/"
@@ -182,7 +196,9 @@ def update_monthly_rtt_collections():
     year, month = _get_latest_raw_pdf(RTTCollectionsBySector)
 
     # Log
-    logger.info(f"Checking for PDF report for month '{month}' and year '{year}'")
+    logger.info(
+        f"Checking for PDF report for update since month '{month}' and year '{year}'"
+    )
 
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/{year}-realty-transfer-tax-collection/"

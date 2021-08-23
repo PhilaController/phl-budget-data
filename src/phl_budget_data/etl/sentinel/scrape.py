@@ -31,10 +31,12 @@ def extract_pdf_urls(url, id):
     for row in rows:
         url = row.select_one("a")["href"]
         id = row["id"]
-        month_name = id.split("-")[0][:3]
+        fields = id.split("-")
+        month_name = fields[0][:3]
+        year = int(fields[1])
         month_num = MONTH_LOOKUP.index(month_name) + 1
 
-        out[month_num] = url
+        out[f"{month_num}/{year}"] = url
 
     return out
 
