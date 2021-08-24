@@ -133,7 +133,6 @@ def update_monthly_city_collections():
 
     # Get the month/year of next PDF to look for
     year, month = _get_latest_raw_pdf(CityTaxCollections)
-    fiscal_m
 
     # Get the fiscal year
     if month < 7:
