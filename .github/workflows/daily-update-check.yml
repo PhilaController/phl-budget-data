@@ -2,7 +2,7 @@ name: Daily Update Check
 
 on:
   schedule:
-    - cron: '22 00 * * *'
+    - cron: "22 00 * * *"
 
 jobs:
   daily-sync:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false 
+          persist-credentials: false
           fetch-depth: 0
       - uses: conda-incubator/setup-miniconda@v2
         with:
@@ -38,9 +38,9 @@ jobs:
       - name: Run Wage update
         shell: bash -l {0}
         run: phl-budget-sentinel wage
-      - name: Run RTT update
-        shell: bash -l {0}
-        run: phl-budget-sentinel rtt
+      # - name: Run RTT update
+      #   shell: bash -l {0}
+      #   run: phl-budget-sentinel rtt
       - name: Commit files
         continue-on-error: true
         run: |
@@ -53,4 +53,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-    
