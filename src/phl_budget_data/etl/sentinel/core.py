@@ -10,17 +10,10 @@ from ..collections import *
 from .scrape import *
 
 
-def _to_fiscal_month(month):
-    out = (month + 6) % 12
-    if out == 0:
-        out = 1
-    return out
-
-
 def _get_latest_raw_pdf(cls):
     """Given an ETL class, return the latest PDF in the data directory."""
 
-    # Get PDF paths
+    # Get PDF paths for the raw data files
     dirname = cls.get_data_directory("raw")
     pdf_files = dirname.glob("*.pdf")
 
@@ -32,7 +25,22 @@ def _get_latest_raw_pdf(cls):
 
 
 def _run_monthly_update(month, year, url, css_identifier, *etls):
-    """Internal function to run update on monthly PDFs."""
+    """
+    Internal function to run update on monthly PDFs.
+
+    Parameters
+    ----------
+    month : int
+        the latest month that we have data for
+    year : int
+        the latest calendar year we have data for
+    url : str
+        the url to check
+    css_identifier : str
+        the element identifer to scrape
+    etls : list
+        the ETL classes to run
+    """
 
     # Try to extract out the PDF links from the page
     try:
@@ -96,7 +104,7 @@ def _run_monthly_update(month, year, url, css_identifier, *etls):
                     local_pdf_path.unlink()
                 raise
 
-    else:
+    if not len(new_months):
         logger.info(f"...no updates found")
 
 
@@ -119,6 +127,10 @@ def update_monthly_wage_collections():
         f"Checking for PDF report for update since month '{month}' and year '{year}'"
     )
 
+    # Do we need to move to the next calendar year?
+    if month == 12:
+        year += 1
+
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/{year}-wage-tax-by-industry/"
     css_identifier = "wage-taxes"
@@ -139,6 +151,10 @@ def update_monthly_city_collections():
         fiscal_year = year
     else:
         fiscal_year = year + 1
+
+    # Do we need to move to the next fiscal year?
+    if month == 6:
+        fiscal_year += 1
 
     # Log
     logger.info(
@@ -174,6 +190,10 @@ def update_monthly_school_collections():
     else:
         fiscal_year = year + 1
 
+    # Do we need to move to the next fiscal year?
+    if month == 6:
+        fiscal_year += 1
+
     # Log
     logger.info(
         f"Checking for PDF report for update since month '{month}' and year '{year}'"
@@ -198,6 +218,10 @@ def update_monthly_rtt_collections():
     logger.info(
         f"Checking for PDF report for update since month '{month}' and year '{year}'"
     )
+
+    # Do we need to move to the next calendar year?
+    if month == 6:
+        year += 1
 
     # Extract out PDF urls on the city's website
     url = f"https://www.phila.gov/documents/{year}-realty-transfer-tax-collection/"
