@@ -1,7 +1,16 @@
+import re
 from typing import List, Optional
 
 import numpy as np
 import pandas as pd
+
+
+def remove_unwanted_chars(x, *chars, to_replace=""):
+    return re.sub(f"[{''.join(chars)}]", to_replace, x)
+
+
+def remove_parentheses(x, to_replace=""):
+    return re.sub(r"\([^)]*\)", to_replace, x)
 
 
 def convert_to_floats(
