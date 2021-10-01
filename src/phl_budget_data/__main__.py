@@ -1,9 +1,11 @@
 """Command-line interface."""
 
+import re
+
 import click
 from loguru import logger
 
-from .etl import DATA_DIR, collections
+from .etl import DATA_DIR, collections, qcmr
 
 
 def _fiscal_year_etl(cls, fiscal_year, dry_run, no_validate):
@@ -166,3 +168,82 @@ def etl_sector_collections(
     # RTT
     elif kind == "rtt":
         _monthly_etl(cls, month, year, dry_run, no_validate)
+
+
+@phl_budget_etl.command(name="qcmr")
+@click.argument(
+    "kind",
+    type=click.Choice(["cash"]),
+)
+@click.option("--quarter", type=int)
+@click.option("--fiscal-year", type=int)
+@click.option("--dry-run", is_flag=True)
+@click.option("--no-validate", is_flag=True)
+def etl_qcmr(
+    kind, quarter=None, fiscal_year=None, dry_run=False, no_validate=False
+) -> None:
+    """Run the ETL pipeline for the QCMR."""
+
+    # Get the ETL class
+    ETL = {
+        "cash": [
+            qcmr.CashReportFundBalances,
+            qcmr.CashReportNetCashFlow,
+            qcmr.CashReportRevenue,
+            qcmr.CashReportSpending,
+        ],
+    }
+
+    # Run each ETL class
+    for cls in ETL[kind]:
+
+        # Log
+        logger.info(f"Processing ETL for '{cls.__name__}'")
+
+        # If month is provided, we need the year too
+        if quarter is not None:
+            if fiscal_year is None:
+                raise ValueError("Fiscal year is required if quarter is provided")
+
+        # Do a single quarter and fiscal year
+        if quarter is not None:
+
+            # Log
+            logger.info(
+                f"Processing fiscal year='{fiscal_year}' and quarter='{quarter}'"
+            )
+
+            # Do the ETL
+            if not dry_run:
+                report = cls(fiscal_year=fiscal_year, quarter=quarter)
+                report.extract_transform_load(validate=(not no_validate))
+        else:
+
+            # Get the directory of raw files
+            dirname = cls.get_data_directory("raw")
+
+            # Glob the PDF files
+            tag = str(fiscal_year)[2:]
+            if fiscal_year is not None:
+                files = dirname.glob(f"FY{tag}*.pdf")
+            else:
+                files = dirname.glob("*.pdf")
+
+            # Do all the files
+            for f in sorted(files):
+
+                # Get quarter, fiscal year
+                match = re.match(
+                    "FY(?P<yr>[0-9]+)_Q(?P<qtr>[1,2,3,4])", f.stem
+                ).groupdict()
+
+                fy = int(f"20{match['yr']}")
+                qtr = int(match["qtr"])
+
+                # Run the ETL
+                logger.info(f"Processing fiscal year='{fy}' and quarter='{qtr}'")
+
+                # ETL
+                if not dry_run:
+                    report = cls(fiscal_year=fy, quarter=qtr)
+                    report.extract_transform_load(validate=(not no_validate))
