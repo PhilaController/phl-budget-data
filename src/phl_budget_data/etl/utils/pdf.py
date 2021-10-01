@@ -312,3 +312,104 @@ def words_to_table(
     table = create_data_table(headers, columns, match_tol=header_column_overlap)
 
     return remove_hyphens(table)
+
+
+def find_phrases(words: List[Word], *keywords: str) -> Optional[List[Word]]:
+    """
+    Find a list of consecutive words that match the input keywords.
+
+    Parameters
+    ----------
+    words :
+        the list of words to check
+    *keywords
+        one or more keywords representing the phrase to search for
+    """
+
+    # Make sure we have keywords
+    assert len(keywords) > 0
+
+    # Iterate through words and check
+    for i, w in enumerate(words):
+
+        # Matched the first word!
+        if w.text == keywords[0]:
+
+            # Did we match the rest
+            match = True
+            for j, keyword in enumerate(keywords[1:]):
+                if keyword != words[i + 1 + j].text:
+                    match = False
+
+            # Match!
+            if match:
+                return words[i : i + len(keywords)]
+
+    return None
+
+
+def get_pdf_words(
+    pdf_path: str,
+    x_tolerance: int = 3,
+    y_tolerance: int = 3,
+    footer_cutoff: Optional[int] = None,
+    header_cutoff: Optional[int] = None,
+    keep_blank_chars: bool = False,
+) -> List[Word]:
+    """Parse a PDF and return the parsed words as well as x/y
+    locations.
+
+    Parameters
+    ----------
+    pdf_path :
+        the path to the PDF to parse
+    x_tolerance : optional
+        the tolerance to use when extracting out words
+
+    Returns
+    -------
+    words :
+        a list of Word objects in the PDF
+    """
+    # Get header cutoff
+    footer_cutoff_ = footer_cutoff
+    if header_cutoff is None:
+        header_cutoff = 0
+
+    with pdfplumber.open(pdf_path) as pdf:
+
+        # Loop over pages
+        offset = 0
+        words = []
+        for i, pg in enumerate(pdf.pages):
+
+            if footer_cutoff is None:
+                footer_cutoff_ = float(pg.height)
+
+            # Extract out words
+            for word_dict in pg.extract_words(
+                keep_blank_chars=keep_blank_chars,
+                x_tolerance=x_tolerance,
+                y_tolerance=y_tolerance,
+            ):
+
+                # Convert to a Word
+                word = Word.from_dict(word_dict)
+
+                # Check header and footer cutoffs
+                if word.bottom < footer_cutoff_ and word.top > header_cutoff:
+
+                    # Clean up text
+                    word.text = word.text.replace("\xa0", " ").strip()
+
+                    # Add the offset
+                    word.top += offset
+                    word.bottom += offset
+
+                    # Save it
+                    words.append(word)
+
+        # Sort the words top to bottom and left to right
+        words = sorted(words, key=attrgetter("top", "x0"), reverse=False)
+
+        return words
