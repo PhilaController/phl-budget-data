@@ -1,6 +1,7 @@
 import pandas as pd
+from loguru import logger
 
-from ...utils.pdf import find_phrases
+from ...utils.transformations import remove_parentheses, remove_unwanted_chars
 from .core import CashFlowForecast
 
 
@@ -10,19 +11,55 @@ class CashReportFundBalances(CashFlowForecast):
     report_type = "fund-balances"
 
     def extract(self) -> pd.DataFrame:
-        """Internal function to parse the contents of the PDF."""
+        """Extract the contents of the PDF."""
 
-        # Get the bounding box
-        upper_left = find_phrases(self.words, "General")
-        bottom_left = find_phrases(self.words, "TOTAL FUND EQUITY")
+        # Get the Textract output
+        df = self._get_textract_output(pg_num=2)
 
-        bbox = [
-            upper_left[0].x0,
-            upper_left[0].top,
-            None,
-            bottom_left[0].bottom,
+        # Remove first row and empty rows
+        return df.dropna(how="all").iloc[1:]
+
+    def transform(self, data: pd.DataFrame) -> pd.DataFrame:
+        """Transform the raw parsing data into a clean data frame."""
+
+        categories = [
+            "vehicle_rental_tax",
+            "community_development",
+            "grants_revenue",
+            "total_capital_funds",
+            "total_fund_equity",
+            "industrial_and_commercial_dev",
+            "other_funds",
+            "capital_improvement",
+            "total_operating_funds",
+            "general",
+            "housing_trust_fund",
+            "hospital_assessment_fund",
+            "budget_stabilization_fund",
         ]
-        return self._extract_from_page(pg_num=1, bbox=bbox)
+
+        # Transform the category
+        transform = lambda x: "_".join(
+            remove_unwanted_chars(
+                remove_parentheses(x.replace("&", "and")).lower(),
+                "‐",
+                ",",
+                ".",
+                "/",
+            ).split()
+        )
+        data["0"] = data["0"].apply(transform)
+
+        # Check the length
+        if not data["0"].isin(categories).all():
+            fy = str(self.fiscal_year)[2:]
+            tag = f"FY{fy} Q{self.quarter}"
+            raise ValueError(
+                f"Parsing error for fund balance data in {tag} cash report"
+            )
+
+        # Return
+        return super().transform(data)
 
     def validate(self, data):
         """Validate the input data."""
@@ -63,6 +100,8 @@ class CashReportFundBalances(CashFlowForecast):
 
             # Check
             ALLOWED_DIFF = 0.3
-            assert diff.all() <= ALLOWED_DIFF
+            if not (diff <= ALLOWED_DIFF).all():
+                logger.info(diff)
+                assert (diff <= ALLOWED_DIFF).all()
 
         return True

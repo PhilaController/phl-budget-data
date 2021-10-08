@@ -1,6 +1,6 @@
 import pandas as pd
 
-from ...utils.pdf import find_phrases
+from ...utils.misc import get_index_label
 from .core import CashFlowForecast
 
 
@@ -10,21 +10,20 @@ class CashReportRevenue(CashFlowForecast):
     report_type = "revenue"
 
     def extract(self) -> pd.DataFrame:
-        """Internal function to parse the contents of the PDF."""
+        """Extract the contents of the PDF."""
 
-        # Get the bounding box
-        upper_left = find_phrases(self.words, "REVENUES")
-        bottom_left = find_phrases(self.words, "TOTAL CASH RECEIPTS")
-        upper_right = find_phrases(self.words, "Accrued")
+        # Get the Textract output
+        df = self._get_textract_output(pg_num=1)
 
-        bbox = [
-            upper_left[0].x0,
-            upper_left[0].bottom,
-            upper_right[0].x0,
-            bottom_left[0].bottom,
-        ]
+        # Trim to Revenue section
+        start = get_index_label(df, "REVENUES")
+        stop = get_index_label(df, "TOTAL CASH RECEIPTS", how="contains")
 
-        return self._extract_from_page(pg_num=0, bbox=bbox)
+        # Keep first 14 columns (category + 12 months + total)
+        out = df.iloc[1:].loc[start:stop, "0":"13"]
+
+        # Remove empty rows
+        return out.dropna(how="all", subset=map(str, range(1, 14)))
 
     def validate(self, data):
         """Validate the input data."""
@@ -39,7 +38,7 @@ class CashReportRevenue(CashFlowForecast):
 
             # Check
             ALLOWED_DIFF = 0.3
-            assert diff.all() <= ALLOWED_DIFF
+            assert (diff <= ALLOWED_DIFF).all()
 
         # Sum over months for each category and compare to parsed total
         X = data.query("fiscal_month != 13").groupby("category")["amount"].sum()

@@ -13,6 +13,55 @@ def remove_parentheses(x, to_replace=""):
     return re.sub(r"\([^)]*\)", to_replace, x)
 
 
+def replace_commas(
+    df: pd.DataFrame, usecols: Optional[List[str]] = None
+) -> pd.DataFrame:
+    """Replace commas with a period."""
+    if usecols is None:
+        usecols = df.columns
+
+    def rreplace(s):
+        if re.match(".*,[0-9]$", s):
+            s_reversed = s[::-1].replace(",", ".", 1)
+            return s_reversed[::-1]
+        else:
+            return s
+
+    for col in usecols:
+        df[col] = df[col].astype(str).apply(rreplace)
+
+    return df
+
+
+def fix_decimals(
+    df: pd.DataFrame,
+    usecols: Optional[List[str]] = None,
+) -> pd.DataFrame:
+
+    if usecols is None:
+        usecols = df.columns
+
+    # Non-decimal
+    non_decimal = re.compile(r"[^\d()-]+")
+
+    # Add decimal
+    numbers = re.compile("(\d+)?")
+
+    def add_decimal(s):
+        matches = list(filter(lambda s: len(s.strip()), numbers.findall(s)))
+        if not len(matches) == 1:
+            return s
+        match = matches[0]
+        s = s.replace(match, f"{match[:-1]}.{match[-1]}")
+        return s
+
+    for col in usecols:
+        df[col] = df[col].fillna("").apply(lambda s: non_decimal.sub("", s))
+        df[col] = df[col].apply(add_decimal)
+
+    return df
+
+
 def convert_to_floats(
     df: pd.DataFrame, usecols: Optional[List[str]] = None, errors: str = "coerce"
 ) -> pd.DataFrame:

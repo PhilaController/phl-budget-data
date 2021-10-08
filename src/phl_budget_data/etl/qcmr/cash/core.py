@@ -1,20 +1,14 @@
 """Base class for parsing the Cash Flow Forecast from the QCMR."""
 
-import unicodedata
 from dataclasses import dataclass
 from typing import ClassVar
 
 import pandas as pd
-import pdfplumber
 
 from ... import DATA_DIR
 from ...etl import ETLPipeline
-from ...utils.pdf import get_pdf_words
-from ...utils.transformations import (
-    convert_to_floats,
-    remove_parentheses,
-    remove_unwanted_chars,
-)
+from ...utils.aws import parse_pdf_with_textract
+from ...utils.transformations import convert_to_floats, fix_decimals, replace_commas
 
 
 @dataclass
@@ -49,85 +43,69 @@ class CashFlowForecast(ETLPipeline):
                 f"No PDF available for quarter '{self.quarter}' and fiscal year '{self.fiscal_year}' at '{self.path}'"
             )
 
-        # Parse the words
-        self.words = get_pdf_words(
-            self.path,
-            y_tolerance=0,
-            keep_blank_chars=True,
-        )
-
     @classmethod
     def get_data_directory(cls, kind: str) -> str:
         """Internal function to get the file path.
 
         Parameters
         ----------
-        kind : {'raw', 'processed'}
+        kind : {'raw', 'interim', 'processed'}
             type of data to load
         """
-        assert kind in ["raw", "processed"]
+        assert kind in ["raw", "interim", "processed"]
 
-        if kind == "raw":
+        if kind in ["raw", "interim"]:
             return DATA_DIR / kind / "qcmr" / "cash"
         else:
             return DATA_DIR / kind / "qcmr" / "cash" / f"{cls.report_type}"
 
-    def _extract_from_page(self, pg_num, bbox=None):
-        """Internal function to extract from page within a bbox."""
+    def _get_textract_output(self, pg_num):
+        """Use AWS Textract to extract the contents of the PDF."""
 
-        # Open the PDF
-        with pdfplumber.open(self.path) as pdf:
+        # Get the file name
+        interim_dir = self.get_data_directory("interim")
+        get_filename = lambda i: interim_dir / f"{self.path.stem}-pg-{i}.csv"
 
-            # Get the cropped page
-            pg = pdf.pages[pg_num]
-            if bbox is not None:
-                if bbox[2] is None:
-                    bbox[2] = pg.width
-                pg = pg.crop(bbox)
+        # The requested file name
+        filename = get_filename(pg_num)
 
-            # Extract the table
-            raw_data = pg.extract_table(
-                table_settings=dict(
-                    vertical_strategy="text",
-                    horizontal_strategy="text",
-                    keep_blank_chars=True,
-                )
+        # We need to parse
+        if not filename.exists():
+
+            # Initialize the output folder if we need to
+            if not interim_dir.is_dir():
+                interim_dir.mkdir(parents=True)
+
+            # Extract with textract
+            parsing_results = parse_pdf_with_textract(
+                self.path, bucket_name="phl-budget-data"
             )
 
-            # Format into a data frame and return
-            data = [
-                [unicodedata.normalize("NFKD", w) for w in words] for words in raw_data
-            ]
-            return pd.DataFrame(data)
+            # Save each page result
+            for i, df in parsing_results:
+                df.to_csv(get_filename(i), index=False)
+
+        # Return the result
+        return pd.read_csv(filename)
 
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
         # Apply each of the transformations
         data = (
-            data.pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(replace_commas, usecols=data.columns[1:])
+            .pipe(fix_decimals, usecols=data.columns[1:])
+            .pipe(convert_to_floats, usecols=data.columns[1:])
             .fillna(0)
-            .rename(columns={0: "category"})
-            .assign(
-                category=lambda df: df.category.apply(
-                    lambda x: "_".join(
-                        remove_unwanted_chars(
-                            remove_parentheses(x.replace("&", "and")).lower(),
-                            "‐",
-                            ",",
-                            ".",
-                            "/",
-                        ).split()
-                    )
-                )
-            )
+            .rename(columns={"0": "category"})
             .reset_index(drop=True)
         )
+        print(data)
 
         # Melt and return
         return data.melt(
             id_vars="category", var_name="fiscal_month", value_name="amount"
-        )
+        ).assign(fiscal_month=lambda df: df.fiscal_month.astype(int))
 
     def load(self, data) -> None:
         """Load the data."""

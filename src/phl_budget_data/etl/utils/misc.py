@@ -14,3 +14,18 @@ def rename_tax_rows(df, index, tax_names, suffixes=["current", "prior", "total"]
         index = index + 3
 
     return index
+
+
+def get_index_label(df, pattern, column="0", how="startswith"):
+    """Get index label matching a pattern"""
+
+    assert how in ["startswith", "contains"]
+    if how == "startswith":
+        sel = df[column].str.strip().str.startswith(pattern, na=False)
+    else:
+        sel = df[column].str.strip().str.contains(pattern, na=False)
+
+    sub = df.loc[sel]
+    if len(sub) != 1:
+        print(df)
+    return sub.index[0]

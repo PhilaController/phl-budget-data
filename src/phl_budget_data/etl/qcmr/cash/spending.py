@@ -1,6 +1,7 @@
 import pandas as pd
+from loguru import logger
 
-from ...utils.pdf import find_phrases
+from ...utils.misc import get_index_label
 from .core import CashFlowForecast
 
 
@@ -10,22 +11,50 @@ class CashReportSpending(CashFlowForecast):
     report_type = "spending"
 
     def extract(self) -> pd.DataFrame:
-        """Internal function to parse the contents of the PDF."""
+        """Extract the contents of the PDF."""
 
-        # Get the bounding box
-        upper_left = find_phrases(self.words, "EXPENSES AND OBLIGATIONS")
-        bottom_left = find_phrases(self.words, "TOTAL DISBURSEMENTS")
-        upper_right = find_phrases(self.words, "Vouchers")
+        # Get the Textract output
+        df = self._get_textract_output(pg_num=1)
 
-        bbox = [
-            upper_left[0].x0,
-            upper_left[0].bottom,
-            upper_right[0].x0,
-            bottom_left[0].bottom,
+        # Trim to Revenue section
+        start = get_index_label(df, "Payro.*l", how="contains")
+        stop = get_index_label(df, "TOTAL DISBURSEMENTS")
+
+        # Keep first 14 columns (category + 12 months + total)
+        out = df.loc[start:stop, "0":"13"]
+
+        # Remove empty rows
+        return out.dropna(how="all", subset=map(str, range(1, 14)))
+
+    def transform(self, data: pd.DataFrame) -> pd.DataFrame:
+        """Transform the raw parsing data into a clean data frame."""
+
+        categories = [
+            "payroll",
+            "employee_benefits",
+            "pension",
+            "purchases_of_services",
+            "materials_equipment",
+            "contributions_indemnities",
+            "debt_service_short",
+            "debt_service_long",
+            "interfund_charges",
+            "advances_misc_payments",
+            "current_year_appropriation",
+            "prior_year_encumbrances",
+            "prior_year_vouchers_payable",
+            "total_disbursements",
         ]
 
-        # Extract
-        return self._extract_from_page(pg_num=0, bbox=bbox)
+        # Check the length
+        if len(data) != len(categories):
+            fy = str(self.fiscal_year)[2:]
+            tag = f"FY{fy} Q{self.quarter}"
+            raise ValueError(f"Parsing error for spending data in {tag} cash report")
+
+        # Set the categories
+        data["0"] = categories
+        return super().transform(data)
 
     def validate(self, data):
         """Validate the input data."""
@@ -39,8 +68,10 @@ class CashReportSpending(CashFlowForecast):
             diff = (X - Y).abs()
 
             # Check
-            ALLOWED_DIFF = 0.3
-            assert diff.all() <= ALLOWED_DIFF
+            ALLOWED_DIFF = 0.301
+            if not (diff <= ALLOWED_DIFF).all():
+                logger.info(diff)
+                assert (diff <= ALLOWED_DIFF).all()
 
         # Sum over months for each category and compare to parsed total
         X = data.query("fiscal_month != 13").groupby("category")["amount"].sum()
@@ -55,18 +86,18 @@ class CashReportSpending(CashFlowForecast):
                 "payroll",
                 "employee_benefits",
                 "pension",
-                "purchase_of_services",
+                "purchases_of_services",
                 "materials_equipment",
                 "contributions_indemnities",
-                "debt_serviceshort_term",
-                "debt_servicelong_term",
+                "debt_service_short",
+                "debt_service_long",
                 "interfund_charges",
-                "advances_and_misc_pmts_labor_obligations",
+                "advances_misc_payments",
             ],
             "total_disbursements": [
                 "current_year_appropriation",
-                "prior_yr_expenditures_against_encumbrances",
-                "prior_yr_salaries_and_vouchers_payable",
+                "prior_year_encumbrances",
+                "prior_year_vouchers_payable",
             ],
         }
 
@@ -74,7 +105,7 @@ class CashReportSpending(CashFlowForecast):
         for total_column, cats_to_sum in groups.items():
 
             X = (
-                data.query("fiscal_month != 13 and category in  @cats_to_sum")
+                data.query("category in  @cats_to_sum")
                 .groupby("fiscal_month")["amount"]
                 .sum()
             )

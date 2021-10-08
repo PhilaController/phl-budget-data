@@ -179,19 +179,46 @@ def etl_sector_collections(
 @click.option("--fiscal-year", type=int)
 @click.option("--dry-run", is_flag=True)
 @click.option("--no-validate", is_flag=True)
+@click.option("--extract-only", is_flag=True)
+@click.option("--revenue", is_flag=True)
+@click.option("--spending", is_flag=True)
+@click.option("--fund-balances", is_flag=True)
+@click.option("--net-cash-flow", is_flag=True)
 def etl_qcmr(
-    kind, quarter=None, fiscal_year=None, dry_run=False, no_validate=False
+    kind,
+    quarter=None,
+    fiscal_year=None,
+    dry_run=False,
+    no_validate=False,
+    extract_only=False,
+    revenue=False,
+    spending=False,
+    fund_balances=False,
+    net_cash_flow=False,
 ) -> None:
     """Run the ETL pipeline for the QCMR."""
 
-    # Get the ETL class
-    ETL = {
-        "cash": [
+    cash_classes = []
+    if revenue:
+        cash_classes.append(qcmr.CashReportRevenue)
+    if spending:
+        cash_classes.append(qcmr.CashReportSpending)
+    if fund_balances:
+        cash_classes.append(qcmr.CashReportFundBalances)
+    if net_cash_flow:
+        cash_classes.append(qcmr.CashReportNetCashFlow)
+
+    if not len(cash_classes):
+        cash_classes = [
             qcmr.CashReportFundBalances,
             qcmr.CashReportNetCashFlow,
             qcmr.CashReportRevenue,
             qcmr.CashReportSpending,
-        ],
+        ]
+
+    # Get the ETL class
+    ETL = {
+        "cash": cash_classes,
     }
 
     # Run each ETL class
@@ -216,7 +243,11 @@ def etl_qcmr(
             # Do the ETL
             if not dry_run:
                 report = cls(fiscal_year=fiscal_year, quarter=quarter)
-                report.extract_transform_load(validate=(not no_validate))
+
+                if extract_only:
+                    report.extract()
+                else:
+                    report.extract_transform_load(validate=(not no_validate))
         else:
 
             # Get the directory of raw files
@@ -246,4 +277,7 @@ def etl_qcmr(
                 # ETL
                 if not dry_run:
                     report = cls(fiscal_year=fy, quarter=qtr)
-                    report.extract_transform_load(validate=(not no_validate))
+                    if extract_only:
+                        report.extract()
+                    else:
+                        report.extract_transform_load(validate=(not no_validate))
