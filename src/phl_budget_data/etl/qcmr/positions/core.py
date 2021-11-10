@@ -1,4 +1,4 @@
-"""Base class for parsing the Cash Flow Forecast from the QCMR."""
+"""Base class for parsing the Full-Time Positions Report from the QCMR."""
 
 from dataclasses import dataclass
 from typing import ClassVar
@@ -12,10 +12,10 @@ from ...utils.transformations import convert_to_floats, fix_decimals, replace_co
 
 
 @dataclass
-class CashFlowForecast(ETLPipeline):
+class FullTimePositions(ETLPipeline):
     """
     Base class for extracting data from the City of Philadelphia's
-    QCMR Cash Flow Forecast.
+    QCMR Full-Time Positions Report.
 
     Parameters
     ----------
@@ -53,11 +53,7 @@ class CashFlowForecast(ETLPipeline):
             type of data to load
         """
         assert kind in ["raw", "interim", "processed"]
-
-        if kind in ["raw", "interim"]:
-            return DATA_DIR / kind / "qcmr" / "cash"
-        else:
-            return DATA_DIR / kind / "qcmr" / "cash" / f"{cls.report_type}"
+        return DATA_DIR / kind / "qcmr" / "positions"
 
     def _get_textract_output(self, pg_num):
         """Use AWS Textract to extract the contents of the PDF."""
@@ -88,23 +84,18 @@ class CashFlowForecast(ETLPipeline):
         # Return the result
         return pd.read_csv(filename)
 
+    def extract(self) -> pd.DataFrame:
+        """Extract the contents of the PDF."""
+
+        # Get the Textract output
+        return pd.concat(
+            [self._get_textract_output(pg_num=pg_num) for pg_num in [1, 2]]
+        )
+
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
-        # Apply each of the transformations
-        data = (
-            data.pipe(replace_commas, usecols=data.columns[1:])
-            .pipe(fix_decimals, usecols=data.columns[1:])
-            .pipe(convert_to_floats, usecols=data.columns[1:])
-            .fillna(0)
-            .rename(columns={"0": "category"})
-            .reset_index(drop=True)
-        )
-
-        # Melt and return
-        return data.melt(
-            id_vars="category", var_name="fiscal_month", value_name="amount"
-        ).assign(fiscal_month=lambda df: df.fiscal_month.astype(int))
+        return data
 
     def load(self, data) -> None:
         """Load the data."""
