@@ -98,5 +98,26 @@ Output:
 
 PDF reports are available on the City of Philadelphia's website [here](https://www.phila.gov/finance/reports-Quarterly.html).
 
-*Coming Soon*
+### Cash Report
 
+Load the data using Python:
+
+```python
+from phl_budget_data.clean import load_qcmr_cash_reports
+
+revenue = load_qcmr_cash_reports(kind="revenue")
+revenue.head()
+```
+
+Output:
+
+```python
+                      category  fiscal_month  amount  fiscal_year  quarter  month
+0              Real Estate Tax             1     9.1         2021        4      7
+1  Wage, Earnings, Net Profits             1   134.1         2021        4      7
+2          Realty Transfer Tax             1    36.4         2021        4      7
+3                    Sales Tax             1    24.4         2021        4      7
+4                         BIRT             1   266.4         2021        4      7
+```
+
+Data can be load by specifying `kind` as "revenue", "spending", "fund-balances", or "net-cash-flow".
