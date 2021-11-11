@@ -2,6 +2,11 @@
 
 from pathlib import Path
 
-__version__ = "0.1.7"
+try:
+    from importlib.metadata import version
+except:
+    from importlib_metadata import version
+
+__version__ = version(__package__)
 
 DATA_DIR = Path(__file__).parent.absolute() / "data"

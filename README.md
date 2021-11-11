@@ -121,3 +121,9 @@ Output:
 ```
 
 Data can be load by specifying `kind` as "revenue", "spending", "fund-balances", or "net-cash-flow".
+
+# Adding the Latest Data
+
+This section describes how to add the latest processed data files to the repository.
+## QCMR Cash Reports
+
