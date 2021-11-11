@@ -5,18 +5,11 @@ description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/PhiladelphiaController/phl-budget-data"
-repository = "https://github.com/PhiladelphiaController/phl-budget-data"
-classifiers = [
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-]
 exclude = [ "src/phl_budget_data/data/raw"]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
-click = "^7.0"
+click = "8.0.1"
 selenium = "^3.141.0"
 numpy = "^1.20.1"
 pandas = "^1.2.1"
@@ -45,13 +38,6 @@ phl-budget-sentinel = "phl_budget_data.etl.sentinel.core:phl_budget_sentinel"
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
 
-[tool.coverage.run]
-branch = true
-source = ["phl_budget_data"]
-
-[tool.coverage.report]
-show_missing = true
-fail_under = 100
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
