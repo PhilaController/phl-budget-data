@@ -4,8 +4,12 @@ import pandas as pd
 
 from . import DATA_DIR
 from .etl.collections import *
-from .etl.qcmr import (CashReportFundBalances, CashReportNetCashFlow,
-                       CashReportRevenue, CashReportSpending)
+from .etl.qcmr import (
+    CashReportFundBalances,
+    CashReportNetCashFlow,
+    CashReportRevenue,
+    CashReportSpending,
+)
 from .etl.utils.misc import fiscal_from_calendar_year
 
 __all__ = [
@@ -377,14 +381,16 @@ def load_qcmr_cash_reports(kind) -> pd.DataFrame:
         quarter = int(quarter[1:])
 
         # Load the data
-        df = pd.read_csv(f).assign(
+        df = pd.read_csv(f)
+
+        # Drop month = 13 (total)
+        df = df.query("fiscal_month != 13")
+
+        df = df.assign(
             fiscal_year=fiscal_year,
             quarter=quarter,
             month=lambda df: (df.fiscal_month + 6) % 12 + 1,
         )
-
-        # Drop month = 13 (total)
-        df = df.query("month != 13")
 
         categories = df["category"].drop_duplicates()
         missing = ~categories.isin(formatting[kind])
