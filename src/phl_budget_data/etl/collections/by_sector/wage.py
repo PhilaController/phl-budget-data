@@ -98,10 +98,10 @@ class WageCollectionsBySector(ETLPipeline):
 
         # Number of pages
         self.num_pages = len(pdfplumber.open(self.path).pages)
-        assert self.num_pages in [4, 5]
+        assert self.num_pages in [3, 4, 5]
 
         # Quarterly or monthly?
-        self.quarterly = self.num_pages == 5
+        self.quarterly = self.num_pages in [3, 5]
 
         # Rename columns to show quarter
         if self.quarterly:
