@@ -363,7 +363,7 @@ def load_qcmr_cash_reports(kind) -> pd.DataFrame:
         "net-cash-flow": {
             "tran": "TRAN",
             "closing_balance": "Closing Balance",
-            "excess_of_receipts_over_disbursements": "Excess of Receipts Over Disbursements",
+            "excess_of_receipts_over_disbursements": "Receipts - Disbursements",
             "opening_balance": "Opening Balance",
         },
     }
@@ -384,7 +384,7 @@ def load_qcmr_cash_reports(kind) -> pd.DataFrame:
         df = pd.read_csv(f).assign(
             fiscal_year=fiscal_year,
             quarter=quarter,
-            month=lambda df: (df.fiscal_month + 6) % 11,
+            month=lambda df: (df.fiscal_month + 6) % 12 + 1,
         )
 
         categories = df["category"].drop_duplicates()
