@@ -11,7 +11,7 @@ a conda environment using the following command
 
 ```
 conda activate py38
-pip install -e .
+pip install .
 ```
 
 This will install the package into the `py38` environment.
