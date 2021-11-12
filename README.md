@@ -127,3 +127,23 @@ Data can be load by specifying `kind` as "revenue", "spending", "fund-balances",
 This section describes how to add the latest processed data files to the repository.
 ## QCMR Cash Reports
 
+1. Add the two-page PDF for the cash report to the `src/phl_budget_data/data/raw/qcmr/cash` folder
+2. Run the following command to convert the PDF to a processed CSV:
+
+For example, for FY21 Q4:
+
+```python
+poetry shell
+phl-budget-etl qcmr cash --fiscal-year 2021 --quarter 4
+```
+
+3. Now, add the new CSV files to git, and push the changes to GitHub:
+
+From the root folder:
+
+```python
+git add .
+git commit -m "Add new QCMR cash report"
+git push origin main
+```
+
