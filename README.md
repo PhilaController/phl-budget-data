@@ -4,11 +4,18 @@ Aggregating and cleaning City of Philadelphia budget-related data
 
 # Installation
 
-You can use the `pip` command:
+To get the latest version of the code, clone the repository, and use `poetry install` to install the dependencies.
+
+You can also install the package into 
+a conda environment using the following command
 
 ```
-pip install phl_budget_data
+conda activate py38
+pip install -e .
 ```
+
+This will install the package into the `py38` environment.
+
 # Examples
 
 The subsections below list examples for loading various kinds of budget-related data sets for the City of Philadelphia.
