@@ -1,6 +1,7 @@
 import calendar
 
 import pandas as pd
+import numpy as np
 
 from . import DATA_DIR
 from .etl.collections import *
@@ -389,7 +390,7 @@ def load_qcmr_cash_reports(kind) -> pd.DataFrame:
         df = df.assign(
             fiscal_year=fiscal_year,
             quarter=quarter,
-            month=lambda df: (df.fiscal_month + 6) % 12 + 1,
+            month=lambda df: np.where(df.fiscal_month < 7, df.fiscal_month + 6, df.fiscal_month - 6)
         )
 
         categories = df["category"].drop_duplicates()
