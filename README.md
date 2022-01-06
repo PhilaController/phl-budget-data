@@ -2,29 +2,29 @@
 
 Aggregating and cleaning City of Philadelphia budget-related data
 
-# Installation
+## Installation
 
 To get the latest version of the code, clone the repository, and use `poetry install` to install the dependencies.
 
-You can also install the package into 
+You can also install the package into
 a conda environment using the following command
 
-```
+```bash
 conda activate py38
 pip install .
 ```
 
 This will install the package into the `py38` environment.
 
-# Examples
+## Examples
 
 The subsections below list examples for loading various kinds of budget-related data sets for the City of Philadelphia.
 
-## Revenue Reports
+### Revenue Reports
 
 Data is available from the City of Philadelphia's Revenue reports, as published to the [City's website](https://www.phila.gov/departments/department-of-revenue/reports/).
 
-### City Collections
+#### City Collections
 
 Monthly PDF reports are available on the City of Philadelphia's website according to fiscal year (example: [FY 2021](https://www.phila.gov/documents/fy-2021-city-monthly-revenue-collections/)).
 
@@ -40,6 +40,7 @@ data.head()
 ```
 
 Output:
+
 ```python
                         name  fiscal_year        total month_name  month  fiscal_month  year       date kind
 0                      sales         2021   14228731.0        jan      1             7  2021 2021-01-01  Tax
@@ -48,7 +49,8 @@ Output:
 3                outdoor_ads         2021     179166.0        jan      1             7  2021 2021-01-01  Tax
 4       real_estate_transfer         2021   27222198.0        jan      1             7  2021 2021-01-01  Tax
 ```
-### School District Collections
+
+#### School District Collections
 
 Monthly PDF reports are available on the City of Philadelphia's website according to fiscal year (example: [FY 2021](https://www.phila.gov/documents/fy-2021-school-district-monthly-revenue-collections/)).
 
@@ -74,7 +76,7 @@ Output:
 4       other_nontax         2021      2000        jan      1             7  2021 2021-01-01
 ```
 
-### Monthly Wage Tax Collections by Industry
+#### Monthly Wage Tax Collections by Industry
 
 Monthly PDF reports are available on the City of Philadelphia's website according to calendar year (example: [2020](https://www.phila.gov/documents/2020-wage-tax-by-industry/)).
 
@@ -101,7 +103,7 @@ Output:
 ```
 
 
-## Quarterly City Manager's Report
+### Quarterly City Manager's Report
 
 PDF reports are available on the City of Philadelphia's website [here](https://www.phila.gov/finance/reports-Quarterly.html).
 
@@ -129,10 +131,10 @@ Output:
 
 Data can be load by specifying `kind` as "revenue", "spending", "fund-balances", or "net-cash-flow".
 
-# Adding the Latest Data
+## Adding the Latest Data
 
 This section describes how to add the latest processed data files to the repository.
-## QCMR Cash Reports
+### QCMR Cash Reports
 
 1. Add the two-page PDF for the cash report to the `src/phl_budget_data/data/raw/qcmr/cash` folder
 2. Run the following command to convert the PDF to a processed CSV:
