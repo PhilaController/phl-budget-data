@@ -39,7 +39,7 @@ class CityTaxCollections(CityCollectionsReport):
 
         # Check dimensions
         assert len(columns) == len(tax.columns)
-        assert len(tax) in [39, 40, 42], len(tax)
+        assert len(tax) in [39, 40, 42, 43], len(tax)
 
         # Real estate + wage
         index = rename_tax_rows(
@@ -119,8 +119,17 @@ class CityTaxCollections(CityCollectionsReport):
             ]
         elif len(tax) == 40:
             remaining = ["soda_total", "other_taxes_total", "all_taxes_total"]
-        elif len(tax):
+        elif len(tax) == 39:
             remaining = ["other_taxes_total", "all_taxes_total"]
+        elif len(tax) == 43:
+            remaining = [
+                "soda_current",
+                "soda_prior",
+                "soda_total",
+                "construction_impact",
+                "other_taxes_total",
+                "all_taxes_total",
+            ]
 
         n = len(remaining)
         tax.loc[index : index + n - 1, 0] = remaining
