@@ -4,7 +4,7 @@ from operator import attrgetter
 import pdfplumber
 
 from ... import DATA_DIR
-from ...etl import ETLPipeline
+from ...core import ETLPipeline
 from ...utils.pdf import extract_words, fuzzy_groupby
 from ...utils.transformations import *
 

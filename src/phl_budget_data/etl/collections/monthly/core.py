@@ -7,7 +7,7 @@ from typing import ClassVar
 import pdfplumber
 
 from ... import DATA_DIR
-from ...etl import ETLPipeline
+from ...core import ETLPipeline
 from ...utils.misc import fiscal_from_calendar_year
 from ...utils.transformations import *
 

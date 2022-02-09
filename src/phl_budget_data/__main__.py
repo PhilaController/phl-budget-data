@@ -5,7 +5,7 @@ import re
 import click
 from loguru import logger
 
-from .etl import DATA_DIR, collections, qcmr
+from .etl import DATA_DIR, spending, collections, qcmr
 
 
 def _fiscal_year_etl(cls, fiscal_year, dry_run, no_validate):
@@ -170,10 +170,58 @@ def etl_sector_collections(
         _monthly_etl(cls, month, year, dry_run, no_validate)
 
 
+@phl_budget_etl.command(name="dept-spending")
+@click.argument(
+    "dtype",
+    type=click.Choice(["budgeted", "actual"]),
+)
+@click.argument(
+    "kind",
+    type=click.Choice(["adopted", "proposed"]),
+)
+@click.option("--fiscal-year", type=int)
+@click.option("--dry-run", is_flag=True)
+@click.option("--no-validate", is_flag=True)
+def etl_dept_spending(dtype, kind, fiscal_year=None, dry_run=False, no_validate=False):
+    """Run ETL on budgeted/actual dept. spending."""
+
+    # Get the ETL class
+    ETL = {
+        "budgeted": spending.BudgetedDeptSpending,
+        "actual": spending.ActualDeptSpending,
+    }
+    cls = ETL[dtype]
+
+    # Log
+    logger.info(f"Processing ETL for '{cls.__name__}'")
+
+    # Get the dirname
+    dirname = cls.get_data_directory("raw") / kind
+
+    # Glob the PDF files
+    if fiscal_year is not None:
+        fy_tag = str(fiscal_year)[-2:]
+        files = dirname.glob(f"**/FY{fy_tag}.pdf")
+    else:
+        files = dirname.glob("**/*.pdf")
+
+    # Do all the files
+    for f in sorted(files):
+
+        # Get fiscal_year
+        fiscal_year = int(f"20{f.stem[2:]}")
+        logger.info(f"Processing fiscal_year='{fiscal_year}'")
+
+        # ETL
+        if not dry_run:
+            report = cls(fiscal_year=fiscal_year, kind=kind)
+            report.extract_transform_load(validate=(not no_validate))
+
+
 @phl_budget_etl.command(name="qcmr")
 @click.argument(
     "kind",
-    type=click.Choice(["cash"]),
+    type=click.Choice(["cash", "obligations", "positions"]),
 )
 @click.option("--quarter", type=int)
 @click.option("--fiscal-year", type=int)
@@ -219,6 +267,8 @@ def etl_qcmr(
     # Get the ETL class
     ETL = {
         "cash": cash_classes,
+        "obligations": [qcmr.DepartmentObligations],
+        "positions": [qcmr.FullTimePositions],
     }
 
     # Run each ETL class

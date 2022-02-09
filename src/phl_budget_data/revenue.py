@@ -1,16 +1,10 @@
 import calendar
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 from . import DATA_DIR
-from .etl.collections import *
-from .etl.qcmr import (
-    CashReportFundBalances,
-    CashReportNetCashFlow,
-    CashReportRevenue,
-    CashReportSpending,
-)
+from .etl import collections
 from .etl.utils.misc import fiscal_from_calendar_year
 
 __all__ = [
@@ -19,8 +13,8 @@ __all__ = [
     "load_sales_collections_by_sector",
     "load_wage_collections_by_sector",
     "load_city_collections",
+    "load_city_tax_collections",
     "load_school_collections",
-    "load_qcmr_cash_reports",
 ]
 
 
@@ -28,7 +22,7 @@ def load_rtt_collections_by_sector() -> pd.DataFrame:
     """Load monthly RTT tax collections by sector."""
 
     # Get the path to the files to load
-    dirname = RTTCollectionsBySector.get_data_directory("processed")
+    dirname = collections.RTTCollectionsBySector.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -74,7 +68,7 @@ def load_sales_collections_by_sector() -> pd.DataFrame:
     """Load annual sales tax collections by sector."""
 
     # Get the path to the files to load
-    dirname = SalesCollectionsBySector.get_data_directory("processed")
+    dirname = collections.SalesCollectionsBySector.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -107,7 +101,7 @@ def load_birt_collections_by_sector() -> pd.DataFrame:
     """Load annual BIRT collections by sector."""
 
     # Get the path to the files to load
-    dirname = BIRTCollectionsBySector.get_data_directory("processed")
+    dirname = collections.BIRTCollectionsBySector.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -126,7 +120,7 @@ def load_wage_collections_by_sector() -> pd.DataFrame:
     """Load monthly wage tax collections by sector."""
 
     # Get the path to the files to load
-    dirname = WageCollectionsBySector.get_data_directory("processed")
+    dirname = collections.WageCollectionsBySector.get_data_directory("processed")
     files = dirname.glob("*.csv")
 
     out = []
@@ -249,10 +243,10 @@ def _load_monthly_collections(files, total_only=False):
 
 
 def load_city_tax_collections() -> pd.DataFrame:
-    """Tax collections."""
+    """Load monthly City tax collections."""
 
     # Get the path to the files to load
-    dirname = CityTaxCollections.get_data_directory("processed")
+    dirname = collections.CityTaxCollections.get_data_directory("processed")
     files = dirname.glob(f"*-tax.csv")
 
     return _load_monthly_collections(files, total_only=False)
@@ -266,7 +260,11 @@ def load_city_collections() -> pd.DataFrame:
 
     labels = ["Tax", "Non-Tax", "Other Govt"]
     tags = ["tax", "nontax", "other-govts"]
-    classes = [CityTaxCollections, CityNonTaxCollections, CityOtherGovtsCollections]
+    classes = [
+        collections.CityTaxCollections,
+        collections.CityNonTaxCollections,
+        collections.CityOtherGovtsCollections,
+    ]
 
     out = []
     for cls, label, tag in zip(classes, labels, tags):
@@ -289,119 +287,7 @@ def load_school_collections() -> pd.DataFrame:
     """Load monthly tax collections for the School District."""
 
     # Get the path to the files to load
-    dirname = SchoolTaxCollections.get_data_directory("processed")
+    dirname = collections.SchoolTaxCollections.get_data_directory("processed")
     files = dirname.glob("*-tax.csv")
 
     return _load_monthly_collections(files, total_only=True)
-
-
-def load_qcmr_cash_reports(kind) -> pd.DataFrame:
-    """Load data from the QCMR cash reports."""
-
-    kinds = ["fund-balances", "net-cash-flow", "revenue", "spending"]
-    if kind not in kinds:
-        raise ValueError(f"'kind' should be one of: {kinds}")
-
-    classes = {
-        "fund-balances": CashReportFundBalances,
-        "net-cash-flow": CashReportNetCashFlow,
-        "revenue": CashReportRevenue,
-        "spending": CashReportSpending,
-    }
-    cls = classes[kind]
-
-    # Formatting
-    formatting = {
-        "spending": {
-            "payroll": "Payroll",
-            "employee_benefits": "Employee Benefits",
-            "pension": "Pension",
-            "purchases_of_services": "Contracts / Leases",
-            "materials_equipment": "Materials / Equipment",
-            "contributions_indemnities": "Contributions / Indemnities",
-            "advances_misc_payments": "Advances / Labor Obligations",
-            "debt_service_long": "Long-Term Debt Service",
-            "debt_service_short": "Short-Term Debt Service",
-            "current_year_appropriation": "Current Year Appropriation",
-            "total_disbursements": "Total Disbursements",
-            "prior_year_encumbrances": "Prior Year Encumbrances",
-            "prior_year_vouchers_payable": "Prior Year Vouchers Payable",
-            "interfund_charges": "Interfund Charges",
-        },
-        "revenue": {
-            "real_estate_tax": "Real Estate Tax",
-            "wage_earnings_net_profits": "Wage, Earnings, Net Profits",
-            "total_wage_earnings_net_profits": "Wage, Earnings, Net Profits",
-            "realty_transfer_tax": "Realty Transfer Tax",
-            "sales_tax": "Sales Tax",
-            "business_income_and_receipts_tax": "BIRT",
-            "beverage_tax": "Beverage Tax",
-            "total_pica_other_governments": "PICA Other Governments",
-            "total_other_governments": "Other Governments",
-            "total_cash_receipts": "Total Cash Receipts",
-            "locally_generated_nontax": "Locally Generated Non-Tax",
-            "other_taxes": "Other Taxes",
-            "collection_of_prior_year_revenue": "Prior Year Revenue",
-            "interfund_transfers": "Interfund Transfers",
-            "other_fund_balance_adjustments": "Other Adjustments",
-            "total_current_revenue": "Total Current Revenue",
-        },
-        "fund-balances": {
-            "general": "General Fund",
-            "community_development": "Community Development",
-            "hospital_assessment_fund": "Hospital Assessment Fund",
-            "housing_trust_fund": "Housing Trust Fund",
-            "budget_stabilization_fund": "Budget Stabilization Fund",
-            "other_funds": "Other Funds",
-            "total_operating_funds": "Total Operating Funds",
-            "capital_improvement": "Capital Improvement",
-            "industrial_and_commercial_dev": "Industrial and Commercial Development",
-            "total_capital_funds": "Total Capital Funds",
-            "grants_revenue": "Grants Fund",
-            "total_fund_equity": "Consolidated Cash",
-            "vehicle_rental_tax": "Vehicle Rental Tax",
-        },
-        "net-cash-flow": {
-            "tran": "TRAN",
-            "closing_balance": "Closing Balance",
-            "excess_of_receipts_over_disbursements": "Receipts - Disbursements",
-            "opening_balance": "Opening Balance",
-        },
-    }
-
-    # Get the path to the files to load
-    dirname = cls.get_data_directory("processed")
-    files = dirname.glob("*.csv")
-
-    out = []
-    for f in files:
-
-        # Get fiscal year and quarter
-        fiscal_year, quarter = f.stem.split("-")
-        fiscal_year = int(f"20{fiscal_year[2:]}")
-        quarter = int(quarter[1:])
-
-        # Load the data
-        df = pd.read_csv(f)
-
-        # Drop month = 13 (total)
-        df = df.query("fiscal_month != 13")
-
-        df = df.assign(
-            fiscal_year=fiscal_year,
-            quarter=quarter,
-            month=lambda df: np.where(df.fiscal_month < 7, df.fiscal_month + 6, df.fiscal_month - 6)
-        )
-
-        categories = df["category"].drop_duplicates()
-        missing = ~categories.isin(formatting[kind])
-        if missing.sum():
-            missing = categories.loc[missing]
-            raise ValueError(f"Missing category replacements: {missing.tolist()}")
-        df["category"] = df["category"].replace(formatting[kind])
-
-        out.append(df)
-
-    return pd.concat(out, ignore_index=True).sort_values(
-        ["fiscal_year", "quarter"], ascending=False, ignore_index=True
-    )
