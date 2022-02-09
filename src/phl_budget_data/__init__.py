@@ -1,11 +1,7 @@
 """PHL Budget Data."""
 
+from importlib.metadata import version
 from pathlib import Path
-
-try:
-    from importlib.metadata import version
-except:
-    from importlib_metadata import version
 
 __version__ = version(__package__)
 
