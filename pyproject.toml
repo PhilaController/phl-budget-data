@@ -8,7 +8,7 @@ readme = "README.md"
 exclude = [ "src/phl_budget_data/data/raw"]
 
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = "^3.8"
 click = "8.0.1"
 selenium = "^3.141.0"
 numpy = "^1.20.1"
@@ -22,6 +22,10 @@ python-dotenv = "0.19.2"
 boto3 = "^1.17.12"
 beautifulsoup4 = "^4.9.3"
 openpyxl = "^3.0.7"
+billy-penn = {path = "../billy-penn", develop = true}
+python-Levenshtein = "^0.12.2"
+textual = "^0.1.15"
+pydantic = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
