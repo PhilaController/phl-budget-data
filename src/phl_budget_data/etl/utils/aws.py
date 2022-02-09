@@ -12,39 +12,23 @@ from loguru import logger
 def parse_pdf_with_textract(pdf_path, bucket_name, resolution=600):
     """Parse the specified PDF with AWS Textract."""
 
-    # Load the credentials and check
+    # Load the credentials
     load_dotenv(find_dotenv())
-    AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
-    AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
-
-    if AWS_ACCESS_KEY is None:
-        raise ValueError("Define 'AWS_ACCESS_KEY' environment variable")
-    if AWS_SECRET_KEY is None:
-        raise ValueError("Define 'AWS_SECRET_KEY' enviroment variable")
 
     # Log
     logger.info(f"Processing pdf '{pdf_path}'")
 
     # Initialize textract
-    textract = boto3.client(
-        "textract",
-        aws_access_key_id=AWS_ACCESS_KEY,
-        aws_secret_access_key=AWS_SECRET_KEY,
-    )
+    textract = boto3.client("textract")
 
     # Initialize s3
-    s3 = boto3.client(
-        "s3",
-        aws_access_key_id=AWS_ACCESS_KEY,
-        aws_secret_access_key=AWS_SECRET_KEY,
-    )
+    s3 = boto3.client("s3")
 
     # Initialize the PDF
-    output = []
     with pdfplumber.open(pdf_path) as pdf:
 
         with tempfile.TemporaryDirectory() as tmpdir:
-            page_results = []
+
             for i, pg in enumerate(pdf.pages):
 
                 # Log the page
