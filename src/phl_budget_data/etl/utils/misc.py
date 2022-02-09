@@ -1,3 +1,6 @@
+import re
+
+
 def fiscal_from_calendar_year(month_num, calendar_year):
     """Return the fiscal year for the input calendar year."""
 
@@ -27,5 +30,16 @@ def get_index_label(df, pattern, column="0", how="startswith"):
 
     sub = df.loc[sel]
     if len(sub) != 1:
-        print(df)
+        raise ValueError("Multiple matches for index label")
     return sub.index[0]
+
+
+def fiscal_year_quarter_from_path(path):
+    """Extract the fiscal year and quarter from the file path."""
+
+    pattern = "FY(?P<fy>[0-9]{2})[_-]Q(?P<q>[1234])"
+    matches = re.match(pattern, path.stem).groupdict()
+
+    fiscal_year = int(f"20{matches['fy']}")
+    quarter = int(matches["q"])
+    return fiscal_year, quarter
