@@ -13,6 +13,28 @@ def remove_parentheses(x, to_replace=""):
     return re.sub(r"\([^)]*\)", to_replace, x)
 
 
+def decimal_to_comma(df, usecols=None):
+
+    if usecols is None:
+        usecols = df.columns
+
+    for col in usecols:
+        df[col] = df[col].astype(str).str.replace(".", ",", regex=False)
+
+    return df
+
+
+def fix_zeros(df, usecols=None):
+
+    if usecols is None:
+        usecols = df.columns
+
+    for col in usecols:
+        df[col] = df[col].astype(str).str.replace("o", "0", regex=True, flags=re.IGNORECASE)
+
+    return df
+
+
 def replace_commas(
     df: pd.DataFrame, usecols: Optional[List[str]] = None
 ) -> pd.DataFrame:
