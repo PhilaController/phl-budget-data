@@ -33,6 +33,9 @@ def _load_department_reports(cls):
     """Internal function to load department-based QCMR reports."""
 
     all_df = []
+    fiscal_years = set()
+    report_fiscal_years = set()
+
     for f, fiscal_year, quarter in _load_processed_results(cls):
 
         # Get fiscal year and quarter
@@ -40,6 +43,30 @@ def _load_department_reports(cls):
 
         # Load
         df = pd.read_csv(f, dtype={"dept_code": str})
+
+        # Get historical actuals
+        historical_actuals = df.query(
+            f"variable == 'Actual' and time_period == 'Full Year'"
+        )
+        duplicates = historical_actuals.query("fiscal_year in @fiscal_years")
+
+        # Update the fiscal years
+        fiscal_years.update(set(historical_actuals["fiscal_year"]))
+
+        # Remove duplicates
+        df = df.drop(duplicates.index)
+
+        # Also remove adopted budget duplicates
+        adopted_budget = df.query(
+            f"variable == 'Adopted Budget' and time_period == 'Full Year'"
+        )
+        duplicates = adopted_budget.query("fiscal_year in @report_fiscal_years")
+
+        # Update the fiscal years
+        report_fiscal_years.update([fiscal_year])
+
+        # Remove duplicates
+        df = df.drop(duplicates.index)
 
         # Add report fiscal year and quarter
         df["report_quarter"] = quarter
@@ -54,10 +81,8 @@ def _load_department_reports(cls):
     # Make into a date
     out["as_of_date"] = pd.to_datetime(out["as_of_date"])
 
-    # Drop duplicates
-    out = out.drop_duplicates(
-        subset=["dept_name", "fiscal_year", "variable", "time_period"]
-    )
+    # Dept major code
+    out["dept_major_code"] = out["dept_code"].str.slice(0, 2)
 
     return out.sort_values(
         ["report_fiscal_year", "report_quarter"], ascending=False
@@ -83,30 +108,20 @@ def load_fulltime_positions() -> pd.DataFrame:
     -----
     See raw PDF files in the "data/raw/qcmr/positions/" folder.
     """
+    df = _load_department_reports(qcmr.FullTimePositions)
 
-    all_df = []
-    for f, fiscal_year, quarter in _load_processed_results(qcmr.FullTimePositions):
+    # Remove duplicates of YTD and full year for Q4 data
+    actuals = df.query("variable == 'Actual'")
+    duplicates = actuals.loc[
+        actuals.duplicated(subset=["as_of_date", "fund", "dept_code"])
+    ]
+    df = df.drop(duplicates.index)
 
-        # Read the CSV file
-        df = pd.read_csv(f, dtype={"dept_code": str})
+    # Remove duplicates for end-of-year actuals
+    sel = (df["as_of_date"].dt.month == 6) & (df["time_period"] == "YTD")
+    df = df.loc[~sel]  # Dont keep the YTD values
 
-        # Remove duplicate actuals
-        if quarter != 4:
-            df = df.query(f"fiscal_year == {fiscal_year}").copy()
-        else:
-            sel = (df["kind"] == "Actual") & (df["fiscal_year"] == fiscal_year)
-            df = df.loc[~sel].copy()
-
-        df["report_quarter"] = quarter
-        df["report_fiscal_year"] = fiscal_year
-        all_df.append(df)
-
-    # Combine them!
-    out = pd.concat(all_df, ignore_index=True)
-
-    return out.sort_values(
-        ["report_fiscal_year", "report_quarter"], ascending=False
-    ).reset_index(drop=True)
+    return df
 
 
 def load_department_obligations() -> pd.DataFrame:
