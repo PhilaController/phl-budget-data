@@ -1,0 +1,393 @@
+full_time_positions,class_100_total,class_100_ot,fiscal_year,variable,time_period,dept_name_raw,as_of_date,dept_name,abbreviation,dept_code
+124,8650965,73243,2019,Actual,Full Year,Auditing,2019-06-30,City Controller's Office,,61
+121,9466389,60388,2020,Actual,Full Year,Auditing,2020-06-30,City Controller's Office,,61
+118,9311029,39619,2021,Actual,Full Year,Auditing,2021-06-30,City Controller's Office,,61
+116,2000043,20000,2022,Target Budget,YTD,Auditing,2021-09-30,City Controller's Office,,61
+116,2000043,742,2022,Actual,YTD,Auditing,2021-09-30,City Controller's Office,,61
+135,9330839,80000,2022,Adopted Budget,Full Year,Auditing,2021-09-30,City Controller's Office,,61
+135,9330839,80000,2022,Target Budget,Full Year,Auditing,2021-09-30,City Controller's Office,,61
+135,9330839,80000,2022,Current Projection,Full Year,Auditing,2021-09-30,City Controller's Office,,61
+10,875033,0,2019,Actual,Full Year,Board of Ethics,2019-06-30,Board of Ethics,,45
+7,922164,0,2020,Actual,Full Year,Board of Ethics,2020-06-30,Board of Ethics,,45
+9,801988,0,2021,Actual,Full Year,Board of Ethics,2021-06-30,Board of Ethics,,45
+9,185270,0,2022,Target Budget,YTD,Board of Ethics,2021-09-30,Board of Ethics,,45
+9,185270,0,2022,Actual,YTD,Board of Ethics,2021-09-30,Board of Ethics,,45
+10,915196,0,2022,Adopted Budget,Full Year,Board of Ethics,2021-09-30,Board of Ethics,,45
+10,915196,0,2022,Target Budget,Full Year,Board of Ethics,2021-09-30,Board of Ethics,,45
+10,915196,0,2022,Current Projection,Full Year,Board of Ethics,2021-09-30,Board of Ethics,,45
+11,928286,190,2019,Actual,Full Year,Board of Revision of Taxes,2019-06-30,Board of Revision of Taxes,BRT,63
+14,1044789,1967,2020,Actual,Full Year,Board of Revision of Taxes,2020-06-30,Board of Revision of Taxes,BRT,63
+15,1002561,45,2021,Actual,Full Year,Board of Revision of Taxes,2021-06-30,Board of Revision of Taxes,BRT,63
+14,216747,0,2022,Target Budget,YTD,Board of Revision of Taxes,2021-09-30,Board of Revision of Taxes,BRT,63
+14,216747,1801,2022,Actual,YTD,Board of Revision of Taxes,2021-09-30,Board of Revision of Taxes,BRT,63
+16,997835,0,2022,Adopted Budget,Full Year,Board of Revision of Taxes,2021-09-30,Board of Revision of Taxes,BRT,63
+16,997835,0,2022,Target Budget,Full Year,Board of Revision of Taxes,2021-09-30,Board of Revision of Taxes,BRT,63
+16,997835,3000,2022,Current Projection,Full Year,Board of Revision of Taxes,2021-09-30,Board of Revision of Taxes,BRT,63
+94,5830533,1033718,2019,Actual,Full Year,City Commissioners,2019-06-30,City Commissioner's Office,City Commissioners,73
+98,7075077,1592963,2020,Actual,Full Year,City Commissioners,2020-06-30,City Commissioner's Office,City Commissioners,73
+137,8293480,1531588,2021,Actual,Full Year,City Commissioners,2021-06-30,City Commissioner's Office,City Commissioners,73
+132,957767,263334,2022,Target Budget,YTD,City Commissioners,2021-09-30,City Commissioner's Office,City Commissioners,73
+132,957767,45825,2022,Actual,YTD,City Commissioners,2021-09-30,City Commissioner's Office,City Commissioners,73
+106,8413534,1053337,2022,Adopted Budget,Full Year,City Commissioners,2021-09-30,City Commissioner's Office,City Commissioners,73
+106,8413534,1053337,2022,Target Budget,Full Year,City Commissioners,2021-09-30,City Commissioner's Office,City Commissioners,73
+106,8413534,1053337,2022,Current Projection,Full Year,City Commissioners,2021-09-30,City Commissioner's Office,City Commissioners,73
+197,14104805,2882,2019,Actual,Full Year,City Council,2019-06-30,City Council,,01
+180,14433197,0,2020,Actual,Full Year,City Council,2020-06-30,City Council,,01
+182,14051449,245,2021,Actual,Full Year,City Council,2021-06-30,City Council,,01
+179,3089397,0,2022,Target Budget,YTD,City Council,2021-09-30,City Council,,01
+179,3089397,0,2022,Actual,YTD,City Council,2021-09-30,City Council,,01
+188,15627138,0,2022,Adopted Budget,Full Year,City Council,2021-09-30,City Council,,01
+188,15627138,0,2022,Target Budget,Full Year,City Council,2021-09-30,City Council,,01
+188,15627138,0,2022,Current Projection,Full Year,City Council,2021-09-30,City Council,,01
+8,714833,2239,2019,Actual,Full Year,City Representative,2019-06-30,Office of the City Representative,City Rep,41
+5,683372,0,2020,Actual,Full Year,City Representative,2020-06-30,Office of the City Representative,City Rep,41
+0,0,0,2021,Actual,Full Year,City Representative,2021-06-30,Office of the City Representative,City Rep,41
+0,0,0,2022,Target Budget,YTD,City Representative,2021-09-30,Office of the City Representative,City Rep,41
+0,0,0,2022,Actual,YTD,City Representative,2021-09-30,Office of the City Representative,City Rep,41
+0,0,0,2022,Adopted Budget,Full Year,City Representative,2021-09-30,Office of the City Representative,City Rep,41
+0,0,0,2022,Target Budget,Full Year,City Representative,2021-09-30,Office of the City Representative,City Rep,41
+0,0,0,2022,Current Projection,Full Year,City Representative,2021-09-30,Office of the City Representative,City Rep,41
+16,1098380,3927,2019,Actual,Full Year,City Treasurer,2019-06-30,Office of the City Treasurer,City Treasurer,40
+16,1268936,8586,2020,Actual,Full Year,City Treasurer,2020-06-30,Office of the City Treasurer,City Treasurer,40
+16,1230203,56626,2021,Actual,Full Year,City Treasurer,2021-06-30,Office of the City Treasurer,City Treasurer,40
+16,297452,2500,2022,Target Budget,YTD,City Treasurer,2021-09-30,Office of the City Treasurer,City Treasurer,40
+16,297452,16242,2022,Actual,YTD,City Treasurer,2021-09-30,Office of the City Treasurer,City Treasurer,40
+18,1395075,10000,2022,Adopted Budget,Full Year,City Treasurer,2021-09-30,Office of the City Treasurer,City Treasurer,40
+18,1395075,10000,2022,Target Budget,Full Year,City Treasurer,2021-09-30,Office of the City Treasurer,City Treasurer,40
+18,1395075,42068,2022,Current Projection,Full Year,City Treasurer,2021-09-30,Office of the City Treasurer,City Treasurer,40
+2,168597,0,2019,Actual,Full Year,Civil Service Commission,2019-06-30,Civil Service Commission,,55
+2,160826,0,2020,Actual,Full Year,Civil Service Commission,2020-06-30,Civil Service Commission,,55
+1,140533,0,2021,Actual,Full Year,Civil Service Commission,2021-06-30,Civil Service Commission,,55
+2,25796,0,2022,Target Budget,YTD,Civil Service Commission,2021-09-30,Civil Service Commission,,55
+2,25796,0,2022,Actual,YTD,Civil Service Commission,2021-09-30,Civil Service Commission,,55
+2,177148,0,2022,Adopted Budget,Full Year,Civil Service Commission,2021-09-30,Civil Service Commission,,55
+2,177148,0,2022,Target Budget,Full Year,Civil Service Commission,2021-09-30,Civil Service Commission,,55
+2,177148,0,2022,Current Projection,Full Year,Civil Service Commission,2021-09-30,Civil Service Commission,,55
+48,3028159,5257,2019,Actual,Full Year,Commerce,2019-06-30,Office of the Director of Commerce,Commerce,42
+44,3453180,6816,2020,Actual,Full Year,Commerce,2020-06-30,Office of the Director of Commerce,Commerce,42
+37,2499341,0,2021,Actual,Full Year,Commerce,2021-06-30,Office of the Director of Commerce,Commerce,42
+32,649524,2500,2022,Target Budget,YTD,Commerce,2021-09-30,Office of the Director of Commerce,Commerce,42
+32,649524,0,2022,Actual,YTD,Commerce,2021-09-30,Office of the Director of Commerce,Commerce,42
+51,3614341,10000,2022,Adopted Budget,Full Year,Commerce,2021-09-30,Office of the Director of Commerce,Commerce,42
+51,3614341,10000,2022,Target Budget,Full Year,Commerce,2021-09-30,Office of the Director of Commerce,Commerce,42
+51,3614341,10000,2022,Current Projection,Full Year,Commerce,2021-09-30,Office of the Director of Commerce,Commerce,42
+491,34265564,155103,2019,Actual,Full Year,District Attorney,2019-06-30,District Attorney's Office,DAO,69
+545,38029618,135138,2020,Actual,Full Year,District Attorney,2020-06-30,District Attorney's Office,DAO,69
+521,38421902,141860,2021,Actual,Full Year,District Attorney,2021-06-30,District Attorney's Office,DAO,69
+540,8381774,41000,2022,Target Budget,YTD,District Attorney,2021-09-30,District Attorney's Office,DAO,69
+564,8381774,50458,2022,Actual,YTD,District Attorney,2021-09-30,District Attorney's Office,DAO,69
+540,36562904,164000,2022,Adopted Budget,Full Year,District Attorney,2021-09-30,District Attorney's Office,DAO,69
+540,36562904,164000,2022,Target Budget,Full Year,District Attorney,2021-09-30,District Attorney's Office,DAO,69
+540,37962904,164000,2022,Current Projection,Full Year,District Attorney,2021-09-30,District Attorney's Office,DAO,69
+116,7756138,74302,2019,Actual,Full Year,Finance,2019-06-30,Office of the Director of Finance,Finance,35
+119,9222201,74119,2020,Actual,Full Year,Finance,2020-06-30,Office of the Director of Finance,Finance,35
+119,9293924,128747,2021,Actual,Full Year,Finance,2021-06-30,Office of the Director of Finance,Finance,35
+117,2087527,21315,2022,Target Budget,YTD,Finance,2021-09-30,Office of the Director of Finance,Finance,35
+117,2087527,22387,2022,Actual,YTD,Finance,2021-09-30,Office of the Director of Finance,Finance,35
+132,10185891,85259,2022,Adopted Budget,Full Year,Finance,2021-09-30,Office of the Director of Finance,Finance,35
+132,10185891,85259,2022,Target Budget,Full Year,Finance,2021-09-30,Office of the Director of Finance,Finance,35
+129,9974320,137689,2022,Current Projection,Full Year,Finance,2021-09-30,Office of the Director of Finance,Finance,35
+0,2413758,0,2019,Actual,Full Year,Finance Reg #32 Disability,2019-06-30,Finance: Reg #32,,35R32
+0,1092451,0,2020,Actual,Full Year,Finance Reg #32 Disability,2020-06-30,Finance: Reg #32,,35R32
+0,2167137,0,2021,Actual,Full Year,Finance Reg #32 Disability,2021-06-30,Finance: Reg #32,,35R32
+0,505300,0,2022,Target Budget,YTD,Finance Reg #32 Disability,2021-09-30,Finance: Reg #32,,35R32
+0,505300,0,2022,Actual,YTD,Finance Reg #32 Disability,2021-09-30,Finance: Reg #32,,35R32
+0,2293165,0,2022,Adopted Budget,Full Year,Finance Reg #32 Disability,2021-09-30,Finance: Reg #32,,35R32
+0,2293165,0,2022,Target Budget,Full Year,Finance Reg #32 Disability,2021-09-30,Finance: Reg #32,,35R32
+0,2293165,0,2022,Current Projection,Full Year,Finance Reg #32 Disability,2021-09-30,Finance: Reg #32,,35R32
+2530,283319650,50943620,2019,Actual,Full Year,Fire,2019-06-30,Fire Department,Fire,13
+2628,303857650,63932091,2020,Actual,Full Year,Fire,2020-06-30,Fire Department,Fire,13
+2678,318512653,62597682,2021,Actual,Full Year,Fire,2021-06-30,Fire Department,Fire,13
+2653,69430631,17446068,2022,Target Budget,YTD,Fire,2021-09-30,Fire Department,Fire,13
+2653,69430631,14272333,2022,Actual,YTD,Fire,2021-09-30,Fire Department,Fire,13
+3368,332992022,69784271,2022,Adopted Budget,Full Year,Fire,2021-09-30,Fire Department,Fire,13
+3368,332992022,69784271,2022,Target Budget,Full Year,Fire,2021-09-30,Fire Department,Fire,13
+2928,330437819,69784271,2022,Current Projection,Full Year,Fire,2021-09-30,Fire Department,Fire,13
+1842,100719400,24242,2019,Actual,Full Year,First Judicial District,2019-06-30,First Judicial District,FJD,84
+1825,103276427,47641,2020,Actual,Full Year,First Judicial District,2020-06-30,First Judicial District,FJD,84
+1773,102667998,12832,2021,Actual,Full Year,First Judicial District,2021-06-30,First Judicial District,FJD,84
+1740,24258101,23710,2022,Target Budget,YTD,First Judicial District,2021-09-30,First Judicial District,FJD,84
+1741,24258101,1322,2022,Actual,YTD,First Judicial District,2021-09-30,First Judicial District,FJD,84
+1822,105324122,94840,2022,Adopted Budget,Full Year,First Judicial District,2021-09-30,First Judicial District,FJD,84
+1822,105324122,94840,2022,Target Budget,Full Year,First Judicial District,2021-09-30,First Judicial District,FJD,84
+1822,106324122,94840,2022,Current Projection,Full Year,First Judicial District,2021-09-30,First Judicial District,FJD,84
+286,18501080,2406919,2019,Actual,Full Year,Fleet Management,2019-06-30,Office of Fleet Management,Fleet,25
+282,18563332,1679115,2020,Actual,Full Year,Fleet Management,2020-06-30,Office of Fleet Management,Fleet,25
+268,17982245,1413920,2021,Actual,Full Year,Fleet Management,2021-06-30,Office of Fleet Management,Fleet,25
+266,4008749,407457,2022,Target Budget,YTD,Fleet Management,2021-09-30,Office of Fleet Management,Fleet,25
+266,4008749,287877,2022,Actual,YTD,Fleet Management,2021-09-30,Office of Fleet Management,Fleet,25
+315,19260680,1629828,2022,Adopted Budget,Full Year,Fleet Management,2021-09-30,Office of Fleet Management,Fleet,25
+315,19260680,1629828,2022,Target Budget,Full Year,Fleet Management,2021-09-30,Office of Fleet Management,Fleet,25
+315,19260680,1629828,2022,Current Projection,Full Year,Fleet Management,2021-09-30,Office of Fleet Management,Fleet,25
+651,38004616,1667956,2019,Actual,Full Year,Free Library,2019-06-30,The Free Library of Philadelphia,Free Library,52
+677,41221658,1646292,2020,Actual,Full Year,Free Library,2020-06-30,The Free Library of Philadelphia,Free Library,52
+634,36056416,325884,2021,Actual,Full Year,Free Library,2021-06-30,The Free Library of Philadelphia,Free Library,52
+636,8583224,471250,2022,Target Budget,YTD,Free Library,2021-09-30,The Free Library of Philadelphia,Free Library,52
+636,8583224,111212,2022,Actual,YTD,Free Library,2021-09-30,The Free Library of Philadelphia,Free Library,52
+715,38171857,1885000,2022,Adopted Budget,Full Year,Free Library,2021-09-30,The Free Library of Philadelphia,Free Library,52
+715,38171857,1885000,2022,Target Budget,Full Year,Free Library,2021-09-30,The Free Library of Philadelphia,Free Library,52
+715,39104952,1085000,2022,Current Projection,Full Year,Free Library,2021-09-30,The Free Library of Philadelphia,Free Library,52
+32,2071428,0,2019,Actual,Full Year,Human Relations Commission,2019-06-30,Commission on Human Relations,Human Relations,54
+34,2286672,23,2020,Actual,Full Year,Human Relations Commission,2020-06-30,Commission on Human Relations,Human Relations,54
+32,2267083,4569,2021,Actual,Full Year,Human Relations Commission,2021-06-30,Commission on Human Relations,Human Relations,54
+31,481036,0,2022,Target Budget,YTD,Human Relations Commission,2021-09-30,Commission on Human Relations,Human Relations,54
+31,481036,13381,2022,Actual,YTD,Human Relations Commission,2021-09-30,Commission on Human Relations,Human Relations,54
+33,2325040,0,2022,Adopted Budget,Full Year,Human Relations Commission,2021-09-30,Commission on Human Relations,Human Relations,54
+33,2325040,0,2022,Target Budget,Full Year,Human Relations Commission,2021-09-30,Commission on Human Relations,Human Relations,54
+33,2325040,0,2022,Current Projection,Full Year,Human Relations Commission,2021-09-30,Commission on Human Relations,Human Relations,54
+396,22738842,2644765,2019,Actual,Full Year,Human Services,2019-06-30,Department of Human Services,DHS,22
+437,22404173,2993692,2020,Actual,Full Year,Human Services,2020-06-30,Department of Human Services,DHS,22
+492,28025714,3324490,2021,Actual,Full Year,Human Services,2021-06-30,Department of Human Services,DHS,22
+492,0,947259,2022,Target Budget,YTD,Human Services,2021-09-30,Department of Human Services,DHS,22
+492,0,0,2022,Actual,YTD,Human Services,2021-09-30,Department of Human Services,DHS,22
+492,32182866,3789034,2022,Adopted Budget,Full Year,Human Services,2021-09-30,Department of Human Services,DHS,22
+492,32182866,3789034,2022,Target Budget,Full Year,Human Services,2021-09-30,Department of Human Services,DHS,22
+492,32182866,3789034,2022,Current Projection,Full Year,Human Services,2021-09-30,Department of Human Services,DHS,22
+22,1586766,274,2019,Actual,Full Year,Labor,2019-06-30,Labor,,03
+27,1945732,986,2020,Actual,Full Year,Labor,2020-06-30,Labor,,03
+26,1991712,59,2021,Actual,Full Year,Labor,2021-06-30,Labor,,03
+26,461937,8988,2022,Target Budget,YTD,Labor,2021-09-30,Labor,,03
+26,461937,80,2022,Actual,YTD,Labor,2021-09-30,Labor,,03
+39,2939422,35950,2022,Adopted Budget,Full Year,Labor,2021-09-30,Labor,,03
+39,2939422,35950,2022,Target Budget,Full Year,Labor,2021-09-30,Labor,,03
+37,2840422,5950,2022,Current Projection,Full Year,Labor,2021-09-30,Labor,,03
+128,8802032,72,2019,Actual,Full Year,Law,2019-06-30,Law Department,Law,44
+130,9733493,6,2020,Actual,Full Year,Law,2020-06-30,Law Department,Law,44
+127,9640029,6050,2021,Actual,Full Year,Law,2021-06-30,Law Department,Law,44
+168,2843053,0,2022,Target Budget,YTD,Law,2021-09-30,Law Department,Law,44
+168,2843053,248,2022,Actual,YTD,Law,2021-09-30,Law Department,Law,44
+180,13329167,0,2022,Adopted Budget,Full Year,Law,2021-09-30,Law Department,Law,44
+180,13329167,0,2022,Target Budget,Full Year,Law,2021-09-30,Law Department,Law,44
+180,13529379,0,2022,Current Projection,Full Year,Law,2021-09-30,Law Department,Law,44
+372,23626633,1432352,2019,Actual,Full Year,Licenses & Inspections,2019-06-30,Department of Licenses and Inspections,L&I,26
+394,24986716,1408144,2020,Actual,Full Year,Licenses & Inspections,2020-06-30,Department of Licenses and Inspections,L&I,26
+372,24779256,845614,2021,Actual,Full Year,Licenses & Inspections,2021-06-30,Department of Licenses and Inspections,L&I,26
+359,5056575,289053,2022,Target Budget,YTD,Licenses & Inspections,2021-09-30,Department of Licenses and Inspections,L&I,26
+359,5056575,227484,2022,Actual,YTD,Licenses & Inspections,2021-09-30,Department of Licenses and Inspections,L&I,26
+426,24577968,1156213,2022,Adopted Budget,Full Year,Licenses & Inspections,2021-09-30,Department of Licenses and Inspections,L&I,26
+426,24577968,1156213,2022,Target Budget,Full Year,Licenses & Inspections,2021-09-30,Department of Licenses and Inspections,L&I,26
+426,24427968,1006213,2022,Current Projection,Full Year,Licenses & Inspections,2021-09-30,Department of Licenses and Inspections,L&I,26
+1,83562,0,2019,Actual,Full Year,L&I-Board of Building Standards,2019-06-30,L&I: Board of Building and Standards,,29
+1,79592,0,2020,Actual,Full Year,L&I-Board of Building Standards,2020-06-30,L&I: Board of Building and Standards,,29
+1,85061,0,2021,Actual,Full Year,L&I-Board of Building Standards,2021-06-30,L&I: Board of Building and Standards,,29
+1,18999,0,2022,Target Budget,YTD,L&I-Board of Building Standards,2021-09-30,L&I: Board of Building and Standards,,29
+1,18999,0,2022,Actual,YTD,L&I-Board of Building Standards,2021-09-30,L&I: Board of Building and Standards,,29
+1,82018,0,2022,Adopted Budget,Full Year,L&I-Board of Building Standards,2021-09-30,L&I: Board of Building and Standards,,29
+1,82018,0,2022,Target Budget,Full Year,L&I-Board of Building Standards,2021-09-30,L&I: Board of Building and Standards,,29
+1,79557,0,2022,Current Projection,Full Year,L&I-Board of Building Standards,2021-09-30,L&I: Board of Building and Standards,,29
+2,129561,1164,2019,Actual,Full Year,L&I-Board of L & I Review,2019-06-30,L&I: Board of Review,,27
+2,126329,35,2020,Actual,Full Year,L&I-Board of L & I Review,2020-06-30,L&I: Board of Review,,27
+1,118576,0,2021,Actual,Full Year,L&I-Board of L & I Review,2021-06-30,L&I: Board of Review,,27
+2,24829,0,2022,Target Budget,YTD,L&I-Board of L & I Review,2021-09-30,L&I: Board of Review,,27
+2,24829,579,2022,Actual,YTD,L&I-Board of L & I Review,2021-09-30,L&I: Board of Review,,27
+2,165635,0,2022,Adopted Budget,Full Year,L&I-Board of L & I Review,2021-09-30,L&I: Board of Review,,27
+2,165635,0,2022,Target Budget,Full Year,L&I-Board of L & I Review,2021-09-30,L&I: Board of Review,,27
+2,165635,2300,2022,Current Projection,Full Year,L&I-Board of L & I Review,2021-09-30,L&I: Board of Review,,27
+307,20519487,501777,2019,Actual,Full Year,Managing Director,2019-06-30,Managing Director's Office,MDO,10
+287,40052290,1088557,2020,Actual,Full Year,Managing Director,2020-06-30,Managing Director's Office,MDO,10
+290,28719552,824568,2021,Actual,Full Year,Managing Director,2021-06-30,Managing Director's Office,MDO,10
+290,4460683,216163,2022,Target Budget,YTD,Managing Director,2021-09-30,Managing Director's Office,MDO,10
+290,4460683,148806,2022,Actual,YTD,Managing Director,2021-09-30,Managing Director's Office,MDO,10
+456,43754013,864650,2022,Adopted Budget,Full Year,Managing Director,2021-09-30,Managing Director's Office,MDO,10
+456,43754013,864650,2022,Target Budget,Full Year,Managing Director,2021-09-30,Managing Director's Office,MDO,10
+450,43157013,744650,2022,Current Projection,Full Year,Managing Director,2021-09-30,Managing Director's Office,MDO,10
+51,4779593,0,2019,Actual,Full Year,Mayor's Office,2019-06-30,Mayor's Office,Mayor,05
+61,5526098,88,2020,Actual,Full Year,Mayor's Office,2020-06-30,Mayor's Office,Mayor,05
+61,5574446,0,2021,Actual,Full Year,Mayor's Office,2021-06-30,Mayor's Office,Mayor,05
+59,1195492,0,2022,Target Budget,YTD,Mayor's Office,2021-09-30,Mayor's Office,Mayor,05
+59,1195492,0,2022,Actual,YTD,Mayor's Office,2021-09-30,Mayor's Office,Mayor,05
+62,5892600,0,2022,Adopted Budget,Full Year,Mayor's Office,2021-09-30,Mayor's Office,Mayor,05
+62,5892600,0,2022,Target Budget,Full Year,Mayor's Office,2021-09-30,Mayor's Office,Mayor,05
+62,5892600,0,2022,Current Projection,Full Year,Mayor's Office,2021-09-30,Mayor's Office,Mayor,05
+0,90000,0,2019,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2019-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,90000,0,2020,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2020-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,45000,0,2021,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2021-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,0,0,2022,Target Budget,YTD,Mayor's Office of Community Empowerment and Opportunity,2021-09-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,0,0,2022,Actual,YTD,Mayor's Office of Community Empowerment and Opportunity,2021-09-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,45000,0,2022,Adopted Budget,Full Year,Mayor's Office of Community Empowerment and Opportunity,2021-09-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,45000,0,2022,Target Budget,Full Year,Mayor's Office of Community Empowerment and Opportunity,2021-09-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,45000,0,2022,Current Projection,Full Year,Mayor's Office of Community Empowerment and Opportunity,2021-09-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+11,587931,16444,2019,Actual,Full Year,Mural Arts Program,2019-06-30,Mural Arts Program,Mural Arts,50
+10,598178,11874,2020,Actual,Full Year,Mural Arts Program,2020-06-30,Mural Arts Program,Mural Arts,50
+8,577153,2317,2021,Actual,Full Year,Mural Arts Program,2021-06-30,Mural Arts Program,Mural Arts,50
+8,84626,4250,2022,Target Budget,YTD,Mural Arts Program,2021-09-30,Mural Arts Program,Mural Arts,50
+8,84626,1455,2022,Actual,YTD,Mural Arts Program,2021-09-30,Mural Arts Program,Mural Arts,50
+10,586569,17000,2022,Adopted Budget,Full Year,Mural Arts Program,2021-09-30,Mural Arts Program,Mural Arts,50
+10,586569,17000,2022,Target Budget,Full Year,Mural Arts Program,2021-09-30,Mural Arts Program,Mural Arts,50
+10,586569,17000,2022,Current Projection,Full Year,Mural Arts Program,2021-09-30,Mural Arts Program,Mural Arts,50
+7,453399,40,2019,Actual,Full Year,Office of Arts and Culture,2019-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+2,544982,150,2020,Actual,Full Year,Office of Arts and Culture,2020-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2021,Actual,Full Year,Office of Arts and Culture,2021-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2022,Target Budget,YTD,Office of Arts and Culture,2021-09-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2022,Actual,YTD,Office of Arts and Culture,2021-09-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2022,Adopted Budget,Full Year,Office of Arts and Culture,2021-09-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2022,Target Budget,Full Year,Office of Arts and Culture,2021-09-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+0,0,0,2022,Current Projection,Full Year,Office of Arts and Culture,2021-09-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+16,1580748,6906,2019,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2019-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+24,1550431,6636,2020,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2020-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+23,1546510,7582,2021,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2021-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+27,382256,1000,2022,Target Budget,YTD,Office of Behavioral Health and Intellectual disAbility,2021-09-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+27,382256,10650,2022,Actual,YTD,Office of Behavioral Health and Intellectual disAbility,2021-09-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+47,2980922,4000,2022,Adopted Budget,Full Year,Office of Behavioral Health and Intellectual disAbility,2021-09-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+47,2980922,4000,2022,Target Budget,Full Year,Office of Behavioral Health and Intellectual disAbility,2021-09-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+46,2910281,75237,2022,Current Projection,Full Year,Office of Behavioral Health and Intellectual disAbility,2021-09-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+56,3831785,21904,2019,Actual,Full Year,Office of the Chief Administrative Officer,2019-06-30,Office of the Chief Administrative Officer,CAO,65
+64,4435378,2621,2020,Actual,Full Year,Office of the Chief Administrative Officer,2020-06-30,Office of the Chief Administrative Officer,CAO,65
+59,4005063,443,2021,Actual,Full Year,Office of the Chief Administrative Officer,2021-06-30,Office of the Chief Administrative Officer,CAO,65
+60,856327,2050,2022,Target Budget,YTD,Office of the Chief Administrative Officer,2021-09-30,Office of the Chief Administrative Officer,CAO,65
+60,856327,0,2022,Actual,YTD,Office of the Chief Administrative Officer,2021-09-30,Office of the Chief Administrative Officer,CAO,65
+77,5062173,8198,2022,Adopted Budget,Full Year,Office of the Chief Administrative Officer,2021-09-30,Office of the Chief Administrative Officer,CAO,65
+77,5062173,8198,2022,Target Budget,Full Year,Office of the Chief Administrative Officer,2021-09-30,Office of the Chief Administrative Officer,CAO,65
+72,4733837,8198,2022,Current Projection,Full Year,Office of the Chief Administrative Officer,2021-09-30,Office of the Chief Administrative Officer,CAO,65
+32,2318022,0,2019,Actual,Full Year,Office of Children and Families,2019-06-30,Office of Children and Families,OCF,66
+40,2789271,0,2020,Actual,Full Year,Office of Children and Families,2020-06-30,Office of Children and Families,OCF,66
+3,418820,0,2021,Actual,Full Year,Office of Children and Families,2021-06-30,Office of Children and Families,OCF,66
+3,96161,0,2022,Target Budget,YTD,Office of Children and Families,2021-09-30,Office of Children and Families,OCF,66
+3,96161,0,2022,Actual,YTD,Office of Children and Families,2021-09-30,Office of Children and Families,OCF,66
+3,442000,0,2022,Adopted Budget,Full Year,Office of Children and Families,2021-09-30,Office of Children and Families,OCF,66
+3,442000,0,2022,Target Budget,Full Year,Office of Children and Families,2021-09-30,Office of Children and Families,OCF,66
+3,442000,0,2022,Current Projection,Full Year,Office of Children and Families,2021-09-30,Office of Children and Families,OCF,66
+151,9056465,201728,2019,Actual,Full Year,Office of Homeless Services,2019-06-30,Office of Homeless Services,OHS,24
+151,9589667,332810,2020,Actual,Full Year,Office of Homeless Services,2020-06-30,Office of Homeless Services,OHS,24
+127,7600652,314954,2021,Actual,Full Year,Office of Homeless Services,2021-06-30,Office of Homeless Services,OHS,24
+146,2088241,50125,2022,Target Budget,YTD,Office of Homeless Services,2021-09-30,Office of Homeless Services,OHS,24
+146,2088241,66805,2022,Actual,YTD,Office of Homeless Services,2021-09-30,Office of Homeless Services,OHS,24
+162,9307467,200500,2022,Adopted Budget,Full Year,Office of Homeless Services,2021-09-30,Office of Homeless Services,OHS,24
+162,9307467,200500,2022,Target Budget,Full Year,Office of Homeless Services,2021-09-30,Office of Homeless Services,OHS,24
+162,9307467,200500,2022,Current Projection,Full Year,Office of Homeless Services,2021-09-30,Office of Homeless Services,OHS,24
+77,4913051,45485,2019,Actual,Full Year,Office of Human Resources,2019-06-30,Office of Human Resources,OHR,56
+79,5185267,63347,2020,Actual,Full Year,Office of Human Resources,2020-06-30,Office of Human Resources,OHR,56
+75,5133178,81009,2021,Actual,Full Year,Office of Human Resources,2021-06-30,Office of Human Resources,OHR,56
+72,1116051,0,2022,Target Budget,YTD,Office of Human Resources,2021-09-30,Office of Human Resources,OHR,56
+72,1116051,21984,2022,Actual,YTD,Office of Human Resources,2021-09-30,Office of Human Resources,OHR,56
+80,5223802,0,2022,Adopted Budget,Full Year,Office of Human Resources,2021-09-30,Office of Human Resources,OHR,56
+80,5223802,0,2022,Target Budget,Full Year,Office of Human Resources,2021-09-30,Office of Human Resources,OHR,56
+80,5223802,88000,2022,Current Projection,Full Year,Office of Human Resources,2021-09-30,Office of Human Resources,OHR,56
+277,20875286,489644,2019,Actual,Full Year,Office of Innovation and Technology,2019-06-30,Office of Innovation and Technology,OIT,04
+317,24148702,486875,2020,Actual,Full Year,Office of Innovation and Technology,2020-06-30,Office of Innovation and Technology,OIT,04
+313,24142550,350274,2021,Actual,Full Year,Office of Innovation and Technology,2021-06-30,Office of Innovation and Technology,OIT,04
+311,5508798,104610,2022,Target Budget,YTD,Office of Innovation and Technology,2021-09-30,Office of Innovation and Technology,OIT,04
+311,5508798,85444,2022,Actual,YTD,Office of Innovation and Technology,2021-09-30,Office of Innovation and Technology,OIT,04
+364,28131196,418439,2022,Adopted Budget,Full Year,Office of Innovation and Technology,2021-09-30,Office of Innovation and Technology,OIT,04
+364,28131196,418439,2022,Target Budget,Full Year,Office of Innovation and Technology,2021-09-30,Office of Innovation and Technology,OIT,04
+343,26071196,418439,2022,Current Projection,Full Year,Office of Innovation and Technology,2021-09-30,Office of Innovation and Technology,OIT,04
+18,1415627,0,2019,Actual,Full Year,Office of the Inspector General,2019-06-30,Office of the Inspector General,OIG,48
+16,1397115,0,2020,Actual,Full Year,Office of the Inspector General,2020-06-30,Office of the Inspector General,OIG,48
+18,1283300,0,2021,Actual,Full Year,Office of the Inspector General,2021-06-30,Office of the Inspector General,OIG,48
+17,308706,0,2022,Target Budget,YTD,Office of the Inspector General,2021-09-30,Office of the Inspector General,OIG,48
+17,308706,0,2022,Actual,YTD,Office of the Inspector General,2021-09-30,Office of the Inspector General,OIG,48
+19,1504223,0,2022,Adopted Budget,Full Year,Office of the Inspector General,2021-09-30,Office of the Inspector General,OIG,48
+19,1504223,0,2022,Target Budget,Full Year,Office of the Inspector General,2021-09-30,Office of the Inspector General,OIG,48
+19,1456000,0,2022,Current Projection,Full Year,Office of the Inspector General,2021-09-30,Office of the Inspector General,OIG,48
+196,12500926,94062,2019,Actual,Full Year,Office of Property Assessment,2019-06-30,Office of Property Assessment,OPA,59
+195,13142246,73955,2020,Actual,Full Year,Office of Property Assessment,2020-06-30,Office of Property Assessment,OPA,59
+190,13393546,42002,2021,Actual,Full Year,Office of Property Assessment,2021-06-30,Office of Property Assessment,OPA,59
+186,2856105,27500,2022,Target Budget,YTD,Office of Property Assessment,2021-09-30,Office of Property Assessment,OPA,59
+186,2856105,8687,2022,Actual,YTD,Office of Property Assessment,2021-09-30,Office of Property Assessment,OPA,59
+223,14395213,110000,2022,Adopted Budget,Full Year,Office of Property Assessment,2021-09-30,Office of Property Assessment,OPA,59
+223,14395213,110000,2022,Target Budget,Full Year,Office of Property Assessment,2021-09-30,Office of Property Assessment,OPA,59
+215,13999213,80000,2022,Current Projection,Full Year,Office of Property Assessment,2021-09-30,Office of Property Assessment,OPA,59
+9,548133,139,2019,Actual,Full Year,Office of Sustainability,2019-06-30,Office of Sustainability,Sustainability,49
+7,566858,79,2020,Actual,Full Year,Office of Sustainability,2020-06-30,Office of Sustainability,Sustainability,49
+8,484422,0,2021,Actual,Full Year,Office of Sustainability,2021-06-30,Office of Sustainability,Sustainability,49
+11,183223,0,2022,Target Budget,YTD,Office of Sustainability,2021-09-30,Office of Sustainability,Sustainability,49
+11,183223,0,2022,Actual,YTD,Office of Sustainability,2021-09-30,Office of Sustainability,Sustainability,49
+12,722621,0,2022,Adopted Budget,Full Year,Office of Sustainability,2021-09-30,Office of Sustainability,Sustainability,49
+12,722621,0,2022,Target Budget,Full Year,Office of Sustainability,2021-09-30,Office of Sustainability,Sustainability,49
+13,812621,0,2022,Current Projection,Full Year,Office of Sustainability,2021-09-30,Office of Sustainability,Sustainability,49
+647,48579951,3538131,2019,Actual,Full Year,Parks and Recreation,2019-06-30,Department of Parks and Recreation,Parks & Recreation,16
+647,50465519,3182453,2020,Actual,Full Year,Parks and Recreation,2020-06-30,Department of Parks and Recreation,Parks & Recreation,16
+644,42876919,2083704,2021,Actual,Full Year,Parks and Recreation,2021-06-30,Department of Parks and Recreation,Parks & Recreation,16
+626,13884829,779168,2022,Target Budget,YTD,Parks and Recreation,2021-09-30,Department of Parks and Recreation,Parks & Recreation,16
+626,13884829,1293235,2022,Actual,YTD,Parks and Recreation,2021-09-30,Department of Parks and Recreation,Parks & Recreation,16
+763,52352786,3116670,2022,Adopted Budget,Full Year,Parks and Recreation,2021-09-30,Department of Parks and Recreation,Parks & Recreation,16
+763,52352786,3116670,2022,Target Budget,Full Year,Parks and Recreation,2021-09-30,Department of Parks and Recreation,Parks & Recreation,16
+763,51352786,3116670,2022,Current Projection,Full Year,Parks and Recreation,2021-09-30,Department of Parks and Recreation,Parks & Recreation,16
+56,4695950,14817,2019,Actual,Full Year,Planning and Development,2019-06-30,Department of Planning and Development,Planning & Development,72
+55,4778297,13575,2020,Actual,Full Year,Planning and Development,2020-06-30,Department of Planning and Development,Planning & Development,72
+55,4510200,9507,2021,Actual,Full Year,Planning and Development,2021-06-30,Department of Planning and Development,Planning & Development,72
+54,951535,0,2022,Target Budget,YTD,Planning and Development,2021-09-30,Department of Planning and Development,Planning & Development,72
+54,951535,11647,2022,Actual,YTD,Planning and Development,2021-09-30,Department of Planning and Development,Planning & Development,72
+62,4873604,0,2022,Adopted Budget,Full Year,Planning and Development,2021-09-30,Department of Planning and Development,Planning & Development,72
+62,4873604,0,2022,Target Budget,Full Year,Planning and Development,2021-09-30,Department of Planning and Development,Planning & Development,72
+62,4873604,19482,2022,Current Projection,Full Year,Planning and Development,2021-09-30,Department of Planning and Development,Planning & Development,72
+7241,685445815,61647723,2019,Actual,Full Year,Police,2019-06-30,Police Department,Police,11
+7175,736072678,78667457,2020,Actual,Full Year,Police,2020-06-30,Police Department,Police,11
+6869,708324818,64896010,2021,Actual,Full Year,Police,2021-06-30,Police Department,Police,11
+6819,150303055,15008356,2022,Target Budget,YTD,Police,2021-09-30,Police Department,Police,11
+6819,150303055,19104266,2022,Actual,YTD,Police,2021-09-30,Police Department,Police,11
+7304,704349409,60033425,2022,Adopted Budget,Full Year,Police,2021-09-30,Police Department,Police,11
+7304,704349409,60033425,2022,Target Budget,Full Year,Police,2021-09-30,Police Department,Police,11
+7304,698349409,60033425,2022,Current Projection,Full Year,Police,2021-09-30,Police Department,Police,11
+2130,138537912,24169020,2019,Actual,Full Year,Prisons,2019-06-30,Philadelphia Prison System,Prisons,23
+1975,137253128,26918548,2020,Actual,Full Year,Prisons,2020-06-30,Philadelphia Prison System,Prisons,23
+1620,118472913,24602298,2021,Actual,Full Year,Prisons,2021-06-30,Philadelphia Prison System,Prisons,23
+1572,24489260,5931275,2022,Target Budget,YTD,Prisons,2021-09-30,Philadelphia Prison System,Prisons,23
+1572,24489260,6193992,2022,Actual,YTD,Prisons,2021-09-30,Philadelphia Prison System,Prisons,23
+2186,132739167,23725100,2022,Adopted Budget,Full Year,Prisons,2021-09-30,Philadelphia Prison System,Prisons,23
+2186,132739167,23725100,2022,Target Budget,Full Year,Prisons,2021-09-30,Philadelphia Prison System,Prisons,23
+2186,132739167,23725100,2022,Current Projection,Full Year,Prisons,2021-09-30,Philadelphia Prison System,Prisons,23
+41,2402513,5647,2019,Actual,Full Year,Procurement,2019-06-30,Procurement Department,Procurement,38
+42,2519208,5390,2020,Actual,Full Year,Procurement,2020-06-30,Procurement Department,Procurement,38
+35,2434690,11124,2021,Actual,Full Year,Procurement,2021-06-30,Procurement Department,Procurement,38
+36,592178,0,2022,Target Budget,YTD,Procurement,2021-09-30,Procurement Department,Procurement,38
+36,592178,487,2022,Actual,YTD,Procurement,2021-09-30,Procurement Department,Procurement,38
+42,2648235,0,2022,Adopted Budget,Full Year,Procurement,2021-09-30,Procurement Department,Procurement,38
+42,2648235,0,2022,Target Budget,Full Year,Procurement,2021-09-30,Procurement Department,Procurement,38
+42,2648235,2000,2022,Current Projection,Full Year,Procurement,2021-09-30,Procurement Department,Procurement,38
+752,57173653,2346586,2019,Actual,Full Year,Public Health,2019-06-30,Department of Public Health,Public Health,14
+739,60130461,2602722,2020,Actual,Full Year,Public Health,2020-06-30,Department of Public Health,Public Health,14
+716,58289725,2319808,2021,Actual,Full Year,Public Health,2021-06-30,Department of Public Health,Public Health,14
+702,13081200,626386,2022,Target Budget,YTD,Public Health,2021-09-30,Department of Public Health,Public Health,14
+702,13081200,564971,2022,Actual,YTD,Public Health,2021-09-30,Department of Public Health,Public Health,14
+822,59267291,2505544,2022,Adopted Budget,Full Year,Public Health,2021-09-30,Department of Public Health,Public Health,14
+822,59267291,2505544,2022,Target Budget,Full Year,Public Health,2021-09-30,Department of Public Health,Public Health,14
+822,59267291,2505544,2022,Current Projection,Full Year,Public Health,2021-09-30,Department of Public Health,Public Health,14
+135,8875590,839027,2019,Actual,Full Year,Public Property,2019-06-30,Department of Public Property,Public Property,20
+119,8610609,800350,2020,Actual,Full Year,Public Property,2020-06-30,Department of Public Property,Public Property,20
+142,9847147,195014,2021,Actual,Full Year,Public Property,2021-06-30,Department of Public Property,Public Property,20
+144,2352877,57604,2022,Target Budget,YTD,Public Property,2021-09-30,Department of Public Property,Public Property,20
+144,2352877,45876,2022,Actual,YTD,Public Property,2021-09-30,Department of Public Property,Public Property,20
+156,10098527,230414,2022,Adopted Budget,Full Year,Public Property,2021-09-30,Department of Public Property,Public Property,20
+156,10098527,230414,2022,Target Budget,Full Year,Public Property,2021-09-30,Department of Public Property,Public Property,20
+156,10098527,230414,2022,Current Projection,Full Year,Public Property,2021-09-30,Department of Public Property,Public Property,20
+55,2983490,63145,2019,Actual,Full Year,Records,2019-06-30,Department of Records,Records,31
+51,2995101,55381,2020,Actual,Full Year,Records,2020-06-30,Department of Records,Records,31
+51,2823021,65664,2021,Actual,Full Year,Records,2021-06-30,Department of Records,Records,31
+50,652551,9364,2022,Target Budget,YTD,Records,2021-09-30,Department of Records,Records,31
+50,652551,43144,2022,Actual,YTD,Records,2021-09-30,Department of Records,Records,31
+54,3009970,37456,2022,Adopted Budget,Full Year,Records,2021-09-30,Department of Records,Records,31
+54,3009970,37456,2022,Target Budget,Full Year,Records,2021-09-30,Department of Records,Records,31
+58,3084970,173656,2022,Current Projection,Full Year,Records,2021-09-30,Department of Records,Records,31
+70,4262942,1488,2019,Actual,Full Year,Register of Wills,2019-06-30,Register of Wills,,68
+66,4523524,399,2020,Actual,Full Year,Register of Wills,2020-06-30,Register of Wills,,68
+70,4174663,231,2021,Actual,Full Year,Register of Wills,2021-06-30,Register of Wills,,68
+66,870778,0,2022,Target Budget,YTD,Register of Wills,2021-09-30,Register of Wills,,68
+66,870778,0,2022,Actual,YTD,Register of Wills,2021-09-30,Register of Wills,,68
+71,3956193,0,2022,Adopted Budget,Full Year,Register of Wills,2021-09-30,Register of Wills,,68
+71,3956193,0,2022,Target Budget,Full Year,Register of Wills,2021-09-30,Register of Wills,,68
+71,3956193,0,2022,Current Projection,Full Year,Register of Wills,2021-09-30,Register of Wills,,68
+405,22700386,367414,2019,Actual,Full Year,Revenue,2019-06-30,Department of Revenue,Revenue,36
+402,23489160,295650,2020,Actual,Full Year,Revenue,2020-06-30,Department of Revenue,Revenue,36
+386,22277095,85746,2021,Actual,Full Year,Revenue,2021-06-30,Department of Revenue,Revenue,36
+348,4370793,75000,2022,Target Budget,YTD,Revenue,2021-09-30,Department of Revenue,Revenue,36
+348,4370793,38055,2022,Actual,YTD,Revenue,2021-09-30,Department of Revenue,Revenue,36
+399,20380548,300000,2022,Adopted Budget,Full Year,Revenue,2021-09-30,Department of Revenue,Revenue,36
+399,20380548,300000,2022,Target Budget,Full Year,Revenue,2021-09-30,Department of Revenue,Revenue,36
+399,20305967,200000,2022,Current Projection,Full Year,Revenue,2021-09-30,Department of Revenue,Revenue,36
+355,27638571,6163832,2019,Actual,Full Year,Sheriff,2019-06-30,Office of the Sheriff,Sheriff,70
+385,28049726,4797577,2020,Actual,Full Year,Sheriff,2020-06-30,Office of the Sheriff,Sheriff,70
+367,26258562,2799955,2021,Actual,Full Year,Sheriff,2021-06-30,Office of the Sheriff,Sheriff,70
+360,5608601,671261,2022,Target Budget,YTD,Sheriff,2021-09-30,Office of the Sheriff,Sheriff,70
+360,5608601,794155,2022,Actual,YTD,Sheriff,2021-09-30,Office of the Sheriff,Sheriff,70
+428,25192450,2685042,2022,Adopted Budget,Full Year,Sheriff,2021-09-30,Office of the Sheriff,Sheriff,70
+428,25192450,2685042,2022,Target Budget,Full Year,Sheriff,2021-09-30,Office of the Sheriff,Sheriff,70
+428,25192450,3135042,2022,Current Projection,Full Year,Sheriff,2021-09-30,Office of the Sheriff,Sheriff,70
+1736,83603511,15557607,2019,Actual,Full Year,Streets,2019-06-30,Streets Department,Streets,12
+1925,90344142,15039549,2020,Actual,Full Year,Streets,2020-06-30,Streets Department,Streets,12
+1941,88868951,16469836,2021,Actual,Full Year,Streets,2021-06-30,Streets Department,Streets,12
+2025,25673038,2938127,2022,Target Budget,YTD,Streets,2021-09-30,Streets Department,Streets,12
+2025,25673038,4805065,2022,Actual,YTD,Streets,2021-09-30,Streets Department,Streets,12
+2045,90986330,11752509,2022,Adopted Budget,Full Year,Streets,2021-09-30,Streets Department,Streets,12
+2045,90986330,11752509,2022,Target Budget,Full Year,Streets,2021-09-30,Streets Department,Streets,12
+2134,91910110,11752509,2022,Current Projection,Full Year,Streets,2021-09-30,Streets Department,Streets,12

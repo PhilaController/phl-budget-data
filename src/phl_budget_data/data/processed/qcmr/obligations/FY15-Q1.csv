@@ -1,0 +1,415 @@
+dept_name_raw,total,fiscal_year,variable,time_period,as_of_date,dept_name,dept_code,abbreviation
+Art Museum Subsidy,2550000,2014,Actual,Full Year,2014-06-30,Art Museum,34,
+Atwater Kent Museum,277307,2014,Actual,Full Year,2014-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7461087,2014,Actual,Full Year,2014-06-30,City Controller's Office,61,
+Board of Ethics,767906,2014,Actual,Full Year,2014-06-30,Board of Ethics,45,
+Board of Revision of Taxes,1053347,2014,Actual,Full Year,2014-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),8690810,2014,Actual,Full Year,2014-06-30,City Commissioner's Office,73,City Commissioners
+City Council,14473677,2014,Actual,Full Year,2014-06-30,City Council,01,
+City Planning Commission,2302078,2014,Actual,Full Year,2014-06-30,City Planning Commission,51,
+City Representative,969947,2014,Actual,Full Year,2014-06-30,Office of the City Representative,41,City Rep
+City Treasurer,894143,2014,Actual,Full Year,2014-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),176380,2014,Actual,Full Year,2014-06-30,Civil Service Commission,55,
+Commerce,2697175,2014,Actual,Full Year,2014-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2014,Actual,Full Year,2014-06-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1294448,2014,Actual,Full Year,2014-06-30,Commerce: Economic Stimulus,42ES,
+District Attorney,32807921,2014,Actual,Full Year,2014-06-30,District Attorney's Office,69,DAO
+Finance,19326930,2014,Actual,Full Year,2014-06-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26409207,2014,Actual,Full Year,2014-06-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,1194090202,2014,Actual,Full Year,2014-06-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,18000,2014,Actual,Full Year,2014-06-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,0,2014,Actual,Full Year,2014-06-30,Finance: Indemnities,35IN,
+Finance-Refunds,100000,2014,Actual,Full Year,2014-06-30,Finance: Refunds,35R,
+Finance-School District Contribution,114050100,2014,Actual,Full Year,2014-06-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,101452,2014,Actual,Full Year,2014-06-30,Finance: Witness Fees,35WF,
+Fire,247991912,2014,Actual,Full Year,2014-06-30,Fire Department,13,Fire
+First Judicial District,108716187,2014,Actual,Full Year,2014-06-30,First Judicial District,84,FJD
+Fleet Management,50062898,2014,Actual,Full Year,2014-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,12548186,2014,Actual,Full Year,2014-06-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,35736303,2014,Actual,Full Year,2014-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,349704,2014,Actual,Full Year,2014-06-30,Historical Commission,32,
+Human Relations Commission,1783651,2014,Actual,Full Year,2014-06-30,Commission on Human Relations,54,Human Relations
+Human Services,100241130,2014,Actual,Full Year,2014-06-30,Department of Human Services,22,DHS
+Labor Relations,479327,2014,Actual,Full Year,2014-06-30,Labor,03,
+Law,13950019,2014,Actual,Full Year,2014-06-30,Law Department,44,Law
+Licenses & Inspections,25698409,2014,Actual,Full Year,2014-06-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,62431,2014,Actual,Full Year,2014-06-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,133593,2014,Actual,Full Year,2014-06-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,357092,2014,Actual,Full Year,2014-06-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,34393911,2014,Actual,Full Year,2014-06-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,40596067,2014,Actual,Full Year,2014-06-30,MDO: Legal Services,10LS,
+Mayor's Office,5056447,2014,Actual,Full Year,2014-06-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2014,Actual,Full Year,2014-06-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,0,2014,Actual,Full Year,2014-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,708937,2014,Actual,Full Year,2014-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1586246,2014,Actual,Full Year,2014-06-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,2561549,2014,Actual,Full Year,2014-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,13667907,2014,Actual,Full Year,2014-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,4060459,2014,Actual,Full Year,2014-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,5497266,2014,Actual,Full Year,2014-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,64077538,2014,Actual,Full Year,2014-06-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,1400719,2014,Actual,Full Year,2014-06-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,10875784,2014,Actual,Full Year,2014-06-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,45155805,2014,Actual,Full Year,2014-06-30,Office of Homeless Services,24,OHS
+Parks and Recreation,54366727,2014,Actual,Full Year,2014-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,607073462,2014,Actual,Full Year,2014-06-30,Police Department,11,Police
+Prisons,245813812,2014,Actual,Full Year,2014-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4808359,2014,Actual,Full Year,2014-06-30,Procurement Department,38,Procurement
+Public Health,109946985,2014,Actual,Full Year,2014-06-30,Department of Public Health,14,Public Health
+Public Property,75641833,2014,Actual,Full Year,2014-06-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,66016000,2014,Actual,Full Year,2014-06-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,19098115,2014,Actual,Full Year,2014-06-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,30200402,2014,Actual,Full Year,2014-06-30,Public Property: Utilities,20U,
+Records,4339865,2014,Actual,Full Year,2014-06-30,Department of Records,31,Records
+Register of Wills,3289563,2014,Actual,Full Year,2014-06-30,Register of Wills,68,
+Revenue,20210851,2014,Actual,Full Year,2014-06-30,Department of Revenue,36,Revenue
+Sheriff,18323205,2014,Actual,Full Year,2014-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),215932309,2014,Actual,Full Year,2014-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,101202698,2014,Actual,Full Year,2014-06-30,Streets: Sanitation,12S,
+Streets-Transportation,36754656,2014,Actual,Full Year,2014-06-30,Streets: Transportation,12T,
+Youth Commission,83151,2014,Actual,Full Year,2014-06-30,Youth Commission,47,
+Art Museum Subsidy,637500,2015,Target Budget,YTD,2014-09-30,Art Museum,34,
+Atwater Kent Museum,88313,2015,Target Budget,YTD,2014-09-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),1779777,2015,Target Budget,YTD,2014-09-30,City Controller's Office,61,
+Board of Ethics,173132,2015,Target Budget,YTD,2014-09-30,Board of Ethics,45,
+Board of Revision of Taxes,217534,2015,Target Budget,YTD,2014-09-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),2185047,2015,Target Budget,YTD,2014-09-30,City Commissioner's Office,73,City Commissioners
+City Council,3286927,2015,Target Budget,YTD,2014-09-30,City Council,01,
+City Planning Commission,530340,2015,Target Budget,YTD,2014-09-30,City Planning Commission,51,
+City Representative,361363,2015,Target Budget,YTD,2014-09-30,Office of the City Representative,41,City Rep
+City Treasurer,227501,2015,Target Budget,YTD,2014-09-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),62748,2015,Target Budget,YTD,2014-09-30,Civil Service Commission,55,
+Commerce,1173853,2015,Target Budget,YTD,2014-09-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2015,Target Budget,YTD,2014-09-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,0,2015,Target Budget,YTD,2014-09-30,Commerce: Economic Stimulus,42ES,
+District Attorney,8234933,2015,Target Budget,YTD,2014-09-30,District Attorney's Office,69,DAO
+Finance,9049564,2015,Target Budget,YTD,2014-09-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26909207,2015,Target Budget,YTD,2014-09-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,143817459,2015,Target Budget,YTD,2014-09-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,18000,2015,Target Budget,YTD,2014-09-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,14503409,2015,Target Budget,YTD,2014-09-30,Finance: Indemnities,35IN,
+Finance-Refunds,0,2015,Target Budget,YTD,2014-09-30,Finance: Refunds,35R,
+Finance-School District Contribution,0,2015,Target Budget,YTD,2014-09-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,25085,2015,Target Budget,YTD,2014-09-30,Finance: Witness Fees,35WF,
+Fire,44995757,2015,Target Budget,YTD,2014-09-30,Fire Department,13,Fire
+First Judicial District,25538648,2015,Target Budget,YTD,2014-09-30,First Judicial District,84,FJD
+Fleet Management,17366859,2015,Target Budget,YTD,2014-09-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,11635049,2015,Target Budget,YTD,2014-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,12778659,2015,Target Budget,YTD,2014-09-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,91479,2015,Target Budget,YTD,2014-09-30,Historical Commission,32,
+Human Relations Commission,389652,2015,Target Budget,YTD,2014-09-30,Commission on Human Relations,54,Human Relations
+Human Services,71745093,2015,Target Budget,YTD,2014-09-30,Department of Human Services,22,DHS
+Labor Relations,108379,2015,Target Budget,YTD,2014-09-30,Labor,03,
+Law,5628980,2015,Target Budget,YTD,2014-09-30,Law Department,44,Law
+Licenses & Inspections,7180255,2015,Target Budget,YTD,2014-09-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,13333,2015,Target Budget,YTD,2014-09-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,30180,2015,Target Budget,YTD,2014-09-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,88830,2015,Target Budget,YTD,2014-09-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,12977177,2015,Target Budget,YTD,2014-09-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,21079939,2015,Target Budget,YTD,2014-09-30,MDO: Legal Services,10LS,
+Mayor's Office,1393090,2015,Target Budget,YTD,2014-09-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,199000,2015,Target Budget,YTD,2014-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,0,2015,Target Budget,YTD,2014-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,390859,2015,Target Budget,YTD,2014-09-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,93967,2015,Target Budget,YTD,2014-09-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,3802047,2015,Target Budget,YTD,2014-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,12591292,2015,Target Budget,YTD,2014-09-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,2947000,2015,Target Budget,YTD,2014-09-30,Office of Housing and Community Development,06,
+Office of Human Resources,1245689,2015,Target Budget,YTD,2014-09-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,17735764,2015,Target Budget,YTD,2014-09-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,431030,2015,Target Budget,YTD,2014-09-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,3303787,2015,Target Budget,YTD,2014-09-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,25148322,2015,Target Budget,YTD,2014-09-30,Office of Homeless Services,24,OHS
+Parks and Recreation,19770265,2015,Target Budget,YTD,2014-09-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,130915599,2015,Target Budget,YTD,2014-09-30,Police Department,11,Police
+Prisons,112874835,2015,Target Budget,YTD,2014-09-30,Philadelphia Prison System,23,Prisons
+Procurement,1095296,2015,Target Budget,YTD,2014-09-30,Procurement Department,38,Procurement
+Public Health,57794926,2015,Target Budget,YTD,2014-09-30,Department of Public Health,14,Public Health
+Public Property,12111076,2015,Target Budget,YTD,2014-09-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,17604000,2015,Target Budget,YTD,2014-09-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,20473618,2015,Target Budget,YTD,2014-09-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,21108600,2015,Target Budget,YTD,2014-09-30,Public Property: Utilities,20U,
+Records,2100123,2015,Target Budget,YTD,2014-09-30,Department of Records,31,Records
+Register of Wills,728947,2015,Target Budget,YTD,2014-09-30,Register of Wills,68,
+Revenue,6460393,2015,Target Budget,YTD,2014-09-30,Department of Revenue,36,Revenue
+Sheriff,4306456,2015,Target Budget,YTD,2014-09-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),114523555,2015,Target Budget,YTD,2014-09-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,52485570,2015,Target Budget,YTD,2014-09-30,Streets: Sanitation,12S,
+Streets-Transportation,9521394,2015,Target Budget,YTD,2014-09-30,Streets: Transportation,12T,
+Youth Commission,17826,2015,Target Budget,YTD,2014-09-30,Youth Commission,47,
+Art Museum Subsidy,637500,2015,Actual,YTD,2014-09-30,Art Museum,34,
+Atwater Kent Museum,88313,2015,Actual,YTD,2014-09-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),1779777,2015,Actual,YTD,2014-09-30,City Controller's Office,61,
+Board of Ethics,173132,2015,Actual,YTD,2014-09-30,Board of Ethics,45,
+Board of Revision of Taxes,217534,2015,Actual,YTD,2014-09-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),2185047,2015,Actual,YTD,2014-09-30,City Commissioner's Office,73,City Commissioners
+City Council,3286927,2015,Actual,YTD,2014-09-30,City Council,01,
+City Planning Commission,530340,2015,Actual,YTD,2014-09-30,City Planning Commission,51,
+City Representative,361363,2015,Actual,YTD,2014-09-30,Office of the City Representative,41,City Rep
+City Treasurer,227501,2015,Actual,YTD,2014-09-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),62748,2015,Actual,YTD,2014-09-30,Civil Service Commission,55,
+Commerce,1173853,2015,Actual,YTD,2014-09-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2015,Actual,YTD,2014-09-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,0,2015,Actual,YTD,2014-09-30,Commerce: Economic Stimulus,42ES,
+District Attorney,8234933,2015,Actual,YTD,2014-09-30,District Attorney's Office,69,DAO
+Finance,9049564,2015,Actual,YTD,2014-09-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26909207,2015,Actual,YTD,2014-09-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,143817459,2015,Actual,YTD,2014-09-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,18000,2015,Actual,YTD,2014-09-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,14503409,2015,Actual,YTD,2014-09-30,Finance: Indemnities,35IN,
+Finance-Refunds,0,2015,Actual,YTD,2014-09-30,Finance: Refunds,35R,
+Finance-School District Contribution,0,2015,Actual,YTD,2014-09-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,25085,2015,Actual,YTD,2014-09-30,Finance: Witness Fees,35WF,
+Fire,44995757,2015,Actual,YTD,2014-09-30,Fire Department,13,Fire
+First Judicial District,25538648,2015,Actual,YTD,2014-09-30,First Judicial District,84,FJD
+Fleet Management,17366859,2015,Actual,YTD,2014-09-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,11635049,2015,Actual,YTD,2014-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,12778659,2015,Actual,YTD,2014-09-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,91479,2015,Actual,YTD,2014-09-30,Historical Commission,32,
+Human Relations Commission,389652,2015,Actual,YTD,2014-09-30,Commission on Human Relations,54,Human Relations
+Human Services,71745093,2015,Actual,YTD,2014-09-30,Department of Human Services,22,DHS
+Labor Relations,108379,2015,Actual,YTD,2014-09-30,Labor,03,
+Law,5628980,2015,Actual,YTD,2014-09-30,Law Department,44,Law
+Licenses & Inspections,7180255,2015,Actual,YTD,2014-09-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,13333,2015,Actual,YTD,2014-09-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,30180,2015,Actual,YTD,2014-09-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,88830,2015,Actual,YTD,2014-09-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,12977177,2015,Actual,YTD,2014-09-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,21079939,2015,Actual,YTD,2014-09-30,MDO: Legal Services,10LS,
+Mayor's Office,1393090,2015,Actual,YTD,2014-09-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,199000,2015,Actual,YTD,2014-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,0,2015,Actual,YTD,2014-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,390859,2015,Actual,YTD,2014-09-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,93967,2015,Actual,YTD,2014-09-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,3802047,2015,Actual,YTD,2014-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,12591292,2015,Actual,YTD,2014-09-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,2947000,2015,Actual,YTD,2014-09-30,Office of Housing and Community Development,06,
+Office of Human Resources,1245689,2015,Actual,YTD,2014-09-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,17735764,2015,Actual,YTD,2014-09-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,431030,2015,Actual,YTD,2014-09-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,3303787,2015,Actual,YTD,2014-09-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,25148322,2015,Actual,YTD,2014-09-30,Office of Homeless Services,24,OHS
+Parks and Recreation,19770265,2015,Actual,YTD,2014-09-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,130915599,2015,Actual,YTD,2014-09-30,Police Department,11,Police
+Prisons,112874835,2015,Actual,YTD,2014-09-30,Philadelphia Prison System,23,Prisons
+Procurement,1095296,2015,Actual,YTD,2014-09-30,Procurement Department,38,Procurement
+Public Health,57794926,2015,Actual,YTD,2014-09-30,Department of Public Health,14,Public Health
+Public Property,12111076,2015,Actual,YTD,2014-09-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,17604000,2015,Actual,YTD,2014-09-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,20473618,2015,Actual,YTD,2014-09-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,21108600,2015,Actual,YTD,2014-09-30,Public Property: Utilities,20U,
+Records,2100123,2015,Actual,YTD,2014-09-30,Department of Records,31,Records
+Register of Wills,728947,2015,Actual,YTD,2014-09-30,Register of Wills,68,
+Revenue,6460393,2015,Actual,YTD,2014-09-30,Department of Revenue,36,Revenue
+Sheriff,4306456,2015,Actual,YTD,2014-09-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),114523555,2015,Actual,YTD,2014-09-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,52485570,2015,Actual,YTD,2014-09-30,Streets: Sanitation,12S,
+Streets-Transportation,9521394,2015,Actual,YTD,2014-09-30,Streets: Transportation,12T,
+Youth Commission,17826,2015,Actual,YTD,2014-09-30,Youth Commission,47,
+Art Museum Subsidy,2550000,2015,Adopted Budget,Full Year,2014-09-30,Art Museum,34,
+Atwater Kent Museum,284719,2015,Adopted Budget,Full Year,2014-09-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8072137,2015,Adopted Budget,Full Year,2014-09-30,City Controller's Office,61,
+Board of Ethics,1004854,2015,Adopted Budget,Full Year,2014-09-30,Board of Ethics,45,
+Board of Revision of Taxes,832587,2015,Adopted Budget,Full Year,2014-09-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),9419814,2015,Adopted Budget,Full Year,2014-09-30,City Commissioner's Office,73,City Commissioners
+City Council,16314559,2015,Adopted Budget,Full Year,2014-09-30,City Council,01,
+City Planning Commission,2372828,2015,Adopted Budget,Full Year,2014-09-30,City Planning Commission,51,
+City Representative,1019088,2015,Adopted Budget,Full Year,2014-09-30,Office of the City Representative,41,City Rep
+City Treasurer,920790,2015,Adopted Budget,Full Year,2014-09-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),53011268,2015,Adopted Budget,Full Year,2014-09-30,Civil Service Commission,55,
+Commerce,2750102,2015,Adopted Budget,Full Year,2014-09-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2015,Adopted Budget,Full Year,2014-09-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1294448,2015,Adopted Budget,Full Year,2014-09-30,Commerce: Economic Stimulus,42ES,
+District Attorney,34082283,2015,Adopted Budget,Full Year,2014-09-30,District Attorney's Office,69,DAO
+Finance,18852781,2015,Adopted Budget,Full Year,2014-09-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26909207,2015,Adopted Budget,Full Year,2014-09-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,1817314257,2015,Adopted Budget,Full Year,2014-09-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2015,Adopted Budget,Full Year,2014-09-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,33660000,2015,Adopted Budget,Full Year,2014-09-30,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2015,Adopted Budget,Full Year,2014-09-30,Finance: Refunds,35R,
+Finance-School District Contribution,69110300,2015,Adopted Budget,Full Year,2014-09-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2015,Adopted Budget,Full Year,2014-09-30,Finance: Witness Fees,35WF,
+Fire,206759668,2015,Adopted Budget,Full Year,2014-09-30,Fire Department,13,Fire
+First Judicial District,106251123,2015,Adopted Budget,Full Year,2014-09-30,First Judicial District,84,FJD
+Fleet Management,47808114,2015,Adopted Budget,Full Year,2014-09-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,11965000,2015,Adopted Budget,Full Year,2014-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,38674193,2015,Adopted Budget,Full Year,2014-09-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,412330,2015,Adopted Budget,Full Year,2014-09-30,Historical Commission,32,
+Human Relations Commission,2099907,2015,Adopted Budget,Full Year,2014-09-30,Commission on Human Relations,54,Human Relations
+Human Services,99480256,2015,Adopted Budget,Full Year,2014-09-30,Department of Human Services,22,DHS
+Labor Relations,627484,2015,Adopted Budget,Full Year,2014-09-30,Labor,03,
+Law,13422633,2015,Adopted Budget,Full Year,2014-09-30,Law Department,44,Law
+Licenses & Inspections,27903338,2015,Adopted Budget,Full Year,2014-09-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,72792,2015,Adopted Budget,Full Year,2014-09-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,164065,2015,Adopted Budget,Full Year,2014-09-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,357397,2015,Adopted Budget,Full Year,2014-09-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,34733180,2015,Adopted Budget,Full Year,2014-09-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,41827017,2015,Adopted Budget,Full Year,2014-09-30,MDO: Legal Services,10LS,
+Mayor's Office,5241881,2015,Adopted Budget,Full Year,2014-09-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2015,Adopted Budget,Full Year,2014-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,0,2015,Adopted Budget,Full Year,2014-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,788817,2015,Adopted Budget,Full Year,2014-09-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1451425,2015,Adopted Budget,Full Year,2014-09-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,3971288,2015,Adopted Budget,Full Year,2014-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,13944680,2015,Adopted Budget,Full Year,2014-09-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,3020000,2015,Adopted Budget,Full Year,2014-09-30,Office of Housing and Community Development,06,
+Office of Human Resources,6017301,2015,Adopted Budget,Full Year,2014-09-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,82192558,2015,Adopted Budget,Full Year,2014-09-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,1524569,2015,Adopted Budget,Full Year,2014-09-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,14286177,2015,Adopted Budget,Full Year,2014-09-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,43974069,2015,Adopted Budget,Full Year,2014-09-30,Office of Homeless Services,24,OHS
+Parks and Recreation,52591785,2015,Adopted Budget,Full Year,2014-09-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,592509659,2015,Adopted Budget,Full Year,2014-09-30,Police Department,11,Police
+Prisons,240801814,2015,Adopted Budget,Full Year,2014-09-30,Philadelphia Prison System,23,Prisons
+Procurement,4695453,2015,Adopted Budget,Full Year,2014-09-30,Procurement Department,38,Procurement
+Public Health,115447367,2015,Adopted Budget,Full Year,2014-09-30,Department of Public Health,14,Public Health
+Public Property,57716741,2015,Adopted Budget,Full Year,2014-09-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,70415000,2015,Adopted Budget,Full Year,2014-09-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,20521298,2015,Adopted Budget,Full Year,2014-09-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,30976166,2015,Adopted Budget,Full Year,2014-09-30,Public Property: Utilities,20U,
+Records,4681789,2015,Adopted Budget,Full Year,2014-09-30,Department of Records,31,Records
+Register of Wills,3333341,2015,Adopted Budget,Full Year,2014-09-30,Register of Wills,68,
+Revenue,22437070,2015,Adopted Budget,Full Year,2014-09-30,Department of Revenue,36,Revenue
+Sheriff,18494646,2015,Adopted Budget,Full Year,2014-09-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),247795565,2015,Adopted Budget,Full Year,2014-09-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,85672103,2015,Adopted Budget,Full Year,2014-09-30,Streets: Sanitation,12S,
+Streets-Transportation,31941321,2015,Adopted Budget,Full Year,2014-09-30,Streets: Transportation,12T,
+Youth Commission,140080,2015,Adopted Budget,Full Year,2014-09-30,Youth Commission,47,
+Art Museum Subsidy,2550000,2015,Target Budget,Full Year,2014-09-30,Art Museum,34,
+Atwater Kent Museum,293200,2015,Target Budget,Full Year,2014-09-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8335478,2015,Target Budget,Full Year,2014-09-30,City Controller's Office,61,
+Board of Ethics,1028580,2015,Target Budget,Full Year,2014-09-30,Board of Ethics,45,
+Board of Revision of Taxes,855860,2015,Target Budget,Full Year,2014-09-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),9736352,2015,Target Budget,Full Year,2014-09-30,City Commissioner's Office,73,City Commissioners
+City Council,16656700,2015,Target Budget,Full Year,2014-09-30,City Council,01,
+City Planning Commission,2379667,2015,Target Budget,Full Year,2014-09-30,City Planning Commission,51,
+City Representative,1029351,2015,Target Budget,Full Year,2014-09-30,Office of the City Representative,41,City Rep
+City Treasurer,942687,2015,Target Budget,Full Year,2014-09-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),18009197,2015,Target Budget,Full Year,2014-09-30,Civil Service Commission,55,
+Commerce,2785960,2015,Target Budget,Full Year,2014-09-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2015,Target Budget,Full Year,2014-09-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1294448,2015,Target Budget,Full Year,2014-09-30,Commerce: Economic Stimulus,42ES,
+District Attorney,35124161,2015,Target Budget,Full Year,2014-09-30,District Attorney's Office,69,DAO
+Finance,19223888,2015,Target Budget,Full Year,2014-09-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26909207,2015,Target Budget,Full Year,2014-09-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,1837743113,2015,Target Budget,Full Year,2014-09-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2015,Target Budget,Full Year,2014-09-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,33660000,2015,Target Budget,Full Year,2014-09-30,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2015,Target Budget,Full Year,2014-09-30,Finance: Refunds,35R,
+Finance-School District Contribution,69110300,2015,Target Budget,Full Year,2014-09-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2015,Target Budget,Full Year,2014-09-30,Finance: Witness Fees,35WF,
+Fire,203168035,2015,Target Budget,Full Year,2014-09-30,Fire Department,13,Fire
+First Judicial District,108859727,2015,Target Budget,Full Year,2014-09-30,First Judicial District,84,FJD
+Fleet Management,48840155,2015,Target Budget,Full Year,2014-09-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,11965000,2015,Target Budget,Full Year,2014-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,40198080,2015,Target Budget,Full Year,2014-09-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,419781,2015,Target Budget,Full Year,2014-09-30,Historical Commission,32,
+Human Relations Commission,2116623,2015,Target Budget,Full Year,2014-09-30,Commission on Human Relations,54,Human Relations
+Human Services,99480256,2015,Target Budget,Full Year,2014-09-30,Department of Human Services,22,DHS
+Labor Relations,640379,2015,Target Budget,Full Year,2014-09-30,Labor,03,
+Law,13636792,2015,Target Budget,Full Year,2014-09-30,Law Department,44,Law
+Licenses & Inspections,28819158,2015,Target Budget,Full Year,2014-09-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,72792,2015,Target Budget,Full Year,2014-09-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,168000,2015,Target Budget,Full Year,2014-09-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,378052,2015,Target Budget,Full Year,2014-09-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,35368203,2015,Target Budget,Full Year,2014-09-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,42603468,2015,Target Budget,Full Year,2014-09-30,MDO: Legal Services,10LS,
+Mayor's Office,5353310,2015,Target Budget,Full Year,2014-09-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2015,Target Budget,Full Year,2014-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,605000,2015,Target Budget,Full Year,2014-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,821442,2015,Target Budget,Full Year,2014-09-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1463579,2015,Target Budget,Full Year,2014-09-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,3972593,2015,Target Budget,Full Year,2014-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,13967356,2015,Target Budget,Full Year,2014-09-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,2570000,2015,Target Budget,Full Year,2014-09-30,Office of Housing and Community Development,06,
+Office of Human Resources,6168002,2015,Target Budget,Full Year,2014-09-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,82136382,2015,Target Budget,Full Year,2014-09-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,1561422,2015,Target Budget,Full Year,2014-09-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,13933748,2015,Target Budget,Full Year,2014-09-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,45026928,2015,Target Budget,Full Year,2014-09-30,Office of Homeless Services,24,OHS
+Parks and Recreation,54095395,2015,Target Budget,Full Year,2014-09-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,613275530,2015,Target Budget,Full Year,2014-09-30,Police Department,11,Police
+Prisons,241021531,2015,Target Budget,Full Year,2014-09-30,Philadelphia Prison System,23,Prisons
+Procurement,4793879,2015,Target Budget,Full Year,2014-09-30,Procurement Department,38,Procurement
+Public Health,116211670,2015,Target Budget,Full Year,2014-09-30,Department of Public Health,14,Public Health
+Public Property,69638114,2015,Target Budget,Full Year,2014-09-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,70415000,2015,Target Budget,Full Year,2014-09-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,20521298,2015,Target Budget,Full Year,2014-09-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,30976166,2015,Target Budget,Full Year,2014-09-30,Public Property: Utilities,20U,
+Records,4867565,2015,Target Budget,Full Year,2014-09-30,Department of Records,31,Records
+Register of Wills,3339606,2015,Target Budget,Full Year,2014-09-30,Register of Wills,68,
+Revenue,23238869,2015,Target Budget,Full Year,2014-09-30,Department of Revenue,36,Revenue
+Sheriff,18566779,2015,Target Budget,Full Year,2014-09-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),247795565,2015,Target Budget,Full Year,2014-09-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,92469955,2015,Target Budget,Full Year,2014-09-30,Streets: Sanitation,12S,
+Streets-Transportation,31941321,2015,Target Budget,Full Year,2014-09-30,Streets: Transportation,12T,
+Youth Commission,142296,2015,Target Budget,Full Year,2014-09-30,Youth Commission,47,
+Art Museum Subsidy,2550000,2015,Current Projection,Full Year,2014-09-30,Art Museum,34,
+Atwater Kent Museum,293200,2015,Current Projection,Full Year,2014-09-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8335478,2015,Current Projection,Full Year,2014-09-30,City Controller's Office,61,
+Board of Ethics,1028580,2015,Current Projection,Full Year,2014-09-30,Board of Ethics,45,
+Board of Revision of Taxes,855860,2015,Current Projection,Full Year,2014-09-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),9736352,2015,Current Projection,Full Year,2014-09-30,City Commissioner's Office,73,City Commissioners
+City Council,16656700,2015,Current Projection,Full Year,2014-09-30,City Council,01,
+City Planning Commission,2379667,2015,Current Projection,Full Year,2014-09-30,City Planning Commission,51,
+City Representative,1029351,2015,Current Projection,Full Year,2014-09-30,Office of the City Representative,41,City Rep
+City Treasurer,942687,2015,Current Projection,Full Year,2014-09-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),18009197,2015,Current Projection,Full Year,2014-09-30,Civil Service Commission,55,
+Commerce,2785960,2015,Current Projection,Full Year,2014-09-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2015,Current Projection,Full Year,2014-09-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1294448,2015,Current Projection,Full Year,2014-09-30,Commerce: Economic Stimulus,42ES,
+District Attorney,35124161,2015,Current Projection,Full Year,2014-09-30,District Attorney's Office,69,DAO
+Finance,19223888,2015,Current Projection,Full Year,2014-09-30,Office of the Director of Finance,35,Finance
+Finance-Community College Subsidy,26909207,2015,Current Projection,Full Year,2014-09-30,Finance: Community College Subsidy,35CC,
+Finance Employee Benefits,1837743113,2015,Current Projection,Full Year,2014-09-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2015,Current Projection,Full Year,2014-09-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,33660000,2015,Current Projection,Full Year,2014-09-30,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2015,Current Projection,Full Year,2014-09-30,Finance: Refunds,35R,
+Finance-School District Contribution,69110300,2015,Current Projection,Full Year,2014-09-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2015,Current Projection,Full Year,2014-09-30,Finance: Witness Fees,35WF,
+Fire,203168035,2015,Current Projection,Full Year,2014-09-30,Fire Department,13,Fire
+First Judicial District,108859727,2015,Current Projection,Full Year,2014-09-30,First Judicial District,84,FJD
+Fleet Management,48840155,2015,Current Projection,Full Year,2014-09-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,11965000,2015,Current Projection,Full Year,2014-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,40198080,2015,Current Projection,Full Year,2014-09-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,419781,2015,Current Projection,Full Year,2014-09-30,Historical Commission,32,
+Human Relations Commission,2116623,2015,Current Projection,Full Year,2014-09-30,Commission on Human Relations,54,Human Relations
+Human Services,99480256,2015,Current Projection,Full Year,2014-09-30,Department of Human Services,22,DHS
+Labor Relations,640379,2015,Current Projection,Full Year,2014-09-30,Labor,03,
+Law,13636792,2015,Current Projection,Full Year,2014-09-30,Law Department,44,Law
+Licenses & Inspections,28819158,2015,Current Projection,Full Year,2014-09-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,72792,2015,Current Projection,Full Year,2014-09-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,168000,2015,Current Projection,Full Year,2014-09-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,378052,2015,Current Projection,Full Year,2014-09-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,35368203,2015,Current Projection,Full Year,2014-09-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,42603468,2015,Current Projection,Full Year,2014-09-30,MDO: Legal Services,10LS,
+Mayor's Office,5353310,2015,Current Projection,Full Year,2014-09-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2015,Current Projection,Full Year,2014-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,605000,2015,Current Projection,Full Year,2014-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation & Utilities,821442,2015,Current Projection,Full Year,2014-09-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1463579,2015,Current Projection,Full Year,2014-09-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,3972593,2015,Current Projection,Full Year,2014-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Off. of Behavioral Hlth & Intellectual disAbility,13967356,2015,Current Projection,Full Year,2014-09-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Development,2570000,2015,Current Projection,Full Year,2014-09-30,Office of Housing and Community Development,06,
+Office of Human Resources,6168002,2015,Current Projection,Full Year,2014-09-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,82136382,2015,Current Projection,Full Year,2014-09-30,Office of Innovation and Technology,04,OIT
+Office of the Inspector General,1561422,2015,Current Projection,Full Year,2014-09-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,13933748,2015,Current Projection,Full Year,2014-09-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,45026928,2015,Current Projection,Full Year,2014-09-30,Office of Homeless Services,24,OHS
+Parks and Recreation,54095395,2015,Current Projection,Full Year,2014-09-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,613275530,2015,Current Projection,Full Year,2014-09-30,Police Department,11,Police
+Prisons,241021531,2015,Current Projection,Full Year,2014-09-30,Philadelphia Prison System,23,Prisons
+Procurement,4793879,2015,Current Projection,Full Year,2014-09-30,Procurement Department,38,Procurement
+Public Health,116211670,2015,Current Projection,Full Year,2014-09-30,Department of Public Health,14,Public Health
+Public Property,69638114,2015,Current Projection,Full Year,2014-09-30,Department of Public Property,20,Public Property
+Public Property-SEPT/ Subsidy,70415000,2015,Current Projection,Full Year,2014-09-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,20521298,2015,Current Projection,Full Year,2014-09-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,30976166,2015,Current Projection,Full Year,2014-09-30,Public Property: Utilities,20U,
+Records,4867565,2015,Current Projection,Full Year,2014-09-30,Department of Records,31,Records
+Register of Wills,3339606,2015,Current Projection,Full Year,2014-09-30,Register of Wills,68,
+Revenue,23238869,2015,Current Projection,Full Year,2014-09-30,Department of Revenue,36,Revenue
+Sheriff,18566779,2015,Current Projection,Full Year,2014-09-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),247795565,2015,Current Projection,Full Year,2014-09-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Sanitation,92469955,2015,Current Projection,Full Year,2014-09-30,Streets: Sanitation,12S,
+Streets-Transportation,31941321,2015,Current Projection,Full Year,2014-09-30,Streets: Transportation,12T,
+Youth Commission,142296,2015,Current Projection,Full Year,2014-09-30,Youth Commission,47,

@@ -1,0 +1,337 @@
+full_time_positions,class_100_total,class_100_ot,fiscal_year,variable,time_period,dept_name_raw,as_of_date,dept_name,abbreviation,dept_code
+2,180906,2530,2015,Actual,Full Year,Atwater Kent Museum,2015-06-30,Atwater Kent Museum,Atwater Kent,18
+3,223470,2687,2016,Actual,Full Year,Atwater Kent Museum,2016-06-30,Atwater Kent Museum,Atwater Kent,18
+4,248440,3134,2017,Actual,Full Year,Atwater Kent Museum,2017-06-30,Atwater Kent Museum,Atwater Kent,18
+4,251897,0,2018,Adopted Budget,Full Year,Atwater Kent Museum,2018-06-30,Atwater Kent Museum,Atwater Kent,18
+4,247148,2300,2018,Target Budget,Full Year,Atwater Kent Museum,2018-06-30,Atwater Kent Museum,Atwater Kent,18
+4,247148,2300,2018,Current Projection,Full Year,Atwater Kent Museum,2018-06-30,Atwater Kent Museum,Atwater Kent,18
+129,7599194,138581,2015,Actual,Full Year,Auditing,2015-06-30,City Controller's Office,,61
+137,7994175,66941,2016,Actual,Full Year,Auditing,2016-06-30,City Controller's Office,,61
+127,8055899,13807,2017,Actual,Full Year,Auditing,2017-06-30,City Controller's Office,,61
+140,8426765,50000,2018,Adopted Budget,Full Year,Auditing,2018-06-30,City Controller's Office,,61
+140,8173054,100000,2018,Target Budget,Full Year,Auditing,2018-06-30,City Controller's Office,,61
+116,8173054,100000,2018,Current Projection,Full Year,Auditing,2018-06-30,City Controller's Office,,61
+9,843844,0,2015,Actual,Full Year,Board of Ethics,2015-06-30,Board of Ethics,,45
+10,862716,0,2016,Actual,Full Year,Board of Ethics,2016-06-30,Board of Ethics,,45
+11,920605,0,2017,Actual,Full Year,Board of Ethics,2017-06-30,Board of Ethics,,45
+12,985489,0,2018,Adopted Budget,Full Year,Board of Ethics,2018-06-30,Board of Ethics,,45
+12,963764,0,2018,Target Budget,Full Year,Board of Ethics,2018-06-30,Board of Ethics,,45
+10,963764,0,2018,Current Projection,Full Year,Board of Ethics,2018-06-30,Board of Ethics,,45
+12,985057,0,2015,Actual,Full Year,Board of Revision of Taxes,2015-06-30,Board of Revision of Taxes,BRT,63
+14,890697,0,2016,Actual,Full Year,Board of Revision of Taxes,2016-06-30,Board of Revision of Taxes,BRT,63
+13,898026,0,2017,Actual,Full Year,Board of Revision of Taxes,2017-06-30,Board of Revision of Taxes,BRT,63
+16,942999,0,2018,Adopted Budget,Full Year,Board of Revision of Taxes,2018-06-30,Board of Revision of Taxes,BRT,63
+16,919050,0,2018,Target Budget,Full Year,Board of Revision of Taxes,2018-06-30,Board of Revision of Taxes,BRT,63
+11,919050,0,2018,Current Projection,Full Year,Board of Revision of Taxes,2018-06-30,Board of Revision of Taxes,BRT,63
+91,5192287,916270,2015,Actual,Full Year,City Commissioners,2015-06-30,City Commissioner's Office,City Commissioners,73
+92,5514242,1041102,2016,Actual,Full Year,City Commissioners,2016-06-30,City Commissioner's Office,City Commissioners,73
+99,5960120,1140928,2017,Actual,Full Year,City Commissioners,2017-06-30,City Commissioner's Office,City Commissioners,73
+102,5872200,841419,2018,Adopted Budget,Full Year,City Commissioners,2018-06-30,City Commissioner's Office,City Commissioners,73
+102,5839015,841419,2018,Target Budget,Full Year,City Commissioners,2018-06-30,City Commissioner's Office,City Commissioners,73
+100,5839015,841419,2018,Current Projection,Full Year,City Commissioners,2018-06-30,City Commissioner's Office,City Commissioners,73
+176,12339907,10351,2015,Actual,Full Year,City Council,2015-06-30,City Council,,01
+187,12842195,20234,2016,Actual,Full Year,City Council,2016-06-30,City Council,,01
+194,13295341,35812,2017,Actual,Full Year,City Council,2017-06-30,City Council,,01
+195,15207111,0,2018,Adopted Budget,Full Year,City Council,2018-06-30,City Council,,01
+195,14824858,10000,2018,Target Budget,Full Year,City Council,2018-06-30,City Council,,01
+192,14824858,10000,2018,Current Projection,Full Year,City Council,2018-06-30,City Council,,01
+29,2176554,1055,2015,Actual,Full Year,City Planning Commission,2015-06-30,City Planning Commission,,51
+31,2211557,0,2016,Actual,Full Year,City Planning Commission,2016-06-30,City Planning Commission,,51
+30,2351776,7270,2017,Actual,Full Year,City Planning Commission,2017-06-30,City Planning Commission,,51
+0,0,0,2018,Adopted Budget,Full Year,City Planning Commission,2018-06-30,City Planning Commission,,51
+0,0,0,2018,Target Budget,Full Year,City Planning Commission,2018-06-30,City Planning Commission,,51
+0,0,0,2018,Current Projection,Full Year,City Planning Commission,2018-06-30,City Planning Commission,,51
+6,417223,8737,2015,Actual,Full Year,City Representative,2015-06-30,Office of the City Representative,City Rep,41
+7,453196,7828,2016,Actual,Full Year,City Representative,2016-06-30,Office of the City Representative,City Rep,41
+6,505031,4291,2017,Actual,Full Year,City Representative,2017-06-30,Office of the City Representative,City Rep,41
+8,601690,7878,2018,Adopted Budget,Full Year,City Representative,2018-06-30,Office of the City Representative,City Rep,41
+8,671438,5878,2018,Target Budget,Full Year,City Representative,2018-06-30,Office of the City Representative,City Rep,41
+9,671438,5878,2018,Current Projection,Full Year,City Representative,2018-06-30,Office of the City Representative,City Rep,41
+14,802019,0,2015,Actual,Full Year,City Treasurer,2015-06-30,Office of the City Treasurer,City Treasurer,40
+15,985689,1049,2016,Actual,Full Year,City Treasurer,2016-06-30,Office of the City Treasurer,City Treasurer,40
+14,979945,290,2017,Actual,Full Year,City Treasurer,2017-06-30,Office of the City Treasurer,City Treasurer,40
+16,1062869,1000,2018,Adopted Budget,Full Year,City Treasurer,2018-06-30,Office of the City Treasurer,City Treasurer,40
+16,1038648,1000,2018,Target Budget,Full Year,City Treasurer,2018-06-30,Office of the City Treasurer,City Treasurer,40
+15,1038648,1000,2018,Current Projection,Full Year,City Treasurer,2018-06-30,Office of the City Treasurer,City Treasurer,40
+2,153885,15,2015,Actual,Full Year,Civil Service Commission,2015-06-30,Civil Service Commission,,55
+2,150173,0,2016,Actual,Full Year,Civil Service Commission,2016-06-30,Civil Service Commission,,55
+2,161212,0,2017,Actual,Full Year,Civil Service Commission,2017-06-30,Civil Service Commission,,55
+2,166376,0,2018,Adopted Budget,Full Year,Civil Service Commission,2018-06-30,Civil Service Commission,,55
+2,162437,0,2018,Target Budget,Full Year,Civil Service Commission,2018-06-30,Civil Service Commission,,55
+2,162437,0,2018,Current Projection,Full Year,Civil Service Commission,2018-06-30,Civil Service Commission,,55
+21,1925310,2628,2015,Actual,Full Year,Commerce,2015-06-30,Office of the Director of Commerce,Commerce,42
+34,2351610,1717,2016,Actual,Full Year,Commerce,2016-06-30,Office of the Director of Commerce,Commerce,42
+28,2393155,914,2017,Actual,Full Year,Commerce,2017-06-30,Office of the Director of Commerce,Commerce,42
+33,2340461,0,2018,Adopted Budget,Full Year,Commerce,2018-06-30,Office of the Director of Commerce,Commerce,42
+33,2122660,2000,2018,Target Budget,Full Year,Commerce,2018-06-30,Office of the Director of Commerce,Commerce,42
+31,2122660,2000,2018,Current Projection,Full Year,Commerce,2018-06-30,Office of the Director of Commerce,Commerce,42
+476,32780607,211533,2015,Actual,Full Year,District Attorney,2015-06-30,District Attorney's Office,DAO,69
+478,32810833,156060,2016,Actual,Full Year,District Attorney,2016-06-30,District Attorney's Office,DAO,69
+492,32689069,54772,2017,Actual,Full Year,District Attorney,2017-06-30,District Attorney's Office,DAO,69
+525,34686670,73819,2018,Adopted Budget,Full Year,District Attorney,2018-06-30,District Attorney's Office,DAO,69
+505,33275547,73819,2018,Target Budget,Full Year,District Attorney,2018-06-30,District Attorney's Office,DAO,69
+455,33275547,73819,2018,Current Projection,Full Year,District Attorney,2018-06-30,District Attorney's Office,DAO,69
+160,8509691,35786,2015,Actual,Full Year,Finance,2015-06-30,Office of the Director of Finance,Finance,35
+165,8230613,28879,2016,Actual,Full Year,Finance,2016-06-30,Office of the Director of Finance,Finance,35
+111,6669543,18058,2017,Actual,Full Year,Finance,2017-06-30,Office of the Director of Finance,Finance,35
+118,7328177,34475,2018,Adopted Budget,Full Year,Finance,2018-06-30,Office of the Director of Finance,Finance,35
+118,7024765,34475,2018,Target Budget,Full Year,Finance,2018-06-30,Office of the Director of Finance,Finance,35
+115,7024765,34475,2018,Current Projection,Full Year,Finance,2018-06-30,Office of the Director of Finance,Finance,35
+0,2006770,0,2015,Actual,Full Year,Finance Reg #32 Disability,2015-06-30,Finance: Reg #32,,35R32
+0,2588806,0,2016,Actual,Full Year,Finance Reg #32 Disability,2016-06-30,Finance: Reg #32,,35R32
+0,1987825,0,2017,Actual,Full Year,Finance Reg #32 Disability,2017-06-30,Finance: Reg #32,,35R32
+0,0,0,2018,Adopted Budget,Full Year,Finance Reg #32 Disability,2018-06-30,Finance: Reg #32,,35R32
+0,2650000,0,2018,Target Budget,Full Year,Finance Reg #32 Disability,2018-06-30,Finance: Reg #32,,35R32
+0,2650000,0,2018,Current Projection,Full Year,Finance Reg #32 Disability,2018-06-30,Finance: Reg #32,,35R32
+2150,208073020,36119936,2015,Actual,Full Year,Fire,2015-06-30,Fire Department,Fire,13
+2316,219101252,37417517,2016,Actual,Full Year,Fire,2016-06-30,Fire Department,Fire,13
+2281,214434520,25016458,2017,Actual,Full Year,Fire,2017-06-30,Fire Department,Fire,13
+2606,225242832,20418337,2018,Adopted Budget,Full Year,Fire,2018-06-30,Fire Department,Fire,13
+2576,247196130,32118337,2018,Target Budget,Full Year,Fire,2018-06-30,Fire Department,Fire,13
+2511,247196130,32118337,2018,Current Projection,Full Year,Fire,2018-06-30,Fire Department,Fire,13
+1842,98382318,104588,2015,Actual,Full Year,First Judicial District,2015-06-30,First Judicial District,FJD,84
+1839,97017514,426210,2016,Actual,Full Year,First Judicial District,2016-06-30,First Judicial District,FJD,84
+1856,94649818,7095,2017,Actual,Full Year,First Judicial District,2017-06-30,First Judicial District,FJD,84
+1877,99505601,94840,2018,Adopted Budget,Full Year,First Judicial District,2018-06-30,First Judicial District,FJD,84
+1877,97561721,44840,2018,Target Budget,Full Year,First Judicial District,2018-06-30,First Judicial District,FJD,84
+1867,97561721,44840,2018,Current Projection,Full Year,First Judicial District,2018-06-30,First Judicial District,FJD,84
+261,17168958,3027989,2015,Actual,Full Year,Fleet Management,2015-06-30,Office of Fleet Management,Fleet,25
+263,17275918,3253678,2016,Actual,Full Year,Fleet Management,2016-06-30,Office of Fleet Management,Fleet,25
+270,16491089,2126729,2017,Actual,Full Year,Fleet Management,2017-06-30,Office of Fleet Management,Fleet,25
+316,18009259,1768574,2018,Adopted Budget,Full Year,Fleet Management,2018-06-30,Office of Fleet Management,Fleet,25
+316,17993069,1918574,2018,Target Budget,Full Year,Fleet Management,2018-06-30,Office of Fleet Management,Fleet,25
+281,17993069,1918574,2018,Current Projection,Full Year,Fleet Management,2018-06-30,Office of Fleet Management,Fleet,25
+642,35306130,1502862,2015,Actual,Full Year,Free Library,2015-06-30,The Free Library of Philadelphia,Free Library,52
+636,34808182,1672235,2016,Actual,Full Year,Free Library,2016-06-30,The Free Library of Philadelphia,Free Library,52
+643,35905717,1762275,2017,Actual,Full Year,Free Library,2017-06-30,The Free Library of Philadelphia,Free Library,52
+692,36310826,877404,2018,Adopted Budget,Full Year,Free Library,2018-06-30,The Free Library of Philadelphia,Free Library,52
+672,36645294,1677404,2018,Target Budget,Full Year,Free Library,2018-06-30,The Free Library of Philadelphia,Free Library,52
+649,36645294,1677404,2018,Current Projection,Full Year,Free Library,2018-06-30,The Free Library of Philadelphia,Free Library,52
+6,383402,0,2015,Actual,Full Year,Historical Commission,2015-06-30,Historical Commission,,32
+5,341606,0,2016,Actual,Full Year,Historical Commission,2016-06-30,Historical Commission,,32
+6,400662,0,2017,Actual,Full Year,Historical Commission,2017-06-30,Historical Commission,,32
+0,0,0,2018,Adopted Budget,Full Year,Historical Commission,2018-06-30,Historical Commission,,32
+0,0,0,2018,Target Budget,Full Year,Historical Commission,2018-06-30,Historical Commission,,32
+0,0,0,2018,Current Projection,Full Year,Historical Commission,2018-06-30,Historical Commission,,32
+30,1779986,0,2015,Actual,Full Year,Human Relations Commission,2015-06-30,Commission on Human Relations,Human Relations,54
+32,1837948,0,2016,Actual,Full Year,Human Relations Commission,2016-06-30,Commission on Human Relations,Human Relations,54
+31,1949691,0,2017,Actual,Full Year,Human Relations Commission,2017-06-30,Commission on Human Relations,Human Relations,54
+34,2141591,0,2018,Adopted Budget,Full Year,Human Relations Commission,2018-06-30,Commission on Human Relations,Human Relations,54
+34,2107182,0,2018,Target Budget,Full Year,Human Relations Commission,2018-06-30,Commission on Human Relations,Human Relations,54
+32,2107182,0,2018,Current Projection,Full Year,Human Relations Commission,2018-06-30,Commission on Human Relations,Human Relations,54
+395,17570666,4532830,2015,Actual,Full Year,Human Services,2015-06-30,Department of Human Services,DHS,22
+449,21714429,1523769,2016,Actual,Full Year,Human Services,2016-06-30,Department of Human Services,DHS,22
+385,26260507,5627057,2017,Actual,Full Year,Human Services,2017-06-30,Department of Human Services,DHS,22
+517,30720570,3733806,2018,Adopted Budget,Full Year,Human Services,2018-06-30,Department of Human Services,DHS,22
+517,30720570,3733806,2018,Target Budget,Full Year,Human Services,2018-06-30,Department of Human Services,DHS,22
+517,30720570,3733806,2018,Current Projection,Full Year,Human Services,2018-06-30,Department of Human Services,DHS,22
+7,657403,3289,2015,Actual,Full Year,Labor,2015-06-30,Labor,,03
+7,496053,0,2016,Actual,Full Year,Labor,2016-06-30,Labor,,03
+16,919175,0,2017,Actual,Full Year,Labor,2017-06-30,Labor,,03
+23,1588459,0,2018,Adopted Budget,Full Year,Labor,2018-06-30,Labor,,03
+23,1529661,100,2018,Target Budget,Full Year,Labor,2018-06-30,Labor,,03
+20,1529661,100,2018,Current Projection,Full Year,Labor,2018-06-30,Labor,,03
+152,6952307,70,2015,Actual,Full Year,Law,2015-06-30,Law Department,Law,44
+126,7405269,99,2016,Actual,Full Year,Law,2016-06-30,Law Department,Law,44
+119,8085037,0,2017,Actual,Full Year,Law,2017-06-30,Law Department,Law,44
+155,8484481,100,2018,Adopted Budget,Full Year,Law,2018-06-30,Law Department,Law,44
+155,8411840,2000,2018,Target Budget,Full Year,Law,2018-06-30,Law Department,Law,44
+121,8411840,2000,2018,Current Projection,Full Year,Law,2018-06-30,Law Department,Law,44
+335,17339944,1510382,2015,Actual,Full Year,Licenses & Inspections,2015-06-30,Department of Licenses and Inspections,L&I,26
+335,18606512,1812827,2016,Actual,Full Year,Licenses & Inspections,2016-06-30,Department of Licenses and Inspections,L&I,26
+348,19578047,1563457,2017,Actual,Full Year,Licenses & Inspections,2017-06-30,Department of Licenses and Inspections,L&I,26
+429,23019730,1220825,2018,Adopted Budget,Full Year,Licenses & Inspections,2018-06-30,Department of Licenses and Inspections,L&I,26
+429,22472640,1220825,2018,Target Budget,Full Year,Licenses & Inspections,2018-06-30,Department of Licenses and Inspections,L&I,26
+396,22472640,1220825,2018,Current Projection,Full Year,Licenses & Inspections,2018-06-30,Department of Licenses and Inspections,L&I,26
+1,63025,417,2015,Actual,Full Year,L&I-Board of Building Standards,2015-06-30,L&I: Board of Building and Standards,,29
+1,67890,220,2016,Actual,Full Year,L&I-Board of Building Standards,2016-06-30,L&I: Board of Building and Standards,,29
+1,69683,117,2017,Actual,Full Year,L&I-Board of Building Standards,2017-06-30,L&I: Board of Building and Standards,,29
+1,75419,0,2018,Adopted Budget,Full Year,L&I-Board of Building Standards,2018-06-30,L&I: Board of Building and Standards,,29
+1,73911,250,2018,Target Budget,Full Year,L&I-Board of Building Standards,2018-06-30,L&I: Board of Building and Standards,,29
+1,73911,250,2018,Current Projection,Full Year,L&I-Board of Building Standards,2018-06-30,L&I: Board of Building and Standards,,29
+2,127421,2364,2015,Actual,Full Year,L&I-Board of L & Review,2015-06-30,L&I: Board of Review,,27
+2,139762,1788,2016,Actual,Full Year,L&I-Board of L & Review,2016-06-30,L&I: Board of Review,,27
+2,148864,1132,2017,Actual,Full Year,L&I-Board of L & Review,2017-06-30,L&I: Board of Review,,27
+2,161349,0,2018,Adopted Budget,Full Year,L&I-Board of L & Review,2018-06-30,L&I: Board of Review,,27
+2,157913,3000,2018,Target Budget,Full Year,L&I-Board of L & Review,2018-06-30,L&I: Board of Review,,27
+2,157913,3000,2018,Current Projection,Full Year,L&I-Board of L & Review,2018-06-30,L&I: Board of Review,,27
+5,339261,984,2015,Actual,Full Year,L&I-Zoning Board of Adjustment,2015-06-30,Zoning Board of Adjustments,ZBA,30
+5,326821,2131,2016,Actual,Full Year,L&I-Zoning Board of Adjustment,2016-06-30,Zoning Board of Adjustments,ZBA,30
+5,320504,402,2017,Actual,Full Year,L&I-Zoning Board of Adjustment,2017-06-30,Zoning Board of Adjustments,ZBA,30
+0,0,0,2018,Adopted Budget,Full Year,L&I-Zoning Board of Adjustment,2018-06-30,Zoning Board of Adjustments,ZBA,30
+0,0,0,2018,Target Budget,Full Year,L&I-Zoning Board of Adjustment,2018-06-30,Zoning Board of Adjustments,ZBA,30
+0,0,0,2018,Current Projection,Full Year,L&I-Zoning Board of Adjustment,2018-06-30,Zoning Board of Adjustments,ZBA,30
+257,16162124,502416,2015,Actual,Full Year,Managing Director,2015-06-30,Managing Director's Office,MDO,10
+258,17601829,537197,2016,Actual,Full Year,Managing Director,2016-06-30,Managing Director's Office,MDO,10
+296,18885758,444040,2017,Actual,Full Year,Managing Director,2017-06-30,Managing Director's Office,MDO,10
+302,20231006,397676,2018,Adopted Budget,Full Year,Managing Director,2018-06-30,Managing Director's Office,MDO,10
+302,19705935,472676,2018,Target Budget,Full Year,Managing Director,2018-06-30,Managing Director's Office,MDO,10
+307,19705935,472676,2018,Current Projection,Full Year,Managing Director,2018-06-30,Managing Director's Office,MDO,10
+51,4099398,0,2015,Actual,Full Year,Mayor's Office,2015-06-30,Mayor's Office,Mayor,05
+48,3960415,0,2016,Actual,Full Year,Mayor's Office,2016-06-30,Mayor's Office,Mayor,05
+42,3647357,0,2017,Actual,Full Year,Mayor's Office,2017-06-30,Mayor's Office,Mayor,05
+47,3835550,0,2018,Adopted Budget,Full Year,Mayor's Office,2018-06-30,Mayor's Office,Mayor,05
+47,3677406,0,2018,Target Budget,Full Year,Mayor's Office,2018-06-30,Mayor's Office,Mayor,05
+41,3677406,0,2018,Current Projection,Full Year,Mayor's Office,2018-06-30,Mayor's Office,Mayor,05
+0,0,0,2015,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2015-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,90000,0,2016,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2016-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+0,90000,0,2017,Actual,Full Year,Mayor's Office of Community Empowerment and Opportunity,2017-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+2,230000,0,2018,Adopted Budget,Full Year,Mayor's Office of Community Empowerment and Opportunity,2018-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+2,228000,0,2018,Target Budget,Full Year,Mayor's Office of Community Empowerment and Opportunity,2018-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+2,228000,0,2018,Current Projection,Full Year,Mayor's Office of Community Empowerment and Opportunity,2018-06-30,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+12,508786,113,2015,Actual,Full Year,Mayor's Office of Transportation and Utilities,2015-06-30,Mayor's Office of Transportation and Utilities,,46
+8,473894,131,2016,Actual,Full Year,Mayor's Office of Transportation and Utilities,2016-06-30,Mayor's Office of Transportation and Utilities,,46
+0,0,0,2017,Actual,Full Year,Mayor's Office of Transportation and Utilities,2017-06-30,Mayor's Office of Transportation and Utilities,,46
+0,0,0,2018,Adopted Budget,Full Year,Mayor's Office of Transportation and Utilities,2018-06-30,Mayor's Office of Transportation and Utilities,,46
+0,0,0,2018,Target Budget,Full Year,Mayor's Office of Transportation and Utilities,2018-06-30,Mayor's Office of Transportation and Utilities,,46
+0,0,0,2018,Current Projection,Full Year,Mayor's Office of Transportation and Utilities,2018-06-30,Mayor's Office of Transportation and Utilities,,46
+10,456445,10642,2015,Actual,Full Year,Mural Arts Program,2015-06-30,Mural Arts Program,Mural Arts,50
+11,495213,13832,2016,Actual,Full Year,Mural Arts Program,2016-06-30,Mural Arts Program,Mural Arts,50
+10,528228,14905,2017,Actual,Full Year,Mural Arts Program,2017-06-30,Mural Arts Program,Mural Arts,50
+11,548987,13864,2018,Adopted Budget,Full Year,Mural Arts Program,2018-06-30,Mural Arts Program,Mural Arts,50
+11,533401,32000,2018,Target Budget,Full Year,Mural Arts Program,2018-06-30,Mural Arts Program,Mural Arts,50
+11,533401,32000,2018,Current Projection,Full Year,Mural Arts Program,2018-06-30,Mural Arts Program,Mural Arts,50
+2,200440,0,2015,Actual,Full Year,Office of Arts and Culture,2015-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+2,308789,0,2016,Actual,Full Year,Office of Arts and Culture,2016-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+4,236770,0,2017,Actual,Full Year,Office of Arts and Culture,2017-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+4,319878,0,2018,Adopted Budget,Full Year,Office of Arts and Culture,2018-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+4,291968,0,2018,Target Budget,Full Year,Office of Arts and Culture,2018-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+5,291968,0,2018,Current Projection,Full Year,Office of Arts and Culture,2018-06-30,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+14,991846,1005,2015,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2015-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+16,995153,5195,2016,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2016-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+16,1006269,9922,2017,Actual,Full Year,Office of Behavioral Health and Intellectual disAbility,2017-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+16,1093064,6000,2018,Adopted Budget,Full Year,Office of Behavioral Health and Intellectual disAbility,2018-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+16,1074894,6000,2018,Target Budget,Full Year,Office of Behavioral Health and Intellectual disAbility,2018-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+16,1074894,6000,2018,Current Projection,Full Year,Office of Behavioral Health and Intellectual disAbility,2018-06-30,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+0,0,0,2015,Actual,Full Year,Office of the Chief Administrative Officer,2015-06-30,Office of the Chief Administrative Officer,CAO,65
+0,0,0,2016,Actual,Full Year,Office of the Chief Administrative Officer,2016-06-30,Office of the Chief Administrative Officer,CAO,65
+55,3830324,6608,2017,Actual,Full Year,Office of the Chief Administrative Officer,2017-06-30,Office of the Chief Administrative Officer,CAO,65
+62,4084873,10000,2018,Adopted Budget,Full Year,Office of the Chief Administrative Officer,2018-06-30,Office of the Chief Administrative Officer,CAO,65
+62,4028021,11000,2018,Target Budget,Full Year,Office of the Chief Administrative Officer,2018-06-30,Office of the Chief Administrative Officer,CAO,65
+58,4028021,11000,2018,Current Projection,Full Year,Office of the Chief Administrative Officer,2018-06-30,Office of the Chief Administrative Officer,CAO,65
+0,0,0,2015,Actual,Full Year,Office of Community Schools and Pre-K,2015-06-30,Office of Children and Families,OCF,66
+0,0,0,2016,Actual,Full Year,Office of Community Schools and Pre-K,2016-06-30,Office of Children and Families,OCF,66
+32,1933963,0,2017,Actual,Full Year,Office of Community Schools and Pre-K,2017-06-30,Office of Children and Families,OCF,66
+36,2679927,0,2018,Adopted Budget,Full Year,Office of Community Schools and Pre-K,2018-06-30,Office of Children and Families,OCF,66
+36,2592084,0,2018,Target Budget,Full Year,Office of Community Schools and Pre-K,2018-06-30,Office of Children and Families,OCF,66
+33,2592084,0,2018,Current Projection,Full Year,Office of Community Schools and Pre-K,2018-06-30,Office of Children and Families,OCF,66
+135,8234304,240634,2015,Actual,Full Year,Office of Homeless Services,2015-06-30,Office of Homeless Services,OHS,24
+146,8241791,302491,2016,Actual,Full Year,Office of Homeless Services,2016-06-30,Office of Homeless Services,OHS,24
+146,8491983,201512,2017,Actual,Full Year,Office of Homeless Services,2017-06-30,Office of Homeless Services,OHS,24
+157,8802194,245349,2018,Adopted Budget,Full Year,Office of Homeless Services,2018-06-30,Office of Homeless Services,OHS,24
+157,8516821,175349,2018,Target Budget,Full Year,Office of Homeless Services,2018-06-30,Office of Homeless Services,OHS,24
+150,8516821,175349,2018,Current Projection,Full Year,Office of Homeless Services,2018-06-30,Office of Homeless Services,OHS,24
+82,5083865,62199,2015,Actual,Full Year,Office of Human Resources,2015-06-30,Office of Human Resources,OHR,56
+84,5313085,58916,2016,Actual,Full Year,Office of Human Resources,2016-06-30,Office of Human Resources,OHR,56
+85,5327367,48476,2017,Actual,Full Year,Office of Human Resources,2017-06-30,Office of Human Resources,OHR,56
+81,4983106,46902,2018,Adopted Budget,Full Year,Office of Human Resources,2018-06-30,Office of Human Resources,OHR,56
+81,4839227,51902,2018,Target Budget,Full Year,Office of Human Resources,2018-06-30,Office of Human Resources,OHR,56
+78,4839227,51902,2018,Current Projection,Full Year,Office of Human Resources,2018-06-30,Office of Human Resources,OHR,56
+261,18927722,804969,2015,Actual,Full Year,Office of Innovation and Technology,2015-06-30,Office of Innovation and Technology,OIT,04
+271,19807002,706984,2016,Actual,Full Year,Office of Innovation and Technology,2016-06-30,Office of Innovation and Technology,OIT,04
+274,19875293,664825,2017,Actual,Full Year,Office of Innovation and Technology,2017-06-30,Office of Innovation and Technology,OIT,04
+294,21019003,713873,2018,Adopted Budget,Full Year,Office of Innovation and Technology,2018-06-30,Office of Innovation and Technology,OIT,04
+294,20644817,588873,2018,Target Budget,Full Year,Office of Innovation and Technology,2018-06-30,Office of Innovation and Technology,OIT,04
+284,20644817,588873,2018,Current Projection,Full Year,Office of Innovation and Technology,2018-06-30,Office of Innovation and Technology,OIT,04
+18,1289745,0,2015,Actual,Full Year,Office of the Inspector General,2015-06-30,Office of the Inspector General,OIG,48
+19,1373644,0,2016,Actual,Full Year,Office of the Inspector General,2016-06-30,Office of the Inspector General,OIG,48
+18,1355599,0,2017,Actual,Full Year,Office of the Inspector General,2017-06-30,Office of the Inspector General,OIG,48
+19,1444811,0,2018,Adopted Budget,Full Year,Office of the Inspector General,2018-06-30,Office of the Inspector General,OIG,48
+19,1524111,0,2018,Target Budget,Full Year,Office of the Inspector General,2018-06-30,Office of the Inspector General,OIG,48
+19,1524111,0,2018,Current Projection,Full Year,Office of the Inspector General,2018-06-30,Office of the Inspector General,OIG,48
+0,0,0,2015,Actual,Full Year,Office of Planning and Development,2015-06-30,Mayor's Office of Planning and Development,,62
+0,0,0,2016,Actual,Full Year,Office of Planning and Development,2016-06-30,Mayor's Office of Planning and Development,,62
+4,450687,0,2017,Actual,Full Year,Office of Planning and Development,2017-06-30,Mayor's Office of Planning and Development,,62
+0,0,0,2018,Adopted Budget,Full Year,Office of Planning and Development,2018-06-30,Mayor's Office of Planning and Development,,62
+0,0,0,2018,Target Budget,Full Year,Office of Planning and Development,2018-06-30,Mayor's Office of Planning and Development,,62
+0,0,0,2018,Current Projection,Full Year,Office of Planning and Development,2018-06-30,Mayor's Office of Planning and Development,,62
+186,10683762,43298,2015,Actual,Full Year,Office of Property Assessment,2015-06-30,Office of Property Assessment,OPA,59
+200,10675256,29129,2016,Actual,Full Year,Office of Property Assessment,2016-06-30,Office of Property Assessment,OPA,59
+199,11324075,59841,2017,Actual,Full Year,Office of Property Assessment,2017-06-30,Office of Property Assessment,OPA,59
+223,11313100,50000,2018,Adopted Budget,Full Year,Office of Property Assessment,2018-06-30,Office of Property Assessment,OPA,59
+223,11483381,40000,2018,Target Budget,Full Year,Office of Property Assessment,2018-06-30,Office of Property Assessment,OPA,59
+193,11483381,40000,2018,Current Projection,Full Year,Office of Property Assessment,2018-06-30,Office of Property Assessment,OPA,59
+0,0,0,2015,Actual,Full Year,Office of Sustainability,2015-06-30,Office of Sustainability,Sustainability,49
+8,488757,0,2016,Actual,Full Year,Office of Sustainability,2016-06-30,Office of Sustainability,Sustainability,49
+7,513653,0,2017,Actual,Full Year,Office of Sustainability,2017-06-30,Office of Sustainability,Sustainability,49
+8,557790,0,2018,Adopted Budget,Full Year,Office of Sustainability,2018-06-30,Office of Sustainability,Sustainability,49
+8,518596,1000,2018,Target Budget,Full Year,Office of Sustainability,2018-06-30,Office of Sustainability,Sustainability,49
+9,518596,1000,2018,Current Projection,Full Year,Office of Sustainability,2018-06-30,Office of Sustainability,Sustainability,49
+598,42597872,3047922,2015,Actual,Full Year,Parks and Recreation,2015-06-30,Department of Parks and Recreation,Parks & Recreation,16
+593,42943935,3538293,2016,Actual,Full Year,Parks and Recreation,2016-06-30,Department of Parks and Recreation,Parks & Recreation,16
+607,43978477,3525788,2017,Actual,Full Year,Parks and Recreation,2017-06-30,Department of Parks and Recreation,Parks & Recreation,16
+748,46948421,2875000,2018,Adopted Budget,Full Year,Parks and Recreation,2018-06-30,Department of Parks and Recreation,Parks & Recreation,16
+698,46383861,3275000,2018,Target Budget,Full Year,Parks and Recreation,2018-06-30,Department of Parks and Recreation,Parks & Recreation,16
+629,46383861,3275000,2018,Current Projection,Full Year,Parks and Recreation,2018-06-30,Department of Parks and Recreation,Parks & Recreation,16
+0,0,0,2015,Actual,Full Year,Planning and Development,2015-06-30,Department of Planning and Development,Planning & Development,72
+0,0,0,2016,Actual,Full Year,Planning and Development,2016-06-30,Department of Planning and Development,Planning & Development,72
+0,0,0,2017,Actual,Full Year,Planning and Development,2017-06-30,Department of Planning and Development,Planning & Development,72
+47,3899308,0,2018,Adopted Budget,Full Year,Planning and Development,2018-06-30,Department of Planning and Development,Planning & Development,72
+47,4050650,10000,2018,Target Budget,Full Year,Planning and Development,2018-06-30,Department of Planning and Development,Planning & Development,72
+49,4050650,10000,2018,Current Projection,Full Year,Planning and Development,2018-06-30,Department of Planning and Development,Planning & Development,72
+7061,598373325,53258363,2015,Actual,Full Year,Police,2015-06-30,Police Department,Police,11
+6942,626772728,63967116,2016,Actual,Full Year,Police,2016-06-30,Police Department,Police,11
+6986,631459043,66360482,2017,Actual,Full Year,Police,2017-06-30,Police Department,Police,11
+7371,631372338,57575000,2018,Adopted Budget,Full Year,Police,2018-06-30,Police Department,Police,11
+7371,670608411,73468788,2018,Target Budget,Full Year,Police,2018-06-30,Police Department,Police,11
+7172,670608411,73468788,2018,Current Projection,Full Year,Police,2018-06-30,Police Department,Police,11
+2286,137498897,30387059,2015,Actual,Full Year,Prisons,2015-06-30,Philadelphia Prison System,Prisons,23
+2289,141068023,29578749,2016,Actual,Full Year,Prisons,2016-06-30,Philadelphia Prison System,Prisons,23
+2277,148514858,31197142,2017,Actual,Full Year,Prisons,2017-06-30,Philadelphia Prison System,Prisons,23
+2325,147427858,30039861,2018,Adopted Budget,Full Year,Prisons,2018-06-30,Philadelphia Prison System,Prisons,23
+2285,152214243,34108863,2018,Target Budget,Full Year,Prisons,2018-06-30,Philadelphia Prison System,Prisons,23
+2177,152214243,34108863,2018,Current Projection,Full Year,Prisons,2018-06-30,Philadelphia Prison System,Prisons,23
+44,2333610,9253,2015,Actual,Full Year,Procurement,2015-06-30,Procurement Department,Procurement,38
+42,2278649,28309,2016,Actual,Full Year,Procurement,2016-06-30,Procurement Department,Procurement,38
+44,2420035,28835,2017,Actual,Full Year,Procurement,2017-06-30,Procurement Department,Procurement,38
+51,2566732,35000,2018,Adopted Budget,Full Year,Procurement,2018-06-30,Procurement Department,Procurement,38
+51,2465524,15000,2018,Target Budget,Full Year,Procurement,2018-06-30,Procurement Department,Procurement,38
+46,2465524,15000,2018,Current Projection,Full Year,Procurement,2018-06-30,Procurement Department,Procurement,38
+653,48078457,2210849,2015,Actual,Full Year,Public Health,2015-06-30,Department of Public Health,Public Health,14
+653,49832624,2443424,2016,Actual,Full Year,Public Health,2016-06-30,Department of Public Health,Public Health,14
+687,51023872,2266394,2017,Actual,Full Year,Public Health,2017-06-30,Department of Public Health,Public Health,14
+826,54454436,2039921,2018,Adopted Budget,Full Year,Public Health,2018-06-30,Department of Public Health,Public Health,14
+826,54417831,2139921,2018,Target Budget,Full Year,Public Health,2018-06-30,Department of Public Health,Public Health,14
+711,54417831,2139921,2018,Current Projection,Full Year,Public Health,2018-06-30,Department of Public Health,Public Health,14
+137,8217003,790708,2015,Actual,Full Year,Public Property,2015-06-30,Department of Public Property,Public Property,20
+135,8347891,914639,2016,Actual,Full Year,Public Property,2016-06-30,Department of Public Property,Public Property,20
+146,8654937,636933,2017,Actual,Full Year,Public Property,2017-06-30,Department of Public Property,Public Property,20
+158,8547886,361608,2018,Adopted Budget,Full Year,Public Property,2018-06-30,Department of Public Property,Public Property,20
+153,8328751,800000,2018,Target Budget,Full Year,Public Property,2018-06-30,Department of Public Property,Public Property,20
+135,8328751,800000,2018,Current Projection,Full Year,Public Property,2018-06-30,Department of Public Property,Public Property,20
+56,2816572,152654,2015,Actual,Full Year,Records,2015-06-30,Department of Records,Records,31
+57,2943408,230005,2016,Actual,Full Year,Records,2016-06-30,Department of Records,Records,31
+57,2822489,106687,2017,Actual,Full Year,Records,2017-06-30,Department of Records,Records,31
+63,3194935,126457,2018,Adopted Budget,Full Year,Records,2018-06-30,Department of Records,Records,31
+63,3187677,86457,2018,Target Budget,Full Year,Records,2018-06-30,Department of Records,Records,31
+57,3187677,86457,2018,Current Projection,Full Year,Records,2018-06-30,Department of Records,Records,31
+64,3538207,0,2015,Actual,Full Year,Register of Wills,2015-06-30,Register of Wills,,68
+69,3550052,0,2016,Actual,Full Year,Register of Wills,2016-06-30,Register of Wills,,68
+72,3842824,0,2017,Actual,Full Year,Register of Wills,2017-06-30,Register of Wills,,68
+74,3979046,0,2018,Adopted Budget,Full Year,Register of Wills,2018-06-30,Register of Wills,,68
+74,4115967,0,2018,Target Budget,Full Year,Register of Wills,2018-06-30,Register of Wills,,68
+71,4115967,0,2018,Current Projection,Full Year,Register of Wills,2018-06-30,Register of Wills,,68
+319,17661208,614697,2015,Actual,Full Year,Revenue,2015-06-30,Department of Revenue,Revenue,36
+378,18570671,748665,2016,Actual,Full Year,Revenue,2016-06-30,Department of Revenue,Revenue,36
+402,20417912,597862,2017,Actual,Full Year,Revenue,2017-06-30,Department of Revenue,Revenue,36
+436,22231193,610000,2018,Adopted Budget,Full Year,Revenue,2018-06-30,Department of Revenue,Revenue,36
+436,21933221,510000,2018,Target Budget,Full Year,Revenue,2018-06-30,Department of Revenue,Revenue,36
+414,21933221,510000,2018,Current Projection,Full Year,Revenue,2018-06-30,Department of Revenue,Revenue,36
+299,20317966,4744360,2015,Actual,Full Year,Sheriff,2015-06-30,Office of the Sheriff,Sheriff,70
+330,22280203,5677451,2016,Actual,Full Year,Sheriff,2016-06-30,Office of the Sheriff,Sheriff,70
+348,25144829,5748983,2017,Actual,Full Year,Sheriff,2017-06-30,Office of the Sheriff,Sheriff,70
+408,21522650,2276185,2018,Adopted Budget,Full Year,Sheriff,2018-06-30,Office of the Sheriff,Sheriff,70
+408,24766102,5876185,2018,Target Budget,Full Year,Sheriff,2018-06-30,Office of the Sheriff,Sheriff,70
+364,24766102,5876185,2018,Current Projection,Full Year,Sheriff,2018-06-30,Office of the Sheriff,Sheriff,70
+1664,80482323,15326601,2015,Actual,Full Year,Streets,2015-06-30,Streets Department,Streets,12
+1676,76874569,14565821,2016,Actual,Full Year,Streets,2016-06-30,Streets Department,Streets,12
+1702,76897341,13942643,2017,Actual,Full Year,Streets,2017-06-30,Streets Department,Streets,12
+1819,78481768,9075000,2018,Adopted Budget,Full Year,Streets,2018-06-30,Streets Department,Streets,12
+1794,78451856,14453666,2018,Target Budget,Full Year,Streets,2018-06-30,Streets Department,Streets,12
+1738,78451856,14453666,2018,Current Projection,Full Year,Streets,2018-06-30,Streets Department,Streets,12
+2,67175,0,2015,Actual,Full Year,Youth Commission,2015-06-30,Youth Commission,,47
+1,92488,0,2016,Actual,Full Year,Youth Commission,2016-06-30,Youth Commission,,47
+0,0,0,2017,Actual,Full Year,Youth Commission,2017-06-30,Youth Commission,,47
+0,0,0,2018,Adopted Budget,Full Year,Youth Commission,2018-06-30,Youth Commission,,47
+0,0,0,2018,Target Budget,Full Year,Youth Commission,2018-06-30,Youth Commission,,47
+0,0,0,2018,Current Projection,Full Year,Youth Commission,2018-06-30,Youth Commission,,47

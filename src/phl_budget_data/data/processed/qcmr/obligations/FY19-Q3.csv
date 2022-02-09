@@ -1,0 +1,451 @@
+dept_name_raw,total,fiscal_year,variable,time_period,as_of_date,dept_name,dept_code,abbreviation
+Art Museum Subsidy,2550500,2018,Actual,Full Year,2018-06-30,Art Museum,34,
+Atwater Kent Museum,306771,2018,Actual,Full Year,2018-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8762254,2018,Actual,Full Year,2018-06-30,City Controller's Office,61,
+Board of Ethics,974344,2018,Actual,Full Year,2018-06-30,Board of Ethics,45,
+Board of Revision of Taxes,952531,2018,Actual,Full Year,2018-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),10124526,2018,Actual,Full Year,2018-06-30,City Commissioner's Office,73,City Commissioners
+City Council,16959076,2018,Actual,Full Year,2018-06-30,City Council,01,
+City Planning Commission,0,2018,Actual,Full Year,2018-06-30,City Planning Commission,51,
+City Representative,1116837,2018,Actual,Full Year,2018-06-30,Office of the City Representative,41,City Rep
+City Treasurer,1177474,2018,Actual,Full Year,2018-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),193463,2018,Actual,Full Year,2018-06-30,Civil Service Commission,55,
+Commerce,5581442,2018,Actual,Full Year,2018-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2018,Actual,Full Year,2018-06-30,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,2854448,2018,Actual,Full Year,2018-06-30,Commerce: Economic Stimulus,42ES,
+District Attorney,35520200,2018,Actual,Full Year,2018-06-30,District Attorney's Office,69,DAO
+Finance,44263571,2018,Actual,Full Year,2018-06-30,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,0,2018,Actual,Full Year,2018-06-30,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,2556892,2018,Actual,Full Year,2018-06-30,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,0,2018,Actual,Full Year,2018-06-30,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,30409207,2018,Actual,Full Year,2018-06-30,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1314021386,2018,Actual,Full Year,2018-06-30,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,2000,2018,Actual,Full Year,2018-06-30,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,0,2018,Actual,Full Year,2018-06-30,Finance: Indemnities,35IN,
+Finance-Refunds,10202,2018,Actual,Full Year,2018-06-30,Finance: Refunds,35R,
+Finance-School District Contribution,104348281,2018,Actual,Full Year,2018-06-30,Finance: School District Contribution,35SD,
+Finance-Witness Fees,86141,2018,Actual,Full Year,2018-06-30,Finance: Witness Fees,35WF,
+Fire,268563285,2018,Actual,Full Year,2018-06-30,Fire Department,13,Fire
+First Judicial District,114171926,2018,Actual,Full Year,2018-06-30,First Judicial District,84,FJD
+Fleet Management,45083004,2018,Actual,Full Year,2018-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,19340817,2018,Actual,Full Year,2018-06-30,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,41794729,2018,Actual,Full Year,2018-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2018,Actual,Full Year,2018-06-30,Historical Commission,32,
+Human Relations Commission,2079631,2018,Actual,Full Year,2018-06-30,Commission on Human Relations,54,Human Relations
+Human Services,108622882,2018,Actual,Full Year,2018-06-30,Department of Human Services,22,DHS
+Labor,1445501,2018,Actual,Full Year,2018-06-30,Labor,03,
+Law,14800512,2018,Actual,Full Year,2018-06-30,Law Department,44,Law
+Licenses & Inspections,35400379,2018,Actual,Full Year,2018-06-30,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,67339,2018,Actual,Full Year,2018-06-30,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,153135,2018,Actual,Full Year,2018-06-30,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2018,Actual,Full Year,2018-06-30,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,43263090,2018,Actual,Full Year,2018-06-30,Managing Director's Office,10,MDO
+Managing Director-Legal Services,48824041,2018,Actual,Full Year,2018-06-30,MDO: Legal Services,10LS,
+Mayor's Office,4097960,2018,Actual,Full Year,2018-06-30,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,170500,2018,Actual,Full Year,2018-06-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,2146763,2018,Actual,Full Year,2018-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,1921140,2018,Actual,Full Year,2018-06-30,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4132910,2018,Actual,Full Year,2018-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,14683674,2018,Actual,Full Year,2018-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,5894030,2018,Actual,Full Year,2018-06-30,Office of the Chief Administrative Officer,65,CAO
+Office of Education,23073129,2018,Actual,Full Year,2018-06-30,Office of Children and Families,66,OCF
+Office of Homeless Services,48016836,2018,Actual,Full Year,2018-06-30,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2018,Actual,Full Year,2018-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,5626437,2018,Actual,Full Year,2018-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,61598068,2018,Actual,Full Year,2018-06-30,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,14748137,2018,Actual,Full Year,2018-06-30,OIT: 911,04911,
+Office of the Inspector General,1487259,2018,Actual,Full Year,2018-06-30,Office of the Inspector General,48,OIG
+Office of Property Assessment,13434758,2018,Actual,Full Year,2018-06-30,Office of Property Assessment,59,OPA
+Office of Sustainability,908498,2018,Actual,Full Year,2018-06-30,Office of Sustainability,49,Sustainability
+Parks and Recreation,64066064,2018,Actual,Full Year,2018-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,8216495,2018,Actual,Full Year,2018-06-30,Department of Planning and Development,72,Planning & Development
+Police,712744848,2018,Actual,Full Year,2018-06-30,Police Department,11,Police
+Prisons,258968396,2018,Actual,Full Year,2018-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4789509,2018,Actual,Full Year,2018-06-30,Procurement Department,38,Procurement
+Public Health,135237848,2018,Actual,Full Year,2018-06-30,Department of Public Health,14,Public Health
+Public Property,63077078,2018,Actual,Full Year,2018-06-30,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,81946000,2018,Actual,Full Year,2018-06-30,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,21553679,2018,Actual,Full Year,2018-06-30,Public Property: Space Rentals,20SR,
+Public Property-Utilities,24580646,2018,Actual,Full Year,2018-06-30,Public Property: Utilities,20U,
+Records,4429732,2018,Actual,Full Year,2018-06-30,Department of Records,31,Records
+Register of Wills,4126862,2018,Actual,Full Year,2018-06-30,Register of Wills,68,
+Revenue,29308141,2018,Actual,Full Year,2018-06-30,Department of Revenue,36,Revenue
+Sheriff,28432276,2018,Actual,Full Year,2018-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),265503720,2018,Actual,Full Year,2018-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,40077018,2018,Actual,Full Year,2018-06-30,Streets: Disposal,12D,
+Streets,112473629,2018,Actual,Full Year,2018-06-30,Streets Department,12,Streets
+Art Museum Subsidy,1912500,2019,Target Budget,YTD,2019-03-31,Art Museum,34,
+Atwater Kent Museum,187500,2019,Target Budget,YTD,2019-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),6533467,2019,Target Budget,YTD,2019-03-31,City Controller's Office,61,
+Board of Ethics,677568,2019,Target Budget,YTD,2019-03-31,Board of Ethics,45,
+Board of Revision of Taxes,719096,2019,Target Budget,YTD,2019-03-31,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),6951324,2019,Target Budget,YTD,2019-03-31,City Commissioner's Office,73,City Commissioners
+City Council,12187732,2019,Target Budget,YTD,2019-03-31,City Council,01,
+City Planning Commission,0,2019,Target Budget,YTD,2019-03-31,City Planning Commission,51,
+City Representative,810862,2019,Target Budget,YTD,2019-03-31,Office of the City Representative,41,City Rep
+City Treasurer,1322887,2019,Target Budget,YTD,2019-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),151789,2019,Target Budget,YTD,2019-03-31,Civil Service Commission,55,
+Commerce,5198823,2019,Target Budget,YTD,2019-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2019,Target Budget,YTD,2019-03-31,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1154121,2019,Target Budget,YTD,2019-03-31,Commerce: Economic Stimulus,42ES,
+District Attorney,27755941,2019,Target Budget,YTD,2019-03-31,District Attorney's Office,69,DAO
+Finance,37148082,2019,Target Budget,YTD,2019-03-31,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,0,2019,Target Budget,YTD,2019-03-31,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,1838573,2019,Target Budget,YTD,2019-03-31,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,0,2019,Target Budget,YTD,2019-03-31,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,31909207,2019,Target Budget,YTD,2019-03-31,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1126217634,2019,Target Budget,YTD,2019-03-31,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,0,2019,Target Budget,YTD,2019-03-31,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,29343139,2019,Target Budget,YTD,2019-03-31,Finance: Indemnities,35IN,
+Finance-Refunds,18279,2019,Target Budget,YTD,2019-03-31,Finance: Refunds,35R,
+Finance-School District Contribution,135652906,2019,Target Budget,YTD,2019-03-31,Finance: School District Contribution,35SD,
+Finance-Witness Fees,70490,2019,Target Budget,YTD,2019-03-31,Finance: Witness Fees,35WF,
+Fire,220940524,2019,Target Budget,YTD,2019-03-31,Fire Department,13,Fire
+First Judicial District,79896023,2019,Target Budget,YTD,2019-03-31,First Judicial District,84,FJD
+Fleet Management,36945906,2019,Target Budget,YTD,2019-03-31,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,14040255,2019,Target Budget,YTD,2019-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,32090886,2019,Target Budget,YTD,2019-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2019,Target Budget,YTD,2019-03-31,Historical Commission,32,
+Human Relations Commission,1542621,2019,Target Budget,YTD,2019-03-31,Commission on Human Relations,54,Human Relations
+Human Services,93300139,2019,Target Budget,YTD,2019-03-31,Department of Human Services,22,DHS
+Labor,1243148,2019,Target Budget,YTD,2019-03-31,Labor,03,
+Law,12612865,2019,Target Budget,YTD,2019-03-31,Law Department,44,Law
+Licenses & Inspections,27601917,2019,Target Budget,YTD,2019-03-31,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,59647,2019,Target Budget,YTD,2019-03-31,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,107455,2019,Target Budget,YTD,2019-03-31,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2019,Target Budget,YTD,2019-03-31,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,33410826,2019,Target Budget,YTD,2019-03-31,Managing Director's Office,10,MDO
+Managing Director-Legal Services,49289541,2019,Target Budget,YTD,2019-03-31,MDO: Legal Services,10LS,
+Mayor's Office,3953248,2019,Target Budget,YTD,2019-03-31,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,181000,2019,Target Budget,YTD,2019-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,90000,2019,Target Budget,YTD,2019-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,1872388,2019,Target Budget,YTD,2019-03-31,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4172959,2019,Target Budget,YTD,2019-03-31,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,16385883,2019,Target Budget,YTD,2019-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,4922272,2019,Target Budget,YTD,2019-03-31,Office of the Chief Administrative Officer,65,CAO
+Office of Education,25371595,2019,Target Budget,YTD,2019-03-31,Office of Children and Families,66,OCF
+Office of Homeless Services,51581148,2019,Target Budget,YTD,2019-03-31,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2019,Target Budget,YTD,2019-03-31,Office of Housing and Community Development,06,
+Office of Human Resources,4303263,2019,Target Budget,YTD,2019-03-31,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,47180233,2019,Target Budget,YTD,2019-03-31,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,11335897,2019,Target Budget,YTD,2019-03-31,OIT: 911,04911,
+Office of the Inspector General,1107319,2019,Target Budget,YTD,2019-03-31,Office of the Inspector General,48,OIG
+Office of Property Assessment,10248487,2019,Target Budget,YTD,2019-03-31,Office of Property Assessment,59,OPA
+Office of Sustainability,795923,2019,Target Budget,YTD,2019-03-31,Office of Sustainability,49,Sustainability
+Parks and Recreation,48830284,2019,Target Budget,YTD,2019-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,8713655,2019,Target Budget,YTD,2019-03-31,Department of Planning and Development,72,Planning & Development
+Police,502378606,2019,Target Budget,YTD,2019-03-31,Police Department,11,Police
+Prisons,194751935,2019,Target Budget,YTD,2019-03-31,Philadelphia Prison System,23,Prisons
+Procurement,3898369,2019,Target Budget,YTD,2019-03-31,Procurement Department,38,Procurement
+Public Health,107644474,2019,Target Budget,YTD,2019-03-31,Department of Public Health,14,Public Health
+Public Property,32029701,2019,Target Budget,YTD,2019-03-31,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,63456000,2019,Target Budget,YTD,2019-03-31,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,21046079,2019,Target Budget,YTD,2019-03-31,Public Property: Space Rentals,20SR,
+Public Property-Utilities,17749660,2019,Target Budget,YTD,2019-03-31,Public Property: Utilities,20U,
+Records,3355516,2019,Target Budget,YTD,2019-03-31,Department of Records,31,Records
+Register of Wills,3142920,2019,Target Budget,YTD,2019-03-31,Register of Wills,68,
+Revenue,23058222,2019,Target Budget,YTD,2019-03-31,Department of Revenue,36,Revenue
+Sheriff,21464224,2019,Target Budget,YTD,2019-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),245986534,2019,Target Budget,YTD,2019-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,38162382,2019,Target Budget,YTD,2019-03-31,Streets: Disposal,12D,
+Streets,70899141,2019,Target Budget,YTD,2019-03-31,Streets Department,12,Streets
+Art Museum Subsidy,1912500,2019,Actual,YTD,2019-03-31,Art Museum,34,
+Atwater Kent Museum,187500,2019,Actual,YTD,2019-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),6533467,2019,Actual,YTD,2019-03-31,City Controller's Office,61,
+Board of Ethics,677568,2019,Actual,YTD,2019-03-31,Board of Ethics,45,
+Board of Revision of Taxes,719096,2019,Actual,YTD,2019-03-31,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),6951324,2019,Actual,YTD,2019-03-31,City Commissioner's Office,73,City Commissioners
+City Council,12187732,2019,Actual,YTD,2019-03-31,City Council,01,
+City Planning Commission,0,2019,Actual,YTD,2019-03-31,City Planning Commission,51,
+City Representative,810862,2019,Actual,YTD,2019-03-31,Office of the City Representative,41,City Rep
+City Treasurer,1322887,2019,Actual,YTD,2019-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),151789,2019,Actual,YTD,2019-03-31,Civil Service Commission,55,
+Commerce,5198823,2019,Actual,YTD,2019-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2019,Actual,YTD,2019-03-31,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1154121,2019,Actual,YTD,2019-03-31,Commerce: Economic Stimulus,42ES,
+District Attorney,27755941,2019,Actual,YTD,2019-03-31,District Attorney's Office,69,DAO
+Finance,37148082,2019,Actual,YTD,2019-03-31,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,0,2019,Actual,YTD,2019-03-31,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,1838573,2019,Actual,YTD,2019-03-31,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,0,2019,Actual,YTD,2019-03-31,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,31909207,2019,Actual,YTD,2019-03-31,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1126217634,2019,Actual,YTD,2019-03-31,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,0,2019,Actual,YTD,2019-03-31,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,29343139,2019,Actual,YTD,2019-03-31,Finance: Indemnities,35IN,
+Finance-Refunds,18279,2019,Actual,YTD,2019-03-31,Finance: Refunds,35R,
+Finance-School District Contribution,135652906,2019,Actual,YTD,2019-03-31,Finance: School District Contribution,35SD,
+Finance-Witness Fees,70490,2019,Actual,YTD,2019-03-31,Finance: Witness Fees,35WF,
+Fire,220940524,2019,Actual,YTD,2019-03-31,Fire Department,13,Fire
+First Judicial District,79896023,2019,Actual,YTD,2019-03-31,First Judicial District,84,FJD
+Fleet Management,36945906,2019,Actual,YTD,2019-03-31,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,14040255,2019,Actual,YTD,2019-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,32090886,2019,Actual,YTD,2019-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2019,Actual,YTD,2019-03-31,Historical Commission,32,
+Human Relations Commission,1542621,2019,Actual,YTD,2019-03-31,Commission on Human Relations,54,Human Relations
+Human Services,93300139,2019,Actual,YTD,2019-03-31,Department of Human Services,22,DHS
+Labor,1243148,2019,Actual,YTD,2019-03-31,Labor,03,
+Law,12612865,2019,Actual,YTD,2019-03-31,Law Department,44,Law
+Licenses & Inspections,27601917,2019,Actual,YTD,2019-03-31,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,59647,2019,Actual,YTD,2019-03-31,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,107455,2019,Actual,YTD,2019-03-31,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2019,Actual,YTD,2019-03-31,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,33410826,2019,Actual,YTD,2019-03-31,Managing Director's Office,10,MDO
+Managing Director-Legal Services,49289541,2019,Actual,YTD,2019-03-31,MDO: Legal Services,10LS,
+Mayor's Office,3953248,2019,Actual,YTD,2019-03-31,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,181000,2019,Actual,YTD,2019-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,90000,2019,Actual,YTD,2019-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,1872388,2019,Actual,YTD,2019-03-31,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4172959,2019,Actual,YTD,2019-03-31,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,16385883,2019,Actual,YTD,2019-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,4922272,2019,Actual,YTD,2019-03-31,Office of the Chief Administrative Officer,65,CAO
+Office of Education,25371595,2019,Actual,YTD,2019-03-31,Office of Children and Families,66,OCF
+Office of Homeless Services,51581148,2019,Actual,YTD,2019-03-31,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2019,Actual,YTD,2019-03-31,Office of Housing and Community Development,06,
+Office of Human Resources,4303263,2019,Actual,YTD,2019-03-31,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,47180233,2019,Actual,YTD,2019-03-31,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,11335897,2019,Actual,YTD,2019-03-31,OIT: 911,04911,
+Office of the Inspector General,1107319,2019,Actual,YTD,2019-03-31,Office of the Inspector General,48,OIG
+Office of Property Assessment,10248487,2019,Actual,YTD,2019-03-31,Office of Property Assessment,59,OPA
+Office of Sustainability,795923,2019,Actual,YTD,2019-03-31,Office of Sustainability,49,Sustainability
+Parks and Recreation,48830284,2019,Actual,YTD,2019-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,8713655,2019,Actual,YTD,2019-03-31,Department of Planning and Development,72,Planning & Development
+Police,502378606,2019,Actual,YTD,2019-03-31,Police Department,11,Police
+Prisons,194751935,2019,Actual,YTD,2019-03-31,Philadelphia Prison System,23,Prisons
+Procurement,3898369,2019,Actual,YTD,2019-03-31,Procurement Department,38,Procurement
+Public Health,107644474,2019,Actual,YTD,2019-03-31,Department of Public Health,14,Public Health
+Public Property,32029701,2019,Actual,YTD,2019-03-31,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,63456000,2019,Actual,YTD,2019-03-31,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,21046079,2019,Actual,YTD,2019-03-31,Public Property: Space Rentals,20SR,
+Public Property-Utilities,17749660,2019,Actual,YTD,2019-03-31,Public Property: Utilities,20U,
+Records,3355516,2019,Actual,YTD,2019-03-31,Department of Records,31,Records
+Register of Wills,3142920,2019,Actual,YTD,2019-03-31,Register of Wills,68,
+Revenue,23058222,2019,Actual,YTD,2019-03-31,Department of Revenue,36,Revenue
+Sheriff,21464224,2019,Actual,YTD,2019-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),245986534,2019,Actual,YTD,2019-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,38162382,2019,Actual,YTD,2019-03-31,Streets: Disposal,12D,
+Streets,70899141,2019,Actual,YTD,2019-03-31,Streets Department,12,Streets
+Art Museum Subsidy,2550000,2019,Adopted Budget,Full Year,2019-03-31,Art Museum,34,
+Atwater Kent Museum,250000,2019,Adopted Budget,Full Year,2019-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8893008,2019,Adopted Budget,Full Year,2019-03-31,City Controller's Office,61,
+Board of Ethics,1074792,2019,Adopted Budget,Full Year,2019-03-31,Board of Ethics,45,
+Board of Revision of Taxes,1046903,2019,Adopted Budget,Full Year,2019-03-31,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),10351881,2019,Adopted Budget,Full Year,2019-03-31,City Commissioner's Office,73,City Commissioners
+City Council,17225693,2019,Adopted Budget,Full Year,2019-03-31,City Council,01,
+City Planning Commission,0,2019,Adopted Budget,Full Year,2019-03-31,City Planning Commission,51,
+City Representative,1158249,2019,Adopted Budget,Full Year,2019-03-31,Office of the City Representative,41,City Rep
+City Treasurer,1692315,2019,Adopted Budget,Full Year,2019-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),16645428,2019,Adopted Budget,Full Year,2019-03-31,Civil Service Commission,55,
+Commerce,6013658,2019,Adopted Budget,Full Year,2019-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2019,Adopted Budget,Full Year,2019-03-31,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,2397004,2019,Adopted Budget,Full Year,2019-03-31,Commerce: Economic Stimulus,42ES,
+District Attorney,41792293,2019,Adopted Budget,Full Year,2019-03-31,District Attorney's Office,69,DAO
+Finance,24790260,2019,Adopted Budget,Full Year,2019-03-31,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,0,2019,Adopted Budget,Full Year,2019-03-31,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2019,Adopted Budget,Full Year,2019-03-31,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,53573000,2019,Adopted Budget,Full Year,2019-03-31,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,32409207,2019,Adopted Budget,Full Year,2019-03-31,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1360238207,2019,Adopted Budget,Full Year,2019-03-31,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2019,Adopted Budget,Full Year,2019-03-31,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,48780000,2019,Adopted Budget,Full Year,2019-03-31,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2019,Adopted Budget,Full Year,2019-03-31,Finance: Refunds,35R,
+Finance-School District Contribution,180870541,2019,Adopted Budget,Full Year,2019-03-31,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2019,Adopted Budget,Full Year,2019-03-31,Finance: Witness Fees,35WF,
+Fire,277613180,2019,Adopted Budget,Full Year,2019-03-31,Fire Department,13,Fire
+First Judicial District,109556573,2019,Adopted Budget,Full Year,2019-03-31,First Judicial District,84,FJD
+Fleet Management,49062057,2019,Adopted Budget,Full Year,2019-03-31,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,14797739,2019,Adopted Budget,Full Year,2019-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,41286517,2019,Adopted Budget,Full Year,2019-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2019,Adopted Budget,Full Year,2019-03-31,Historical Commission,32,
+Human Relations Commission,2202336,2019,Adopted Budget,Full Year,2019-03-31,Commission on Human Relations,54,Human Relations
+Human Services,112073598,2019,Adopted Budget,Full Year,2019-03-31,Department of Human Services,22,DHS
+Labor,1746946,2019,Adopted Budget,Full Year,2019-03-31,Labor,03,
+Law,15835164,2019,Adopted Budget,Full Year,2019-03-31,Law Department,44,Law
+Licenses & Inspections,37507876,2019,Adopted Budget,Full Year,2019-03-31,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,75419,2019,Adopted Budget,Full Year,2019-03-31,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,172720,2019,Adopted Budget,Full Year,2019-03-31,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2019,Adopted Budget,Full Year,2019-03-31,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,46633137,2019,Adopted Budget,Full Year,2019-03-31,Managing Director's Office,10,MDO
+Managing Director-Legal Services,50375841,2019,Adopted Budget,Full Year,2019-03-31,MDO: Legal Services,10LS,
+Mayor's Office,5316168,2019,Adopted Budget,Full Year,2019-03-31,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2019,Adopted Budget,Full Year,2019-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,90000,2019,Adopted Budget,Full Year,2019-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,2034016,2019,Adopted Budget,Full Year,2019-03-31,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4172855,2019,Adopted Budget,Full Year,2019-03-31,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,14202289,2019,Adopted Budget,Full Year,2019-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,6619329,2019,Adopted Budget,Full Year,2019-03-31,Office of the Chief Administrative Officer,65,CAO
+Office of Education,24949452,2019,Adopted Budget,Full Year,2019-03-31,Office of Children and Families,66,OCF
+Office of Homeless Services,52761498,2019,Adopted Budget,Full Year,2019-03-31,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2019,Adopted Budget,Full Year,2019-03-31,Office of Housing and Community Development,06,
+Office of Human Resources,6343869,2019,Adopted Budget,Full Year,2019-03-31,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,65491927,2019,Adopted Budget,Full Year,2019-03-31,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,35380008,2019,Adopted Budget,Full Year,2019-03-31,OIT: 911,04911,
+Office of the Inspector General,1636311,2019,Adopted Budget,Full Year,2019-03-31,Office of the Inspector General,48,OIG
+Office of Property Assessment,14216425,2019,Adopted Budget,Full Year,2019-03-31,Office of Property Assessment,59,OPA
+Office of Sustainability,949327,2019,Adopted Budget,Full Year,2019-03-31,Office of Sustainability,49,Sustainability
+Parks and Recreation,66062181,2019,Adopted Budget,Full Year,2019-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,12811669,2019,Adopted Budget,Full Year,2019-03-31,Department of Planning and Development,72,Planning & Development
+Police,709492944,2019,Adopted Budget,Full Year,2019-03-31,Police Department,11,Police
+Prisons,249371806,2019,Adopted Budget,Full Year,2019-03-31,Philadelphia Prison System,23,Prisons
+Procurement,4938442,2019,Adopted Budget,Full Year,2019-03-31,Procurement Department,38,Procurement
+Public Health,156633875,2019,Adopted Budget,Full Year,2019-03-31,Department of Public Health,14,Public Health
+Public Property,67881546,2019,Adopted Budget,Full Year,2019-03-31,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,84608000,2019,Adopted Budget,Full Year,2019-03-31,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,22457948,2019,Adopted Budget,Full Year,2019-03-31,Public Property: Space Rentals,20SR,
+Public Property-Utilities,25008269,2019,Adopted Budget,Full Year,2019-03-31,Public Property: Utilities,20U,
+Records,4768507,2019,Adopted Budget,Full Year,2019-03-31,Department of Records,31,Records
+Register of Wills,4438881,2019,Adopted Budget,Full Year,2019-03-31,Register of Wills,68,
+Revenue,30707541,2019,Adopted Budget,Full Year,2019-03-31,Department of Revenue,36,Revenue
+Sheriff,26150422,2019,Adopted Budget,Full Year,2019-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),295032504,2019,Adopted Budget,Full Year,2019-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,39490785,2019,Adopted Budget,Full Year,2019-03-31,Streets: Disposal,12D,
+Streets,102490485,2019,Adopted Budget,Full Year,2019-03-31,Streets Department,12,Streets
+Art Museum Subsidy,2550000,2019,Target Budget,Full Year,2019-03-31,Art Museum,34,
+Atwater Kent Museum,250000,2019,Target Budget,Full Year,2019-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),9209745,2019,Target Budget,Full Year,2019-03-31,City Controller's Office,61,
+Board of Ethics,1098971,2019,Target Budget,Full Year,2019-03-31,Board of Ethics,45,
+Board of Revision of Taxes,1071422,2019,Target Budget,Full Year,2019-03-31,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),13753477,2019,Target Budget,Full Year,2019-03-31,City Commissioner's Office,73,City Commissioners
+City Council,17807973,2019,Target Budget,Full Year,2019-03-31,City Council,01,
+City Planning Commission,0,2019,Target Budget,Full Year,2019-03-31,City Planning Commission,51,
+City Representative,1223288,2019,Target Budget,Full Year,2019-03-31,Office of the City Representative,41,City Rep
+City Treasurer,1725724,2019,Target Budget,Full Year,2019-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),201591,2019,Target Budget,Full Year,2019-03-31,Civil Service Commission,55,
+Commerce,7415783,2019,Target Budget,Full Year,2019-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2019,Target Budget,Full Year,2019-03-31,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1242883,2019,Target Budget,Full Year,2019-03-31,Commerce: Economic Stimulus,42ES,
+District Attorney,41832195,2019,Target Budget,Full Year,2019-03-31,District Attorney's Office,69,DAO
+Finance,44592419,2019,Target Budget,Full Year,2019-03-31,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,20000000,2019,Target Budget,Full Year,2019-03-31,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2019,Target Budget,Full Year,2019-03-31,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,53573000,2019,Target Budget,Full Year,2019-03-31,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,32409207,2019,Target Budget,Full Year,2019-03-31,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1375589153,2019,Target Budget,Full Year,2019-03-31,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2019,Target Budget,Full Year,2019-03-31,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,48780000,2019,Target Budget,Full Year,2019-03-31,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2019,Target Budget,Full Year,2019-03-31,Finance: Refunds,35R,
+Finance-School District Contribution,180870541,2019,Target Budget,Full Year,2019-03-31,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2019,Target Budget,Full Year,2019-03-31,Finance: Witness Fees,35WF,
+Fire,294185387,2019,Target Budget,Full Year,2019-03-31,Fire Department,13,Fire
+First Judicial District,112731854,2019,Target Budget,Full Year,2019-03-31,First Judicial District,84,FJD
+Fleet Management,49226289,2019,Target Budget,Full Year,2019-03-31,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,14797739,2019,Target Budget,Full Year,2019-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,42265871,2019,Target Budget,Full Year,2019-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2019,Target Budget,Full Year,2019-03-31,Historical Commission,32,
+Human Relations Commission,2297418,2019,Target Budget,Full Year,2019-03-31,Commission on Human Relations,54,Human Relations
+Human Services,112073598,2019,Target Budget,Full Year,2019-03-31,Department of Human Services,22,DHS
+Labor,2014103,2019,Target Budget,Full Year,2019-03-31,Labor,03,
+Law,16066096,2019,Target Budget,Full Year,2019-03-31,Law Department,44,Law
+Licenses & Inspections,37979690,2019,Target Budget,Full Year,2019-03-31,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,78574,2019,Target Budget,Full Year,2019-03-31,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,172720,2019,Target Budget,Full Year,2019-03-31,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2019,Target Budget,Full Year,2019-03-31,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,51457908,2019,Target Budget,Full Year,2019-03-31,Managing Director's Office,10,MDO
+Managing Director-Legal Services,51075841,2019,Target Budget,Full Year,2019-03-31,MDO: Legal Services,10LS,
+Mayor's Office,5528157,2019,Target Budget,Full Year,2019-03-31,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2019,Target Budget,Full Year,2019-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,90000,2019,Target Budget,Full Year,2019-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,2084602,2019,Target Budget,Full Year,2019-03-31,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4335840,2019,Target Budget,Full Year,2019-03-31,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,17131339,2019,Target Budget,Full Year,2019-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,6548985,2019,Target Budget,Full Year,2019-03-31,Office of the Chief Administrative Officer,65,CAO
+Office of Education,29510497,2019,Target Budget,Full Year,2019-03-31,Office of Children and Families,66,OCF
+Office of Homeless Services,56816894,2019,Target Budget,Full Year,2019-03-31,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2019,Target Budget,Full Year,2019-03-31,Office of Housing and Community Development,06,
+Office of Human Resources,6535350,2019,Target Budget,Full Year,2019-03-31,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,66596229,2019,Target Budget,Full Year,2019-03-31,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,35380008,2019,Target Budget,Full Year,2019-03-31,OIT: 911,04911,
+Office of the Inspector General,1680441,2019,Target Budget,Full Year,2019-03-31,Office of the Inspector General,48,OIG
+Office of Property Assessment,14714490,2019,Target Budget,Full Year,2019-03-31,Office of Property Assessment,59,OPA
+Office of Sustainability,963258,2019,Target Budget,Full Year,2019-03-31,Office of Sustainability,49,Sustainability
+Parks and Recreation,67198713,2019,Target Budget,Full Year,2019-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,12973533,2019,Target Budget,Full Year,2019-03-31,Department of Planning and Development,72,Planning & Development
+Police,711140370,2019,Target Budget,Full Year,2019-03-31,Police Department,11,Police
+Prisons,250152237,2019,Target Budget,Full Year,2019-03-31,Philadelphia Prison System,23,Prisons
+Procurement,5014187,2019,Target Budget,Full Year,2019-03-31,Procurement Department,38,Procurement
+Public Health,140042886,2019,Target Budget,Full Year,2019-03-31,Department of Public Health,14,Public Health
+Public Property,68581774,2019,Target Budget,Full Year,2019-03-31,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,84608000,2019,Target Budget,Full Year,2019-03-31,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,22457948,2019,Target Budget,Full Year,2019-03-31,Public Property: Space Rentals,20SR,
+Public Property-Utilities,25008269,2019,Target Budget,Full Year,2019-03-31,Public Property: Utilities,20U,
+Records,4826755,2019,Target Budget,Full Year,2019-03-31,Department of Records,31,Records
+Register of Wills,4438881,2019,Target Budget,Full Year,2019-03-31,Register of Wills,68,
+Revenue,31251491,2019,Target Budget,Full Year,2019-03-31,Department of Revenue,36,Revenue
+Sheriff,26212604,2019,Target Budget,Full Year,2019-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),295032504,2019,Target Budget,Full Year,2019-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,42440785,2019,Target Budget,Full Year,2019-03-31,Streets: Disposal,12D,
+Streets,104278956,2019,Target Budget,Full Year,2019-03-31,Streets Department,12,Streets
+Art Museum Subsidy,2550000,2019,Current Projection,Full Year,2019-03-31,Art Museum,34,
+Atwater Kent Museum,250000,2019,Current Projection,Full Year,2019-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),9209745,2019,Current Projection,Full Year,2019-03-31,City Controller's Office,61,
+Board of Ethics,1098971,2019,Current Projection,Full Year,2019-03-31,Board of Ethics,45,
+Board of Revision of Taxes,1071422,2019,Current Projection,Full Year,2019-03-31,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),15928677,2019,Current Projection,Full Year,2019-03-31,City Commissioner's Office,73,City Commissioners
+City Council,17807973,2019,Current Projection,Full Year,2019-03-31,City Council,01,
+City Planning Commission,0,2019,Current Projection,Full Year,2019-03-31,City Planning Commission,51,
+City Representative,1223288,2019,Current Projection,Full Year,2019-03-31,Office of the City Representative,41,City Rep
+City Treasurer,1725724,2019,Current Projection,Full Year,2019-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission (1),201591,2019,Current Projection,Full Year,2019-03-31,Civil Service Commission,55,
+Commerce,7415783,2019,Current Projection,Full Year,2019-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Convention Center Subsidy,15000000,2019,Current Projection,Full Year,2019-03-31,Commerce: Convention Center Subsidy,42CC,
+Commerce-Economic Stimulus,1242883,2019,Current Projection,Full Year,2019-03-31,Commerce: Economic Stimulus,42ES,
+District Attorney,41832195,2019,Current Projection,Full Year,2019-03-31,District Attorney's Office,69,DAO
+Finance,64892419,2019,Current Projection,Full Year,2019-03-31,Office of the Director of Finance,35,Finance
+Finance-Budget Stabilization Reserve,0,2019,Current Projection,Full Year,2019-03-31,Finance: Budget Stabilization Reserve,35BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2019,Current Projection,Full Year,2019-03-31,Finance: Reg #32,35R32,
+Finance-Federal Grant Reserve,53573000,2019,Current Projection,Full Year,2019-03-31,Finance: Federal Grant Reserve,35FGR,
+Finance-Community College Subsidy,32409207,2019,Current Projection,Full Year,2019-03-31,Finance: Community College Subsidy,35CC,
+Finance - Employee Benefits,1375589153,2019,Current Projection,Full Year,2019-03-31,Finance: Employee Benefits,35EB,
+Finance-Hero Scholarship Awards,25000,2019,Current Projection,Full Year,2019-03-31,Finance: Hero Scholarship Awards,35HA,
+Finance-Indemnities,48780000,2019,Current Projection,Full Year,2019-03-31,Finance: Indemnities,35IN,
+Finance-Refunds,250000,2019,Current Projection,Full Year,2019-03-31,Finance: Refunds,35R,
+Finance-School District Contribution,185770541,2019,Current Projection,Full Year,2019-03-31,Finance: School District Contribution,35SD,
+Finance-Witness Fees,171518,2019,Current Projection,Full Year,2019-03-31,Finance: Witness Fees,35WF,
+Fire,306185387,2019,Current Projection,Full Year,2019-03-31,Fire Department,13,Fire
+First Judicial District,112731854,2019,Current Projection,Full Year,2019-03-31,First Judicial District,84,FJD
+Fleet Management,49827789,2019,Current Projection,Full Year,2019-03-31,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,14797739,2019,Current Projection,Full Year,2019-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Free Library,42265871,2019,Current Projection,Full Year,2019-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,0,2019,Current Projection,Full Year,2019-03-31,Historical Commission,32,
+Human Relations Commission,2297418,2019,Current Projection,Full Year,2019-03-31,Commission on Human Relations,54,Human Relations
+Human Services,112073598,2019,Current Projection,Full Year,2019-03-31,Department of Human Services,22,DHS
+Labor,2014103,2019,Current Projection,Full Year,2019-03-31,Labor,03,
+Law,16066096,2019,Current Projection,Full Year,2019-03-31,Law Department,44,Law
+Licenses & Inspections,37979690,2019,Current Projection,Full Year,2019-03-31,Department of Licenses and Inspections,26,L&I
+L&I-Board of Building Standards,78574,2019,Current Projection,Full Year,2019-03-31,L&I: Board of Building and Standards,29,
+L&I-Board of L & I Review,172720,2019,Current Projection,Full Year,2019-03-31,L&I: Board of Review,27,
+L&I-Zoning Board of Adjustment,0,2019,Current Projection,Full Year,2019-03-31,Zoning Board of Adjustments,30,ZBA
+Managing Director's Office,51457908,2019,Current Projection,Full Year,2019-03-31,Managing Director's Office,10,MDO
+Managing Director-Legal Services,51574391,2019,Current Projection,Full Year,2019-03-31,MDO: Legal Services,10LS,
+Mayor's Office,5528157,2019,Current Projection,Full Year,2019-03-31,Mayor's Office,05,Mayor
+Mayor's Office-Scholarships,200000,2019,Current Projection,Full Year,2019-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Comm. Empowerment & Opp.,90000,2019,Current Projection,Full Year,2019-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mural Arts Program,2084602,2019,Current Projection,Full Year,2019-03-31,Mural Arts Program,50,Mural Arts
+Office of Arts and Culture,4335840,2019,Current Projection,Full Year,2019-03-31,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Office of Behavioral Hith & Intellectual disAbility,17131339,2019,Current Projection,Full Year,2019-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of the Chief Administrative Officer,6548985,2019,Current Projection,Full Year,2019-03-31,Office of the Chief Administrative Officer,65,CAO
+Office of Education,29510497,2019,Current Projection,Full Year,2019-03-31,Office of Children and Families,66,OCF
+Office of Homeless Services,56816894,2019,Current Projection,Full Year,2019-03-31,Office of Homeless Services,24,OHS
+Office of Housing and Comm. Development,0,2019,Current Projection,Full Year,2019-03-31,Office of Housing and Community Development,06,
+Office of Human Resources,6535350,2019,Current Projection,Full Year,2019-03-31,Office of Human Resources,56,OHR
+Office of Innovation and Technology-Base,66596229,2019,Current Projection,Full Year,2019-03-31,Office of Innovation and Technology,04,OIT
+Office of Innovation and Technology-911,35380008,2019,Current Projection,Full Year,2019-03-31,OIT: 911,04911,
+Office of the Inspector General,1680441,2019,Current Projection,Full Year,2019-03-31,Office of the Inspector General,48,OIG
+Office of Property Assessment,14714490,2019,Current Projection,Full Year,2019-03-31,Office of Property Assessment,59,OPA
+Office of Sustainability,963258,2019,Current Projection,Full Year,2019-03-31,Office of Sustainability,49,Sustainability
+Parks and Recreation,67198713,2019,Current Projection,Full Year,2019-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Planning & Development,12973533,2019,Current Projection,Full Year,2019-03-31,Department of Planning and Development,72,Planning & Development
+Police,711140370,2019,Current Projection,Full Year,2019-03-31,Police Department,11,Police
+Prisons,250152237,2019,Current Projection,Full Year,2019-03-31,Philadelphia Prison System,23,Prisons
+Procurement,5014187,2019,Current Projection,Full Year,2019-03-31,Procurement Department,38,Procurement
+Public Health,140042886,2019,Current Projection,Full Year,2019-03-31,Department of Public Health,14,Public Health
+Public Property,68581774,2019,Current Projection,Full Year,2019-03-31,Department of Public Property,20,Public Property
+Public Property-SEPTA Subsidy,84608000,2019,Current Projection,Full Year,2019-03-31,Public Property: SEPTA Subsidy,20SS,
+Public Property-Space Rentals,22457948,2019,Current Projection,Full Year,2019-03-31,Public Property: Space Rentals,20SR,
+Public Property-Utilities,25008269,2019,Current Projection,Full Year,2019-03-31,Public Property: Utilities,20U,
+Records,4826755,2019,Current Projection,Full Year,2019-03-31,Department of Records,31,Records
+Register of Wills,4438881,2019,Current Projection,Full Year,2019-03-31,Register of Wills,68,
+Revenue,31251491,2019,Current Projection,Full Year,2019-03-31,Department of Revenue,36,Revenue
+Sheriff,26212604,2019,Current Projection,Full Year,2019-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund Commission (Debt Service),295032504,2019,Current Projection,Full Year,2019-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets-Disposal,42440785,2019,Current Projection,Full Year,2019-03-31,Streets: Disposal,12D,
+Streets,104278956,2019,Current Projection,Full Year,2019-03-31,Streets Department,12,Streets

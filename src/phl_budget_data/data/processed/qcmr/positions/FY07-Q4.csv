@@ -1,0 +1,478 @@
+dept_name_raw,fund,civilian,uniformed,fiscal_year,kind,as_of_date,as_of_quarter,abbreviation,dept_name,dept_code,alias
+Atwater Kent Museum,General,5,0,2007,Actual,6/30/2007,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),General,126,0,2007,Actual,6/30/2007,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,General,2,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,General,2,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,General,0,0,2007,Actual,6/30/2007,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,General,134,0,2007,Actual,6/30/2007,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,General,3,0,2007,Actual,6/30/2007,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",General,14,0,2007,Actual,6/30/2007,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),General,93,0,2007,Actual,6/30/2007,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,General,180,0,2007,Actual,6/30/2007,4.0,,City Council,01,City Council
+City Planning Commission,General,45,0,2007,Actual,6/30/2007,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,General,12,0,2007,Actual,6/30/2007,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,General,11,0,2007,Actual,6/30/2007,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,General,0,0,2007,Actual,6/30/2007,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,General,2,0,2007,Actual,6/30/2007,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,General,113,0,2007,Actual,6/30/2007,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,General,157,0,2007,Actual,6/30/2007,4.0,,Fairmount Park Commission,17,
+Finance,General,164,0,2007,Actual,6/30/2007,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,General,1936,0,2007,Actual,6/30/2007,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,General,313,0,2007,Actual,6/30/2007,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,General,732,0,2007,Actual,6/30/2007,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,General,5,0,2007,Actual,6/30/2007,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,General,33,0,2007,Actual,6/30/2007,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,General,1703,0,2007,Actual,6/30/2007,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",General,96,0,2007,Actual,6/30/2007,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",General,7,0,2007,Actual,6/30/2007,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,General,175,0,2007,Actual,6/30/2007,4.0,Law,Law Department,44,Law
+Licenses & Inspections,General,355,0,2007,Actual,6/30/2007,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),General,87,0,2007,Actual,6/30/2007,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,General,55,0,2007,Actual,6/30/2007,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,General,21,0,2007,Actual,6/30/2007,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,General,14,0,2007,Actual,6/30/2007,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,36,0,2007,Actual,6/30/2007,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,General,131,0,2007,Actual,6/30/2007,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,General,3,0,2007,Actual,6/30/2007,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,General,70,0,2007,Actual,6/30/2007,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,General,2225,0,2007,Actual,6/30/2007,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,General,59,0,2007,Actual,6/30/2007,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,General,622,0,2007,Actual,6/30/2007,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,General,158,0,2007,Actual,6/30/2007,4.0,Public Property,Department of Public Property,20,Public Property
+Records,General,75,0,2007,Actual,6/30/2007,4.0,Records,Department of Records,31,Records
+Recreation,General,468,0,2007,Actual,6/30/2007,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,General,65,0,2007,Actual,6/30/2007,4.0,,Register of Wills,68,
+Revenue,General,247,0,2007,Actual,6/30/2007,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,General,243,0,2007,Actual,6/30/2007,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,General,586,0,2007,Actual,6/30/2007,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,General,1263,0,2007,Actual,6/30/2007,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,General,0,0,2007,Actual,6/30/2007,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,General,0,0,2007,Actual,6/30/2007,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,General,5,0,2007,Actual,6/30/2007,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Other,0,0,2007,Actual,6/30/2007,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Other,0,0,2007,Actual,6/30/2007,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Other,0,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Other,0,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,Other,65,0,2007,Actual,6/30/2007,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Other,0,0,2007,Actual,6/30/2007,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Other,0,0,2007,Actual,6/30/2007,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Other,0,0,2007,Actual,6/30/2007,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),Other,0,0,2007,Actual,6/30/2007,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Other,0,0,2007,Actual,6/30/2007,4.0,,City Council,01,City Council
+City Planning Commission,Other,6,0,2007,Actual,6/30/2007,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Other,746,0,2007,Actual,6/30/2007,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,Other,0,0,2007,Actual,6/30/2007,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Other,0,0,2007,Actual,6/30/2007,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Other,0,0,2007,Actual,6/30/2007,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Other,0,0,2007,Actual,6/30/2007,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Other,1,0,2007,Actual,6/30/2007,4.0,,Fairmount Park Commission,17,
+Finance,Other,10,0,2007,Actual,6/30/2007,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Other,511,0,2007,Actual,6/30/2007,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Other,67,0,2007,Actual,6/30/2007,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Other,68,0,2007,Actual,6/30/2007,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Other,0,0,2007,Actual,6/30/2007,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,Other,0,0,2007,Actual,6/30/2007,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Other,61,0,2007,Actual,6/30/2007,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Other,15,0,2007,Actual,6/30/2007,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Other,0,0,2007,Actual,6/30/2007,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Other,55,0,2007,Actual,6/30/2007,4.0,Law,Law Department,44,Law
+Licenses & Inspections,Other,29,0,2007,Actual,6/30/2007,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Other,12,0,2007,Actual,6/30/2007,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Other,3,0,2007,Actual,6/30/2007,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Other,127,0,2007,Actual,6/30/2007,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Other,0,0,2007,Actual,6/30/2007,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,229,0,2007,Actual,6/30/2007,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Other,53,0,2007,Actual,6/30/2007,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Other,59,0,2007,Actual,6/30/2007,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Other,0,0,2007,Actual,6/30/2007,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,Other,0,0,2007,Actual,6/30/2007,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Other,2,0,2007,Actual,6/30/2007,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,Other,227,0,2007,Actual,6/30/2007,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,Other,0,0,2007,Actual,6/30/2007,4.0,Public Property,Department of Public Property,20,Public Property
+Records,Other,0,0,2007,Actual,6/30/2007,4.0,Records,Department of Records,31,Records
+Recreation,Other,25,0,2007,Actual,6/30/2007,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Other,0,0,2007,Actual,6/30/2007,4.0,,Register of Wills,68,
+Revenue,Other,212,0,2007,Actual,6/30/2007,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,Other,0,0,2007,Actual,6/30/2007,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Other,1,0,2007,Actual,6/30/2007,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,Other,0,0,2007,Actual,6/30/2007,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Other,0,0,2007,Actual,6/30/2007,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,Other,1715,0,2007,Actual,6/30/2007,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,Other,0,0,2007,Actual,6/30/2007,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Total,5,0,2007,Actual,6/30/2007,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Total,126,0,2007,Actual,6/30/2007,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Total,2,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Total,2,0,2007,Actual,6/30/2007,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,Total,65,0,2007,Actual,6/30/2007,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Total,134,0,2007,Actual,6/30/2007,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Total,3,0,2007,Actual,6/30/2007,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Total,14,0,2007,Actual,6/30/2007,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),Total,93,0,2007,Actual,6/30/2007,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Total,180,0,2007,Actual,6/30/2007,4.0,,City Council,01,City Council
+City Planning Commission,Total,51,0,2007,Actual,6/30/2007,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Total,758,0,2007,Actual,6/30/2007,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,Total,11,0,2007,Actual,6/30/2007,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Total,0,0,2007,Actual,6/30/2007,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Total,2,0,2007,Actual,6/30/2007,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Total,113,0,2007,Actual,6/30/2007,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Total,158,0,2007,Actual,6/30/2007,4.0,,Fairmount Park Commission,17,
+Finance,Total,174,0,2007,Actual,6/30/2007,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Total,2447,0,2007,Actual,6/30/2007,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Total,380,0,2007,Actual,6/30/2007,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Total,800,0,2007,Actual,6/30/2007,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Total,5,0,2007,Actual,6/30/2007,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,Total,33,0,2007,Actual,6/30/2007,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Total,1764,0,2007,Actual,6/30/2007,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Total,111,0,2007,Actual,6/30/2007,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Total,7,0,2007,Actual,6/30/2007,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Total,230,0,2007,Actual,6/30/2007,4.0,Law,Law Department,44,Law
+Licenses & Inspections,Total,384,0,2007,Actual,6/30/2007,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Total,99,0,2007,Actual,6/30/2007,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Total,58,0,2007,Actual,6/30/2007,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Total,148,0,2007,Actual,6/30/2007,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Total,14,0,2007,Actual,6/30/2007,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,265,0,2007,Actual,6/30/2007,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Total,184,0,2007,Actual,6/30/2007,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Total,62,0,2007,Actual,6/30/2007,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Total,70,0,2007,Actual,6/30/2007,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,Total,2225,0,2007,Actual,6/30/2007,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Total,61,0,2007,Actual,6/30/2007,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,Total,849,0,2007,Actual,6/30/2007,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,Total,158,0,2007,Actual,6/30/2007,4.0,Public Property,Department of Public Property,20,Public Property
+Records,Total,75,0,2007,Actual,6/30/2007,4.0,Records,Department of Records,31,Records
+Recreation,Total,493,0,2007,Actual,6/30/2007,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Total,65,0,2007,Actual,6/30/2007,4.0,,Register of Wills,68,
+Revenue,Total,459,0,2007,Actual,6/30/2007,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,Total,243,0,2007,Actual,6/30/2007,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Total,587,0,2007,Actual,6/30/2007,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,Total,1263,0,2007,Actual,6/30/2007,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Total,0,0,2007,Actual,6/30/2007,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,Total,1715,0,2007,Actual,6/30/2007,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,Total,5,0,2007,Actual,6/30/2007,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Police,General,824,6463,2007,Actual,6/30/2007,4.0,Police,Police Department,11,Police
+Police,Other,11,147,2007,Actual,6/30/2007,4.0,Police,Police Department,11,Police
+Police,Total,835,6610,2007,Actual,6/30/2007,4.0,Police,Police Department,11,Police
+Fire,General,2169,101,2007,Actual,6/30/2007,4.0,Fire,Fire Department,13,Fire
+Fire,Other,62,3,2007,Actual,6/30/2007,4.0,Fire,Fire Department,13,Fire
+Fire,Total,2231,104,2007,Actual,6/30/2007,4.0,Fire,Fire Department,13,Fire
+District Attorney,General,411,13,2007,Actual,6/30/2007,4.0,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Other,90,4,2007,Actual,6/30/2007,4.0,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Total,501,17,2007,Actual,6/30/2007,4.0,DAO,District Attorney's Office,69,District Attorney
+Atwater Kent Museum,General,5,0,2006,Actual,6/30/2006,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),General,126,0,2006,Actual,6/30/2006,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,General,2,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,General,2,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,General,0,0,2006,Actual,6/30/2006,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,General,134,0,2006,Actual,6/30/2006,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,General,3,0,2006,Actual,6/30/2006,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",General,14,0,2006,Actual,6/30/2006,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),General,93,0,2006,Actual,6/30/2006,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,General,180,0,2006,Actual,6/30/2006,4.0,,City Council,01,City Council
+City Planning Commission,General,45,0,2006,Actual,6/30/2006,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,General,12,0,2006,Actual,6/30/2006,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,General,11,0,2006,Actual,6/30/2006,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,General,0,0,2006,Actual,6/30/2006,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,General,2,0,2006,Actual,6/30/2006,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,General,113,0,2006,Actual,6/30/2006,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,General,157,0,2006,Actual,6/30/2006,4.0,,Fairmount Park Commission,17,
+Finance,General,164,0,2006,Actual,6/30/2006,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,General,1936,0,2006,Actual,6/30/2006,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,General,313,0,2006,Actual,6/30/2006,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,General,732,0,2006,Actual,6/30/2006,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,General,5,0,2006,Actual,6/30/2006,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,General,33,0,2006,Actual,6/30/2006,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,General,1703,0,2006,Actual,6/30/2006,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",General,96,0,2006,Actual,6/30/2006,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",General,7,0,2006,Actual,6/30/2006,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,General,175,0,2006,Actual,6/30/2006,4.0,Law,Law Department,44,Law
+Licenses & Inspections,General,355,0,2006,Actual,6/30/2006,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),General,87,0,2006,Actual,6/30/2006,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,General,55,0,2006,Actual,6/30/2006,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,General,21,0,2006,Actual,6/30/2006,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,General,14,0,2006,Actual,6/30/2006,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,36,0,2006,Actual,6/30/2006,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,General,131,0,2006,Actual,6/30/2006,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,General,3,0,2006,Actual,6/30/2006,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,General,70,0,2006,Actual,6/30/2006,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,General,2225,0,2006,Actual,6/30/2006,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,General,59,0,2006,Actual,6/30/2006,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,General,622,0,2006,Actual,6/30/2006,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,General,158,0,2006,Actual,6/30/2006,4.0,Public Property,Department of Public Property,20,Public Property
+Records,General,75,0,2006,Actual,6/30/2006,4.0,Records,Department of Records,31,Records
+Recreation,General,468,0,2006,Actual,6/30/2006,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,General,65,0,2006,Actual,6/30/2006,4.0,,Register of Wills,68,
+Revenue,General,247,0,2006,Actual,6/30/2006,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,General,243,0,2006,Actual,6/30/2006,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,General,586,0,2006,Actual,6/30/2006,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,General,1263,0,2006,Actual,6/30/2006,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,General,0,0,2006,Actual,6/30/2006,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,General,0,0,2006,Actual,6/30/2006,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,General,5,0,2006,Actual,6/30/2006,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Other,0,0,2006,Actual,6/30/2006,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Other,0,0,2006,Actual,6/30/2006,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Other,0,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Other,0,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,Other,65,0,2006,Actual,6/30/2006,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Other,0,0,2006,Actual,6/30/2006,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Other,0,0,2006,Actual,6/30/2006,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Other,0,0,2006,Actual,6/30/2006,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),Other,0,0,2006,Actual,6/30/2006,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Other,0,0,2006,Actual,6/30/2006,4.0,,City Council,01,City Council
+City Planning Commission,Other,6,0,2006,Actual,6/30/2006,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Other,746,0,2006,Actual,6/30/2006,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,Other,0,0,2006,Actual,6/30/2006,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Other,0,0,2006,Actual,6/30/2006,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Other,0,0,2006,Actual,6/30/2006,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Other,0,0,2006,Actual,6/30/2006,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Other,1,0,2006,Actual,6/30/2006,4.0,,Fairmount Park Commission,17,
+Finance,Other,10,0,2006,Actual,6/30/2006,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Other,511,0,2006,Actual,6/30/2006,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Other,67,0,2006,Actual,6/30/2006,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Other,68,0,2006,Actual,6/30/2006,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Other,0,0,2006,Actual,6/30/2006,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,Other,0,0,2006,Actual,6/30/2006,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Other,61,0,2006,Actual,6/30/2006,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Other,15,0,2006,Actual,6/30/2006,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Other,0,0,2006,Actual,6/30/2006,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Other,55,0,2006,Actual,6/30/2006,4.0,Law,Law Department,44,Law
+Licenses & Inspections,Other,29,0,2006,Actual,6/30/2006,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Other,12,0,2006,Actual,6/30/2006,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Other,3,0,2006,Actual,6/30/2006,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Other,127,0,2006,Actual,6/30/2006,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Other,0,0,2006,Actual,6/30/2006,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,229,0,2006,Actual,6/30/2006,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Other,53,0,2006,Actual,6/30/2006,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Other,59,0,2006,Actual,6/30/2006,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Other,0,0,2006,Actual,6/30/2006,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,Other,0,0,2006,Actual,6/30/2006,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Other,2,0,2006,Actual,6/30/2006,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,Other,227,0,2006,Actual,6/30/2006,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,Other,0,0,2006,Actual,6/30/2006,4.0,Public Property,Department of Public Property,20,Public Property
+Records,Other,0,0,2006,Actual,6/30/2006,4.0,Records,Department of Records,31,Records
+Recreation,Other,25,0,2006,Actual,6/30/2006,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Other,0,0,2006,Actual,6/30/2006,4.0,,Register of Wills,68,
+Revenue,Other,212,0,2006,Actual,6/30/2006,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,Other,0,0,2006,Actual,6/30/2006,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Other,1,0,2006,Actual,6/30/2006,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,Other,0,0,2006,Actual,6/30/2006,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Other,0,0,2006,Actual,6/30/2006,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,Other,1715,0,2006,Actual,6/30/2006,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,Other,0,0,2006,Actual,6/30/2006,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Total,5,0,2006,Actual,6/30/2006,4.0,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Total,126,0,2006,Actual,6/30/2006,4.0,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Total,2,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Total,2,0,2006,Actual,6/30/2006,4.0,,L&I: Board of Review,27,
+Bd. of Pensions,Total,65,0,2006,Actual,6/30/2006,4.0,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Total,134,0,2006,Actual,6/30/2006,4.0,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Total,3,0,2006,Actual,6/30/2006,4.0,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Total,14,0,2006,Actual,6/30/2006,4.0,,Capital Program Office,07,
+City Commissioners (Election Board),Total,93,0,2006,Actual,6/30/2006,4.0,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Total,180,0,2006,Actual,6/30/2006,4.0,,City Council,01,City Council
+City Planning Commission,Total,51,0,2006,Actual,6/30/2006,4.0,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Total,758,0,2006,Actual,6/30/2006,4.0,City Rep,Office of the City Representative,41,
+City Treasurer,Total,11,0,2006,Actual,6/30/2006,4.0,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Total,0,0,2006,Actual,6/30/2006,4.0,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Total,2,0,2006,Actual,6/30/2006,4.0,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Total,113,0,2006,Actual,6/30/2006,4.0,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Total,158,0,2006,Actual,6/30/2006,4.0,,Fairmount Park Commission,17,
+Finance,Total,174,0,2006,Actual,6/30/2006,4.0,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Total,2447,0,2006,Actual,6/30/2006,4.0,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Total,380,0,2006,Actual,6/30/2006,4.0,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Total,800,0,2006,Actual,6/30/2006,4.0,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Total,5,0,2006,Actual,6/30/2006,4.0,,Historical Commission,32,Historical Commission
+Human Relations Commission,Total,33,0,2006,Actual,6/30/2006,4.0,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Total,1764,0,2006,Actual,6/30/2006,4.0,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Total,111,0,2006,Actual,6/30/2006,4.0,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Total,7,0,2006,Actual,6/30/2006,4.0,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Total,230,0,2006,Actual,6/30/2006,4.0,Law,Law Department,44,Law
+Licenses & Inspections,Total,384,0,2006,Actual,6/30/2006,4.0,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Total,99,0,2006,Actual,6/30/2006,4.0,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Total,58,0,2006,Actual,6/30/2006,4.0,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Total,148,0,2006,Actual,6/30/2006,4.0,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Total,14,0,2006,Actual,6/30/2006,4.0,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,265,0,2006,Actual,6/30/2006,4.0,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Total,184,0,2006,Actual,6/30/2006,4.0,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Total,62,0,2006,Actual,6/30/2006,4.0,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Total,70,0,2006,Actual,6/30/2006,4.0,OHR,Office of Human Resources,56,Personnel
+Prisons,Total,2225,0,2006,Actual,6/30/2006,4.0,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Total,61,0,2006,Actual,6/30/2006,4.0,Procurement,Procurement Department,38,Procurement
+Public Health,Total,849,0,2006,Actual,6/30/2006,4.0,Public Health,Department of Public Health,14,Public Health
+Public Property,Total,158,0,2006,Actual,6/30/2006,4.0,Public Property,Department of Public Property,20,Public Property
+Records,Total,75,0,2006,Actual,6/30/2006,4.0,Records,Department of Records,31,Records
+Recreation,Total,493,0,2006,Actual,6/30/2006,4.0,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Total,65,0,2006,Actual,6/30/2006,4.0,,Register of Wills,68,
+Revenue,Total,459,0,2006,Actual,6/30/2006,4.0,Revenue,Department of Revenue,36,Revenue
+Sheriff,Total,243,0,2006,Actual,6/30/2006,4.0,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Total,587,0,2006,Actual,6/30/2006,4.0,Streets,Streets Department,12,Streets
+Streets - Sanitation,Total,1263,0,2006,Actual,6/30/2006,4.0,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Total,0,0,2006,Actual,6/30/2006,4.0,,Tax Reform Commission,02,Tax Reform Commission
+Water,Total,1715,0,2006,Actual,6/30/2006,4.0,Water,Water Department,28,Water
+Zoning Board of Adjustment,Total,5,0,2006,Actual,6/30/2006,4.0,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Police,General,824,6463,2006,Actual,6/30/2006,4.0,Police,Police Department,11,Police
+Police,Other,11,147,2006,Actual,6/30/2006,4.0,Police,Police Department,11,Police
+Police,Total,835,6610,2006,Actual,6/30/2006,4.0,Police,Police Department,11,Police
+Fire,General,2169,101,2006,Actual,6/30/2006,4.0,Fire,Fire Department,13,Fire
+Fire,Other,62,3,2006,Actual,6/30/2006,4.0,Fire,Fire Department,13,Fire
+Fire,Total,2231,104,2006,Actual,6/30/2006,4.0,Fire,Fire Department,13,Fire
+District Attorney,General,411,13,2006,Actual,6/30/2006,4.0,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Other,90,4,2006,Actual,6/30/2006,4.0,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Total,501,17,2006,Actual,6/30/2006,4.0,DAO,District Attorney's Office,69,District Attorney
+Atwater Kent Museum,General,5,0,2007,Budgeted,,,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),General,126,0,2007,Budgeted,,,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,General,2,0,2007,Budgeted,,,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,General,2,0,2007,Budgeted,,,,L&I: Board of Review,27,
+Bd. of Pensions,General,0,0,2007,Budgeted,,,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,General,134,0,2007,Budgeted,,,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,General,3,0,2007,Budgeted,,,,Camp William Penn,19,
+"Capital Program Office, Mayor-",General,14,0,2007,Budgeted,,,,Capital Program Office,07,
+City Commissioners (Election Board),General,93,0,2007,Budgeted,,,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,General,180,0,2007,Budgeted,,,,City Council,01,City Council
+City Planning Commission,General,45,0,2007,Budgeted,,,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,General,12,0,2007,Budgeted,,,City Rep,Office of the City Representative,41,
+City Treasurer,General,11,0,2007,Budgeted,,,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,General,0,0,2007,Budgeted,,,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,General,2,0,2007,Budgeted,,,,Civil Service Commission,55,
+Clerk of Quarter Sessions,General,113,0,2007,Budgeted,,,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,General,157,0,2007,Budgeted,,,,Fairmount Park Commission,17,
+Finance,General,164,0,2007,Budgeted,,,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,General,1936,0,2007,Budgeted,,,FJD,First Judicial District,84,First Judicial District
+Fleet Management,General,313,0,2007,Budgeted,,,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,General,732,0,2007,Budgeted,,,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,General,5,0,2007,Budgeted,,,,Historical Commission,32,Historical Commission
+Human Relations Commission,General,33,0,2007,Budgeted,,,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,General,1703,0,2007,Budgeted,,,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",General,96,0,2007,Budgeted,,,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",General,7,0,2007,Budgeted,,,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,General,175,0,2007,Budgeted,,,Law,Law Department,44,Law
+Licenses & Inspections,General,355,0,2007,Budgeted,,,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),General,87,0,2007,Budgeted,,,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,General,55,0,2007,Budgeted,,,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,General,21,0,2007,Budgeted,,,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,General,14,0,2007,Budgeted,,,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,36,0,2007,Budgeted,,,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,General,131,0,2007,Budgeted,,,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,General,3,0,2007,Budgeted,,,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,General,70,0,2007,Budgeted,,,OHR,Office of Human Resources,56,Personnel
+Prisons,General,2225,0,2007,Budgeted,,,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,General,59,0,2007,Budgeted,,,Procurement,Procurement Department,38,Procurement
+Public Health,General,622,0,2007,Budgeted,,,Public Health,Department of Public Health,14,Public Health
+Public Property,General,158,0,2007,Budgeted,,,Public Property,Department of Public Property,20,Public Property
+Records,General,75,0,2007,Budgeted,,,Records,Department of Records,31,Records
+Recreation,General,468,0,2007,Budgeted,,,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,General,65,0,2007,Budgeted,,,,Register of Wills,68,
+Revenue,General,247,0,2007,Budgeted,,,Revenue,Department of Revenue,36,Revenue
+Sheriff,General,243,0,2007,Budgeted,,,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,General,586,0,2007,Budgeted,,,Streets,Streets Department,12,Streets
+Streets - Sanitation,General,1263,0,2007,Budgeted,,,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,General,0,0,2007,Budgeted,,,,Tax Reform Commission,02,Tax Reform Commission
+Water,General,0,0,2007,Budgeted,,,Water,Water Department,28,Water
+Zoning Board of Adjustment,General,5,0,2007,Budgeted,,,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Other,0,0,2007,Budgeted,,,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Other,0,0,2007,Budgeted,,,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Other,0,0,2007,Budgeted,,,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Other,0,0,2007,Budgeted,,,,L&I: Board of Review,27,
+Bd. of Pensions,Other,65,0,2007,Budgeted,,,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Other,0,0,2007,Budgeted,,,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Other,0,0,2007,Budgeted,,,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Other,0,0,2007,Budgeted,,,,Capital Program Office,07,
+City Commissioners (Election Board),Other,0,0,2007,Budgeted,,,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Other,0,0,2007,Budgeted,,,,City Council,01,City Council
+City Planning Commission,Other,6,0,2007,Budgeted,,,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Other,746,0,2007,Budgeted,,,City Rep,Office of the City Representative,41,
+City Treasurer,Other,0,0,2007,Budgeted,,,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Other,0,0,2007,Budgeted,,,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Other,0,0,2007,Budgeted,,,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Other,0,0,2007,Budgeted,,,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Other,1,0,2007,Budgeted,,,,Fairmount Park Commission,17,
+Finance,Other,10,0,2007,Budgeted,,,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Other,511,0,2007,Budgeted,,,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Other,67,0,2007,Budgeted,,,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Other,68,0,2007,Budgeted,,,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Other,0,0,2007,Budgeted,,,,Historical Commission,32,Historical Commission
+Human Relations Commission,Other,0,0,2007,Budgeted,,,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Other,61,0,2007,Budgeted,,,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Other,15,0,2007,Budgeted,,,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Other,0,0,2007,Budgeted,,,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Other,55,0,2007,Budgeted,,,Law,Law Department,44,Law
+Licenses & Inspections,Other,29,0,2007,Budgeted,,,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Other,12,0,2007,Budgeted,,,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Other,3,0,2007,Budgeted,,,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Other,127,0,2007,Budgeted,,,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Other,0,0,2007,Budgeted,,,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,229,0,2007,Budgeted,,,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Other,53,0,2007,Budgeted,,,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Other,59,0,2007,Budgeted,,,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Other,0,0,2007,Budgeted,,,OHR,Office of Human Resources,56,Personnel
+Prisons,Other,0,0,2007,Budgeted,,,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Other,2,0,2007,Budgeted,,,Procurement,Procurement Department,38,Procurement
+Public Health,Other,227,0,2007,Budgeted,,,Public Health,Department of Public Health,14,Public Health
+Public Property,Other,0,0,2007,Budgeted,,,Public Property,Department of Public Property,20,Public Property
+Records,Other,0,0,2007,Budgeted,,,Records,Department of Records,31,Records
+Recreation,Other,25,0,2007,Budgeted,,,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Other,0,0,2007,Budgeted,,,,Register of Wills,68,
+Revenue,Other,212,0,2007,Budgeted,,,Revenue,Department of Revenue,36,Revenue
+Sheriff,Other,0,0,2007,Budgeted,,,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Other,1,0,2007,Budgeted,,,Streets,Streets Department,12,Streets
+Streets - Sanitation,Other,0,0,2007,Budgeted,,,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Other,0,0,2007,Budgeted,,,,Tax Reform Commission,02,Tax Reform Commission
+Water,Other,1715,0,2007,Budgeted,,,Water,Water Department,28,Water
+Zoning Board of Adjustment,Other,0,0,2007,Budgeted,,,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Atwater Kent Museum,Total,5,0,2007,Budgeted,,,Atwater Kent,Atwater Kent Museum,18,Atwater Kent Museum
+Auditing (City Controller's Office),Total,126,0,2007,Budgeted,,,,City Controller's Office,61,Auditing (City Controller's Office)
+Board of Bullding Standards,Total,2,0,2007,Budgeted,,,,L&I: Board of Building and Standards,29,
+Board of L & I Revlew,Total,2,0,2007,Budgeted,,,,L&I: Board of Review,27,
+Bd. of Pensions,Total,65,0,2007,Budgeted,,,Pensions,Board of Pensions,53,
+Bd. of Revision of Taxes,Total,134,0,2007,Budgeted,,,BRT,Board of Revision of Taxes,63,
+Camp Willlam Penn,Total,3,0,2007,Budgeted,,,,Camp William Penn,19,
+"Capital Program Office, Mayor-",Total,14,0,2007,Budgeted,,,,Capital Program Office,07,
+City Commissioners (Election Board),Total,93,0,2007,Budgeted,,,City Commissioners,City Commissioner's Office,73,City Commissioners (Election Board)
+City Council,Total,180,0,2007,Budgeted,,,,City Council,01,City Council
+City Planning Commission,Total,51,0,2007,Budgeted,,,,City Planning Commission,51,City Planning Commission
+City Rep. / Commerce,Total,758,0,2007,Budgeted,,,City Rep,Office of the City Representative,41,
+City Treasurer,Total,11,0,2007,Budgeted,,,City Treasurer,Office of the City Treasurer,40,City Treasurer
+Civic Center,Total,0,0,2007,Budgeted,,,Aviation,Division of Aviation,43,Civic Center
+Civil Servico Commission,Total,2,0,2007,Budgeted,,,,Civil Service Commission,55,
+Clerk of Quarter Sessions,Total,113,0,2007,Budgeted,,,,Clerk of Quarter Sessions,64,Clerk of Quarter Sessions
+Fairmount Park,Total,158,0,2007,Budgeted,,,,Fairmount Park Commission,17,
+Finance,Total,174,0,2007,Budgeted,,,Finance,Office of the Director of Finance,35,Finance
+First Judicial District,Total,2447,0,2007,Budgeted,,,FJD,First Judicial District,84,First Judicial District
+Fleet Management,Total,380,0,2007,Budgeted,,,Fleet,Office of Fleet Management,25,Fleet Management
+Free Library,Total,800,0,2007,Budgeted,,,Free Library,The Free Library of Philadelphia,52,Free Library
+Historical Commission,Total,5,0,2007,Budgeted,,,,Historical Commission,32,Historical Commission
+Human Relations Commission,Total,33,0,2007,Budgeted,,,Human Relations,Commission on Human Relations,54,Human Relations Commission
+Human Services,Total,1764,0,2007,Budgeted,,,DHS,Department of Human Services,22,Human Services
+"Information Services, Mayor's Office of",Total,111,0,2007,Budgeted,,,OIT,Office of Innovation and Technology,04,
+"Labor Relations, Mayor's Office of",Total,7,0,2007,Budgeted,,,,Labor,03,"Labor Relations, Mayor's Office of"
+Law,Total,230,0,2007,Budgeted,,,Law,Law Department,44,Law
+Licenses & Inspections,Total,384,0,2007,Budgeted,,,L&I,Department of Licenses and Inspections,26,Licenses & Inspections
+Managing Director (MDO),Total,99,0,2007,Budgeted,,,MDO,Managing Director's Office,10,Managing Director (MDO)
+Mayor,Total,58,0,2007,Budgeted,,,Mayor,Mayor's Office,05,Mayor
+Mayor's Office of Comm. Svcs.,Total,148,0,2007,Budgeted,,,CEO,Mayor's Office of Community Empowerment and Opportunity,08,Mayor's Office of Comm. Svcs.
+Mural Arts Program,Total,14,0,2007,Budgeted,,,Mural Arts,Mural Arts Program,50,Mural Arts Program
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,265,0,2007,Budgeted,,,DBH/IDS,Behavioral Health and Intellectual Disability Services,15,Off. of Behavioral Hith/Mental Retard. Svcs.
+Off.of Supportive Housing,Total,184,0,2007,Budgeted,,,OHS,Office of Homeless Services,24,Off.of Supportive Housing
+Office of Housing and Community Develop.,Total,62,0,2007,Budgeted,,,,Office of Housing and Community Development,06,Office of Housing and Community Develop.
+Personnel,Total,70,0,2007,Budgeted,,,OHR,Office of Human Resources,56,Personnel
+Prisons,Total,2225,0,2007,Budgeted,,,Prisons,Philadelphia Prison System,23,Prisons
+Procurement,Total,61,0,2007,Budgeted,,,Procurement,Procurement Department,38,Procurement
+Public Health,Total,849,0,2007,Budgeted,,,Public Health,Department of Public Health,14,Public Health
+Public Property,Total,158,0,2007,Budgeted,,,Public Property,Department of Public Property,20,Public Property
+Records,Total,75,0,2007,Budgeted,,,Records,Department of Records,31,Records
+Recreation,Total,493,0,2007,Budgeted,,,Parks & Recreation,Department of Parks and Recreation,16,Recreation
+Fogister of Wills,Total,65,0,2007,Budgeted,,,,Register of Wills,68,
+Revenue,Total,459,0,2007,Budgeted,,,Revenue,Department of Revenue,36,Revenue
+Sheriff,Total,243,0,2007,Budgeted,,,Sheriff,Office of the Sheriff,70,Sheriff
+Streets,Total,587,0,2007,Budgeted,,,Streets,Streets Department,12,Streets
+Streets - Sanitation,Total,1263,0,2007,Budgeted,,,,Streets: Sanitation,12S,Streets - Sanitation
+Tax Reform Commission,Total,0,0,2007,Budgeted,,,,Tax Reform Commission,02,Tax Reform Commission
+Water,Total,1715,0,2007,Budgeted,,,Water,Water Department,28,Water
+Zoning Board of Adjustment,Total,5,0,2007,Budgeted,,,ZBA,Zoning Board of Adjustments,30,Zoning Board of Adjustment
+Police,General,824,6463,2007,Budgeted,,,Police,Police Department,11,Police
+Police,Other,11,147,2007,Budgeted,,,Police,Police Department,11,Police
+Police,Total,835,6610,2007,Budgeted,,,Police,Police Department,11,Police
+Fire,General,2169,101,2007,Budgeted,,,Fire,Fire Department,13,Fire
+Fire,Other,62,3,2007,Budgeted,,,Fire,Fire Department,13,Fire
+Fire,Total,2231,104,2007,Budgeted,,,Fire,Fire Department,13,Fire
+District Attorney,General,411,13,2007,Budgeted,,,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Other,90,4,2007,Budgeted,,,DAO,District Attorney's Office,69,District Attorney
+District Attorney,Total,501,17,2007,Budgeted,,,DAO,District Attorney's Office,69,District Attorney
