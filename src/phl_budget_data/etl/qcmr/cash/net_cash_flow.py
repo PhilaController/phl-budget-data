@@ -1,8 +1,41 @@
 import pandas as pd
 from loguru import logger
+from pydantic import BaseModel, Field, validator
 
+from ...core import validate_data_schema
 from ...utils.misc import get_index_label
 from .core import CashFlowForecast
+
+CATEGORIES = [
+    "excess_of_receipts_over_disbursements",
+    "opening_balance",
+    "tran",
+    "closing_balance",
+]
+
+
+class NetCashFlowSchema(BaseModel):
+    """Schema for the General Fund cash flow data from the QCMR."""
+
+    amount: float = Field(title="Cash Amount", description="The cash amount.")
+    fiscal_month: int = Field(
+        title="Fiscal Month",
+        description="The fiscal month, where 1 equals July",
+        ge=1,
+        le=12,
+    )
+    category: str = Field(
+        title="Category",
+        description="The net cash flow category.",
+    )
+
+    @validator("category")
+    def category_ok(cls, category):
+        """Validate the 'category' field."""
+        if category not in CATEGORIES:
+            raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
+
+        return category
 
 
 class CashReportNetCashFlow(CashFlowForecast):
@@ -25,18 +58,12 @@ class CashReportNetCashFlow(CashFlowForecast):
 
         return out.dropna(how="all", subset=map(str, range(1, 13)))
 
+    @validate_data_schema(data_schema=NetCashFlowSchema)
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
-        categories = [
-            "excess_of_receipts_over_disbursements",
-            "opening_balance",
-            "tran",
-            "closing_balance",
-        ]
-
         # Check the length
-        if len(data) != len(categories):
+        if len(data) != len(CATEGORIES):
             fy = str(self.fiscal_year)[2:]
             tag = f"FY{fy} Q{self.quarter}"
             raise ValueError(
@@ -44,7 +71,7 @@ class CashReportNetCashFlow(CashFlowForecast):
             )
 
         # Set the categories
-        data["0"] = categories
+        data["0"] = CATEGORIES
         return super().transform(data)
 
     def validate(self, data):

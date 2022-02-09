@@ -1,8 +1,52 @@
 import pandas as pd
 from loguru import logger
+from pydantic import BaseModel, Field, validator
 
+from ...core import validate_data_schema
 from ...utils.misc import get_index_label
 from .core import CashFlowForecast
+
+CATEGORIES = [
+    "real_estate_tax",
+    "total_wage_earnings_net_profits",
+    "realty_transfer_tax",
+    "sales_tax",
+    "business_income_and_receipts_tax",
+    "beverage_tax",
+    "other_taxes",
+    "locally_generated_nontax",
+    "total_other_governments",
+    "total_pica_other_governments",
+    "interfund_transfers",
+    "total_current_revenue",
+    "collection_of_prior_year_revenue",
+    "other_fund_balance_adjustments",
+    "total_cash_receipts",
+]
+
+
+class CashRevenueSchema(BaseModel):
+    """Schema for the General Fund cash revenue data from the QCMR."""
+
+    amount: float = Field(title="Cash Amount", description="The cash amount.")
+    fiscal_month: int = Field(
+        title="Fiscal Month",
+        description="The fiscal month, where 1 equals July",
+        ge=1,
+        le=13,
+    )
+    category: str = Field(
+        title="Category",
+        description="The revenue category.",
+    )
+
+    @validator("category")
+    def category_ok(cls, category):
+        """Validate the 'category' field."""
+        if category not in CATEGORIES:
+            raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
+
+        return category
 
 
 class CashReportRevenue(CashFlowForecast):
@@ -29,28 +73,12 @@ class CashReportRevenue(CashFlowForecast):
         # Remove empty rows
         return out.dropna(how="all")
 
+    @validate_data_schema(data_schema=CashRevenueSchema)
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
-        categories = [
-            "real_estate_tax",
-            "total_wage_earnings_net_profits",
-            "realty_transfer_tax",
-            "sales_tax",
-            "business_income_and_receipts_tax",
-            "beverage_tax",
-            "other_taxes",
-            "locally_generated_nontax",
-            "total_other_governments",
-            "total_pica_other_governments",
-            "interfund_transfers",
-            "total_current_revenue",
-            "collection_of_prior_year_revenue",
-            "other_fund_balance_adjustments",
-            "total_cash_receipts",
-        ]
-
         # Remove soda tax
+        categories = [c for c in CATEGORIES]
         if self.fiscal_year < 2017:
             categories.pop(categories.index("beverage_tax"))
 
@@ -59,7 +87,6 @@ class CashReportRevenue(CashFlowForecast):
         data = data[~sel].copy()
 
         # Try to add adjustments
-        second_to_last = data.iloc[-2]
         tag = "Other fund balance adjustments"
         if (
             self.fiscal_year >= 2011

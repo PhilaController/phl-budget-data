@@ -1,8 +1,51 @@
 import pandas as pd
 from loguru import logger
+from pydantic import BaseModel, Field, validator
 
+from ...core import validate_data_schema
 from ...utils.misc import get_index_label
 from .core import CashFlowForecast
+
+CATEGORIES = [
+    "payroll",
+    "employee_benefits",
+    "pension",
+    "purchases_of_services",
+    "materials_equipment",
+    "contributions_indemnities",
+    "debt_service_short",
+    "debt_service_long",
+    "interfund_charges",
+    "advances_misc_payments",
+    "current_year_appropriation",
+    "prior_year_encumbrances",
+    "prior_year_vouchers_payable",
+    "total_disbursements",
+]
+
+
+class CashSpendingSchema(BaseModel):
+    """Schema for the General Fund cash spending data from the QCMR."""
+
+    amount: float = Field(title="Cash Amount", description="The cash amount.")
+    fiscal_month: int = Field(
+        title="Fiscal Month",
+        description="The fiscal month, where 1 equals July",
+        ge=1,
+        le=13,
+    )
+    category: str = Field(
+        title="Category",
+        description="The spending category.",
+    )
+
+    @validator("category")
+    def category_ok(cls, category):
+        """Validate the 'category' field."""
+        if category not in CATEGORIES:
+            raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
+
+        return category
 
 
 class CashReportSpending(CashFlowForecast):
@@ -26,34 +69,18 @@ class CashReportSpending(CashFlowForecast):
         # Remove empty rows
         return out.dropna(how="all", subset=map(str, range(1, 14)))
 
+    @validate_data_schema(data_schema=CashSpendingSchema)
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
-        categories = [
-            "payroll",
-            "employee_benefits",
-            "pension",
-            "purchases_of_services",
-            "materials_equipment",
-            "contributions_indemnities",
-            "debt_service_short",
-            "debt_service_long",
-            "interfund_charges",
-            "advances_misc_payments",
-            "current_year_appropriation",
-            "prior_year_encumbrances",
-            "prior_year_vouchers_payable",
-            "total_disbursements",
-        ]
-
         # Check the length
-        if len(data) != len(categories):
+        if len(data) != len(CATEGORIES):
             fy = str(self.fiscal_year)[2:]
             tag = f"FY{fy} Q{self.quarter}"
             raise ValueError(f"Parsing error for spending data in {tag} cash report")
 
         # Set the categories
-        data["0"] = categories
+        data["0"] = CATEGORIES
         return super().transform(data)
 
     def validate(self, data):

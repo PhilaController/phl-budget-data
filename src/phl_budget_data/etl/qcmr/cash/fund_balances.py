@@ -1,8 +1,52 @@
+"""A class for the fund balances in the cash flow forecast."""
+
 import pandas as pd
 from loguru import logger
+from pydantic import BaseModel, Field, validator
 
+from ...core import validate_data_schema
 from ...utils.transformations import remove_parentheses, remove_unwanted_chars
 from .core import CashFlowForecast
+
+CATEGORIES = [
+    "vehicle_rental_tax",
+    "community_development",
+    "grants_revenue",
+    "total_capital_funds",
+    "total_fund_equity",
+    "industrial_and_commercial_dev",
+    "other_funds",
+    "capital_improvement",
+    "total_operating_funds",
+    "general",
+    "housing_trust_fund",
+    "hospital_assessment_fund",
+    "budget_stabilization_fund",
+]
+
+
+class FundBalancesSchema(BaseModel):
+    """Schema for the cash Fund Balances data from the QCMR."""
+
+    amount: float = Field(title="Cash Amount", description="The cash amount.")
+    fiscal_month: int = Field(
+        title="Fiscal Month",
+        description="The fiscal month, where 1 equals July",
+        ge=1,
+        le=12,
+    )
+    category: str = Field(
+        title="Category",
+        description="The fund balance category.",
+    )
+
+    @validator("category")
+    def category_ok(cls, category):
+        """Validate the 'category' field."""
+        if category not in CATEGORIES:
+            raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
+
+        return category
 
 
 class CashReportFundBalances(CashFlowForecast):
@@ -19,24 +63,9 @@ class CashReportFundBalances(CashFlowForecast):
         # Remove first row and empty rows
         return df.dropna(how="all").iloc[1:]
 
+    @validate_data_schema(data_schema=FundBalancesSchema)
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
-
-        categories = [
-            "vehicle_rental_tax",
-            "community_development",
-            "grants_revenue",
-            "total_capital_funds",
-            "total_fund_equity",
-            "industrial_and_commercial_dev",
-            "other_funds",
-            "capital_improvement",
-            "total_operating_funds",
-            "general",
-            "housing_trust_fund",
-            "hospital_assessment_fund",
-            "budget_stabilization_fund",
-        ]
 
         # Transform the category
         transform = lambda x: "_".join(
@@ -49,14 +78,6 @@ class CashReportFundBalances(CashFlowForecast):
             ).split()
         )
         data["0"] = data["0"].apply(transform)
-
-        # Check the length
-        if not data["0"].isin(categories).all():
-            fy = str(self.fiscal_year)[2:]
-            tag = f"FY{fy} Q{self.quarter}"
-            raise ValueError(
-                f"Parsing error for fund balance data in {tag} cash report"
-            )
 
         # Return
         return super().transform(data)
