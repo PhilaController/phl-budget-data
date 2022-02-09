@@ -1,0 +1,70 @@
+dept_name_raw,class_100,class_200,class_300_400,class_500,class_700,class_800,class_900,fiscal_year,total,abbreviation,dept_code,dept_name,dept_major_code
+Art Museum,0.0,0.0,0.0,2300000.0,0.0,0.0,0.0,2012,2300000.0,,34,Art Museum,34
+Atwater Kent Museum,215694.0,0.0,0.0,50000.0,0.0,0.0,0.0,2012,265694.0,Atwater Kent,18,Atwater Kent Museum,18
+Auditing,6600290.0,688217.0,0.0,0.0,0.0,0.0,0.0,2012,7288507.0,,61,City Controller's Office,61
+Board of Building Standards,57935.0,0.0,0.0,0.0,0.0,0.0,0.0,2012,57935.0,,29,L&I: Board of Building and Standards,29
+Board of Ethics,657532.0,17123.0,7917.0,0.0,0.0,0.0,0.0,2012,682572.0,,45,Board of Ethics,45
+Board of L.&I. Review,117161.0,7282.0,0.0,0.0,0.0,0.0,0.0,2012,124443.0,,27,L&I: Board of Review,27
+Board of Revision of Taxes,503932.0,20185.0,15592.0,0.0,0.0,0.0,0.0,2012,539709.0,BRT,63,Board of Revision of Taxes,63
+City Commissioners,4948351.0,3050843.0,536167.0,0.0,0.0,0.0,0.0,2012,8535361.0,City Commissioners,73,City Commissioner's Office,73
+City Counci,11817917.0,1600959.0,339306.0,0.0,0.0,0.0,0.0,2012,13758182.0,,01,City Council,01
+City Planning,2091813.0,77649.0,39748.0,0.0,0.0,0.0,0.0,2012,2209210.0,,51,City Planning Commission,51
+City Representative,328571.0,505266.0,44810.0,0.0,0.0,0.0,0.0,2012,878647.0,City Rep,41,Office of the City Representative,41
+City Treasurer,717071.0,102015.0,5949.0,0.0,0.0,0.0,0.0,2012,825035.0,City Treasurer,40,Office of the City Treasurer,40
+Civil Service,136782.0,29500.0,438.0,0.0,0.0,0.0,0.0,2012,166720.0,,55,Civil Service Commission,55
+Commerce,1594665.0,452041.0,20547.0,0.0,0.0,0.0,0.0,2012,2067253.0,Commerce,42,Office of the Director of Commerce,42
+Commerce-Economic Stimulus,0.0,1294448.0,0.0,0.0,0.0,0.0,0.0,2012,1294448.0,,42ES,Commerce: Economic Stimulus,42
+Community College Subsidy,0.0,0.0,0.0,25409207.0,0.0,0.0,0.0,2012,25409207.0,,35CC,Finance: Community College Subsidy,35
+Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,0.0,2012,15000000.0,,42CC,Commerce: Convention Center Subsidy,42
+Debt Service (Sinking Fund),0.0,89711552.0,0.0,0.0,111333976.0,0.0,0.0,2012,201045528.0,Sinking Fund,37,Sinking Fund Commission,37
+Director of Finance,8807264.0,4134423.0,134622.0,2318860.0,0.0,0.0,0.0,2012,15395169.0,Finance,35,Office of the Director of Finance,35
+District Attorney,28495977.0,1638672.0,497591.0,0.0,0.0,0.0,0.0,2012,30632240.0,DAO,69,District Attorney's Office,69
+Finance-Contribution  to School District,0.0,0.0,0.0,48930000.0,0.0,0.0,0.0,2012,48930000.0,,35SD,Finance: School District Contribution,35
+Finance-Employee Benefits,1066249915.0,0.0,0.0,0.0,0.0,0.0,0.0,2012,1066249915.0,,35EB,Finance: Employee Benefits,35
+Fire,173513212.0,6766957.0,7818339.0,0.0,0.0,6951000.0,0.0,2012,195049508.0,Fire,13,Fire Department,13
+First Judicial District,89990406.0,24146489.0,2812361.0,0.0,0.0,0.0,0.0,2012,116949256.0,FJD,84,First Judicial District,84
+Fleet Management,15307822.0,4861835.0,29457254.0,0.0,0.0,0.0,0.0,2012,49626911.0,Fleet,25,Office of Fleet Management,25
+Free Library,28981009.0,2360191.0,1927596.0,0.0,0.0,0.0,0.0,2012,33268796.0,Free Library,52,The Free Library of Philadelphia,52
+Hero Scholarship Awards,0.0,0.0,0.0,28000.0,0.0,0.0,0.0,2012,28000.0,,35HA,Finance: Hero Scholarship Awards,35
+Historica Commission,357778.0,0.0,807.0,0.0,0.0,0.0,0.0,2012,358585.0,,32,Historical Commission,32
+Human Relations,1787026.0,31763.0,11080.0,0.0,0.0,0.0,0.0,2012,1829869.0,Human Relations,54,Commission on Human Relations,54
+Human Services (1),23237096.0,78163844.0,528386.0,0.0,0.0,0.0,0.0,2012,101929326.0,DHS,22,Department of Human Services,22
+Indemnities,0.0,0.0,0.0,32606842.0,0.0,0.0,0.0,2012,32606842.0,,35IN,Finance: Indemnities,35
+Law,6370891.0,7732543.0,246330.0,0.0,0.0,0.0,0.0,2012,14349764.0,Law,44,Law Department,44
+Legal Services (2),0.0,37066187.0,0.0,0.0,0.0,0.0,0.0,2012,37066187.0,,10LS,MDO: Legal Services,10
+Licenses & Inspection,13919022.0,6953682.0,303600.0,0.0,0.0,0.0,0.0,2012,21176304.0,L&I,26,Department of Licenses and Inspections,26
+Management-\ -Vehicle Lease/Purch.,0.0,4324135.0,1964574.0,0.0,0.0,0.0,0.0,2012,6288709.0,,25V,Fleet: Vehicle Lease/Purchases,25
+Managing Director,13338302.0,7903020.0,481372.0,0.0,0.0,0.0,0.0,2012,21722694.0,MDO,10,Managing Director's Office,10
+Mayor - Office of Labor Relations,508600.0,1160.0,7123.0,0.0,0.0,0.0,0.0,2012,516883.0,,03,Labor,03
+Mayor - Scholarships,0.0,0.0,0.0,184000.0,0.0,0.0,0.0,2012,184000.0,,05S,Mayor's Office: Scholarships,05
+Mayor Mural Arts Program,441677.0,554800.0,0.0,0.0,0.0,0.0,0.0,2012,996477.0,Mural Arts,50,Mural Arts Program,50
+Mayor's Office,2965371.0,529822.0,18762.0,0.0,0.0,0.0,0.0,2012,3513955.0,Mayor,05,Mayor's Office,05
+Mayor's Office of Transportation,467898.0,30601.0,0.0,0.0,0.0,0.0,0.0,2012,498499.0,,46,Mayor's Office of Transportation and Utilities,46
+Office of Arts & Culture & the Creative  Economy,198750.0,391640.0,650.0,2070688.0,0.0,0.0,0.0,2012,2661728.0,Arts & Culture,58,"Office of Arts, Culture, and the Creative Economy",58
+Office of Behavioral Health and  Intellectual Disability,1360503.0,12879311.0,0.0,0.0,0.0,0.0,0.0,2012,14239814.0,DBH/IDS,15,Behavioral Health and Intellectual Disability Services,15
+Office of Housing and Comm. Dev.,0.0,2661242.0,0.0,0.0,0.0,1551865.0,0.0,2012,4213107.0,,06,Office of Housing and Community Development,06
+Office of Human Resources,4141604.0,758749.0,44870.0,0.0,0.0,0.0,0.0,2012,4945223.0,OHR,56,Office of Human Resources,56
+Office of Innovation and Technology,16408093.0,41255920.0,5607528.0,0.0,0.0,0.0,0.0,2012,63271541.0,OIT,04,Office of Innovation and Technology,04
+Office of Property Assessment,7014594.0,594675.0,358451.0,0.0,0.0,0.0,0.0,2012,7967720.0,OPA,59,Office of Property Assessment,59
+Office of Supportive Housing,7556596.0,30415823.0,342854.0,32342.0,0.0,0.0,0.0,2012,38347615.0,OHS,24,Office of Homeless Services,24
+Office of the Inspector Genera,1128064.0,95112.0,15956.0,0.0,0.0,0.0,0.0,2012,1239132.0,OIG,48,Office of the Inspector General,48
+Parks and Recreation,35492911.0,4934902.0,2111477.0,2830000.0,0.0,0.0,0.0,2012,45369290.0,Parks & Recreation,16,Department of Parks and Recreation,16
+Police,536548353.0,7056759.0,8686975.0,0.0,0.0,0.0,0.0,2012,552292087.0,Police,11,Police Department,11
+Prisons,121476307.0,104039021.0,4768519.0,1238742.0,0.0,0.0,0.0,2012,231522589.0,Prisons,23,Philadelphia Prison System,23
+Procurement,2107515.0,2312434.0,40579.0,0.0,0.0,0.0,0.0,2012,4460528.0,Procurement,38,Procurement Department,38
+Public Health,39076424.0,62997156.0,4611216.0,0.0,0.0,500000.0,0.0,2012,107184796.0,Public Health,14,Department of Public Health,14
+Public Property,6496367.0,25166100.0,985463.0,0.0,0.0,20519684.0,0.0,2012,53167614.0,Public Property,20,Department of Public Property,20
+Public Property-SEPTA Subsidy,0.0,66360000.0,0.0,0.0,0.0,0.0,0.0,2012,66360000.0,,20SS,Public Property: SEPTA Subsidy,20
+Public Property-Space Rentals,0.0,16795777.0,0.0,0.0,0.0,0.0,0.0,2012,16795777.0,,20SR,Public Property: Space Rentals,20
+Public Property-Utilities,0.0,31157967.0,0.0,0.0,0.0,0.0,0.0,2012,31157967.0,,20U,Public Property: Utilities,20
+Records,2679728.0,1081534.0,78242.0,1257.0,0.0,0.0,0.0,2012,3840761.0,Records,31,Department of Records,31
+Refunds,0.0,0.0,0.0,382.0,0.0,0.0,0.0,2012,382.0,,35R,Finance: Refunds,35
+Register of Wills,3223922.0,54721.0,33188.0,0.0,0.0,0.0,0.0,2012,3311831.0,,68,Register of Wills,68
+Revenue,14544961.0,3772938.0,503279.0,0.0,0.0,0.0,0.0,2012,18821178.0,Revenue,36,Department of Revenue,36
+Sheriff,14816967.0,307905.0,320818.0,0.0,0.0,0.0,0.0,2012,15445690.0,Sheriff,70,Office of the Sheriff,70
+Streets,19834401.0,1642995.0,2585629.0,0.0,0.0,0.0,0.0,2012,24063025.0,Streets,12,Streets Department,12
+Streets W Sanitation,46123890.0,44044511.0,1597512.0,48171.0,0.0,0.0,0.0,2012,91814084.0,,12S,Streets: Sanitation,12
+Witness Fees,0.0,140479.0,0.0,0.0,0.0,0.0,0.0,2012,140479.0,,35WF,Finance: Witness Fees,35
+Youth Commission,24694.0,14432.0,2611.0,0.0,0.0,0.0,0.0,2012,41737.0,,47,Youth Commission,47
+Zoning Bd. of Adi.,333162.0,33191.0,0.0,0.0,0.0,0.0,0.0,2012,366353.0,ZBA,30,Zoning Board of Adjustments,30
+Zoning Code Commission,119408.0,96579.0,250.0,0.0,0.0,0.0,0.0,2012,216237.0,,57,Zoning Code Commission,57
