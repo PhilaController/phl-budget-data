@@ -9,7 +9,8 @@ from pydantic import BaseModel, Field, validator
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
 from ...utils.misc import get_index_label
-from ...utils.transformations import convert_to_floats, decimal_to_comma, fix_zeros
+from ...utils.transformations import (convert_to_floats, decimal_to_comma,
+                                      fix_zeros)
 from ..base import ETLPipelineQCMR
 
 UNIFORMED = ["Police", "Fire", "District Attorney"]
@@ -33,7 +34,7 @@ class FullTimePositionsSchema(BaseModel):
     fiscal_year: int = Field(title="Fiscal Year", description="The fiscal year.")
     variable: str = Field(
         title="Variable",
-        description="The variable type, either 'Actual' or 'Budgeted'",
+        description="The variable type, either 'Actual' or 'Adopted Budget'",
     )
     time_period: str = Field(
         title="Time Period",
@@ -76,7 +77,7 @@ class FullTimePositionsSchema(BaseModel):
         """Validate the 'variable' field."""
         options = [
             "Actual",
-            "Budgeted",
+            "Adopted Budget",
         ]
         if variable not in options:
             raise ValueError(f"'variable' should be one of: {', '.join(options)}")
@@ -220,7 +221,7 @@ class FullTimePositions(ETLPipelineQCMR):
                 ),
                 _to_tidy_data(data, ["0", "4", "5", "6"]).assign(
                     fiscal_year=self.fiscal_year,
-                    variable="Budgeted",
+                    variable="Adopted Budget",
                     time_period="Full Year",
                     as_of_date=None,
                 ),

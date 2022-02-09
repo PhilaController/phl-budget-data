@@ -1,523 +1,523 @@
-dept_name_raw,fund,civilian,uniformed,fiscal_year,variable,time_period,as_of_date,total,dept_code,dept_name,abbreviation
-Atwater Kent Museum,General,4,0,2011,Actual,YTD,2010-12-31,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),General,113,0,2011,Actual,YTD,2010-12-31,113,61,City Controller's Office,
-Board of Building Standards,General,1,0,2011,Actual,YTD,2010-12-31,1,29,L&I: Board of Building and Standards,
-Board of Ethics,General,8,0,2011,Actual,YTD,2010-12-31,8,45,Board of Ethics,
-Board of L & 1 Review,General,2,0,2011,Actual,YTD,2010-12-31,2,27,L&I: Board of Review,
-Board of Pensions,General,0,0,2011,Actual,YTD,2010-12-31,0,53,Board of Pensions,Pensions
-Board of Revision of Taxes,General,6,0,2011,Actual,YTD,2010-12-31,6,63,Board of Revision of Taxes,BRT
-Camp William Penn,General,0,0,2011,Actual,YTD,2010-12-31,0,19,Camp William Penn,
-City Commissioners (Election Board),General,98,0,2011,Actual,YTD,2010-12-31,98,73,City Commissioner's Office,City Commissioners
-City Council,General,174,0,2011,Actual,YTD,2010-12-31,174,01,City Council,
-City Planning Commission,General,34,0,2011,Actual,YTD,2010-12-31,34,51,City Planning Commission,
-City Representative,General,7,0,2011,Actual,YTD,2010-12-31,7,41,Office of the City Representative,City Rep
-City Treasurer,General,12,0,2011,Actual,YTD,2010-12-31,12,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,General,2,0,2011,Actual,YTD,2010-12-31,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,General,0,0,2011,Actual,YTD,2010-12-31,0,64,Clerk of Quarter Sessions,
-Commerce,General,24,0,2011,Actual,YTD,2010-12-31,24,42,Office of the Director of Commerce,Commerce
-Division of Technology,General,264,0,2011,Actual,YTD,2010-12-31,264,04,Office of Innovation and Technology,OIT
-Fairmount Park,General,0,0,2011,Actual,YTD,2010-12-31,0,17,Fairmount Park Commission,
-Finance,General,140,0,2011,Actual,YTD,2010-12-31,140,35,Office of the Director of Finance,Finance
-First Judicial District,General,1853,0,2011,Actual,YTD,2010-12-31,1853,84,First Judicial District,FJD
-Fleet Management,General,275,0,2011,Actual,YTD,2010-12-31,275,25,Office of Fleet Management,Fleet
-Free Library,General,595,0,2011,Actual,YTD,2010-12-31,595,52,The Free Library of Philadelphia,Free Library
-Historical Commission,General,6,0,2011,Actual,YTD,2010-12-31,6,32,Historical Commission,
-Human Relations Commission,General,31,0,2011,Actual,YTD,2010-12-31,31,54,Commission on Human Relations,Human Relations
-Human Services,General,1679,0,2011,Actual,YTD,2010-12-31,1679,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",General,6,0,2011,Actual,YTD,2010-12-31,6,03,Labor,
-Law,General,170,0,2011,Actual,YTD,2010-12-31,170,44,Law Department,Law
-Licenses & Inspections,General,278,0,2011,Actual,YTD,2010-12-31,278,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),General,119,0,2011,Actual,YTD,2010-12-31,119,10,Managing Director's Office,MDO
-Mayor,General,35,0,2011,Actual,YTD,2010-12-31,35,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,General,2,0,2011,Actual,YTD,2010-12-31,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,General,14,0,2011,Actual,YTD,2010-12-31,14,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,General,0,0,2011,Actual,YTD,2010-12-31,0,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,General,8,0,2011,Actual,YTD,2010-12-31,8,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,General,11,0,2011,Actual,YTD,2010-12-31,11,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,General,20,0,2011,Actual,YTD,2010-12-31,20,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,General,69,0,2011,Actual,YTD,2010-12-31,69,56,Office of Human Resources,OHR
-Office of Property Assessment (1),General,134,0,2011,Actual,YTD,2010-12-31,134,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,General,115,0,2011,Actual,YTD,2010-12-31,115,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,General,0,0,2011,Actual,YTD,2010-12-31,0,06,Office of Housing and Community Development,
-Parks and Recreation,General,593,0,2011,Actual,YTD,2010-12-31,593,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,General,2202,0,2011,Actual,YTD,2010-12-31,2202,23,Philadelphia Prison System,Prisons
-Procurement,General,42,0,2011,Actual,YTD,2010-12-31,42,38,Procurement Department,Procurement
-Public Health,General,661,0,2011,Actual,YTD,2010-12-31,661,14,Department of Public Health,Public Health
-Public Property,General,123,0,2011,Actual,YTD,2010-12-31,123,20,Department of Public Property,Public Property
-Records,General,55,0,2011,Actual,YTD,2010-12-31,55,31,Department of Records,Records
-Register of Wills,General,62,0,2011,Actual,YTD,2010-12-31,62,68,Register of Wills,
-Revenue,General,248,0,2011,Actual,YTD,2010-12-31,248,36,Department of Revenue,Revenue
-Sheriff,General,220,0,2011,Actual,YTD,2010-12-31,220,70,Office of the Sheriff,Sheriff
-Streets,General,511,0,2011,Actual,YTD,2010-12-31,511,12,Streets Department,Streets
-Streets - Sanitation,General,1140,0,2011,Actual,YTD,2010-12-31,1140,12S,Streets: Sanitation,
-Water,General,0,0,2011,Actual,YTD,2010-12-31,0,28,Water Department,Water
-Youth Commission,General,1,0,2011,Actual,YTD,2010-12-31,1,47,Youth Commission,
-Zoning Board of Adjustment,General,5,0,2011,Actual,YTD,2010-12-31,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,General,2,0,2011,Actual,YTD,2010-12-31,2,57,Zoning Code Commission,
-Atwater Kent Museum,Other,0,0,2011,Actual,YTD,2010-12-31,0,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Other,0,0,2011,Actual,YTD,2010-12-31,0,61,City Controller's Office,
-Board of Building Standards,Other,0,0,2011,Actual,YTD,2010-12-31,0,29,L&I: Board of Building and Standards,
-Board of Ethics,Other,0,0,2011,Actual,YTD,2010-12-31,0,45,Board of Ethics,
-Board of L & 1 Review,Other,0,0,2011,Actual,YTD,2010-12-31,0,27,L&I: Board of Review,
-Board of Pensions,Other,64,0,2011,Actual,YTD,2010-12-31,64,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Other,0,0,2011,Actual,YTD,2010-12-31,0,63,Board of Revision of Taxes,BRT
-Camp William Penn,Other,0,0,2011,Actual,YTD,2010-12-31,0,19,Camp William Penn,
-City Commissioners (Election Board),Other,0,0,2011,Actual,YTD,2010-12-31,0,73,City Commissioner's Office,City Commissioners
-City Council,Other,0,0,2011,Actual,YTD,2010-12-31,0,01,City Council,
-City Planning Commission,Other,4,0,2011,Actual,YTD,2010-12-31,4,51,City Planning Commission,
-City Representative,Other,0,0,2011,Actual,YTD,2010-12-31,0,41,Office of the City Representative,City Rep
-City Treasurer,Other,0,0,2011,Actual,YTD,2010-12-31,0,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,55,Civil Service Commission,
-Clerk of Quarter Sessions,Other,0,0,2011,Actual,YTD,2010-12-31,0,64,Clerk of Quarter Sessions,
-Commerce,Other,740,0,2011,Actual,YTD,2010-12-31,740,42,Office of the Director of Commerce,Commerce
-Division of Technology,Other,67,0,2011,Actual,YTD,2010-12-31,67,04,Office of Innovation and Technology,OIT
-Fairmount Park,Other,0,0,2011,Actual,YTD,2010-12-31,0,17,Fairmount Park Commission,
-Finance,Other,0,0,2011,Actual,YTD,2010-12-31,0,35,Office of the Director of Finance,Finance
-First Judicial District,Other,550,0,2011,Actual,YTD,2010-12-31,550,84,First Judicial District,FJD
-Fleet Management,Other,65,0,2011,Actual,YTD,2010-12-31,65,25,Office of Fleet Management,Fleet
-Free Library,Other,63,0,2011,Actual,YTD,2010-12-31,63,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,32,Historical Commission,
-Human Relations Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,54,Commission on Human Relations,Human Relations
-Human Services,Other,57,0,2011,Actual,YTD,2010-12-31,57,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Other,0,0,2011,Actual,YTD,2010-12-31,0,03,Labor,
-Law,Other,58,0,2011,Actual,YTD,2010-12-31,58,44,Law Department,Law
-Licenses & Inspections,Other,12,0,2011,Actual,YTD,2010-12-31,12,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Other,13,0,2011,Actual,YTD,2010-12-31,13,10,Managing Director's Office,MDO
-Mayor,Other,4,0,2011,Actual,YTD,2010-12-31,4,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Other,0,0,2011,Actual,YTD,2010-12-31,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Other,0,0,2011,Actual,YTD,2010-12-31,0,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Other,76,0,2011,Actual,YTD,2010-12-31,76,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Other,2,0,2011,Actual,YTD,2010-12-31,2,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Other,0,0,2011,Actual,YTD,2010-12-31,0,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Other,230,0,2011,Actual,YTD,2010-12-31,230,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Other,0,0,2011,Actual,YTD,2010-12-31,0,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Other,0,0,2011,Actual,YTD,2010-12-31,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Other,43,0,2011,Actual,YTD,2010-12-31,43,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Other,72,0,2011,Actual,YTD,2010-12-31,72,06,Office of Housing and Community Development,
-Parks and Recreation,Other,22,0,2011,Actual,YTD,2010-12-31,22,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Other,0,0,2011,Actual,YTD,2010-12-31,0,23,Philadelphia Prison System,Prisons
-Procurement,Other,2,0,2011,Actual,YTD,2010-12-31,2,38,Procurement Department,Procurement
-Public Health,Other,203,0,2011,Actual,YTD,2010-12-31,203,14,Department of Public Health,Public Health
-Public Property,Other,0,0,2011,Actual,YTD,2010-12-31,0,20,Department of Public Property,Public Property
-Records,Other,0,0,2011,Actual,YTD,2010-12-31,0,31,Department of Records,Records
-Register of Wills,Other,0,0,2011,Actual,YTD,2010-12-31,0,68,Register of Wills,
-Revenue,Other,233,0,2011,Actual,YTD,2010-12-31,233,36,Department of Revenue,Revenue
-Sheriff,Other,0,0,2011,Actual,YTD,2010-12-31,0,70,Office of the Sheriff,Sheriff
-Streets,Other,0,0,2011,Actual,YTD,2010-12-31,0,12,Streets Department,Streets
-Streets - Sanitation,Other,0,0,2011,Actual,YTD,2010-12-31,0,12S,Streets: Sanitation,
-Water,Other,1627,0,2011,Actual,YTD,2010-12-31,1627,28,Water Department,Water
-Youth Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,47,Youth Commission,
-Zoning Board of Adjustment,Other,0,0,2011,Actual,YTD,2010-12-31,0,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,57,Zoning Code Commission,
-Atwater Kent Museum,Total,4,0,2011,Actual,YTD,2010-12-31,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Total,113,0,2011,Actual,YTD,2010-12-31,113,61,City Controller's Office,
-Board of Building Standards,Total,1,0,2011,Actual,YTD,2010-12-31,1,29,L&I: Board of Building and Standards,
-Board of Ethics,Total,8,0,2011,Actual,YTD,2010-12-31,8,45,Board of Ethics,
-Board of L & 1 Review,Total,2,0,2011,Actual,YTD,2010-12-31,2,27,L&I: Board of Review,
-Board of Pensions,Total,64,0,2011,Actual,YTD,2010-12-31,64,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Total,6,0,2011,Actual,YTD,2010-12-31,6,63,Board of Revision of Taxes,BRT
-Camp William Penn,Total,0,0,2011,Actual,YTD,2010-12-31,0,19,Camp William Penn,
-City Commissioners (Election Board),Total,98,0,2011,Actual,YTD,2010-12-31,98,73,City Commissioner's Office,City Commissioners
-City Council,Total,174,0,2011,Actual,YTD,2010-12-31,174,01,City Council,
-City Planning Commission,Total,38,0,2011,Actual,YTD,2010-12-31,38,51,City Planning Commission,
-City Representative,Total,7,0,2011,Actual,YTD,2010-12-31,7,41,Office of the City Representative,City Rep
-City Treasurer,Total,12,0,2011,Actual,YTD,2010-12-31,12,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Total,2,0,2011,Actual,YTD,2010-12-31,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,Total,0,0,2011,Actual,YTD,2010-12-31,0,64,Clerk of Quarter Sessions,
-Commerce,Total,764,0,2011,Actual,YTD,2010-12-31,764,42,Office of the Director of Commerce,Commerce
-Division of Technology,Total,331,0,2011,Actual,YTD,2010-12-31,331,04,Office of Innovation and Technology,OIT
-Fairmount Park,Total,0,0,2011,Actual,YTD,2010-12-31,0,17,Fairmount Park Commission,
-Finance,Total,140,0,2011,Actual,YTD,2010-12-31,140,35,Office of the Director of Finance,Finance
-First Judicial District,Total,2403,0,2011,Actual,YTD,2010-12-31,2403,84,First Judicial District,FJD
-Fleet Management,Total,340,0,2011,Actual,YTD,2010-12-31,340,25,Office of Fleet Management,Fleet
-Free Library,Total,658,0,2011,Actual,YTD,2010-12-31,658,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Total,6,0,2011,Actual,YTD,2010-12-31,6,32,Historical Commission,
-Human Relations Commission,Total,31,0,2011,Actual,YTD,2010-12-31,31,54,Commission on Human Relations,Human Relations
-Human Services,Total,1736,0,2011,Actual,YTD,2010-12-31,1736,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Total,6,0,2011,Actual,YTD,2010-12-31,6,03,Labor,
-Law,Total,228,0,2011,Actual,YTD,2010-12-31,228,44,Law Department,Law
-Licenses & Inspections,Total,290,0,2011,Actual,YTD,2010-12-31,290,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Total,132,0,2011,Actual,YTD,2010-12-31,132,10,Managing Director's Office,MDO
-Mayor,Total,39,0,2011,Actual,YTD,2010-12-31,39,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Total,2,0,2011,Actual,YTD,2010-12-31,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Total,14,0,2011,Actual,YTD,2010-12-31,14,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Total,76,0,2011,Actual,YTD,2010-12-31,76,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Total,10,0,2011,Actual,YTD,2010-12-31,10,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Total,11,0,2011,Actual,YTD,2010-12-31,11,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Total,250,0,2011,Actual,YTD,2010-12-31,250,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Total,69,0,2011,Actual,YTD,2010-12-31,69,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Total,134,0,2011,Actual,YTD,2010-12-31,134,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Total,158,0,2011,Actual,YTD,2010-12-31,158,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Total,72,0,2011,Actual,YTD,2010-12-31,72,06,Office of Housing and Community Development,
-Parks and Recreation,Total,615,0,2011,Actual,YTD,2010-12-31,615,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Total,2202,0,2011,Actual,YTD,2010-12-31,2202,23,Philadelphia Prison System,Prisons
-Procurement,Total,44,0,2011,Actual,YTD,2010-12-31,44,38,Procurement Department,Procurement
-Public Health,Total,864,0,2011,Actual,YTD,2010-12-31,864,14,Department of Public Health,Public Health
-Public Property,Total,123,0,2011,Actual,YTD,2010-12-31,123,20,Department of Public Property,Public Property
-Records,Total,55,0,2011,Actual,YTD,2010-12-31,55,31,Department of Records,Records
-Register of Wills,Total,62,0,2011,Actual,YTD,2010-12-31,62,68,Register of Wills,
-Revenue,Total,481,0,2011,Actual,YTD,2010-12-31,481,36,Department of Revenue,Revenue
-Sheriff,Total,220,0,2011,Actual,YTD,2010-12-31,220,70,Office of the Sheriff,Sheriff
-Streets,Total,511,0,2011,Actual,YTD,2010-12-31,511,12,Streets Department,Streets
-Streets - Sanitation,Total,1140,0,2011,Actual,YTD,2010-12-31,1140,12S,Streets: Sanitation,
-Water,Total,1627,0,2011,Actual,YTD,2010-12-31,1627,28,Water Department,Water
-Youth Commission,Total,1,0,2011,Actual,YTD,2010-12-31,1,47,Youth Commission,
-Zoning Board of Adjustment,Total,5,0,2011,Actual,YTD,2010-12-31,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Total,2,0,2011,Actual,YTD,2010-12-31,2,57,Zoning Code Commission,
-Police,General,775,6471,2011,Actual,YTD,2010-12-31,7246,11,Police Department,Police
-Police,Other,16,154,2011,Actual,YTD,2010-12-31,170,11,Police Department,Police
-Police,Total,791,6625,2011,Actual,YTD,2010-12-31,7416,11,Police Department,Police
-Fire,General,2046,103,2011,Actual,YTD,2010-12-31,2149,13,Fire Department,Fire
-Fire,Other,67,4,2011,Actual,YTD,2010-12-31,71,13,Fire Department,Fire
-Fire,Total,2113,107,2011,Actual,YTD,2010-12-31,2220,13,Fire Department,Fire
-District Attorney,General,413,13,2011,Actual,YTD,2010-12-31,426,69,District Attorney's Office,DAO
-District Attorney,Other,105,9,2011,Actual,YTD,2010-12-31,114,69,District Attorney's Office,DAO
-District Attorney,Total,518,22,2011,Actual,YTD,2010-12-31,540,69,District Attorney's Office,DAO
-Atwater Kent Museum,General,4,0,2010,Actual,Full Year,2010-06-30,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),General,120,0,2010,Actual,Full Year,2010-06-30,120,61,City Controller's Office,
-Board of Building Standards,General,1,0,2010,Actual,Full Year,2010-06-30,1,29,L&I: Board of Building and Standards,
-Board of Ethics,General,7,0,2010,Actual,Full Year,2010-06-30,7,45,Board of Ethics,
-Board of L & 1 Review,General,2,0,2010,Actual,Full Year,2010-06-30,2,27,L&I: Board of Review,
-Board of Pensions,General,0,0,2010,Actual,Full Year,2010-06-30,0,53,Board of Pensions,Pensions
-Board of Revision of Taxes,General,112,0,2010,Actual,Full Year,2010-06-30,112,63,Board of Revision of Taxes,BRT
-Camp William Penn,General,1,0,2010,Actual,Full Year,2010-06-30,1,19,Camp William Penn,
-City Commissioners (Election Board),General,102,0,2010,Actual,Full Year,2010-06-30,102,73,City Commissioner's Office,City Commissioners
-City Council,General,176,0,2010,Actual,Full Year,2010-06-30,176,01,City Council,
-City Planning Commission,General,40,0,2010,Actual,Full Year,2010-06-30,40,51,City Planning Commission,
-City Representative,General,7,0,2010,Actual,Full Year,2010-06-30,7,41,Office of the City Representative,City Rep
-City Treasurer,General,11,0,2010,Actual,Full Year,2010-06-30,11,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,General,2,0,2010,Actual,Full Year,2010-06-30,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,General,106,0,2010,Actual,Full Year,2010-06-30,106,64,Clerk of Quarter Sessions,
-Commerce,General,24,0,2010,Actual,Full Year,2010-06-30,24,42,Office of the Director of Commerce,Commerce
-Division of Technology,General,174,0,2010,Actual,Full Year,2010-06-30,174,04,Office of Innovation and Technology,OIT
-Fairmount Park,General,155,0,2010,Actual,Full Year,2010-06-30,155,17,Fairmount Park Commission,
-Finance,General,141,0,2010,Actual,Full Year,2010-06-30,141,35,Office of the Director of Finance,Finance
-First Judicial District,General,1756,0,2010,Actual,Full Year,2010-06-30,1756,84,First Judicial District,FJD
-Fleet Management,General,292,0,2010,Actual,Full Year,2010-06-30,292,25,Office of Fleet Management,Fleet
-Free Library,General,602,0,2010,Actual,Full Year,2010-06-30,602,52,The Free Library of Philadelphia,Free Library
-Historical Commission,General,6,0,2010,Actual,Full Year,2010-06-30,6,32,Historical Commission,
-Human Relations Commission,General,33,0,2010,Actual,Full Year,2010-06-30,33,54,Commission on Human Relations,Human Relations
-Human Services,General,1751,0,2010,Actual,Full Year,2010-06-30,1751,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",General,7,0,2010,Actual,Full Year,2010-06-30,7,03,Labor,
-Law,General,176,0,2010,Actual,Full Year,2010-06-30,176,44,Law Department,Law
-Licenses & Inspections,General,305,0,2010,Actual,Full Year,2010-06-30,305,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),General,112,0,2010,Actual,Full Year,2010-06-30,112,10,Managing Director's Office,MDO
-Mayor,General,38,0,2010,Actual,Full Year,2010-06-30,38,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,General,2,0,2010,Actual,Full Year,2010-06-30,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,General,15,0,2010,Actual,Full Year,2010-06-30,15,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,General,0,0,2010,Actual,Full Year,2010-06-30,0,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,General,8,0,2010,Actual,Full Year,2010-06-30,8,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,General,12,0,2010,Actual,Full Year,2010-06-30,12,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,General,22,0,2010,Actual,Full Year,2010-06-30,22,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,General,53,0,2010,Actual,Full Year,2010-06-30,53,56,Office of Human Resources,OHR
-Office of Property Assessment (1),General,0,0,2010,Actual,Full Year,2010-06-30,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,General,124,0,2010,Actual,Full Year,2010-06-30,124,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,General,0,0,2010,Actual,Full Year,2010-06-30,0,06,Office of Housing and Community Development,
-Parks and Recreation,General,435,0,2010,Actual,Full Year,2010-06-30,435,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,General,2254,0,2010,Actual,Full Year,2010-06-30,2254,23,Philadelphia Prison System,Prisons
-Procurement,General,46,0,2010,Actual,Full Year,2010-06-30,46,38,Procurement Department,Procurement
-Public Health,General,662,0,2010,Actual,Full Year,2010-06-30,662,14,Department of Public Health,Public Health
-Public Property,General,123,0,2010,Actual,Full Year,2010-06-30,123,20,Department of Public Property,Public Property
-Records,General,59,0,2010,Actual,Full Year,2010-06-30,59,31,Department of Records,Records
-Register of Wills,General,63,0,2010,Actual,Full Year,2010-06-30,63,68,Register of Wills,
-Revenue,General,250,0,2010,Actual,Full Year,2010-06-30,250,36,Department of Revenue,Revenue
-Sheriff,General,230,0,2010,Actual,Full Year,2010-06-30,230,70,Office of the Sheriff,Sheriff
-Streets,General,523,0,2010,Actual,Full Year,2010-06-30,523,12,Streets Department,Streets
-Streets - Sanitation,General,1170,0,2010,Actual,Full Year,2010-06-30,1170,12S,Streets: Sanitation,
-Water,General,0,0,2010,Actual,Full Year,2010-06-30,0,28,Water Department,Water
-Youth Commission,General,1,0,2010,Actual,Full Year,2010-06-30,1,47,Youth Commission,
-Zoning Board of Adjustment,General,5,0,2010,Actual,Full Year,2010-06-30,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,General,2,0,2010,Actual,Full Year,2010-06-30,2,57,Zoning Code Commission,
-Atwater Kent Museum,Other,0,0,2010,Actual,Full Year,2010-06-30,0,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Other,0,0,2010,Actual,Full Year,2010-06-30,0,61,City Controller's Office,
-Board of Building Standards,Other,0,0,2010,Actual,Full Year,2010-06-30,0,29,L&I: Board of Building and Standards,
-Board of Ethics,Other,0,0,2010,Actual,Full Year,2010-06-30,0,45,Board of Ethics,
-Board of L & 1 Review,Other,0,0,2010,Actual,Full Year,2010-06-30,0,27,L&I: Board of Review,
-Board of Pensions,Other,67,0,2010,Actual,Full Year,2010-06-30,67,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Other,0,0,2010,Actual,Full Year,2010-06-30,0,63,Board of Revision of Taxes,BRT
-Camp William Penn,Other,0,0,2010,Actual,Full Year,2010-06-30,0,19,Camp William Penn,
-City Commissioners (Election Board),Other,0,0,2010,Actual,Full Year,2010-06-30,0,73,City Commissioner's Office,City Commissioners
-City Council,Other,0,0,2010,Actual,Full Year,2010-06-30,0,01,City Council,
-City Planning Commission,Other,4,0,2010,Actual,Full Year,2010-06-30,4,51,City Planning Commission,
-City Representative,Other,0,0,2010,Actual,Full Year,2010-06-30,0,41,Office of the City Representative,City Rep
-City Treasurer,Other,0,0,2010,Actual,Full Year,2010-06-30,0,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,55,Civil Service Commission,
-Clerk of Quarter Sessions,Other,0,0,2010,Actual,Full Year,2010-06-30,0,64,Clerk of Quarter Sessions,
-Commerce,Other,729,0,2010,Actual,Full Year,2010-06-30,729,42,Office of the Director of Commerce,Commerce
-Division of Technology,Other,16,0,2010,Actual,Full Year,2010-06-30,16,04,Office of Innovation and Technology,OIT
-Fairmount Park,Other,2,0,2010,Actual,Full Year,2010-06-30,2,17,Fairmount Park Commission,
-Finance,Other,4,0,2010,Actual,Full Year,2010-06-30,4,35,Office of the Director of Finance,Finance
-First Judicial District,Other,548,0,2010,Actual,Full Year,2010-06-30,548,84,First Judicial District,FJD
-Fleet Management,Other,60,0,2010,Actual,Full Year,2010-06-30,60,25,Office of Fleet Management,Fleet
-Free Library,Other,76,0,2010,Actual,Full Year,2010-06-30,76,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,32,Historical Commission,
-Human Relations Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,54,Commission on Human Relations,Human Relations
-Human Services,Other,52,0,2010,Actual,Full Year,2010-06-30,52,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Other,0,0,2010,Actual,Full Year,2010-06-30,0,03,Labor,
-Law,Other,60,0,2010,Actual,Full Year,2010-06-30,60,44,Law Department,Law
-Licenses & Inspections,Other,11,0,2010,Actual,Full Year,2010-06-30,11,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Other,15,0,2010,Actual,Full Year,2010-06-30,15,10,Managing Director's Office,MDO
-Mayor,Other,3,0,2010,Actual,Full Year,2010-06-30,3,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Other,0,0,2010,Actual,Full Year,2010-06-30,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Other,0,0,2010,Actual,Full Year,2010-06-30,0,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Other,75,0,2010,Actual,Full Year,2010-06-30,75,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Other,1,0,2010,Actual,Full Year,2010-06-30,1,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Other,0,0,2010,Actual,Full Year,2010-06-30,0,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Other,236,0,2010,Actual,Full Year,2010-06-30,236,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Other,0,0,2010,Actual,Full Year,2010-06-30,0,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Other,0,0,2010,Actual,Full Year,2010-06-30,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Other,44,0,2010,Actual,Full Year,2010-06-30,44,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Other,74,0,2010,Actual,Full Year,2010-06-30,74,06,Office of Housing and Community Development,
-Parks and Recreation,Other,21,0,2010,Actual,Full Year,2010-06-30,21,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Other,0,0,2010,Actual,Full Year,2010-06-30,0,23,Philadelphia Prison System,Prisons
-Procurement,Other,2,0,2010,Actual,Full Year,2010-06-30,2,38,Procurement Department,Procurement
-Public Health,Other,213,0,2010,Actual,Full Year,2010-06-30,213,14,Department of Public Health,Public Health
-Public Property,Other,0,0,2010,Actual,Full Year,2010-06-30,0,20,Department of Public Property,Public Property
-Records,Other,0,0,2010,Actual,Full Year,2010-06-30,0,31,Department of Records,Records
-Register of Wills,Other,0,0,2010,Actual,Full Year,2010-06-30,0,68,Register of Wills,
-Revenue,Other,236,0,2010,Actual,Full Year,2010-06-30,236,36,Department of Revenue,Revenue
-Sheriff,Other,0,0,2010,Actual,Full Year,2010-06-30,0,70,Office of the Sheriff,Sheriff
-Streets,Other,0,0,2010,Actual,Full Year,2010-06-30,0,12,Streets Department,Streets
-Streets - Sanitation,Other,0,0,2010,Actual,Full Year,2010-06-30,0,12S,Streets: Sanitation,
-Water,Other,1672,0,2010,Actual,Full Year,2010-06-30,1672,28,Water Department,Water
-Youth Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,47,Youth Commission,
-Zoning Board of Adjustment,Other,0,0,2010,Actual,Full Year,2010-06-30,0,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,57,Zoning Code Commission,
-Atwater Kent Museum,Total,4,0,2010,Actual,Full Year,2010-06-30,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Total,120,0,2010,Actual,Full Year,2010-06-30,120,61,City Controller's Office,
-Board of Building Standards,Total,1,0,2010,Actual,Full Year,2010-06-30,1,29,L&I: Board of Building and Standards,
-Board of Ethics,Total,7,0,2010,Actual,Full Year,2010-06-30,7,45,Board of Ethics,
-Board of L & 1 Review,Total,2,0,2010,Actual,Full Year,2010-06-30,2,27,L&I: Board of Review,
-Board of Pensions,Total,67,0,2010,Actual,Full Year,2010-06-30,67,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Total,112,0,2010,Actual,Full Year,2010-06-30,112,63,Board of Revision of Taxes,BRT
-Camp William Penn,Total,1,0,2010,Actual,Full Year,2010-06-30,1,19,Camp William Penn,
-City Commissioners (Election Board),Total,102,0,2010,Actual,Full Year,2010-06-30,102,73,City Commissioner's Office,City Commissioners
-City Council,Total,176,0,2010,Actual,Full Year,2010-06-30,176,01,City Council,
-City Planning Commission,Total,44,0,2010,Actual,Full Year,2010-06-30,44,51,City Planning Commission,
-City Representative,Total,7,0,2010,Actual,Full Year,2010-06-30,7,41,Office of the City Representative,City Rep
-City Treasurer,Total,11,0,2010,Actual,Full Year,2010-06-30,11,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Total,2,0,2010,Actual,Full Year,2010-06-30,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,Total,106,0,2010,Actual,Full Year,2010-06-30,106,64,Clerk of Quarter Sessions,
-Commerce,Total,753,0,2010,Actual,Full Year,2010-06-30,753,42,Office of the Director of Commerce,Commerce
-Division of Technology,Total,190,0,2010,Actual,Full Year,2010-06-30,190,04,Office of Innovation and Technology,OIT
-Fairmount Park,Total,157,0,2010,Actual,Full Year,2010-06-30,157,17,Fairmount Park Commission,
-Finance,Total,145,0,2010,Actual,Full Year,2010-06-30,145,35,Office of the Director of Finance,Finance
-First Judicial District,Total,2304,0,2010,Actual,Full Year,2010-06-30,2304,84,First Judicial District,FJD
-Fleet Management,Total,352,0,2010,Actual,Full Year,2010-06-30,352,25,Office of Fleet Management,Fleet
-Free Library,Total,678,0,2010,Actual,Full Year,2010-06-30,678,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Total,6,0,2010,Actual,Full Year,2010-06-30,6,32,Historical Commission,
-Human Relations Commission,Total,33,0,2010,Actual,Full Year,2010-06-30,33,54,Commission on Human Relations,Human Relations
-Human Services,Total,1803,0,2010,Actual,Full Year,2010-06-30,1803,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Total,7,0,2010,Actual,Full Year,2010-06-30,7,03,Labor,
-Law,Total,236,0,2010,Actual,Full Year,2010-06-30,236,44,Law Department,Law
-Licenses & Inspections,Total,316,0,2010,Actual,Full Year,2010-06-30,316,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Total,127,0,2010,Actual,Full Year,2010-06-30,127,10,Managing Director's Office,MDO
-Mayor,Total,41,0,2010,Actual,Full Year,2010-06-30,41,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Total,2,0,2010,Actual,Full Year,2010-06-30,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Total,15,0,2010,Actual,Full Year,2010-06-30,15,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Total,75,0,2010,Actual,Full Year,2010-06-30,75,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Total,9,0,2010,Actual,Full Year,2010-06-30,9,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Total,12,0,2010,Actual,Full Year,2010-06-30,12,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Total,258,0,2010,Actual,Full Year,2010-06-30,258,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Total,53,0,2010,Actual,Full Year,2010-06-30,53,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Total,0,0,2010,Actual,Full Year,2010-06-30,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Total,168,0,2010,Actual,Full Year,2010-06-30,168,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Total,74,0,2010,Actual,Full Year,2010-06-30,74,06,Office of Housing and Community Development,
-Parks and Recreation,Total,456,0,2010,Actual,Full Year,2010-06-30,456,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Total,2254,0,2010,Actual,Full Year,2010-06-30,2254,23,Philadelphia Prison System,Prisons
-Procurement,Total,48,0,2010,Actual,Full Year,2010-06-30,48,38,Procurement Department,Procurement
-Public Health,Total,875,0,2010,Actual,Full Year,2010-06-30,875,14,Department of Public Health,Public Health
-Public Property,Total,123,0,2010,Actual,Full Year,2010-06-30,123,20,Department of Public Property,Public Property
-Records,Total,59,0,2010,Actual,Full Year,2010-06-30,59,31,Department of Records,Records
-Register of Wills,Total,63,0,2010,Actual,Full Year,2010-06-30,63,68,Register of Wills,
-Revenue,Total,486,0,2010,Actual,Full Year,2010-06-30,486,36,Department of Revenue,Revenue
-Sheriff,Total,230,0,2010,Actual,Full Year,2010-06-30,230,70,Office of the Sheriff,Sheriff
-Streets,Total,523,0,2010,Actual,Full Year,2010-06-30,523,12,Streets Department,Streets
-Streets - Sanitation,Total,1170,0,2010,Actual,Full Year,2010-06-30,1170,12S,Streets: Sanitation,
-Water,Total,1672,0,2010,Actual,Full Year,2010-06-30,1672,28,Water Department,Water
-Youth Commission,Total,1,0,2010,Actual,Full Year,2010-06-30,1,47,Youth Commission,
-Zoning Board of Adjustment,Total,5,0,2010,Actual,Full Year,2010-06-30,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Total,2,0,2010,Actual,Full Year,2010-06-30,2,57,Zoning Code Commission,
-Police,General,782,6596,2010,Actual,Full Year,2010-06-30,7378,11,Police Department,Police
-Police,Other,16,152,2010,Actual,Full Year,2010-06-30,168,11,Police Department,Police
-Police,Total,798,6748,2010,Actual,Full Year,2010-06-30,7546,11,Police Department,Police
-Fire,General,2084,103,2010,Actual,Full Year,2010-06-30,2187,13,Fire Department,Fire
-Fire,Other,65,4,2010,Actual,Full Year,2010-06-30,69,13,Fire Department,Fire
-Fire,Total,2149,107,2010,Actual,Full Year,2010-06-30,2256,13,Fire Department,Fire
-District Attorney,General,400,10,2010,Actual,Full Year,2010-06-30,410,69,District Attorney's Office,DAO
-District Attorney,Other,97,11,2010,Actual,Full Year,2010-06-30,108,69,District Attorney's Office,DAO
-District Attorney,Total,497,21,2010,Actual,Full Year,2010-06-30,518,69,District Attorney's Office,DAO
-Atwater Kent Museum,General,4,0,2011,Budgeted,Full Year,,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),General,123,0,2011,Budgeted,Full Year,,123,61,City Controller's Office,
-Board of Building Standards,General,1,0,2011,Budgeted,Full Year,,1,29,L&I: Board of Building and Standards,
-Board of Ethics,General,9,0,2011,Budgeted,Full Year,,9,45,Board of Ethics,
-Board of L & 1 Review,General,2,0,2011,Budgeted,Full Year,,2,27,L&I: Board of Review,
-Board of Pensions,General,0,0,2011,Budgeted,Full Year,,0,53,Board of Pensions,Pensions
-Board of Revision of Taxes,General,110,0,2011,Budgeted,Full Year,,110,63,Board of Revision of Taxes,BRT
-Camp William Penn,General,0,0,2011,Budgeted,Full Year,,0,19,Camp William Penn,
-City Commissioners (Election Board),General,88,0,2011,Budgeted,Full Year,,88,73,City Commissioner's Office,City Commissioners
-City Council,General,195,0,2011,Budgeted,Full Year,,195,01,City Council,
-City Planning Commission,General,38,0,2011,Budgeted,Full Year,,38,51,City Planning Commission,
-City Representative,General,7,0,2011,Budgeted,Full Year,,7,41,Office of the City Representative,City Rep
-City Treasurer,General,14,0,2011,Budgeted,Full Year,,14,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,General,2,0,2011,Budgeted,Full Year,,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,General,115,0,2011,Budgeted,Full Year,,115,64,Clerk of Quarter Sessions,
-Commerce,General,25,0,2011,Budgeted,Full Year,,25,42,Office of the Director of Commerce,Commerce
-Division of Technology,General,283,0,2011,Budgeted,Full Year,,283,04,Office of Innovation and Technology,OIT
-Fairmount Park,General,0,0,2011,Budgeted,Full Year,,0,17,Fairmount Park Commission,
-Finance,General,144,0,2011,Budgeted,Full Year,,144,35,Office of the Director of Finance,Finance
-First Judicial District,General,1776,0,2011,Budgeted,Full Year,,1776,84,First Judicial District,FJD
-Fleet Management,General,283,0,2011,Budgeted,Full Year,,283,25,Office of Fleet Management,Fleet
-Free Library,General,636,0,2011,Budgeted,Full Year,,636,52,The Free Library of Philadelphia,Free Library
-Historical Commission,General,6,0,2011,Budgeted,Full Year,,6,32,Historical Commission,
-Human Relations Commission,General,33,0,2011,Budgeted,Full Year,,33,54,Commission on Human Relations,Human Relations
-Human Services,General,1828,0,2011,Budgeted,Full Year,,1828,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",General,7,0,2011,Budgeted,Full Year,,7,03,Labor,
-Law,General,190,0,2011,Budgeted,Full Year,,190,44,Law Department,Law
-Licenses & Inspections,General,320,0,2011,Budgeted,Full Year,,320,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),General,122,0,2011,Budgeted,Full Year,,122,10,Managing Director's Office,MDO
-Mayor,General,39,0,2011,Budgeted,Full Year,,39,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,General,2,0,2011,Budgeted,Full Year,,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,General,19,0,2011,Budgeted,Full Year,,19,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,General,0,0,2011,Budgeted,Full Year,,0,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,General,8,0,2011,Budgeted,Full Year,,8,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,General,12,0,2011,Budgeted,Full Year,,12,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,General,24,0,2011,Budgeted,Full Year,,24,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,General,79,0,2011,Budgeted,Full Year,,79,56,Office of Human Resources,OHR
-Office of Property Assessment (1),General,0,0,2011,Budgeted,Full Year,,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,General,132,0,2011,Budgeted,Full Year,,132,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,General,0,0,2011,Budgeted,Full Year,,0,06,Office of Housing and Community Development,
-Parks and Recreation,General,689,0,2011,Budgeted,Full Year,,689,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,General,2360,0,2011,Budgeted,Full Year,,2360,23,Philadelphia Prison System,Prisons
-Procurement,General,50,0,2011,Budgeted,Full Year,,50,38,Procurement Department,Procurement
-Public Health,General,742,0,2011,Budgeted,Full Year,,742,14,Department of Public Health,Public Health
-Public Property,General,136,0,2011,Budgeted,Full Year,,136,20,Department of Public Property,Public Property
-Records,General,63,0,2011,Budgeted,Full Year,,63,31,Department of Records,Records
-Register of Wills,General,64,0,2011,Budgeted,Full Year,,64,68,Register of Wills,
-Revenue,General,262,0,2011,Budgeted,Full Year,,262,36,Department of Revenue,Revenue
-Sheriff,General,245,0,2011,Budgeted,Full Year,,245,70,Office of the Sheriff,Sheriff
-Streets,General,555,0,2011,Budgeted,Full Year,,555,12,Streets Department,Streets
-Streets - Sanitation,General,1271,0,2011,Budgeted,Full Year,,1271,12S,Streets: Sanitation,
-Water,General,0,0,2011,Budgeted,Full Year,,0,28,Water Department,Water
-Youth Commission,General,1,0,2011,Budgeted,Full Year,,1,47,Youth Commission,
-Zoning Board of Adjustment,General,5,0,2011,Budgeted,Full Year,,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,General,2,0,2011,Budgeted,Full Year,,2,57,Zoning Code Commission,
-Atwater Kent Museum,Other,0,0,2011,Budgeted,Full Year,,0,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Other,0,0,2011,Budgeted,Full Year,,0,61,City Controller's Office,
-Board of Building Standards,Other,0,0,2011,Budgeted,Full Year,,0,29,L&I: Board of Building and Standards,
-Board of Ethics,Other,0,0,2011,Budgeted,Full Year,,0,45,Board of Ethics,
-Board of L & 1 Review,Other,0,0,2011,Budgeted,Full Year,,0,27,L&I: Board of Review,
-Board of Pensions,Other,79,0,2011,Budgeted,Full Year,,79,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Other,0,0,2011,Budgeted,Full Year,,0,63,Board of Revision of Taxes,BRT
-Camp William Penn,Other,0,0,2011,Budgeted,Full Year,,0,19,Camp William Penn,
-City Commissioners (Election Board),Other,0,0,2011,Budgeted,Full Year,,0,73,City Commissioner's Office,City Commissioners
-City Council,Other,0,0,2011,Budgeted,Full Year,,0,01,City Council,
-City Planning Commission,Other,4,0,2011,Budgeted,Full Year,,4,51,City Planning Commission,
-City Representative,Other,0,0,2011,Budgeted,Full Year,,0,41,Office of the City Representative,City Rep
-City Treasurer,Other,0,0,2011,Budgeted,Full Year,,0,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Other,0,0,2011,Budgeted,Full Year,,0,55,Civil Service Commission,
-Clerk of Quarter Sessions,Other,0,0,2011,Budgeted,Full Year,,0,64,Clerk of Quarter Sessions,
-Commerce,Other,866,0,2011,Budgeted,Full Year,,866,42,Office of the Director of Commerce,Commerce
-Division of Technology,Other,83,0,2011,Budgeted,Full Year,,83,04,Office of Innovation and Technology,OIT
-Fairmount Park,Other,0,0,2011,Budgeted,Full Year,,0,17,Fairmount Park Commission,
-Finance,Other,0,0,2011,Budgeted,Full Year,,0,35,Office of the Director of Finance,Finance
-First Judicial District,Other,613,0,2011,Budgeted,Full Year,,613,84,First Judicial District,FJD
-Fleet Management,Other,77,0,2011,Budgeted,Full Year,,77,25,Office of Fleet Management,Fleet
-Free Library,Other,90,0,2011,Budgeted,Full Year,,90,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Other,0,0,2011,Budgeted,Full Year,,0,32,Historical Commission,
-Human Relations Commission,Other,0,0,2011,Budgeted,Full Year,,0,54,Commission on Human Relations,Human Relations
-Human Services,Other,74,0,2011,Budgeted,Full Year,,74,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Other,0,0,2011,Budgeted,Full Year,,0,03,Labor,
-Law,Other,61,0,2011,Budgeted,Full Year,,61,44,Law Department,Law
-Licenses & Inspections,Other,16,0,2011,Budgeted,Full Year,,16,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Other,8,0,2011,Budgeted,Full Year,,8,10,Managing Director's Office,MDO
-Mayor,Other,3,0,2011,Budgeted,Full Year,,3,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Other,0,0,2011,Budgeted,Full Year,,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Other,0,0,2011,Budgeted,Full Year,,0,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Other,88,0,2011,Budgeted,Full Year,,88,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Other,0,0,2011,Budgeted,Full Year,,0,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Other,0,0,2011,Budgeted,Full Year,,0,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Other,272,0,2011,Budgeted,Full Year,,272,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Other,0,0,2011,Budgeted,Full Year,,0,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Other,0,0,2011,Budgeted,Full Year,,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Other,56,0,2011,Budgeted,Full Year,,56,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Other,77,0,2011,Budgeted,Full Year,,77,06,Office of Housing and Community Development,
-Parks and Recreation,Other,27,0,2011,Budgeted,Full Year,,27,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Other,0,0,2011,Budgeted,Full Year,,0,23,Philadelphia Prison System,Prisons
-Procurement,Other,2,0,2011,Budgeted,Full Year,,2,38,Procurement Department,Procurement
-Public Health,Other,285,0,2011,Budgeted,Full Year,,285,14,Department of Public Health,Public Health
-Public Property,Other,0,0,2011,Budgeted,Full Year,,0,20,Department of Public Property,Public Property
-Records,Other,0,0,2011,Budgeted,Full Year,,0,31,Department of Records,Records
-Register of Wills,Other,0,0,2011,Budgeted,Full Year,,0,68,Register of Wills,
-Revenue,Other,260,0,2011,Budgeted,Full Year,,260,36,Department of Revenue,Revenue
-Sheriff,Other,0,0,2011,Budgeted,Full Year,,0,70,Office of the Sheriff,Sheriff
-Streets,Other,0,0,2011,Budgeted,Full Year,,0,12,Streets Department,Streets
-Streets - Sanitation,Other,0,0,2011,Budgeted,Full Year,,0,12S,Streets: Sanitation,
-Water,Other,1898,0,2011,Budgeted,Full Year,,1898,28,Water Department,Water
-Youth Commission,Other,0,0,2011,Budgeted,Full Year,,0,47,Youth Commission,
-Zoning Board of Adjustment,Other,0,0,2011,Budgeted,Full Year,,0,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Other,0,0,2011,Budgeted,Full Year,,0,57,Zoning Code Commission,
-Atwater Kent Museum,Total,4,0,2011,Budgeted,Full Year,,4,18,Atwater Kent Museum,Atwater Kent
-Auditing (City Controller's Office),Total,123,0,2011,Budgeted,Full Year,,123,61,City Controller's Office,
-Board of Building Standards,Total,1,0,2011,Budgeted,Full Year,,1,29,L&I: Board of Building and Standards,
-Board of Ethics,Total,9,0,2011,Budgeted,Full Year,,9,45,Board of Ethics,
-Board of L & 1 Review,Total,2,0,2011,Budgeted,Full Year,,2,27,L&I: Board of Review,
-Board of Pensions,Total,79,0,2011,Budgeted,Full Year,,79,53,Board of Pensions,Pensions
-Board of Revision of Taxes,Total,110,0,2011,Budgeted,Full Year,,110,63,Board of Revision of Taxes,BRT
-Camp William Penn,Total,0,0,2011,Budgeted,Full Year,,0,19,Camp William Penn,
-City Commissioners (Election Board),Total,88,0,2011,Budgeted,Full Year,,88,73,City Commissioner's Office,City Commissioners
-City Council,Total,195,0,2011,Budgeted,Full Year,,195,01,City Council,
-City Planning Commission,Total,42,0,2011,Budgeted,Full Year,,42,51,City Planning Commission,
-City Representative,Total,7,0,2011,Budgeted,Full Year,,7,41,Office of the City Representative,City Rep
-City Treasurer,Total,14,0,2011,Budgeted,Full Year,,14,40,Office of the City Treasurer,City Treasurer
-Civil Service Commission,Total,2,0,2011,Budgeted,Full Year,,2,55,Civil Service Commission,
-Clerk of Quarter Sessions,Total,115,0,2011,Budgeted,Full Year,,115,64,Clerk of Quarter Sessions,
-Commerce,Total,891,0,2011,Budgeted,Full Year,,891,42,Office of the Director of Commerce,Commerce
-Division of Technology,Total,366,0,2011,Budgeted,Full Year,,366,04,Office of Innovation and Technology,OIT
-Fairmount Park,Total,0,0,2011,Budgeted,Full Year,,0,17,Fairmount Park Commission,
-Finance,Total,144,0,2011,Budgeted,Full Year,,144,35,Office of the Director of Finance,Finance
-First Judicial District,Total,2389,0,2011,Budgeted,Full Year,,2389,84,First Judicial District,FJD
-Fleet Management,Total,360,0,2011,Budgeted,Full Year,,360,25,Office of Fleet Management,Fleet
-Free Library,Total,726,0,2011,Budgeted,Full Year,,726,52,The Free Library of Philadelphia,Free Library
-Historical Commission,Total,6,0,2011,Budgeted,Full Year,,6,32,Historical Commission,
-Human Relations Commission,Total,33,0,2011,Budgeted,Full Year,,33,54,Commission on Human Relations,Human Relations
-Human Services,Total,1902,0,2011,Budgeted,Full Year,,1902,22,Department of Human Services,DHS
-"Labor Relations, Mayor's Office of",Total,7,0,2011,Budgeted,Full Year,,7,03,Labor,
-Law,Total,251,0,2011,Budgeted,Full Year,,251,44,Law Department,Law
-Licenses & Inspections,Total,336,0,2011,Budgeted,Full Year,,336,26,Department of Licenses and Inspections,L&I
-Managing Director (MDO),Total,130,0,2011,Budgeted,Full Year,,130,10,Managing Director's Office,MDO
-Mayor,Total,42,0,2011,Budgeted,Full Year,,42,05,Mayor's Office,Mayor
-Mayor - Office of Arts and Culture,Total,2,0,2011,Budgeted,Full Year,,2,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Mayor - Office of the Inspector General,Total,19,0,2011,Budgeted,Full Year,,19,48,Office of the Inspector General,OIG
-Mayor's Office of Comm. Svcs.,Total,88,0,2011,Budgeted,Full Year,,88,08,Mayor's Office of Community Empowerment and Opportunity,CEO
-Mayor's Office of Transportation,Total,8,0,2011,Budgeted,Full Year,,8,46,Mayor's Office of Transportation and Utilities,
-Mural Arts Program,Total,12,0,2011,Budgeted,Full Year,,12,50,Mural Arts Program,Mural Arts
-Off. of Behavioral Hith/Mental Retard. Svcs.,Total,296,0,2011,Budgeted,Full Year,,296,15,Behavioral Health and Intellectual Disability Services,DBH/IDS
-Office of Human Resources,Total,79,0,2011,Budgeted,Full Year,,79,56,Office of Human Resources,OHR
-Office of Property Assessment (1),Total,0,0,2011,Budgeted,Full Year,,0,58,"Office of Arts, Culture, and the Creative Economy",Arts & Culture
-Off. of Supportive Housing,Total,188,0,2011,Budgeted,Full Year,,188,24,Office of Homeless Services,OHS
-Office of Housing and Community Develop.,Total,77,0,2011,Budgeted,Full Year,,77,06,Office of Housing and Community Development,
-Parks and Recreation,Total,716,0,2011,Budgeted,Full Year,,716,16,Department of Parks and Recreation,Parks & Recreation
-Prisons,Total,2360,0,2011,Budgeted,Full Year,,2360,23,Philadelphia Prison System,Prisons
-Procurement,Total,52,0,2011,Budgeted,Full Year,,52,38,Procurement Department,Procurement
-Public Health,Total,1027,0,2011,Budgeted,Full Year,,1027,14,Department of Public Health,Public Health
-Public Property,Total,136,0,2011,Budgeted,Full Year,,136,20,Department of Public Property,Public Property
-Records,Total,63,0,2011,Budgeted,Full Year,,63,31,Department of Records,Records
-Register of Wills,Total,64,0,2011,Budgeted,Full Year,,64,68,Register of Wills,
-Revenue,Total,522,0,2011,Budgeted,Full Year,,522,36,Department of Revenue,Revenue
-Sheriff,Total,245,0,2011,Budgeted,Full Year,,245,70,Office of the Sheriff,Sheriff
-Streets,Total,555,0,2011,Budgeted,Full Year,,555,12,Streets Department,Streets
-Streets - Sanitation,Total,1271,0,2011,Budgeted,Full Year,,1271,12S,Streets: Sanitation,
-Water,Total,1898,0,2011,Budgeted,Full Year,,1898,28,Water Department,Water
-Youth Commission,Total,1,0,2011,Budgeted,Full Year,,1,47,Youth Commission,
-Zoning Board of Adjustment,Total,5,0,2011,Budgeted,Full Year,,5,30,Zoning Board of Adjustments,ZBA
-Zoning Code Commission,Total,2,0,2011,Budgeted,Full Year,,2,57,Zoning Code Commission,
-Police,General,846,6624,2011,Budgeted,Full Year,,7470,11,Police Department,Police
-Police,Other,11,205,2011,Budgeted,Full Year,,216,11,Police Department,Police
-Police,Total,857,6829,2011,Budgeted,Full Year,,7686,11,Police Department,Police
-Fire,General,2217,110,2011,Budgeted,Full Year,,2327,13,Fire Department,Fire
-Fire,Other,72,4,2011,Budgeted,Full Year,,76,13,Fire Department,Fire
-Fire,Total,2289,114,2011,Budgeted,Full Year,,2403,13,Fire Department,Fire
-District Attorney,General,407,14,2011,Budgeted,Full Year,,421,69,District Attorney's Office,DAO
-District Attorney,Other,102,25,2011,Budgeted,Full Year,,127,69,District Attorney's Office,DAO
-District Attorney,Total,509,39,2011,Budgeted,Full Year,,548,69,District Attorney's Office,DAO
+dept_name_raw,fund,civilian,uniformed,fiscal_year,variable,time_period,as_of_date,total,dept_name,abbreviation,dept_code
+Atwater Kent Museum,General,4,0,2011,Actual,YTD,2010-12-31,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),General,113,0,2011,Actual,YTD,2010-12-31,113,City Controller's Office,,61
+Board of Building Standards,General,1,0,2011,Actual,YTD,2010-12-31,1,L&I: Board of Building and Standards,,29
+Board of Ethics,General,8,0,2011,Actual,YTD,2010-12-31,8,Board of Ethics,,45
+Board of L & 1 Review,General,2,0,2011,Actual,YTD,2010-12-31,2,L&I: Board of Review,,27
+Board of Pensions,General,0,0,2011,Actual,YTD,2010-12-31,0,Board of Pensions,Pensions,53
+Board of Revision of Taxes,General,6,0,2011,Actual,YTD,2010-12-31,6,Board of Revision of Taxes,BRT,63
+Camp William Penn,General,0,0,2011,Actual,YTD,2010-12-31,0,Camp William Penn,,19
+City Commissioners (Election Board),General,98,0,2011,Actual,YTD,2010-12-31,98,City Commissioner's Office,City Commissioners,73
+City Council,General,174,0,2011,Actual,YTD,2010-12-31,174,City Council,,01
+City Planning Commission,General,34,0,2011,Actual,YTD,2010-12-31,34,City Planning Commission,,51
+City Representative,General,7,0,2011,Actual,YTD,2010-12-31,7,Office of the City Representative,City Rep,41
+City Treasurer,General,12,0,2011,Actual,YTD,2010-12-31,12,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,General,2,0,2011,Actual,YTD,2010-12-31,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,General,0,0,2011,Actual,YTD,2010-12-31,0,Clerk of Quarter Sessions,,64
+Commerce,General,24,0,2011,Actual,YTD,2010-12-31,24,Office of the Director of Commerce,Commerce,42
+Division of Technology,General,264,0,2011,Actual,YTD,2010-12-31,264,Office of Innovation and Technology,OIT,04
+Fairmount Park,General,0,0,2011,Actual,YTD,2010-12-31,0,Fairmount Park Commission,,17
+Finance,General,140,0,2011,Actual,YTD,2010-12-31,140,Office of the Director of Finance,Finance,35
+First Judicial District,General,1853,0,2011,Actual,YTD,2010-12-31,1853,First Judicial District,FJD,84
+Fleet Management,General,275,0,2011,Actual,YTD,2010-12-31,275,Office of Fleet Management,Fleet,25
+Free Library,General,595,0,2011,Actual,YTD,2010-12-31,595,The Free Library of Philadelphia,Free Library,52
+Historical Commission,General,6,0,2011,Actual,YTD,2010-12-31,6,Historical Commission,,32
+Human Relations Commission,General,31,0,2011,Actual,YTD,2010-12-31,31,Commission on Human Relations,Human Relations,54
+Human Services,General,1679,0,2011,Actual,YTD,2010-12-31,1679,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",General,6,0,2011,Actual,YTD,2010-12-31,6,Labor,,03
+Law,General,170,0,2011,Actual,YTD,2010-12-31,170,Law Department,Law,44
+Licenses & Inspections,General,278,0,2011,Actual,YTD,2010-12-31,278,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),General,119,0,2011,Actual,YTD,2010-12-31,119,Managing Director's Office,MDO,10
+Mayor,General,35,0,2011,Actual,YTD,2010-12-31,35,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,General,2,0,2011,Actual,YTD,2010-12-31,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,General,14,0,2011,Actual,YTD,2010-12-31,14,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,General,0,0,2011,Actual,YTD,2010-12-31,0,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,General,8,0,2011,Actual,YTD,2010-12-31,8,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,General,11,0,2011,Actual,YTD,2010-12-31,11,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,20,0,2011,Actual,YTD,2010-12-31,20,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,General,69,0,2011,Actual,YTD,2010-12-31,69,Office of Human Resources,OHR,56
+Office of Property Assessment (1),General,134,0,2011,Actual,YTD,2010-12-31,134,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,General,115,0,2011,Actual,YTD,2010-12-31,115,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,General,0,0,2011,Actual,YTD,2010-12-31,0,Office of Housing and Community Development,,06
+Parks and Recreation,General,593,0,2011,Actual,YTD,2010-12-31,593,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,General,2202,0,2011,Actual,YTD,2010-12-31,2202,Philadelphia Prison System,Prisons,23
+Procurement,General,42,0,2011,Actual,YTD,2010-12-31,42,Procurement Department,Procurement,38
+Public Health,General,661,0,2011,Actual,YTD,2010-12-31,661,Department of Public Health,Public Health,14
+Public Property,General,123,0,2011,Actual,YTD,2010-12-31,123,Department of Public Property,Public Property,20
+Records,General,55,0,2011,Actual,YTD,2010-12-31,55,Department of Records,Records,31
+Register of Wills,General,62,0,2011,Actual,YTD,2010-12-31,62,Register of Wills,,68
+Revenue,General,248,0,2011,Actual,YTD,2010-12-31,248,Department of Revenue,Revenue,36
+Sheriff,General,220,0,2011,Actual,YTD,2010-12-31,220,Office of the Sheriff,Sheriff,70
+Streets,General,511,0,2011,Actual,YTD,2010-12-31,511,Streets Department,Streets,12
+Streets - Sanitation,General,1140,0,2011,Actual,YTD,2010-12-31,1140,Streets: Sanitation,,12S
+Water,General,0,0,2011,Actual,YTD,2010-12-31,0,Water Department,Water,28
+Youth Commission,General,1,0,2011,Actual,YTD,2010-12-31,1,Youth Commission,,47
+Zoning Board of Adjustment,General,5,0,2011,Actual,YTD,2010-12-31,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,General,2,0,2011,Actual,YTD,2010-12-31,2,Zoning Code Commission,,57
+Atwater Kent Museum,Other,0,0,2011,Actual,YTD,2010-12-31,0,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Other,0,0,2011,Actual,YTD,2010-12-31,0,City Controller's Office,,61
+Board of Building Standards,Other,0,0,2011,Actual,YTD,2010-12-31,0,L&I: Board of Building and Standards,,29
+Board of Ethics,Other,0,0,2011,Actual,YTD,2010-12-31,0,Board of Ethics,,45
+Board of L & 1 Review,Other,0,0,2011,Actual,YTD,2010-12-31,0,L&I: Board of Review,,27
+Board of Pensions,Other,64,0,2011,Actual,YTD,2010-12-31,64,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Other,0,0,2011,Actual,YTD,2010-12-31,0,Board of Revision of Taxes,BRT,63
+Camp William Penn,Other,0,0,2011,Actual,YTD,2010-12-31,0,Camp William Penn,,19
+City Commissioners (Election Board),Other,0,0,2011,Actual,YTD,2010-12-31,0,City Commissioner's Office,City Commissioners,73
+City Council,Other,0,0,2011,Actual,YTD,2010-12-31,0,City Council,,01
+City Planning Commission,Other,4,0,2011,Actual,YTD,2010-12-31,4,City Planning Commission,,51
+City Representative,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of the City Representative,City Rep,41
+City Treasurer,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,Civil Service Commission,,55
+Clerk of Quarter Sessions,Other,0,0,2011,Actual,YTD,2010-12-31,0,Clerk of Quarter Sessions,,64
+Commerce,Other,740,0,2011,Actual,YTD,2010-12-31,740,Office of the Director of Commerce,Commerce,42
+Division of Technology,Other,67,0,2011,Actual,YTD,2010-12-31,67,Office of Innovation and Technology,OIT,04
+Fairmount Park,Other,0,0,2011,Actual,YTD,2010-12-31,0,Fairmount Park Commission,,17
+Finance,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of the Director of Finance,Finance,35
+First Judicial District,Other,550,0,2011,Actual,YTD,2010-12-31,550,First Judicial District,FJD,84
+Fleet Management,Other,65,0,2011,Actual,YTD,2010-12-31,65,Office of Fleet Management,Fleet,25
+Free Library,Other,63,0,2011,Actual,YTD,2010-12-31,63,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,Historical Commission,,32
+Human Relations Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,Commission on Human Relations,Human Relations,54
+Human Services,Other,57,0,2011,Actual,YTD,2010-12-31,57,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Other,0,0,2011,Actual,YTD,2010-12-31,0,Labor,,03
+Law,Other,58,0,2011,Actual,YTD,2010-12-31,58,Law Department,Law,44
+Licenses & Inspections,Other,12,0,2011,Actual,YTD,2010-12-31,12,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Other,13,0,2011,Actual,YTD,2010-12-31,13,Managing Director's Office,MDO,10
+Mayor,Other,4,0,2011,Actual,YTD,2010-12-31,4,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Other,0,0,2011,Actual,YTD,2010-12-31,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Other,76,0,2011,Actual,YTD,2010-12-31,76,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Other,2,0,2011,Actual,YTD,2010-12-31,2,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Other,0,0,2011,Actual,YTD,2010-12-31,0,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,230,0,2011,Actual,YTD,2010-12-31,230,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Other,0,0,2011,Actual,YTD,2010-12-31,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Other,43,0,2011,Actual,YTD,2010-12-31,43,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Other,72,0,2011,Actual,YTD,2010-12-31,72,Office of Housing and Community Development,,06
+Parks and Recreation,Other,22,0,2011,Actual,YTD,2010-12-31,22,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Other,0,0,2011,Actual,YTD,2010-12-31,0,Philadelphia Prison System,Prisons,23
+Procurement,Other,2,0,2011,Actual,YTD,2010-12-31,2,Procurement Department,Procurement,38
+Public Health,Other,203,0,2011,Actual,YTD,2010-12-31,203,Department of Public Health,Public Health,14
+Public Property,Other,0,0,2011,Actual,YTD,2010-12-31,0,Department of Public Property,Public Property,20
+Records,Other,0,0,2011,Actual,YTD,2010-12-31,0,Department of Records,Records,31
+Register of Wills,Other,0,0,2011,Actual,YTD,2010-12-31,0,Register of Wills,,68
+Revenue,Other,233,0,2011,Actual,YTD,2010-12-31,233,Department of Revenue,Revenue,36
+Sheriff,Other,0,0,2011,Actual,YTD,2010-12-31,0,Office of the Sheriff,Sheriff,70
+Streets,Other,0,0,2011,Actual,YTD,2010-12-31,0,Streets Department,Streets,12
+Streets - Sanitation,Other,0,0,2011,Actual,YTD,2010-12-31,0,Streets: Sanitation,,12S
+Water,Other,1627,0,2011,Actual,YTD,2010-12-31,1627,Water Department,Water,28
+Youth Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,Youth Commission,,47
+Zoning Board of Adjustment,Other,0,0,2011,Actual,YTD,2010-12-31,0,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Other,0,0,2011,Actual,YTD,2010-12-31,0,Zoning Code Commission,,57
+Atwater Kent Museum,Total,4,0,2011,Actual,YTD,2010-12-31,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Total,113,0,2011,Actual,YTD,2010-12-31,113,City Controller's Office,,61
+Board of Building Standards,Total,1,0,2011,Actual,YTD,2010-12-31,1,L&I: Board of Building and Standards,,29
+Board of Ethics,Total,8,0,2011,Actual,YTD,2010-12-31,8,Board of Ethics,,45
+Board of L & 1 Review,Total,2,0,2011,Actual,YTD,2010-12-31,2,L&I: Board of Review,,27
+Board of Pensions,Total,64,0,2011,Actual,YTD,2010-12-31,64,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Total,6,0,2011,Actual,YTD,2010-12-31,6,Board of Revision of Taxes,BRT,63
+Camp William Penn,Total,0,0,2011,Actual,YTD,2010-12-31,0,Camp William Penn,,19
+City Commissioners (Election Board),Total,98,0,2011,Actual,YTD,2010-12-31,98,City Commissioner's Office,City Commissioners,73
+City Council,Total,174,0,2011,Actual,YTD,2010-12-31,174,City Council,,01
+City Planning Commission,Total,38,0,2011,Actual,YTD,2010-12-31,38,City Planning Commission,,51
+City Representative,Total,7,0,2011,Actual,YTD,2010-12-31,7,Office of the City Representative,City Rep,41
+City Treasurer,Total,12,0,2011,Actual,YTD,2010-12-31,12,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Total,2,0,2011,Actual,YTD,2010-12-31,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,Total,0,0,2011,Actual,YTD,2010-12-31,0,Clerk of Quarter Sessions,,64
+Commerce,Total,764,0,2011,Actual,YTD,2010-12-31,764,Office of the Director of Commerce,Commerce,42
+Division of Technology,Total,331,0,2011,Actual,YTD,2010-12-31,331,Office of Innovation and Technology,OIT,04
+Fairmount Park,Total,0,0,2011,Actual,YTD,2010-12-31,0,Fairmount Park Commission,,17
+Finance,Total,140,0,2011,Actual,YTD,2010-12-31,140,Office of the Director of Finance,Finance,35
+First Judicial District,Total,2403,0,2011,Actual,YTD,2010-12-31,2403,First Judicial District,FJD,84
+Fleet Management,Total,340,0,2011,Actual,YTD,2010-12-31,340,Office of Fleet Management,Fleet,25
+Free Library,Total,658,0,2011,Actual,YTD,2010-12-31,658,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Total,6,0,2011,Actual,YTD,2010-12-31,6,Historical Commission,,32
+Human Relations Commission,Total,31,0,2011,Actual,YTD,2010-12-31,31,Commission on Human Relations,Human Relations,54
+Human Services,Total,1736,0,2011,Actual,YTD,2010-12-31,1736,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Total,6,0,2011,Actual,YTD,2010-12-31,6,Labor,,03
+Law,Total,228,0,2011,Actual,YTD,2010-12-31,228,Law Department,Law,44
+Licenses & Inspections,Total,290,0,2011,Actual,YTD,2010-12-31,290,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Total,132,0,2011,Actual,YTD,2010-12-31,132,Managing Director's Office,MDO,10
+Mayor,Total,39,0,2011,Actual,YTD,2010-12-31,39,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Total,2,0,2011,Actual,YTD,2010-12-31,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Total,14,0,2011,Actual,YTD,2010-12-31,14,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Total,76,0,2011,Actual,YTD,2010-12-31,76,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Total,10,0,2011,Actual,YTD,2010-12-31,10,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Total,11,0,2011,Actual,YTD,2010-12-31,11,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,250,0,2011,Actual,YTD,2010-12-31,250,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Total,69,0,2011,Actual,YTD,2010-12-31,69,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Total,134,0,2011,Actual,YTD,2010-12-31,134,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Total,158,0,2011,Actual,YTD,2010-12-31,158,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Total,72,0,2011,Actual,YTD,2010-12-31,72,Office of Housing and Community Development,,06
+Parks and Recreation,Total,615,0,2011,Actual,YTD,2010-12-31,615,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Total,2202,0,2011,Actual,YTD,2010-12-31,2202,Philadelphia Prison System,Prisons,23
+Procurement,Total,44,0,2011,Actual,YTD,2010-12-31,44,Procurement Department,Procurement,38
+Public Health,Total,864,0,2011,Actual,YTD,2010-12-31,864,Department of Public Health,Public Health,14
+Public Property,Total,123,0,2011,Actual,YTD,2010-12-31,123,Department of Public Property,Public Property,20
+Records,Total,55,0,2011,Actual,YTD,2010-12-31,55,Department of Records,Records,31
+Register of Wills,Total,62,0,2011,Actual,YTD,2010-12-31,62,Register of Wills,,68
+Revenue,Total,481,0,2011,Actual,YTD,2010-12-31,481,Department of Revenue,Revenue,36
+Sheriff,Total,220,0,2011,Actual,YTD,2010-12-31,220,Office of the Sheriff,Sheriff,70
+Streets,Total,511,0,2011,Actual,YTD,2010-12-31,511,Streets Department,Streets,12
+Streets - Sanitation,Total,1140,0,2011,Actual,YTD,2010-12-31,1140,Streets: Sanitation,,12S
+Water,Total,1627,0,2011,Actual,YTD,2010-12-31,1627,Water Department,Water,28
+Youth Commission,Total,1,0,2011,Actual,YTD,2010-12-31,1,Youth Commission,,47
+Zoning Board of Adjustment,Total,5,0,2011,Actual,YTD,2010-12-31,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Total,2,0,2011,Actual,YTD,2010-12-31,2,Zoning Code Commission,,57
+Police,General,775,6471,2011,Actual,YTD,2010-12-31,7246,Police Department,Police,11
+Police,Other,16,154,2011,Actual,YTD,2010-12-31,170,Police Department,Police,11
+Police,Total,791,6625,2011,Actual,YTD,2010-12-31,7416,Police Department,Police,11
+Fire,General,2046,103,2011,Actual,YTD,2010-12-31,2149,Fire Department,Fire,13
+Fire,Other,67,4,2011,Actual,YTD,2010-12-31,71,Fire Department,Fire,13
+Fire,Total,2113,107,2011,Actual,YTD,2010-12-31,2220,Fire Department,Fire,13
+District Attorney,General,413,13,2011,Actual,YTD,2010-12-31,426,District Attorney's Office,DAO,69
+District Attorney,Other,105,9,2011,Actual,YTD,2010-12-31,114,District Attorney's Office,DAO,69
+District Attorney,Total,518,22,2011,Actual,YTD,2010-12-31,540,District Attorney's Office,DAO,69
+Atwater Kent Museum,General,4,0,2010,Actual,Full Year,2010-06-30,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),General,120,0,2010,Actual,Full Year,2010-06-30,120,City Controller's Office,,61
+Board of Building Standards,General,1,0,2010,Actual,Full Year,2010-06-30,1,L&I: Board of Building and Standards,,29
+Board of Ethics,General,7,0,2010,Actual,Full Year,2010-06-30,7,Board of Ethics,,45
+Board of L & 1 Review,General,2,0,2010,Actual,Full Year,2010-06-30,2,L&I: Board of Review,,27
+Board of Pensions,General,0,0,2010,Actual,Full Year,2010-06-30,0,Board of Pensions,Pensions,53
+Board of Revision of Taxes,General,112,0,2010,Actual,Full Year,2010-06-30,112,Board of Revision of Taxes,BRT,63
+Camp William Penn,General,1,0,2010,Actual,Full Year,2010-06-30,1,Camp William Penn,,19
+City Commissioners (Election Board),General,102,0,2010,Actual,Full Year,2010-06-30,102,City Commissioner's Office,City Commissioners,73
+City Council,General,176,0,2010,Actual,Full Year,2010-06-30,176,City Council,,01
+City Planning Commission,General,40,0,2010,Actual,Full Year,2010-06-30,40,City Planning Commission,,51
+City Representative,General,7,0,2010,Actual,Full Year,2010-06-30,7,Office of the City Representative,City Rep,41
+City Treasurer,General,11,0,2010,Actual,Full Year,2010-06-30,11,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,General,2,0,2010,Actual,Full Year,2010-06-30,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,General,106,0,2010,Actual,Full Year,2010-06-30,106,Clerk of Quarter Sessions,,64
+Commerce,General,24,0,2010,Actual,Full Year,2010-06-30,24,Office of the Director of Commerce,Commerce,42
+Division of Technology,General,174,0,2010,Actual,Full Year,2010-06-30,174,Office of Innovation and Technology,OIT,04
+Fairmount Park,General,155,0,2010,Actual,Full Year,2010-06-30,155,Fairmount Park Commission,,17
+Finance,General,141,0,2010,Actual,Full Year,2010-06-30,141,Office of the Director of Finance,Finance,35
+First Judicial District,General,1756,0,2010,Actual,Full Year,2010-06-30,1756,First Judicial District,FJD,84
+Fleet Management,General,292,0,2010,Actual,Full Year,2010-06-30,292,Office of Fleet Management,Fleet,25
+Free Library,General,602,0,2010,Actual,Full Year,2010-06-30,602,The Free Library of Philadelphia,Free Library,52
+Historical Commission,General,6,0,2010,Actual,Full Year,2010-06-30,6,Historical Commission,,32
+Human Relations Commission,General,33,0,2010,Actual,Full Year,2010-06-30,33,Commission on Human Relations,Human Relations,54
+Human Services,General,1751,0,2010,Actual,Full Year,2010-06-30,1751,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",General,7,0,2010,Actual,Full Year,2010-06-30,7,Labor,,03
+Law,General,176,0,2010,Actual,Full Year,2010-06-30,176,Law Department,Law,44
+Licenses & Inspections,General,305,0,2010,Actual,Full Year,2010-06-30,305,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),General,112,0,2010,Actual,Full Year,2010-06-30,112,Managing Director's Office,MDO,10
+Mayor,General,38,0,2010,Actual,Full Year,2010-06-30,38,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,General,2,0,2010,Actual,Full Year,2010-06-30,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,General,15,0,2010,Actual,Full Year,2010-06-30,15,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,General,0,0,2010,Actual,Full Year,2010-06-30,0,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,General,8,0,2010,Actual,Full Year,2010-06-30,8,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,General,12,0,2010,Actual,Full Year,2010-06-30,12,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,22,0,2010,Actual,Full Year,2010-06-30,22,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,General,53,0,2010,Actual,Full Year,2010-06-30,53,Office of Human Resources,OHR,56
+Office of Property Assessment (1),General,0,0,2010,Actual,Full Year,2010-06-30,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,General,124,0,2010,Actual,Full Year,2010-06-30,124,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,General,0,0,2010,Actual,Full Year,2010-06-30,0,Office of Housing and Community Development,,06
+Parks and Recreation,General,435,0,2010,Actual,Full Year,2010-06-30,435,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,General,2254,0,2010,Actual,Full Year,2010-06-30,2254,Philadelphia Prison System,Prisons,23
+Procurement,General,46,0,2010,Actual,Full Year,2010-06-30,46,Procurement Department,Procurement,38
+Public Health,General,662,0,2010,Actual,Full Year,2010-06-30,662,Department of Public Health,Public Health,14
+Public Property,General,123,0,2010,Actual,Full Year,2010-06-30,123,Department of Public Property,Public Property,20
+Records,General,59,0,2010,Actual,Full Year,2010-06-30,59,Department of Records,Records,31
+Register of Wills,General,63,0,2010,Actual,Full Year,2010-06-30,63,Register of Wills,,68
+Revenue,General,250,0,2010,Actual,Full Year,2010-06-30,250,Department of Revenue,Revenue,36
+Sheriff,General,230,0,2010,Actual,Full Year,2010-06-30,230,Office of the Sheriff,Sheriff,70
+Streets,General,523,0,2010,Actual,Full Year,2010-06-30,523,Streets Department,Streets,12
+Streets - Sanitation,General,1170,0,2010,Actual,Full Year,2010-06-30,1170,Streets: Sanitation,,12S
+Water,General,0,0,2010,Actual,Full Year,2010-06-30,0,Water Department,Water,28
+Youth Commission,General,1,0,2010,Actual,Full Year,2010-06-30,1,Youth Commission,,47
+Zoning Board of Adjustment,General,5,0,2010,Actual,Full Year,2010-06-30,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,General,2,0,2010,Actual,Full Year,2010-06-30,2,Zoning Code Commission,,57
+Atwater Kent Museum,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Other,0,0,2010,Actual,Full Year,2010-06-30,0,City Controller's Office,,61
+Board of Building Standards,Other,0,0,2010,Actual,Full Year,2010-06-30,0,L&I: Board of Building and Standards,,29
+Board of Ethics,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Board of Ethics,,45
+Board of L & 1 Review,Other,0,0,2010,Actual,Full Year,2010-06-30,0,L&I: Board of Review,,27
+Board of Pensions,Other,67,0,2010,Actual,Full Year,2010-06-30,67,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Board of Revision of Taxes,BRT,63
+Camp William Penn,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Camp William Penn,,19
+City Commissioners (Election Board),Other,0,0,2010,Actual,Full Year,2010-06-30,0,City Commissioner's Office,City Commissioners,73
+City Council,Other,0,0,2010,Actual,Full Year,2010-06-30,0,City Council,,01
+City Planning Commission,Other,4,0,2010,Actual,Full Year,2010-06-30,4,City Planning Commission,,51
+City Representative,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Office of the City Representative,City Rep,41
+City Treasurer,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Civil Service Commission,,55
+Clerk of Quarter Sessions,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Clerk of Quarter Sessions,,64
+Commerce,Other,729,0,2010,Actual,Full Year,2010-06-30,729,Office of the Director of Commerce,Commerce,42
+Division of Technology,Other,16,0,2010,Actual,Full Year,2010-06-30,16,Office of Innovation and Technology,OIT,04
+Fairmount Park,Other,2,0,2010,Actual,Full Year,2010-06-30,2,Fairmount Park Commission,,17
+Finance,Other,4,0,2010,Actual,Full Year,2010-06-30,4,Office of the Director of Finance,Finance,35
+First Judicial District,Other,548,0,2010,Actual,Full Year,2010-06-30,548,First Judicial District,FJD,84
+Fleet Management,Other,60,0,2010,Actual,Full Year,2010-06-30,60,Office of Fleet Management,Fleet,25
+Free Library,Other,76,0,2010,Actual,Full Year,2010-06-30,76,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Historical Commission,,32
+Human Relations Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Commission on Human Relations,Human Relations,54
+Human Services,Other,52,0,2010,Actual,Full Year,2010-06-30,52,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Other,0,0,2010,Actual,Full Year,2010-06-30,0,Labor,,03
+Law,Other,60,0,2010,Actual,Full Year,2010-06-30,60,Law Department,Law,44
+Licenses & Inspections,Other,11,0,2010,Actual,Full Year,2010-06-30,11,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Other,15,0,2010,Actual,Full Year,2010-06-30,15,Managing Director's Office,MDO,10
+Mayor,Other,3,0,2010,Actual,Full Year,2010-06-30,3,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Other,0,0,2010,Actual,Full Year,2010-06-30,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Other,75,0,2010,Actual,Full Year,2010-06-30,75,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Other,1,0,2010,Actual,Full Year,2010-06-30,1,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,236,0,2010,Actual,Full Year,2010-06-30,236,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Other,0,0,2010,Actual,Full Year,2010-06-30,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Other,44,0,2010,Actual,Full Year,2010-06-30,44,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Other,74,0,2010,Actual,Full Year,2010-06-30,74,Office of Housing and Community Development,,06
+Parks and Recreation,Other,21,0,2010,Actual,Full Year,2010-06-30,21,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Philadelphia Prison System,Prisons,23
+Procurement,Other,2,0,2010,Actual,Full Year,2010-06-30,2,Procurement Department,Procurement,38
+Public Health,Other,213,0,2010,Actual,Full Year,2010-06-30,213,Department of Public Health,Public Health,14
+Public Property,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Department of Public Property,Public Property,20
+Records,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Department of Records,Records,31
+Register of Wills,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Register of Wills,,68
+Revenue,Other,236,0,2010,Actual,Full Year,2010-06-30,236,Department of Revenue,Revenue,36
+Sheriff,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Office of the Sheriff,Sheriff,70
+Streets,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Streets Department,Streets,12
+Streets - Sanitation,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Streets: Sanitation,,12S
+Water,Other,1672,0,2010,Actual,Full Year,2010-06-30,1672,Water Department,Water,28
+Youth Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Youth Commission,,47
+Zoning Board of Adjustment,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Other,0,0,2010,Actual,Full Year,2010-06-30,0,Zoning Code Commission,,57
+Atwater Kent Museum,Total,4,0,2010,Actual,Full Year,2010-06-30,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Total,120,0,2010,Actual,Full Year,2010-06-30,120,City Controller's Office,,61
+Board of Building Standards,Total,1,0,2010,Actual,Full Year,2010-06-30,1,L&I: Board of Building and Standards,,29
+Board of Ethics,Total,7,0,2010,Actual,Full Year,2010-06-30,7,Board of Ethics,,45
+Board of L & 1 Review,Total,2,0,2010,Actual,Full Year,2010-06-30,2,L&I: Board of Review,,27
+Board of Pensions,Total,67,0,2010,Actual,Full Year,2010-06-30,67,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Total,112,0,2010,Actual,Full Year,2010-06-30,112,Board of Revision of Taxes,BRT,63
+Camp William Penn,Total,1,0,2010,Actual,Full Year,2010-06-30,1,Camp William Penn,,19
+City Commissioners (Election Board),Total,102,0,2010,Actual,Full Year,2010-06-30,102,City Commissioner's Office,City Commissioners,73
+City Council,Total,176,0,2010,Actual,Full Year,2010-06-30,176,City Council,,01
+City Planning Commission,Total,44,0,2010,Actual,Full Year,2010-06-30,44,City Planning Commission,,51
+City Representative,Total,7,0,2010,Actual,Full Year,2010-06-30,7,Office of the City Representative,City Rep,41
+City Treasurer,Total,11,0,2010,Actual,Full Year,2010-06-30,11,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Total,2,0,2010,Actual,Full Year,2010-06-30,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,Total,106,0,2010,Actual,Full Year,2010-06-30,106,Clerk of Quarter Sessions,,64
+Commerce,Total,753,0,2010,Actual,Full Year,2010-06-30,753,Office of the Director of Commerce,Commerce,42
+Division of Technology,Total,190,0,2010,Actual,Full Year,2010-06-30,190,Office of Innovation and Technology,OIT,04
+Fairmount Park,Total,157,0,2010,Actual,Full Year,2010-06-30,157,Fairmount Park Commission,,17
+Finance,Total,145,0,2010,Actual,Full Year,2010-06-30,145,Office of the Director of Finance,Finance,35
+First Judicial District,Total,2304,0,2010,Actual,Full Year,2010-06-30,2304,First Judicial District,FJD,84
+Fleet Management,Total,352,0,2010,Actual,Full Year,2010-06-30,352,Office of Fleet Management,Fleet,25
+Free Library,Total,678,0,2010,Actual,Full Year,2010-06-30,678,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Total,6,0,2010,Actual,Full Year,2010-06-30,6,Historical Commission,,32
+Human Relations Commission,Total,33,0,2010,Actual,Full Year,2010-06-30,33,Commission on Human Relations,Human Relations,54
+Human Services,Total,1803,0,2010,Actual,Full Year,2010-06-30,1803,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Total,7,0,2010,Actual,Full Year,2010-06-30,7,Labor,,03
+Law,Total,236,0,2010,Actual,Full Year,2010-06-30,236,Law Department,Law,44
+Licenses & Inspections,Total,316,0,2010,Actual,Full Year,2010-06-30,316,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Total,127,0,2010,Actual,Full Year,2010-06-30,127,Managing Director's Office,MDO,10
+Mayor,Total,41,0,2010,Actual,Full Year,2010-06-30,41,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Total,2,0,2010,Actual,Full Year,2010-06-30,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Total,15,0,2010,Actual,Full Year,2010-06-30,15,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Total,75,0,2010,Actual,Full Year,2010-06-30,75,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Total,9,0,2010,Actual,Full Year,2010-06-30,9,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Total,12,0,2010,Actual,Full Year,2010-06-30,12,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,258,0,2010,Actual,Full Year,2010-06-30,258,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Total,53,0,2010,Actual,Full Year,2010-06-30,53,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Total,0,0,2010,Actual,Full Year,2010-06-30,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Total,168,0,2010,Actual,Full Year,2010-06-30,168,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Total,74,0,2010,Actual,Full Year,2010-06-30,74,Office of Housing and Community Development,,06
+Parks and Recreation,Total,456,0,2010,Actual,Full Year,2010-06-30,456,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Total,2254,0,2010,Actual,Full Year,2010-06-30,2254,Philadelphia Prison System,Prisons,23
+Procurement,Total,48,0,2010,Actual,Full Year,2010-06-30,48,Procurement Department,Procurement,38
+Public Health,Total,875,0,2010,Actual,Full Year,2010-06-30,875,Department of Public Health,Public Health,14
+Public Property,Total,123,0,2010,Actual,Full Year,2010-06-30,123,Department of Public Property,Public Property,20
+Records,Total,59,0,2010,Actual,Full Year,2010-06-30,59,Department of Records,Records,31
+Register of Wills,Total,63,0,2010,Actual,Full Year,2010-06-30,63,Register of Wills,,68
+Revenue,Total,486,0,2010,Actual,Full Year,2010-06-30,486,Department of Revenue,Revenue,36
+Sheriff,Total,230,0,2010,Actual,Full Year,2010-06-30,230,Office of the Sheriff,Sheriff,70
+Streets,Total,523,0,2010,Actual,Full Year,2010-06-30,523,Streets Department,Streets,12
+Streets - Sanitation,Total,1170,0,2010,Actual,Full Year,2010-06-30,1170,Streets: Sanitation,,12S
+Water,Total,1672,0,2010,Actual,Full Year,2010-06-30,1672,Water Department,Water,28
+Youth Commission,Total,1,0,2010,Actual,Full Year,2010-06-30,1,Youth Commission,,47
+Zoning Board of Adjustment,Total,5,0,2010,Actual,Full Year,2010-06-30,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Total,2,0,2010,Actual,Full Year,2010-06-30,2,Zoning Code Commission,,57
+Police,General,782,6596,2010,Actual,Full Year,2010-06-30,7378,Police Department,Police,11
+Police,Other,16,152,2010,Actual,Full Year,2010-06-30,168,Police Department,Police,11
+Police,Total,798,6748,2010,Actual,Full Year,2010-06-30,7546,Police Department,Police,11
+Fire,General,2084,103,2010,Actual,Full Year,2010-06-30,2187,Fire Department,Fire,13
+Fire,Other,65,4,2010,Actual,Full Year,2010-06-30,69,Fire Department,Fire,13
+Fire,Total,2149,107,2010,Actual,Full Year,2010-06-30,2256,Fire Department,Fire,13
+District Attorney,General,400,10,2010,Actual,Full Year,2010-06-30,410,District Attorney's Office,DAO,69
+District Attorney,Other,97,11,2010,Actual,Full Year,2010-06-30,108,District Attorney's Office,DAO,69
+District Attorney,Total,497,21,2010,Actual,Full Year,2010-06-30,518,District Attorney's Office,DAO,69
+Atwater Kent Museum,General,4,0,2011,Adopted Budget,Full Year,,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),General,123,0,2011,Adopted Budget,Full Year,,123,City Controller's Office,,61
+Board of Building Standards,General,1,0,2011,Adopted Budget,Full Year,,1,L&I: Board of Building and Standards,,29
+Board of Ethics,General,9,0,2011,Adopted Budget,Full Year,,9,Board of Ethics,,45
+Board of L & 1 Review,General,2,0,2011,Adopted Budget,Full Year,,2,L&I: Board of Review,,27
+Board of Pensions,General,0,0,2011,Adopted Budget,Full Year,,0,Board of Pensions,Pensions,53
+Board of Revision of Taxes,General,110,0,2011,Adopted Budget,Full Year,,110,Board of Revision of Taxes,BRT,63
+Camp William Penn,General,0,0,2011,Adopted Budget,Full Year,,0,Camp William Penn,,19
+City Commissioners (Election Board),General,88,0,2011,Adopted Budget,Full Year,,88,City Commissioner's Office,City Commissioners,73
+City Council,General,195,0,2011,Adopted Budget,Full Year,,195,City Council,,01
+City Planning Commission,General,38,0,2011,Adopted Budget,Full Year,,38,City Planning Commission,,51
+City Representative,General,7,0,2011,Adopted Budget,Full Year,,7,Office of the City Representative,City Rep,41
+City Treasurer,General,14,0,2011,Adopted Budget,Full Year,,14,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,General,2,0,2011,Adopted Budget,Full Year,,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,General,115,0,2011,Adopted Budget,Full Year,,115,Clerk of Quarter Sessions,,64
+Commerce,General,25,0,2011,Adopted Budget,Full Year,,25,Office of the Director of Commerce,Commerce,42
+Division of Technology,General,283,0,2011,Adopted Budget,Full Year,,283,Office of Innovation and Technology,OIT,04
+Fairmount Park,General,0,0,2011,Adopted Budget,Full Year,,0,Fairmount Park Commission,,17
+Finance,General,144,0,2011,Adopted Budget,Full Year,,144,Office of the Director of Finance,Finance,35
+First Judicial District,General,1776,0,2011,Adopted Budget,Full Year,,1776,First Judicial District,FJD,84
+Fleet Management,General,283,0,2011,Adopted Budget,Full Year,,283,Office of Fleet Management,Fleet,25
+Free Library,General,636,0,2011,Adopted Budget,Full Year,,636,The Free Library of Philadelphia,Free Library,52
+Historical Commission,General,6,0,2011,Adopted Budget,Full Year,,6,Historical Commission,,32
+Human Relations Commission,General,33,0,2011,Adopted Budget,Full Year,,33,Commission on Human Relations,Human Relations,54
+Human Services,General,1828,0,2011,Adopted Budget,Full Year,,1828,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",General,7,0,2011,Adopted Budget,Full Year,,7,Labor,,03
+Law,General,190,0,2011,Adopted Budget,Full Year,,190,Law Department,Law,44
+Licenses & Inspections,General,320,0,2011,Adopted Budget,Full Year,,320,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),General,122,0,2011,Adopted Budget,Full Year,,122,Managing Director's Office,MDO,10
+Mayor,General,39,0,2011,Adopted Budget,Full Year,,39,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,General,2,0,2011,Adopted Budget,Full Year,,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,General,19,0,2011,Adopted Budget,Full Year,,19,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,General,0,0,2011,Adopted Budget,Full Year,,0,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,General,8,0,2011,Adopted Budget,Full Year,,8,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,General,12,0,2011,Adopted Budget,Full Year,,12,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,General,24,0,2011,Adopted Budget,Full Year,,24,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,General,79,0,2011,Adopted Budget,Full Year,,79,Office of Human Resources,OHR,56
+Office of Property Assessment (1),General,0,0,2011,Adopted Budget,Full Year,,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,General,132,0,2011,Adopted Budget,Full Year,,132,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,General,0,0,2011,Adopted Budget,Full Year,,0,Office of Housing and Community Development,,06
+Parks and Recreation,General,689,0,2011,Adopted Budget,Full Year,,689,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,General,2360,0,2011,Adopted Budget,Full Year,,2360,Philadelphia Prison System,Prisons,23
+Procurement,General,50,0,2011,Adopted Budget,Full Year,,50,Procurement Department,Procurement,38
+Public Health,General,742,0,2011,Adopted Budget,Full Year,,742,Department of Public Health,Public Health,14
+Public Property,General,136,0,2011,Adopted Budget,Full Year,,136,Department of Public Property,Public Property,20
+Records,General,63,0,2011,Adopted Budget,Full Year,,63,Department of Records,Records,31
+Register of Wills,General,64,0,2011,Adopted Budget,Full Year,,64,Register of Wills,,68
+Revenue,General,262,0,2011,Adopted Budget,Full Year,,262,Department of Revenue,Revenue,36
+Sheriff,General,245,0,2011,Adopted Budget,Full Year,,245,Office of the Sheriff,Sheriff,70
+Streets,General,555,0,2011,Adopted Budget,Full Year,,555,Streets Department,Streets,12
+Streets - Sanitation,General,1271,0,2011,Adopted Budget,Full Year,,1271,Streets: Sanitation,,12S
+Water,General,0,0,2011,Adopted Budget,Full Year,,0,Water Department,Water,28
+Youth Commission,General,1,0,2011,Adopted Budget,Full Year,,1,Youth Commission,,47
+Zoning Board of Adjustment,General,5,0,2011,Adopted Budget,Full Year,,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,General,2,0,2011,Adopted Budget,Full Year,,2,Zoning Code Commission,,57
+Atwater Kent Museum,Other,0,0,2011,Adopted Budget,Full Year,,0,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Other,0,0,2011,Adopted Budget,Full Year,,0,City Controller's Office,,61
+Board of Building Standards,Other,0,0,2011,Adopted Budget,Full Year,,0,L&I: Board of Building and Standards,,29
+Board of Ethics,Other,0,0,2011,Adopted Budget,Full Year,,0,Board of Ethics,,45
+Board of L & 1 Review,Other,0,0,2011,Adopted Budget,Full Year,,0,L&I: Board of Review,,27
+Board of Pensions,Other,79,0,2011,Adopted Budget,Full Year,,79,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Other,0,0,2011,Adopted Budget,Full Year,,0,Board of Revision of Taxes,BRT,63
+Camp William Penn,Other,0,0,2011,Adopted Budget,Full Year,,0,Camp William Penn,,19
+City Commissioners (Election Board),Other,0,0,2011,Adopted Budget,Full Year,,0,City Commissioner's Office,City Commissioners,73
+City Council,Other,0,0,2011,Adopted Budget,Full Year,,0,City Council,,01
+City Planning Commission,Other,4,0,2011,Adopted Budget,Full Year,,4,City Planning Commission,,51
+City Representative,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of the City Representative,City Rep,41
+City Treasurer,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Other,0,0,2011,Adopted Budget,Full Year,,0,Civil Service Commission,,55
+Clerk of Quarter Sessions,Other,0,0,2011,Adopted Budget,Full Year,,0,Clerk of Quarter Sessions,,64
+Commerce,Other,866,0,2011,Adopted Budget,Full Year,,866,Office of the Director of Commerce,Commerce,42
+Division of Technology,Other,83,0,2011,Adopted Budget,Full Year,,83,Office of Innovation and Technology,OIT,04
+Fairmount Park,Other,0,0,2011,Adopted Budget,Full Year,,0,Fairmount Park Commission,,17
+Finance,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of the Director of Finance,Finance,35
+First Judicial District,Other,613,0,2011,Adopted Budget,Full Year,,613,First Judicial District,FJD,84
+Fleet Management,Other,77,0,2011,Adopted Budget,Full Year,,77,Office of Fleet Management,Fleet,25
+Free Library,Other,90,0,2011,Adopted Budget,Full Year,,90,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Other,0,0,2011,Adopted Budget,Full Year,,0,Historical Commission,,32
+Human Relations Commission,Other,0,0,2011,Adopted Budget,Full Year,,0,Commission on Human Relations,Human Relations,54
+Human Services,Other,74,0,2011,Adopted Budget,Full Year,,74,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Other,0,0,2011,Adopted Budget,Full Year,,0,Labor,,03
+Law,Other,61,0,2011,Adopted Budget,Full Year,,61,Law Department,Law,44
+Licenses & Inspections,Other,16,0,2011,Adopted Budget,Full Year,,16,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Other,8,0,2011,Adopted Budget,Full Year,,8,Managing Director's Office,MDO,10
+Mayor,Other,3,0,2011,Adopted Budget,Full Year,,3,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Other,0,0,2011,Adopted Budget,Full Year,,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Other,88,0,2011,Adopted Budget,Full Year,,88,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Other,0,0,2011,Adopted Budget,Full Year,,0,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Other,0,0,2011,Adopted Budget,Full Year,,0,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Other,272,0,2011,Adopted Budget,Full Year,,272,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Other,0,0,2011,Adopted Budget,Full Year,,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Other,56,0,2011,Adopted Budget,Full Year,,56,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Other,77,0,2011,Adopted Budget,Full Year,,77,Office of Housing and Community Development,,06
+Parks and Recreation,Other,27,0,2011,Adopted Budget,Full Year,,27,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Other,0,0,2011,Adopted Budget,Full Year,,0,Philadelphia Prison System,Prisons,23
+Procurement,Other,2,0,2011,Adopted Budget,Full Year,,2,Procurement Department,Procurement,38
+Public Health,Other,285,0,2011,Adopted Budget,Full Year,,285,Department of Public Health,Public Health,14
+Public Property,Other,0,0,2011,Adopted Budget,Full Year,,0,Department of Public Property,Public Property,20
+Records,Other,0,0,2011,Adopted Budget,Full Year,,0,Department of Records,Records,31
+Register of Wills,Other,0,0,2011,Adopted Budget,Full Year,,0,Register of Wills,,68
+Revenue,Other,260,0,2011,Adopted Budget,Full Year,,260,Department of Revenue,Revenue,36
+Sheriff,Other,0,0,2011,Adopted Budget,Full Year,,0,Office of the Sheriff,Sheriff,70
+Streets,Other,0,0,2011,Adopted Budget,Full Year,,0,Streets Department,Streets,12
+Streets - Sanitation,Other,0,0,2011,Adopted Budget,Full Year,,0,Streets: Sanitation,,12S
+Water,Other,1898,0,2011,Adopted Budget,Full Year,,1898,Water Department,Water,28
+Youth Commission,Other,0,0,2011,Adopted Budget,Full Year,,0,Youth Commission,,47
+Zoning Board of Adjustment,Other,0,0,2011,Adopted Budget,Full Year,,0,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Other,0,0,2011,Adopted Budget,Full Year,,0,Zoning Code Commission,,57
+Atwater Kent Museum,Total,4,0,2011,Adopted Budget,Full Year,,4,Atwater Kent Museum,Atwater Kent,18
+Auditing (City Controller's Office),Total,123,0,2011,Adopted Budget,Full Year,,123,City Controller's Office,,61
+Board of Building Standards,Total,1,0,2011,Adopted Budget,Full Year,,1,L&I: Board of Building and Standards,,29
+Board of Ethics,Total,9,0,2011,Adopted Budget,Full Year,,9,Board of Ethics,,45
+Board of L & 1 Review,Total,2,0,2011,Adopted Budget,Full Year,,2,L&I: Board of Review,,27
+Board of Pensions,Total,79,0,2011,Adopted Budget,Full Year,,79,Board of Pensions,Pensions,53
+Board of Revision of Taxes,Total,110,0,2011,Adopted Budget,Full Year,,110,Board of Revision of Taxes,BRT,63
+Camp William Penn,Total,0,0,2011,Adopted Budget,Full Year,,0,Camp William Penn,,19
+City Commissioners (Election Board),Total,88,0,2011,Adopted Budget,Full Year,,88,City Commissioner's Office,City Commissioners,73
+City Council,Total,195,0,2011,Adopted Budget,Full Year,,195,City Council,,01
+City Planning Commission,Total,42,0,2011,Adopted Budget,Full Year,,42,City Planning Commission,,51
+City Representative,Total,7,0,2011,Adopted Budget,Full Year,,7,Office of the City Representative,City Rep,41
+City Treasurer,Total,14,0,2011,Adopted Budget,Full Year,,14,Office of the City Treasurer,City Treasurer,40
+Civil Service Commission,Total,2,0,2011,Adopted Budget,Full Year,,2,Civil Service Commission,,55
+Clerk of Quarter Sessions,Total,115,0,2011,Adopted Budget,Full Year,,115,Clerk of Quarter Sessions,,64
+Commerce,Total,891,0,2011,Adopted Budget,Full Year,,891,Office of the Director of Commerce,Commerce,42
+Division of Technology,Total,366,0,2011,Adopted Budget,Full Year,,366,Office of Innovation and Technology,OIT,04
+Fairmount Park,Total,0,0,2011,Adopted Budget,Full Year,,0,Fairmount Park Commission,,17
+Finance,Total,144,0,2011,Adopted Budget,Full Year,,144,Office of the Director of Finance,Finance,35
+First Judicial District,Total,2389,0,2011,Adopted Budget,Full Year,,2389,First Judicial District,FJD,84
+Fleet Management,Total,360,0,2011,Adopted Budget,Full Year,,360,Office of Fleet Management,Fleet,25
+Free Library,Total,726,0,2011,Adopted Budget,Full Year,,726,The Free Library of Philadelphia,Free Library,52
+Historical Commission,Total,6,0,2011,Adopted Budget,Full Year,,6,Historical Commission,,32
+Human Relations Commission,Total,33,0,2011,Adopted Budget,Full Year,,33,Commission on Human Relations,Human Relations,54
+Human Services,Total,1902,0,2011,Adopted Budget,Full Year,,1902,Department of Human Services,DHS,22
+"Labor Relations, Mayor's Office of",Total,7,0,2011,Adopted Budget,Full Year,,7,Labor,,03
+Law,Total,251,0,2011,Adopted Budget,Full Year,,251,Law Department,Law,44
+Licenses & Inspections,Total,336,0,2011,Adopted Budget,Full Year,,336,Department of Licenses and Inspections,L&I,26
+Managing Director (MDO),Total,130,0,2011,Adopted Budget,Full Year,,130,Managing Director's Office,MDO,10
+Mayor,Total,42,0,2011,Adopted Budget,Full Year,,42,Mayor's Office,Mayor,05
+Mayor - Office of Arts and Culture,Total,2,0,2011,Adopted Budget,Full Year,,2,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Mayor - Office of the Inspector General,Total,19,0,2011,Adopted Budget,Full Year,,19,Office of the Inspector General,OIG,48
+Mayor's Office of Comm. Svcs.,Total,88,0,2011,Adopted Budget,Full Year,,88,Mayor's Office of Community Empowerment and Opportunity,CEO,08
+Mayor's Office of Transportation,Total,8,0,2011,Adopted Budget,Full Year,,8,Mayor's Office of Transportation and Utilities,,46
+Mural Arts Program,Total,12,0,2011,Adopted Budget,Full Year,,12,Mural Arts Program,Mural Arts,50
+Off. of Behavioral Hith/Mental Retard. Svcs.,Total,296,0,2011,Adopted Budget,Full Year,,296,Behavioral Health and Intellectual Disability Services,DBH/IDS,15
+Office of Human Resources,Total,79,0,2011,Adopted Budget,Full Year,,79,Office of Human Resources,OHR,56
+Office of Property Assessment (1),Total,0,0,2011,Adopted Budget,Full Year,,0,"Office of Arts, Culture, and the Creative Economy",Arts & Culture,58
+Off. of Supportive Housing,Total,188,0,2011,Adopted Budget,Full Year,,188,Office of Homeless Services,OHS,24
+Office of Housing and Community Develop.,Total,77,0,2011,Adopted Budget,Full Year,,77,Office of Housing and Community Development,,06
+Parks and Recreation,Total,716,0,2011,Adopted Budget,Full Year,,716,Department of Parks and Recreation,Parks & Recreation,16
+Prisons,Total,2360,0,2011,Adopted Budget,Full Year,,2360,Philadelphia Prison System,Prisons,23
+Procurement,Total,52,0,2011,Adopted Budget,Full Year,,52,Procurement Department,Procurement,38
+Public Health,Total,1027,0,2011,Adopted Budget,Full Year,,1027,Department of Public Health,Public Health,14
+Public Property,Total,136,0,2011,Adopted Budget,Full Year,,136,Department of Public Property,Public Property,20
+Records,Total,63,0,2011,Adopted Budget,Full Year,,63,Department of Records,Records,31
+Register of Wills,Total,64,0,2011,Adopted Budget,Full Year,,64,Register of Wills,,68
+Revenue,Total,522,0,2011,Adopted Budget,Full Year,,522,Department of Revenue,Revenue,36
+Sheriff,Total,245,0,2011,Adopted Budget,Full Year,,245,Office of the Sheriff,Sheriff,70
+Streets,Total,555,0,2011,Adopted Budget,Full Year,,555,Streets Department,Streets,12
+Streets - Sanitation,Total,1271,0,2011,Adopted Budget,Full Year,,1271,Streets: Sanitation,,12S
+Water,Total,1898,0,2011,Adopted Budget,Full Year,,1898,Water Department,Water,28
+Youth Commission,Total,1,0,2011,Adopted Budget,Full Year,,1,Youth Commission,,47
+Zoning Board of Adjustment,Total,5,0,2011,Adopted Budget,Full Year,,5,Zoning Board of Adjustments,ZBA,30
+Zoning Code Commission,Total,2,0,2011,Adopted Budget,Full Year,,2,Zoning Code Commission,,57
+Police,General,846,6624,2011,Adopted Budget,Full Year,,7470,Police Department,Police,11
+Police,Other,11,205,2011,Adopted Budget,Full Year,,216,Police Department,Police,11
+Police,Total,857,6829,2011,Adopted Budget,Full Year,,7686,Police Department,Police,11
+Fire,General,2217,110,2011,Adopted Budget,Full Year,,2327,Fire Department,Fire,13
+Fire,Other,72,4,2011,Adopted Budget,Full Year,,76,Fire Department,Fire,13
+Fire,Total,2289,114,2011,Adopted Budget,Full Year,,2403,Fire Department,Fire,13
+District Attorney,General,407,14,2011,Adopted Budget,Full Year,,421,District Attorney's Office,DAO,69
+District Attorney,Other,102,25,2011,Adopted Budget,Full Year,,127,District Attorney's Office,DAO,69
+District Attorney,Total,509,39,2011,Adopted Budget,Full Year,,548,District Attorney's Office,DAO,69
