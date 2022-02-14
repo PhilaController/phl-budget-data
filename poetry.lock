@@ -131,7 +131,7 @@ description = "A package for meta information about the City of Philadelphia's g
 category = "main"
 optional = false
 python-versions = "^3.8"
-develop = true
+develop = false
 
 [package.dependencies]
 desert = "^2020.11.18"
@@ -141,8 +141,10 @@ pandas = "^1.4.0"
 python-Levenshtein = "^0.12.2"
 
 [package.source]
-type = "directory"
-url = "../billy-penn"
+type = "git"
+url = "https://github.com/PhilaController/billy-penn.git"
+reference = "main"
+resolved_reference = "6a37fe8098f0d5f89853ff5ffdc047cf13d81b3e"
 
 [[package]]
 name = "black"
@@ -1568,7 +1570,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "59aa699bb7ad6ecd89cf311e65147b6e34bc12d7c3ae5143d9a8147ea6cdea73"
+content-hash = "5c6bcbad919abbd282e9b72b78eedf5ef7dd9c8a0200824df3f376c9c5f2a40f"
 
 [metadata.files]
 anyio = [
