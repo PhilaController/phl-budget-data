@@ -9,8 +9,7 @@ from pydantic import BaseModel, Field, validator
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
 from ...utils.misc import get_index_label
-from ...utils.transformations import (convert_to_floats, decimal_to_comma,
-                                      fix_zeros)
+from ...utils.transformations import convert_to_floats, decimal_to_comma, fix_zeros
 from ..base import ETLPipelineQCMR
 
 UNIFORMED = ["Police", "Fire", "District Attorney"]
@@ -156,8 +155,7 @@ def _transform_uniformed_depts(x, cols):
 
 class FullTimePositions(ETLPipelineQCMR):
     """
-    ETL pipeline class for extracting data from the City of Philadelphia's
-    QCMR Full-Time Positions Report.
+    The Full-Time Positions Report from the QCMR.
 
     Parameters
     ----------

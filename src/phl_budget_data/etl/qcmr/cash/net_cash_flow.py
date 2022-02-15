@@ -39,7 +39,7 @@ class NetCashFlowSchema(BaseModel):
 
 
 class CashReportNetCashFlow(CashFlowForecast):
-    """A class for the General Fund cash flow in the cash flow forecast."""
+    """The General Fund's net cash flow from the QCMR's Cash Flow Forecast."""
 
     report_type = "net-cash-flow"
 

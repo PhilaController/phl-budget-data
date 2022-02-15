@@ -50,7 +50,7 @@ class CashRevenueSchema(BaseModel):
 
 
 class CashReportRevenue(CashFlowForecast):
-    """A class for the revenue cash flow forecast."""
+    """General Fund cash revenues from the QCMR's Cash Flow Forecast."""
 
     report_type = "revenue"
 

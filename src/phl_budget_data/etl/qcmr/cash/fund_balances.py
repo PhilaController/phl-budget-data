@@ -50,7 +50,7 @@ class FundBalancesSchema(BaseModel):
 
 
 class CashReportFundBalances(CashFlowForecast):
-    """A class for the fund balances in the cash flow forecast."""
+    """Cash fund balances from the QCMR's Cash Flow Forecast."""
 
     report_type = "fund-balances"
 

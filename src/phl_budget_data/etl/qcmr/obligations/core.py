@@ -9,7 +9,8 @@ from pydantic import BaseModel, Field, validator
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
 from ...utils.misc import get_index_label
-from ...utils.transformations import convert_to_floats, decimal_to_comma, replace_commas
+from ...utils.transformations import (convert_to_floats, decimal_to_comma,
+                                      replace_commas)
 from ..base import ETLPipelineQCMR, add_as_of_date
 
 
@@ -118,8 +119,7 @@ def get_column_names(fy, q):
 
 class DepartmentObligations(ETLPipelineQCMR):
     """
-    Class for extracting data from the Departmental Obligations
-    Summary Report from the City of Philadelphia's QCMR.
+    The Departmental Obligations Summary Report from the QCMR.
 
     Parameters
     ----------

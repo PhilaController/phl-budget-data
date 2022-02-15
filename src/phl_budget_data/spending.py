@@ -23,7 +23,7 @@ def load_budgeted_department_spending(kind="adopted"):
     # Glob the PDF files
     out = []
     for f in sorted(dirname.glob("*.csv")):
-        out.append(pd.read_csv(f, dtype={"dept_code": str}))
+        out.append(pd.read_csv(f, dtype={"dept_code": str, "dept_major_code": str}))
 
     # Combine
     out = pd.concat(out, ignore_index=True)
@@ -43,7 +43,7 @@ def load_actual_department_spending():
     # Glob the PDF files
     out = []
     for f in sorted(dirname.glob("*/actual/*.csv")):
-        out.append(pd.read_csv(f, dtype={"dept_code": str}))
+        out.append(pd.read_csv(f, dtype={"dept_code": str, "dept_major_code": str}))
 
     out = pd.concat(out, ignore_index=True).drop_duplicates(
         subset=["dept_code", "fiscal_year"], keep="first"

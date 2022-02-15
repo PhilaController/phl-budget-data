@@ -8,7 +8,8 @@ from pydantic import BaseModel, Field, validator
 
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
-from ...utils.transformations import convert_to_floats, decimal_to_comma, fix_zeros
+from ...utils.transformations import (convert_to_floats, decimal_to_comma,
+                                      fix_zeros)
 from ..base import ETLPipelineQCMR, add_as_of_date
 
 
@@ -161,8 +162,7 @@ def _to_tidy_format(X, fy, qtr):
 
 class PersonalServices(ETLPipelineQCMR):
     """
-    ETL pipeline class for extracting data from the City of Philadelphia's
-    QCMR Personal Services Summary.
+    The Personal Services Summary from the QCMR.
 
     Parameters
     ----------

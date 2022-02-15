@@ -1,7 +1,10 @@
 """Abstract base class for performing ETL on PDF reports."""
 
 
+import importlib
+import inspect
 from abc import ABC, abstractmethod
+from collections import defaultdict
 from pathlib import Path
 from typing import List
 
@@ -11,6 +14,36 @@ from pydantic import BaseModel
 from pydantic.main import ModelMetaclass
 
 from .utils.aws import parse_pdf_with_textract
+
+
+def get_etl_sources():
+    """Get all of the ETL sources available."""
+
+    # Current folder and package name
+    current_folder = Path(__file__).parent.resolve()
+    package_name = str(current_folder).rsplit("src/")[-1].replace("/", ".")
+
+    # Walk this folder
+    for f in current_folder.glob("**/*.py"):
+        if f.stem.startswith("_"):
+            continue
+
+        # Get the relative path
+        relative_path = f.relative_to(current_folder)
+        module = ".".join(list(relative_path.parts[:-1]) + [f.stem])
+
+        # Import
+        importlib.import_module("." + module, package_name)
+
+    # in alphabetical order
+    out = defaultdict(list)
+    for cls in REGISTRY:
+
+        mod = cls.__module__.replace(package_name + ".", "")
+        key = mod.split(".")[0]
+        out[key].append(cls)
+
+    return out
 
 
 def validate_data_schema(data_schema: ModelMetaclass):
@@ -48,11 +81,20 @@ def validate_data_schema(data_schema: ModelMetaclass):
     return Inner
 
 
+REGISTRY = []
+
+
 class ETLPipeline(ABC):
     """
     An abstract base class to handle the extract-transform-load
     pipeline for parsing a PDF report.
     """
+
+    @classmethod
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs)
+        if not inspect.isabstract(cls) and "Base" not in cls.__name__:
+            REGISTRY.append(cls)
 
     @abstractmethod
     def extract(self) -> pd.DataFrame:

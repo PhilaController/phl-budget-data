@@ -49,7 +49,7 @@ class CashSpendingSchema(BaseModel):
 
 
 class CashReportSpending(CashFlowForecast):
-    """A class for the spending cash flow forecast."""
+    """General Fund cash spending from the QCMR's Cash Flow Forecast."""
 
     report_type = "spending"
 

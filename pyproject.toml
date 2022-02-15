@@ -26,6 +26,7 @@ python-Levenshtein = "^0.12.2"
 textual = "^0.1.15"
 pydantic = "^1.9.0"
 billy-penn = {git = "https://github.com/PhilaController/billy-penn.git", rev = "main"}
+rich-click = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
@@ -35,8 +36,7 @@ jupyterlab_code_formatter = "^1.4.2"
 isort = "^5.7.0"
 
 [tool.poetry.scripts]
-phl-budget-etl = "phl_budget_data.__main__:phl_budget_etl"
-phl-budget-sentinel = "phl_budget_data.etl.sentinel.core:phl_budget_sentinel"
+phl-budget-data = "phl_budget_data.cli.__main__:main"
 
 
 [tool.coverage.paths]

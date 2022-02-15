@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
+from typing import ClassVar
 
 import pandas as pd
 import pdfplumber
@@ -48,13 +49,11 @@ class BudgetSummaryBase(ETLPipeline):
         the fiscal year
     kind :
         either proposed or adopted
-    flavor :
-        either budget or actual
     """
 
     fiscal_year: int
     kind: str
-    flavor: str
+    flavor: ClassVar[str] = None
 
     def __post_init__(self):
         """Set up necessary variables."""
@@ -321,20 +320,10 @@ class BudgetSummaryBase(ETLPipeline):
 class BudgetedDepartmentSpending(BudgetSummaryBase):
     """Budgeted spending by department by major class."""
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(
-            *args,
-            flavor="budget",
-            **kwargs,
-        )
+    flavor = "budget"
 
 
 class ActualDepartmentSpending(BudgetSummaryBase):
     """Actual spending by department by major class."""
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(
-            *args,
-            flavor="actual",
-            **kwargs,
-        )
+    flavor = "actual"

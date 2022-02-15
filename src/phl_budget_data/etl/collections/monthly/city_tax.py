@@ -5,7 +5,7 @@ from .core import get_column_names
 
 
 class CityTaxCollections(CityCollectionsReport):
-    """Monthly City Tax Collections Report"""
+    """Monthly City Tax Collections Report."""
 
     def transform(self, data):
         """Transform."""
