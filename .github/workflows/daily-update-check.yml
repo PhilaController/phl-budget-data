@@ -1,55 +1,44 @@
-# name: Daily Update Check
+name: Daily Update Check
 
-# on:
-#   schedule:
-#     - cron: "22 00 * * *"
+on:
+  schedule:
+    - cron: "22 00 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/daily-update-check.yml
 
-# jobs:
-#   daily-sync:
-#     name: Daily Update Check
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#         with:
-#           persist-credentials: false
-#           fetch-depth: 0
-#       - uses: conda-incubator/setup-miniconda@v2
-#         with:
-#           auto-update-conda: true
-#           python-version: 3.7
-#       - name: Conda info
-#         shell: bash -l {0}
-#         run: conda info
-#       - name: Conda list
-#         shell: bash -l {0}
-#         run: conda list
-#       - name: Install poetry
-#         shell: bash -l {0}
-#         run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-#       - name: Install package
-#         shell: bash -l {0}
-#         run: poetry install
-#       - name: Run City update
-#         shell: bash -l {0}
-#         run: phl-budget-sentinel city
-#       - name: Run School District update
-#         shell: bash -l {0}
-#         run: phl-budget-sentinel school
-#       - name: Run Wage update
-#         shell: bash -l {0}
-#         run: phl-budget-sentinel wage
-#       # - name: Run RTT update
-#       #   shell: bash -l {0}
-#       #   run: phl-budget-sentinel rtt
-#       - name: Commit files
-#         continue-on-error: true
-#         run: |
-#           git config --local user.email "action@github.com"
-#           git config --local user.name "GitHub Action"
-#           git add src/phl_budget_data/data/processed/
-#           git add src/phl_budget_data/data/raw
-#           git commit -m "Add monthly update files"
-#       - name: Push changes
-#         uses: ad-m/github-push-action@master
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  daily-update-check:
+    name: Daily Update Check
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Run image
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: "1.1.11"
+      - name: Download files
+        run: |
+          poetry install
+          git pull origin master
+          poetry run phl-budget-data update wage
+          poetry run phl-budget-data update city
+          poetry run phl-budget-data update school
+          poetry run phl-budget-data save
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f src/phl_budget_data/data/
+          git commit -a -m "Add monthly update files"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
