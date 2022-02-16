@@ -11,6 +11,7 @@ on:
 jobs:
   daily-update-check:
     name: Daily Update Check
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
