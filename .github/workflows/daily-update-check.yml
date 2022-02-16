@@ -27,7 +27,7 @@ jobs:
       - name: Download files
         run: |
           poetry install
-          git pull origin master
+          git pull origin main
           poetry run phl-budget-data update wage
           poetry run phl-budget-data update city
           poetry run phl-budget-data update school
