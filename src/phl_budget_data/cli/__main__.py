@@ -42,7 +42,7 @@ def save():
     for tag in ["revenue", "spending", "qcmr"]:
 
         # Output folder
-        output_folder = DATA_DIR / "processed" / tag
+        output_folder = DATA_DIR / "historical" / tag
         if not output_folder.exists():
             output_folder.mkdir(parents=True)
 
