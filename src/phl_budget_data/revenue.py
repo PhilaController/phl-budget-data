@@ -1,14 +1,11 @@
 import calendar
 
-import numpy as np
 import pandas as pd
 
-from . import DATA_DIR
 from .etl import collections
 from .etl.utils.misc import fiscal_from_calendar_year
 
 __all__ = [
-    "load_rtt_collections_by_sector",
     "load_birt_collections_by_sector",
     "load_sales_collections_by_sector",
     "load_wage_collections_by_sector",
@@ -16,52 +13,6 @@ __all__ = [
     "load_city_tax_collections",
     "load_school_collections",
 ]
-
-
-def load_rtt_collections_by_sector() -> pd.DataFrame:
-    """Load monthly RTT tax collections by sector."""
-
-    # Get the path to the files to load
-    dirname = collections.RTTCollectionsBySector.get_data_directory("processed")
-    files = dirname.glob("*.csv")
-
-    out = []
-    for f in files:
-
-        # Get month/year
-        year, month = map(int, f.stem.split("_"))
-        month_name = calendar.month_abbr[month].lower()
-
-        # Determine the fiscal year and tags
-        fiscal_year = fiscal_from_calendar_year(month, year)
-
-        # Load the data
-        df = pd.read_csv(f)
-        df = df.query("sector != 'Total'")
-
-        # Trim to the columns we want
-        X = df[["total", "num_records", "sector", "parent_sector"]]
-
-        # Melt the data
-        X = X.assign(
-            month_name=month_name,
-            month=month,
-            fiscal_month=((month - 7) % 12 + 1),
-            year=year,
-            fiscal_year=fiscal_year,
-            total=lambda df: df.total.fillna(0),
-        )
-
-        # Save
-        out.append(X)
-
-    # Combine multiple months
-    out = pd.concat(out, ignore_index=True)
-    out["date"] = pd.to_datetime(
-        out["month"].astype(str) + "/" + out["year"].astype(str)
-    )
-
-    return out.sort_values("date", ascending=False).reset_index(drop=True)
 
 
 def load_sales_collections_by_sector() -> pd.DataFrame:
@@ -117,11 +68,30 @@ def load_birt_collections_by_sector() -> pd.DataFrame:
 
 
 def load_wage_collections_by_sector() -> pd.DataFrame:
-    """Load monthly wage tax collections by sector."""
+    """Load quarterly wage tax collections by sector."""
 
     # Get the path to the files to load
     dirname = collections.WageCollectionsBySector.get_data_directory("processed")
     files = dirname.glob("*.csv")
+
+    # Month set
+    month_set = "|".join([calendar.month_abbr[i].lower() for i in range(1, 13)])
+
+    # Fiscal quarters
+    fiscal_quarters = {
+        "jul": 1,
+        "aug": 1,
+        "sep": 1,
+        "oct": 2,
+        "nov": 2,
+        "dec": 2,
+        "jan": 3,
+        "feb": 3,
+        "mar": 3,
+        "apr": 4,
+        "may": 4,
+        "jun": 4,
+    }
 
     out = []
     for f in files:
@@ -132,14 +102,20 @@ def load_wage_collections_by_sector() -> pd.DataFrame:
 
         # Determine the fiscal year and tags
         fiscal_year = fiscal_from_calendar_year(month, year)
-        this_FY = str(fiscal_year)[2:]
-        last_FY = str(fiscal_year - 1)[2:]
 
         # Load the data and trim to "total"
         df = pd.read_csv(f)
 
-        # Trim to the columns we want
-        X = df[[f"{month_name}_{year}", "sector", "parent_sector"]]
+        # Check for quarterly data
+        # Example: "jan_to_mar_2022"
+        value_data = df.filter(regex=f"({month_set})_to_({month_set})_{year}$", axis=1)
+
+        # Monthly data?
+        if not len(value_data.columns):
+            value_data = df.filter(regex=f"({month_set})_{year}$", axis=1)
+
+        # Join the data with id columns
+        X = df[["sector", "parent_sector"]].join(value_data)
 
         # Melt the data
         X = (
@@ -148,9 +124,7 @@ def load_wage_collections_by_sector() -> pd.DataFrame:
                 value_name="total",
             )
             .assign(
-                month_name=month_name,
-                month=month,
-                fiscal_month=((month - 7) % 12 + 1),
+                fiscal_quarter=fiscal_quarters[month_name],
                 year=year,
                 fiscal_year=fiscal_year,
                 total=lambda df: df.total.fillna(0),
@@ -161,13 +135,29 @@ def load_wage_collections_by_sector() -> pd.DataFrame:
         # Save
         out.append(X)
 
-    # Combine multiple months
+    # Combine into a single dataframe
     out = pd.concat(out, ignore_index=True)
-    out["date"] = pd.to_datetime(
-        out["month"].astype(str) + "/" + out["year"].astype(str)
+
+    # Aggregate by quarter
+    out = out.groupby(
+        ["sector", "parent_sector", "year", "fiscal_year"] + ["fiscal_quarter"],
+        as_index=False,
+        dropna=False,
+    )["total"].sum()
+
+    # Map quarter to month
+    out["month_start"] = out["fiscal_quarter"].replace(
+        {1: "07", 2: "09", 3: "01", 4: "04"}
     )
 
-    return out.sort_values("date", ascending=False).reset_index(drop=True)
+    # Add date
+    out["date"] = pd.to_datetime(
+        out.apply(lambda r: f"{r['year']}-{r['month_start']}", axis=1)
+    )
+
+    return out.sort_values("date", ascending=False, ignore_index=True).drop(
+        columns=["month_start"]
+    )
 
 
 def _load_monthly_collections(files, total_only=False):

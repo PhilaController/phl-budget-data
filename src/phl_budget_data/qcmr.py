@@ -1,5 +1,8 @@
+from typing import Literal
+
 import numpy as np
 import pandas as pd
+from pydantic import validate_arguments
 
 from .etl import qcmr
 from .etl.utils.misc import fiscal_year_quarter_from_path
@@ -135,7 +138,10 @@ def load_department_obligations() -> pd.DataFrame:
     return _load_department_reports(qcmr.DepartmentObligations)
 
 
-def load_cash_reports(kind: str) -> pd.DataFrame:
+@validate_arguments
+def load_cash_reports(
+    kind: Literal["fund-balances", "net-cash-flow", "revenue", "spending"]
+) -> pd.DataFrame:
     """
     Load data from the QCMR cash reports.
 
@@ -150,11 +156,6 @@ def load_cash_reports(kind: str) -> pd.DataFrame:
     -----
     See raw PDF files in the "data/raw/qcmr/cash/" folder.
     """
-    # Check input
-    kinds = ["fund-balances", "net-cash-flow", "revenue", "spending"]
-    if kind not in kinds:
-        raise ValueError(f"'kind' should be one of: {kinds}")
-
     classes = {
         "fund-balances": qcmr.CashReportFundBalances,
         "net-cash-flow": qcmr.CashReportNetCashFlow,

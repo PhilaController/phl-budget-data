@@ -1,7 +1,6 @@
 import pandas as pd
 import pdfplumber
 
-from ... import DATA_DIR
 from ...utils.misc import rename_tax_rows
 from ...utils.pdf import extract_words, words_to_table
 from .core import MonthlyCollectionsReport, get_column_names

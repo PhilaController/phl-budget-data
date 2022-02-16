@@ -6,7 +6,7 @@ from typing import ClassVar
 import pdfplumber
 from loguru import logger
 
-from ... import DATA_DIR
+from ... import ETL_DATA_DIR as DATA_DIR
 from ..core import ETLPipelineAWS
 from ..utils.misc import fiscal_year_quarter_from_path
 

@@ -1,10 +1,10 @@
 """Class for parsing the Full-Time Positions Report from the QCMR."""
 
 import datetime
-from typing import ClassVar, Optional
+from typing import ClassVar, Literal, Optional
 
 import pandas as pd
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
@@ -31,15 +31,15 @@ class FullTimePositionsSchema(BaseModel):
         description="The total number of full-time positions.",
     )
     fiscal_year: int = Field(title="Fiscal Year", description="The fiscal year.")
-    variable: str = Field(
+    variable: Literal["Actual", "Adopted Budget",] = Field(
         title="Variable",
         description="The variable type, either 'Actual' or 'Adopted Budget'",
     )
-    time_period: str = Field(
+    time_period: Literal["Full Year", "YTD"] = Field(
         title="Time Period",
         description="The time period for the variable, either 'Full Year' or 'YTD'.",
     )
-    fund: str = Field(
+    fund: Literal["Other", "Total", "General"] = Field(
         title="Fund",
         description="The name of the fund, either 'General', 'Other', or 'Total'.",
     )
@@ -61,36 +61,6 @@ class FullTimePositionsSchema(BaseModel):
     as_of_date: Optional[datetime.date] = Field(
         title="As of Date", description="The date of the value."
     )
-
-    @validator("fund")
-    def variable_fund(cls, fund):
-        """Validate the 'fund' field."""
-        options = ["Other", "Total", "General"]
-        if fund not in options:
-            raise ValueError(f"'fund' should be one of: {', '.join(options)}")
-
-        return fund
-
-    @validator("variable")
-    def variable_ok(cls, variable):
-        """Validate the 'variable' field."""
-        options = [
-            "Actual",
-            "Adopted Budget",
-        ]
-        if variable not in options:
-            raise ValueError(f"'variable' should be one of: {', '.join(options)}")
-
-        return variable
-
-    @validator("time_period")
-    def time_period_ok(cls, time_period):
-        """Validate the 'time_period' field."""
-        options = ["Full Year", "YTD"]
-        if time_period not in options:
-            raise ValueError(f"'time_period' should be one of: {', '.join(options)}")
-
-        return time_period
 
 
 def _to_tidy_data(df, cols):

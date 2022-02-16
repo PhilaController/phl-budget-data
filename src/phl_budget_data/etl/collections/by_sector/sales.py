@@ -1,11 +1,10 @@
 from dataclasses import dataclass
-from operator import attrgetter
 
 import pdfplumber
 
-from ... import DATA_DIR
+from .... import ETL_DATA_DIR as DATA_DIR
 from ...core import ETLPipeline
-from ...utils.pdf import extract_words, fuzzy_groupby
+from ...utils.pdf import extract_words
 from ...utils.transformations import *
 
 SECTORS = [

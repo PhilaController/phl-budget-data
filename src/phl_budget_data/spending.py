@@ -1,11 +1,15 @@
+from typing import Literal
+
 import pandas as pd
+from pydantic import validate_arguments
 
 from .etl import spending
 
 __all__ = ["load_budgeted_department_spending", "load_actual_department_spending"]
 
 
-def load_budgeted_department_spending(kind="adopted"):
+@validate_arguments
+def load_budgeted_department_spending(kind: Literal["adopted", "proposed"]):
     """
     Load budgeted spending by department and major class.
 
@@ -13,7 +17,6 @@ def load_budgeted_department_spending(kind="adopted"):
     """
 
     # Get the dirname
-    assert kind in ["adopted", "proposed"]
     dirname = (
         spending.BudgetedDepartmentSpending.get_data_directory("processed")
         / kind

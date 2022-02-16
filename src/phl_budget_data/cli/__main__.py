@@ -1,9 +1,12 @@
+import importlib
+import itertools
 from dataclasses import fields
 
 import click
 import rich_click
 from loguru import logger
 
+from .. import DATA_DIR
 from ..etl.core import get_etl_sources
 from .etl import run_etl
 
@@ -25,6 +28,58 @@ class RichClickCommand(click.Command):
 def main():
     """Main command-line interface for working with City of Philadelphia budget data."""
     pass
+
+
+@main.command(cls=RichClickCommand)
+def save():
+    """Save the processed data products."""
+
+    for tag in ["revenue", "spending", "qcmr"]:
+
+        # Output folder
+        output_folder = DATA_DIR / "processed" / tag
+        if not output_folder.exists():
+            output_folder.mkdir(parents=True)
+
+        # Get the module
+        mod = importlib.import_module(".." + tag, __package__)
+
+        # Loop over each data loader
+        for name in dir(mod):
+            if name.startswith("load"):
+
+                # The function
+                f = getattr(mod, name)
+
+                # The base of the file name
+                filename_base = "-".join(name.split("_")[1:])
+
+                # Required params
+                if hasattr(f, "model"):
+
+                    # Get the params
+                    schema = f.model.schema()
+                    params = {
+                        k: schema["properties"][k]["enum"] for k in schema["required"]
+                    }
+
+                    # Do all iterations of params
+                    for param_values in list(itertools.product(*params.values())):
+                        kwargs = dict(zip(schema["required"], param_values))
+                        data = f(**kwargs)
+
+                        # The filename
+                        filename = filename_base + "-" + "-".join(param_values) + ".csv"
+                        output_file = output_folder / filename
+                        logger.info(f"Saving {output_file}")
+                        data.to_csv(output_file, index=False)
+
+                else:
+
+                    filename = "-".join(name.split("_")[1:]) + ".csv"
+                    output_file = output_folder / filename
+                    logger.info(f"Saving {output_file}")
+                    f().to_csv(output_file, index=False)
 
 
 @main.group(cls=RichClickGroup)

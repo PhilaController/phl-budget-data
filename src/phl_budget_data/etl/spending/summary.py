@@ -6,7 +6,7 @@ import pandas as pd
 import pdfplumber
 from loguru import logger
 
-from ... import DATA_DIR
+from ... import ETL_DATA_DIR as DATA_DIR
 from ..core import ETLPipeline
 from ..utils.depts import merge_department_info
 from ..utils.pdf import extract_words, words_to_table

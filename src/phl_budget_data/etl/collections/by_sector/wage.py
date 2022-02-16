@@ -4,7 +4,7 @@ from operator import attrgetter
 
 import pdfplumber
 
-from ... import DATA_DIR
+from .... import ETL_DATA_DIR as DATA_DIR
 from ...core import ETLPipeline
 from ...utils.pdf import extract_words, fuzzy_groupby
 from ...utils.transformations import *
@@ -97,11 +97,12 @@ class WageCollectionsBySector(ETLPipeline):
         self.month_name = calendar.month_abbr[self.month].lower()
 
         # Number of pages
-        self.num_pages = len(pdfplumber.open(self.path).pages)
+        with pdfplumber.open(self.path) as pdf:
+            self.num_pages = len(pdf.pages)
         assert self.num_pages in [3, 4, 5]
 
         # Quarterly or monthly?
-        self.quarterly = self.num_pages in [3, 5]
+        self.quarterly = self.year == 2021 and self.month >= 4 or self.year > 2021
 
         # Rename columns to show quarter
         if self.quarterly:

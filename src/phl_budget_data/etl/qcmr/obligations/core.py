@@ -1,16 +1,15 @@
 """Class for parsing the Departmental Obligations Report from the QCMR."""
 
 import datetime
-from typing import ClassVar
+from typing import ClassVar, Literal
 
 import pandas as pd
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
 from ...utils.misc import get_index_label
-from ...utils.transformations import (convert_to_floats, decimal_to_comma,
-                                      replace_commas)
+from ...utils.transformations import convert_to_floats, decimal_to_comma, replace_commas
 from ..base import ETLPipelineQCMR, add_as_of_date
 
 
@@ -22,11 +21,16 @@ class DepartmentObligationsSchema(BaseModel):
         description="The total department obligations.",
     )
     fiscal_year: int = Field(title="Fiscal Year", description="The fiscal year.")
-    variable: str = Field(
+    variable: Literal[
+        "Actual",
+        "Target Budget",
+        "Adopted Budget",
+        "Current Projection",
+    ] = Field(
         title="Variable",
         description="The variable type; one of 'Actual', 'Target Budget', 'Adopted Budget', 'Current Projection'",
     )
-    time_period: str = Field(
+    time_period: Literal["Full Year", "YTD"] = Field(
         title="Time Period",
         description="The time period for the variable, either 'Full Year' or 'YTD'.",
     )
@@ -48,29 +52,6 @@ class DepartmentObligationsSchema(BaseModel):
     as_of_date: datetime.date = Field(
         title="As of Date", description="The date of the value."
     )
-
-    @validator("variable")
-    def variable_ok(cls, variable):
-        """Validate the 'variable' field."""
-        options = [
-            "Actual",
-            "Target Budget",
-            "Adopted Budget",
-            "Current Projection",
-        ]
-        if variable not in options:
-            raise ValueError(f"'variable' should be one of: {', '.join(options)}")
-
-        return variable
-
-    @validator("time_period")
-    def time_period_ok(cls, time_period):
-        """Validate the 'time_period' field."""
-        options = ["Full Year", "YTD"]
-        if time_period not in options:
-            raise ValueError(f"'time_period' should be one of: {', '.join(options)}")
-
-        return time_period
 
 
 def remove_line_items(data, start, stop):
