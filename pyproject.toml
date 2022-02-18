@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "phl-budget-data"
-version = "0.1.7"
+version = "0.2.0"
 description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
