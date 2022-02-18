@@ -5,7 +5,7 @@ description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
 readme = "README.md"
-exclude = [ "src/phl_budget_data/data/etl"]
+exclude = [ "src/phl_budget_data/data/etl", "src/phl_budget_data/etl"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -16,14 +16,6 @@ openpyxl = "^3.0.7"
 rich-click = "^0.3.0"
 pydantic = "^1.9.0"
 loguru = "^0.5.3"
-selenium = { version = "^3.141.0", optional = true }
-pdfplumber = { version = "^0.5.25", optional = true }
-webdriver-manager = { version = "^3.3.0", optional = true }
-intervaltree = { version = "^3.1.0", optional = true }
-python-dotenv = { version = "0.19.2", optional = true }
-boto3 = { version = "^1.17.12", optional = true }
-beautifulsoup4 = { version = "^4.9.3", optional = true }
-textual = { version = "^0.1.15", optional = true }
 billy-penn = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
@@ -32,9 +24,14 @@ jupyterlab = "^3.0.5"
 matplotlib = "^3.3.4"
 jupyterlab_code_formatter = "^1.4.2"
 isort = "^5.7.0"
-
-[tool.poetry.extras]
-etl = ["selenium", "pdfplumber", "webdriver-manager", "intervaltree", "python-dotenv", "boto3", "beautifulsoup4", "textual"]
+selenium = "^3.141.0"
+pdfplumber = "^0.5.25"
+webdriver-manager = "^3.3.0"
+intervaltree =  "^3.1.0"
+python-dotenv =  "0.19.2"
+boto3 = "^1.17.12"
+beautifulsoup4 = "^4.9.3"
+textual = "^0.1.15"
 
 [tool.poetry.scripts]
 phl-budget-data = "phl_budget_data.cli.__main__:main"
