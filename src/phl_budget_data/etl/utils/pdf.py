@@ -1,19 +1,15 @@
 import copy
 import itertools
 import re
-from dataclasses import dataclass
+from lib2to3.pytree import Base
 from operator import attrgetter
-from typing import Dict, Iterator, List, Optional, Type, TypeVar
+from typing import Dict, Iterator, List, Optional
 
-import desert
-import marshmallow
 import numpy as np
 import pandas as pd
 import pdfplumber
 from intervaltree import IntervalTree
-
-# Create a generic variable that can be 'Parent', or any subclass.
-Word_T = TypeVar("Word_T", bound="Word")
+from pydantic import BaseModel
 
 
 def extract_words(
@@ -31,7 +27,7 @@ def extract_words(
     ):
 
         # Convert to a Word
-        word = Word.from_dict(word_dict)
+        word = Word(**word_dict)
 
         # Clean up text
         word.text = word.text.replace("\xa0", " ").strip()
@@ -44,8 +40,7 @@ def extract_words(
     return sorted(words, key=attrgetter("top", "x0"), reverse=False)
 
 
-@dataclass
-class Word:
+class Word(BaseModel):
     """
     A word in the PDF with associated text and bounding box.
 
@@ -78,20 +73,6 @@ class Word:
     def y(self) -> float:
         """Alias for `tops`."""
         return self.top
-
-    @classmethod
-    def from_dict(cls: Type[Word_T], data: dict) -> Word_T:
-        """
-        Return a new class instance from a dictionary
-        representation.
-
-        Parameters
-        ----------
-        data :
-            The dictionary representation of the class.
-        """
-        schema = desert.schema(cls, meta={"unknown": marshmallow.EXCLUDE})
-        return schema.load(data)
 
     def copy(self):
         return copy.deepcopy(self)
@@ -394,7 +375,7 @@ def get_pdf_words(
             ):
 
                 # Convert to a Word
-                word = Word.from_dict(word_dict)
+                word = Word(**word_dict)
 
                 # Check header and footer cutoffs
                 if word.bottom < footer_cutoff_ and word.top > header_cutoff:
