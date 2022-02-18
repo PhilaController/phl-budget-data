@@ -4,8 +4,11 @@ import numpy as np
 import pandas as pd
 from pydantic import validate_arguments
 
-from .etl import qcmr
-from .etl.utils.misc import fiscal_year_quarter_from_path
+from .utils import ETL_VERSION, load_from_cache
+
+if ETL_VERSION:
+    from .etl import qcmr
+    from .etl.utils.misc import fiscal_year_quarter_from_path
 
 __all__ = [
     "load_cash_reports",
@@ -92,6 +95,7 @@ def _load_department_reports(cls):
     ).reset_index(drop=True)
 
 
+@load_from_cache
 def load_personal_services_summary() -> pd.DataFrame:
     """
     Load data from the QCMR Personal Services Summary.
@@ -103,6 +107,7 @@ def load_personal_services_summary() -> pd.DataFrame:
     return _load_department_reports(qcmr.PersonalServices)
 
 
+@load_from_cache
 def load_fulltime_positions() -> pd.DataFrame:
     """
     Load data from the QCMR Full-Time Position Report.
@@ -127,6 +132,7 @@ def load_fulltime_positions() -> pd.DataFrame:
     return df
 
 
+@load_from_cache
 def load_department_obligations() -> pd.DataFrame:
     """
     Load data from the QCMR department obligation reports.
@@ -138,6 +144,7 @@ def load_department_obligations() -> pd.DataFrame:
     return _load_department_reports(qcmr.DepartmentObligations)
 
 
+@load_from_cache
 @validate_arguments
 def load_cash_reports(
     kind: Literal["fund-balances", "net-cash-flow", "revenue", "spending"]

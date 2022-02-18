@@ -3,11 +3,15 @@ from typing import Literal
 import pandas as pd
 from pydantic import validate_arguments
 
-from .etl import spending
+from .utils import ETL_VERSION, load_from_cache
+
+if ETL_VERSION:
+    from .etl import spending
 
 __all__ = ["load_budgeted_department_spending", "load_actual_department_spending"]
 
 
+@load_from_cache
 @validate_arguments
 def load_budgeted_department_spending(kind: Literal["adopted", "proposed"]):
     """
@@ -34,6 +38,7 @@ def load_budgeted_department_spending(kind: Literal["adopted", "proposed"]):
     return out
 
 
+@load_from_cache
 def load_actual_department_spending():
     """
     Load actual spending by department and major class.

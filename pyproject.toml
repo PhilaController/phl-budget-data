@@ -15,7 +15,6 @@ pandas = "^1.2.1"
 openpyxl = "^3.0.7"
 rich-click = "^0.3.0"
 pydantic = "^1.9.0"
-billy-penn = {git = "https://github.com/PhilaController/billy-penn.git", rev = "main"}
 loguru = "^0.5.3"
 selenium = { version = "^3.141.0", optional = true }
 pdfplumber = { version = "^0.5.25", optional = true }
@@ -25,6 +24,7 @@ python-dotenv = { version = "0.19.2", optional = true }
 boto3 = { version = "^1.17.12", optional = true }
 beautifulsoup4 = { version = "^4.9.3", optional = true }
 textual = { version = "^0.1.15", optional = true }
+billy-penn = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
