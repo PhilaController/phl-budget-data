@@ -1,8 +1,9 @@
 
 <p align="center">
 <img src="static/PHL%20Budget%20Data%20Logo.png"/>
-<div style="font-style: italic">Aggregating and cleaning City of Philadelphia budget-related data.</div>
 </p>
+
+*Aggregating and cleaning City of Philadelphia budget-related data.*
 
 
 ## Installation
