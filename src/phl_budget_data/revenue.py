@@ -1,8 +1,9 @@
 import calendar
+from functools import wraps
 
 import pandas as pd
 
-from .utils import ETL_VERSION, load_from_cache
+from .utils import ETL_VERSION, optional_from_cache
 
 if ETL_VERSION:
     from .etl import collections
@@ -18,7 +19,7 @@ __all__ = [
 ]
 
 
-@load_from_cache
+@optional_from_cache
 def load_sales_collections_by_sector() -> pd.DataFrame:
     """Load annual sales tax collections by sector."""
 
@@ -52,7 +53,7 @@ def load_sales_collections_by_sector() -> pd.DataFrame:
     ).reset_index(drop=True)
 
 
-@load_from_cache
+@optional_from_cache
 def load_birt_collections_by_sector() -> pd.DataFrame:
     """Load annual BIRT collections by sector."""
 
@@ -72,7 +73,7 @@ def load_birt_collections_by_sector() -> pd.DataFrame:
     ).reset_index(drop=True)
 
 
-@load_from_cache
+@optional_from_cache
 def load_wage_collections_by_sector() -> pd.DataFrame:
     """Load quarterly wage tax collections by sector."""
 
@@ -238,7 +239,7 @@ def _load_monthly_collections(files, total_only=False):
     return out.sort_values("date", ascending=False).reset_index(drop=True)
 
 
-@load_from_cache
+@optional_from_cache
 def load_city_tax_collections() -> pd.DataFrame:
     """Load monthly City tax collections."""
 
@@ -249,7 +250,7 @@ def load_city_tax_collections() -> pd.DataFrame:
     return _load_monthly_collections(files, total_only=False)
 
 
-@load_from_cache
+@optional_from_cache
 def load_city_collections() -> pd.DataFrame:
     """
     Load monthly collections for the City of Philadelphia. This includes tax, non-tax,
@@ -281,7 +282,7 @@ def load_city_collections() -> pd.DataFrame:
     return pd.concat(out, ignore_index=True)
 
 
-@load_from_cache
+@optional_from_cache
 def load_school_collections() -> pd.DataFrame:
     """Load monthly tax collections for the School District."""
 

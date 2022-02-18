@@ -10,9 +10,9 @@ ETL_DATA_DIR = DATA_DIR / "etl"
 
 # ETL install version?
 ETL_VERSION = False
-# try:
-#     import selenium
+try:
+    import selenium
 
-#     ETL_VERSION = True
-# except:
-#     pass
+    ETL_VERSION = True
+except:
+    pass

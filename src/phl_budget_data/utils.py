@@ -1,3 +1,5 @@
+from functools import wraps
+
 import pandas as pd
 
 from . import DATA_DIR, ETL_VERSION
@@ -40,10 +42,12 @@ def determine_file_name(f, **kwargs):
     return output_file
 
 
-def load_from_cache(f):
+def optional_from_cache(f):
     """Decorator to check if ETL is installed and load from cache."""
 
+    @wraps(f)
     def wrapper(**kwargs):
+
         if not ETL_VERSION:
             filename = determine_file_name(f, **kwargs)
             return pd.read_csv(filename)

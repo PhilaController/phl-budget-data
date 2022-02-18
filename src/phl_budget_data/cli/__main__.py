@@ -11,6 +11,7 @@ import rich_click
 from loguru import logger
 
 from .. import DATA_DIR, ETL_VERSION
+from ..utils import determine_file_name
 
 if ETL_VERSION:
     from ..etl import collections
@@ -79,18 +80,19 @@ def save(output=None):
 
                     # Do all iterations of params
                     for param_values in list(itertools.product(*params.values())):
+
                         kwargs = dict(zip(schema["required"], param_values))
                         data = f(**kwargs)
 
                         # The filename
-                        filename = filename_base + "-" + "-".join(param_values) + ".csv"
+                        filename = determine_file_name(f, **kwargs).name
                         output_file = output_folder / filename
                         logger.info(f"Saving {output_file}")
                         data.to_csv(output_file, index=False)
 
                 else:
 
-                    filename = "-".join(name.split("_")[1:]) + ".csv"
+                    filename = determine_file_name(f).name
                     output_file = output_folder / filename
                     logger.info(f"Saving {output_file}")
                     f().to_csv(output_file, index=False)
