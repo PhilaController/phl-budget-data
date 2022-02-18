@@ -1,6 +1,7 @@
 
-![PHL Budget Data Logo](static/PHL%20Budget%20Data%20Logo.png)
-
+<p align="center">
+<img src="static/PHL%20Budget%20Data%20Logo.png"/>
+</p>
 *Aggregating and cleaning City of Philadelphia budget-related data.*
 
 ## Installation
