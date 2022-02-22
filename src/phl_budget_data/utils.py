@@ -1,3 +1,4 @@
+import inspect
 from functools import wraps
 
 import pandas as pd
@@ -46,12 +47,15 @@ def optional_from_cache(f):
     """Decorator to check if ETL is installed and load from cache."""
 
     @wraps(f)
-    def wrapper(**kwargs):
+    def wrapper(*args, **kwargs):
+
+        # Get the signature
+        sig = inspect.signature(f).bind(*args, **kwargs)
 
         if not ETL_VERSION:
-            filename = determine_file_name(f, **kwargs)
+            filename = determine_file_name(f, **sig.arguments)
             return pd.read_csv(filename)
         else:
-            return f(**kwargs)
+            return f(*args, **kwargs)
 
     return wrapper
