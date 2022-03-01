@@ -1,73 +1,73 @@
-dept_name_raw,class_100,class_200,class_300_400,class_500,class_700,class_800,fiscal_year,class_900,total,abbreviation,dept_code,dept_name,dept_major_code
-& Inspection-Demolition,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,,26D,L&I: Demolition,26
-Art Museum,0.0,0.0,0.0,2250000.0,0.0,0.0,2004,0,2250000.0,,34,Art Museum,34
-Atwater Kent Museum,285546.0,5850.0,0.0,0.0,0.0,0.0,2004,0,291396.0,Atwater Kent,18,Atwater Kent Museum,18
-Auditing,6956898.0,496015.0,46064.0,0.0,0.0,0.0,2004,0,7498977.0,,61,City Controller's Office,61
-Board of Building Standards,99429.0,125.0,628.0,0.0,0.0,0.0,2004,0,100182.0,,29,L&I: Board of Building and Standards,29
-Board of L.&I. Review,163650.0,30217.0,567.0,0.0,0.0,0.0,2004,0,194434.0,,27,L&I: Board of Review,27
-Board of Revision of Taxes,7275313.0,444279.0,168445.0,0.0,0.0,0.0,2004,0,7888037.0,BRT,63,Board of Revision of Taxes,63
-Camp William Penn,216643.0,113651.0,80189.0,0.0,0.0,0.0,2004,0,410483.0,,19,Camp William Penn,19
-Capital Program Office,1143261.0,379809.0,86829.0,0.0,0.0,650000.0,2004,0,2259899.0,,07,Capital Program Office,07
-City Commissioners,4706830.0,3183514.0,570048.0,0.0,0.0,0.0,2004,0,8460392.0,City Commissioners,73,City Commissioner's Office,73
-City Council,11026478.0,1783134.0,533244.0,0.0,0.0,0.0,2004,0,13342856.0,,01,City Council,01
-City Planning,3158314.0,122611.0,64765.0,0.0,0.0,0.0,2004,0,3345690.0,,51,City Planning Commission,51
-City Treasurer,625411.0,82992.0,26980.0,0.0,0.0,0.0,2004,0,735383.0,City Treasurer,40,Office of the City Treasurer,40
-Civic Center,150435.0,81649.0,1579.0,0.0,0.0,0.0,2004,0,233663.0,Aviation,43,Division of Aviation,43
-Civil Service,126153.0,153.0,1840.0,0.0,0.0,0.0,2004,0,128146.0,,55,Civil Service Commission,55
-Clerk of Quarter Sessions,4525499.0,22268.0,70394.0,0.0,0.0,0.0,2004,0,4618161.0,,64,Clerk of Quarter Sessions,64
-Commerce-Economic Stimulus,0.0,4131250.0,0.0,0.0,0.0,0.0,2004,0,4131250.0,,42ES,Commerce: Economic Stimulus,42
-Community College Subsidy,0.0,0.0,0.0,22467924.0,0.0,0.0,2004,0,22467924.0,,35CC,Finance: Community College Subsidy,35
-Convention Center Subsidy,0.0,0.0,0.0,0.0,0.0,31995000.0,2004,0,31995000.0,,42CC,Commerce: Convention Center Subsidy,42
-Debt Service (Sinking Fund),0.0,70794819.0,0.0,0.0,93718992.0,0.0,2004,0,164513811.0,Sinking Fund,37,Sinking Fund Commission,37
-Director of Finance,8513163.0,7293264.0,224862.0,9392691.0,0.0,30982.0,2004,0,25454962.0,Finance,35,Office of the Director of Finance,35
-District Attorney,28162033.0,1732030.0,577016.0,0.0,0.0,0.0,2004,0,30471079.0,DAO,69,District Attorney's Office,69
-Fairmount Park Commission,9906230.0,3029818.0,616835.0,850000.0,0.0,0.0,2004,0,14402883.0,,17,Fairmount Park Commission,17
-Finance-Contribution  to School District,0.0,0.0,0.0,36159200.0,0.0,0.0,2004,0,36159200.0,,35SD,Finance: School District Contribution,35
-Finance-Employee Benefits,598934184.0,0.0,0.0,0.0,0.0,0.0,2004,0,598934184.0,,35EB,Finance: Employee Benefits,35
-Finance-PGW Rental Reimbursement,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,,35PGW,Finance: PGW Reimbursement,35
-Fire,151895781.0,4733671.0,5558301.0,0.0,0.0,7552573.0,2004,0,169740326.0,Fire,13,Fire Department,13
-First Judicial District,89208732.0,22993097.0,2622199.0,0.0,0.0,0.0,2004,0,114824028.0,FJD,84,First Judicial District,84
-Fleet Management,17010161.0,4313390.0,17851563.0,0.0,0.0,0.0,2004,0,39175114.0,Fleet,25,Office of Fleet Management,25
-Free Library,32190337.0,1512184.0,2355361.0,0.0,0.0,0.0,2004,0,36057882.0,Free Library,52,The Free Library of Philadelphia,52
-Hero Scholarship Awards,0.0,0.0,0.0,2400.0,0.0,0.0,2004,0,2400.0,,35HA,Finance: Hero Scholarship Awards,35
-Historical Commission,235330.0,17153.0,5201.0,0.0,0.0,0.0,2004,0,257684.0,,32,Historical Commission,32
-Human Relations,2216668.0,43456.0,19884.0,0.0,0.0,0.0,2004,0,2280008.0,Human Relations,54,Commission on Human Relations,54
-Human Services,86802456.0,493654524.0,4706861.0,20849.0,0.0,0.0,2004,0,585184690.0,DHS,22,Department of Human Services,22
-Indemnities,0.0,0.0,0.0,18744148.0,0.0,0.0,2004,0,18744148.0,,35IN,Finance: Indemnities,35
-Labor Relations,420901.0,23061.0,17167.0,0.0,0.0,0.0,2004,0,461129.0,,03,Labor,03
-Law,9951168.0,6606908.0,271249.0,0.0,0.0,0.0,2004,0,16829325.0,Law,44,Law Department,44
-Legal Services,0.0,33359468.0,0.0,0.0,0.0,0.0,2004,0,33359468.0,,10LS,MDO: Legal Services,10
-Licenses & Inspection,17294915.0,5985492.0,595780.0,0.0,0.0,0.0,2004,0,23876187.0,L&I,26,Department of Licenses and Inspections,26
-Management -Vehicle Purchase,0.0,0.0,6699661.0,0.0,0.0,0.0,2004,0,6699661.0,,25V,Fleet: Vehicle Lease/Purchases,25
-Managing Director,8105545.0,5604684.0,780678.0,0.0,0.0,0.0,2004,0,14490907.0,MDO,10,Managing Director's Office,10
-Mayor - Mural Arts Program,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,Mural Arts,50,Mural Arts Program,50
-Mayor - Scholarships,0.0,0.0,0.0,199944.0,0.0,0.0,2004,0,199944.0,,05S,Mayor's Office: Scholarships,05
-Mayor's Office,2989208.0,720362.0,79637.0,4700.0,0.0,0.0,2004,0,3793907.0,Mayor,05,Mayor's Office,05
-Office of Behavioral Health /  Mental Retardation Services,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,DBH/IDS,15,Behavioral Health and Intellectual Disability Services,15
-Office of Community Services,705215.0,74419.0,40845.0,0.0,0.0,0.0,2004,0,820479.0,CEO,08,Mayor's Office of Community Empowerment and Opportunity,08
-Office of Emergency Shelter Services,3428224.0,11762784.0,150434.0,0.0,0.0,0.0,2004,0,15341442.0,OHS,24,Office of Homeless Services,24
-Office of Information Svcs.,6994694.0,5474390.0,198245.0,0.0,0.0,93614.0,2004,0,12760943.0,OIT,04,Office of Innovation and Technology,04
-Personnel,4158272.0,604059.0,75799.0,0.0,0.0,0.0,2004,0,4838130.0,OHR,56,Office of Human Resources,56
-Police,475523727.0,7476824.0,7651014.0,0.0,0.0,2196056.0,2004,0,492847621.0,Police,11,Police Department,11
-Prisons,98461058.0,80855513.0,4068922.0,984795.0,0.0,0.0,2004,0,184370288.0,Prisons,23,Philadelphia Prison System,23
-Procurement,3034226.0,2104737.0,77621.0,0.0,0.0,0.0,2004,0,5216584.0,Procurement,38,Procurement Department,38
-Public Health,41963682.0,68929357.0,3231724.0,0.0,0.0,1666309.0,2004,0,115791072.0,Public Health,14,Department of Public Health,14
-Public Property,9085302.0,23356743.0,1019882.0,0.0,0.0,15817451.0,2004,0,49279378.0,Public Property,20,Department of Public Property,20
-Public Property-SEPTA Subsidy,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,,20SS,Public Property: SEPTA Subsidy,20
-Public Property-Space Rentals,0.0,13842113.0,0.0,0.0,0.0,0.0,2004,0,13842113.0,,20SR,Public Property: Space Rentals,20
-Public Property-Telecommunications,0.0,12138124.0,0.0,0.0,0.0,0.0,2004,0,12138124.0,,20T,Public Property: Telecommunications,20
-Public Property-Utilities,0.0,28223837.0,0.0,0.0,0.0,0.0,2004,0,28223837.0,,20U,Public Property: Utilities,20
-Records,3536172.0,3149466.0,635595.0,1345.0,0.0,1129515.0,2004,0,8452093.0,Records,31,Department of Records,31
-Recreation,31336369.0,2169980.0,1494248.0,1800000.0,0.0,0.0,2004,0,36800597.0,Parks & Recreation,16,Department of Parks and Recreation,16
-Recreation - Stadium Complex,901810.0,2722196.0,83904.0,0.0,0.0,0.0,2004,0,3707910.0,,16SC,Parks & Recreation: Stadium Complex,16
-Refunds,0.0,0.0,0.0,51445.0,0.0,0.0,2004,0,51445.0,,35R,Finance: Refunds,35
-Register of Wills,3097049.0,36738.0,27888.0,0.0,0.0,0.0,2004,0,3161675.0,,68,Register of Wills,68
-Representative/Commerce,1430037.0,54856771.0,106338.0,2150000.0,0.0,0.0,2004,0,58543146.0,City Rep,41,Office of the City Representative,41
-Revenue,11818853.0,4026703.0,736445.0,0.0,0.0,0.0,2004,0,16582001.0,Revenue,36,Department of Revenue,36
-Sheriff,13557813.0,629102.0,283715.0,0.0,0.0,0.0,2004,0,14470630.0,Sheriff,70,Office of the Sheriff,70
-Streets,15520097.0,12314419.0,4905516.0,14061.0,0.0,0.0,2004,0,32754093.0,Streets,12,Streets Department,12
-Streets - Sanitation,47497073.0,41616890.0,1213102.0,48171.0,0.0,0.0,2004,0,90375236.0,,12S,Streets: Sanitation,12
-Tax Reform Commission,230000.0,120018.0,2457.0,0.0,0.0,0.0,2004,0,352475.0,,02,Tax Reform Commission,02
-Witness Fees,0.0,127344.0,0.0,0.0,0.0,0.0,2004,0,127344.0,,35WF,Finance: Witness Fees,35
-Zoning Bd. of Adji.,407504.0,60413.0,2867.0,0.0,0.0,0.0,2004,0,470784.0,ZBA,30,Zoning Board of Adjustments,30
-of Housing and Comm. Dev.,275916.0,313980.0,0.0,0.0,0.0,0.0,2004,0,589896.0,,06,Office of Housing and Community Development,06
+dept_name_raw,class_100,class_200,class_300_400,class_500,class_700,class_800,fiscal_year,class_900,total,dept_name,dept_code,abbreviation,dept_major_code
+& Inspection-Demolition,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,L&I: Demolition,26-D,,26
+Art Museum,0.0,0.0,0.0,2250000.0,0.0,0.0,2004,0,2250000.0,Art Museum,34,,34
+Atwater Kent Museum,285546.0,5850.0,0.0,0.0,0.0,0.0,2004,0,291396.0,Atwater Kent Museum,18,Atwater Kent,18
+Auditing,6956898.0,496015.0,46064.0,0.0,0.0,0.0,2004,0,7498977.0,City Controller's Office,61,,61
+Board of Building Standards,99429.0,125.0,628.0,0.0,0.0,0.0,2004,0,100182.0,L&I: Board of Building and Standards,29,,29
+Board of L.&I. Review,163650.0,30217.0,567.0,0.0,0.0,0.0,2004,0,194434.0,L&I: Board of Review,27,,27
+Board of Revision of Taxes,7275313.0,444279.0,168445.0,0.0,0.0,0.0,2004,0,7888037.0,Board of Revision of Taxes,63,BRT,63
+Camp William Penn,216643.0,113651.0,80189.0,0.0,0.0,0.0,2004,0,410483.0,Camp William Penn,19,,19
+Capital Program Office,1143261.0,379809.0,86829.0,0.0,0.0,650000.0,2004,0,2259899.0,Capital Program Office,07,,07
+City Commissioners,4706830.0,3183514.0,570048.0,0.0,0.0,0.0,2004,0,8460392.0,City Commissioner's Office,73,City Commissioners,73
+City Council,11026478.0,1783134.0,533244.0,0.0,0.0,0.0,2004,0,13342856.0,City Council,01,,01
+City Planning,3158314.0,122611.0,64765.0,0.0,0.0,0.0,2004,0,3345690.0,City Planning Commission,51,,51
+City Treasurer,625411.0,82992.0,26980.0,0.0,0.0,0.0,2004,0,735383.0,Office of the City Treasurer,40,City Treasurer,40
+Civic Center,150435.0,81649.0,1579.0,0.0,0.0,0.0,2004,0,233663.0,Division of Aviation,43,Aviation,43
+Civil Service,126153.0,153.0,1840.0,0.0,0.0,0.0,2004,0,128146.0,Civil Service Commission,55,,55
+Clerk of Quarter Sessions,4525499.0,22268.0,70394.0,0.0,0.0,0.0,2004,0,4618161.0,Clerk of Quarter Sessions,64,,64
+Commerce-Economic Stimulus,0.0,4131250.0,0.0,0.0,0.0,0.0,2004,0,4131250.0,Commerce: Economic Stimulus,42-ES,,42
+Community College Subsidy,0.0,0.0,0.0,22467924.0,0.0,0.0,2004,0,22467924.0,Finance: Community College Subsidy,35-CC,,35
+Convention Center Subsidy,0.0,0.0,0.0,0.0,0.0,31995000.0,2004,0,31995000.0,Commerce: Convention Center Subsidy,42-CC,,42
+Debt Service (Sinking Fund),0.0,70794819.0,0.0,0.0,93718992.0,0.0,2004,0,164513811.0,Sinking Fund Commission,37,Sinking Fund,37
+Director of Finance,8513163.0,7293264.0,224862.0,9392691.0,0.0,30982.0,2004,0,25454962.0,Office of the Director of Finance,35,Finance,35
+District Attorney,28162033.0,1732030.0,577016.0,0.0,0.0,0.0,2004,0,30471079.0,District Attorney's Office,69,DAO,69
+Fairmount Park Commission,9906230.0,3029818.0,616835.0,850000.0,0.0,0.0,2004,0,14402883.0,Fairmount Park Commission,17,,17
+Finance-Contribution  to School District,0.0,0.0,0.0,36159200.0,0.0,0.0,2004,0,36159200.0,Finance: School District Contribution,35-SD,,35
+Finance-Employee Benefits,598934184.0,0.0,0.0,0.0,0.0,0.0,2004,0,598934184.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
+Finance-PGW Rental Reimbursement,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,Finance: PGW Reimbursement,35-PGW,,35
+Fire,151895781.0,4733671.0,5558301.0,0.0,0.0,7552573.0,2004,0,169740326.0,Fire Department,13,Fire,13
+First Judicial District,89208732.0,22993097.0,2622199.0,0.0,0.0,0.0,2004,0,114824028.0,First Judicial District,84,FJD,84
+Fleet Management,17010161.0,4313390.0,17851563.0,0.0,0.0,0.0,2004,0,39175114.0,Office of Fleet Management,25,Fleet,25
+Free Library,32190337.0,1512184.0,2355361.0,0.0,0.0,0.0,2004,0,36057882.0,The Free Library of Philadelphia,52,Free Library,52
+Hero Scholarship Awards,0.0,0.0,0.0,2400.0,0.0,0.0,2004,0,2400.0,Finance: Hero Scholarship Awards,35-HA,,35
+Historical Commission,235330.0,17153.0,5201.0,0.0,0.0,0.0,2004,0,257684.0,Historical Commission,32,,32
+Human Relations,2216668.0,43456.0,19884.0,0.0,0.0,0.0,2004,0,2280008.0,Commission on Human Relations,54,Human Relations,54
+Human Services,86802456.0,493654524.0,4706861.0,20849.0,0.0,0.0,2004,0,585184690.0,Department of Human Services,22,DHS,22
+Indemnities,0.0,0.0,0.0,18744148.0,0.0,0.0,2004,0,18744148.0,Finance: Indemnities,35-IN,,35
+Labor Relations,420901.0,23061.0,17167.0,0.0,0.0,0.0,2004,0,461129.0,Labor,03,,03
+Law,9951168.0,6606908.0,271249.0,0.0,0.0,0.0,2004,0,16829325.0,Law Department,44,Law,44
+Legal Services,0.0,33359468.0,0.0,0.0,0.0,0.0,2004,0,33359468.0,MDO: Legal Services,10-LS,,10
+Licenses & Inspection,17294915.0,5985492.0,595780.0,0.0,0.0,0.0,2004,0,23876187.0,Department of Licenses and Inspections,26,L&I,26
+Management -Vehicle Purchase,0.0,0.0,6699661.0,0.0,0.0,0.0,2004,0,6699661.0,Fleet: Vehicle Lease/Purchases,25-V,,25
+Managing Director,8105545.0,5604684.0,780678.0,0.0,0.0,0.0,2004,0,14490907.0,Managing Director's Office,10,MDO,10
+Mayor - Mural Arts Program,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,Mural Arts Program,50,Mural Arts,50
+Mayor - Scholarships,0.0,0.0,0.0,199944.0,0.0,0.0,2004,0,199944.0,Mayor's Office: Scholarships,05-S,,05
+Mayor's Office,2989208.0,720362.0,79637.0,4700.0,0.0,0.0,2004,0,3793907.0,Mayor's Office,05,Mayor,05
+Office of Behavioral Health /  Mental Retardation Services,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,15
+Office of Community Services,705215.0,74419.0,40845.0,0.0,0.0,0.0,2004,0,820479.0,Mayor's Office of Community Empowerment and Opportunity,08,CEO,08
+Office of Emergency Shelter Services,3428224.0,11762784.0,150434.0,0.0,0.0,0.0,2004,0,15341442.0,Office of Homeless Services,24,OHS,24
+Office of Information Svcs.,6994694.0,5474390.0,198245.0,0.0,0.0,93614.0,2004,0,12760943.0,Office of Innovation and Technology,04,OIT,04
+Personnel,4158272.0,604059.0,75799.0,0.0,0.0,0.0,2004,0,4838130.0,Office of Human Resources,56,OHR,56
+Police,475523727.0,7476824.0,7651014.0,0.0,0.0,2196056.0,2004,0,492847621.0,Police Department,11,Police,11
+Prisons,98461058.0,80855513.0,4068922.0,984795.0,0.0,0.0,2004,0,184370288.0,Philadelphia Prison System,23,Prisons,23
+Procurement,3034226.0,2104737.0,77621.0,0.0,0.0,0.0,2004,0,5216584.0,Procurement Department,38,Procurement,38
+Public Health,41963682.0,68929357.0,3231724.0,0.0,0.0,1666309.0,2004,0,115791072.0,Department of Public Health,14,Public Health,14
+Public Property,9085302.0,23356743.0,1019882.0,0.0,0.0,15817451.0,2004,0,49279378.0,Department of Public Property,20,Public Property,20
+Public Property-SEPTA Subsidy,0.0,0.0,0.0,0.0,0.0,0.0,2004,0,0.0,Public Property: SEPTA Subsidy,20-SS,,20
+Public Property-Space Rentals,0.0,13842113.0,0.0,0.0,0.0,0.0,2004,0,13842113.0,Public Property: Space Rentals,20-SR,,20
+Public Property-Telecommunications,0.0,12138124.0,0.0,0.0,0.0,0.0,2004,0,12138124.0,Public Property: Telecommunications,20-T,,20
+Public Property-Utilities,0.0,28223837.0,0.0,0.0,0.0,0.0,2004,0,28223837.0,Public Property: Utilities,20-U,,20
+Records,3536172.0,3149466.0,635595.0,1345.0,0.0,1129515.0,2004,0,8452093.0,Department of Records,31,Records,31
+Recreation,31336369.0,2169980.0,1494248.0,1800000.0,0.0,0.0,2004,0,36800597.0,Department of Parks and Recreation,16,Parks & Recreation,16
+Recreation - Stadium Complex,901810.0,2722196.0,83904.0,0.0,0.0,0.0,2004,0,3707910.0,Parks & Recreation: Stadium Complex,16-SC,,16
+Refunds,0.0,0.0,0.0,51445.0,0.0,0.0,2004,0,51445.0,Finance: Refunds,35-R,,35
+Register of Wills,3097049.0,36738.0,27888.0,0.0,0.0,0.0,2004,0,3161675.0,Register of Wills,68,,68
+Representative/Commerce,1430037.0,54856771.0,106338.0,2150000.0,0.0,0.0,2004,0,58543146.0,Office of the City Representative,41,City Rep,41
+Revenue,11818853.0,4026703.0,736445.0,0.0,0.0,0.0,2004,0,16582001.0,Department of Revenue,36,Revenue,36
+Sheriff,13557813.0,629102.0,283715.0,0.0,0.0,0.0,2004,0,14470630.0,Office of the Sheriff,70,Sheriff,70
+Streets,15520097.0,12314419.0,4905516.0,14061.0,0.0,0.0,2004,0,32754093.0,Streets Department,12,Streets,12
+Streets - Sanitation,47497073.0,41616890.0,1213102.0,48171.0,0.0,0.0,2004,0,90375236.0,Streets: Sanitation,12-S,,12
+Tax Reform Commission,230000.0,120018.0,2457.0,0.0,0.0,0.0,2004,0,352475.0,Tax Reform Commission,02,,02
+Witness Fees,0.0,127344.0,0.0,0.0,0.0,0.0,2004,0,127344.0,Finance: Witness Fees,35-WF,,35
+Zoning Bd. of Adji.,407504.0,60413.0,2867.0,0.0,0.0,0.0,2004,0,470784.0,Zoning Board of Adjustments,30,ZBA,30
+of Housing and Comm. Dev.,275916.0,313980.0,0.0,0.0,0.0,0.0,2004,0,589896.0,Office of Housing and Community Development,06,,06

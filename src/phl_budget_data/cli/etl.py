@@ -32,6 +32,7 @@ def run_etl(
     quarter=None,
     year=None,
     month=None,
+    **kwargs,
 ):
     """Internal function to run ETL on fiscal year data."""
 
@@ -73,7 +74,7 @@ def run_etl(
 
         # ETL
         if not dry_run:
-            report = cls(**params)
+            report = cls(**kwargs, **params)
 
             if not extract_only:
                 report.extract_transform_load(validate=(not no_validate))
