@@ -100,6 +100,27 @@ def get_column_names(fy, q):
     return cols
 
 
+def fix_pension_rows(data):
+    """Aggregate pension rows."""
+
+    # All Pension that is not Pension Obligation Bond
+    sel = data["dept_name"].str.contains("Pension", na=False)
+    sel &= ~data["dept_name"].str.contains("Bond", na=False)
+
+    # Set
+    data.loc[sel, "dept_name"] = "Employee Benefits: Pension"
+
+    if sel.sum() > 1:
+
+        cols = data.columns[1:]
+        total = data.loc[sel, cols].sum()
+        labels = data.loc[sel].index
+        data = data.drop(labels[1:])
+        data.loc[labels[0], cols] = total
+
+    return data.reset_index(drop=True)
+
+
 class DepartmentObligations(ETLPipelineQCMR):
     """
     The Departmental Obligations Summary Report from the QCMR.
@@ -164,7 +185,10 @@ class DepartmentObligations(ETLPipelineQCMR):
             ("Public Health", ["Public Property"]),
             ("Human Services", ["Indemnities", "Labor"]),
             ("First Judicial", ["Fleet"]),
-            ("Streets", ["Streets", "Sanitation"]),
+            (
+                "Streets",
+                ["Streets", "Sanitation", "Youth Commission", "TOTAL GENERAL FUND"],
+            ),
         ]:
             data = remove_line_items(data, start, *stops)
 
@@ -182,10 +206,8 @@ class DepartmentObligations(ETLPipelineQCMR):
             data.loc[i, "dept_name"] = f"{start}: {data.loc[i, 'dept_name']}"
             i += 1
 
-        # Combine pension
-        sel = data["dept_name"].str.contains("Pension", na=False)
-        sel &= ~data["dept_name"].str.contains("Bond", na=False)
-        data.loc[sel, "dept_name"] = "Employee Benefits: Pension"
+        # Fix pension rows
+        data = fix_pension_rows(data)
 
         # Pivot the data
         data = data.melt(id_vars=["dept_name"], value_name="total", var_name="temp")
