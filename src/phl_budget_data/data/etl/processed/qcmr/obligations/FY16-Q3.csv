@@ -11,21 +11,31 @@ City Representative,1024105,2015,Actual,Full Year,2015-06-30,Office of the City 
 City Treasurer,924877,2015,Actual,Full Year,2015-06-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,183692,2015,Actual,Full Year,2015-06-30,Civil Service Commission,55,
 Commerce,7885115,2015,Actual,Full Year,2015-06-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2015,Actual,Full Year,2015-06-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,1294448,2015,Actual,Full Year,2015-06-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2015,Actual,Full Year,2015-06-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,1294448,2015,Actual,Full Year,2015-06-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,35561390,2015,Actual,Full Year,2015-06-30,District Attorney's Office,69,DAO
 Finance,22318952,2015,Actual,Full Year,2015-06-30,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,26909207,2015,Actual,Full Year,2015-06-30,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1099541937,2015,Actual,Full Year,2015-06-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,18000,2015,Actual,Full Year,2015-06-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,0,2015,Actual,Full Year,2015-06-30,Finance: Indemnities,35IN,
-Finance-Refunds,2,2015,Actual,Full Year,2015-06-30,Finance: Refunds,35R,
-Finance-School District Contribution,69110300,2015,Actual,Full Year,2015-06-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,121005,2015,Actual,Full Year,2015-06-30,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,26909207,2015,Actual,Full Year,2015-06-30,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1099541937,2015,Actual,Full Year,2015-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,2544017,2015,Actual,Full Year,2015-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,57326888,2015,Actual,Full Year,2015-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,107746154,2015,Actual,Full Year,2015-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,450522994,2015,Actual,Full Year,2015-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,71150707,2015,Actual,Full Year,2015-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,593623,2015,Actual,Full Year,2015-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,394558639,2015,Actual,Full Year,2015-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,7285066,2015,Actual,Full Year,2015-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,7708649,2015,Actual,Full Year,2015-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,105200,2015,Actual,Full Year,2015-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,18000,2015,Actual,Full Year,2015-06-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,0,2015,Actual,Full Year,2015-06-30,Finance: Indemnities,35-IN,
+Finance-Refunds,2,2015,Actual,Full Year,2015-06-30,Finance: Refunds,35-R,
+Finance-School District Contribution,69110300,2015,Actual,Full Year,2015-06-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,121005,2015,Actual,Full Year,2015-06-30,Finance: Witness Fees,35-WF,
 Fire,232526640,2015,Actual,Full Year,2015-06-30,Fire Department,13,Fire
 First Judicial District,117976545,2015,Actual,Full Year,2015-06-30,First Judicial District,84,FJD
 Fleet Management,48718467,2015,Actual,Full Year,2015-06-30,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,11946483,2015,Actual,Full Year,2015-06-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,11946483,2015,Actual,Full Year,2015-06-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,40668870,2015,Actual,Full Year,2015-06-30,The Free Library of Philadelphia,52,Free Library
 Historical Commission,384361,2015,Actual,Full Year,2015-06-30,Historical Commission,32,
 Human Relations Commission,1823081,2015,Actual,Full Year,2015-06-30,Commission on Human Relations,54,Human Relations
@@ -37,9 +47,9 @@ L&I-Board of Building Standards,63025,2015,Actual,Full Year,2015-06-30,L&I: Boar
 L&I-Board of L & I Review,137857,2015,Actual,Full Year,2015-06-30,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,373802,2015,Actual,Full Year,2015-06-30,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,35106107,2015,Actual,Full Year,2015-06-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,42923209,2015,Actual,Full Year,2015-06-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,42923209,2015,Actual,Full Year,2015-06-30,MDO: Legal Services,10-LS,
 Mayor's Office,5000680,2015,Actual,Full Year,2015-06-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,199500,2015,Actual,Full Year,2015-06-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,199500,2015,Actual,Full Year,2015-06-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,500000,2015,Actual,Full Year,2015-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,798692,2015,Actual,Full Year,2015-06-30,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1458245,2015,Actual,Full Year,2015-06-30,Mural Arts Program,50,Mural Arts
@@ -48,7 +58,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13967356,2015,Actual,Full Year
 Office of Housing and Comm. Development,2600068,2015,Actual,Full Year,2015-06-30,Office of Housing and Community Development,06,
 Office of Human Resources,5938890,2015,Actual,Full Year,2015-06-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,51917083,2015,Actual,Full Year,2015-06-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,11956848,2015,Actual,Full Year,2015-06-30,OIT: 911,04911,
+Office of Innovation and Technology-911,11956848,2015,Actual,Full Year,2015-06-30,OIT: 911,04-911,
 Office of the Inspector General,1486801,2015,Actual,Full Year,2015-06-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,12570273,2015,Actual,Full Year,2015-06-30,Office of Property Assessment,59,OPA
 Office of Supportive Housing,45178263,2015,Actual,Full Year,2015-06-30,Office of Homeless Services,24,OHS
@@ -59,16 +69,16 @@ Prisons,246159162,2015,Actual,Full Year,2015-06-30,Philadelphia Prison System,23
 Procurement,4857830,2015,Actual,Full Year,2015-06-30,Procurement Department,38,Procurement
 Public Health,113479766,2015,Actual,Full Year,2015-06-30,Department of Public Health,14,Public Health
 Public Property,67593515,2015,Actual,Full Year,2015-06-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,70415000,2015,Actual,Full Year,2015-06-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,19871298,2015,Actual,Full Year,2015-06-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,31355461,2015,Actual,Full Year,2015-06-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,70415000,2015,Actual,Full Year,2015-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,19871298,2015,Actual,Full Year,2015-06-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,31355461,2015,Actual,Full Year,2015-06-30,Public Property: Utilities,20-U,
 Records,4495535,2015,Actual,Full Year,2015-06-30,Department of Records,31,Records
 Register of Wills,3608407,2015,Actual,Full Year,2015-06-30,Register of Wills,68,
 Revenue,23022718,2015,Actual,Full Year,2015-06-30,Department of Revenue,36,Revenue
 Sheriff,22187839,2015,Actual,Full Year,2015-06-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),238388830,2015,Actual,Full Year,2015-06-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,107128376,2015,Actual,Full Year,2015-06-30,Streets: Sanitation,12S,
-Streets-Transportation,37463661,2015,Actual,Full Year,2015-06-30,Streets: Transportation,12T,
+Streets-Sanitation,107128376,2015,Actual,Full Year,2015-06-30,Streets: Sanitation,12-S,
+Streets-Transportation,37463661,2015,Actual,Full Year,2015-06-30,Streets: Transportation,12-T,
 Youth Commission,72413,2015,Actual,Full Year,2015-06-30,Youth Commission,47,
 Art Museum Subsidy,1912500,2016,Target Budget,YTD,2016-03-31,Art Museum,34,
 Atwater Kent Museum,217574,2016,Target Budget,YTD,2016-03-31,Atwater Kent Museum,18,Atwater Kent
@@ -82,21 +92,31 @@ City Representative,358336,2016,Target Budget,YTD,2016-03-31,Office of the City 
 City Treasurer,850643,2016,Target Budget,YTD,2016-03-31,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,143069,2016,Target Budget,YTD,2016-03-31,Civil Service Commission,55,
 Commerce,4064852,2016,Target Budget,YTD,2016-03-31,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2016,Target Budget,YTD,2016-03-31,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,3294448,2016,Target Budget,YTD,2016-03-31,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2016,Target Budget,YTD,2016-03-31,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,3294448,2016,Target Budget,YTD,2016-03-31,Commerce: Economic Stimulus,42-ES,
 District Attorney,26826087,2016,Target Budget,YTD,2016-03-31,District Attorney's Office,69,DAO
 Finance,16267341,2016,Target Budget,YTD,2016-03-31,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,30309207,2016,Target Budget,YTD,2016-03-31,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1012572141,2016,Target Budget,YTD,2016-03-31,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,18000,2016,Target Budget,YTD,2016-03-31,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,30066774,2016,Target Budget,YTD,2016-03-31,Finance: Indemnities,35IN,
-Finance-Refunds,0,2016,Target Budget,YTD,2016-03-31,Finance: Refunds,35R,
-Finance-School District Contribution,35000000,2016,Target Budget,YTD,2016-03-31,Finance: School District Contribution,35SD,
-Finance-Witness Fees,82956,2016,Target Budget,YTD,2016-03-31,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,30309207,2016,Target Budget,YTD,2016-03-31,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1012572141,2016,Target Budget,YTD,2016-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,1995238,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,47403732,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,121707168,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,492772187,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,52421761,2016,Target Budget,YTD,2016-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,594405,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,286772885,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,5297961,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,3495879,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,110925,2016,Target Budget,YTD,2016-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,18000,2016,Target Budget,YTD,2016-03-31,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,30066774,2016,Target Budget,YTD,2016-03-31,Finance: Indemnities,35-IN,
+Finance-Refunds,0,2016,Target Budget,YTD,2016-03-31,Finance: Refunds,35-R,
+Finance-School District Contribution,35000000,2016,Target Budget,YTD,2016-03-31,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,82956,2016,Target Budget,YTD,2016-03-31,Finance: Witness Fees,35-WF,
 Fire,167576431,2016,Target Budget,YTD,2016-03-31,Fire Department,13,Fire
 First Judicial District,75989152,2016,Target Budget,YTD,2016-03-31,First Judicial District,84,FJD
 Fleet Management,37217768,2016,Target Budget,YTD,2016-03-31,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,14608710,2016,Target Budget,YTD,2016-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,14608710,2016,Target Budget,YTD,2016-03-31,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,29268383,2016,Target Budget,YTD,2016-03-31,The Free Library of Philadelphia,52,Free Library
 Historical Commission,242612,2016,Target Budget,YTD,2016-03-31,Historical Commission,32,
 Human Relations Commission,1368525,2016,Target Budget,YTD,2016-03-31,Commission on Human Relations,54,Human Relations
@@ -108,9 +128,9 @@ L&I-Board of Building Standards,48430,2016,Target Budget,YTD,2016-03-31,L&I: Boa
 L&I-Board of L & I Review,108186,2016,Target Budget,YTD,2016-03-31,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,269983,2016,Target Budget,YTD,2016-03-31,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,28219702,2016,Target Budget,YTD,2016-03-31,Managing Director's Office,10,MDO
-Managing Director-Legal Services,43093431,2016,Target Budget,YTD,2016-03-31,MDO: Legal Services,10LS,
+Managing Director-Legal Services,43093431,2016,Target Budget,YTD,2016-03-31,MDO: Legal Services,10-LS,
 Mayor's Office,4093109,2016,Target Budget,YTD,2016-03-31,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2016,Target Budget,YTD,2016-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2016,Target Budget,YTD,2016-03-31,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,500000,2016,Target Budget,YTD,2016-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,657806,2016,Target Budget,YTD,2016-03-31,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1517623,2016,Target Budget,YTD,2016-03-31,Mural Arts Program,50,Mural Arts
@@ -119,7 +139,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13370106,2016,Target Budget,YT
 Office of Housing and Comm. Development,3258000,2016,Target Budget,YTD,2016-03-31,Office of Housing and Community Development,06,
 Office of Human Resources,4724036,2016,Target Budget,YTD,2016-03-31,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,39046371,2016,Target Budget,YTD,2016-03-31,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,10368365,2016,Target Budget,YTD,2016-03-31,OIT: 911,04911,
+Office of Innovation and Technology-911,10368365,2016,Target Budget,YTD,2016-03-31,OIT: 911,04-911,
 Office of the Inspector General,1261093,2016,Target Budget,YTD,2016-03-31,Office of the Inspector General,48,OIG
 Office of Property Assessment,8656585,2016,Target Budget,YTD,2016-03-31,Office of Property Assessment,59,OPA
 Office of Supportive Housing,42872195,2016,Target Budget,YTD,2016-03-31,Office of Homeless Services,24,OHS
@@ -130,16 +150,16 @@ Prisons,211797038,2016,Target Budget,YTD,2016-03-31,Philadelphia Prison System,2
 Procurement,3453992,2016,Target Budget,YTD,2016-03-31,Procurement Department,38,Procurement
 Public Health,96905979,2016,Target Budget,YTD,2016-03-31,Department of Public Health,14,Public Health
 Public Property,33126565,2016,Target Budget,YTD,2016-03-31,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,55661250,2016,Target Budget,YTD,2016-03-31,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20595331,2016,Target Budget,YTD,2016-03-31,Public Property: Space Rentals,20SR,
-Public Property-Utilities,32132691,2016,Target Budget,YTD,2016-03-31,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,55661250,2016,Target Budget,YTD,2016-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20595331,2016,Target Budget,YTD,2016-03-31,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,32132691,2016,Target Budget,YTD,2016-03-31,Public Property: Utilities,20-U,
 Records,3719805,2016,Target Budget,YTD,2016-03-31,Department of Records,31,Records
 Register of Wills,2666982,2016,Target Budget,YTD,2016-03-31,Register of Wills,68,
 Revenue,18945111,2016,Target Budget,YTD,2016-03-31,Department of Revenue,36,Revenue
 Sheriff,17850456,2016,Target Budget,YTD,2016-03-31,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),197651645,2016,Target Budget,YTD,2016-03-31,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,82632940,2016,Target Budget,YTD,2016-03-31,Streets: Sanitation,12S,
-Streets-Transportation,19826431,2016,Target Budget,YTD,2016-03-31,Streets: Transportation,12T,
+Streets-Sanitation,82632940,2016,Target Budget,YTD,2016-03-31,Streets: Sanitation,12-S,
+Streets-Transportation,19826431,2016,Target Budget,YTD,2016-03-31,Streets: Transportation,12-T,
 Youth Commission,62998,2016,Target Budget,YTD,2016-03-31,Youth Commission,47,
 Art Museum Subsidy,1912500,2016,Actual,YTD,2016-03-31,Art Museum,34,
 Atwater Kent Museum,217574,2016,Actual,YTD,2016-03-31,Atwater Kent Museum,18,Atwater Kent
@@ -153,21 +173,31 @@ City Representative,358336,2016,Actual,YTD,2016-03-31,Office of the City Represe
 City Treasurer,850643,2016,Actual,YTD,2016-03-31,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,143069,2016,Actual,YTD,2016-03-31,Civil Service Commission,55,
 Commerce,4064852,2016,Actual,YTD,2016-03-31,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2016,Actual,YTD,2016-03-31,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,3294448,2016,Actual,YTD,2016-03-31,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2016,Actual,YTD,2016-03-31,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,3294448,2016,Actual,YTD,2016-03-31,Commerce: Economic Stimulus,42-ES,
 District Attorney,26826087,2016,Actual,YTD,2016-03-31,District Attorney's Office,69,DAO
 Finance,16267341,2016,Actual,YTD,2016-03-31,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,30309207,2016,Actual,YTD,2016-03-31,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1012572141,2016,Actual,YTD,2016-03-31,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,18000,2016,Actual,YTD,2016-03-31,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,31166774,2016,Actual,YTD,2016-03-31,Finance: Indemnities,35IN,
-Finance-Refunds,0,2016,Actual,YTD,2016-03-31,Finance: Refunds,35R,
-Finance-School District Contribution,35000000,2016,Actual,YTD,2016-03-31,Finance: School District Contribution,35SD,
-Finance-Witness Fees,82956,2016,Actual,YTD,2016-03-31,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,30309207,2016,Actual,YTD,2016-03-31,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1012572141,2016,Actual,YTD,2016-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,1995238,2016,Actual,YTD,2016-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,47403732,2016,Actual,YTD,2016-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,121707168,2016,Actual,YTD,2016-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,492772187,2016,Actual,YTD,2016-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,52421761,2016,Actual,YTD,2016-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,594405,2016,Actual,YTD,2016-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,286772885,2016,Actual,YTD,2016-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,5297961,2016,Actual,YTD,2016-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,3495879,2016,Actual,YTD,2016-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,110925,2016,Actual,YTD,2016-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,18000,2016,Actual,YTD,2016-03-31,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,31166774,2016,Actual,YTD,2016-03-31,Finance: Indemnities,35-IN,
+Finance-Refunds,0,2016,Actual,YTD,2016-03-31,Finance: Refunds,35-R,
+Finance-School District Contribution,35000000,2016,Actual,YTD,2016-03-31,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,82956,2016,Actual,YTD,2016-03-31,Finance: Witness Fees,35-WF,
 Fire,173599219,2016,Actual,YTD,2016-03-31,Fire Department,13,Fire
 First Judicial District,75989152,2016,Actual,YTD,2016-03-31,First Judicial District,84,FJD
 Fleet Management,37217768,2016,Actual,YTD,2016-03-31,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,14608710,2016,Actual,YTD,2016-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,14608710,2016,Actual,YTD,2016-03-31,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,29268383,2016,Actual,YTD,2016-03-31,The Free Library of Philadelphia,52,Free Library
 Historical Commission,242612,2016,Actual,YTD,2016-03-31,Historical Commission,32,
 Human Relations Commission,1368525,2016,Actual,YTD,2016-03-31,Commission on Human Relations,54,Human Relations
@@ -179,9 +209,9 @@ L&I-Board of Building Standards,48430,2016,Actual,YTD,2016-03-31,L&I: Board of B
 L&I-Board of L & I Review,108186,2016,Actual,YTD,2016-03-31,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,269983,2016,Actual,YTD,2016-03-31,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,28219702,2016,Actual,YTD,2016-03-31,Managing Director's Office,10,MDO
-Managing Director-Legal Services,43093431,2016,Actual,YTD,2016-03-31,MDO: Legal Services,10LS,
+Managing Director-Legal Services,43093431,2016,Actual,YTD,2016-03-31,MDO: Legal Services,10-LS,
 Mayor's Office,4093109,2016,Actual,YTD,2016-03-31,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2016,Actual,YTD,2016-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2016,Actual,YTD,2016-03-31,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,500000,2016,Actual,YTD,2016-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,657806,2016,Actual,YTD,2016-03-31,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1517623,2016,Actual,YTD,2016-03-31,Mural Arts Program,50,Mural Arts
@@ -190,7 +220,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13370106,2016,Actual,YTD,2016-
 Office of Housing and Comm. Development,3258000,2016,Actual,YTD,2016-03-31,Office of Housing and Community Development,06,
 Office of Human Resources,4724036,2016,Actual,YTD,2016-03-31,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,39046371,2016,Actual,YTD,2016-03-31,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,10368365,2016,Actual,YTD,2016-03-31,OIT: 911,04911,
+Office of Innovation and Technology-911,10368365,2016,Actual,YTD,2016-03-31,OIT: 911,04-911,
 Office of the Inspector General,1261093,2016,Actual,YTD,2016-03-31,Office of the Inspector General,48,OIG
 Office of Property Assessment,8656585,2016,Actual,YTD,2016-03-31,Office of Property Assessment,59,OPA
 Office of Supportive Housing,42872195,2016,Actual,YTD,2016-03-31,Office of Homeless Services,24,OHS
@@ -201,16 +231,16 @@ Prisons,211797038,2016,Actual,YTD,2016-03-31,Philadelphia Prison System,23,Priso
 Procurement,3819926,2016,Actual,YTD,2016-03-31,Procurement Department,38,Procurement
 Public Health,96905979,2016,Actual,YTD,2016-03-31,Department of Public Health,14,Public Health
 Public Property,34126565,2016,Actual,YTD,2016-03-31,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,55661250,2016,Actual,YTD,2016-03-31,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20595331,2016,Actual,YTD,2016-03-31,Public Property: Space Rentals,20SR,
-Public Property-Utilities,32132691,2016,Actual,YTD,2016-03-31,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,55661250,2016,Actual,YTD,2016-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20595331,2016,Actual,YTD,2016-03-31,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,32132691,2016,Actual,YTD,2016-03-31,Public Property: Utilities,20-U,
 Records,3719805,2016,Actual,YTD,2016-03-31,Department of Records,31,Records
 Register of Wills,2666982,2016,Actual,YTD,2016-03-31,Register of Wills,68,
 Revenue,18945111,2016,Actual,YTD,2016-03-31,Department of Revenue,36,Revenue
 Sheriff,18372937,2016,Actual,YTD,2016-03-31,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),197651645,2016,Actual,YTD,2016-03-31,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,82632940,2016,Actual,YTD,2016-03-31,Streets: Sanitation,12S,
-Streets-Transportation,22275856,2016,Actual,YTD,2016-03-31,Streets: Transportation,12T,
+Streets-Sanitation,82632940,2016,Actual,YTD,2016-03-31,Streets: Sanitation,12-S,
+Streets-Transportation,22275856,2016,Actual,YTD,2016-03-31,Streets: Transportation,12-T,
 Youth Commission,62998,2016,Actual,YTD,2016-03-31,Youth Commission,47,
 Art Museum Subsidy,2550000,2016,Adopted Budget,Full Year,2016-03-31,Art Museum,34,
 Atwater Kent Museum,293498,2016,Adopted Budget,Full Year,2016-03-31,Atwater Kent Museum,18,Atwater Kent
@@ -224,21 +254,31 @@ City Representative,1033931,2016,Adopted Budget,Full Year,2016-03-31,Office of t
 City Treasurer,1126357,2016,Adopted Budget,Full Year,2016-03-31,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,177937,2016,Adopted Budget,Full Year,2016-03-31,Civil Service Commission,55,
 Commerce,4763346,2016,Adopted Budget,Full Year,2016-03-31,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2016,Adopted Budget,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,3294448,2016,Adopted Budget,Full Year,2016-03-31,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2016,Adopted Budget,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,3294448,2016,Adopted Budget,Full Year,2016-03-31,Commerce: Economic Stimulus,42-ES,
 District Attorney,35482214,2016,Adopted Budget,Full Year,2016-03-31,District Attorney's Office,69,DAO
 Finance,17658655,2016,Adopted Budget,Full Year,2016-03-31,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,30309207,2016,Adopted Budget,Full Year,2016-03-31,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1172182395,2016,Adopted Budget,Full Year,2016-03-31,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,38000000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Refunds,35R,
-Finance-School District Contribution,79184673,2016,Adopted Budget,Full Year,2016-03-31,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2016,Adopted Budget,Full Year,2016-03-31,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,30309207,2016,Adopted Budget,Full Year,2016-03-31,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1172182395,2016,Adopted Budget,Full Year,2016-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4580260,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,58088800,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,113270454,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,498430800,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,72431454,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,411484132,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8100386,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,4849842,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2016,Adopted Budget,Full Year,2016-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,38000000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2016,Adopted Budget,Full Year,2016-03-31,Finance: Refunds,35-R,
+Finance-School District Contribution,79184673,2016,Adopted Budget,Full Year,2016-03-31,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2016,Adopted Budget,Full Year,2016-03-31,Finance: Witness Fees,35-WF,
 Fire,219082796,2016,Adopted Budget,Full Year,2016-03-31,Fire Department,13,Fire
 First Judicial District,110315300,2016,Adopted Budget,Full Year,2016-03-31,First Judicial District,84,FJD
 Fleet Management,46612500,2016,Adopted Budget,Full Year,2016-03-31,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,14965000,2016,Adopted Budget,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,14965000,2016,Adopted Budget,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,40100988,2016,Adopted Budget,Full Year,2016-03-31,The Free Library of Philadelphia,52,Free Library
 Historical Commission,424560,2016,Adopted Budget,Full Year,2016-03-31,Historical Commission,32,
 Human Relations Commission,2147096,2016,Adopted Budget,Full Year,2016-03-31,Commission on Human Relations,54,Human Relations
@@ -250,9 +290,9 @@ L&I-Board of Building Standards,73970,2016,Adopted Budget,Full Year,2016-03-31,L
 L&I-Board of L & I Review,167790,2016,Adopted Budget,Full Year,2016-03-31,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,372290,2016,Adopted Budget,Full Year,2016-03-31,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,35595543,2016,Adopted Budget,Full Year,2016-03-31,Managing Director's Office,10,MDO
-Managing Director-Legal Services,43159131,2016,Adopted Budget,Full Year,2016-03-31,MDO: Legal Services,10LS,
+Managing Director-Legal Services,43159131,2016,Adopted Budget,Full Year,2016-03-31,MDO: Legal Services,10-LS,
 Mayor's Office,5031625,2016,Adopted Budget,Full Year,2016-03-31,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2016,Adopted Budget,Full Year,2016-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2016,Adopted Budget,Full Year,2016-03-31,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,605000,2016,Adopted Budget,Full Year,2016-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,734270,2016,Adopted Budget,Full Year,2016-03-31,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1646016,2016,Adopted Budget,Full Year,2016-03-31,Mural Arts Program,50,Mural Arts
@@ -261,7 +301,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13975576,2016,Adopted Budget,F
 Office of Housing and Comm. Development,3590000,2016,Adopted Budget,Full Year,2016-03-31,Office of Housing and Community Development,06,
 Office of Human Resources,6433623,2016,Adopted Budget,Full Year,2016-03-31,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,53379584,2016,Adopted Budget,Full Year,2016-03-31,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,30502878,2016,Adopted Budget,Full Year,2016-03-31,OIT: 911,04911,
+Office of Innovation and Technology-911,30502878,2016,Adopted Budget,Full Year,2016-03-31,OIT: 911,04-911,
 Office of the Inspector General,1668811,2016,Adopted Budget,Full Year,2016-03-31,Office of the Inspector General,48,OIG
 Office of Property Assessment,13285146,2016,Adopted Budget,Full Year,2016-03-31,Office of Property Assessment,59,OPA
 Office of Supportive Housing,45544382,2016,Adopted Budget,Full Year,2016-03-31,Office of Homeless Services,24,OHS
@@ -272,16 +312,16 @@ Prisons,253791576,2016,Adopted Budget,Full Year,2016-03-31,Philadelphia Prison S
 Procurement,4837672,2016,Adopted Budget,Full Year,2016-03-31,Procurement Department,38,Procurement
 Public Health,116292446,2016,Adopted Budget,Full Year,2016-03-31,Department of Public Health,14,Public Health
 Public Property,59893332,2016,Adopted Budget,Full Year,2016-03-31,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,74215000,2016,Adopted Budget,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20624429,2016,Adopted Budget,Full Year,2016-03-31,Public Property: Space Rentals,20SR,
-Public Property-Utilities,33092334,2016,Adopted Budget,Full Year,2016-03-31,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,74215000,2016,Adopted Budget,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20624429,2016,Adopted Budget,Full Year,2016-03-31,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,33092334,2016,Adopted Budget,Full Year,2016-03-31,Public Property: Utilities,20-U,
 Records,4822825,2016,Adopted Budget,Full Year,2016-03-31,Department of Records,31,Records
 Register of Wills,3522195,2016,Adopted Budget,Full Year,2016-03-31,Register of Wills,68,
 Revenue,25771489,2016,Adopted Budget,Full Year,2016-03-31,Department of Revenue,36,Revenue
 Sheriff,19203247,2016,Adopted Budget,Full Year,2016-03-31,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),245945126,2016,Adopted Budget,Full Year,2016-03-31,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,92288259,2016,Adopted Budget,Full Year,2016-03-31,Streets: Sanitation,12S,
-Streets-Transportation,33118461,2016,Adopted Budget,Full Year,2016-03-31,Streets: Transportation,12T,
+Streets-Sanitation,92288259,2016,Adopted Budget,Full Year,2016-03-31,Streets: Sanitation,12-S,
+Streets-Transportation,33118461,2016,Adopted Budget,Full Year,2016-03-31,Streets: Transportation,12-T,
 Youth Commission,142740,2016,Adopted Budget,Full Year,2016-03-31,Youth Commission,47,
 Art Museum Subsidy,2550000,2016,Target Budget,Full Year,2016-03-31,Art Museum,34,
 Atwater Kent Museum,293498,2016,Target Budget,Full Year,2016-03-31,Atwater Kent Museum,18,Atwater Kent
@@ -295,21 +335,31 @@ City Representative,1083931,2016,Target Budget,Full Year,2016-03-31,Office of th
 City Treasurer,1126357,2016,Target Budget,Full Year,2016-03-31,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,177937,2016,Target Budget,Full Year,2016-03-31,Civil Service Commission,55,
 Commerce,6206024,2016,Target Budget,Full Year,2016-03-31,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2016,Target Budget,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,3294448,2016,Target Budget,Full Year,2016-03-31,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2016,Target Budget,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,3294448,2016,Target Budget,Full Year,2016-03-31,Commerce: Economic Stimulus,42-ES,
 District Attorney,35482214,2016,Target Budget,Full Year,2016-03-31,District Attorney's Office,69,DAO
 Finance,19958655,2016,Target Budget,Full Year,2016-03-31,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,30309207,2016,Target Budget,Full Year,2016-03-31,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1180231073,2016,Target Budget,Full Year,2016-03-31,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2016,Target Budget,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,40100000,2016,Target Budget,Full Year,2016-03-31,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2016,Target Budget,Full Year,2016-03-31,Finance: Refunds,35R,
-Finance-School District Contribution,104184673,2016,Target Budget,Full Year,2016-03-31,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2016,Target Budget,Full Year,2016-03-31,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,30309207,2016,Target Budget,Full Year,2016-03-31,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1180231073,2016,Target Budget,Full Year,2016-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4580260,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,58088800,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,113270454,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,507479478,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,72431454,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,410484132,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8100386,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,4849842,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2016,Target Budget,Full Year,2016-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2016,Target Budget,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,40100000,2016,Target Budget,Full Year,2016-03-31,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2016,Target Budget,Full Year,2016-03-31,Finance: Refunds,35-R,
+Finance-School District Contribution,104184673,2016,Target Budget,Full Year,2016-03-31,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2016,Target Budget,Full Year,2016-03-31,Finance: Witness Fees,35-WF,
 Fire,229224624,2016,Target Budget,Full Year,2016-03-31,Fire Department,13,Fire
 First Judicial District,110315300,2016,Target Budget,Full Year,2016-03-31,First Judicial District,84,FJD
 Fleet Management,46778465,2016,Target Budget,Full Year,2016-03-31,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,14965000,2016,Target Budget,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,14965000,2016,Target Budget,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,40100988,2016,Target Budget,Full Year,2016-03-31,The Free Library of Philadelphia,52,Free Library
 Historical Commission,424560,2016,Target Budget,Full Year,2016-03-31,Historical Commission,32,
 Human Relations Commission,2147096,2016,Target Budget,Full Year,2016-03-31,Commission on Human Relations,54,Human Relations
@@ -321,9 +371,9 @@ L&I-Board of Building Standards,73970,2016,Target Budget,Full Year,2016-03-31,L&
 L&I-Board of L & I Review,167790,2016,Target Budget,Full Year,2016-03-31,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,372290,2016,Target Budget,Full Year,2016-03-31,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,37025496,2016,Target Budget,Full Year,2016-03-31,Managing Director's Office,10,MDO
-Managing Director-Legal Services,44695131,2016,Target Budget,Full Year,2016-03-31,MDO: Legal Services,10LS,
+Managing Director-Legal Services,44695131,2016,Target Budget,Full Year,2016-03-31,MDO: Legal Services,10-LS,
 Mayor's Office,5031625,2016,Target Budget,Full Year,2016-03-31,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2016,Target Budget,Full Year,2016-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2016,Target Budget,Full Year,2016-03-31,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,1030000,2016,Target Budget,Full Year,2016-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,734270,2016,Target Budget,Full Year,2016-03-31,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1646016,2016,Target Budget,Full Year,2016-03-31,Mural Arts Program,50,Mural Arts
@@ -332,7 +382,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13975576,2016,Target Budget,Fu
 Office of Housing and Comm. Development,3590000,2016,Target Budget,Full Year,2016-03-31,Office of Housing and Community Development,06,
 Office of Human Resources,6433623,2016,Target Budget,Full Year,2016-03-31,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,53867582,2016,Target Budget,Full Year,2016-03-31,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,30502878,2016,Target Budget,Full Year,2016-03-31,OIT: 911,04911,
+Office of Innovation and Technology-911,30502878,2016,Target Budget,Full Year,2016-03-31,OIT: 911,04-911,
 Office of the Inspector General,1668811,2016,Target Budget,Full Year,2016-03-31,Office of the Inspector General,48,OIG
 Office of Property Assessment,13285146,2016,Target Budget,Full Year,2016-03-31,Office of Property Assessment,59,OPA
 Office of Supportive Housing,45721917,2016,Target Budget,Full Year,2016-03-31,Office of Homeless Services,24,OHS
@@ -343,16 +393,16 @@ Prisons,254413576,2016,Target Budget,Full Year,2016-03-31,Philadelphia Prison Sy
 Procurement,4837672,2016,Target Budget,Full Year,2016-03-31,Procurement Department,38,Procurement
 Public Health,122031824,2016,Target Budget,Full Year,2016-03-31,Department of Public Health,14,Public Health
 Public Property,60702501,2016,Target Budget,Full Year,2016-03-31,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,74215000,2016,Target Budget,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20624429,2016,Target Budget,Full Year,2016-03-31,Public Property: Space Rentals,20SR,
-Public Property-Utilities,33092334,2016,Target Budget,Full Year,2016-03-31,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,74215000,2016,Target Budget,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20624429,2016,Target Budget,Full Year,2016-03-31,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,33092334,2016,Target Budget,Full Year,2016-03-31,Public Property: Utilities,20-U,
 Records,4822825,2016,Target Budget,Full Year,2016-03-31,Department of Records,31,Records
 Register of Wills,3772195,2016,Target Budget,Full Year,2016-03-31,Register of Wills,68,
 Revenue,26179489,2016,Target Budget,Full Year,2016-03-31,Department of Revenue,36,Revenue
 Sheriff,21203247,2016,Target Budget,Full Year,2016-03-31,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),245945126,2016,Target Budget,Full Year,2016-03-31,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,93702331,2016,Target Budget,Full Year,2016-03-31,Streets: Sanitation,12S,
-Streets-Transportation,36418461,2016,Target Budget,Full Year,2016-03-31,Streets: Transportation,12T,
+Streets-Sanitation,93702331,2016,Target Budget,Full Year,2016-03-31,Streets: Sanitation,12-S,
+Streets-Transportation,36418461,2016,Target Budget,Full Year,2016-03-31,Streets: Transportation,12-T,
 Youth Commission,142740,2016,Target Budget,Full Year,2016-03-31,Youth Commission,47,
 Art Museum Subsidy,2550000,2016,Current Projection,Full Year,2016-03-31,Art Museum,34,
 Atwater Kent Museum,293498,2016,Current Projection,Full Year,2016-03-31,Atwater Kent Museum,18,Atwater Kent
@@ -366,21 +416,31 @@ City Representative,1083931,2016,Current Projection,Full Year,2016-03-31,Office 
 City Treasurer,1126357,2016,Current Projection,Full Year,2016-03-31,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,177937,2016,Current Projection,Full Year,2016-03-31,Civil Service Commission,55,
 Commerce,6206024,2016,Current Projection,Full Year,2016-03-31,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2016,Current Projection,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,3294448,2016,Current Projection,Full Year,2016-03-31,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2016,Current Projection,Full Year,2016-03-31,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,3294448,2016,Current Projection,Full Year,2016-03-31,Commerce: Economic Stimulus,42-ES,
 District Attorney,35520792,2016,Current Projection,Full Year,2016-03-31,District Attorney's Office,69,DAO
 Finance,19958655,2016,Current Projection,Full Year,2016-03-31,Office of the Director of Finance,35,Finance
-Finance-Community College Subsidy,30309207,2016,Current Projection,Full Year,2016-03-31,Finance: Community College Subsidy,35CC,
-Finance Employee Benefits,1180231073,2016,Current Projection,Full Year,2016-03-31,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2016,Current Projection,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,41200000,2016,Current Projection,Full Year,2016-03-31,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2016,Current Projection,Full Year,2016-03-31,Finance: Refunds,35R,
-Finance-School District Contribution,104184673,2016,Current Projection,Full Year,2016-03-31,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2016,Current Projection,Full Year,2016-03-31,Finance: Witness Fees,35WF,
+Finance-Community College Subsidy,30309207,2016,Current Projection,Full Year,2016-03-31,Finance: Community College Subsidy,35-CC,
+Finance Employee Benefits,1180231073,2016,Current Projection,Full Year,2016-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4580260,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,58088800,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,113270454,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,507479478,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,72431454,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,410484132,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8100386,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,4849842,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2016,Current Projection,Full Year,2016-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2016,Current Projection,Full Year,2016-03-31,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,41200000,2016,Current Projection,Full Year,2016-03-31,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2016,Current Projection,Full Year,2016-03-31,Finance: Refunds,35-R,
+Finance-School District Contribution,104184673,2016,Current Projection,Full Year,2016-03-31,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2016,Current Projection,Full Year,2016-03-31,Finance: Witness Fees,35-WF,
 Fire,237253000,2016,Current Projection,Full Year,2016-03-31,Fire Department,13,Fire
 First Judicial District,110315300,2016,Current Projection,Full Year,2016-03-31,First Judicial District,84,FJD
 Fleet Management,46778465,2016,Current Projection,Full Year,2016-03-31,Office of Fleet Management,25,Fleet
-Fleet Management - Vehicle Purchases,14965000,2016,Current Projection,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management - Vehicle Purchases,14965000,2016,Current Projection,Full Year,2016-03-31,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,40100988,2016,Current Projection,Full Year,2016-03-31,The Free Library of Philadelphia,52,Free Library
 Historical Commission,424560,2016,Current Projection,Full Year,2016-03-31,Historical Commission,32,
 Human Relations Commission,2147096,2016,Current Projection,Full Year,2016-03-31,Commission on Human Relations,54,Human Relations
@@ -392,9 +452,9 @@ L&I-Board of Building Standards,73970,2016,Current Projection,Full Year,2016-03-
 L&I-Board of L & I Review,167790,2016,Current Projection,Full Year,2016-03-31,L&I: Board of Review,27,
 L&I-Zoning Board of Adjustment,372290,2016,Current Projection,Full Year,2016-03-31,Zoning Board of Adjustments,30,ZBA
 Managing Director's Office,37025496,2016,Current Projection,Full Year,2016-03-31,Managing Director's Office,10,MDO
-Managing Director-Legal Services,44695131,2016,Current Projection,Full Year,2016-03-31,MDO: Legal Services,10LS,
+Managing Director-Legal Services,44695131,2016,Current Projection,Full Year,2016-03-31,MDO: Legal Services,10-LS,
 Mayor's Office,5031625,2016,Current Projection,Full Year,2016-03-31,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2016,Current Projection,Full Year,2016-03-31,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2016,Current Projection,Full Year,2016-03-31,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,1030000,2016,Current Projection,Full Year,2016-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mayor's Office of Transportation & Utilities,734270,2016,Current Projection,Full Year,2016-03-31,Mayor's Office of Transportation and Utilities,46,
 Mural Arts Program,1646016,2016,Current Projection,Full Year,2016-03-31,Mural Arts Program,50,Mural Arts
@@ -403,7 +463,7 @@ Off. of Behavioral Hith & Intellectual disAbility,13975576,2016,Current Projecti
 Office of Housing and Comm. Development,3590000,2016,Current Projection,Full Year,2016-03-31,Office of Housing and Community Development,06,
 Office of Human Resources,6433623,2016,Current Projection,Full Year,2016-03-31,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,53867582,2016,Current Projection,Full Year,2016-03-31,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,30502878,2016,Current Projection,Full Year,2016-03-31,OIT: 911,04911,
+Office of Innovation and Technology-911,30502878,2016,Current Projection,Full Year,2016-03-31,OIT: 911,04-911,
 Office of the Inspector General,1668811,2016,Current Projection,Full Year,2016-03-31,Office of the Inspector General,48,OIG
 Office of Property Assessment,13285146,2016,Current Projection,Full Year,2016-03-31,Office of Property Assessment,59,OPA
 Office of Supportive Housing,45721917,2016,Current Projection,Full Year,2016-03-31,Office of Homeless Services,24,OHS
@@ -414,14 +474,14 @@ Prisons,254413576,2016,Current Projection,Full Year,2016-03-31,Philadelphia Pris
 Procurement,5837672,2016,Current Projection,Full Year,2016-03-31,Procurement Department,38,Procurement
 Public Health,122031824,2016,Current Projection,Full Year,2016-03-31,Department of Public Health,14,Public Health
 Public Property,61702501,2016,Current Projection,Full Year,2016-03-31,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,74215000,2016,Current Projection,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20624429,2016,Current Projection,Full Year,2016-03-31,Public Property: Space Rentals,20SR,
-Public Property-Utilities,33092334,2016,Current Projection,Full Year,2016-03-31,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,74215000,2016,Current Projection,Full Year,2016-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20624429,2016,Current Projection,Full Year,2016-03-31,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,33092334,2016,Current Projection,Full Year,2016-03-31,Public Property: Utilities,20-U,
 Records,4822825,2016,Current Projection,Full Year,2016-03-31,Department of Records,31,Records
 Register of Wills,3772195,2016,Current Projection,Full Year,2016-03-31,Register of Wills,68,
 Revenue,26179489,2016,Current Projection,Full Year,2016-03-31,Department of Revenue,36,Revenue
 Sheriff,22203247,2016,Current Projection,Full Year,2016-03-31,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),245945126,2016,Current Projection,Full Year,2016-03-31,Sinking Fund Commission,37,Sinking Fund
-Streets-Sanitation,93702331,2016,Current Projection,Full Year,2016-03-31,Streets: Sanitation,12S,
-Streets-Transportation,38867886,2016,Current Projection,Full Year,2016-03-31,Streets: Transportation,12T,
+Streets-Sanitation,93702331,2016,Current Projection,Full Year,2016-03-31,Streets: Sanitation,12-S,
+Streets-Transportation,38867886,2016,Current Projection,Full Year,2016-03-31,Streets: Transportation,12-T,
 Youth Commission,142740,2016,Current Projection,Full Year,2016-03-31,Youth Commission,47,

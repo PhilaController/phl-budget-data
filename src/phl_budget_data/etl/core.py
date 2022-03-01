@@ -182,7 +182,7 @@ class ETLPipelineAWS(ETLPipeline):
     AWS Textract to parse PDFs.
     """
 
-    def _get_textract_output(self, pg_num):
+    def _get_textract_output(self, pg_num, concat_axis=0, remove_headers=False):
         """Use AWS Textract to extract the contents of the PDF."""
 
         # Get the file name
@@ -201,7 +201,10 @@ class ETLPipelineAWS(ETLPipeline):
 
             # Extract with textract
             parsing_results = parse_pdf_with_textract(
-                self.path, bucket_name="phl-budget-data"
+                self.path,
+                bucket_name="phl-budget-data",
+                concat_axis=concat_axis,
+                remove_headers=remove_headers,
             )
 
             # Save each page result

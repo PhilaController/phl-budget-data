@@ -15,7 +15,7 @@ from textual.message import Message
 from textual.widget import Reactive, Widget
 from textual.widgets import Header
 
-from ... import DATA_DIR
+from ... import ETL_DATA_DIR as DATA_DIR
 
 
 def merge_department_info(data, left_on="dept_name", right_on="alias"):

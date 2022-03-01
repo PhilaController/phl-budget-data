@@ -37,9 +37,6 @@ def determine_file_name(f, **kwargs):
         filename = "-".join(name.split("_")[1:]) + ".csv"
         output_file = output_folder / filename
 
-    if not output_file.exists():
-        raise FileNotFoundError(f"File not found: {output_file}")
-
     return output_file
 
 

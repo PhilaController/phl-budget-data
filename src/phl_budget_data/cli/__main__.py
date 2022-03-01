@@ -1,14 +1,17 @@
 import importlib
 import itertools
 import tempfile
+from collections import defaultdict
 from dataclasses import fields
 from pathlib import Path
 from urllib.error import HTTPError
 
 import click
+import numpy as np
 import pandas as pd
 import rich_click
 from loguru import logger
+from sqlite_utils import Database
 
 from .. import DATA_DIR, ETL_VERSION
 from ..utils import determine_file_name
@@ -66,9 +69,6 @@ def save(output=None):
                 # The function
                 f = getattr(mod, name)
 
-                # The base of the file name
-                filename_base = "-".join(name.split("_")[1:])
-
                 # Required params
                 if hasattr(f, "model"):
 
@@ -96,6 +96,29 @@ def save(output=None):
                     output_file = output_folder / filename
                     logger.info(f"Saving {output_file}")
                     f().to_csv(output_file, index=False)
+
+    # Save databases too
+    logger.info("Saving SQL databases")
+
+    # Determine datasets
+    datasets = defaultdict(list)
+    for f in list((DATA_DIR / "historical").glob("**/*.csv")):
+        key = f.parts[-2]
+        datasets[key].append(f)
+
+    # Loop over each database
+    for key in datasets:
+
+        # Create the database
+        filename = DATA_DIR / "sql" / (key + ".db")
+        db = Database(filename)
+
+        # Add each dataset
+        for f in datasets[key]:
+            data = pd.read_csv(f).replace(np.nan, None).to_dict(orient="records")
+            db[f.stem].insert_all(data)
+
+    logger.info("...done")
 
 
 # Add ETL commands

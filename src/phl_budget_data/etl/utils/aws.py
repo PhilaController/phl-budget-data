@@ -1,15 +1,35 @@
-import os
 import tempfile
 from pathlib import Path
 
 import boto3
+import numpy as np
 import pandas as pd
 import pdfplumber
 from dotenv import find_dotenv, load_dotenv
 from loguru import logger
 
 
-def parse_pdf_with_textract(pdf_path, bucket_name, resolution=600):
+def _remove_headers(df):
+    """Remove the headers from the dataframe."""
+
+    # Loop over index from the beginning
+    for i in range(0, len(df.index)):
+
+        label = df.index[i]
+        row = df.loc[label]
+
+        # All alpha characters or empty string
+        test = row.str.match("([A-Za-z\(\)]|^$|20\d{2}|\d{2})").all()
+        if not test:
+            break
+
+    # Remove the first rows
+    return df.loc[label:].reset_index(drop=True)
+
+
+def parse_pdf_with_textract(
+    pdf_path, bucket_name, resolution=600, concat_axis=0, remove_headers=False
+):
     """Parse the specified PDF with AWS Textract."""
 
     # Load the credentials
@@ -52,8 +72,16 @@ def parse_pdf_with_textract(pdf_path, bucket_name, resolution=600):
 
                 # Parse the result
                 result = parse_aws_response(r)
+                if remove_headers:
+                    result = [_remove_headers(df) for df in result]
+
+                # Combine
                 if len(result) > 1:
-                    result = pd.concat(result, axis=0).fillna("")
+
+                    # If we are concat'ing along columns, do it from bottom to top
+                    if concat_axis == 1:
+                        result = pd.concat(result, axis=1).fillna("")
+                        result.columns = [str(i) for i in range(0, len(result.columns))]
                 else:
                     result = result[0]
 

@@ -8,8 +8,8 @@ from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
 from ...utils.depts import merge_department_info
-from ...utils.misc import get_index_label
-from ...utils.transformations import convert_to_floats, decimal_to_comma, replace_commas
+from ...utils.transformations import (convert_to_floats, decimal_to_comma,
+                                      replace_commas)
 from ..base import ETLPipelineQCMR, add_as_of_date
 
 
@@ -54,17 +54,19 @@ class DepartmentObligationsSchema(BaseModel):
     )
 
 
-def remove_line_items(data, start, stop):
+def remove_line_items(data, start, *stops):
     """Remove the line-items from under a department."""
 
     # Remove line-items for benefits
     sel = data["dept_name"].str.contains(start)
-    assert sel.sum() == 1
+    assert sel.sum() > 0, start
 
     # Figure out which ones to remove
-    i = data.loc[sel].squeeze().name + 1
+    i = data.loc[sel].iloc[0].squeeze().name + 1
     remove = []
-    while i < len(data) and not data.loc[i, "dept_name"].startswith(stop):
+    while i < len(data) and not any(
+        data.loc[i, "dept_name"].startswith(stop) for stop in stops
+    ):
         remove.append(i)
         i += 1
 
@@ -80,7 +82,7 @@ def get_column_names(fy, q):
     cols = [f"{fy-1}-Actual-Full Year"]
 
     # Add YTD totals if not Q4
-    if q != 4:
+    if q != 4 or fy <= 2010:
         cols += [
             f"{fy}-Target Budget-YTD",
             f"{fy}-Actual-YTD",
@@ -119,12 +121,10 @@ class DepartmentObligations(ETLPipelineQCMR):
         out = []
         for pg_num in range(1, self.num_pages + 1):
 
-            # Parse the page
-            df = self._get_textract_output(pg_num=pg_num)
-
-            # Trim header
-            start = get_index_label(df, "DEPARTMENT")
-            df = df.loc[start:].iloc[1:]  # Remove header
+            # Parse the page and concat multiple tables column-wise
+            df = self._get_textract_output(
+                pg_num=pg_num, concat_axis=1, remove_headers=True
+            )
 
             # Save
             out.append(df)
@@ -148,7 +148,7 @@ class DepartmentObligations(ETLPipelineQCMR):
 
         # Check columns
         ncol = len(data.columns)
-        expected_ncol = 10 if self.quarter != 4 else 7
+        expected_ncol = 10 if self.quarter != 4 or self.fiscal_year <= 2010 else 7
         if ncol != expected_ncol:
             raise ValueError(
                 f"Unexpected number of columns: got {ncol}, expected {expected_ncol}"
@@ -160,13 +160,32 @@ class DepartmentObligations(ETLPipelineQCMR):
             columns=[""]
         )
 
-        for (start, stop) in [
-            ("Employee Benefits", "Finance"),
-            ("Public Health", "Public Property"),
-            ("Human Services", "Labor"),
-            ("First Judicial", "Fleet"),
+        for (start, stops) in [
+            ("Public Health", ["Public Property"]),
+            ("Human Services", ["Indemnities", "Labor"]),
+            ("First Judicial", ["Fleet"]),
+            ("Streets", ["Streets", "Sanitation"]),
         ]:
-            data = remove_line_items(data, start, stop)
+            data = remove_line_items(data, start, *stops)
+
+        # Handle employee benefits
+        start = "Employee Benefits"
+        stops = ["Finance", "Fire"]
+        sel = data["dept_name"].str.contains(start)
+        assert sel.sum() == 1
+
+        # Prepend "Employee Benefits"
+        i = data.loc[sel].squeeze().name + 1
+        while i < len(data) and not any(
+            data.loc[i, "dept_name"].startswith(stop) for stop in stops
+        ):
+            data.loc[i, "dept_name"] = f"{start}: {data.loc[i, 'dept_name']}"
+            i += 1
+
+        # Combine pension
+        sel = data["dept_name"].str.contains("Pension", na=False)
+        sel &= ~data["dept_name"].str.contains("Bond", na=False)
+        data.loc[sel, "dept_name"] = "Employee Benefits: Pension"
 
         # Pivot the data
         data = data.melt(id_vars=["dept_name"], value_name="total", var_name="temp")
@@ -208,13 +227,18 @@ class DepartmentObligations(ETLPipelineQCMR):
         if not hasattr(self, "validation"):
             raise ValueError("Please call transform() first")
 
+        # Drop employee benefits
+        data = data.loc[
+            ~data["dept_name"].str.startswith("Employee Benefits: ", na=False)
+        ]
+
         citywide = data.groupby(["variable", "fiscal_year", "time_period"])[
             "total"
         ].sum()
         total = self.validation.set_index(citywide.index.names)["total"]
 
         diff = citywide - total
-        if not (diff == 0).all():
+        if not (diff.abs() <= 3).all():
             assert False
 
         return True

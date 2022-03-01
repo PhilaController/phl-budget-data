@@ -1,0 +1,329 @@
+dept_name_raw,total,fiscal_year,variable,time_period,as_of_date,dept_name,dept_code,abbreviation
+Art Museum Subsidy,2350000,2011,Actual,Full Year,2011-06-30,Art Museum,34,
+Atwater Kent Museum,267101,2011,Actual,Full Year,2011-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7839698,2011,Actual,Full Year,2011-06-30,City Controller's Office,61,
+Board of Building Standards,61163,2011,Actual,Full Year,2011-06-30,L&I: Board of Building and Standards,29,
+Board of Ethics,680783,2011,Actual,Full Year,2011-06-30,Board of Ethics,45,
+Board of L & I Review,135740,2011,Actual,Full Year,2011-06-30,L&I: Board of Review,27,
+Board of Revision of Taxes,1879866,2011,Actual,Full Year,2011-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),8804511,2011,Actual,Full Year,2011-06-30,City Commissioner's Office,73,City Commissioners
+City Council,13772226,2011,Actual,Full Year,2011-06-30,City Council,01,
+City Planning Commission,2248238,2011,Actual,Full Year,2011-06-30,City Planning Commission,51,
+City Representative,903905,2011,Actual,Full Year,2011-06-30,Office of the City Representative,41,City Rep
+City Treasurer,760712,2011,Actual,Full Year,2011-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,167909,2011,Actual,Full Year,2011-06-30,Civil Service Commission,55,
+Commerce,1950658,2011,Actual,Full Year,2011-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1372143,2011,Actual,Full Year,2011-06-30,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,25409207,2011,Actual,Full Year,2011-06-30,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,15000000,2011,Actual,Full Year,2011-06-30,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,30503120,2011,Actual,Full Year,2011-06-30,District Attorney's Office,69,DAO
+Finance,16360143,2011,Actual,Full Year,2011-06-30,Office of the Director of Finance,35,Finance
+Finance - Contribution to the School District,38600000,2011,Actual,Full Year,2011-06-30,Finance: School District Contribution,35-SD,
+Finance - Employee Benefits,967058680,2011,Actual,Full Year,2011-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,55122313,2011,Actual,Full Year,2011-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,64599482,2011,Actual,Full Year,2011-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,742077,2011,Actual,Full Year,2011-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4050926,2011,Actual,Full Year,2011-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7727138,2011,Actual,Full Year,2011-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,343612891,2011,Actual,Full Year,2011-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,387554117,2011,Actual,Full Year,2011-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,97654191,2011,Actual,Full Year,2011-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,120650,2011,Actual,Full Year,2011-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,5874895,2011,Actual,Full Year,2011-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Anticipated Workforce Savings (1),0,2011,Actual,Full Year,2011-06-30,Employee Benefits: Anticipated Workforce Savings,35-EB-AWS,
+Finance - PGW Rental Reimbursement,1700000,2011,Actual,Full Year,2011-06-30,Finance: PGW Reimbursement,35-PGW,
+Fire,193766312,2011,Actual,Full Year,2011-06-30,Fire Department,13,Fire
+First Judicial District,115239201,2011,Actual,Full Year,2011-06-30,First Judicial District,84,FJD
+Fleet Management,47594973,2011,Actual,Full Year,2011-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,4499955,2011,Actual,Full Year,2011-06-30,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,32505284,2011,Actual,Full Year,2011-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,377336,2011,Actual,Full Year,2011-06-30,Historical Commission,32,
+Hero Award,35000,2011,Actual,Full Year,2011-06-30,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,1941724,2011,Actual,Full Year,2011-06-30,Commission on Human Relations,54,Human Relations
+Human Services,542877321,2011,Actual,Full Year,2011-06-30,Department of Human Services,22,DHS
+Indemnities,33617728,2011,Actual,Full Year,2011-06-30,Finance: Indemnities,35-IN,
+Law,16962316,2011,Actual,Full Year,2011-06-30,Law Department,44,Law
+Legal Services icl. Defender Association,36616187,2011,Actual,Full Year,2011-06-30,MDO: Legal Services,10-LS,
+Licenses & Inspections,18098275,2011,Actual,Full Year,2011-06-30,Department of Licenses and Inspections,26,L&I
+Managing Director (MDO),15904600,2011,Actual,Full Year,2011-06-30,Managing Director's Office,10,MDO
+Mayor,3497124,2011,Actual,Full Year,2011-06-30,Mayor's Office,05,Mayor
+Mayor - Office of Arts and Culture,2549976,2011,Actual,Full Year,2011-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Mayor - Office of the Inspector General,1171003,2011,Actual,Full Year,2011-06-30,Office of the Inspector General,48,OIG
+Mayor - Office of Labor Relations,457236,2011,Actual,Full Year,2011-06-30,Labor,03,
+Mayor - Scholarships,197600,2011,Actual,Full Year,2011-06-30,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0,2011,Actual,Full Year,2011-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,419184,2011,Actual,Full Year,2011-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,960757,2011,Actual,Full Year,2011-06-30,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hlth.& Intellectual Disability,14271572,2011,Actual,Full Year,2011-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,2251408,2011,Actual,Full Year,2011-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,4588003,2011,Actual,Full Year,2011-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,61347850,2011,Actual,Full Year,2011-06-30,Office of Innovation and Technology,04,OIT
+Office of Property Assessment,5730108,2011,Actual,Full Year,2011-06-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,36368077,2011,Actual,Full Year,2011-06-30,Office of Homeless Services,24,OHS
+Parks and Recreation,45540072,2011,Actual,Full Year,2011-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,536215299,2011,Actual,Full Year,2011-06-30,Police Department,11,Police
+Prisons,231163979,2011,Actual,Full Year,2011-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4617936,2011,Actual,Full Year,2011-06-30,Procurement Department,38,Procurement
+Public Health,108848360,2011,Actual,Full Year,2011-06-30,Department of Public Health,14,Public Health
+Public Property,54595326,2011,Actual,Full Year,2011-06-30,Department of Public Property,20,Public Property
+Public Property - SEPTA Subsidy,65878000,2011,Actual,Full Year,2011-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property - Space Rentals,15211472,2011,Actual,Full Year,2011-06-30,Public Property: Space Rentals,20-SR,
+Public Property - Utilities,33099864,2011,Actual,Full Year,2011-06-30,Public Property: Utilities,20-U,
+Records,3982310,2011,Actual,Full Year,2011-06-30,Department of Records,31,Records
+Refunds,25,2011,Actual,Full Year,2011-06-30,Finance: Refunds,35-R,
+Register of Wills,3239193,2011,Actual,Full Year,2011-06-30,Register of Wills,68,
+Revenue,14155313,2011,Actual,Full Year,2011-06-30,Department of Revenue,36,Revenue
+Sheriff,14051802,2011,Actual,Full Year,2011-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),197918470,2011,Actual,Full Year,2011-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets,33779435,2011,Actual,Full Year,2011-06-30,Streets Department,12,Streets
+Streets Sanitation,90319991,2011,Actual,Full Year,2011-06-30,Streets: Sanitation,12-S,
+Witness Fees,131755,2011,Actual,Full Year,2011-06-30,Finance: Witness Fees,35-WF,
+Youth Commission,77942,2011,Actual,Full Year,2011-06-30,Youth Commission,47,
+Zoning Board of Adjustment,329950,2011,Actual,Full Year,2011-06-30,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,464923,2011,Actual,Full Year,2011-06-30,Zoning Code Commission,57,
+Art Museum Subsidy,2300000,2012,Adopted Budget,Full Year,2012-06-30,Art Museum,34,
+Atwater Kent Museum,268630,2012,Adopted Budget,Full Year,2012-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7556052,2012,Adopted Budget,Full Year,2012-06-30,City Controller's Office,61,
+Board of Building Standards,71601,2012,Adopted Budget,Full Year,2012-06-30,L&I: Board of Building and Standards,29,
+Board of Ethics,810000,2012,Adopted Budget,Full Year,2012-06-30,Board of Ethics,45,
+Board of L & I Review,155721,2012,Adopted Budget,Full Year,2012-06-30,L&I: Board of Review,27,
+Board of Revision of Taxes,723000,2012,Adopted Budget,Full Year,2012-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),9104177,2012,Adopted Budget,Full Year,2012-06-30,City Commissioner's Office,73,City Commissioners
+City Council,15049272,2012,Adopted Budget,Full Year,2012-06-30,City Council,01,
+City Planning Commission,2257200,2012,Adopted Budget,Full Year,2012-06-30,City Planning Commission,51,
+City Representative,907766,2012,Adopted Budget,Full Year,2012-06-30,Office of the City Representative,41,City Rep
+City Treasurer,904699,2012,Adopted Budget,Full Year,2012-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,170309,2012,Adopted Budget,Full Year,2012-06-30,Civil Service Commission,55,
+Commerce,2274813,2012,Adopted Budget,Full Year,2012-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1372143,2012,Adopted Budget,Full Year,2012-06-30,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,25409207,2012,Adopted Budget,Full Year,2012-06-30,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,15000000,2012,Adopted Budget,Full Year,2012-06-30,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,31054996,2012,Adopted Budget,Full Year,2012-06-30,District Attorney's Office,69,DAO
+Finance,12703760,2012,Adopted Budget,Full Year,2012-06-30,Office of the Director of Finance,35,Finance
+Finance - Contribution to the School District,48930000,2012,Adopted Budget,Full Year,2012-06-30,Finance: School District Contribution,35-SD,
+Finance - Employee Benefits,1022702609,2012,Adopted Budget,Full Year,2012-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,55853503,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,62145805,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4133938,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7690367,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,346140249,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,452250487,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,102075000,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,3180260,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Anticipated Workforce Savings (1),-11867000,2012,Adopted Budget,Full Year,2012-06-30,Employee Benefits: Anticipated Workforce Savings,35-EB-AWS,
+Finance - PGW Rental Reimbursement,0,2012,Adopted Budget,Full Year,2012-06-30,Finance: PGW Reimbursement,35-PGW,
+Fire,190031950,2012,Adopted Budget,Full Year,2012-06-30,Fire Department,13,Fire
+First Judicial District,110817323,2012,Adopted Budget,Full Year,2012-06-30,First Judicial District,84,FJD
+Fleet Management,45151989,2012,Adopted Budget,Full Year,2012-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,8500000,2012,Adopted Budget,Full Year,2012-06-30,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,33863362,2012,Adopted Budget,Full Year,2012-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,387784,2012,Adopted Budget,Full Year,2012-06-30,Historical Commission,32,
+Hero Award,25000,2012,Adopted Budget,Full Year,2012-06-30,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,2039260,2012,Adopted Budget,Full Year,2012-06-30,Commission on Human Relations,54,Human Relations
+Human Services,111934770,2012,Adopted Budget,Full Year,2012-06-30,Department of Human Services,22,DHS
+Indemnities,33120000,2012,Adopted Budget,Full Year,2012-06-30,Finance: Indemnities,35-IN,
+Law,13119245,2012,Adopted Budget,Full Year,2012-06-30,Law Department,44,Law
+Legal Services icl. Defender Association,37566187,2012,Adopted Budget,Full Year,2012-06-30,MDO: Legal Services,10-LS,
+Licenses & Inspections,21780905,2012,Adopted Budget,Full Year,2012-06-30,Department of Licenses and Inspections,26,L&I
+Managing Director (MDO),22972270,2012,Adopted Budget,Full Year,2012-06-30,Managing Director's Office,10,MDO
+Mayor,3786915,2012,Adopted Budget,Full Year,2012-06-30,Mayor's Office,05,Mayor
+Mayor - Office of Arts and Culture,2670238,2012,Adopted Budget,Full Year,2012-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Mayor - Office of the Inspector General,1281451,2012,Adopted Budget,Full Year,2012-06-30,Office of the Inspector General,48,OIG
+Mayor - Office of Labor Relations,552416,2012,Adopted Budget,Full Year,2012-06-30,Labor,03,
+Mayor - Scholarships,200000,2012,Adopted Budget,Full Year,2012-06-30,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0,2012,Adopted Budget,Full Year,2012-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,480000,2012,Adopted Budget,Full Year,2012-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1060000,2012,Adopted Budget,Full Year,2012-06-30,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hlth.& Intellectual Disability,14271572,2012,Adopted Budget,Full Year,2012-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,3020000,2012,Adopted Budget,Full Year,2012-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,5228327,2012,Adopted Budget,Full Year,2012-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,63942751,2012,Adopted Budget,Full Year,2012-06-30,Office of Innovation and Technology,04,OIT
+Office of Property Assessment,11740696,2012,Adopted Budget,Full Year,2012-06-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,36466253,2012,Adopted Budget,Full Year,2012-06-30,Office of Homeless Services,24,OHS
+Parks and Recreation,46325925,2012,Adopted Budget,Full Year,2012-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,550686244,2012,Adopted Budget,Full Year,2012-06-30,Police Department,11,Police
+Prisons,227172870,2012,Adopted Budget,Full Year,2012-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4151574,2012,Adopted Budget,Full Year,2012-06-30,Procurement Department,38,Procurement
+Public Health,110426170,2012,Adopted Budget,Full Year,2012-06-30,Department of Public Health,14,Public Health
+Public Property,52027433,2012,Adopted Budget,Full Year,2012-06-30,Department of Public Property,20,Public Property
+Public Property - SEPTA Subsidy,66360000,2012,Adopted Budget,Full Year,2012-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property - Space Rentals,18221209,2012,Adopted Budget,Full Year,2012-06-30,Public Property: Space Rentals,20-SR,
+Public Property - Utilities,32224809,2012,Adopted Budget,Full Year,2012-06-30,Public Property: Utilities,20-U,
+Records,4009212,2012,Adopted Budget,Full Year,2012-06-30,Department of Records,31,Records
+Refunds,250000,2012,Adopted Budget,Full Year,2012-06-30,Finance: Refunds,35-R,
+Register of Wills,3399278,2012,Adopted Budget,Full Year,2012-06-30,Register of Wills,68,
+Revenue,19899715,2012,Adopted Budget,Full Year,2012-06-30,Department of Revenue,36,Revenue
+Sheriff,13088657,2012,Adopted Budget,Full Year,2012-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),223906507,2012,Adopted Budget,Full Year,2012-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets,30407311,2012,Adopted Budget,Full Year,2012-06-30,Streets Department,12,Streets
+Streets Sanitation,90945823,2012,Adopted Budget,Full Year,2012-06-30,Streets: Sanitation,12-S,
+Witness Fees,171518,2012,Adopted Budget,Full Year,2012-06-30,Finance: Witness Fees,35-WF,
+Youth Commission,96000,2012,Adopted Budget,Full Year,2012-06-30,Youth Commission,47,
+Zoning Board of Adjustment,362756,2012,Adopted Budget,Full Year,2012-06-30,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,225000,2012,Adopted Budget,Full Year,2012-06-30,Zoning Code Commission,57,
+Art Museum Subsidy,2300000,2012,Target Budget,Full Year,2012-06-30,Art Museum,34,
+Atwater Kent Museum,268630,2012,Target Budget,Full Year,2012-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7449931,2012,Target Budget,Full Year,2012-06-30,City Controller's Office,61,
+Board of Building Standards,70169,2012,Target Budget,Full Year,2012-06-30,L&I: Board of Building and Standards,29,
+Board of Ethics,854000,2012,Target Budget,Full Year,2012-06-30,Board of Ethics,45,
+Board of L & I Review,152607,2012,Target Budget,Full Year,2012-06-30,L&I: Board of Review,27,
+Board of Revision of Taxes,708540,2012,Target Budget,Full Year,2012-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),8922093,2012,Target Budget,Full Year,2012-06-30,City Commissioner's Office,73,City Commissioners
+City Council,15049272,2012,Target Budget,Full Year,2012-06-30,City Council,01,
+City Planning Commission,2212057,2012,Target Budget,Full Year,2012-06-30,City Planning Commission,51,
+City Representative,889611,2012,Target Budget,Full Year,2012-06-30,Office of the City Representative,41,City Rep
+City Treasurer,886605,2012,Target Budget,Full Year,2012-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,166903,2012,Target Budget,Full Year,2012-06-30,Civil Service Commission,55,
+Commerce,2331813,2012,Target Budget,Full Year,2012-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1294448,2012,Target Budget,Full Year,2012-06-30,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,25409207,2012,Target Budget,Full Year,2012-06-30,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,15000000,2012,Target Budget,Full Year,2012-06-30,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,31054996,2012,Target Budget,Full Year,2012-06-30,District Attorney's Office,69,DAO
+Finance,12816087,2012,Target Budget,Full Year,2012-06-30,Office of the Director of Finance,35,Finance
+Finance - Contribution to the School District,48930000,2012,Target Budget,Full Year,2012-06-30,Finance: School District Contribution,35-SD,
+Finance - Employee Benefits,1027902609,2012,Target Budget,Full Year,2012-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,55853503,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,64945805,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4133938,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7690367,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,346140249,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,452250487,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,102075000,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,5580260,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Anticipated Workforce Savings (1),-11867000,2012,Target Budget,Full Year,2012-06-30,Employee Benefits: Anticipated Workforce Savings,35-EB-AWS,
+Finance - PGW Rental Reimbursement,0,2012,Target Budget,Full Year,2012-06-30,Finance: PGW Reimbursement,35-PGW,
+Fire,194031950,2012,Target Budget,Full Year,2012-06-30,Fire Department,13,Fire
+First Judicial District,116967323,2012,Target Budget,Full Year,2012-06-30,First Judicial District,84,FJD
+Fleet Management,49909814,2012,Target Budget,Full Year,2012-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,6289135,2012,Target Budget,Full Year,2012-06-30,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,33353362,2012,Target Budget,Full Year,2012-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,387784,2012,Target Budget,Full Year,2012-06-30,Historical Commission,32,
+Hero Award,25000,2012,Target Budget,Full Year,2012-06-30,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,1998475,2012,Target Budget,Full Year,2012-06-30,Commission on Human Relations,54,Human Relations
+Human Services,110108096,2012,Target Budget,Full Year,2012-06-30,Department of Human Services,22,DHS
+Indemnities,33957600,2012,Target Budget,Full Year,2012-06-30,Finance: Indemnities,35-IN,
+Law,14856860,2012,Target Budget,Full Year,2012-06-30,Law Department,44,Law
+Legal Services icl. Defender Association,37066187,2012,Target Budget,Full Year,2012-06-30,MDO: Legal Services,10-LS,
+Licenses & Inspections,21660905,2012,Target Budget,Full Year,2012-06-30,Department of Licenses and Inspections,26,L&I
+Managing Director (MDO),23050325,2012,Target Budget,Full Year,2012-06-30,Managing Director's Office,10,MDO
+Mayor,3711177,2012,Target Budget,Full Year,2012-06-30,Mayor's Office,05,Mayor
+Mayor - Office of Arts and Culture,2670238,2012,Target Budget,Full Year,2012-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Mayor - Office of the Inspector General,1255822,2012,Target Budget,Full Year,2012-06-30,Office of the Inspector General,48,OIG
+Mayor - Office of Labor Relations,541368,2012,Target Budget,Full Year,2012-06-30,Labor,03,
+Mayor - Scholarships,200000,2012,Target Budget,Full Year,2012-06-30,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0,2012,Target Budget,Full Year,2012-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,470400,2012,Target Budget,Full Year,2012-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1000800,2012,Target Budget,Full Year,2012-06-30,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hlth.& Intellectual Disability,14271572,2012,Target Budget,Full Year,2012-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,2520000,2012,Target Budget,Full Year,2012-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,5123760,2012,Target Budget,Full Year,2012-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,70924530,2012,Target Budget,Full Year,2012-06-30,Office of Innovation and Technology,04,OIT
+Office of Property Assessment,9105882,2012,Target Budget,Full Year,2012-06-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,38466253,2012,Target Budget,Full Year,2012-06-30,Office of Homeless Services,24,OHS
+Parks and Recreation,45742671,2012,Target Budget,Full Year,2012-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,553186244,2012,Target Budget,Full Year,2012-06-30,Police Department,11,Police
+Prisons,231272870,2012,Target Budget,Full Year,2012-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4151574,2012,Target Budget,Full Year,2012-06-30,Procurement Department,38,Procurement
+Public Health,110426170,2012,Target Budget,Full Year,2012-06-30,Department of Public Health,14,Public Health
+Public Property,51721912,2012,Target Budget,Full Year,2012-06-30,Department of Public Property,20,Public Property
+Public Property - SEPTA Subsidy,66360000,2012,Target Budget,Full Year,2012-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property - Space Rentals,17284671,2012,Target Budget,Full Year,2012-06-30,Public Property: Space Rentals,20-SR,
+Public Property - Utilities,32540354,2012,Target Budget,Full Year,2012-06-30,Public Property: Utilities,20-U,
+Records,4009212,2012,Target Budget,Full Year,2012-06-30,Department of Records,31,Records
+Refunds,250000,2012,Target Budget,Full Year,2012-06-30,Finance: Refunds,35-R,
+Register of Wills,3331292,2012,Target Budget,Full Year,2012-06-30,Register of Wills,68,
+Revenue,19501721,2012,Target Budget,Full Year,2012-06-30,Department of Revenue,36,Revenue
+Sheriff,15588657,2012,Target Budget,Full Year,2012-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),216906507,2012,Target Budget,Full Year,2012-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets,25862962,2012,Target Budget,Full Year,2012-06-30,Streets Department,12,Streets
+Streets Sanitation,89896981,2012,Target Budget,Full Year,2012-06-30,Streets: Sanitation,12-S,
+Witness Fees,171518,2012,Target Budget,Full Year,2012-06-30,Finance: Witness Fees,35-WF,
+Youth Commission,94080,2012,Target Budget,Full Year,2012-06-30,Youth Commission,47,
+Zoning Board of Adjustment,355501,2012,Target Budget,Full Year,2012-06-30,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,220500,2012,Target Budget,Full Year,2012-06-30,Zoning Code Commission,57,
+Art Museum Subsidy,2300000,2012,Current Projection,Full Year,2012-06-30,Art Museum,34,
+Atwater Kent Museum,268630,2012,Current Projection,Full Year,2012-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7449931,2012,Current Projection,Full Year,2012-06-30,City Controller's Office,61,
+Board of Building Standards,70169,2012,Current Projection,Full Year,2012-06-30,L&I: Board of Building and Standards,29,
+Board of Ethics,854000,2012,Current Projection,Full Year,2012-06-30,Board of Ethics,45,
+Board of L & I Review,152607,2012,Current Projection,Full Year,2012-06-30,L&I: Board of Review,27,
+Board of Revision of Taxes,708540,2012,Current Projection,Full Year,2012-06-30,Board of Revision of Taxes,63,BRT
+City Commissioners (Election Board),8922093,2012,Current Projection,Full Year,2012-06-30,City Commissioner's Office,73,City Commissioners
+City Council,15049272,2012,Current Projection,Full Year,2012-06-30,City Council,01,
+City Planning Commission,2212057,2012,Current Projection,Full Year,2012-06-30,City Planning Commission,51,
+City Representative,889611,2012,Current Projection,Full Year,2012-06-30,Office of the City Representative,41,City Rep
+City Treasurer,886605,2012,Current Projection,Full Year,2012-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,166903,2012,Current Projection,Full Year,2012-06-30,Civil Service Commission,55,
+Commerce,2331813,2012,Current Projection,Full Year,2012-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1294448,2012,Current Projection,Full Year,2012-06-30,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,25409207,2012,Current Projection,Full Year,2012-06-30,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,15000000,2012,Current Projection,Full Year,2012-06-30,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,31054996,2012,Current Projection,Full Year,2012-06-30,District Attorney's Office,69,DAO
+Finance,12816087,2012,Current Projection,Full Year,2012-06-30,Office of the Director of Finance,35,Finance
+Finance - Contribution to the School District,48930000,2012,Current Projection,Full Year,2012-06-30,Finance: School District Contribution,35-SD,
+Finance - Employee Benefits,1027902609,2012,Current Projection,Full Year,2012-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,55853503,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,64945805,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4133938,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7690367,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,346140249,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,452250487,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,102075000,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,5580260,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Anticipated Workforce Savings (1),-11867000,2012,Current Projection,Full Year,2012-06-30,Employee Benefits: Anticipated Workforce Savings,35-EB-AWS,
+Finance - PGW Rental Reimbursement,0,2012,Current Projection,Full Year,2012-06-30,Finance: PGW Reimbursement,35-PGW,
+Fire,195231950,2012,Current Projection,Full Year,2012-06-30,Fire Department,13,Fire
+First Judicial District,116967323,2012,Current Projection,Full Year,2012-06-30,First Judicial District,84,FJD
+Fleet Management,49909814,2012,Current Projection,Full Year,2012-06-30,Office of Fleet Management,25,Fleet
+Fleet Management - Vehicle Purchases,6289135,2012,Current Projection,Full Year,2012-06-30,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,33353362,2012,Current Projection,Full Year,2012-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,387784,2012,Current Projection,Full Year,2012-06-30,Historical Commission,32,
+Hero Award,25000,2012,Current Projection,Full Year,2012-06-30,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,1998475,2012,Current Projection,Full Year,2012-06-30,Commission on Human Relations,54,Human Relations
+Human Services,110108096,2012,Current Projection,Full Year,2012-06-30,Department of Human Services,22,DHS
+Indemnities,33957600,2012,Current Projection,Full Year,2012-06-30,Finance: Indemnities,35-IN,
+Law,14856860,2012,Current Projection,Full Year,2012-06-30,Law Department,44,Law
+Legal Services icl. Defender Association,37066187,2012,Current Projection,Full Year,2012-06-30,MDO: Legal Services,10-LS,
+Licenses & Inspections,21660905,2012,Current Projection,Full Year,2012-06-30,Department of Licenses and Inspections,26,L&I
+Managing Director (MDO),23050325,2012,Current Projection,Full Year,2012-06-30,Managing Director's Office,10,MDO
+Mayor,3711177,2012,Current Projection,Full Year,2012-06-30,Mayor's Office,05,Mayor
+Mayor - Office of Arts and Culture,2670238,2012,Current Projection,Full Year,2012-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
+Mayor - Office of the Inspector General,1255822,2012,Current Projection,Full Year,2012-06-30,Office of the Inspector General,48,OIG
+Mayor - Office of Labor Relations,541368,2012,Current Projection,Full Year,2012-06-30,Labor,03,
+Mayor - Scholarships,200000,2012,Current Projection,Full Year,2012-06-30,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0,2012,Current Projection,Full Year,2012-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,470400,2012,Current Projection,Full Year,2012-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1000800,2012,Current Projection,Full Year,2012-06-30,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hlth.& Intellectual Disability,14271572,2012,Current Projection,Full Year,2012-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,2520000,2012,Current Projection,Full Year,2012-06-30,Office of Housing and Community Development,06,
+Office of Human Resources,5123760,2012,Current Projection,Full Year,2012-06-30,Office of Human Resources,56,OHR
+Office of Innovation and Technology,70424530,2012,Current Projection,Full Year,2012-06-30,Office of Innovation and Technology,04,OIT
+Office of Property Assessment,8105882,2012,Current Projection,Full Year,2012-06-30,Office of Property Assessment,59,OPA
+Office of Supportive Housing,38466253,2012,Current Projection,Full Year,2012-06-30,Office of Homeless Services,24,OHS
+Parks and Recreation,45742671,2012,Current Projection,Full Year,2012-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Police,553186244,2012,Current Projection,Full Year,2012-06-30,Police Department,11,Police
+Prisons,231272870,2012,Current Projection,Full Year,2012-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4151574,2012,Current Projection,Full Year,2012-06-30,Procurement Department,38,Procurement
+Public Health,110426170,2012,Current Projection,Full Year,2012-06-30,Department of Public Health,14,Public Health
+Public Property,51721912,2012,Current Projection,Full Year,2012-06-30,Department of Public Property,20,Public Property
+Public Property - SEPTA Subsidy,66360000,2012,Current Projection,Full Year,2012-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property - Space Rentals,17284671,2012,Current Projection,Full Year,2012-06-30,Public Property: Space Rentals,20-SR,
+Public Property - Utilities,32540354,2012,Current Projection,Full Year,2012-06-30,Public Property: Utilities,20-U,
+Records,4009212,2012,Current Projection,Full Year,2012-06-30,Department of Records,31,Records
+Refunds,250000,2012,Current Projection,Full Year,2012-06-30,Finance: Refunds,35-R,
+Register of Wills,3331292,2012,Current Projection,Full Year,2012-06-30,Register of Wills,68,
+Revenue,19001721,2012,Current Projection,Full Year,2012-06-30,Department of Revenue,36,Revenue
+Sheriff,15588657,2012,Current Projection,Full Year,2012-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),201106507,2012,Current Projection,Full Year,2012-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets,25862962,2012,Current Projection,Full Year,2012-06-30,Streets Department,12,Streets
+Streets Sanitation,89396981,2012,Current Projection,Full Year,2012-06-30,Streets: Sanitation,12-S,
+Witness Fees,171518,2012,Current Projection,Full Year,2012-06-30,Finance: Witness Fees,35-WF,
+Youth Commission,94080,2012,Current Projection,Full Year,2012-06-30,Youth Commission,47,
+Zoning Board of Adjustment,355501,2012,Current Projection,Full Year,2012-06-30,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,220500,2012,Current Projection,Full Year,2012-06-30,Zoning Code Commission,57,

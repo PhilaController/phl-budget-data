@@ -1,0 +1,505 @@
+dept_name_raw,total,fiscal_year,variable,time_period,as_of_date,dept_name,dept_code,abbreviation
+Art Museum Subsidy,2500000.0,2008,Actual,Full Year,2008-06-30,Art Museum,34,
+Atwater Kent Museum,306702.0,2008,Actual,Full Year,2008-06-30,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8218657.0,2008,Actual,Full Year,2008-06-30,City Controller's Office,61,
+Board of Building Standards,95694.0,2008,Actual,Full Year,2008-06-30,L&I: Board of Building and Standards,29,
+Board of Ethics,542111.0,2008,Actual,Full Year,2008-06-30,Board of Ethics,45,
+Board of L & I Review,202726.0,2008,Actual,Full Year,2008-06-30,L&I: Board of Review,27,
+Board of Revision of Taxes,8359922.0,2008,Actual,Full Year,2008-06-30,Board of Revision of Taxes,63,BRT
+Camp William Penn,377966.0,2008,Actual,Full Year,2008-06-30,Camp William Penn,19,
+Capital Program Office,2337649.0,2008,Actual,Full Year,2008-06-30,Capital Program Office,07,
+City Commissioners (Election Board),9285945.0,2008,Actual,Full Year,2008-06-30,City Commissioner's Office,73,City Commissioners
+City Council,14578420.0,2008,Actual,Full Year,2008-06-30,City Council,01,
+City Planning Commission,3348132.0,2008,Actual,Full Year,2008-06-30,City Planning Commission,51,
+City Representative,0.0,2008,Actual,Full Year,2008-06-30,Office of the City Representative,41,City Rep
+City Treasurer,718384.0,2008,Actual,Full Year,2008-06-30,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,148624.0,2008,Actual,Full Year,2008-06-30,Civil Service Commission,55,
+Clerk of Quarter Sessions,4864504.0,2008,Actual,Full Year,2008-06-30,Clerk of Quarter Sessions,64,
+Commerce,9629152.0,2008,Actual,Full Year,2008-06-30,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,4000000.0,2008,Actual,Full Year,2008-06-30,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,24467924.0,2008,Actual,Full Year,2008-06-30,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,32310293.0,2008,Actual,Full Year,2008-06-30,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,31751555.0,2008,Actual,Full Year,2008-06-30,District Attorney's Office,69,DAO
+Fairmount Park,13172039.0,2008,Actual,Full Year,2008-06-30,Fairmount Park Commission,17,
+Finance,20703258.0,2008,Actual,Full Year,2008-06-30,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,37000000.0,2008,Actual,Full Year,2008-06-30,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,983038761.0,2008,Actual,Full Year,2008-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,46716813.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,69651940.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,728710.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4046836.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7241523.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,421031060.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,352386519.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,78377236.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,63325.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2794799.0,2008,Actual,Full Year,2008-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,18000000.0,2008,Actual,Full Year,2008-06-30,Finance: PGW Reimbursement,35-PGW,
+Fire,189179212.0,2008,Actual,Full Year,2008-06-30,Fire Department,13,Fire
+First Judicial District,120016366.0,2008,Actual,Full Year,2008-06-30,First Judicial District,84,FJD
+Fleet Management,49211366.0,2008,Actual,Full Year,2008-06-30,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,17348572.0,2008,Actual,Full Year,2008-06-30,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,40458971.0,2008,Actual,Full Year,2008-06-30,The Free Library of Philadelphia,52,Free Library
+Historical Commission,404836.0,2008,Actual,Full Year,2008-06-30,Historical Commission,32,
+Hero Award,32000.0,2008,Actual,Full Year,2008-06-30,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,2121591.0,2008,Actual,Full Year,2008-06-30,Commission on Human Relations,54,Human Relations
+Human Services,614779975.0,2008,Actual,Full Year,2008-06-30,Department of Human Services,22,DHS
+Indemnities,29786468.0,2008,Actual,Full Year,2008-06-30,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",34036863.0,2008,Actual,Full Year,2008-06-30,Office of Innovation and Technology,04,OIT
+Labor Relations,524095.0,2008,Actual,Full Year,2008-06-30,Labor,03,
+Law,21090936.0,2008,Actual,Full Year,2008-06-30,Law Department,44,Law
+Legal Services icl. Defender Association,37259093.0,2008,Actual,Full Year,2008-06-30,MDO: Legal Services,10-LS,
+Licenses & Inspections,20114242.0,2008,Actual,Full Year,2008-06-30,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,10140597.0,2008,Actual,Full Year,2008-06-30,L&I: Demolition,26-D,
+Managing Director (MDO),15734861.0,2008,Actual,Full Year,2008-06-30,Managing Director's Office,10,MDO
+Mayor,5657925.0,2008,Actual,Full Year,2008-06-30,Mayor's Office,05,Mayor
+Mayor Scholarships,199860.0,2008,Actual,Full Year,2008-06-30,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,3540164.0,2008,Actual,Full Year,2008-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,0.0,2008,Actual,Full Year,2008-06-30,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1128875.0,2008,Actual,Full Year,2008-06-30,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,14136399.0,2008,Actual,Full Year,2008-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,5200000.0,2008,Actual,Full Year,2008-06-30,Office of Housing and Community Development,06,
+Office of Supportive Housing,40544073.0,2008,Actual,Full Year,2008-06-30,Office of Homeless Services,24,OHS
+Personnel,4684931.0,2008,Actual,Full Year,2008-06-30,Office of Human Resources,56,OHR
+Police,523965930.0,2008,Actual,Full Year,2008-06-30,Police Department,11,Police
+Prisons,222013102.0,2008,Actual,Full Year,2008-06-30,Philadelphia Prison System,23,Prisons
+Procurement,4983699.0,2008,Actual,Full Year,2008-06-30,Procurement Department,38,Procurement
+Public Health,112695423.0,2008,Actual,Full Year,2008-06-30,Department of Public Health,14,Public Health
+Public Property,53054886.0,2008,Actual,Full Year,2008-06-30,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,61339000.0,2008,Actual,Full Year,2008-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,15546843.0,2008,Actual,Full Year,2008-06-30,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,2551431.0,2008,Actual,Full Year,2008-06-30,Public Property: Telecommunications,20-T,
+Public Property Utilities,33127551.0,2008,Actual,Full Year,2008-06-30,Public Property: Utilities,20-U,
+Records,7633941.0,2008,Actual,Full Year,2008-06-30,Department of Records,31,Records
+Recreation,38769657.0,2008,Actual,Full Year,2008-06-30,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,234892.0,2008,Actual,Full Year,2008-06-30,Finance: Refunds,35-R,
+Register of Wills,3522395.0,2008,Actual,Full Year,2008-06-30,Register of Wills,68,
+Revenue,16370599.0,2008,Actual,Full Year,2008-06-30,Department of Revenue,36,Revenue
+Sheriff,15218436.0,2008,Actual,Full Year,2008-06-30,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),172220972.0,2008,Actual,Full Year,2008-06-30,Sinking Fund Commission,37,Sinking Fund
+Streets,33583751.0,2008,Actual,Full Year,2008-06-30,Streets Department,12,Streets
+Streets Sanitation,95005450.0,2008,Actual,Full Year,2008-06-30,Streets: Sanitation,12-S,
+Witness Fees,131769.0,2008,Actual,Full Year,2008-06-30,Finance: Witness Fees,35-WF,
+Youth Commission,0.0,2008,Actual,Full Year,2008-06-30,Youth Commission,47,
+Zoning Board of Adjustment,342536.0,2008,Actual,Full Year,2008-06-30,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,239444.0,2008,Actual,Full Year,2008-06-30,Zoning Code Commission,57,
+Art Museum Subsidy,3000000.0,2009,Target Budget,YTD,2009-03-31,Art Museum,34,
+Atwater Kent Museum,254000.0,2009,Target Budget,YTD,2009-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),5752710.0,2009,Target Budget,YTD,2009-03-31,City Controller's Office,61,
+Board of Building Standards,82859.0,2009,Target Budget,YTD,2009-03-31,L&I: Board of Building and Standards,29,
+Board of Ethics,694398.0,2009,Target Budget,YTD,2009-03-31,Board of Ethics,45,
+Board of L & I Review,166760.0,2009,Target Budget,YTD,2009-03-31,L&I: Board of Review,27,
+Board of Revision of Taxes,6335602.0,2009,Target Budget,YTD,2009-03-31,Board of Revision of Taxes,63,BRT
+Camp William Penn,91129.0,2009,Target Budget,YTD,2009-03-31,Camp William Penn,19,
+Capital Program Office,2325468.0,2009,Target Budget,YTD,2009-03-31,Capital Program Office,07,
+City Commissioners (Election Board),6556243.0,2009,Target Budget,YTD,2009-03-31,City Commissioner's Office,73,City Commissioners
+City Council,12705437.0,2009,Target Budget,YTD,2009-03-31,City Council,01,
+City Planning Commission,2363265.0,2009,Target Budget,YTD,2009-03-31,City Planning Commission,51,
+City Representative,2774994.0,2009,Target Budget,YTD,2009-03-31,Office of the City Representative,41,City Rep
+City Treasurer,532988.0,2009,Target Budget,YTD,2009-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,132527.0,2009,Target Budget,YTD,2009-03-31,Civil Service Commission,55,
+Clerk of Quarter Sessions,3619528.0,2009,Target Budget,YTD,2009-03-31,Clerk of Quarter Sessions,64,
+Commerce,842537.0,2009,Target Budget,YTD,2009-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1777500.0,2009,Target Budget,YTD,2009-03-31,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,26467924.0,2009,Target Budget,YTD,2009-03-31,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,22652522.0,2009,Target Budget,YTD,2009-03-31,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,24112758.0,2009,Target Budget,YTD,2009-03-31,District Attorney's Office,69,DAO
+Fairmount Park,10597453.0,2009,Target Budget,YTD,2009-03-31,Fairmount Park Commission,17,
+Finance,12646632.0,2009,Target Budget,YTD,2009-03-31,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,0.0,2009,Target Budget,YTD,2009-03-31,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,790855429.0,2009,Target Budget,YTD,2009-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,40003362.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,51562842.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,742381.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,5803939.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,6132666.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,285513209.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,381984636.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,16070552.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,104400.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2937442.0,2009,Target Budget,YTD,2009-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,0.0,2009,Target Budget,YTD,2009-03-31,Finance: PGW Reimbursement,35-PGW,
+Fire,133634252.0,2009,Target Budget,YTD,2009-03-31,Fire Department,13,Fire
+First Judicial District,80505468.0,2009,Target Budget,YTD,2009-03-31,First Judicial District,84,FJD
+Fleet Management,41421611.0,2009,Target Budget,YTD,2009-03-31,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,6075927.0,2009,Target Budget,YTD,2009-03-31,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,32939611.0,2009,Target Budget,YTD,2009-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,307232.0,2009,Target Budget,YTD,2009-03-31,Historical Commission,32,
+Hero Award,35000.0,2009,Target Budget,YTD,2009-03-31,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,1562559.0,2009,Target Budget,YTD,2009-03-31,Commission on Human Relations,54,Human Relations
+Human Services,562333023.0,2009,Target Budget,YTD,2009-03-31,Department of Human Services,22,DHS
+Indemnities,26714936.0,2009,Target Budget,YTD,2009-03-31,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",29020644.0,2009,Target Budget,YTD,2009-03-31,Office of Innovation and Technology,04,OIT
+Labor Relations,397016.0,2009,Target Budget,YTD,2009-03-31,Labor,03,
+Law,16598200.0,2009,Target Budget,YTD,2009-03-31,Law Department,44,Law
+Legal Services icl. Defender Association,37338074.0,2009,Target Budget,YTD,2009-03-31,MDO: Legal Services,10-LS,
+Licenses & Inspections,13554635.0,2009,Target Budget,YTD,2009-03-31,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,6092949.0,2009,Target Budget,YTD,2009-03-31,L&I: Demolition,26-D,
+Managing Director (MDO),16684011.0,2009,Target Budget,YTD,2009-03-31,Managing Director's Office,10,MDO
+Mayor,5003840.0,2009,Target Budget,YTD,2009-03-31,Mayor's Office,05,Mayor
+Mayor Scholarships,200000.0,2009,Target Budget,YTD,2009-03-31,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0.0,2009,Target Budget,YTD,2009-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,362069.0,2009,Target Budget,YTD,2009-03-31,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,788705.0,2009,Target Budget,YTD,2009-03-31,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,13588821.0,2009,Target Budget,YTD,2009-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,3000000.0,2009,Target Budget,YTD,2009-03-31,Office of Housing and Community Development,06,
+Office of Supportive Housing,37299454.0,2009,Target Budget,YTD,2009-03-31,Office of Homeless Services,24,OHS
+Personnel,3394550.0,2009,Target Budget,YTD,2009-03-31,Office of Human Resources,56,OHR
+Police,381825837.0,2009,Target Budget,YTD,2009-03-31,Police Department,11,Police
+Prisons,202400838.0,2009,Target Budget,YTD,2009-03-31,Philadelphia Prison System,23,Prisons
+Procurement,3648348.0,2009,Target Budget,YTD,2009-03-31,Procurement Department,38,Procurement
+Public Health,106706698.0,2009,Target Budget,YTD,2009-03-31,Department of Public Health,14,Public Health
+Public Property,32304324.0,2009,Target Budget,YTD,2009-03-31,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,53077000.0,2009,Target Budget,YTD,2009-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,15788554.0,2009,Target Budget,YTD,2009-03-31,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,2741000.0,2009,Target Budget,YTD,2009-03-31,Public Property: Telecommunications,20-T,
+Public Property Utilities,32490000.0,2009,Target Budget,YTD,2009-03-31,Public Property: Utilities,20-U,
+Records,6107557.0,2009,Target Budget,YTD,2009-03-31,Department of Records,31,Records
+Recreation,28851578.0,2009,Target Budget,YTD,2009-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,183375.0,2009,Target Budget,YTD,2009-03-31,Finance: Refunds,35-R,
+Register of Wills,2517539.0,2009,Target Budget,YTD,2009-03-31,Register of Wills,68,
+Revenue,12119794.0,2009,Target Budget,YTD,2009-03-31,Department of Revenue,36,Revenue
+Sheriff,10634692.0,2009,Target Budget,YTD,2009-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),140387979.0,2009,Target Budget,YTD,2009-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets,25465535.0,2009,Target Budget,YTD,2009-03-31,Streets Department,12,Streets
+Streets Sanitation,87389181.0,2009,Target Budget,YTD,2009-03-31,Streets: Sanitation,12-S,
+Witness Fees,128639.0,2009,Target Budget,YTD,2009-03-31,Finance: Witness Fees,35-WF,
+Youth Commission,72900.0,2009,Target Budget,YTD,2009-03-31,Youth Commission,47,
+Zoning Board of Adjustment,321822.0,2009,Target Budget,YTD,2009-03-31,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,379665.0,2009,Target Budget,YTD,2009-03-31,Zoning Code Commission,57,
+Art Museum Subsidy,3000000.0,2009,Actual,YTD,2009-03-31,Art Museum,34,
+Atwater Kent Museum,216952.0,2009,Actual,YTD,2009-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),5687148.0,2009,Actual,YTD,2009-03-31,City Controller's Office,61,
+Board of Building Standards,74790.0,2009,Actual,YTD,2009-03-31,L&I: Board of Building and Standards,29,
+Board of Ethics,548780.0,2009,Actual,YTD,2009-03-31,Board of Ethics,45,
+Board of L & I Review,158237.0,2009,Actual,YTD,2009-03-31,L&I: Board of Review,27,
+Board of Revision of Taxes,6065673.0,2009,Actual,YTD,2009-03-31,Board of Revision of Taxes,63,BRT
+Camp William Penn,85791.0,2009,Actual,YTD,2009-03-31,Camp William Penn,19,
+Capital Program Office,2162833.0,2009,Actual,YTD,2009-03-31,Capital Program Office,07,
+City Commissioners (Election Board),6894404.0,2009,Actual,YTD,2009-03-31,City Commissioner's Office,73,City Commissioners
+City Council,10538018.0,2009,Actual,YTD,2009-03-31,City Council,01,
+City Planning Commission,2193980.0,2009,Actual,YTD,2009-03-31,City Planning Commission,51,
+City Representative,4492811.0,2009,Actual,YTD,2009-03-31,Office of the City Representative,41,City Rep
+City Treasurer,456475.0,2009,Actual,YTD,2009-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,131259.0,2009,Actual,YTD,2009-03-31,Civil Service Commission,55,
+Clerk of Quarter Sessions,3710497.0,2009,Actual,YTD,2009-03-31,Clerk of Quarter Sessions,64,
+Commerce,874574.0,2009,Actual,YTD,2009-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,0.0,2009,Actual,YTD,2009-03-31,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,26467924.0,2009,Actual,YTD,2009-03-31,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,22652522.0,2009,Actual,YTD,2009-03-31,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,23354875.0,2009,Actual,YTD,2009-03-31,District Attorney's Office,69,DAO
+Fairmount Park,9654755.0,2009,Actual,YTD,2009-03-31,Fairmount Park Commission,17,
+Finance,11326965.0,2009,Actual,YTD,2009-03-31,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,0.0,2009,Actual,YTD,2009-03-31,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,790855429.0,2009,Actual,YTD,2009-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,40003362.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,51562842.0,2009,Actual,YTD,2009-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,742381.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,5803939.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,6132666.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,285513209.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,381984636.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,16070552.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,104400.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2937442.0,2009,Actual,YTD,2009-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,0.0,2009,Actual,YTD,2009-03-31,Finance: PGW Reimbursement,35-PGW,
+Fire,134502607.0,2009,Actual,YTD,2009-03-31,Fire Department,13,Fire
+First Judicial District,85712117.0,2009,Actual,YTD,2009-03-31,First Judicial District,84,FJD
+Fleet Management,39745592.0,2009,Actual,YTD,2009-03-31,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,5275726.0,2009,Actual,YTD,2009-03-31,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,28900572.0,2009,Actual,YTD,2009-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,262251.0,2009,Actual,YTD,2009-03-31,Historical Commission,32,
+Hero Award,35000.0,2009,Actual,YTD,2009-03-31,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,1484696.0,2009,Actual,YTD,2009-03-31,Commission on Human Relations,54,Human Relations
+Human Services,544080122.0,2009,Actual,YTD,2009-03-31,Department of Human Services,22,DHS
+Indemnities,26966875.0,2009,Actual,YTD,2009-03-31,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",27358269.0,2009,Actual,YTD,2009-03-31,Office of Innovation and Technology,04,OIT
+Labor Relations,384684.0,2009,Actual,YTD,2009-03-31,Labor,03,
+Law,15136565.0,2009,Actual,YTD,2009-03-31,Law Department,44,Law
+Legal Services icl. Defender Association,37338074.0,2009,Actual,YTD,2009-03-31,MDO: Legal Services,10-LS,
+Licenses & Inspections,13694438.0,2009,Actual,YTD,2009-03-31,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,6657798.0,2009,Actual,YTD,2009-03-31,L&I: Demolition,26-D,
+Managing Director (MDO),15411558.0,2009,Actual,YTD,2009-03-31,Managing Director's Office,10,MDO
+Mayor,4739574.0,2009,Actual,YTD,2009-03-31,Mayor's Office,05,Mayor
+Mayor Scholarships,199982.0,2009,Actual,YTD,2009-03-31,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0.0,2009,Actual,YTD,2009-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,397105.0,2009,Actual,YTD,2009-03-31,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,644406.0,2009,Actual,YTD,2009-03-31,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,12722273.0,2009,Actual,YTD,2009-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,3000000.0,2009,Actual,YTD,2009-03-31,Office of Housing and Community Development,06,
+Office of Supportive Housing,37174478.0,2009,Actual,YTD,2009-03-31,Office of Homeless Services,24,OHS
+Personnel,3218127.0,2009,Actual,YTD,2009-03-31,Office of Human Resources,56,OHR
+Police,380374070.0,2009,Actual,YTD,2009-03-31,Police Department,11,Police
+Prisons,200256539.0,2009,Actual,YTD,2009-03-31,Philadelphia Prison System,23,Prisons
+Procurement,3648798.0,2009,Actual,YTD,2009-03-31,Procurement Department,38,Procurement
+Public Health,101408191.0,2009,Actual,YTD,2009-03-31,Department of Public Health,14,Public Health
+Public Property,34114142.0,2009,Actual,YTD,2009-03-31,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,47202000.0,2009,Actual,YTD,2009-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,15565632.0,2009,Actual,YTD,2009-03-31,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,2781977.0,2009,Actual,YTD,2009-03-31,Public Property: Telecommunications,20-T,
+Public Property Utilities,32487748.0,2009,Actual,YTD,2009-03-31,Public Property: Utilities,20-U,
+Records,6003124.0,2009,Actual,YTD,2009-03-31,Department of Records,31,Records
+Recreation,27575115.0,2009,Actual,YTD,2009-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,852.0,2009,Actual,YTD,2009-03-31,Finance: Refunds,35-R,
+Register of Wills,2598746.0,2009,Actual,YTD,2009-03-31,Register of Wills,68,
+Revenue,12223859.0,2009,Actual,YTD,2009-03-31,Department of Revenue,36,Revenue
+Sheriff,11116483.0,2009,Actual,YTD,2009-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),140387979.0,2009,Actual,YTD,2009-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets,23070788.0,2009,Actual,YTD,2009-03-31,Streets Department,12,Streets
+Streets Sanitation,87070955.0,2009,Actual,YTD,2009-03-31,Streets: Sanitation,12-S,
+Witness Fees,89629.0,2009,Actual,YTD,2009-03-31,Finance: Witness Fees,35-WF,
+Youth Commission,28967.0,2009,Actual,YTD,2009-03-31,Youth Commission,47,
+Zoning Board of Adjustment,257817.0,2009,Actual,YTD,2009-03-31,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,231871.0,2009,Actual,YTD,2009-03-31,Zoning Code Commission,57,
+Art Museum Subsidy,3000000.0,2009,Adopted Budget,Full Year,2009-03-31,Art Museum,34,
+Atwater Kent Museum,320000.0,2009,Adopted Budget,Full Year,2009-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),8255248.0,2009,Adopted Budget,Full Year,2009-03-31,City Controller's Office,61,
+Board of Building Standards,112792.0,2009,Adopted Budget,Full Year,2009-03-31,L&I: Board of Building and Standards,29,
+Board of Ethics,1000000.0,2009,Adopted Budget,Full Year,2009-03-31,Board of Ethics,45,
+Board of L & I Review,222458.0,2009,Adopted Budget,Full Year,2009-03-31,L&I: Board of Review,27,
+Board of Revision of Taxes,8611144.0,2009,Adopted Budget,Full Year,2009-03-31,Board of Revision of Taxes,63,BRT
+Camp William Penn,100000.0,2009,Adopted Budget,Full Year,2009-03-31,Camp William Penn,19,
+Capital Program Office,3518636.0,2009,Adopted Budget,Full Year,2009-03-31,Capital Program Office,07,
+City Commissioners (Election Board),8995597.0,2009,Adopted Budget,Full Year,2009-03-31,City Commissioner's Office,73,City Commissioners
+City Council,17832493.0,2009,Adopted Budget,Full Year,2009-03-31,City Council,01,
+City Planning Commission,3328054.0,2009,Adopted Budget,Full Year,2009-03-31,City Planning Commission,51,
+City Representative,5981231.0,2009,Adopted Budget,Full Year,2009-03-31,Office of the City Representative,41,City Rep
+City Treasurer,770304.0,2009,Adopted Budget,Full Year,2009-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,169209.0,2009,Adopted Budget,Full Year,2009-03-31,Civil Service Commission,55,
+Clerk of Quarter Sessions,5017014.0,2009,Adopted Budget,Full Year,2009-03-31,Clerk of Quarter Sessions,64,
+Commerce,1574923.0,2009,Adopted Budget,Full Year,2009-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,2000000.0,2009,Adopted Budget,Full Year,2009-03-31,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,28467924.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,39954522.0,2009,Adopted Budget,Full Year,2009-03-31,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,31987373.0,2009,Adopted Budget,Full Year,2009-03-31,District Attorney's Office,69,DAO
+Fairmount Park,15740540.0,2009,Adopted Budget,Full Year,2009-03-31,Fairmount Park Commission,17,
+Finance,21147823.0,2009,Adopted Budget,Full Year,2009-03-31,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,38490000.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,1004944233.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,50472890.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,69199121.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4425000.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7600000.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,385827854.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,459744000.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,0.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2547968.0,2009,Adopted Budget,Full Year,2009-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,18000000.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: PGW Reimbursement,35-PGW,
+Fire,192693965.0,2009,Adopted Budget,Full Year,2009-03-31,Fire Department,13,Fire
+First Judicial District,114552203.0,2009,Adopted Budget,Full Year,2009-03-31,First Judicial District,84,FJD
+Fleet Management,50083424.0,2009,Adopted Budget,Full Year,2009-03-31,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,13100000.0,2009,Adopted Budget,Full Year,2009-03-31,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,40245065.0,2009,Adopted Budget,Full Year,2009-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,407620.0,2009,Adopted Budget,Full Year,2009-03-31,Historical Commission,32,
+Hero Award,25000.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,2186091.0,2009,Adopted Budget,Full Year,2009-03-31,Commission on Human Relations,54,Human Relations
+Human Services,616308936.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Human Services,22,DHS
+Indemnities,25613915.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",38147598.0,2009,Adopted Budget,Full Year,2009-03-31,Office of Innovation and Technology,04,OIT
+Labor Relations,549350.0,2009,Adopted Budget,Full Year,2009-03-31,Labor,03,
+Law,15848318.0,2009,Adopted Budget,Full Year,2009-03-31,Law Department,44,Law
+Legal Services icl. Defender Association,37506660.0,2009,Adopted Budget,Full Year,2009-03-31,MDO: Legal Services,10-LS,
+Licenses & Inspections,19635668.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,8000000.0,2009,Adopted Budget,Full Year,2009-03-31,L&I: Demolition,26-D,
+Managing Director (MDO),21953914.0,2009,Adopted Budget,Full Year,2009-03-31,Managing Director's Office,10,MDO
+Mayor,7101767.0,2009,Adopted Budget,Full Year,2009-03-31,Mayor's Office,05,Mayor
+Mayor Scholarships,200000.0,2009,Adopted Budget,Full Year,2009-03-31,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0.0,2009,Adopted Budget,Full Year,2009-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,500000.0,2009,Adopted Budget,Full Year,2009-03-31,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1000000.0,2009,Adopted Budget,Full Year,2009-03-31,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,14261952.0,2009,Adopted Budget,Full Year,2009-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,5000000.0,2009,Adopted Budget,Full Year,2009-03-31,Office of Housing and Community Development,06,
+Office of Supportive Housing,40210085.0,2009,Adopted Budget,Full Year,2009-03-31,Office of Homeless Services,24,OHS
+Personnel,4732808.0,2009,Adopted Budget,Full Year,2009-03-31,Office of Human Resources,56,OHR
+Police,524001749.0,2009,Adopted Budget,Full Year,2009-03-31,Police Department,11,Police
+Prisons,230001319.0,2009,Adopted Budget,Full Year,2009-03-31,Philadelphia Prison System,23,Prisons
+Procurement,5222603.0,2009,Adopted Budget,Full Year,2009-03-31,Procurement Department,38,Procurement
+Public Health,122778884.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Public Health,14,Public Health
+Public Property,61742541.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,63077000.0,2009,Adopted Budget,Full Year,2009-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,16543000.0,2009,Adopted Budget,Full Year,2009-03-31,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,3000000.0,2009,Adopted Budget,Full Year,2009-03-31,Public Property: Telecommunications,20-T,
+Public Property Utilities,32490000.0,2009,Adopted Budget,Full Year,2009-03-31,Public Property: Utilities,20-U,
+Records,7679871.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Records,31,Records
+Recreation,40395732.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,250000.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Refunds,35-R,
+Register of Wills,3776976.0,2009,Adopted Budget,Full Year,2009-03-31,Register of Wills,68,
+Revenue,17197437.0,2009,Adopted Budget,Full Year,2009-03-31,Department of Revenue,36,Revenue
+Sheriff,15271619.0,2009,Adopted Budget,Full Year,2009-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),202567604.0,2009,Adopted Budget,Full Year,2009-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets,42520085.0,2009,Adopted Budget,Full Year,2009-03-31,Streets Department,12,Streets
+Streets Sanitation,102572395.0,2009,Adopted Budget,Full Year,2009-03-31,Streets: Sanitation,12-S,
+Witness Fees,171518.0,2009,Adopted Budget,Full Year,2009-03-31,Finance: Witness Fees,35-WF,
+Youth Commission,100000.0,2009,Adopted Budget,Full Year,2009-03-31,Youth Commission,47,
+Zoning Board of Adjustment,445810.0,2009,Adopted Budget,Full Year,2009-03-31,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,500000.0,2009,Adopted Budget,Full Year,2009-03-31,Zoning Code Commission,57,
+Art Museum Subsidy,3000000.0,2009,Target Budget,Full Year,2009-03-31,Art Museum,34,
+Atwater Kent Museum,291300.0,2009,Target Budget,Full Year,2009-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7922786.0,2009,Target Budget,Full Year,2009-03-31,City Controller's Office,61,
+Board of Building Standards,113892.0,2009,Target Budget,Full Year,2009-03-31,L&I: Board of Building and Standards,29,
+Board of Ethics,950000.0,2009,Target Budget,Full Year,2009-03-31,Board of Ethics,45,
+Board of L & I Review,223558.0,2009,Target Budget,Full Year,2009-03-31,L&I: Board of Review,27,
+Board of Revision of Taxes,10034344.0,2009,Target Budget,Full Year,2009-03-31,Board of Revision of Taxes,63,BRT
+Camp William Penn,132000.0,2009,Target Budget,Full Year,2009-03-31,Camp William Penn,19,
+Capital Program Office,3059904.0,2009,Target Budget,Full Year,2009-03-31,Capital Program Office,07,
+City Commissioners (Election Board),9325567.0,2009,Target Budget,Full Year,2009-03-31,City Commissioner's Office,73,City Commissioners
+City Council,16940883.0,2009,Target Budget,Full Year,2009-03-31,City Council,01,
+City Planning Commission,3367654.0,2009,Target Budget,Full Year,2009-03-31,City Planning Commission,51,
+City Representative,5362513.0,2009,Target Budget,Full Year,2009-03-31,Office of the City Representative,41,City Rep
+City Treasurer,776904.0,2009,Target Budget,Full Year,2009-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,170309.0,2009,Target Budget,Full Year,2009-03-31,Civil Service Commission,55,
+Clerk of Quarter Sessions,5289363.0,2009,Target Budget,Full Year,2009-03-31,Clerk of Quarter Sessions,64,
+Commerce,1985318.0,2009,Target Budget,Full Year,2009-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1777500.0,2009,Target Budget,Full Year,2009-03-31,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,26467924.0,2009,Target Budget,Full Year,2009-03-31,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,22652522.0,2009,Target Budget,Full Year,2009-03-31,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,30578149.0,2009,Target Budget,Full Year,2009-03-31,District Attorney's Office,69,DAO
+Fairmount Park,14301487.0,2009,Target Budget,Full Year,2009-03-31,Fairmount Park Commission,17,
+Finance,17325609.0,2009,Target Budget,Full Year,2009-03-31,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,38490000.0,2009,Target Budget,Full Year,2009-03-31,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,965187833.0,2009,Target Budget,Full Year,2009-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,50472890.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,69199121.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4425000.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7600000.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,368777854.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,377961658.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,83103342.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2547968.0,2009,Target Budget,Full Year,2009-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,18000000.0,2009,Target Budget,Full Year,2009-03-31,Finance: PGW Reimbursement,35-PGW,
+Fire,194259154.0,2009,Target Budget,Full Year,2009-03-31,Fire Department,13,Fire
+First Judicial District,108824593.0,2009,Target Budget,Full Year,2009-03-31,First Judicial District,84,FJD
+Fleet Management,48681690.0,2009,Target Budget,Full Year,2009-03-31,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,6275926.0,2009,Target Budget,Full Year,2009-03-31,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,36984508.0,2009,Target Budget,Full Year,2009-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,413120.0,2009,Target Budget,Full Year,2009-03-31,Historical Commission,32,
+Hero Award,30500.0,2009,Target Budget,Full Year,2009-03-31,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,2156791.0,2009,Target Budget,Full Year,2009-03-31,Commission on Human Relations,54,Human Relations
+Human Services,605419669.0,2009,Target Budget,Full Year,2009-03-31,Department of Human Services,22,DHS
+Indemnities,35619915.0,2009,Target Budget,Full Year,2009-03-31,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",37680898.0,2009,Target Budget,Full Year,2009-03-31,Office of Innovation and Technology,04,OIT
+Labor Relations,544350.0,2009,Target Budget,Full Year,2009-03-31,Labor,03,
+Law,20917618.0,2009,Target Budget,Full Year,2009-03-31,Law Department,44,Law
+Legal Services icl. Defender Association,37338074.0,2009,Target Budget,Full Year,2009-03-31,MDO: Legal Services,10-LS,
+Licenses & Inspections,19057561.0,2009,Target Budget,Full Year,2009-03-31,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,8250000.0,2009,Target Budget,Full Year,2009-03-31,L&I: Demolition,26-D,
+Managing Director (MDO),21107020.0,2009,Target Budget,Full Year,2009-03-31,Managing Director's Office,10,MDO
+Mayor,6643727.0,2009,Target Budget,Full Year,2009-03-31,Mayor's Office,05,Mayor
+Mayor Scholarships,200000.0,2009,Target Budget,Full Year,2009-03-31,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0.0,2009,Target Budget,Full Year,2009-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,500000.0,2009,Target Budget,Full Year,2009-03-31,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1000000.0,2009,Target Budget,Full Year,2009-03-31,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,14276252.0,2009,Target Budget,Full Year,2009-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,4000000.0,2009,Target Budget,Full Year,2009-03-31,Office of Housing and Community Development,06,
+Office of Supportive Housing,39650143.0,2009,Target Budget,Full Year,2009-03-31,Office of Homeless Services,24,OHS
+Personnel,4761408.0,2009,Target Budget,Full Year,2009-03-31,Office of Human Resources,56,OHR
+Police,536442088.0,2009,Target Budget,Full Year,2009-03-31,Police Department,11,Police
+Prisons,243458119.0,2009,Target Budget,Full Year,2009-03-31,Philadelphia Prison System,23,Prisons
+Procurement,4762424.0,2009,Target Budget,Full Year,2009-03-31,Procurement Department,38,Procurement
+Public Health,121062235.0,2009,Target Budget,Full Year,2009-03-31,Department of Public Health,14,Public Health
+Public Property,58716329.0,2009,Target Budget,Full Year,2009-03-31,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,63077000.0,2009,Target Budget,Full Year,2009-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,15788554.0,2009,Target Budget,Full Year,2009-03-31,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,2741000.0,2009,Target Budget,Full Year,2009-03-31,Public Property: Telecommunications,20-T,
+Public Property Utilities,32490000.0,2009,Target Budget,Full Year,2009-03-31,Public Property: Utilities,20-U,
+Records,6952884.0,2009,Target Budget,Full Year,2009-03-31,Department of Records,31,Records
+Recreation,38714869.0,2009,Target Budget,Full Year,2009-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,244500.0,2009,Target Budget,Full Year,2009-03-31,Finance: Refunds,35-R,
+Register of Wills,3588127.0,2009,Target Budget,Full Year,2009-03-31,Register of Wills,68,
+Revenue,17398570.0,2009,Target Budget,Full Year,2009-03-31,Department of Revenue,36,Revenue
+Sheriff,15220138.0,2009,Target Budget,Full Year,2009-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),199866010.0,2009,Target Budget,Full Year,2009-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets,32355385.0,2009,Target Budget,Full Year,2009-03-31,Streets Department,12,Streets
+Streets Sanitation,100832895.0,2009,Target Budget,Full Year,2009-03-31,Streets: Sanitation,12-S,
+Witness Fees,171518.0,2009,Target Budget,Full Year,2009-03-31,Finance: Witness Fees,35-WF,
+Youth Commission,100000.0,2009,Target Budget,Full Year,2009-03-31,Youth Commission,47,
+Zoning Board of Adjustment,449110.0,2009,Target Budget,Full Year,2009-03-31,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,500000.0,2009,Target Budget,Full Year,2009-03-31,Zoning Code Commission,57,
+Art Museum Subsidy,3000000.0,2009,Current Projection,Full Year,2009-03-31,Art Museum,34,
+Atwater Kent Museum,291300.0,2009,Current Projection,Full Year,2009-03-31,Atwater Kent Museum,18,Atwater Kent
+Auditing (City Controller's Office),7922786.0,2009,Current Projection,Full Year,2009-03-31,City Controller's Office,61,
+Board of Building Standards,113892.0,2009,Current Projection,Full Year,2009-03-31,L&I: Board of Building and Standards,29,
+Board of Ethics,950000.0,2009,Current Projection,Full Year,2009-03-31,Board of Ethics,45,
+Board of L & I Review,223558.0,2009,Current Projection,Full Year,2009-03-31,L&I: Board of Review,27,
+Board of Revision of Taxes,10034344.0,2009,Current Projection,Full Year,2009-03-31,Board of Revision of Taxes,63,BRT
+Camp William Penn,132000.0,2009,Current Projection,Full Year,2009-03-31,Camp William Penn,19,
+Capital Program Office,3059904.0,2009,Current Projection,Full Year,2009-03-31,Capital Program Office,07,
+City Commissioners (Election Board),9325567.0,2009,Current Projection,Full Year,2009-03-31,City Commissioner's Office,73,City Commissioners
+City Council,16940883.0,2009,Current Projection,Full Year,2009-03-31,City Council,01,
+City Planning Commission,3367654.0,2009,Current Projection,Full Year,2009-03-31,City Planning Commission,51,
+City Representative,5362513.0,2009,Current Projection,Full Year,2009-03-31,Office of the City Representative,41,City Rep
+City Treasurer,776904.0,2009,Current Projection,Full Year,2009-03-31,Office of the City Treasurer,40,City Treasurer
+Civil Service Commission,170309.0,2009,Current Projection,Full Year,2009-03-31,Civil Service Commission,55,
+Clerk of Quarter Sessions,5289363.0,2009,Current Projection,Full Year,2009-03-31,Clerk of Quarter Sessions,64,
+Commerce,1985318.0,2009,Current Projection,Full Year,2009-03-31,Office of the Director of Commerce,42,Commerce
+Commerce-Economic Stimulus,1777500.0,2009,Current Projection,Full Year,2009-03-31,Commerce: Economic Stimulus,42-ES,
+Community College Subsidy,26467924.0,2009,Current Projection,Full Year,2009-03-31,Finance: Community College Subsidy,35-CC,
+Convention Center Subsidy,22652522.0,2009,Current Projection,Full Year,2009-03-31,Commerce: Convention Center Subsidy,42-CC,
+District Attorney,30578149.0,2009,Current Projection,Full Year,2009-03-31,District Attorney's Office,69,DAO
+Fairmount Park,14301487.0,2009,Current Projection,Full Year,2009-03-31,Fairmount Park Commission,17,
+Finance,17325609.0,2009,Current Projection,Full Year,2009-03-31,Office of the Director of Finance,35,Finance
+Finance Contribution to the School District,38490000.0,2009,Current Projection,Full Year,2009-03-31,Finance: School District Contribution,35-SD,
+Finance Employee Benefits,965187833.0,2009,Current Projection,Full Year,2009-03-31,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Employee Disability,50472890.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: FICA,69199121.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,1000000.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Group Legal,4425000.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Group Life Insurance,7600000.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Health / Medical,368777854.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Pension,377961658.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension Obligation Bonds,83103342.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Tool Allowance,100000.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Tool Allowance,35-EB-TA,
+Employee Benefits: Unemployment Compensation,2547968.0,2009,Current Projection,Full Year,2009-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Finance PGW Rental Reimbursement,18000000.0,2009,Current Projection,Full Year,2009-03-31,Finance: PGW Reimbursement,35-PGW,
+Fire,194259154.0,2009,Current Projection,Full Year,2009-03-31,Fire Department,13,Fire
+First Judicial District,108824593.0,2009,Current Projection,Full Year,2009-03-31,First Judicial District,84,FJD
+Fleet Management,48681690.0,2009,Current Projection,Full Year,2009-03-31,Office of Fleet Management,25,Fleet
+Fleet Management Vehicle Purchases,6275926.0,2009,Current Projection,Full Year,2009-03-31,Fleet: Vehicle Lease/Purchases,25-V,
+Free Library,36984508.0,2009,Current Projection,Full Year,2009-03-31,The Free Library of Philadelphia,52,Free Library
+Historical Commission,413120.0,2009,Current Projection,Full Year,2009-03-31,Historical Commission,32,
+Hero Award,30500.0,2009,Current Projection,Full Year,2009-03-31,Finance: Hero Scholarship Awards,35-HA,
+Human Relations Commission,2156791.0,2009,Current Projection,Full Year,2009-03-31,Commission on Human Relations,54,Human Relations
+Human Services,605419669.0,2009,Current Projection,Full Year,2009-03-31,Department of Human Services,22,DHS
+Indemnities,35619915.0,2009,Current Projection,Full Year,2009-03-31,Finance: Indemnities,35-IN,
+"Information Services, Mayor's Office of",37680898.0,2009,Current Projection,Full Year,2009-03-31,Office of Innovation and Technology,04,OIT
+Labor Relations,544350.0,2009,Current Projection,Full Year,2009-03-31,Labor,03,
+Law,20917618.0,2009,Current Projection,Full Year,2009-03-31,Law Department,44,Law
+Legal Services icl. Defender Association,37338074.0,2009,Current Projection,Full Year,2009-03-31,MDO: Legal Services,10-LS,
+Licenses & Inspections,19057561.0,2009,Current Projection,Full Year,2009-03-31,Department of Licenses and Inspections,26,L&I
+Licenses & Inspections Demolitions,8250000.0,2009,Current Projection,Full Year,2009-03-31,L&I: Demolition,26-D,
+Managing Director (MDO),21107020.0,2009,Current Projection,Full Year,2009-03-31,Managing Director's Office,10,MDO
+Mayor,6643727.0,2009,Current Projection,Full Year,2009-03-31,Mayor's Office,05,Mayor
+Mayor Scholarships,200000.0,2009,Current Projection,Full Year,2009-03-31,Mayor's Office: Scholarships,05-S,
+Mayor's Office of Community Services,0.0,2009,Current Projection,Full Year,2009-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO
+Mayor's Office of Transportation,500000.0,2009,Current Projection,Full Year,2009-03-31,Mayor's Office of Transportation and Utilities,46,
+Mural Arts Program,1000000.0,2009,Current Projection,Full Year,2009-03-31,Mural Arts Program,50,Mural Arts
+Off. of Behavioral Hith./Mental Retard. Svcs.,14276252.0,2009,Current Projection,Full Year,2009-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS
+Office of Housing and Comm. Developmt.,4000000.0,2009,Current Projection,Full Year,2009-03-31,Office of Housing and Community Development,06,
+Office of Supportive Housing,39650143.0,2009,Current Projection,Full Year,2009-03-31,Office of Homeless Services,24,OHS
+Personnel,4761408.0,2009,Current Projection,Full Year,2009-03-31,Office of Human Resources,56,OHR
+Police,536442088.0,2009,Current Projection,Full Year,2009-03-31,Police Department,11,Police
+Prisons,243458119.0,2009,Current Projection,Full Year,2009-03-31,Philadelphia Prison System,23,Prisons
+Procurement,4762424.0,2009,Current Projection,Full Year,2009-03-31,Procurement Department,38,Procurement
+Public Health,121062235.0,2009,Current Projection,Full Year,2009-03-31,Department of Public Health,14,Public Health
+Public Property,58716329.0,2009,Current Projection,Full Year,2009-03-31,Department of Public Property,20,Public Property
+Public Property SEPTA Subsidy,63077000.0,2009,Current Projection,Full Year,2009-03-31,Public Property: SEPTA Subsidy,20-SS,
+Public Property Space Rentais,15788554.0,2009,Current Projection,Full Year,2009-03-31,Public Property: Space Rentals,20-SR,
+Public Property Telecommunications,2741000.0,2009,Current Projection,Full Year,2009-03-31,Public Property: Telecommunications,20-T,
+Public Property Utilities,32490000.0,2009,Current Projection,Full Year,2009-03-31,Public Property: Utilities,20-U,
+Records,6952884.0,2009,Current Projection,Full Year,2009-03-31,Department of Records,31,Records
+Recreation,38714869.0,2009,Current Projection,Full Year,2009-03-31,Department of Parks and Recreation,16,Parks & Recreation
+Refunds,244500.0,2009,Current Projection,Full Year,2009-03-31,Finance: Refunds,35-R,
+Register of Wills,3588127.0,2009,Current Projection,Full Year,2009-03-31,Register of Wills,68,
+Revenue,17398570.0,2009,Current Projection,Full Year,2009-03-31,Department of Revenue,36,Revenue
+Sheriff,15220138.0,2009,Current Projection,Full Year,2009-03-31,Office of the Sheriff,70,Sheriff
+Sinking Fund (Debt Service),199866010.0,2009,Current Projection,Full Year,2009-03-31,Sinking Fund Commission,37,Sinking Fund
+Streets,32355385.0,2009,Current Projection,Full Year,2009-03-31,Streets Department,12,Streets
+Streets Sanitation,100832895.0,2009,Current Projection,Full Year,2009-03-31,Streets: Sanitation,12-S,
+Witness Fees,171518.0,2009,Current Projection,Full Year,2009-03-31,Finance: Witness Fees,35-WF,
+Youth Commission,100000.0,2009,Current Projection,Full Year,2009-03-31,Youth Commission,47,
+Zoning Board of Adjustment,449110.0,2009,Current Projection,Full Year,2009-03-31,Zoning Board of Adjustments,30,ZBA
+Zoning Code Commission,500000.0,2009,Current Projection,Full Year,2009-03-31,Zoning Code Commission,57,

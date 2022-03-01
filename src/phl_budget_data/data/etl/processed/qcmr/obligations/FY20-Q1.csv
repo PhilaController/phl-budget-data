@@ -10,24 +10,36 @@ City Representative,1034100,2019,Actual,Full Year,2019-06-30,Office of the City 
 City Treasurer,1652411,2019,Actual,Full Year,2019-06-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,198497,2019,Actual,Full Year,2019-06-30,Civil Service Commission,55,
 Commerce,7340303,2019,Actual,Full Year,2019-06-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2019,Actual,Full Year,2019-06-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,21242883,2019,Actual,Full Year,2019-06-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2019,Actual,Full Year,2019-06-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,21242883,2019,Actual,Full Year,2019-06-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,42281095,2019,Actual,Full Year,2019-06-30,District Attorney's Office,69,DAO
 Finance,118448910,2019,Actual,Full Year,2019-06-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,20000000,2019,Actual,Full Year,2019-06-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,2413758,2019,Actual,Full Year,2019-06-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,0,2019,Actual,Full Year,2019-06-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,32409207,2019,Actual,Full Year,2019-06-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,1371066396,2019,Actual,Full Year,2019-06-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,0,2019,Actual,Full Year,2019-06-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,0,2019,Actual,Full Year,2019-06-30,Finance: Indemnities,35IN,
-Finance-Refunds,18667,2019,Actual,Full Year,2019-06-30,Finance: Refunds,35R,
-Finance-School District Contribution,180870541,2019,Actual,Full Year,2019-06-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,98988,2019,Actual,Full Year,2019-06-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,20000000,2019,Actual,Full Year,2019-06-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,2413758,2019,Actual,Full Year,2019-06-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,0,2019,Actual,Full Year,2019-06-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,32409207,2019,Actual,Full Year,2019-06-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,1371066396,2019,Actual,Full Year,2019-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,2874875,2019,Actual,Full Year,2019-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,63572955,2019,Actual,Full Year,2019-06-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,109793658,2019,Actual,Full Year,2019-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,590415269,2019,Actual,Full Year,2019-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,52099331,2019,Actual,Full Year,2019-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,239048,2019,Actual,Full Year,2019-06-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,81838789,2019,Actual,Full Year,2019-06-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,623539,2019,Actual,Full Year,2019-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,457038668,2019,Actual,Full Year,2019-06-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,7034330,2019,Actual,Full Year,2019-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,5427259,2019,Actual,Full Year,2019-06-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,108675,2019,Actual,Full Year,2019-06-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,0,2019,Actual,Full Year,2019-06-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,0,2019,Actual,Full Year,2019-06-30,Finance: Indemnities,35-IN,
+Finance-Refunds,18667,2019,Actual,Full Year,2019-06-30,Finance: Refunds,35-R,
+Finance-School District Contribution,180870541,2019,Actual,Full Year,2019-06-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,98988,2019,Actual,Full Year,2019-06-30,Finance: Witness Fees,35-WF,
 Fire,309671593,2019,Actual,Full Year,2019-06-30,Fire Department,13,Fire
 First Judicial District,113236838,2019,Actual,Full Year,2019-06-30,First Judicial District,84,FJD
 Fleet Management,47005990,2019,Actual,Full Year,2019-06-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,17297617,2019,Actual,Full Year,2019-06-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,17297617,2019,Actual,Full Year,2019-06-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,42596496,2019,Actual,Full Year,2019-06-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,2127256,2019,Actual,Full Year,2019-06-30,Commission on Human Relations,54,Human Relations
 Human Services,107447455,2019,Actual,Full Year,2019-06-30,Department of Human Services,22,DHS
@@ -37,9 +49,9 @@ Licenses & Inspections,38311706,2019,Actual,Full Year,2019-06-30,Department of L
 L&I-Board of Building Standards,83562,2019,Actual,Full Year,2019-06-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,139997,2019,Actual,Full Year,2019-06-30,L&I: Board of Review,27,
 Managing Director's Office,45304925,2019,Actual,Full Year,2019-06-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,51574391,2019,Actual,Full Year,2019-06-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,51574391,2019,Actual,Full Year,2019-06-30,MDO: Legal Services,10-LS,
 Mayor's Office,5435738,2019,Actual,Full Year,2019-06-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,181000,2019,Actual,Full Year,2019-06-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,181000,2019,Actual,Full Year,2019-06-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,88250,2019,Actual,Full Year,2019-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2367227,2019,Actual,Full Year,2019-06-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,4310450,2019,Actual,Full Year,2019-06-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -49,7 +61,7 @@ Office of Education,26141449,2019,Actual,Full Year,2019-06-30,Office of Children
 Office of Homeless Services,56769589,2019,Actual,Full Year,2019-06-30,Office of Homeless Services,24,OHS
 Office of Human Resources,5695053,2019,Actual,Full Year,2019-06-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,65709411,2019,Actual,Full Year,2019-06-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,12895463,2019,Actual,Full Year,2019-06-30,OIT: 911,04911,
+Office of Innovation and Technology-911,12895463,2019,Actual,Full Year,2019-06-30,OIT: 911,04-911,
 Office of the Inspector General,1513853,2019,Actual,Full Year,2019-06-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,13934797,2019,Actual,Full Year,2019-06-30,Office of Property Assessment,59,OPA
 Office of Sustainability,955678,2019,Actual,Full Year,2019-06-30,Office of Sustainability,49,Sustainability
@@ -60,15 +72,15 @@ Prisons,237042656,2019,Actual,Full Year,2019-06-30,Philadelphia Prison System,23
 Procurement,5025883,2019,Actual,Full Year,2019-06-30,Procurement Department,38,Procurement
 Public Health,142683666,2019,Actual,Full Year,2019-06-30,Department of Public Health,14,Public Health
 Public Property,71552535,2019,Actual,Full Year,2019-06-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,84608000,2019,Actual,Full Year,2019-06-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,20912273,2019,Actual,Full Year,2019-06-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,25108810,2019,Actual,Full Year,2019-06-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,84608000,2019,Actual,Full Year,2019-06-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,20912273,2019,Actual,Full Year,2019-06-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,25108810,2019,Actual,Full Year,2019-06-30,Public Property: Utilities,20-U,
 Records,4381749,2019,Actual,Full Year,2019-06-30,Department of Records,31,Records
 Register of Wills,4369231,2019,Actual,Full Year,2019-06-30,Register of Wills,68,
 Revenue,31623367,2019,Actual,Full Year,2019-06-30,Department of Revenue,36,Revenue
 Sheriff,29153258,2019,Actual,Full Year,2019-06-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),256995453,2019,Actual,Full Year,2019-06-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,47536717,2019,Actual,Full Year,2019-06-30,Streets: Disposal,12D,
+Streets-Disposal,47536717,2019,Actual,Full Year,2019-06-30,Streets: Disposal,12-D,
 Streets,111934458,2019,Actual,Full Year,2019-06-30,Streets Department,12,Streets
 Art Museum Subsidy,1275000,2020,Target Budget,YTD,2019-09-30,Art Museum,34,
 Atwater Kent Museum,0,2020,Target Budget,YTD,2019-09-30,Atwater Kent Museum,18,Atwater Kent
@@ -81,24 +93,36 @@ City Representative,630246,2020,Target Budget,YTD,2019-09-30,Office of the City 
 City Treasurer,773457,2020,Target Budget,YTD,2019-09-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,109166,2020,Target Budget,YTD,2019-09-30,Civil Service Commission,55,
 Commerce,6696129,2020,Target Budget,YTD,2019-09-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2020,Target Budget,YTD,2019-09-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,7671624,2020,Target Budget,YTD,2019-09-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2020,Target Budget,YTD,2019-09-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,7671624,2020,Target Budget,YTD,2019-09-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,20960602,2020,Target Budget,YTD,2019-09-30,District Attorney's Office,69,DAO
 Finance,20271067,2020,Target Budget,YTD,2019-09-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,34276000,2020,Target Budget,YTD,2019-09-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,514509,2020,Target Budget,YTD,2019-09-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,0,2020,Target Budget,YTD,2019-09-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,26931905,2020,Target Budget,YTD,2019-09-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,408795615,2020,Target Budget,YTD,2019-09-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,0,2020,Target Budget,YTD,2019-09-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,26243955,2020,Target Budget,YTD,2019-09-30,Finance: Indemnities,35IN,
-Finance-Refunds,7878,2020,Target Budget,YTD,2019-09-30,Finance: Refunds,35R,
-Finance-School District Contribution,111228205,2020,Target Budget,YTD,2019-09-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,57866,2020,Target Budget,YTD,2019-09-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,34276000,2020,Target Budget,YTD,2019-09-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,514509,2020,Target Budget,YTD,2019-09-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,0,2020,Target Budget,YTD,2019-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,26931905,2020,Target Budget,YTD,2019-09-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,408795615,2020,Target Budget,YTD,2019-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,1423998,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,36918341,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,18572783,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,79211105,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,0,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,0,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,36589456,2020,Target Budget,YTD,2019-09-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,0,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,229656094,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,4282649,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,2108564,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,32625,2020,Target Budget,YTD,2019-09-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,0,2020,Target Budget,YTD,2019-09-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,26243955,2020,Target Budget,YTD,2019-09-30,Finance: Indemnities,35-IN,
+Finance-Refunds,7878,2020,Target Budget,YTD,2019-09-30,Finance: Refunds,35-R,
+Finance-School District Contribution,111228205,2020,Target Budget,YTD,2019-09-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,57866,2020,Target Budget,YTD,2019-09-30,Finance: Witness Fees,35-WF,
 Fire,149566017,2020,Target Budget,YTD,2019-09-30,Fire Department,13,Fire
 First Judicial District,52107259,2020,Target Budget,YTD,2019-09-30,First Judicial District,84,FJD
 Fleet Management,23264147,2020,Target Budget,YTD,2019-09-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,15558969,2020,Target Budget,YTD,2019-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,15558969,2020,Target Budget,YTD,2019-09-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,23117252,2020,Target Budget,YTD,2019-09-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,1062605,2020,Target Budget,YTD,2019-09-30,Commission on Human Relations,54,Human Relations
 Human Services,88935761,2020,Target Budget,YTD,2019-09-30,Department of Human Services,22,DHS
@@ -108,9 +132,9 @@ Licenses & Inspections,18199377,2020,Target Budget,YTD,2019-09-30,Department of 
 L&I-Board of Building Standards,38719,2020,Target Budget,YTD,2019-09-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,60840,2020,Target Budget,YTD,2019-09-30,L&I: Board of Review,27,
 Managing Director's Office,27979010,2020,Target Budget,YTD,2019-09-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,50937941,2020,Target Budget,YTD,2019-09-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,50937941,2020,Target Budget,YTD,2019-09-30,MDO: Legal Services,10-LS,
 Mayor's Office,2958355,2020,Target Budget,YTD,2019-09-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2020,Target Budget,YTD,2019-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2020,Target Budget,YTD,2019-09-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,0,2020,Target Budget,YTD,2019-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2153670,2020,Target Budget,YTD,2019-09-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,3639711,2020,Target Budget,YTD,2019-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -120,7 +144,7 @@ Office of Education,36968250,2020,Target Budget,YTD,2019-09-30,Office of Childre
 Office of Homeless Services,52353192,2020,Target Budget,YTD,2019-09-30,Office of Homeless Services,24,OHS
 Office of Human Resources,2933620,2020,Target Budget,YTD,2019-09-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,37341101,2020,Target Budget,YTD,2019-09-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,8890879,2020,Target Budget,YTD,2019-09-30,OIT: 911,04911,
+Office of Innovation and Technology-911,8890879,2020,Target Budget,YTD,2019-09-30,OIT: 911,04-911,
 Office of the Inspector General,731550,2020,Target Budget,YTD,2019-09-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,6899055,2020,Target Budget,YTD,2019-09-30,Office of Property Assessment,59,OPA
 Office of Sustainability,579148,2020,Target Budget,YTD,2019-09-30,Office of Sustainability,49,Sustainability
@@ -131,15 +155,15 @@ Prisons,152915892,2020,Target Budget,YTD,2019-09-30,Philadelphia Prison System,2
 Procurement,3256719,2020,Target Budget,YTD,2019-09-30,Procurement Department,38,Procurement
 Public Health,87135156,2020,Target Budget,YTD,2019-09-30,Department of Public Health,14,Public Health
 Public Property,33022798,2020,Target Budget,YTD,2019-09-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,43145000,2020,Target Budget,YTD,2019-09-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,24493782,2020,Target Budget,YTD,2019-09-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,16589302,2020,Target Budget,YTD,2019-09-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,43145000,2020,Target Budget,YTD,2019-09-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,24493782,2020,Target Budget,YTD,2019-09-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,16589302,2020,Target Budget,YTD,2019-09-30,Public Property: Utilities,20-U,
 Records,2207445,2020,Target Budget,YTD,2019-09-30,Department of Records,31,Records
 Register of Wills,2265609,2020,Target Budget,YTD,2019-09-30,Register of Wills,68,
 Revenue,15395597,2020,Target Budget,YTD,2019-09-30,Department of Revenue,36,Revenue
 Sheriff,14187960,2020,Target Budget,YTD,2019-09-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),186259635,2020,Target Budget,YTD,2019-09-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,39559273,2020,Target Budget,YTD,2019-09-30,Streets: Disposal,12D,
+Streets-Disposal,39559273,2020,Target Budget,YTD,2019-09-30,Streets: Disposal,12-D,
 Streets,46106206,2020,Target Budget,YTD,2019-09-30,Streets Department,12,Streets
 Art Museum Subsidy,1275000,2020,Actual,YTD,2019-09-30,Art Museum,34,
 Atwater Kent Museum,0,2020,Actual,YTD,2019-09-30,Atwater Kent Museum,18,Atwater Kent
@@ -152,24 +176,36 @@ City Representative,630246,2020,Actual,YTD,2019-09-30,Office of the City Represe
 City Treasurer,773457,2020,Actual,YTD,2019-09-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,109166,2020,Actual,YTD,2019-09-30,Civil Service Commission,55,
 Commerce,6696129,2020,Actual,YTD,2019-09-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2020,Actual,YTD,2019-09-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,7671624,2020,Actual,YTD,2019-09-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2020,Actual,YTD,2019-09-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,7671624,2020,Actual,YTD,2019-09-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,20960602,2020,Actual,YTD,2019-09-30,District Attorney's Office,69,DAO
 Finance,20271067,2020,Actual,YTD,2019-09-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,34276000,2020,Actual,YTD,2019-09-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,514509,2020,Actual,YTD,2019-09-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,0,2020,Actual,YTD,2019-09-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,26931905,2020,Actual,YTD,2019-09-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,408795615,2020,Actual,YTD,2019-09-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,0,2020,Actual,YTD,2019-09-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,26243955,2020,Actual,YTD,2019-09-30,Finance: Indemnities,35IN,
-Finance-Refunds,7878,2020,Actual,YTD,2019-09-30,Finance: Refunds,35R,
-Finance-School District Contribution,111228205,2020,Actual,YTD,2019-09-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,57866,2020,Actual,YTD,2019-09-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,34276000,2020,Actual,YTD,2019-09-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,514509,2020,Actual,YTD,2019-09-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,0,2020,Actual,YTD,2019-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,26931905,2020,Actual,YTD,2019-09-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,408795615,2020,Actual,YTD,2019-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,1423998,2020,Actual,YTD,2019-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,36918341,2020,Actual,YTD,2019-09-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,18572783,2020,Actual,YTD,2019-09-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,79211105,2020,Actual,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,0,2020,Actual,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,0,2020,Actual,YTD,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,36589456,2020,Actual,YTD,2019-09-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,0,2020,Actual,YTD,2019-09-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,229656094,2020,Actual,YTD,2019-09-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,4282649,2020,Actual,YTD,2019-09-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,2108564,2020,Actual,YTD,2019-09-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,32625,2020,Actual,YTD,2019-09-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,0,2020,Actual,YTD,2019-09-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,26243955,2020,Actual,YTD,2019-09-30,Finance: Indemnities,35-IN,
+Finance-Refunds,7878,2020,Actual,YTD,2019-09-30,Finance: Refunds,35-R,
+Finance-School District Contribution,111228205,2020,Actual,YTD,2019-09-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,57866,2020,Actual,YTD,2019-09-30,Finance: Witness Fees,35-WF,
 Fire,149566017,2020,Actual,YTD,2019-09-30,Fire Department,13,Fire
 First Judicial District,52107259,2020,Actual,YTD,2019-09-30,First Judicial District,84,FJD
 Fleet Management,23264147,2020,Actual,YTD,2019-09-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,15558969,2020,Actual,YTD,2019-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,15558969,2020,Actual,YTD,2019-09-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,23117252,2020,Actual,YTD,2019-09-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,1062605,2020,Actual,YTD,2019-09-30,Commission on Human Relations,54,Human Relations
 Human Services,88935761,2020,Actual,YTD,2019-09-30,Department of Human Services,22,DHS
@@ -179,9 +215,9 @@ Licenses & Inspections,18199377,2020,Actual,YTD,2019-09-30,Department of License
 L&I-Board of Building Standards,38719,2020,Actual,YTD,2019-09-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,60840,2020,Actual,YTD,2019-09-30,L&I: Board of Review,27,
 Managing Director's Office,27979010,2020,Actual,YTD,2019-09-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,50937941,2020,Actual,YTD,2019-09-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,50937941,2020,Actual,YTD,2019-09-30,MDO: Legal Services,10-LS,
 Mayor's Office,2958355,2020,Actual,YTD,2019-09-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2020,Actual,YTD,2019-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2020,Actual,YTD,2019-09-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,0,2020,Actual,YTD,2019-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2153670,2020,Actual,YTD,2019-09-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,3639711,2020,Actual,YTD,2019-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -191,7 +227,7 @@ Office of Education,36968250,2020,Actual,YTD,2019-09-30,Office of Children and F
 Office of Homeless Services,52353192,2020,Actual,YTD,2019-09-30,Office of Homeless Services,24,OHS
 Office of Human Resources,2933620,2020,Actual,YTD,2019-09-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,37341101,2020,Actual,YTD,2019-09-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,8890879,2020,Actual,YTD,2019-09-30,OIT: 911,04911,
+Office of Innovation and Technology-911,8890879,2020,Actual,YTD,2019-09-30,OIT: 911,04-911,
 Office of the Inspector General,731550,2020,Actual,YTD,2019-09-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,6899055,2020,Actual,YTD,2019-09-30,Office of Property Assessment,59,OPA
 Office of Sustainability,579148,2020,Actual,YTD,2019-09-30,Office of Sustainability,49,Sustainability
@@ -202,15 +238,15 @@ Prisons,152915892,2020,Actual,YTD,2019-09-30,Philadelphia Prison System,23,Priso
 Procurement,3256719,2020,Actual,YTD,2019-09-30,Procurement Department,38,Procurement
 Public Health,87135156,2020,Actual,YTD,2019-09-30,Department of Public Health,14,Public Health
 Public Property,33022798,2020,Actual,YTD,2019-09-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,43145000,2020,Actual,YTD,2019-09-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,24493782,2020,Actual,YTD,2019-09-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,16589302,2020,Actual,YTD,2019-09-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,43145000,2020,Actual,YTD,2019-09-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,24493782,2020,Actual,YTD,2019-09-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,16589302,2020,Actual,YTD,2019-09-30,Public Property: Utilities,20-U,
 Records,2207445,2020,Actual,YTD,2019-09-30,Department of Records,31,Records
 Register of Wills,2265609,2020,Actual,YTD,2019-09-30,Register of Wills,68,
 Revenue,15395597,2020,Actual,YTD,2019-09-30,Department of Revenue,36,Revenue
 Sheriff,14187960,2020,Actual,YTD,2019-09-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),186259635,2020,Actual,YTD,2019-09-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,39559273,2020,Actual,YTD,2019-09-30,Streets: Disposal,12D,
+Streets-Disposal,39559273,2020,Actual,YTD,2019-09-30,Streets: Disposal,12-D,
 Streets,46106206,2020,Actual,YTD,2019-09-30,Streets Department,12,Streets
 Art Museum Subsidy,2550000,2020,Adopted Budget,Full Year,2019-09-30,Art Museum,34,
 Atwater Kent Museum,0,2020,Adopted Budget,Full Year,2019-09-30,Atwater Kent Museum,18,Atwater Kent
@@ -223,24 +259,36 @@ City Representative,1249695,2020,Adopted Budget,Full Year,2019-09-30,Office of t
 City Treasurer,1483167,2020,Adopted Budget,Full Year,2019-09-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,204935,2020,Adopted Budget,Full Year,2019-09-30,Civil Service Commission,55,
 Commerce,9851361,2020,Adopted Budget,Full Year,2019-09-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2020,Adopted Budget,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,7671624,2020,Adopted Budget,Full Year,2019-09-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2020,Adopted Budget,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,7671624,2020,Adopted Budget,Full Year,2019-09-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,38908536,2020,Adopted Budget,Full Year,2019-09-30,District Attorney's Office,69,DAO
 Finance,45227334,2020,Adopted Budget,Full Year,2019-09-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,34276000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,2650000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,55108000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,33759207,2020,Adopted Budget,Full Year,2019-09-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,1411963002,2020,Adopted Budget,Full Year,2019-09-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,49246000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Refunds,35R,
-Finance-School District Contribution,222456410,2020,Adopted Budget,Full Year,2019-09-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2020,Adopted Budget,Full Year,2019-09-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,34276000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,55108000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,33759207,2020,Adopted Budget,Full Year,2019-09-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,1411963002,2020,Adopted Budget,Full Year,2019-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4080260,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,69844607,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,110158479,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,584663838,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,53928969,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,300000,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,84546988,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,489978550,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8465202,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,5049842,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2020,Adopted Budget,Full Year,2019-09-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,49246000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2020,Adopted Budget,Full Year,2019-09-30,Finance: Refunds,35-R,
+Finance-School District Contribution,222456410,2020,Adopted Budget,Full Year,2019-09-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2020,Adopted Budget,Full Year,2019-09-30,Finance: Witness Fees,35-WF,
 Fire,298549278,2020,Adopted Budget,Full Year,2019-09-30,Fire Department,13,Fire
 First Judicial District,115503975,2020,Adopted Budget,Full Year,2019-09-30,First Judicial District,84,FJD
 Fleet Management,50114034,2020,Adopted Budget,Full Year,2019-09-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,17286549,2020,Adopted Budget,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,17286549,2020,Adopted Budget,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,45760383,2020,Adopted Budget,Full Year,2019-09-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,2386402,2020,Adopted Budget,Full Year,2019-09-30,Commission on Human Relations,54,Human Relations
 Human Services,118965013,2020,Adopted Budget,Full Year,2019-09-30,Department of Human Services,22,DHS
@@ -250,9 +298,9 @@ Licenses & Inspections,41282551,2020,Adopted Budget,Full Year,2019-09-30,Departm
 L&I-Board of Building Standards,80366,2020,Adopted Budget,Full Year,2019-09-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,173870,2020,Adopted Budget,Full Year,2019-09-30,L&I: Board of Review,27,
 Managing Director's Office,55280720,2020,Adopted Budget,Full Year,2019-09-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,50938541,2020,Adopted Budget,Full Year,2019-09-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,50938541,2020,Adopted Budget,Full Year,2019-09-30,MDO: Legal Services,10-LS,
 Mayor's Office,6113633,2020,Adopted Budget,Full Year,2019-09-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2020,Adopted Budget,Full Year,2019-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2020,Adopted Budget,Full Year,2019-09-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,90000,2020,Adopted Budget,Full Year,2019-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2499602,2020,Adopted Budget,Full Year,2019-09-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,4098002,2020,Adopted Budget,Full Year,2019-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -262,7 +310,7 @@ Office of Education,45350014,2020,Adopted Budget,Full Year,2019-09-30,Office of 
 Office of Homeless Services,59945719,2020,Adopted Budget,Full Year,2019-09-30,Office of Homeless Services,24,OHS
 Office of Human Resources,6874287,2020,Adopted Budget,Full Year,2019-09-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,71198539,2020,Adopted Budget,Full Year,2019-09-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,41235086,2020,Adopted Budget,Full Year,2019-09-30,OIT: 911,04911,
+Office of Innovation and Technology-911,41235086,2020,Adopted Budget,Full Year,2019-09-30,OIT: 911,04-911,
 Office of the Inspector General,1680441,2020,Adopted Budget,Full Year,2019-09-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,17318408,2020,Adopted Budget,Full Year,2019-09-30,Office of Property Assessment,59,OPA
 Office of Sustainability,1213258,2020,Adopted Budget,Full Year,2019-09-30,Office of Sustainability,49,Sustainability
@@ -273,15 +321,15 @@ Prisons,238183523,2020,Adopted Budget,Full Year,2019-09-30,Philadelphia Prison S
 Procurement,5674563,2020,Adopted Budget,Full Year,2019-09-30,Procurement Department,38,Procurement
 Public Health,160572140,2020,Adopted Budget,Full Year,2019-09-30,Department of Public Health,14,Public Health
 Public Property,68691597,2020,Adopted Budget,Full Year,2019-09-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,87556000,2020,Adopted Budget,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,26278677,2020,Adopted Budget,Full Year,2019-09-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,27393339,2020,Adopted Budget,Full Year,2019-09-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,87556000,2020,Adopted Budget,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,26278677,2020,Adopted Budget,Full Year,2019-09-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,27393339,2020,Adopted Budget,Full Year,2019-09-30,Public Property: Utilities,20-U,
 Records,4910278,2020,Adopted Budget,Full Year,2019-09-30,Department of Records,31,Records
 Register of Wills,4551645,2020,Adopted Budget,Full Year,2019-09-30,Register of Wills,68,
 Revenue,32879233,2020,Adopted Budget,Full Year,2019-09-30,Department of Revenue,36,Revenue
 Sheriff,27046961,2020,Adopted Budget,Full Year,2019-09-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),296705317,2020,Adopted Budget,Full Year,2019-09-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,48340013,2020,Adopted Budget,Full Year,2019-09-30,Streets: Disposal,12D,
+Streets-Disposal,48340013,2020,Adopted Budget,Full Year,2019-09-30,Streets: Disposal,12-D,
 Streets,108692919,2020,Adopted Budget,Full Year,2019-09-30,Streets Department,12,Streets
 Art Museum Subsidy,2550000,2020,Target Budget,Full Year,2019-09-30,Art Museum,34,
 Atwater Kent Museum,0,2020,Target Budget,Full Year,2019-09-30,Atwater Kent Museum,18,Atwater Kent
@@ -294,24 +342,36 @@ City Representative,1284721,2020,Target Budget,Full Year,2019-09-30,Office of th
 City Treasurer,1509534,2020,Target Budget,Full Year,2019-09-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,204935,2020,Target Budget,Full Year,2019-09-30,Civil Service Commission,55,
 Commerce,10287560,2020,Target Budget,Full Year,2019-09-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2020,Target Budget,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,7671624,2020,Target Budget,Full Year,2019-09-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2020,Target Budget,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,7671624,2020,Target Budget,Full Year,2019-09-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,42058536,2020,Target Budget,Full Year,2019-09-30,District Attorney's Office,69,DAO
 Finance,75864488,2020,Target Budget,Full Year,2019-09-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,34276000,2020,Target Budget,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,2650000,2020,Target Budget,Full Year,2019-09-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,55108000,2020,Target Budget,Full Year,2019-09-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,36059207,2020,Target Budget,Full Year,2019-09-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,1411963002,2020,Target Budget,Full Year,2019-09-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2020,Target Budget,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,49246000,2020,Target Budget,Full Year,2019-09-30,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2020,Target Budget,Full Year,2019-09-30,Finance: Refunds,35R,
-Finance-School District Contribution,222456410,2020,Target Budget,Full Year,2019-09-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2020,Target Budget,Full Year,2019-09-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,34276000,2020,Target Budget,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2020,Target Budget,Full Year,2019-09-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,55108000,2020,Target Budget,Full Year,2019-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,36059207,2020,Target Budget,Full Year,2019-09-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,1411963002,2020,Target Budget,Full Year,2019-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4080260,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,69844607,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,110158479,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,584663838,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,53928969,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,300000,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,84546988,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,489978550,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8465202,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,5049842,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2020,Target Budget,Full Year,2019-09-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2020,Target Budget,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,49246000,2020,Target Budget,Full Year,2019-09-30,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2020,Target Budget,Full Year,2019-09-30,Finance: Refunds,35-R,
+Finance-School District Contribution,222456410,2020,Target Budget,Full Year,2019-09-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2020,Target Budget,Full Year,2019-09-30,Finance: Witness Fees,35-WF,
 Fire,313799278,2020,Target Budget,Full Year,2019-09-30,Fire Department,13,Fire
 First Judicial District,115991475,2020,Target Budget,Full Year,2019-09-30,First Judicial District,84,FJD
 Fleet Management,50114034,2020,Target Budget,Full Year,2019-09-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,17286549,2020,Target Budget,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,17286549,2020,Target Budget,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,45760383,2020,Target Budget,Full Year,2019-09-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,2401402,2020,Target Budget,Full Year,2019-09-30,Commission on Human Relations,54,Human Relations
 Human Services,119029114,2020,Target Budget,Full Year,2019-09-30,Department of Human Services,22,DHS
@@ -321,9 +381,9 @@ Licenses & Inspections,42116503,2020,Target Budget,Full Year,2019-09-30,Departme
 L&I-Board of Building Standards,80366,2020,Target Budget,Full Year,2019-09-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,173870,2020,Target Budget,Full Year,2019-09-30,L&I: Board of Review,27,
 Managing Director's Office,61016660,2020,Target Budget,Full Year,2019-09-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,50938541,2020,Target Budget,Full Year,2019-09-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,50938541,2020,Target Budget,Full Year,2019-09-30,MDO: Legal Services,10-LS,
 Mayor's Office,6298286,2020,Target Budget,Full Year,2019-09-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2020,Target Budget,Full Year,2019-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2020,Target Budget,Full Year,2019-09-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,90000,2020,Target Budget,Full Year,2019-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2545184,2020,Target Budget,Full Year,2019-09-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,4419130,2020,Target Budget,Full Year,2019-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -333,7 +393,7 @@ Office of Education,45350014,2020,Target Budget,Full Year,2019-09-30,Office of C
 Office of Homeless Services,60821026,2020,Target Budget,Full Year,2019-09-30,Office of Homeless Services,24,OHS
 Office of Human Resources,6895524,2020,Target Budget,Full Year,2019-09-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,75969758,2020,Target Budget,Full Year,2019-09-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,41235086,2020,Target Budget,Full Year,2019-09-30,OIT: 911,04911,
+Office of Innovation and Technology-911,41235086,2020,Target Budget,Full Year,2019-09-30,OIT: 911,04-911,
 Office of the Inspector General,1742423,2020,Target Budget,Full Year,2019-09-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,17318408,2020,Target Budget,Full Year,2019-09-30,Office of Property Assessment,59,OPA
 Office of Sustainability,1217804,2020,Target Budget,Full Year,2019-09-30,Office of Sustainability,49,Sustainability
@@ -344,15 +404,15 @@ Prisons,252183523,2020,Target Budget,Full Year,2019-09-30,Philadelphia Prison Sy
 Procurement,5704227,2020,Target Budget,Full Year,2019-09-30,Procurement Department,38,Procurement
 Public Health,160840340,2020,Target Budget,Full Year,2019-09-30,Department of Public Health,14,Public Health
 Public Property,74302564,2020,Target Budget,Full Year,2019-09-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,86356000,2020,Target Budget,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,26278677,2020,Target Budget,Full Year,2019-09-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,27393339,2020,Target Budget,Full Year,2019-09-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,86356000,2020,Target Budget,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,26278677,2020,Target Budget,Full Year,2019-09-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,27393339,2020,Target Budget,Full Year,2019-09-30,Public Property: Utilities,20-U,
 Records,4942152,2020,Target Budget,Full Year,2019-09-30,Department of Records,31,Records
 Register of Wills,4665345,2020,Target Budget,Full Year,2019-09-30,Register of Wills,68,
 Revenue,32922858,2020,Target Budget,Full Year,2019-09-30,Department of Revenue,36,Revenue
 Sheriff,27046961,2020,Target Budget,Full Year,2019-09-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),296705317,2020,Target Budget,Full Year,2019-09-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,48340013,2020,Target Budget,Full Year,2019-09-30,Streets: Disposal,12D,
+Streets-Disposal,48340013,2020,Target Budget,Full Year,2019-09-30,Streets: Disposal,12-D,
 Streets,110453729,2020,Target Budget,Full Year,2019-09-30,Streets Department,12,Streets
 Art Museum Subsidy,2550000,2020,Current Projection,Full Year,2019-09-30,Art Museum,34,
 Atwater Kent Museum,0,2020,Current Projection,Full Year,2019-09-30,Atwater Kent Museum,18,Atwater Kent
@@ -365,24 +425,36 @@ City Representative,1284721,2020,Current Projection,Full Year,2019-09-30,Office 
 City Treasurer,1509534,2020,Current Projection,Full Year,2019-09-30,Office of the City Treasurer,40,City Treasurer
 Civil Service Commission,204935,2020,Current Projection,Full Year,2019-09-30,Civil Service Commission,55,
 Commerce,10287560,2020,Current Projection,Full Year,2019-09-30,Office of the Director of Commerce,42,Commerce
-Commerce-Convention Center Subsidy,15000000,2020,Current Projection,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42CC,
-Commerce-Economic Stimulus,7671624,2020,Current Projection,Full Year,2019-09-30,Commerce: Economic Stimulus,42ES,
+Commerce-Convention Center Subsidy,15000000,2020,Current Projection,Full Year,2019-09-30,Commerce: Convention Center Subsidy,42-CC,
+Commerce-Economic Stimulus,7671624,2020,Current Projection,Full Year,2019-09-30,Commerce: Economic Stimulus,42-ES,
 District Attorney,42058536,2020,Current Projection,Full Year,2019-09-30,District Attorney's Office,69,DAO
 Finance,75864488,2020,Current Projection,Full Year,2019-09-30,Office of the Director of Finance,35,Finance
-Finance-Budget Stabilization Reserve,34276000,2020,Current Projection,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35BSR,
-Finance-Disability-Reg #32 Payroll,2650000,2020,Current Projection,Full Year,2019-09-30,Finance: Reg #32,35R32,
-Finance-Federal Grant Reserve,55108000,2020,Current Projection,Full Year,2019-09-30,Finance: Federal Grant Reserve,35FGR,
-Finance-Community College Subsidy,36059207,2020,Current Projection,Full Year,2019-09-30,Finance: Community College Subsidy,35CC,
-Finance - Employee Benefits,1412938432,2020,Current Projection,Full Year,2019-09-30,Finance: Employee Benefits,35EB,
-Finance-Hero Scholarship Awards,25000,2020,Current Projection,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35HA,
-Finance-Indemnities,49246000,2020,Current Projection,Full Year,2019-09-30,Finance: Indemnities,35IN,
-Finance-Refunds,250000,2020,Current Projection,Full Year,2019-09-30,Finance: Refunds,35R,
-Finance-School District Contribution,222456410,2020,Current Projection,Full Year,2019-09-30,Finance: School District Contribution,35SD,
-Finance-Witness Fees,171518,2020,Current Projection,Full Year,2019-09-30,Finance: Witness Fees,35WF,
+Finance-Budget Stabilization Reserve,34276000,2020,Current Projection,Full Year,2019-09-30,Finance: Budget Stabilization Reserve,35-BSR,
+Finance-Disability-Reg #32 Payroll,2650000,2020,Current Projection,Full Year,2019-09-30,Finance: Reg #32,35-R32,
+Finance-Federal Grant Reserve,55108000,2020,Current Projection,Full Year,2019-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Community College Subsidy,36059207,2020,Current Projection,Full Year,2019-09-30,Finance: Community College Subsidy,35-CC,
+Finance - Employee Benefits,1412938432,2020,Current Projection,Full Year,2019-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
+Employee Benefits: Unemployment Compensation,4080260,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
+Employee Benefits: Employee Disability,70600000,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Employee Disability,35-EB-DIS,
+Employee Benefits: Pension Obligation Bonds,109794742,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,
+Employee Benefits: Pension,580863172,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,58113611,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: Pension,300000,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Pension,35-EB-PEN,
+Employee Benefits: FICA,84546988,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: FICA,35-EB-FICA,
+Employee Benefits: Flex Cash Payments,800000,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,
+Employee Benefits: Health/Medical,489978550,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Health/Medical,35-EB-HM,
+Employee Benefits: Group Life Insurance,8665000,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Group Life Insurance,35-EB-GLI,
+Employee Benefits: Group Legal,5049842,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Group Legal,35-EB-GL,
+Employee Benefits: Tool Allowance,146267,2020,Current Projection,Full Year,2019-09-30,Employee Benefits: Tool Allowance,35-EB-TA,
+Finance-Hero Scholarship Awards,25000,2020,Current Projection,Full Year,2019-09-30,Finance: Hero Scholarship Awards,35-HA,
+Finance-Indemnities,49246000,2020,Current Projection,Full Year,2019-09-30,Finance: Indemnities,35-IN,
+Finance-Refunds,250000,2020,Current Projection,Full Year,2019-09-30,Finance: Refunds,35-R,
+Finance-School District Contribution,222456410,2020,Current Projection,Full Year,2019-09-30,Finance: School District Contribution,35-SD,
+Finance-Witness Fees,171518,2020,Current Projection,Full Year,2019-09-30,Finance: Witness Fees,35-WF,
 Fire,313799278,2020,Current Projection,Full Year,2019-09-30,Fire Department,13,Fire
 First Judicial District,115991475,2020,Current Projection,Full Year,2019-09-30,First Judicial District,84,FJD
 Fleet Management,50114034,2020,Current Projection,Full Year,2019-09-30,Office of Fleet Management,25,Fleet
-Fleet Management Vehicle Purchases,17286549,2020,Current Projection,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25V,
+Fleet Management Vehicle Purchases,17286549,2020,Current Projection,Full Year,2019-09-30,Fleet: Vehicle Lease/Purchases,25-V,
 Free Library,45760383,2020,Current Projection,Full Year,2019-09-30,The Free Library of Philadelphia,52,Free Library
 Human Relations Commission,2401402,2020,Current Projection,Full Year,2019-09-30,Commission on Human Relations,54,Human Relations
 Human Services,119029114,2020,Current Projection,Full Year,2019-09-30,Department of Human Services,22,DHS
@@ -392,9 +464,9 @@ Licenses & Inspections,42116503,2020,Current Projection,Full Year,2019-09-30,Dep
 L&I-Board of Building Standards,80366,2020,Current Projection,Full Year,2019-09-30,L&I: Board of Building and Standards,29,
 L&I-Board of L & I Review,173870,2020,Current Projection,Full Year,2019-09-30,L&I: Board of Review,27,
 Managing Director's Office,60796660,2020,Current Projection,Full Year,2019-09-30,Managing Director's Office,10,MDO
-Managing Director-Legal Services,50938541,2020,Current Projection,Full Year,2019-09-30,MDO: Legal Services,10LS,
+Managing Director-Legal Services,50938541,2020,Current Projection,Full Year,2019-09-30,MDO: Legal Services,10-LS,
 Mayor's Office,6298286,2020,Current Projection,Full Year,2019-09-30,Mayor's Office,05,Mayor
-Mayor's Office-Scholarships,200000,2020,Current Projection,Full Year,2019-09-30,Mayor's Office: Scholarships,05S,
+Mayor's Office-Scholarships,200000,2020,Current Projection,Full Year,2019-09-30,Mayor's Office: Scholarships,05-S,
 Mayor's Office-Comm. Empowerment & Opp.,90000,2020,Current Projection,Full Year,2019-09-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO
 Mural Arts Program,2545184,2020,Current Projection,Full Year,2019-09-30,Mural Arts Program,50,Mural Arts
 Office of Arts and Culture,4419130,2020,Current Projection,Full Year,2019-09-30,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture
@@ -404,7 +476,7 @@ Office of Education,45350014,2020,Current Projection,Full Year,2019-09-30,Office
 Office of Homeless Services,60821026,2020,Current Projection,Full Year,2019-09-30,Office of Homeless Services,24,OHS
 Office of Human Resources,6895524,2020,Current Projection,Full Year,2019-09-30,Office of Human Resources,56,OHR
 Office of Innovation and Technology-Base,75969758,2020,Current Projection,Full Year,2019-09-30,Office of Innovation and Technology,04,OIT
-Office of Innovation and Technology-911,41235086,2020,Current Projection,Full Year,2019-09-30,OIT: 911,04911,
+Office of Innovation and Technology-911,41235086,2020,Current Projection,Full Year,2019-09-30,OIT: 911,04-911,
 Office of the Inspector General,1742423,2020,Current Projection,Full Year,2019-09-30,Office of the Inspector General,48,OIG
 Office of Property Assessment,17318408,2020,Current Projection,Full Year,2019-09-30,Office of Property Assessment,59,OPA
 Office of Sustainability,1217804,2020,Current Projection,Full Year,2019-09-30,Office of Sustainability,49,Sustainability
@@ -415,13 +487,13 @@ Prisons,252183523,2020,Current Projection,Full Year,2019-09-30,Philadelphia Pris
 Procurement,5704227,2020,Current Projection,Full Year,2019-09-30,Procurement Department,38,Procurement
 Public Health,155340340,2020,Current Projection,Full Year,2019-09-30,Department of Public Health,14,Public Health
 Public Property,76842290,2020,Current Projection,Full Year,2019-09-30,Department of Public Property,20,Public Property
-Public Property-SEPTA Subsidy,86356000,2020,Current Projection,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20SS,
-Public Property-Space Rentals,26278677,2020,Current Projection,Full Year,2019-09-30,Public Property: Space Rentals,20SR,
-Public Property-Utilities,27393339,2020,Current Projection,Full Year,2019-09-30,Public Property: Utilities,20U,
+Public Property-SEPTA Subsidy,86356000,2020,Current Projection,Full Year,2019-09-30,Public Property: SEPTA Subsidy,20-SS,
+Public Property-Space Rentals,26278677,2020,Current Projection,Full Year,2019-09-30,Public Property: Space Rentals,20-SR,
+Public Property-Utilities,27393339,2020,Current Projection,Full Year,2019-09-30,Public Property: Utilities,20-U,
 Records,4942152,2020,Current Projection,Full Year,2019-09-30,Department of Records,31,Records
 Register of Wills,4665345,2020,Current Projection,Full Year,2019-09-30,Register of Wills,68,
 Revenue,32922858,2020,Current Projection,Full Year,2019-09-30,Department of Revenue,36,Revenue
 Sheriff,27046961,2020,Current Projection,Full Year,2019-09-30,Office of the Sheriff,70,Sheriff
 Sinking Fund Commission (Debt Service),296705317,2020,Current Projection,Full Year,2019-09-30,Sinking Fund Commission,37,Sinking Fund
-Streets-Disposal,48340013,2020,Current Projection,Full Year,2019-09-30,Streets: Disposal,12D,
+Streets-Disposal,48340013,2020,Current Projection,Full Year,2019-09-30,Streets: Disposal,12-D,
 Streets,110453729,2020,Current Projection,Full Year,2019-09-30,Streets Department,12,Streets
