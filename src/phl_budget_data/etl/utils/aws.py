@@ -2,7 +2,6 @@ import tempfile
 from pathlib import Path
 
 import boto3
-import numpy as np
 import pandas as pd
 import pdfplumber
 from dotenv import find_dotenv, load_dotenv
@@ -82,6 +81,8 @@ def parse_pdf_with_textract(
                     if concat_axis == 1:
                         result = pd.concat(result, axis=1).fillna("")
                         result.columns = [str(i) for i in range(0, len(result.columns))]
+                    else:
+                        result = pd.concat(result)
                 else:
                     result = result[0]
 
