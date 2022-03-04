@@ -154,7 +154,7 @@ def load_wage_collections_by_sector() -> pd.DataFrame:
 
     # Map quarter to month
     out["month_start"] = out["fiscal_quarter"].replace(
-        {1: "07", 2: "09", 3: "01", 4: "04"}
+        {1: "07", 2: "10", 3: "01", 4: "04"}
     )
 
     # Add date
