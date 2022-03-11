@@ -37,6 +37,7 @@ def run_etl(
     """Internal function to run ETL on fiscal year data."""
 
     # Loop over the PDF files
+    finished_params = []
     for f in cls.get_pdf_files():
 
         # Filter by fiscal year
@@ -68,15 +69,27 @@ def run_etl(
         if params is None:
             raise ValueError(f"Could not extract parameters from {f.stem}")
 
-        # Log it
-        s = ", ".join(f"{k}={v}" for k, v in params.items())
-        logger.info(f"Processing: {s}")
-
         # ETL
         if not dry_run:
-            report = cls(**kwargs, **params)
 
-            if not extract_only:
-                report.extract_transform_load(validate=(not no_validate))
-            else:
-                report.extract()
+            report = None
+            all_params = {**params, **kwargs}
+
+            try:
+                report = cls(**all_params)
+            except FileNotFoundError:
+                pass
+            all_params_tup = tuple(all_params.items())
+
+            # Run the ETL pipeline
+            if report and all_params_tup not in finished_params:
+
+                # Log it
+                finished_params.append(all_params_tup)
+                s = ", ".join(f"{k}={v}" for k, v in all_params.items())
+                logger.info(f"Processing: {s}")
+
+                if not extract_only:
+                    report.extract_transform_load(validate=(not no_validate))
+                else:
+                    report.extract()

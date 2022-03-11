@@ -14,7 +14,7 @@ Commerce,2120079.0,3366925.0,26654.0,500000.0,0.0,0.0,0.0,6013658.0,2019,Office 
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,0.0,15000000.0,2019,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,2397004.0,0.0,0.0,0.0,0.0,0.0,2397004.0,2019,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,37168476.0,4094296.0,529521.0,0.0,0.0,0.0,0.0,41792293.0,2019,District Attorney's Office,69,DAO,69
-Finance,7765535.0,3029912.0,103109.0,4525000.0,0.0,8366704.0,54573000.0,78363260.0,2019,Office of the Director of Finance,35,Finance,35
+Finance,7765535.0,3029912.0,103109.0,4525000.0,0.0,8366704.0,0.0,23790260.0,2019,Office of the Director of Finance,35,Finance,35
 Finance-Community College Subsidy,0.0,0.0,0.0,32409207.0,0.0,0.0,0.0,32409207.0,2019,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1360238207.0,0.0,0.0,0.0,0.0,0.0,0.0,1360238207.0,2019,Finance: Employee Benefits,35-EB,Employee Benefits,35
 Finance-Hero Scholarship Awards,0.0,0.0,0.0,25000.0,0.0,0.0,0.0,25000.0,2019,Finance: Hero Scholarship Awards,35-HA,,35
@@ -73,3 +73,4 @@ Sheriff,24570248.0,1105267.0,474907.0,0.0,0.0,0.0,0.0,26150422.0,2019,Office of 
 Sinking Fund Commission (Debt Service),0.0,125536378.0,0.0,0.0,169496126.0,0.0,0.0,295032504.0,2019,Sinking Fund Commission,37,Sinking Fund,37
 Streets,84297081.0,9698129.0,8442104.0,53171.0,0.0,0.0,0.0,102490485.0,2019,Streets Department,12,Streets,12
 Streets-Disposal,0.0,39490785.0,0.0,0.0,0.0,0.0,0.0,39490785.0,2019,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,54573000.0,54573000.0,2019,Finance: Recession Reserve,35-RR,Recession Reserve,35

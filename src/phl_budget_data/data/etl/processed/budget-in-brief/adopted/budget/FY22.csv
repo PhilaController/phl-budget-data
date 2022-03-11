@@ -12,7 +12,7 @@ Commerce,3614341.0,10499099.0,26654.0,500000.0,0.0,0.0,0.0,14640094.0,2022,Offic
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,0.0,15000000.0,2022,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,6015000.0,0.0,0.0,0.0,0.0,0.0,6015000.0,2022,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,36562904.0,3343738.0,525017.0,0.0,0.0,0.0,0.0,40431659.0,2022,District Attorney's Office,69,DAO,69
-Finance,10185891.0,3475113.0,35616.0,16069700.0,0.0,11360000.0,75000000.0,116126320.0,2022,Office of the Director of Finance,35,Finance,35
+Finance,10185891.0,3475113.0,35616.0,16069700.0,0.0,11360000.0,0.0,41126320.0,2022,Office of the Director of Finance,35,Finance,35
 Finance-Budget Stabilization,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2022,Finance: Budget Stabilization Reserve,35-BSR,,35
 Finance-Community College Subsidy,0.0,0.0,0.0,48128075.0,0.0,0.0,0.0,48128075.0,2022,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1438592740.0,0.0,0.0,0.0,0.0,0.0,0.0,1438592740.0,2022,Finance: Employee Benefits,35-EB,Employee Benefits,35
@@ -68,3 +68,4 @@ Sheriff,25192450.0,1105267.0,498157.0,0.0,0.0,0.0,0.0,26795874.0,2022,Office of 
 Sinking Fund Commission (Debt Service),0.0,104560657.0,0.0,0.0,192666858.0,0.0,0.0,297227515.0,2022,Sinking Fund Commission,37,Sinking Fund,37
 Streets,90986330.0,8417345.0,14215207.0,53171.0,0.0,0.0,0.0,113672053.0,2022,Streets Department,12,Streets,12
 Streets-Disposal,0.0,59762580.0,0.0,0.0,0.0,0.0,0.0,59762580.0,2022,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,75000000.0,75000000.0,2022,Finance: Recession Reserve,35-RR,Recession Reserve,35

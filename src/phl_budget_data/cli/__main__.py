@@ -140,6 +140,7 @@ if ETL_VERSION:
             "month": "Calendar month",
         }
         types = {"kind": click.Choice(["adopted", "proposed"])}
+        required = ["kind"]
 
         @etl.command(
             cls=RichClickCommand,
@@ -171,6 +172,7 @@ if ETL_VERSION:
                 ["--" + field.name.replace("_", "-")],
                 type=types.get(field.name, int),
                 help=options[field.name] + ".",
+                required=field.name in required,
             )
             etl_source.params.insert(0, opt)
 

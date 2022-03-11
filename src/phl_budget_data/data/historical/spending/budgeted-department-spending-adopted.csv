@@ -71,6 +71,7 @@ Tax Reform Commission,0.0,0.0,0.0,0.0,0.0,0.0,2006,0.0,0.0,Tax Reform Commission
 Witness Fees,0.0,175000.0,0.0,0.0,0.0,0.0,2006,0.0,175000.0,Finance: Witness Fees,35-WF,,35
 Zoning Bd. of Adji.,385163.0,54375.0,2580.0,0.0,0.0,0.0,2006,0.0,442118.0,Zoning Board of Adjustments,30,ZBA,30
 of Housing and Comm. Dev.,236917.0,143231.0,0.0,0.0,0.0,0.0,2006,0.0,380148.0,Office of Housing and Community Development,06,,06
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2006,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2250000.0,0.0,0.0,2007,0.0,2250000.0,Art Museum,34,,34
 Atwater Kent Museum,264000.0,6000.0,0.0,0.0,0.0,0.0,2007,0.0,270000.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,7460782.0,596944.0,92619.0,0.0,0.0,0.0,2007,0.0,8150345.0,City Controller's Office,61,,61
@@ -140,6 +141,7 @@ Streets,21484511.0,8464606.0,2635015.0,30000.0,0.0,0.0,2007,0.0,32614132.0,Stree
 Streets - Sanitation,44798248.0,49518081.0,1363406.0,48171.0,0.0,0.0,2007,0.0,95727906.0,Streets: Sanitation,12-S,,12
 Witness Fees,0.0,173250.0,0.0,0.0,0.0,0.0,2007,0.0,173250.0,Finance: Witness Fees,35-WF,,35
 Zoning Bd. of Adj.,396718.0,49954.0,2580.0,0.0,0.0,0.0,2007,0.0,449252.0,Zoning Board of Adjustments,30,ZBA,30
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2007,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2500000.0,0.0,0.0,2008,0.0,2500000.0,Art Museum,34,,34
 Atwater Kent Museum,264000.0,6000.0,0.0,0.0,0.0,0.0,2008,0.0,270000.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,7565233.0,596944.0,92619.0,0.0,0.0,0.0,2008,0.0,8254796.0,City Controller's Office,61,,61
@@ -210,6 +212,7 @@ Streets,20486564.0,8934606.0,2735015.0,5000.0,0.0,0.0,2008,0.0,32161185.0,Street
 Streets - Sanitation,46449179.0,49345622.0,1363406.0,48171.0,0.0,0.0,2008,0.0,97206378.0,Streets: Sanitation,12-S,,12
 Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,2008,0.0,171518.0,Finance: Witness Fees,35-WF,,35
 Zoning Bd. of Adj.,402272.0,48041.0,0.0,0.0,0.0,0.0,2008,0.0,450313.0,Zoning Board of Adjustments,30,ZBA,30
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2008,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,3000000.0,0.0,0.0,2009,0.0,3000000.0,Art Museum,34,,34
 Atwater Kent Museum,264000.0,6000.0,0.0,50000.0,0.0,0.0,2009,0.0,320000.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,7565685.0,596944.0,92619.0,0.0,0.0,0.0,2009,0.0,8255248.0,City Controller's Office,61,,61
@@ -282,6 +285,7 @@ Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,2009,0.0,171518.0,Finance: Witness Fee
 Youth Commission,47000.0,53000.0,0.0,0.0,0.0,0.0,2009,0.0,100000.0,Youth Commission,47,,47
 Zoning Bd. of Adj.,402272.0,43538.0,0.0,0.0,0.0,0.0,2009,0.0,445810.0,Zoning Board of Adjustments,30,ZBA,30
 Zoning Code Commission,130000.0,350000.0,20000.0,0.0,0.0,0.0,2009,0.0,500000.0,Zoning Code Commission,57,,57
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2009,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2300000.0,0.0,0.0,2010,0.0,2300000.0,Art Museum,34,,34
 Atwater Kent Museum,198630.0,0.0,0.0,50000.0,0.0,0.0,2010,0.0,248630.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,6864117.0,477450.0,83357.0,0.0,0.0,0.0,2010,0.0,7424924.0,City Controller's Office,61,,61
@@ -357,6 +361,7 @@ Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,2010,0.0,171518.0,Finance: Witness Fee
 Youth Commission,47000.0,50200.0,2800.0,0.0,0.0,0.0,2010,0.0,100000.0,Youth Commission,47,,47
 Zoning Bd. of Adj.,334333.0,43538.0,0.0,0.0,0.0,0.0,2010,0.0,377871.0,Zoning Board of Adjustments,30,ZBA,30
 Zoning Code Commission,150000.0,335000.0,15000.0,0.0,0.0,0.0,2010,0.0,500000.0,Zoning Code Commission,57,,57
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2010,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2300000.0,0.0,0.0,2011,0.0,2300000.0,Art Museum,34,,34
 Atwater Kent Museum,198630.0,0.0,0.0,50000.0,0.0,0.0,2011,0.0,248630.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,6889116.0,402450.0,0.0,0.0,0.0,0.0,2011,0.0,7291566.0,City Controller's Office,61,,61
@@ -430,6 +435,7 @@ Zoning Bd. of Adi.,334333.0,43538.0,0.0,0.0,0.0,0.0,2011,0.0,377871.0,Zoning Boa
 Zoning Code Commission,150000.0,330000.0,20000.0,0.0,0.0,0.0,2011,0.0,500000.0,Zoning Code Commission,57,,57
 inance-Contribution  to School District,0.0,0.0,0.0,38600000.0,0.0,0.0,2011,0.0,38600000.0,Finance: School District Contribution,35-SD,,35
 of Arts & Culture& the Creative  Economy,192625.0,273800.0,8000.0,3430688.0,0.0,0.0,2011,0.0,3905113.0,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture,58
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2011,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2300000.0,0.0,0.0,2012,0.0,2300000.0,Art Museum,34,,34
 Atwater Kent Museum,218630.0,0.0,0.0,50000.0,0.0,0.0,2012,0.0,268630.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,7033602.0,522450.0,0.0,0.0,0.0,0.0,2012,0.0,7556052.0,City Controller's Office,61,,61
@@ -501,6 +507,7 @@ Zoning Bd. of Adj.,320960.0,41796.0,0.0,0.0,0.0,0.0,2012,0.0,362756.0,Zoning Boa
 Zoning Code Commission,122500.0,100000.0,2500.0,0.0,0.0,0.0,2012,0.0,225000.0,Zoning Code Commission,57,,57
 of Arts & Culture & the Creative  Economy,198750.0,392800.0,8000.0,2070688.0,0.0,0.0,2012,0.0,2670238.0,"Office of Arts, Culture, and the Creative Economy",58,Arts & Culture,58
 of Housing and Comm. Dev.,0.0,3020000.0,0.0,0.0,0.0,0.0,2012,0.0,3020000.0,Office of Housing and Community Development,06,,06
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2012,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2300000.0,0.0,0.0,2013,0.0,2300000.0,Art Museum,34,,34
 Atwater Kent Museum,218630.0,0.0,0.0,50000.0,0.0,0.0,2013,0.0,268630.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,6927481.0,497450.0,25000.0,0.0,0.0,0.0,2013,0.0,7449931.0,City Controller's Office,61,,61
@@ -571,6 +578,7 @@ Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,2013,0.0,171518.0,Finance: Witness Fee
 Youth Commission,50000.0,40000.0,4080.0,0.0,0.0,0.0,2013,0.0,94080.0,Youth Commission,47,,47
 Zoning Bd. of Adi.,320960.0,34541.0,0.0,0.0,0.0,0.0,2013,0.0,355501.0,Zoning Board of Adjustments,30,ZBA,30
 Zoning Code Commission,0.0,0.0,0.0,0.0,0.0,0.0,2013,0.0,0.0,Zoning Code Commission,57,,57
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2013,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2014,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,220674.0,0.0,0.0,50000.0,0.0,0.0,2014,0.0,270674.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing,7173947.0,497450.0,25000.0,0.0,0.0,0.0,2014,0.0,7696397.0,City Controller's Office,61,,61
@@ -640,6 +648,7 @@ Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,2014,0.0,171518.0,Finance: Witness Fee
 Youth Commission,90000.0,46000.0,4080.0,0.0,0.0,0.0,2014,0.0,140080.0,Youth Commission,47,,47
 Zoning Bd. of Adi.,322856.0,34541.0,0.0,0.0,0.0,0.0,2014,0.0,357397.0,Zoning Board of Adjustments,30,ZBA,30
 Zoning Code Commission,0.0,0.0,0.0,0.0,0.0,0.0,2014,0.0,0.0,Zoning Code Commission,57,,57
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2014,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2015,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,234719.0,0.0,0.0,50000.0,0.0,0.0,2015,0.0,284719.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),7549687.0,497450.0,25000.0,0.0,0.0,0.0,2015,0.0,8072137.0,City Controller's Office,61,,61
@@ -708,6 +717,7 @@ Sheriff,17032412.0,990587.0,471647.0,0.0,0.0,0.0,2015,0.0,18494646.0,Office of t
 Streets - Sanitation,45208603.0,38807117.0,1608212.0,48171.0,0.0,0.0,2015,0.0,85672103.0,Streets: Sanitation,12-S,,12
 Streets-Transportation,22258233.0,7476338.0,2201750.0,5000.0,0.0,0.0,2015,0.0,31941321.0,Streets: Transportation,12-T,,12
 Youth Commission,90000.0,46000.0,4080.0,0.0,0.0,0.0,2015,0.0,140080.0,Youth Commission,47,,47
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2015,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2016,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,243498.0,0.0,0.0,50000.0,0.0,0.0,2016,0.0,293498.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),7772885.0,497450.0,25000.0,0.0,0.0,0.0,2016,0.0,8295335.0,City Controller's Office,61,,61
@@ -778,6 +788,7 @@ Sinking Fund Commission (Debt Service),0.0,104546913.0,0.0,0.0,141398213.0,0.0,2
 Streets - Sanitation,50238759.0,40393117.0,1608212.0,48171.0,0.0,0.0,2016,0.0,92288259.0,Streets: Sanitation,12-S,,12
 Streets-Transportation,22485373.0,8426338.0,2201750.0,5000.0,0.0,0.0,2016,0.0,33118461.0,Streets: Transportation,12-T,,12
 Youth Commission,92660.0,46000.0,4080.0,0.0,0.0,0.0,2016,0.0,142740.0,Youth Commission,47,,47
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2016,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2017,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,244817.0,0.0,0.0,50000.0,0.0,0.0,2017,0.0,294817.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),8009512.0,397450.0,25000.0,0.0,0.0,0.0,2017,0.0,8431962.0,City Controller's Office,61,,61
@@ -851,6 +862,7 @@ Sinking Fund Commission (Debt Service),0.0,121389615.0,0.0,0.0,153950119.0,0.0,2
 Streets - Sanitation,50292850.0,40563117.0,1608212.0,48171.0,0.0,0.0,2017,0.0,92512350.0,Streets: Sanitation,12-S,,12
 Streets-Transportation,22414754.0,8426338.0,2201750.0,5000.0,0.0,0.0,2017,0.0,33047842.0,Streets: Transportation,12-T,,12
 Youth Commission,0.0,0.0,0.0,0.0,0.0,0.0,2017,0.0,0.0,Youth Commission,47,,47
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2017,0.0,0.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2018,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,251897.0,0.0,0.0,50000.0,0.0,0.0,2018,0.0,301897.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),8426765.0,497450.0,25000.0,0.0,0.0,0.0,2018,0.0,8949215.0,City Controller's Office,61,,61
@@ -866,7 +878,7 @@ Commerce,2340461.0,2800481.0,26654.0,500000.0,0.0,0.0,2018,0.0,5667596.0,Office 
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,2018,0.0,15000000.0,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,2794448.0,0.0,0.0,0.0,0.0,2018,0.0,2794448.0,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,34686670.0,2594296.0,529521.0,0.0,0.0,0.0,2018,0.0,37810487.0,District Attorney's Office,69,DAO,69
-Finance,7328177.0,3029912.0,103109.0,4400000.0,0.0,0.0,2018,50893000.0,65754198.0,Office of the Director of Finance,35,Finance,35
+Finance,7328177.0,3029912.0,103109.0,4400000.0,0.0,0.0,2018,0.0,14861198.0,Office of the Director of Finance,35,Finance,35
 Finance-Community College Subsidy,0.0,0.0,0.0,30409207.0,0.0,0.0,2018,0.0,30409207.0,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1307799345.0,0.0,0.0,0.0,0.0,0.0,2018,0.0,1307799345.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
 Finance-Hero Scholarship Awards,0.0,0.0,0.0,25000.0,0.0,0.0,2018,0.0,25000.0,Finance: Hero Scholarship Awards,35-HA,,35
@@ -923,6 +935,7 @@ Sheriff,21522650.0,1105267.0,443907.0,0.0,0.0,0.0,2018,0.0,23071824.0,Office of 
 Sinking Fund Commission (Debt Service),0.0,138697144.0,0.0,0.0,157322070.0,0.0,2018,0.0,296019214.0,Sinking Fund Commission,37,Sinking Fund,37
 Streets,78481768.0,49726261.0,9071224.0,53171.0,0.0,0.0,2018,0.0,137332424.0,Streets Department,12,Streets,12
 Youth Commission,0.0,0.0,0.0,0.0,0.0,0.0,2018,0.0,0.0,Youth Commission,47,,47
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2018,50893000.0,50893000.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2019,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,0.0,0.0,0.0,250000.0,0.0,0.0,2019,0.0,250000.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),8370558.0,497450.0,25000.0,0.0,0.0,0.0,2019,0.0,8893008.0,City Controller's Office,61,,61
@@ -938,7 +951,7 @@ Commerce,2120079.0,3366925.0,26654.0,500000.0,0.0,0.0,2019,0.0,6013658.0,Office 
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,2019,0.0,15000000.0,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,2397004.0,0.0,0.0,0.0,0.0,2019,0.0,2397004.0,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,37168476.0,4094296.0,529521.0,0.0,0.0,0.0,2019,0.0,41792293.0,District Attorney's Office,69,DAO,69
-Finance,7765535.0,3029912.0,103109.0,4525000.0,0.0,8366704.0,2019,54573000.0,78363260.0,Office of the Director of Finance,35,Finance,35
+Finance,7765535.0,3029912.0,103109.0,4525000.0,0.0,8366704.0,2019,0.0,23790260.0,Office of the Director of Finance,35,Finance,35
 Finance-Community College Subsidy,0.0,0.0,0.0,32409207.0,0.0,0.0,2019,0.0,32409207.0,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1360238207.0,0.0,0.0,0.0,0.0,0.0,2019,0.0,1360238207.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
 Finance-Hero Scholarship Awards,0.0,0.0,0.0,25000.0,0.0,0.0,2019,0.0,25000.0,Finance: Hero Scholarship Awards,35-HA,,35
@@ -997,6 +1010,7 @@ Sheriff,24570248.0,1105267.0,474907.0,0.0,0.0,0.0,2019,0.0,26150422.0,Office of 
 Sinking Fund Commission (Debt Service),0.0,125536378.0,0.0,0.0,169496126.0,0.0,2019,0.0,295032504.0,Sinking Fund Commission,37,Sinking Fund,37
 Streets,84297081.0,9698129.0,8442104.0,53171.0,0.0,0.0,2019,0.0,102490485.0,Streets Department,12,Streets,12
 Streets-Disposal,0.0,39490785.0,0.0,0.0,0.0,0.0,2019,0.0,39490785.0,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2019,54573000.0,54573000.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2550000.0,0.0,0.0,2020,0.0,2550000.0,Art Museum,34,,34
 Atwater Kent Museum,0.0,0.0,0.0,0.0,0.0,0.0,2020,0.0,0.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),8862100.0,497450.0,25000.0,0.0,0.0,0.0,2020,0.0,9384550.0,City Controller's Office,61,,61
@@ -1011,7 +1025,7 @@ Commerce,3469881.0,5854826.0,26654.0,500000.0,0.0,0.0,2020,0.0,9851361.0,Office 
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,2020,0.0,15000000.0,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,7671624.0,0.0,0.0,0.0,0.0,2020,0.0,7671624.0,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,35016343.0,3367172.0,525021.0,0.0,0.0,0.0,2020,0.0,38908536.0,District Attorney's Office,69,DAO,69
-Finance,9084313.0,3029912.0,103109.0,4725000.0,0.0,28285000.0,2020,55108000.0,100335334.0,Office of the Director of Finance,35,Finance,35
+Finance,9084313.0,3029912.0,103109.0,4725000.0,0.0,28285000.0,2020,0.0,45227334.0,Office of the Director of Finance,35,Finance,35
 Finance-Budget Stabilization,0.0,0.0,0.0,0.0,0.0,34276000.0,2020,0.0,34276000.0,Finance: Budget Stabilization Reserve,35-BSR,,35
 Finance-Community College Subsidy,0.0,0.0,0.0,33759207.0,0.0,0.0,2020,0.0,33759207.0,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1411963002.0,0.0,0.0,0.0,0.0,0.0,2020,0.0,1411963002.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
@@ -1067,6 +1081,7 @@ Sheriff,25443537.0,894517.0,708907.0,0.0,0.0,0.0,2020,0.0,27046961.0,Office of t
 Sinking Fund Commission (Debt Service),0.0,109222498.0,0.0,0.0,187482819.0,0.0,2020,0.0,296705317.0,Sinking Fund Commission,37,Sinking Fund,37
 Streets,90464913.0,10470639.0,7704196.0,53171.0,0.0,0.0,2020,0.0,108692919.0,Streets Department,12,Streets,12
 Streets-Disposal,0.0,48340013.0,0.0,0.0,0.0,0.0,2020,0.0,48340013.0,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2020,55108000.0,55108000.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2040000.0,0.0,0.0,2021,0.0,2040000.0,Art Museum,34,,34
 Atwater Kent Museum,0.0,0.0,0.0,0.0,0.0,0.0,2021,0.0,0.0,Atwater Kent Museum,18,Atwater Kent,18
 Auditing (City Controller),9045839.0,497450.0,25000.0,0.0,0.0,0.0,2021,0.0,9568289.0,City Controller's Office,61,,61
@@ -1081,7 +1096,7 @@ Commerce,2394341.0,1216153.0,26654.0,0.0,0.0,0.0,2021,0.0,3637148.0,Office of th
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,2021,0.0,15000000.0,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,3015000.0,0.0,0.0,0.0,0.0,2021,0.0,3015000.0,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,30262904.0,2693738.0,420017.0,0.0,0.0,0.0,2021,0.0,33376659.0,District Attorney's Office,69,DAO,69
-Finance,10312396.0,2626660.0,35616.0,1250000.0,0.0,24500000.0,2021,25000000.0,63724672.0,Office of the Director of Finance,35,Finance,35
+Finance,10312396.0,2626660.0,35616.0,1250000.0,0.0,24500000.0,2021,0.0,38724672.0,Office of the Director of Finance,35,Finance,35
 Finance-Budget Stabilization,0.0,0.0,0.0,0.0,0.0,0.0,2021,0.0,0.0,Finance: Budget Stabilization Reserve,35-BSR,,35
 Finance-Community College Subsidy,0.0,0.0,0.0,44110159.0,0.0,0.0,2021,0.0,44110159.0,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1287159003.0,0.0,0.0,0.0,0.0,0.0,2021,0.0,1287159003.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
@@ -1137,6 +1152,7 @@ Sheriff,25192450.0,1105267.0,498157.0,0.0,0.0,0.0,2021,0.0,26795874.0,Office of 
 Sinking Fund Commission (Debt Service),0.0,96918314.0,0.0,0.0,185714117.0,0.0,2021,0.0,282632431.0,Sinking Fund Commission,37,Sinking Fund,37
 Streets,87283619.0,8050100.0,6172885.0,53171.0,0.0,0.0,2021,0.0,101559775.0,Streets Department,12,Streets,12
 Streets-Disposal,0.0,51462580.0,0.0,0.0,0.0,0.0,2021,0.0,51462580.0,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2021,25000000.0,25000000.0,Finance: Recession Reserve,35-RR,Recession Reserve,35
 Art Museum,0.0,0.0,0.0,2040000.0,0.0,0.0,2022,0.0,2040000.0,Art Museum,34,,34
 Auditing (City Controller),9330839.0,497450.0,25000.0,0.0,0.0,0.0,2022,0.0,9853289.0,City Controller's Office,61,,61
 Board of Ethics,915196.0,52500.0,7500.0,0.0,0.0,0.0,2022,0.0,975196.0,Board of Ethics,45,,45
@@ -1150,7 +1166,7 @@ Commerce,3614341.0,10499099.0,26654.0,500000.0,0.0,0.0,2022,0.0,14640094.0,Offic
 Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,2022,0.0,15000000.0,Commerce: Convention Center Subsidy,42-CC,,42
 Commerce-Economic Stimulus,0.0,6015000.0,0.0,0.0,0.0,0.0,2022,0.0,6015000.0,Commerce: Economic Stimulus,42-ES,,42
 District Attorney,36562904.0,3343738.0,525017.0,0.0,0.0,0.0,2022,0.0,40431659.0,District Attorney's Office,69,DAO,69
-Finance,10185891.0,3475113.0,35616.0,16069700.0,0.0,11360000.0,2022,75000000.0,116126320.0,Office of the Director of Finance,35,Finance,35
+Finance,10185891.0,3475113.0,35616.0,16069700.0,0.0,11360000.0,2022,0.0,41126320.0,Office of the Director of Finance,35,Finance,35
 Finance-Budget Stabilization,0.0,0.0,0.0,0.0,0.0,0.0,2022,0.0,0.0,Finance: Budget Stabilization Reserve,35-BSR,,35
 Finance-Community College Subsidy,0.0,0.0,0.0,48128075.0,0.0,0.0,2022,0.0,48128075.0,Finance: Community College Subsidy,35-CC,,35
 Finance-Employee Benefits,1438592740.0,0.0,0.0,0.0,0.0,0.0,2022,0.0,1438592740.0,Finance: Employee Benefits,35-EB,Employee Benefits,35
@@ -1206,3 +1222,4 @@ Sheriff,25192450.0,1105267.0,498157.0,0.0,0.0,0.0,2022,0.0,26795874.0,Office of 
 Sinking Fund Commission (Debt Service),0.0,104560657.0,0.0,0.0,192666858.0,0.0,2022,0.0,297227515.0,Sinking Fund Commission,37,Sinking Fund,37
 Streets,90986330.0,8417345.0,14215207.0,53171.0,0.0,0.0,2022,0.0,113672053.0,Streets Department,12,Streets,12
 Streets-Disposal,0.0,59762580.0,0.0,0.0,0.0,0.0,2022,0.0,59762580.0,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,2022,75000000.0,75000000.0,Finance: Recession Reserve,35-RR,Recession Reserve,35

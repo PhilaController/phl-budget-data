@@ -227,6 +227,28 @@ class BudgetSummaryBase(ETLPipeline):
             .drop(columns=["alias"])
         )
 
+        # Fix Finance: Recession Reserve
+        # Get a copy of finance
+        finance = out.query("dept_code == '35'").copy()
+        finance_900 = finance["class_900"].copy()
+
+        # Zero out
+        finance[CLASS_COLUMNS[:-1]] = 0
+
+        # Set metadata
+        finance["dept_name_raw"] = finance["abbreviation"] = "Recession Reserve"
+        finance["dept_name"] = "Finance: Recession Reserve"
+        finance["dept_code"] = "35-RR"
+        finance["total"] = finance_900
+
+        # Combine
+        out = pd.concat([out, finance], ignore_index=True)
+
+        # Subtract from full Finance
+        sel = out["dept_code"] == "35"
+        out.loc[sel, "class_900"] = 0
+        out.loc[sel, "total"] -= finance_900
+
         # Add major dept class code
         out["dept_major_code"] = out.dept_code.str.slice(0, 2)
 
