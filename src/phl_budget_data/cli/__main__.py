@@ -44,7 +44,8 @@ def main():
 
 @main.command(cls=RichClickCommand)
 @click.option("--output", type=click.Path(exists=False), help="Output folder.")
-def save(output=None):
+@click.option("--save-sql", is_flag=True, help="Whether to save SQL databases.")
+def save(output=None, save_sql=False):
     """Save the processed data products."""
 
     if output is None:
@@ -98,27 +99,28 @@ def save(output=None):
                     f().to_csv(output_file, index=False)
 
     # Save databases too
-    logger.info("Saving SQL databases")
+    if save_sql:
+        logger.info("Saving SQL databases")
 
-    # Determine datasets
-    datasets = defaultdict(list)
-    for f in list((DATA_DIR / "historical").glob("**/*.csv")):
-        key = f.parts[-2]
-        datasets[key].append(f)
+        # Determine datasets
+        datasets = defaultdict(list)
+        for f in list((DATA_DIR / "historical").glob("**/*.csv")):
+            key = f.parts[-2]
+            datasets[key].append(f)
 
-    # Loop over each database
-    for key in datasets:
+        # Loop over each database
+        for key in datasets:
 
-        # Create the database
-        filename = DATA_DIR / "sql" / (key + ".db")
-        db = Database(filename)
+            # Create the database
+            filename = DATA_DIR / "sql" / (key + ".db")
+            db = Database(filename)
 
-        # Add each dataset
-        for f in datasets[key]:
-            data = pd.read_csv(f).replace(np.nan, None).to_dict(orient="records")
-            db[f.stem].insert_all(data)
+            # Add each dataset
+            for f in datasets[key]:
+                data = pd.read_csv(f).replace(np.nan, None).to_dict(orient="records")
+                db[f.stem].insert_all(data)
 
-    logger.info("...done")
+        logger.info("...done")
 
 
 # Add ETL commands
