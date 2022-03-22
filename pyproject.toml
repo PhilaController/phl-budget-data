@@ -5,7 +5,7 @@ description = "PHL Budget Data"
 authors = ["Nick Hand <nick.hand@phila.gov>"]
 license = "MIT"
 readme = "README.md"
-exclude = [ "src/phl_budget_data/data/etl", "src/phl_budget_data/etl"]
+exclude = [ "src/phl_budget_data/data/etl", "src/phl_budget_data/etl", "src/phl_budget_data/cli/etl", "src/phl_budget_data/cli/scrape"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
