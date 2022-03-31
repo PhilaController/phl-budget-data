@@ -10,7 +10,7 @@ from loguru import logger
 from ..etl import collections
 from ..etl.core import get_etl_sources
 from .scrape import downloaded_pdf, extract_pdf_urls, get_driver
-from .utils import RichClickCommand, RichClickGroup
+from .utils import RichClickCommand
 
 
 def extract_parameters(s):

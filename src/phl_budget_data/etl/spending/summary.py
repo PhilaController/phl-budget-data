@@ -76,7 +76,7 @@ class BudgetSummaryBase(ETLPipeline):
             self.value_column = f"FY{self.fiscal_year} Budgeted"
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
+    def get_data_directory(cls, kind: str) -> Path:
         """Internal function to get the file path.
 
         Parameters
