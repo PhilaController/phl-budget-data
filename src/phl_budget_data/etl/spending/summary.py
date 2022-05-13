@@ -406,11 +406,11 @@ class BudgetSummaryBase(ETLPipeline):  # type: ignore
                 logger.info(f"Running ETL for FY{fy}")
 
                 # Get the kind
-                kind = pdf_path.parts[-2]  # type: ignore
+                kind = pdf_path.parts[-2]
                 assert kind in ["adopted", "proposed"]
 
                 # Run the ETL
-                etl = cls(fy, kind)
+                etl = cls(fy, kind)  # type: ignore
                 etl.extract_transform_load()
 
 

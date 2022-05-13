@@ -5,7 +5,7 @@ import inspect
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from pathlib import Path
-from typing import Iterator, Literal, Type
+from typing import Callable, Iterator, Literal, Type
 
 import pandas as pd
 from loguru import logger
@@ -15,7 +15,7 @@ from pydantic.main import ModelMetaclass
 from .utils.aws import parse_pdf_with_textract
 
 
-def validate_data_schema(data_schema: ModelMetaclass):
+def validate_data_schema(data_schema: ModelMetaclass) -> Callable:
     """
     This decorator will validate a pandas.DataFrame against the given data_schema.
 
@@ -24,8 +24,8 @@ def validate_data_schema(data_schema: ModelMetaclass):
     https://www.inwt-statistics.com/read-blog/pandas-dataframe-validation-with-pydantic-part-2.html
     """
 
-    def Inner(func):
-        def wrapper(*args, **kwargs):
+    def Inner(func: Callable) -> Callable:
+        def wrapper(*args, **kwargs):  # type: ignore
             res = func(*args, **kwargs)
             if isinstance(res, pd.DataFrame):
                 # check result of the function execution against the data_schema
@@ -33,7 +33,7 @@ def validate_data_schema(data_schema: ModelMetaclass):
 
                 # Wrap the data_schema into a helper class for validation
                 class ValidationWrap(BaseModel):
-                    df_dict: list[data_schema]
+                    df_dict: list[data_schema]  # type: ignore
 
                 # Do the validation
                 _ = ValidationWrap(df_dict=df_dict)
