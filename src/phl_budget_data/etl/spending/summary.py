@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar, Literal
+from typing import ClassVar, Final, Literal
 
 import pandas as pd
 import pdfplumber
@@ -10,8 +10,8 @@ from loguru import logger
 from pydantic import BaseModel, Field
 
 from .. import ETL_DATA_DIR
-from ..core import ETLPipeline
-from ..utils.depts import merge_department_info
+from ..core import ETLPipeline, validate_data_schema
+from ..utils.depts import add_department_info
 from ..utils.pdf import extract_words, words_to_table
 from ..utils.transformations import convert_to_floats
 
@@ -135,7 +135,7 @@ def _fix_recession_reserve_data(df: pd.DataFrame) -> pd.DataFrame:
 
 
 @dataclass
-class BudgetSummaryBase(ETLPipeline):
+class BudgetSummaryBase(ETLPipeline):  # type: ignore
     """
     General Fund Budget Summary.
 
@@ -227,7 +227,7 @@ class BudgetSummaryBase(ETLPipeline):
             starts = data.index[(data[data.columns[1:]] == "").all(axis=1)]
             stops = data.index[data[0].str.strip() == "Total"]
 
-            out = []
+            dataframes = []
             for (start, stop) in zip(starts, stops):
 
                 df = data.loc[start:stop].copy()
@@ -245,10 +245,10 @@ class BudgetSummaryBase(ETLPipeline):
                     )
                 )
                 df["dept_name"] = dept_name
-                out.append(df)
+                dataframes.append(df)
 
-            out = pd.concat(out, axis=0).reset_index(drop=True)
-
+            # Combine into a single dataframe
+            out = pd.concat(dataframes, axis=0).reset_index(drop=True)
             out["dept_name"] = (
                 out["dept_name"].str.replace("\(\d\)", "", regex=True).str.strip()
             )
@@ -265,6 +265,7 @@ class BudgetSummaryBase(ETLPipeline):
                 ignore_index=True,
             )
 
+    @validate_data_schema(data_schema=BudgetSummarySchema)
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
@@ -308,7 +309,7 @@ class BudgetSummaryBase(ETLPipeline):
         # Merge in value-added columns
         # Get dept info and merge
         # NOTE: this will open a command line app in textual if missing exist
-        dept_info = merge_department_info(out[["dept_name"]].drop_duplicates())
+        dept_info = add_department_info(out[["dept_name"]].drop_duplicates())
         out = (
             out.rename(columns={"dept_name": "dept_name_raw"})
             .merge(dept_info, on="dept_name_raw", how="left")
@@ -404,18 +405,22 @@ class BudgetSummaryBase(ETLPipeline):
                 # Initialize and run the ETL pipeline
                 logger.info(f"Running ETL for FY{fy}")
 
-                kind = pdf_path.parts[-2]  # adopted or proposed
+                # Get the kind
+                kind = pdf_path.parts[-2]  # type: ignore
+                assert kind in ["adopted", "proposed"]
+
+                # Run the ETL
                 etl = cls(fy, kind)
                 etl.extract_transform_load()
 
 
-class BudgetedDepartmentSpending(BudgetSummaryBase):
+class BudgetedDepartmentSpending(BudgetSummaryBase):  # type: ignore
     """Budgeted spending by department by major class."""
 
-    flavor = "budget"
+    flavor: ClassVar[Literal["actual", "budget"]] = "budget"
 
 
-class ActualDepartmentSpending(BudgetSummaryBase):
+class ActualDepartmentSpending(BudgetSummaryBase):  # type: ignore
     """Actual spending by department by major class."""
 
-    flavor = "actual"
+    flavor: ClassVar[Literal["actual", "budget"]] = "actual"

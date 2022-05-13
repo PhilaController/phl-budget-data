@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from billy_penn.departments import load_city_departments
 
-from ... import DATA_DIR
+from ... import ETL_DATA_DIR
 from .selector import launch_selector
 
 
@@ -67,7 +67,7 @@ def match_missing_departments(data: pd.DataFrame) -> pd.DataFrame:
         missing_depts = [d for d in missing_depts if "general fund" not in d.lower()]
 
         # Load any cached matches
-        filename = DATA_DIR / "interim" / "dept-matches.json"
+        filename = ETL_DATA_DIR / "interim" / "dept-matches.json"
         with filename.open("r") as ff:
             cached_matches = json.load(ff)
 

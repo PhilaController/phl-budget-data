@@ -14,39 +14,40 @@ from pydantic.main import ModelMetaclass
 
 from .utils.aws import parse_pdf_with_textract
 
-# def validate_data_schema(data_schema: ModelMetaclass):
-#     """
-#     This decorator will validate a pandas.DataFrame against the given data_schema.
 
-#     Source
-#     ------
-#     https://www.inwt-statistics.com/read-blog/pandas-dataframe-validation-with-pydantic-part-2.html
-#     """
+def validate_data_schema(data_schema: ModelMetaclass):
+    """
+    This decorator will validate a pandas.DataFrame against the given data_schema.
 
-#     def Inner(func):
-#         def wrapper(*args, **kwargs):
-#             res = func(*args, **kwargs)
-#             if isinstance(res, pd.DataFrame):
-#                 # check result of the function execution against the data_schema
-#                 df_dict = res.to_dict(orient="records")
+    Source
+    ------
+    https://www.inwt-statistics.com/read-blog/pandas-dataframe-validation-with-pydantic-part-2.html
+    """
 
-#                 # Wrap the data_schema into a helper class for validation
-#                 class ValidationWrap(BaseModel):
-#                     df_dict: list[data_schema]
+    def Inner(func):
+        def wrapper(*args, **kwargs):
+            res = func(*args, **kwargs)
+            if isinstance(res, pd.DataFrame):
+                # check result of the function execution against the data_schema
+                df_dict = res.to_dict(orient="records")
 
-#                 # Do the validation
-#                 _ = ValidationWrap(df_dict=df_dict)
-#             else:
-#                 raise TypeError(
-#                     "Your Function is not returning an object of type pandas.DataFrame."
-#                 )
+                # Wrap the data_schema into a helper class for validation
+                class ValidationWrap(BaseModel):
+                    df_dict: list[data_schema]
 
-#             # return the function result
-#             return res
+                # Do the validation
+                _ = ValidationWrap(df_dict=df_dict)
+            else:
+                raise TypeError(
+                    "Your Function is not returning an object of type pandas.DataFrame."
+                )
 
-#         return wrapper
+            # return the function result
+            return res
 
-#     return Inner
+        return wrapper
+
+    return Inner
 
 
 class ETLPipeline(ABC):
@@ -64,6 +65,7 @@ class ETLPipeline(ABC):
 
     @classmethod
     def __init_subclass__(cls, **kwargs):  # type: ignore
+        """Add class to the registry."""
         super().__init_subclass__(**kwargs)
 
         # Add the class to the registry
