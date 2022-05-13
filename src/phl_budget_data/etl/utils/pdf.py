@@ -1,7 +1,6 @@
-import copy
+"""Module for extracting data from PDFs."""
 import itertools
 import re
-from lib2to3.pytree import Base
 from operator import attrgetter
 from typing import Dict, Iterator, List, Optional
 
@@ -12,12 +11,65 @@ from intervaltree import IntervalTree
 from pydantic import BaseModel
 
 
+class Word(BaseModel):
+    """
+    A word in the PDF with associated text and bounding box.
+
+    Parameters
+    ----------
+    x0 :
+        the starting horizontal coordinate
+    x1 :
+        the ending horizontal coordinate
+    top :
+        the top vertical coordinate
+    bottom :
+        the bottom vertical coordinate
+    text :
+        the associated text
+    """
+
+    x0: float
+    x1: float
+    top: float
+    bottom: float
+    text: str
+
+    @property
+    def x(self) -> float:
+        """Alias for `x0`."""
+        return self.x0
+
+    @property
+    def y(self) -> float:
+        """Alias for `top`."""
+        return self.top
+
+
 def extract_words(
     pg: pdfplumber.page.Page,
     keep_blank_chars: bool = False,
     x_tolerance: int = 2,
     y_tolerance: int = 2,
-):
+) -> List[Word]:
+    """
+    Extract words from the input page.
+
+    See Also
+    --------
+    https://github.com/jsvine/pdfplumber#the-pdfplumberpage-class
+
+    Parameters
+    ----------
+    pg :
+        The PDF page to parse
+    keep_blank_chars :
+        Blank characters are treated as part of a word, not as a space between words.
+    x_tolerance :
+        The spacing tolerance in the x direction.
+    y_tolerance :
+        The spacing tolerance in the y direction.
+    """
     words = []
 
     for word_dict in pg.extract_words(
@@ -40,44 +92,6 @@ def extract_words(
     return sorted(words, key=attrgetter("top", "x0"), reverse=False)
 
 
-class Word(BaseModel):
-    """
-    A word in the PDF with associated text and bounding box.
-
-    Parameters
-    ----------
-    x0 :
-        the starting horizontal coordinate
-    x1 :
-        the ending horizontal coordinate
-    bottom :
-        the bottom vertical coordinate
-    top :
-        the top vertical coordinate
-    text :
-        the associated text
-    """
-
-    x0: float
-    x1: float
-    top: float
-    bottom: float
-    text: str
-
-    @property
-    def x(self) -> float:
-        """Alias for `x0`."""
-        return self.x0
-
-    @property
-    def y(self) -> float:
-        """Alias for `tops`."""
-        return self.top
-
-    def copy(self):
-        return copy.deepcopy(self)
-
-
 def groupby(words: List[Word], key: str, sort: bool = False) -> Iterator:
     """Group words by the specified attribute, optionally sorting."""
     if sort:
@@ -86,14 +100,14 @@ def groupby(words: List[Word], key: str, sort: bool = False) -> Iterator:
 
 
 def fuzzy_groupby(
-    words: List[Word], lower_tol: int = 10, upper_tol: int = 10, key="y"
+    words: List[Word], lower_tol: int = 10, upper_tol: int = 10, key: str = "y"
 ) -> Dict[float, List[Word]]:
     """Group words into lines, with a specified tolerance."""
 
     tree = IntervalTree()
     for i in range(len(words)):
         y = getattr(words[i], key)
-        tree[y - lower_tol : y + upper_tol] = words[i]  # type: ignore
+        tree[y - lower_tol : y + upper_tol] = words[i]
 
     result: Dict[float, List[Word]] = {}
     for y in sorted(np.unique([getattr(w, key) for w in words])):
@@ -106,8 +120,10 @@ def fuzzy_groupby(
     return result
 
 
-def create_data_table(headers, columns, match_tol=20) -> pd.DataFrame:
-    """Based on headers and column data, create the data table."""
+def create_data_table(
+    headers: List[Word], columns: Dict[float, List[Word]], match_tol: int = 20
+) -> pd.DataFrame:
+    """Based on row headers and column data, create the data table."""
 
     # Store the bottom y values of all of the row headers
     header_tops = np.array([h.top for h in headers])
@@ -157,7 +173,9 @@ def create_data_table(headers, columns, match_tol=20) -> pd.DataFrame:
     return pd.DataFrame(grid)
 
 
-def remove_all_alpha_columns(columns):
+def remove_all_alpha_columns(
+    columns: Dict[float, List[Word]]
+) -> Dict[float, List[Word]]:
     """Remove orphan columns that are all words and no numbers."""
     for key in sorted(columns):
         value = columns[key]
@@ -166,7 +184,9 @@ def remove_all_alpha_columns(columns):
     return columns
 
 
-def remove_close_columns(columns, min_col_sep=24):
+def remove_close_columns(
+    columns: Dict[float, List[Word]], min_col_sep: int = 24
+) -> Dict[float, List[Word]]:
     """Remove columns that are closer than a specified distance."""
 
     locations = sorted(columns)
@@ -188,7 +208,7 @@ def remove_close_columns(columns, min_col_sep=24):
     return columns
 
 
-def remove_orphan_columns(columns):
+def remove_orphan_columns(columns: Dict[float, List[Word]]) -> Dict[float, List[Word]]:
     """Remove any columns that are full subsets of another column."""
     remove = []
     for k in columns:
@@ -199,7 +219,8 @@ def remove_orphan_columns(columns):
     return {k: columns[k] for k in columns if k not in remove}
 
 
-def remove_hyphens(df):
+def remove_hyphens(df: pd.DataFrame) -> pd.DataFrame:
+    """Remove any hyphens from the input data."""
 
     df = df.replace("-", "")
     bad_columns = (df == "").all(axis=0)
@@ -216,12 +237,29 @@ def words_to_table(
     text_tolerance_x: int = 3,
     column_tolerance: int = 20,
     min_col_sep: int = 24,
-    header_column_overlap: int = 10,
+    row_header_tolerance: int = 10,
 ) -> pd.DataFrame:
-    """Combine words into a table, returning a pandas DataFrame"""
+    """
+    Combine words into a table, returning a pandas DataFrame.
+
+    Parameters
+    ----------
+    words :
+        The list of words returned by extract_words()
+    text_tolerance_y :
+        The tolerance for matching text in the y direction
+    text_tolerance_x :
+        The tolerance for matching text in the x direction
+    column_tolerance :
+        The x tolerance when grouping words into columns
+    min_col_sep :
+        Merge any adjacent columns that are closer than this value
+    row_header_tolerance :
+        The tolerance when matching row headers to words
+    """
 
     # Make a copy
-    words = [word.copy() for word in words]
+    words = [word.copy(deep=True) for word in words]
 
     # Group into words
     rows = fuzzy_groupby(
@@ -290,8 +328,9 @@ def words_to_table(
     columns = remove_all_alpha_columns(columns)
 
     # Create the table
-    table = create_data_table(headers, columns, match_tol=header_column_overlap)
+    table = create_data_table(headers, columns, match_tol=row_header_tolerance)
 
+    # Return with hyphens removed
     return remove_hyphens(table)
 
 
@@ -331,26 +370,30 @@ def find_phrases(words: List[Word], *keywords: str) -> Optional[List[Word]]:
 
 def get_pdf_words(
     pdf_path: str,
+    keep_blank_chars: bool = False,
     x_tolerance: int = 3,
     y_tolerance: int = 3,
     footer_cutoff: Optional[int] = None,
     header_cutoff: Optional[int] = None,
-    keep_blank_chars: bool = False,
 ) -> List[Word]:
-    """Parse a PDF and return the parsed words as well as x/y
+    """
+    Parse a PDF and return the parsed words as well as x/y
     locations.
 
     Parameters
     ----------
     pdf_path :
         the path to the PDF to parse
-    x_tolerance : optional
-        the tolerance to use when extracting out words
-
-    Returns
-    -------
-    words :
-        a list of Word objects in the PDF
+    keep_blank_chars :
+        Blank characters are treated as part of a word, not as a space between words.
+    x_tolerance :
+        The spacing tolerance in the x direction.
+    y_tolerance :
+        The spacing tolerance in the y direction.
+    footer_cutoff :
+        Amount to trim from the bottom
+    header_cutoff :
+        Amount to trim from the top
     """
     # Get header cutoff
     footer_cutoff_ = footer_cutoff

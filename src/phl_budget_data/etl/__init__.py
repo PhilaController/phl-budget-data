@@ -1,4 +1,4 @@
-try:
-    import selenium
-except ImportError:
-    raise Exception("ETL extras not installed; use `pip install phl-budget-data[etl]`")
+"""Main module for data ETL (development version only)."""
+from .. import DATA_DIR
+
+ETL_DATA_DIR = DATA_DIR / "etl"

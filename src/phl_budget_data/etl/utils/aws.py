@@ -2,22 +2,22 @@
 
 import tempfile
 from pathlib import Path
-from typing import Iterator, Tuple
+from typing import Iterator, Literal, Optional
 
 import boto3
 import pandas as pd
 import pdfplumber
 from dotenv import find_dotenv, load_dotenv
 from loguru import logger
+from pydantic import BaseModel
 
 
-def _remove_headers(df: pd.DataFrame) -> pd.DataFrame:
+def remove_nonnumeric_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Internal function to remove the headers from the dataframe.
+    Remove any non-numeric headers from the dataframe.
 
-    Notes
-    -----
-    Headers are defined as alphabetical characters or an empty string.
+    This will remove any rows where all cells in the row
+    are alpha or empty.
     """
     # Loop over index from the beginning
     for i in range(0, len(df.index)):
@@ -25,7 +25,7 @@ def _remove_headers(df: pd.DataFrame) -> pd.DataFrame:
         label = df.index[i]
         row = df.loc[label]
 
-        # All alpha characters or empty string
+        # Test if row is all alpha characters or empty string
         test = row.str.match("([A-Za-z\(\)]|^$|20\d{2}|\d{2})").all()
         if not test:
             break
@@ -34,37 +34,95 @@ def _remove_headers(df: pd.DataFrame) -> pd.DataFrame:
     return df.loc[label:].reset_index(drop=True)
 
 
+class BoundingBox(BaseModel):
+    """Bounding box for a block geometry."""
+
+    Width: float
+    Height: float
+    Left: float
+    Top: float
+
+
+class XY(BaseModel):
+    """X/Y coordinates for a block geometry."""
+
+    X: float
+    Y: float
+
+
+class BlockGeometry(BaseModel):
+    """Geometry for a block."""
+
+    BoundingBox: BoundingBox
+    Polygon: list[XY]
+
+
+class Relationship(BaseModel):
+    """How does this block relate to other blocks."""
+
+    Type: Literal["VALUE", "CHILD", "COMPLEX_FEATURES", "MERGED_CELL", "TITLE"]
+    Ids: list[str]
+
+
+class TextractBlock(BaseModel):
+    """Textract block result."""
+
+    BlockType: Literal[
+        "KEY_VALUE_SET",
+        "PAGE",
+        "LINE",
+        "WORD",
+        "TABLE",
+        "CELL",
+        "SELECTION_ELEMENT",
+        "MERGED_CELL",
+        "TITLE",
+    ]
+    Geometry: BlockGeometry
+    Id: str
+    Relationships: Optional[list[Relationship]] = None
+    Text: str = ""
+    Confidence: Optional[float] = None
+    RowIndex: int = -1
+    ColumnIndex: int = -1
+    SelectionStatus: Literal["SELECTED", "NOT_SELECTED", ""] = ""
+
+
+class TextractResponse(BaseModel):
+    """The response from textract's analyze_document()."""
+
+    DocumentMetadata: dict[str, int]
+    Blocks: list[TextractBlock]
+
+
 def parse_pdf_with_textract(
-    pdf_path: str,
+    pdf_path: Path,
     bucket_name: str,
     resolution: int = 600,
     concat_axis: int = 0,
     remove_headers: bool = False,
-) -> Iterator[Tuple[int, pd.DataFrame]]:
+) -> Iterator[tuple[int, pd.DataFrame]]:
     """
     Parse the specified PDF with AWS Textract.
 
     Parameters
     ----------
     pdf_path :
-        The path to the PDF file.
+        The path to the PDF to parse
     bucket_name :
-        The name of the S3 bucket.
+        The s3 bucket name to upload
     resolution :
-        The resolution of the PDF image to use.
+        PNG resolution when saving images of PDF to parse
     concat_axis :
-        If multiple tables are found, concatenate them along this axis.
+        If there are multiple tables, combine them along the row or column axis
     remove_headers :
-        Do we want to remove the headers from the dataframe?
+        Whether to trim non-numeric headers when parsing
 
     Yields
     ------
-    pg_num
-        The page number.
-    dataframe
-        The parsed dataframe for the specified page
+    pg_num, data :
+        A tuple of the page number and parsed data frame
     """
-
     # Load the credentials
     load_dotenv(find_dotenv())
 
@@ -80,12 +138,14 @@ def parse_pdf_with_textract(
     # Initialize the PDF
     with pdfplumber.open(pdf_path) as pdf:
 
+        # Run the analysis in an temp directory
         with tempfile.TemporaryDirectory() as tmpdir:
 
+            # Loop over each page of the PDF
             for pg_num, pg in enumerate(pdf.pages, start=1):
 
                 # Log the page
-                logger.info(f"  Processing page {pg_num}...")
+                logger.info(f"  Processing page #{pg_num}...")
 
                 # Create the image and save it to temporary directory
                 img = pg.to_image(resolution=resolution)
@@ -96,48 +156,66 @@ def parse_pdf_with_textract(
                 s3.upload_file(str(filename), bucket_name, filename.name)
 
                 # Analyze the document
-                r = textract.analyze_document(
-                    Document={
-                        "S3Object": {"Bucket": bucket_name, "Name": filename.name}
-                    },
-                    FeatureTypes=["TABLES"],
+                r = TextractResponse.parse_obj(
+                    textract.analyze_document(
+                        Document={
+                            "S3Object": {"Bucket": bucket_name, "Name": filename.name}
+                        },
+                        FeatureTypes=["TABLES"],
+                    )
                 )
 
                 # Parse the result
-                result = parse_aws_response(r)
+                dataframes = parse_aws_response(r)
                 if remove_headers:
-                    result = [_remove_headers(df) for df in result]
+                    dataframes = [remove_nonnumeric_columns(df) for df in dataframes]
 
                 # Combine
-                if len(result) > 1:
+                if len(dataframes) > 1:
 
                     # If we are concat'ing along columns, do it from bottom to top
                     if concat_axis == 1:
-                        result = pd.concat(result, axis=1).fillna("")
+                        result = pd.concat(dataframes, axis=1).fillna("")
                         result.columns = [str(i) for i in range(0, len(result.columns))]
                     else:
-                        result = pd.concat(result)
+                        result = pd.concat(dataframes)
                 else:
-                    result = result[0]
+                    result = dataframes[0]
 
                 yield pg_num, result
 
 
-def map_blocks(blocks, block_type):
-    return {block["Id"]: block for block in blocks if block["BlockType"] == block_type}
+def map_blocks(
+    blocks: list[TextractBlock],
+    block_type: Literal[
+        "KEY_VALUE_SET",
+        "PAGE",
+        "LINE",
+        "WORD",
+        "TABLE",
+        "CELL",
+        "SELECTION_ELEMENT",
+        "MERGED_CELL",
+        "TITLE",
+    ],
+) -> dict[str, TextractBlock]:
+    return {block.Id: block for block in blocks if block.BlockType == block_type}
 
 
-def get_children_ids(block):
+def get_children_ids(block: TextractBlock) -> Iterator[str]:
     """Utility to parse relationships of the results."""
-    for rels in block.get("Relationships", []):
-        if rels["Type"] == "CHILD":
-            yield from rels["Ids"]
+
+    relationships = block.Relationships
+    if relationships is not None:
+        for rels in relationships:
+            if rels.Type == "CHILD":
+                yield from rels.Ids
 
 
-def parse_aws_response(r):
-    """Parse AWS response from Textract."""
+def parse_aws_response(r: TextractResponse) -> list[pd.DataFrame]:
+    """Parse AWS response from Textract, returning a list of the parsed data frames."""
 
-    blocks = r["Blocks"]
+    blocks = r.Blocks
     tables = map_blocks(blocks, "TABLE")
     cells = map_blocks(blocks, "CELL")
     words = map_blocks(blocks, "WORD")
@@ -145,13 +223,17 @@ def parse_aws_response(r):
 
     # Iterate from top to bottom
     sorted_table_ids = map(
-        lambda d: d[1],
+        lambda tup: tup[1],
         sorted(
-            [(v["Geometry"]["BoundingBox"]["Top"], k) for (k, v) in tables.items()],
-            key=lambda d: d[0],
+            [
+                (tableBlock.Geometry.BoundingBox.Top, tableId)
+                for (tableId, tableBlock) in tables.items()
+            ],
+            key=lambda tup: tup[0],
         ),
     )
 
+    # Loop over each table
     dataframes = []
     for table_id in sorted_table_ids:
         table = tables[table_id]
@@ -160,20 +242,20 @@ def parse_aws_response(r):
         table_cells = [cells[cell_id] for cell_id in get_children_ids(table)]
 
         # Determine the table's number of rows and columns
-        n_rows = max(cell["RowIndex"] for cell in table_cells)
-        n_cols = max(cell["ColumnIndex"] for cell in table_cells)
-        content = [[None for _ in range(n_cols)] for _ in range(n_rows)]
+        n_rows = max([cell.RowIndex for cell in table_cells])
+        n_cols = max([cell.ColumnIndex for cell in table_cells])
+        content = [["" for _ in range(n_cols)] for _ in range(n_rows)]
 
         # Fill in each cell
         for cell in table_cells:
             cell_contents = [
-                words[child_id]["Text"]
+                words[child_id].Text
                 if child_id in words
-                else selections[child_id]["SelectionStatus"]
+                else selections[child_id].SelectionStatus
                 for child_id in get_children_ids(cell)
             ]
-            i = cell["RowIndex"] - 1
-            j = cell["ColumnIndex"] - 1
+            i = cell.RowIndex - 1
+            j = cell.ColumnIndex - 1
             content[i][j] = " ".join(cell_contents)
 
         # We assume that the first row corresponds to the column names

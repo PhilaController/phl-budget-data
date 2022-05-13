@@ -3,11 +3,11 @@ from functools import wraps
 
 import pandas as pd
 
-from . import DATA_DIR, ETL_VERSION
+from . import DATA_DIR
 
 
 def determine_file_name(f, **kwargs):
-    """Determine the file name."""
+    """Given a function, determine the matching file name."""
 
     # The parts
     name = f.__name__
@@ -46,9 +46,10 @@ def optional_from_cache(f):
     @wraps(f)
     def wrapper(*args, **kwargs):
 
-        # Get the signature
+        # Get the function signature
         sig = inspect.signature(f).bind(*args, **kwargs)
 
+        # If development 
         if not ETL_VERSION:
             filename = determine_file_name(f, **sig.arguments)
             return pd.read_csv(filename)

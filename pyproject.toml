@@ -34,6 +34,7 @@ python-dotenv =  "0.19.2"
 boto3 = "^1.17.12"
 beautifulsoup4 = "^4.9.3"
 textual = "^0.1.15"
+mypy = "^0.941"
 
 [tool.poetry.scripts]
 phl-budget-data = "phl_budget_data.cli.__main__:main"
