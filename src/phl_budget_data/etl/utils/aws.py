@@ -1,5 +1,8 @@
+"""Module for AWS utilities."""
+
 import tempfile
 from pathlib import Path
+from typing import Iterator, Tuple
 
 import boto3
 import pandas as pd
@@ -8,9 +11,14 @@ from dotenv import find_dotenv, load_dotenv
 from loguru import logger
 
 
-def _remove_headers(df):
-    """Remove the headers from the dataframe."""
+def _remove_headers(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Internal function to remove the headers from the dataframe.
 
+    Notes
+    -----
+    Headers are defined as alphabetical characters or an empty string.
+    """
     # Loop over index from the beginning
     for i in range(0, len(df.index)):
 
@@ -22,14 +30,40 @@ def _remove_headers(df):
         if not test:
             break
 
-    # Remove the first rows
+    # Remove everything before the header row
     return df.loc[label:].reset_index(drop=True)
 
 
 def parse_pdf_with_textract(
-    pdf_path, bucket_name, resolution=600, concat_axis=0, remove_headers=False
-):
-    """Parse the specified PDF with AWS Textract."""
+    pdf_path: str,
+    bucket_name: str,
+    resolution: int = 600,
+    concat_axis: int = 0,
+    remove_headers: bool = False,
+) -> Iterator[Tuple[int, pd.DataFrame]]:
+    """
+    Parse the specified PDF with AWS Textract.
+
+    Parameters
+    ----------
+    pdf_path :
+        The path to the PDF file.
+    bucket_name :
+        The name of the S3 bucket.
+    resolution :
+        The resolution of the PDF image to use.
+    concat_axis :
+        If multiple tables are found, concatenate them along this axis.
+    remove_headers :
+        Do we want to remove the headers from the dataframe?
+
+    Yields
+    ------
+    pg_num
+        The page number.
+    dataframe
+        The parsed dataframe for the specified page
+    """
 
     # Load the credentials
     load_dotenv(find_dotenv())
@@ -48,10 +82,10 @@ def parse_pdf_with_textract(
 
         with tempfile.TemporaryDirectory() as tmpdir:
 
-            for i, pg in enumerate(pdf.pages):
+            for pg_num, pg in enumerate(pdf.pages, start=1):
 
                 # Log the page
-                logger.info(f"  Processing page {i+1}...")
+                logger.info(f"  Processing page {pg_num}...")
 
                 # Create the image and save it to temporary directory
                 img = pg.to_image(resolution=resolution)
@@ -86,7 +120,7 @@ def parse_pdf_with_textract(
                 else:
                     result = result[0]
 
-                yield i + 1, result
+                yield pg_num, result
 
 
 def map_blocks(blocks, block_type):
