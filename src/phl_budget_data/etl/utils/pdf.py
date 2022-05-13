@@ -396,7 +396,6 @@ def get_pdf_words(
         Amount to trim from the top
     """
     # Get header cutoff
-    footer_cutoff_ = footer_cutoff
     if header_cutoff is None:
         header_cutoff = 0
 
@@ -405,10 +404,7 @@ def get_pdf_words(
         # Loop over pages
         offset = 0
         words = []
-        for i, pg in enumerate(pdf.pages):
-
-            if footer_cutoff is None:
-                footer_cutoff_ = float(pg.height)
+        for pg in pdf.pages:
 
             # Extract out words
             for word_dict in pg.extract_words(
@@ -421,17 +417,20 @@ def get_pdf_words(
                 word = Word(**word_dict)
 
                 # Check header and footer cutoffs
-                if word.bottom < footer_cutoff_ and word.top > header_cutoff:
+                if word.top <= header_cutoff:
+                    continue
+                if footer_cutoff is not None and word.bottom >= footer_cutoff:
+                    continue
 
-                    # Clean up text
-                    word.text = word.text.replace("\xa0", " ").strip()
+                # Clean up text
+                word.text = word.text.replace("\xa0", " ").strip()
 
-                    # Add the offset
-                    word.top += offset
-                    word.bottom += offset
+                # Add the offset
+                word.top += offset
+                word.bottom += offset
 
-                    # Save it
-                    words.append(word)
+                # Save it
+                words.append(word)
 
         # Sort the words top to bottom and left to right
         words = sorted(words, key=attrgetter("top", "x0"), reverse=False)
