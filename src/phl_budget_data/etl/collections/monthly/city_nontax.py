@@ -27,7 +27,7 @@ class CityNonTaxCollections(CityCollectionsReport):
         df = df.loc[start:stop].iloc[1:]
 
         # Check the length
-        assert len(df) in [10, 11, 17]
+        assert len(df) in [10, 11, 17, 18]
         if len(df) == 11:  # extra first row
             df = df.iloc[1:]
 
