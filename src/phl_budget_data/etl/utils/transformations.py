@@ -1,19 +1,25 @@
+"""Transformation utility functions."""
 import re
-from typing import List, Optional
+from typing import List, Literal, Optional
 
 import numpy as np
 import pandas as pd
 
 
-def remove_unwanted_chars(x, *chars, to_replace=""):
+def remove_unwanted_chars(x: str, *chars: str, to_replace: str = "") -> str:
+    """Remove unwanted characters from a string."""
     return re.sub(f"[{''.join(chars)}]", to_replace, x)
 
 
-def remove_parentheses(x, to_replace=""):
+def remove_parentheses(x: str, to_replace: str = "") -> str:
+    """Remove parentheses from a string."""
     return re.sub(r"\([^)]*\)", to_replace, x)
 
 
-def decimal_to_comma(df, usecols=None):
+def decimal_to_comma(
+    df: pd.DataFrame, usecols: Optional[list[str]] = None
+) -> pd.DataFrame:
+    """Convert decimal values to commas."""
 
     if usecols is None:
         usecols = df.columns
@@ -24,13 +30,16 @@ def decimal_to_comma(df, usecols=None):
     return df
 
 
-def fix_zeros(df, usecols=None):
+def fix_zeros(df: pd.DataFrame, usecols: Optional[list[str]] = None) -> pd.DataFrame:
+    """Convert O and o to 0."""
 
     if usecols is None:
         usecols = df.columns
 
     for col in usecols:
-        df[col] = df[col].astype(str).str.replace("o", "0", regex=True, flags=re.IGNORECASE)
+        df[col] = (
+            df[col].astype(str).str.replace("o", "0", regex=True, flags=re.IGNORECASE)
+        )
 
     return df
 
@@ -39,10 +48,11 @@ def replace_commas(
     df: pd.DataFrame, usecols: Optional[List[str]] = None
 ) -> pd.DataFrame:
     """Replace commas with a period."""
+
     if usecols is None:
         usecols = df.columns
 
-    def rreplace(s):
+    def rreplace(s: str) -> str:
         if re.match(".*,[0-9]$", s):
             s_reversed = s[::-1].replace(",", ".", 1)
             return s_reversed[::-1]
@@ -59,6 +69,7 @@ def fix_decimals(
     df: pd.DataFrame,
     usecols: Optional[List[str]] = None,
 ) -> pd.DataFrame:
+    """Fix parsing errors related to floating point decimals."""
 
     if usecols is None:
         usecols = df.columns
@@ -69,7 +80,7 @@ def fix_decimals(
     # Add decimal
     numbers = re.compile("(\d+)?")
 
-    def add_decimal(s):
+    def add_decimal(s: str) -> str:
         matches = list(filter(lambda s: len(s.strip()), numbers.findall(s)))
         if not len(matches) == 1:
             return s
@@ -85,7 +96,9 @@ def fix_decimals(
 
 
 def convert_to_floats(
-    df: pd.DataFrame, usecols: Optional[List[str]] = None, errors: str = "coerce"
+    df: pd.DataFrame,
+    usecols: Optional[List[str]] = None,
+    errors: Literal["coerce", "raise", "ignore"] = "coerce",
 ) -> pd.DataFrame:
     """
     Convert string values in currency format to floats.
@@ -158,7 +171,9 @@ def fix_duplicate_parens(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def remove_missing_rows(df: pd.DataFrame, usecols=None) -> pd.DataFrame:
+def remove_missing_rows(
+    df: pd.DataFrame, usecols: Optional[list[str]] = None
+) -> pd.DataFrame:
     """Remove rows that are empty."""
     if usecols is None:
         usecols = df.columns
@@ -192,7 +207,7 @@ def fix_duplicated_chars(data: pd.DataFrame) -> pd.DataFrame:
     return data
 
 
-def remove_empty_columns(data, use_nan=False):
+def remove_empty_columns(data: pd.DataFrame, use_nan: bool = False) -> pd.DataFrame:
     """Remove empty columns."""
 
     # Remove null columns
