@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 import pdfplumber
 
-from .... import ETL_DATA_DIR as DATA_DIR
+from ... import ETL_DATA_DIR
 from ...core import ETLPipeline
 from ...utils.pdf import extract_words
 from ...utils.transformations import *
@@ -78,7 +78,7 @@ class SalesCollectionsBySector(ETLPipeline):
         """
         assert kind in ["raw", "processed"]
 
-        return DATA_DIR / kind / "collections" / "by-sector" / "sales"
+        return ETL_DATA_DIR / kind / "collections" / "by-sector" / "sales"
 
     def extract(self) -> pd.DataFrame:
         """Extract the data from the first PDF page."""

@@ -1,4 +1,7 @@
-import numpy as np
+"""Module for parsing montly city collections data."""
+
+from typing import List, Optional
+
 import pandas as pd
 import pdfplumber
 
@@ -7,9 +10,12 @@ from ...utils.transformations import remove_empty_columns
 from .core import MonthlyCollectionsReport
 
 
-def find_top_cutoff(pg):
-    """Search for the top cutoff of header on the page."""
+def find_top_cutoff(pg: pdfplumber.page.Page) -> float:
+    """
+    Search for the top cutoff of header on the page.
 
+    This looks for specific text in the header.
+    """
     # Extract text to look for a header
     pg_text = pg.extract_text()
 
@@ -29,7 +35,7 @@ def find_top_cutoff(pg):
     return top
 
 
-def find_footer_cutoff(pg):
+def find_footer_cutoff(pg: pdfplumber.page.Page) -> Optional[dict[str, float]]:
     """Search for a horizontal line separating footer from data."""
 
     rects = [r for r in pg.rects if r["width"] / pg.width > 0.5]
@@ -40,7 +46,7 @@ def find_footer_cutoff(pg):
         return None
 
 
-class CityCollectionsReport(MonthlyCollectionsReport):
+class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
     """
     Monthly City Collections Report.
 
@@ -55,7 +61,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):
     report_type = "city"
 
     @property
-    def legacy(self):
+    def legacy(self) -> bool:
         """Whether the format is the legacy or current version."""
         return self.num_pages > 4
 
@@ -66,7 +72,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):
         with pdfplumber.open(self.path) as pdf:
 
             # Loop over each page
-            out = []
+            out: List[pd.DataFrame] = []
             for pg in pdf.pages:
 
                 # Is there a width-spanning line at the top?
@@ -92,7 +98,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):
                     text_tolerance_x=5,
                     column_tolerance=20,
                     min_col_sep=24,
-                    header_column_overlap=20,
+                    row_header_tolerance=20,
                 )
 
                 # Remove first row of header if we need to

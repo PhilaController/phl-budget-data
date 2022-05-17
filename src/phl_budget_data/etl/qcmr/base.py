@@ -6,7 +6,7 @@ from typing import ClassVar
 import pdfplumber
 from loguru import logger
 
-from ... import ETL_DATA_DIR as DATA_DIR
+from .. import ETL_DATA_DIR
 from ..core import ETLPipelineAWS
 from ..utils.misc import fiscal_year_quarter_from_path
 
@@ -73,7 +73,7 @@ class ETLPipelineQCMR(ETLPipelineAWS):
             type of data to load
         """
         assert kind in ["raw", "interim", "processed"]
-        return DATA_DIR / kind / "qcmr" / cls.dtype
+        return ETL_DATA_DIR / kind / "qcmr" / cls.dtype
 
     def load(self, data) -> None:
         """Load the data."""

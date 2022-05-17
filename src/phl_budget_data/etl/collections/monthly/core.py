@@ -2,11 +2,12 @@
 
 import calendar
 from dataclasses import dataclass
+from pathlib import Path
 from typing import ClassVar
 
 import pdfplumber
 
-from .... import ETL_DATA_DIR as DATA_DIR
+from ... import ETL_DATA_DIR
 from ...core import ETLPipeline
 from ...utils.misc import fiscal_from_calendar_year
 from ...utils.transformations import *
@@ -38,7 +39,7 @@ def get_column_names(month: int, calendar_year: int) -> List[str]:
     ]
 
 
-@dataclass
+@dataclass  # type: ignore
 class MonthlyCollectionsReport(ETLPipeline):
     """
     Base class for extracting data from the City of Philadelphia's
@@ -56,7 +57,7 @@ class MonthlyCollectionsReport(ETLPipeline):
     month: int
     year: int
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         """Set up necessary variables."""
 
         # The PDF path
@@ -77,7 +78,7 @@ class MonthlyCollectionsReport(ETLPipeline):
         self.month_name = calendar.month_abbr[self.month].lower()
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
+    def get_data_directory(cls, kind: str) -> Path:
         """Internal function to get the file path.
 
         Parameters
@@ -87,7 +88,7 @@ class MonthlyCollectionsReport(ETLPipeline):
         """
         assert kind in ["raw", "processed"]
 
-        return DATA_DIR / kind / "collections" / "monthly" / f"{cls.report_type}"
+        return ETL_DATA_DIR / kind / "collections" / "monthly" / f"{cls.report_type}"
 
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""

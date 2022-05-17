@@ -7,7 +7,7 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
-from ...utils.depts import merge_department_info
+from ...utils.depts import add_department_info
 from ...utils.transformations import convert_to_floats, decimal_to_comma, fix_zeros
 from ..base import ETLPipelineQCMR, add_as_of_date
 
@@ -268,7 +268,7 @@ class PersonalServices(ETLPipelineQCMR):
 
         # Get dept info and merge
         # NOTE: this will open a command line app in textual if missing exist
-        dept_info = merge_department_info(data[["dept_name"]].drop_duplicates())
+        dept_info = add_department_info(data[["dept_name"]].drop_duplicates())
         return (
             data.rename(columns={"dept_name": "dept_name_raw"})
             .merge(dept_info, on="dept_name_raw", how="left")

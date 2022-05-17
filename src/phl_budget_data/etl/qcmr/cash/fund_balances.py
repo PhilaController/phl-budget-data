@@ -77,7 +77,8 @@ class CashReportFundBalances(CashFlowForecast):
                 "/",
             ).split()
         )
-        data["0"] = data["0"].apply(transform)
+        sel = data["0"].notnull()
+        data.loc[sel, "0"] = data.loc[sel, "0"].apply(transform)
 
         # Return
         return super().transform(data)

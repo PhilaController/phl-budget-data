@@ -1,3 +1,7 @@
+"""City tax collections."""
+
+import pandas as pd
+
 from ...utils.misc import rename_tax_rows
 from ...utils.transformations import remove_missing_rows
 from .city import CityCollectionsReport
@@ -7,7 +11,9 @@ from .core import get_column_names
 class CityTaxCollections(CityCollectionsReport):
     """Monthly City Tax Collections Report."""
 
-    def transform(self, data):
+
+    
+    def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform."""
 
         # Call base transform
