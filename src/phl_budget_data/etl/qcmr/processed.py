@@ -230,7 +230,7 @@ def load_cash_reports(kind: CASH_DATA_TYPE) -> pd.DataFrame:
 
     # Loop over all files
     out = []
-    for f, fiscal_year, quarter in _load_processed_results(cls):
+    for f, fiscal_year, quarter in _load_processed_results(cls):  # type: ignore
 
         # Load the CSV data
         df = pd.read_csv(f)
