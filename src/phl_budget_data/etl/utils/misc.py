@@ -54,7 +54,7 @@ def get_index_label(
     pattern: str,
     column: str = "0",
     how: Literal["startswith", "contains"] = "startswith",
-) -> int | str:
+) -> int:
     """Get index label matching a pattern"""
 
     # Do the selection

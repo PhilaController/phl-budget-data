@@ -1,11 +1,16 @@
+"""Spending data from the cash report."""
+
+from typing import ClassVar
+
 import pandas as pd
 from loguru import logger
 from pydantic import BaseModel, Field, validator
 
 from ...core import validate_data_schema
 from ...utils.misc import get_index_label
-from .core import CashFlowForecast
+from .core import CASH_DATA_TYPE, CashFlowForecast
 
+# Row headers
 CATEGORIES = [
     "payroll",
     "employee_benefits",
@@ -40,7 +45,7 @@ class CashSpendingSchema(BaseModel):
     )
 
     @validator("category")
-    def category_ok(cls, category):
+    def category_ok(cls, category: str) -> str:
         """Validate the 'category' field."""
         if category not in CATEGORIES:
             raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
@@ -48,10 +53,10 @@ class CashSpendingSchema(BaseModel):
         return category
 
 
-class CashReportSpending(CashFlowForecast):
+class CashReportSpending(CashFlowForecast): #type: ignore
     """General Fund cash spending from the QCMR's Cash Flow Forecast."""
 
-    report_type = "spending"
+    report_dtype: ClassVar[CASH_DATA_TYPE] = "spending"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -64,7 +69,7 @@ class CashReportSpending(CashFlowForecast):
         stop = get_index_label(df, "TOTAL DISBURSEMENTS")
 
         # Keep first 14 columns (category + 12 months + total)
-        out = df.loc[start:stop, "0":"13"]
+        out = df.loc[start:stop, [str(i) for i in range(0, 14)]]
 
         # Remove empty rows
         return out.dropna(how="all", subset=map(str, range(1, 14)))
@@ -83,14 +88,14 @@ class CashReportSpending(CashFlowForecast):
         data["0"] = CATEGORIES
         return super().transform(data)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Make sure we have 13 months worth of data
         # 12 months + 1 for the total
         assert (data["category"].value_counts() == 13).all()
 
-        def compare_totals(X, Y):
+        def compare_totals(X: pd.Series, Y: pd.Series) -> None:
             # The difference between the two
             diff = (X - Y).abs()
 

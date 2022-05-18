@@ -1,3 +1,5 @@
+"""Load the processed spending data."""
+
 from pathlib import Path
 from typing import Iterable, Literal
 

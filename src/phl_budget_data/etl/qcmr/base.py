@@ -1,34 +1,39 @@
 """Base class for parsing the Quarterly City Manager's Report."""
 
 from dataclasses import dataclass
-from typing import ClassVar
+from pathlib import Path
+from typing import ClassVar, Literal
 
+import pandas as pd
 import pdfplumber
 from loguru import logger
 
-from .. import ETL_DATA_DIR
+from .. import ETL_DATA_DIR, ETL_DATA_FOLDERS
 from ..core import ETLPipelineAWS
 from ..utils.misc import fiscal_year_quarter_from_path
 
+# def add_as_of_date(row: pd.Series, fiscal_year: int, quarter: int):
+#     """Add the date corresponding to the value for each row."""
 
-def add_as_of_date(row, etl):
-    """Add the date corresponding to the value for each row."""
-
-    fy = row["fiscal_year"]
-    if fy < etl.fiscal_year:
-        assert row["time_period"] == "Full Year"
-        return f"{fy}-06-30"
-    else:
-        as_of_dates = {
-            1: f"{etl.fiscal_year-1}-09-30",
-            2: f"{etl.fiscal_year-1}-12-31",
-            3: f"{etl.fiscal_year}-03-31",
-            4: f"{etl.fiscal_year}-06-30",
-        }
-        return as_of_dates[etl.quarter]
+#     fy = row["fiscal_year"]
+#     if fy < fiscal_year:
+#         assert row["time_period"] == "Full Year"
+#         return f"{fy}-06-30"
+#     else:
+#         as_of_dates = {
+#             1: f"{fiscal_year-1}-09-30",
+#             2: f"{fiscal_year-1}-12-31",
+#             3: f"{fiscal_year}-03-31",
+#             4: f"{fiscal_year}-06-30",
+#         }
+#         return as_of_dates[quarter]
 
 
-@dataclass
+# The various data types extracted from the QCMR
+QCMR_DATA_TYPE = Literal["cash", "obligations", "personal-services", "positions"]
+
+
+@dataclass  # type: ignore
 class ETLPipelineQCMR(ETLPipelineAWS):
     """
     Base class for extracting data from the City of Philadelphia's QCMR.
@@ -41,11 +46,11 @@ class ETLPipelineQCMR(ETLPipelineAWS):
         the fiscal quarter
     """
 
-    dtype: ClassVar[str]
+    dtype: ClassVar[QCMR_DATA_TYPE]
     fiscal_year: int
     quarter: int
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         """Set up necessary variables."""
 
         # The PDF path
@@ -64,18 +69,11 @@ class ETLPipelineQCMR(ETLPipelineAWS):
             self.num_pages = len(pdf.pages)
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
-        """Internal function to get the file path.
-
-        Parameters
-        ----------
-        kind : {'raw', 'interim', 'processed'}
-            type of data to load
-        """
-        assert kind in ["raw", "interim", "processed"]
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
+        """Internal function to get the file path."""
         return ETL_DATA_DIR / kind / "qcmr" / cls.dtype
 
-    def load(self, data) -> None:
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data."""
 
         # Get the path
@@ -87,7 +85,7 @@ class ETLPipelineQCMR(ETLPipelineAWS):
         super()._load_csv_data(data, path)
 
     @classmethod
-    def extract_transform_load_all(cls, fresh=False):
+    def extract_transform_load_all(cls, fresh: bool = False) -> None:
         """Run the ETL pipeline on all raw PDF files."""
 
         # Loop over all raw PDF files

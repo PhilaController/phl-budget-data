@@ -1,13 +1,18 @@
 """Base class for parsing the Cash Flow Forecast from the QCMR."""
-from typing import ClassVar
+
+from pathlib import Path
+from typing import ClassVar, Literal
 
 import pandas as pd
 
-from ...utils.transformations import convert_to_floats, fix_decimals, replace_commas
-from ..base import ETLPipelineQCMR
+from ...utils import transformations as tr
+from ..base import ETL_DATA_FOLDERS, QCMR_DATA_TYPE, ETLPipelineQCMR
+
+# Cash report data type
+CASH_DATA_TYPE = Literal["fund-balances", "spending", "revenue", "net-cash-flow"]
 
 
-class CashFlowForecast(ETLPipelineQCMR):
+class CashFlowForecast(ETLPipelineQCMR):  # type: ignore
     """
     Base class for extracting data from the City of Philadelphia's
     QCMR Cash Flow Forecast.
@@ -20,23 +25,16 @@ class CashFlowForecast(ETLPipelineQCMR):
         the fiscal quarter
     """
 
-    dtype: ClassVar[str] = "cash"
-    report_type: ClassVar[str]
+    dtype: ClassVar[QCMR_DATA_TYPE] = "cash"
+    report_dtype: ClassVar[CASH_DATA_TYPE]
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
-        """Internal function to get the file path.
-
-        Parameters
-        ----------
-        kind : {'raw', 'interim', 'processed'}
-            type of data to load
-        """
-        assert kind in ["raw", "interim", "processed"]
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
+        """Internal function to get the file path."""
 
         dirname = super().get_data_directory(kind)
         if kind == "processed":
-            dirname = dirname / cls.report_type
+            dirname = dirname / cls.report_dtype
 
         return dirname
 
@@ -45,9 +43,9 @@ class CashFlowForecast(ETLPipelineQCMR):
 
         # Apply each of the transformations
         data = (
-            data.pipe(replace_commas, usecols=data.columns[1:])
-            .pipe(fix_decimals, usecols=data.columns[1:])
-            .pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(tr.replace_commas, usecols=data.columns[1:])
+            .pipe(tr.fix_decimals, usecols=data.columns[1:])
+            .pipe(tr.convert_to_floats, usecols=data.columns[1:])
             .fillna(0)
             .rename(columns={"0": "category"})
             .reset_index(drop=True)

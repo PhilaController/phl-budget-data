@@ -1,18 +1,22 @@
+"""Net cash flow data from the Cash Report."""
+
+from typing import ClassVar
+
 import pandas as pd
 from loguru import logger
 from pydantic import BaseModel, Field, validator
 
 from ...core import validate_data_schema
 from ...utils.misc import get_index_label
-from .core import CashFlowForecast
+from .core import CASH_DATA_TYPE, CashFlowForecast
 
+# Row headers
 CATEGORIES = [
     "excess_of_receipts_over_disbursements",
     "opening_balance",
     "tran",
     "closing_balance",
 ]
-
 
 class NetCashFlowSchema(BaseModel):
     """Schema for the General Fund cash flow data from the QCMR."""
@@ -30,7 +34,7 @@ class NetCashFlowSchema(BaseModel):
     )
 
     @validator("category")
-    def category_ok(cls, category):
+    def category_ok(cls, category: str) -> str:
         """Validate the 'category' field."""
         if category not in CATEGORIES:
             raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
@@ -38,10 +42,10 @@ class NetCashFlowSchema(BaseModel):
         return category
 
 
-class CashReportNetCashFlow(CashFlowForecast):
+class CashReportNetCashFlow(CashFlowForecast):  # type: ignore
     """The General Fund's net cash flow from the QCMR's Cash Flow Forecast."""
 
-    report_type = "net-cash-flow"
+    report_dtype: ClassVar[CASH_DATA_TYPE] = "net-cash-flow"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -54,7 +58,7 @@ class CashReportNetCashFlow(CashFlowForecast):
         stop = None
 
         # Keep first 14 columns (category + 12 months + total)
-        out = df.loc[start:stop, "0":"12"]
+        out = df.loc[start:stop, [str(i) for i in range(0, 13)]]
 
         return out.dropna(how="all", subset=map(str, range(1, 13)))
 
@@ -74,7 +78,7 @@ class CashReportNetCashFlow(CashFlowForecast):
         data["0"] = CATEGORIES
         return super().transform(data)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Make sure we have 12 months worth of data

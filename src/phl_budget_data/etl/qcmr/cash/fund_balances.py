@@ -1,13 +1,16 @@
 """A class for the fund balances in the cash flow forecast."""
 
+from typing import ClassVar
+
 import pandas as pd
 from loguru import logger
 from pydantic import BaseModel, Field, validator
 
 from ...core import validate_data_schema
-from ...utils.transformations import remove_parentheses, remove_unwanted_chars
-from .core import CashFlowForecast
+from ...utils import transformations as tr
+from .core import CASH_DATA_TYPE, CashFlowForecast
 
+# Row headers
 CATEGORIES = [
     "vehicle_rental_tax",
     "community_development",
@@ -41,7 +44,7 @@ class FundBalancesSchema(BaseModel):
     )
 
     @validator("category")
-    def category_ok(cls, category):
+    def category_ok(cls, category: str) -> str:
         """Validate the 'category' field."""
         if category not in CATEGORIES:
             raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
@@ -49,10 +52,10 @@ class FundBalancesSchema(BaseModel):
         return category
 
 
-class CashReportFundBalances(CashFlowForecast):
+class CashReportFundBalances(CashFlowForecast):  # type: ignore
     """Cash fund balances from the QCMR's Cash Flow Forecast."""
 
-    report_type = "fund-balances"
+    report_dtype: ClassVar[CASH_DATA_TYPE] = "fund-balances"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -69,8 +72,8 @@ class CashReportFundBalances(CashFlowForecast):
 
         # Transform the category
         transform = lambda x: "_".join(
-            remove_unwanted_chars(
-                remove_parentheses(x.replace("&", "and")).lower(),
+            tr.remove_unwanted_chars(
+                tr.remove_parentheses(x.replace("&", "and")).lower(),
                 "‐",
                 ",",
                 ".",
@@ -83,7 +86,7 @@ class CashReportFundBalances(CashFlowForecast):
         # Return
         return super().transform(data)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Make sure we have 12 months worth of data

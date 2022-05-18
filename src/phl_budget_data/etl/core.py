@@ -5,13 +5,14 @@ import inspect
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, Iterator, Literal, Type
+from typing import Callable, Iterator, Type
 
 import pandas as pd
 from loguru import logger
 from pydantic import BaseModel
 from pydantic.main import ModelMetaclass
 
+from . import ETL_DATA_FOLDERS
 from .utils.aws import parse_pdf_with_textract
 
 
@@ -100,7 +101,7 @@ class ETLPipeline(ABC):
 
     @classmethod
     @abstractmethod
-    def get_data_directory(cls, kind: Literal["raw", "processed", "interim"]) -> Path:
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
         """
         Internal function to get the file path.
 

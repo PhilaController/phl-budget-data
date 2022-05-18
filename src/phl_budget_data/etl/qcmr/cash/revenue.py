@@ -1,11 +1,16 @@
+"""Revenue data from the cash report."""
+
+from typing import ClassVar
+
 import pandas as pd
 from loguru import logger
 from pydantic import BaseModel, Field, validator
 
 from ...core import validate_data_schema
 from ...utils.misc import get_index_label
-from .core import CashFlowForecast
+from .core import CASH_DATA_TYPE, CashFlowForecast
 
+# Row headers
 CATEGORIES = [
     "real_estate_tax",
     "total_wage_earnings_net_profits",
@@ -41,7 +46,7 @@ class CashRevenueSchema(BaseModel):
     )
 
     @validator("category")
-    def category_ok(cls, category):
+    def category_ok(cls, category: str) -> str:
         """Validate the 'category' field."""
         if category not in CATEGORIES:
             raise ValueError(f"'category' should be one of: {', '.join(CATEGORIES)}")
@@ -49,10 +54,10 @@ class CashRevenueSchema(BaseModel):
         return category
 
 
-class CashReportRevenue(CashFlowForecast):
+class CashReportRevenue(CashFlowForecast): #type: ignore
     """General Fund cash revenues from the QCMR's Cash Flow Forecast."""
 
-    report_type = "revenue"
+    report_dtype: ClassVar[CASH_DATA_TYPE] = "revenue"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -64,11 +69,11 @@ class CashReportRevenue(CashFlowForecast):
         start = get_index_label(df, "REVENUES")
         stop = get_index_label(df, "TOTAL CASH RECEIPTS", how="contains")
 
-        if df.loc[start, "1":"13"].isnull().all():
+        if df.loc[start, [str(i) for i in range(1, 14)]].isnull().all():
             start += 1
 
-        # Keep first 14 columns (category + 12 months + total)
-        out = df.iloc[1:].loc[start:stop, "0":"13"]
+        # Keep first 14 columns (category + 12 months + total
+        out = df.iloc[1:].loc[start:stop, [str(i) for i in range(0, 14)]]
 
         # Remove empty rows
         return out.dropna(how="all")
@@ -98,8 +103,8 @@ class CashReportRevenue(CashFlowForecast):
             data.loc[last.name + 1, :] = last.values
 
             # Add the empty adjustments
-            data.loc[last.name, "0"] = "Other fund balance adjustments"
-            data.loc[last.name, "1":] = "0"
+            data.loc[last.name, data.columns[0]] = "Other fund balance adjustments"
+            data.loc[last.name, data.columns[1:]] = "0"
 
             # Sort it
             data = data.sort_index()
@@ -115,14 +120,14 @@ class CashReportRevenue(CashFlowForecast):
         data["0"] = categories
         return super().transform(data)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Make sure we have 13 months worth of data
         # 12 months + 1 for the total
         assert (data["category"].value_counts() == 13).all()
 
-        def compare_totals(X, Y):
+        def compare_totals(X: pd.Series, Y: pd.Series) -> None:
             # The difference between the two
             diff = (X - Y).abs()
 
