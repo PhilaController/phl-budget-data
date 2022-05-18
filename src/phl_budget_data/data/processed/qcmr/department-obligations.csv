@@ -1,82 +1,472 @@
 dept_name_raw,total,fiscal_year,variable,time_period,as_of_date,dept_name,dept_code,abbreviation,report_quarter,report_fiscal_year,dept_major_code
-Art Museum Subsidy,2040000.0,2021,Actual,Full Year,2021-06-30,Art Museum,34,,2,2022,34
-Auditing (City Controller's Office),9824760.0,2021,Actual,Full Year,2021-06-30,City Controller's Office,61,,2,2022,61
-Board of Ethics,817525.0,2021,Actual,Full Year,2021-06-30,Board of Ethics,45,,2,2022,45
-Board of Revision of Taxes,1049649.0,2021,Actual,Full Year,2021-06-30,Board of Revision of Taxes,63,BRT,2,2022,63
-City Commissioners (Election Board),20871241.0,2021,Actual,Full Year,2021-06-30,City Commissioner's Office,73,City Commissioners,2,2022,73
-City Council,17009546.0,2021,Actual,Full Year,2021-06-30,City Council,01,,2,2022,01
-City Treasurer,1714804.0,2021,Actual,Full Year,2021-06-30,Office of the City Treasurer,40,City Treasurer,2,2022,40
-Civil Service Commission,170033.0,2021,Actual,Full Year,2021-06-30,Civil Service Commission,55,,2,2022,55
-Commerce,3332692.0,2021,Actual,Full Year,2021-06-30,Office of the Director of Commerce,42,Commerce,2,2022,42
-Commerce-Convention Center Subsidy,15000000.0,2021,Actual,Full Year,2021-06-30,Commerce: Convention Center Subsidy,42-CC,,2,2022,42
-Commerce-Economic Stimulus,2957678.0,2021,Actual,Full Year,2021-06-30,Commerce: Economic Stimulus,42-ES,,2,2022,42
-District Attorney,42026933.0,2021,Actual,Full Year,2021-06-30,District Attorney's Office,69,DAO,2,2022,69
-Finance,56342371.0,2021,Actual,Full Year,2021-06-30,Office of the Director of Finance,35,Finance,2,2022,35
-Finance-Budget Stabilization Reserve,0.0,2021,Actual,Full Year,2021-06-30,Finance: Budget Stabilization Reserve,35-BSR,,2,2022,35
-Finance-Disability-Reg #32 Payroll,2167137.0,2021,Actual,Full Year,2021-06-30,Finance: Reg #32,35-R32,,2,2022,35
-Finance-Recession Reserve and Reopening,0.0,2021,Actual,Full Year,2021-06-30,Finance: Recession Reserve,35-RR,,2,2022,35
-Finance-Community College Subsidy,41628751.0,2021,Actual,Full Year,2021-06-30,Finance: Community College Subsidy,35-CC,,2,2022,35
-Finance - Employee Benefits *,1270300692.0,2021,Actual,Full Year,2021-06-30,Finance: Employee Benefits,35-EB,Employee Benefits,2,2022,35
-Employee Benefits: Unemployment Compensation,2208454.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,,2,2022,35
-Employee Benefits: Employee Disability,70087502.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Employee Disability,35-EB-DIS,,2,2022,35
-Employee Benefits: Pension Obligation Bonds,27849355.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,2,2022,35
-Employee Benefits: Pension,636570278.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Pension,35-EB-PEN,,2,2022,35
-Employee Benefits: FICA,81513022.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: FICA,35-EB-FICA,,2,2022,35
-Employee Benefits: Flex Cash Payments,567761.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,2,2022,35
-Employee Benefits: Health/Medical,440010762.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Health/Medical,35-EB-HM,,2,2022,35
-Employee Benefits: Group Life Insurance,4812435.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,,2,2022,35
-Employee Benefits: Group Legal,6501573.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Group Legal,35-EB-GL,,2,2022,35
-Employee Benefits: Tool Allowance,179550.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Tool Allowance,35-EB-TA,,2,2022,35
-Finance-Hero Scholarship Awards,0.0,2021,Actual,Full Year,2021-06-30,Finance: Hero Scholarship Awards,35-HA,,2,2022,35
-Finance-Indemnities,-5535036.0,2021,Actual,Full Year,2021-06-30,Finance: Indemnities,35-IN,,2,2022,35
-Finance-Refunds,14153.0,2021,Actual,Full Year,2021-06-30,Finance: Refunds,35-R,,2,2022,35
-Finance-School District Contribution,252578558.0,2021,Actual,Full Year,2021-06-30,Finance: School District Contribution,35-SD,,2,2022,35
-Finance-Witness Fees,31007.0,2021,Actual,Full Year,2021-06-30,Finance: Witness Fees,35-WF,,2,2022,35
-Fire,344502428.0,2021,Actual,Full Year,2021-06-30,Fire Department,13,Fire,2,2022,13
-First Judicial District,114312315.0,2021,Actual,Full Year,2021-06-30,First Judicial District,84,FJD,2,2022,84
-Fleet Services,41916725.0,2021,Actual,Full Year,2021-06-30,Office of Fleet Management,25,Fleet,2,2022,25
-Fleet Services - Vehicle Purchases,13352566.0,2021,Actual,Full Year,2021-06-30,Fleet: Vehicle Lease/Purchases,25-V,,2,2022,25
-Free Library,40116664.0,2021,Actual,Full Year,2021-06-30,The Free Library of Philadelphia,52,Free Library,2,2022,52
-Human Relations Commission,2285473.0,2021,Actual,Full Year,2021-06-30,Commission on Human Relations,54,Human Relations,2,2022,54
-Human Services,154211458.0,2021,Actual,Full Year,2021-06-30,Department of Human Services,22,DHS,2,2022,22
-Labor,2377751.0,2021,Actual,Full Year,2021-06-30,Labor,03,,2,2022,03
-Law,16219764.0,2021,Actual,Full Year,2021-06-30,Law Department,44,Law,2,2022,44
-Licenses & Inspections,37334864.0,2021,Actual,Full Year,2021-06-30,Department of Licenses and Inspections,26,L&I,2,2022,26
-L&I-Board of Building Standards,85061.0,2021,Actual,Full Year,2021-06-30,L&I: Board of Building and Standards,29,,2,2022,29
-L&I-Board of L & I Review,129012.0,2021,Actual,Full Year,2021-06-30,L&I: Board of Review,27,,2,2022,27
-Managing Director's Office,63448139.0,2021,Actual,Full Year,2021-06-30,Managing Director's Office,10,MDO,2,2022,10
-Managing Director-Legal Services,50635963.0,2021,Actual,Full Year,2021-06-30,MDO: Legal Services,10-LS,,2,2022,10
-Mayor's Office,6480074.0,2021,Actual,Full Year,2021-06-30,Mayor's Office,05,Mayor,2,2022,05
-Mayor's Office-Scholarships,196500.0,2021,Actual,Full Year,2021-06-30,Mayor's Office: Scholarships,05-S,,2,2022,05
-Mayor's Office-Comm. Empowerment & Opp.,45000.0,2021,Actual,Full Year,2021-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO,2,2022,08
-Mural Arts Program,2122763.0,2021,Actual,Full Year,2021-06-30,Mural Arts Program,50,Mural Arts,2,2022,50
-Office of Behavioral Hith & Intellectual disAbility,15477402.0,2021,Actual,Full Year,2021-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,2,2022,15
-Office of the Chief Administrative Officer,5822476.0,2021,Actual,Full Year,2021-06-30,Office of the Chief Administrative Officer,65,CAO,2,2022,65
-Office of Children and Families,418820.0,2021,Actual,Full Year,2021-06-30,Office of Children and Families,66,OCF,2,2022,66
-Office of Homeless Services,44781994.0,2021,Actual,Full Year,2021-06-30,Office of Homeless Services,24,OHS,2,2022,24
-Office of Human Resources,5717867.0,2021,Actual,Full Year,2021-06-30,Office of Human Resources,56,OHR,2,2022,56
-Office of Innovation and Technology-Base,75346693.0,2021,Actual,Full Year,2021-06-30,Office of Innovation and Technology,04,OIT,2,2022,04
-Office of Innovation and Technology-911,15411322.0,2021,Actual,Full Year,2021-06-30,OIT: 911,04-911,,2,2022,04
-Office of the Inspector General,1369200.0,2021,Actual,Full Year,2021-06-30,Office of the Inspector General,48,OIG,2,2022,48
-Office of Property Assessment,15213643.0,2021,Actual,Full Year,2021-06-30,Office of Property Assessment,59,OPA,2,2022,59
-Office of Sustainability,1081900.0,2021,Actual,Full Year,2021-06-30,Office of Sustainability,49,Sustainability,2,2022,49
-Parks and Recreation,52622772.0,2021,Actual,Full Year,2021-06-30,Department of Parks and Recreation,16,Parks & Recreation,2,2022,16
-Planning & Development,14706453.0,2021,Actual,Full Year,2021-06-30,Department of Planning and Development,72,Planning & Development,2,2022,72
-Police,759140543.0,2021,Actual,Full Year,2021-06-30,Police Department,11,Police,2,2022,11
-Prisons,219172828.0,2021,Actual,Full Year,2021-06-30,Philadelphia Prison System,23,Prisons,2,2022,23
-Procurement,5856103.0,2021,Actual,Full Year,2021-06-30,Procurement Department,38,Procurement,2,2022,38
-Public Health,156193405.0,2021,Actual,Full Year,2021-06-30,Department of Public Health,14,Public Health,2,2022,14
-Public Property,64650999.0,2021,Actual,Full Year,2021-06-30,Department of Public Property,20,Public Property,2,2022,20
-Public Property-SEPTA Subsidy,84608000.0,2021,Actual,Full Year,2021-06-30,Public Property: SEPTA Subsidy,20-SS,,2,2022,20
-Public Property-Space Rentals,25007711.0,2021,Actual,Full Year,2021-06-30,Public Property: Space Rentals,20-SR,,2,2022,20
-Public Property-Utilities,23599406.0,2021,Actual,Full Year,2021-06-30,Public Property: Utilities,20-U,,2,2022,20
-Records,3671829.0,2021,Actual,Full Year,2021-06-30,Department of Records,31,Records,2,2022,31
-Register of Wills,4479180.0,2021,Actual,Full Year,2021-06-30,Register of Wills,68,,2,2022,68
-Revenue,27834085.0,2021,Actual,Full Year,2021-06-30,Department of Revenue,36,Revenue,2,2022,36
-Sheriff,27636660.0,2021,Actual,Full Year,2021-06-30,Office of the Sheriff,70,Sheriff,2,2022,70
-Sinking Fund Commission (Debt Service),273785517.0,2021,Actual,Full Year,2021-06-30,Sinking Fund Commission,37,Sinking Fund,2,2022,37
-Streets-Disposal,58526944.0,2021,Actual,Full Year,2021-06-30,Streets: Disposal,12-D,,2,2022,12
-Streets,111504782.0,2021,Actual,Full Year,2021-06-30,Streets Department,12,Streets,2,2022,12
+Art Museum Subsidy,2040000.0,2021,Actual,Full Year,2021-06-30,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),9824760.0,2021,Actual,Full Year,2021-06-30,City Controller's Office,61,,3,2022,61
+Board of Ethics,817525.0,2021,Actual,Full Year,2021-06-30,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,1049649.0,2021,Actual,Full Year,2021-06-30,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),20871241.0,2021,Actual,Full Year,2021-06-30,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,17009546.0,2021,Actual,Full Year,2021-06-30,City Council,01,,3,2022,01
+City Treasurer,1714804.0,2021,Actual,Full Year,2021-06-30,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,170033.0,2021,Actual,Full Year,2021-06-30,Civil Service Commission,55,,3,2022,55
+Commerce,3332692.0,2021,Actual,Full Year,2021-06-30,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2021,Actual,Full Year,2021-06-30,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,2957678.0,2021,Actual,Full Year,2021-06-30,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,42026933.0,2021,Actual,Full Year,2021-06-30,District Attorney's Office,69,DAO,3,2022,69
+Finance,56342371.0,2021,Actual,Full Year,2021-06-30,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2021,Actual,Full Year,2021-06-30,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,2167137.0,2021,Actual,Full Year,2021-06-30,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,0.0,2021,Actual,Full Year,2021-06-30,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,41628751.0,2021,Actual,Full Year,2021-06-30,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1270300692.0,2021,Actual,Full Year,2021-06-30,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,2208454.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,70087502.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,27849355.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,636570278.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,81513022.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,567761.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,440010762.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,4812435.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,6501573.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,179550.0,2021,Actual,Full Year,2021-06-30,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,0.0,2021,Actual,Full Year,2021-06-30,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,-5535036.0,2021,Actual,Full Year,2021-06-30,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,14153.0,2021,Actual,Full Year,2021-06-30,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,252578558.0,2021,Actual,Full Year,2021-06-30,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,31007.0,2021,Actual,Full Year,2021-06-30,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,344502428.0,2021,Actual,Full Year,2021-06-30,Fire Department,13,Fire,3,2022,13
+First Judicial District,114312315.0,2021,Actual,Full Year,2021-06-30,First Judicial District,84,FJD,3,2022,84
+Fleet Services,41916725.0,2021,Actual,Full Year,2021-06-30,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,13352566.0,2021,Actual,Full Year,2021-06-30,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,40116664.0,2021,Actual,Full Year,2021-06-30,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,2285473.0,2021,Actual,Full Year,2021-06-30,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,154211458.0,2021,Actual,Full Year,2021-06-30,Department of Human Services,22,DHS,3,2022,22
+Labor,2377751.0,2021,Actual,Full Year,2021-06-30,Labor,03,,3,2022,03
+Law,16219764.0,2021,Actual,Full Year,2021-06-30,Law Department,44,Law,3,2022,44
+Licenses & Inspections,37334864.0,2021,Actual,Full Year,2021-06-30,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,85061.0,2021,Actual,Full Year,2021-06-30,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,129012.0,2021,Actual,Full Year,2021-06-30,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,63448139.0,2021,Actual,Full Year,2021-06-30,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,50635963.0,2021,Actual,Full Year,2021-06-30,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,6480074.0,2021,Actual,Full Year,2021-06-30,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,196500.0,2021,Actual,Full Year,2021-06-30,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,45000.0,2021,Actual,Full Year,2021-06-30,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2122763.0,2021,Actual,Full Year,2021-06-30,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,15477402.0,2021,Actual,Full Year,2021-06-30,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,5822476.0,2021,Actual,Full Year,2021-06-30,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,418820.0,2021,Actual,Full Year,2021-06-30,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,44781994.0,2021,Actual,Full Year,2021-06-30,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,5717867.0,2021,Actual,Full Year,2021-06-30,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,75346693.0,2021,Actual,Full Year,2021-06-30,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,15411322.0,2021,Actual,Full Year,2021-06-30,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1369200.0,2021,Actual,Full Year,2021-06-30,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,15213643.0,2021,Actual,Full Year,2021-06-30,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1081900.0,2021,Actual,Full Year,2021-06-30,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,52622772.0,2021,Actual,Full Year,2021-06-30,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,14706453.0,2021,Actual,Full Year,2021-06-30,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,759140543.0,2021,Actual,Full Year,2021-06-30,Police Department,11,Police,3,2022,11
+Prisons,219172828.0,2021,Actual,Full Year,2021-06-30,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,5856103.0,2021,Actual,Full Year,2021-06-30,Procurement Department,38,Procurement,3,2022,38
+Public Health,156193405.0,2021,Actual,Full Year,2021-06-30,Department of Public Health,14,Public Health,3,2022,14
+Public Property,64650999.0,2021,Actual,Full Year,2021-06-30,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,84608000.0,2021,Actual,Full Year,2021-06-30,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,25007711.0,2021,Actual,Full Year,2021-06-30,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,23599406.0,2021,Actual,Full Year,2021-06-30,Public Property: Utilities,20-U,,3,2022,20
+Records,3671829.0,2021,Actual,Full Year,2021-06-30,Department of Records,31,Records,3,2022,31
+Register of Wills,4479180.0,2021,Actual,Full Year,2021-06-30,Register of Wills,68,,3,2022,68
+Revenue,27834085.0,2021,Actual,Full Year,2021-06-30,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,27636660.0,2021,Actual,Full Year,2021-06-30,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),273785517.0,2021,Actual,Full Year,2021-06-30,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,58526944.0,2021,Actual,Full Year,2021-06-30,Streets: Disposal,12-D,,3,2022,12
+Streets,111504782.0,2021,Actual,Full Year,2021-06-30,Streets Department,12,Streets,3,2022,12
+Art Museum Subsidy,1530000.0,2022,Target Budget,YTD,2022-03-31,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),7369031.0,2022,Target Budget,YTD,2022-03-31,City Controller's Office,61,,3,2022,61
+Board of Ethics,598092.0,2022,Target Budget,YTD,2022-03-31,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,759997.0,2022,Target Budget,YTD,2022-03-31,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),12414353.0,2022,Target Budget,YTD,2022-03-31,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,12177701.0,2022,Target Budget,YTD,2022-03-31,City Council,01,,3,2022,01
+City Treasurer,2102376.0,2022,Target Budget,YTD,2022-03-31,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,127221.0,2022,Target Budget,YTD,2022-03-31,Civil Service Commission,55,,3,2022,55
+Commerce,10317319.0,2022,Target Budget,YTD,2022-03-31,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2022,Target Budget,YTD,2022-03-31,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,5834550.0,2022,Target Budget,YTD,2022-03-31,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,32707433.0,2022,Target Budget,YTD,2022-03-31,District Attorney's Office,69,DAO,3,2022,69
+Finance,23564115.0,2022,Target Budget,YTD,2022-03-31,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2022,Target Budget,YTD,2022-03-31,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,1840134.0,2022,Target Budget,YTD,2022-03-31,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,0.0,2022,Target Budget,YTD,2022-03-31,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,48128075.0,2022,Target Budget,YTD,2022-03-31,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1241307821.0,2022,Target Budget,YTD,2022-03-31,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,1573300.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,65087464.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,104777475.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,643524668.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,61332317.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,830862.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,356369256.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,3154127.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,4489427.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,168925.0,2022,Target Budget,YTD,2022-03-31,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,54000.0,2022,Target Budget,YTD,2022-03-31,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,38876141.0,2022,Target Budget,YTD,2022-03-31,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,19694.0,2022,Target Budget,YTD,2022-03-31,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,191964901.0,2022,Target Budget,YTD,2022-03-31,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,148807.0,2022,Target Budget,YTD,2022-03-31,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,258794960.0,2022,Target Budget,YTD,2022-03-31,Fire Department,13,Fire,3,2022,13
+First Judicial District,79003779.0,2022,Target Budget,YTD,2022-03-31,First Judicial District,84,FJD,3,2022,84
+Fleet Services,36626856.0,2022,Target Budget,YTD,2022-03-31,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,9057518.0,2022,Target Budget,YTD,2022-03-31,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,30435011.0,2022,Target Budget,YTD,2022-03-31,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,1666268.0,2022,Target Budget,YTD,2022-03-31,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,154681113.0,2022,Target Budget,YTD,2022-03-31,Department of Human Services,22,DHS,3,2022,22
+Labor,1872074.0,2022,Target Budget,YTD,2022-03-31,Labor,03,,3,2022,03
+Law,14764074.0,2022,Target Budget,YTD,2022-03-31,Law Department,44,Law,3,2022,44
+Licenses & Inspections,28374786.0,2022,Target Budget,YTD,2022-03-31,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,53936.0,2022,Target Budget,YTD,2022-03-31,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,101193.0,2022,Target Budget,YTD,2022-03-31,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,67460075.0,2022,Target Budget,YTD,2022-03-31,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,52404449.0,2022,Target Budget,YTD,2022-03-31,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,4527487.0,2022,Target Budget,YTD,2022-03-31,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,130000.0,2022,Target Budget,YTD,2022-03-31,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,802000.0,2022,Target Budget,YTD,2022-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2358137.0,2022,Target Budget,YTD,2022-03-31,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,21621148.0,2022,Target Budget,YTD,2022-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,4865750.0,2022,Target Budget,YTD,2022-03-31,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,303611.0,2022,Target Budget,YTD,2022-03-31,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,51216513.0,2022,Target Budget,YTD,2022-03-31,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,4407242.0,2022,Target Budget,YTD,2022-03-31,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,54092914.0,2022,Target Budget,YTD,2022-03-31,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,17416253.0,2022,Target Budget,YTD,2022-03-31,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1110742.0,2022,Target Budget,YTD,2022-03-31,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,10911829.0,2022,Target Budget,YTD,2022-03-31,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1041502.0,2022,Target Budget,YTD,2022-03-31,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,46978691.0,2022,Target Budget,YTD,2022-03-31,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,11723926.0,2022,Target Budget,YTD,2022-03-31,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,525732733.0,2022,Target Budget,YTD,2022-03-31,Police Department,11,Police,3,2022,11
+Prisons,177335777.0,2022,Target Budget,YTD,2022-03-31,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,3016809.0,2022,Target Budget,YTD,2022-03-31,Procurement Department,38,Procurement,3,2022,38
+Public Health,124384038.0,2022,Target Budget,YTD,2022-03-31,Department of Public Health,14,Public Health,3,2022,14
+Public Property,42234251.0,2022,Target Budget,YTD,2022-03-31,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,65910500.0,2022,Target Budget,YTD,2022-03-31,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,30427005.0,2022,Target Budget,YTD,2022-03-31,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,22294483.0,2022,Target Budget,YTD,2022-03-31,Public Property: Utilities,20-U,,3,2022,20
+Records,3064567.0,2022,Target Budget,YTD,2022-03-31,Department of Records,31,Records,3,2022,31
+Register of Wills,3168483.0,2022,Target Budget,YTD,2022-03-31,Register of Wills,68,,3,2022,68
+Revenue,16964618.0,2022,Target Budget,YTD,2022-03-31,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,19069925.0,2022,Target Budget,YTD,2022-03-31,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),253579391.0,2022,Target Budget,YTD,2022-03-31,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,38322870.0,2022,Target Budget,YTD,2022-03-31,Streets: Disposal,12-D,,3,2022,12
+Streets,87714484.0,2022,Target Budget,YTD,2022-03-31,Streets Department,12,Streets,3,2022,12
+Art Museum Subsidy,1530000.0,2022,Actual,YTD,2022-03-31,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),7369031.0,2022,Actual,YTD,2022-03-31,City Controller's Office,61,,3,2022,61
+Board of Ethics,598092.0,2022,Actual,YTD,2022-03-31,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,759997.0,2022,Actual,YTD,2022-03-31,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),12414353.0,2022,Actual,YTD,2022-03-31,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,12177701.0,2022,Actual,YTD,2022-03-31,City Council,01,,3,2022,01
+City Treasurer,2102376.0,2022,Actual,YTD,2022-03-31,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,127221.0,2022,Actual,YTD,2022-03-31,Civil Service Commission,55,,3,2022,55
+Commerce,10317319.0,2022,Actual,YTD,2022-03-31,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2022,Actual,YTD,2022-03-31,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,5834550.0,2022,Actual,YTD,2022-03-31,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,32707433.0,2022,Actual,YTD,2022-03-31,District Attorney's Office,69,DAO,3,2022,69
+Finance,23564115.0,2022,Actual,YTD,2022-03-31,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2022,Actual,YTD,2022-03-31,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,1840134.0,2022,Actual,YTD,2022-03-31,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,0.0,2022,Actual,YTD,2022-03-31,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,48128075.0,2022,Actual,YTD,2022-03-31,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1241307821.0,2022,Actual,YTD,2022-03-31,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,1573300.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,65087464.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,104777475.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,643524668.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,61332317.0,2022,Actual,YTD,2022-03-31,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,830862.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,356369256.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,3154127.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,4489427.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,168925.0,2022,Actual,YTD,2022-03-31,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,54000.0,2022,Actual,YTD,2022-03-31,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,38876141.0,2022,Actual,YTD,2022-03-31,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,19694.0,2022,Actual,YTD,2022-03-31,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,191964901.0,2022,Actual,YTD,2022-03-31,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,148807.0,2022,Actual,YTD,2022-03-31,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,258794960.0,2022,Actual,YTD,2022-03-31,Fire Department,13,Fire,3,2022,13
+First Judicial District,79003779.0,2022,Actual,YTD,2022-03-31,First Judicial District,84,FJD,3,2022,84
+Fleet Services,36626856.0,2022,Actual,YTD,2022-03-31,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,9057518.0,2022,Actual,YTD,2022-03-31,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,30435011.0,2022,Actual,YTD,2022-03-31,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,1666268.0,2022,Actual,YTD,2022-03-31,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,154681113.0,2022,Actual,YTD,2022-03-31,Department of Human Services,22,DHS,3,2022,22
+Labor,1872074.0,2022,Actual,YTD,2022-03-31,Labor,03,,3,2022,03
+Law,14764074.0,2022,Actual,YTD,2022-03-31,Law Department,44,Law,3,2022,44
+Licenses & Inspections,28374786.0,2022,Actual,YTD,2022-03-31,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,53936.0,2022,Actual,YTD,2022-03-31,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,101193.0,2022,Actual,YTD,2022-03-31,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,67460075.0,2022,Actual,YTD,2022-03-31,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,52404449.0,2022,Actual,YTD,2022-03-31,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,4527487.0,2022,Actual,YTD,2022-03-31,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,130000.0,2022,Actual,YTD,2022-03-31,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,802000.0,2022,Actual,YTD,2022-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2358137.0,2022,Actual,YTD,2022-03-31,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,21621148.0,2022,Actual,YTD,2022-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,4865750.0,2022,Actual,YTD,2022-03-31,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,303611.0,2022,Actual,YTD,2022-03-31,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,51216513.0,2022,Actual,YTD,2022-03-31,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,4407242.0,2022,Actual,YTD,2022-03-31,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,54092914.0,2022,Actual,YTD,2022-03-31,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,17416253.0,2022,Actual,YTD,2022-03-31,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1110742.0,2022,Actual,YTD,2022-03-31,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,10911829.0,2022,Actual,YTD,2022-03-31,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1041502.0,2022,Actual,YTD,2022-03-31,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,46978691.0,2022,Actual,YTD,2022-03-31,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,11723926.0,2022,Actual,YTD,2022-03-31,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,525732733.0,2022,Actual,YTD,2022-03-31,Police Department,11,Police,3,2022,11
+Prisons,177335777.0,2022,Actual,YTD,2022-03-31,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,3016809.0,2022,Actual,YTD,2022-03-31,Procurement Department,38,Procurement,3,2022,38
+Public Health,124384038.0,2022,Actual,YTD,2022-03-31,Department of Public Health,14,Public Health,3,2022,14
+Public Property,42234251.0,2022,Actual,YTD,2022-03-31,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,65910500.0,2022,Actual,YTD,2022-03-31,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,30427005.0,2022,Actual,YTD,2022-03-31,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,22294483.0,2022,Actual,YTD,2022-03-31,Public Property: Utilities,20-U,,3,2022,20
+Records,3064567.0,2022,Actual,YTD,2022-03-31,Department of Records,31,Records,3,2022,31
+Register of Wills,3168483.0,2022,Actual,YTD,2022-03-31,Register of Wills,68,,3,2022,68
+Revenue,16964618.0,2022,Actual,YTD,2022-03-31,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,19069925.0,2022,Actual,YTD,2022-03-31,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),253579391.0,2022,Actual,YTD,2022-03-31,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,38322870.0,2022,Actual,YTD,2022-03-31,Streets: Disposal,12-D,,3,2022,12
+Streets,87714484.0,2022,Actual,YTD,2022-03-31,Streets Department,12,Streets,3,2022,12
+Art Museum Subsidy,2040000.0,2022,Adopted Budget,Full Year,2022-03-31,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),9853289.0,2022,Adopted Budget,Full Year,2022-03-31,City Controller's Office,61,,3,2022,61
+Board of Ethics,975196.0,2022,Adopted Budget,Full Year,2022-03-31,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,1053462.0,2022,Adopted Budget,Full Year,2022-03-31,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),18046852.0,2022,Adopted Budget,Full Year,2022-03-31,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,18677973.0,2022,Adopted Budget,Full Year,2022-03-31,City Council,01,,3,2022,01
+City Treasurer,4740997.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,25207742.0,2022,Adopted Budget,Full Year,2022-03-31,Civil Service Commission,55,,3,2022,55
+Commerce,14640094.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2022,Adopted Budget,Full Year,2022-03-31,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,6015000.0,2022,Adopted Budget,Full Year,2022-03-31,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,40431659.0,2022,Adopted Budget,Full Year,2022-03-31,District Attorney's Office,69,DAO,3,2022,69
+Finance,41126320.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,2293165.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,75000000.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,48128075.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1438592740.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,5465975.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,78457582.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,91659334.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,682940619.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,87771546.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,1000000.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,476762684.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,8850000.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,5535000.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,150000.0,2022,Adopted Budget,Full Year,2022-03-31,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,25000.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,49246000.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,250000.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,255953201.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,171518.0,2022,Adopted Budget,Full Year,2022-03-31,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,361066229.0,2022,Adopted Budget,Full Year,2022-03-31,Fire Department,13,Fire,3,2022,13
+First Judicial District,116199029.0,2022,Adopted Budget,Full Year,2022-03-31,First Judicial District,84,FJD,3,2022,84
+Fleet Services,45346718.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,9745852.0,2022,Adopted Budget,Full Year,2022-03-31,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,42786864.0,2022,Adopted Budget,Full Year,2022-03-31,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,2387728.0,2022,Adopted Budget,Full Year,2022-03-31,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,178273808.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Human Services,22,DHS,3,2022,22
+Labor,3313659.0,2022,Adopted Budget,Full Year,2022-03-31,Labor,03,,3,2022,03
+Law,18947270.0,2022,Adopted Budget,Full Year,2022-03-31,Law Department,44,Law,3,2022,44
+Licenses & Inspections,38934445.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,82018.0,2022,Adopted Budget,Full Year,2022-03-31,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,176071.0,2022,Adopted Budget,Full Year,2022-03-31,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,125584461.0,2022,Adopted Budget,Full Year,2022-03-31,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,52404449.0,2022,Adopted Budget,Full Year,2022-03-31,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,6714201.0,2022,Adopted Budget,Full Year,2022-03-31,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,100000.0,2022,Adopted Budget,Full Year,2022-03-31,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,1509000.0,2022,Adopted Budget,Full Year,2022-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2652179.0,2022,Adopted Budget,Full Year,2022-03-31,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,23546932.0,2022,Adopted Budget,Full Year,2022-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,10944536.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,442000.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,55321342.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,6470804.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,78787583.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,31334577.0,2022,Adopted Budget,Full Year,2022-03-31,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1607423.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,16783833.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1574587.0,2022,Adopted Budget,Full Year,2022-03-31,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,62564553.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,17073828.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,729347734.0,2022,Adopted Budget,Full Year,2022-03-31,Police Department,11,Police,3,2022,11
+Prisons,237651313.0,2022,Adopted Budget,Full Year,2022-03-31,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,6056338.0,2022,Adopted Budget,Full Year,2022-03-31,Procurement Department,38,Procurement,3,2022,38
+Public Health,163004196.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Public Health,14,Public Health,3,2022,14
+Public Property,73425346.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,91214000.0,2022,Adopted Budget,Full Year,2022-03-31,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,30631626.0,2022,Adopted Budget,Full Year,2022-03-31,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,24875748.0,2022,Adopted Budget,Full Year,2022-03-31,Public Property: Utilities,20-U,,3,2022,20
+Records,3912713.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Records,31,Records,3,2022,31
+Register of Wills,4281429.0,2022,Adopted Budget,Full Year,2022-03-31,Register of Wills,68,,3,2022,68
+Revenue,26943273.0,2022,Adopted Budget,Full Year,2022-03-31,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,26795874.0,2022,Adopted Budget,Full Year,2022-03-31,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),297227515.0,2022,Adopted Budget,Full Year,2022-03-31,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,59762580.0,2022,Adopted Budget,Full Year,2022-03-31,Streets: Disposal,12-D,,3,2022,12
+Streets,113672053.0,2022,Adopted Budget,Full Year,2022-03-31,Streets Department,12,Streets,3,2022,12
+Art Museum Subsidy,2040000.0,2022,Target Budget,Full Year,2022-03-31,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),10308438.0,2022,Target Budget,Full Year,2022-03-31,City Controller's Office,61,,3,2022,61
+Board of Ethics,998750.0,2022,Target Budget,Full Year,2022-03-31,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,1074975.0,2022,Target Budget,Full Year,2022-03-31,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),22369560.0,2022,Target Budget,Full Year,2022-03-31,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,18864888.0,2022,Target Budget,Full Year,2022-03-31,City Council,01,,3,2022,01
+City Treasurer,4651040.0,2022,Target Budget,Full Year,2022-03-31,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,6960820.0,2022,Target Budget,Full Year,2022-03-31,Civil Service Commission,55,,3,2022,55
+Commerce,14268497.0,2022,Target Budget,Full Year,2022-03-31,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2022,Target Budget,Full Year,2022-03-31,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,5834550.0,2022,Target Budget,Full Year,2022-03-31,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,42689582.0,2022,Target Budget,Full Year,2022-03-31,District Attorney's Office,69,DAO,3,2022,69
+Finance,43555754.0,2022,Target Budget,Full Year,2022-03-31,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2022,Target Budget,Full Year,2022-03-31,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,2293165.0,2022,Target Budget,Full Year,2022-03-31,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,42500000.0,2022,Target Budget,Full Year,2022-03-31,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,48128075.0,2022,Target Budget,Full Year,2022-03-31,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1504750683.0,2022,Target Budget,Full Year,2022-03-31,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,5465975.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,78457582.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,91240224.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,711607120.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,89305363.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,3623295.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,510516124.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,8850000.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,5535000.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,150000.0,2022,Target Budget,Full Year,2022-03-31,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,25000.0,2022,Target Budget,Full Year,2022-03-31,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,49246000.0,2022,Target Budget,Full Year,2022-03-31,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,250000.0,2022,Target Budget,Full Year,2022-03-31,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,255953201.0,2022,Target Budget,Full Year,2022-03-31,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,171518.0,2022,Target Budget,Full Year,2022-03-31,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,373167463.0,2022,Target Budget,Full Year,2022-03-31,Fire Department,13,Fire,3,2022,13
+First Judicial District,118825285.0,2022,Target Budget,Full Year,2022-03-31,First Judicial District,84,FJD,3,2022,84
+Fleet Services,47236065.0,2022,Target Budget,Full Year,2022-03-31,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,9745852.0,2022,Target Budget,Full Year,2022-03-31,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,45326677.0,2022,Target Budget,Full Year,2022-03-31,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,2526595.0,2022,Target Budget,Full Year,2022-03-31,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,181234022.0,2022,Target Budget,Full Year,2022-03-31,Department of Human Services,22,DHS,3,2022,22
+Labor,3258494.0,2022,Target Budget,Full Year,2022-03-31,Labor,03,,3,2022,03
+Law,19259000.0,2022,Target Budget,Full Year,2022-03-31,Law Department,44,Law,3,2022,44
+Licenses & Inspections,41049086.0,2022,Target Budget,Full Year,2022-03-31,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,82151.0,2022,Target Budget,Full Year,2022-03-31,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,181598.0,2022,Target Budget,Full Year,2022-03-31,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,125880993.0,2022,Target Budget,Full Year,2022-03-31,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,52404449.0,2022,Target Budget,Full Year,2022-03-31,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,6782234.0,2022,Target Budget,Full Year,2022-03-31,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,135000.0,2022,Target Budget,Full Year,2022-03-31,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,1509000.0,2022,Target Budget,Full Year,2022-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2659013.0,2022,Target Budget,Full Year,2022-03-31,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,23579056.0,2022,Target Budget,Full Year,2022-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,10708161.0,2022,Target Budget,Full Year,2022-03-31,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,447742.0,2022,Target Budget,Full Year,2022-03-31,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,55800860.0,2022,Target Budget,Full Year,2022-03-31,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,6623583.0,2022,Target Budget,Full Year,2022-03-31,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,80129051.0,2022,Target Budget,Full Year,2022-03-31,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,31334577.0,2022,Target Budget,Full Year,2022-03-31,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1581202.0,2022,Target Budget,Full Year,2022-03-31,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,17223695.0,2022,Target Budget,Full Year,2022-03-31,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1537959.0,2022,Target Budget,Full Year,2022-03-31,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,65369958.0,2022,Target Budget,Full Year,2022-03-31,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,17428742.0,2022,Target Budget,Full Year,2022-03-31,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,758034454.0,2022,Target Budget,Full Year,2022-03-31,Police Department,11,Police,3,2022,11
+Prisons,251402740.0,2022,Target Budget,Full Year,2022-03-31,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,6185836.0,2022,Target Budget,Full Year,2022-03-31,Procurement Department,38,Procurement,3,2022,38
+Public Health,165741188.0,2022,Target Budget,Full Year,2022-03-31,Department of Public Health,14,Public Health,3,2022,14
+Public Property,73515244.0,2022,Target Budget,Full Year,2022-03-31,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,91214000.0,2022,Target Budget,Full Year,2022-03-31,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,29845243.0,2022,Target Budget,Full Year,2022-03-31,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,24875748.0,2022,Target Budget,Full Year,2022-03-31,Public Property: Utilities,20-U,,3,2022,20
+Records,4162493.0,2022,Target Budget,Full Year,2022-03-31,Department of Records,31,Records,3,2022,31
+Register of Wills,4322681.0,2022,Target Budget,Full Year,2022-03-31,Register of Wills,68,,3,2022,68
+Revenue,26614882.0,2022,Target Budget,Full Year,2022-03-31,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,26990159.0,2022,Target Budget,Full Year,2022-03-31,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),297227515.0,2022,Target Budget,Full Year,2022-03-31,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,55762580.0,2022,Target Budget,Full Year,2022-03-31,Streets: Disposal,12-D,,3,2022,12
+Streets,121192129.0,2022,Target Budget,Full Year,2022-03-31,Streets Department,12,Streets,3,2022,12
+Art Museum Subsidy,2040000.0,2022,Current Projection,Full Year,2022-03-31,Art Museum,34,,3,2022,34
+Auditing (City Controller's Office),10308438.0,2022,Current Projection,Full Year,2022-03-31,City Controller's Office,61,,3,2022,61
+Board of Ethics,998750.0,2022,Current Projection,Full Year,2022-03-31,Board of Ethics,45,,3,2022,45
+Board of Revision of Taxes,1074975.0,2022,Current Projection,Full Year,2022-03-31,Board of Revision of Taxes,63,BRT,3,2022,63
+City Commissioners (Election Board),22369560.0,2022,Current Projection,Full Year,2022-03-31,City Commissioner's Office,73,City Commissioners,3,2022,73
+City Council,19496893.0,2022,Current Projection,Full Year,2022-03-31,City Council,01,,3,2022,01
+City Treasurer,4651040.0,2022,Current Projection,Full Year,2022-03-31,Office of the City Treasurer,40,City Treasurer,3,2022,40
+Civil Service Commission,4286148.0,2022,Current Projection,Full Year,2022-03-31,Civil Service Commission,55,,3,2022,55
+Commerce,14268497.0,2022,Current Projection,Full Year,2022-03-31,Office of the Director of Commerce,42,Commerce,3,2022,42
+Commerce-Convention Center Subsidy,15000000.0,2022,Current Projection,Full Year,2022-03-31,Commerce: Convention Center Subsidy,42-CC,,3,2022,42
+Commerce-Economic Stimulus,5834550.0,2022,Current Projection,Full Year,2022-03-31,Commerce: Economic Stimulus,42-ES,,3,2022,42
+District Attorney,42689582.0,2022,Current Projection,Full Year,2022-03-31,District Attorney's Office,69,DAO,3,2022,69
+Finance,43805754.0,2022,Current Projection,Full Year,2022-03-31,Office of the Director of Finance,35,Finance,3,2022,35
+Finance-Budget Stabilization Reserve,0.0,2022,Current Projection,Full Year,2022-03-31,Finance: Budget Stabilization Reserve,35-BSR,,3,2022,35
+Finance-Disability-Reg #32 Payroll,2293165.0,2022,Current Projection,Full Year,2022-03-31,Finance: Reg #32,35-R32,,3,2022,35
+Finance-Recession Reserve and Reopening,42500000.0,2022,Current Projection,Full Year,2022-03-31,Finance: Recession Reserve,35-RR,,3,2022,35
+Finance-Community College Subsidy,48128075.0,2022,Current Projection,Full Year,2022-03-31,Finance: Community College Subsidy,35-CC,,3,2022,35
+Finance - Employee Benefits *,1504836775.0,2022,Current Projection,Full Year,2022-03-31,Finance: Employee Benefits,35-EB,Employee Benefits,3,2022,35
+Employee Benefits: Unemployment Compensation,5465975.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,3,2022,35
+Employee Benefits: Employee Disability,78457582.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Employee Disability,35-EB-DIS,,3,2022,35
+Employee Benefits: Pension Obligation Bonds,91240224.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,3,2022,35
+Employee Benefits: Pension,711607120.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Pension,35-EB-PEN,,3,2022,35
+Employee Benefits: FICA,89391455.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: FICA,35-EB-FICA,,3,2022,35
+Employee Benefits: Flex Cash Payments,3623295.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,3,2022,35
+Employee Benefits: Health/Medical,510516124.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Health/Medical,35-EB-HM,,3,2022,35
+Employee Benefits: Group Life Insurance,8850000.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,3,2022,35
+Employee Benefits: Group Legal,5535000.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Group Legal,35-EB-GL,,3,2022,35
+Employee Benefits: Tool Allowance,150000.0,2022,Current Projection,Full Year,2022-03-31,Employee Benefits: Tool Allowance,35-EB-TA,,3,2022,35
+Finance-Hero Scholarship Awards,54000.0,2022,Current Projection,Full Year,2022-03-31,Finance: Hero Scholarship Awards,35-HA,,3,2022,35
+Finance-Indempities,49246000.0,2022,Current Projection,Full Year,2022-03-31,Finance: Indemnities,35-IN,,3,2022,35
+Finance-Refunds,250000.0,2022,Current Projection,Full Year,2022-03-31,Finance: Refunds,35-R,,3,2022,35
+Finance-School District Contribution,255953201.0,2022,Current Projection,Full Year,2022-03-31,Finance: School District Contribution,35-SD,,3,2022,35
+Finance-Witness Fees,171518.0,2022,Current Projection,Full Year,2022-03-31,Finance: Witness Fees,35-WF,,3,2022,35
+Fire,373167463.0,2022,Current Projection,Full Year,2022-03-31,Fire Department,13,Fire,3,2022,13
+First Judicial District,119749157.0,2022,Current Projection,Full Year,2022-03-31,First Judicial District,84,FJD,3,2022,84
+Fleet Services,50074107.0,2022,Current Projection,Full Year,2022-03-31,Office of Fleet Management,25,Fleet,3,2022,25
+Fleet Services - Vehicle Purchases,9745852.0,2022,Current Projection,Full Year,2022-03-31,Fleet: Vehicle Lease/Purchases,25-V,,3,2022,25
+Free Library,45326677.0,2022,Current Projection,Full Year,2022-03-31,The Free Library of Philadelphia,52,Free Library,3,2022,52
+Human Relations Commission,2526595.0,2022,Current Projection,Full Year,2022-03-31,Commission on Human Relations,54,Human Relations,3,2022,54
+Human Services,181234022.0,2022,Current Projection,Full Year,2022-03-31,Department of Human Services,22,DHS,3,2022,22
+Labor,3418494.0,2022,Current Projection,Full Year,2022-03-31,Labor,03,,3,2022,03
+Law,21872000.0,2022,Current Projection,Full Year,2022-03-31,Law Department,44,Law,3,2022,44
+Licenses & Inspections,40049086.0,2022,Current Projection,Full Year,2022-03-31,Department of Licenses and Inspections,26,L&I,3,2022,26
+L&I-Board of Building Standards,82151.0,2022,Current Projection,Full Year,2022-03-31,L&I: Board of Building and Standards,29,,3,2022,29
+L&I-Board of L & I Review,181598.0,2022,Current Projection,Full Year,2022-03-31,L&I: Board of Review,27,,3,2022,27
+Managing Director's Office,108071700.0,2022,Current Projection,Full Year,2022-03-31,Managing Director's Office,10,MDO,3,2022,10
+Managing Director-Legal Services,52404449.0,2022,Current Projection,Full Year,2022-03-31,MDO: Legal Services,10-LS,,3,2022,10
+Mayor's Office,6832234.0,2022,Current Projection,Full Year,2022-03-31,Mayor's Office,05,Mayor,3,2022,05
+Mayor's Office-Scholarships,135000.0,2022,Current Projection,Full Year,2022-03-31,Mayor's Office: Scholarships,05-S,,3,2022,05
+Mayor's Office-Comm. Empowerment & Opp.,1509000.0,2022,Current Projection,Full Year,2022-03-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,3,2022,08
+Mural Arts Program,2659013.0,2022,Current Projection,Full Year,2022-03-31,Mural Arts Program,50,Mural Arts,3,2022,50
+Office of Behavioral Hith & Intellectual disAbility,23579056.0,2022,Current Projection,Full Year,2022-03-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,3,2022,15
+Office of the Chief Administrative Officer,7736085.0,2022,Current Projection,Full Year,2022-03-31,Office of the Chief Administrative Officer,65,CAO,3,2022,65
+Office of Children and Families,447742.0,2022,Current Projection,Full Year,2022-03-31,Office of Children and Families,66,OCF,3,2022,66
+Office of Homeless Services,56258172.0,2022,Current Projection,Full Year,2022-03-31,Office of Homeless Services,24,OHS,3,2022,24
+Office of Human Resources,6623583.0,2022,Current Projection,Full Year,2022-03-31,Office of Human Resources,56,OHR,3,2022,56
+Office of Innovation and Technology-Base,90129051.0,2022,Current Projection,Full Year,2022-03-31,Office of Innovation and Technology,04,OIT,3,2022,04
+Office of Innovation and Technology-911,31334577.0,2022,Current Projection,Full Year,2022-03-31,OIT: 911,04-911,,3,2022,04
+Office of the Inspector General,1581202.0,2022,Current Projection,Full Year,2022-03-31,Office of the Inspector General,48,OIG,3,2022,48
+Office of Property Assessment,17223695.0,2022,Current Projection,Full Year,2022-03-31,Office of Property Assessment,59,OPA,3,2022,59
+Office of Sustainability,1537959.0,2022,Current Projection,Full Year,2022-03-31,Office of Sustainability,49,Sustainability,3,2022,49
+Parks and Recreation,65369958.0,2022,Current Projection,Full Year,2022-03-31,Department of Parks and Recreation,16,Parks & Recreation,3,2022,16
+Planning & Development,17428742.0,2022,Current Projection,Full Year,2022-03-31,Department of Planning and Development,72,Planning & Development,3,2022,72
+Police,758034454.0,2022,Current Projection,Full Year,2022-03-31,Police Department,11,Police,3,2022,11
+Prisons,251402740.0,2022,Current Projection,Full Year,2022-03-31,Philadelphia Prison System,23,Prisons,3,2022,23
+Procurement,6185836.0,2022,Current Projection,Full Year,2022-03-31,Procurement Department,38,Procurement,3,2022,38
+Public Health,165091188.0,2022,Current Projection,Full Year,2022-03-31,Department of Public Health,14,Public Health,3,2022,14
+Public Property,73915244.0,2022,Current Projection,Full Year,2022-03-31,Department of Public Property,20,Public Property,3,2022,20
+Public Property-SEPTA Subsidy,91214000.0,2022,Current Projection,Full Year,2022-03-31,Public Property: SEPTA Subsidy,20-SS,,3,2022,20
+Public Property-Space Rentals,32345243.0,2022,Current Projection,Full Year,2022-03-31,Public Property: Space Rentals,20-SR,,3,2022,20
+Public Property-Utilities,24875748.0,2022,Current Projection,Full Year,2022-03-31,Public Property: Utilities,20-U,,3,2022,20
+Records,4162493.0,2022,Current Projection,Full Year,2022-03-31,Department of Records,31,Records,3,2022,31
+Register of Wills,4426264.0,2022,Current Projection,Full Year,2022-03-31,Register of Wills,68,,3,2022,68
+Revenue,26614882.0,2022,Current Projection,Full Year,2022-03-31,Department of Revenue,36,Revenue,3,2022,36
+Sheriff,29277284.0,2022,Current Projection,Full Year,2022-03-31,Office of the Sheriff,70,Sheriff,3,2022,70
+Sinking Fund Commission (Debt Service),293227515.0,2022,Current Projection,Full Year,2022-03-31,Sinking Fund Commission,37,Sinking Fund,3,2022,37
+Streets-Disposal,55762580.0,2022,Current Projection,Full Year,2022-03-31,Streets: Disposal,12-D,,3,2022,12
+Streets,119592129.0,2022,Current Projection,Full Year,2022-03-31,Streets Department,12,Streets,3,2022,12
 Art Museum Subsidy,1020000.0,2022,Target Budget,YTD,2021-12-31,Art Museum,34,,2,2022,34
 Auditing (City Controller's Office),5059716.0,2022,Target Budget,YTD,2021-12-31,City Controller's Office,61,,2,2022,61
 Board of Ethics,408333.0,2022,Target Budget,YTD,2021-12-31,Board of Ethics,45,,2,2022,45
@@ -233,84 +623,6 @@ Sheriff,13091970.0,2022,Actual,YTD,2021-12-31,Office of the Sheriff,70,Sheriff,2
 Sinking Fund Commission (Debt Service),182671432.0,2022,Actual,YTD,2021-12-31,Sinking Fund Commission,37,Sinking Fund,2,2022,37
 Streets-Disposal,28090748.0,2022,Actual,YTD,2021-12-31,Streets: Disposal,12-D,,2,2022,12
 Streets,54081841.0,2022,Actual,YTD,2021-12-31,Streets Department,12,Streets,2,2022,12
-Art Museum Subsidy,2040000.0,2022,Adopted Budget,Full Year,2021-12-31,Art Museum,34,,2,2022,34
-Auditing (City Controller's Office),9853289.0,2022,Adopted Budget,Full Year,2021-12-31,City Controller's Office,61,,2,2022,61
-Board of Ethics,975196.0,2022,Adopted Budget,Full Year,2021-12-31,Board of Ethics,45,,2,2022,45
-Board of Revision of Taxes,1053462.0,2022,Adopted Budget,Full Year,2021-12-31,Board of Revision of Taxes,63,BRT,2,2022,63
-City Commissioners (Election Board),18046852.0,2022,Adopted Budget,Full Year,2021-12-31,City Commissioner's Office,73,City Commissioners,2,2022,73
-City Council,18677973.0,2022,Adopted Budget,Full Year,2021-12-31,City Council,01,,2,2022,01
-City Treasurer,4740997.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the City Treasurer,40,City Treasurer,2,2022,40
-Civil Service Commission,25207742.0,2022,Adopted Budget,Full Year,2021-12-31,Civil Service Commission,55,,2,2022,55
-Commerce,14640094.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the Director of Commerce,42,Commerce,2,2022,42
-Commerce-Convention Center Subsidy,15000000.0,2022,Adopted Budget,Full Year,2021-12-31,Commerce: Convention Center Subsidy,42-CC,,2,2022,42
-Commerce-Economic Stimulus,6015000.0,2022,Adopted Budget,Full Year,2021-12-31,Commerce: Economic Stimulus,42-ES,,2,2022,42
-District Attorney,40431659.0,2022,Adopted Budget,Full Year,2021-12-31,District Attorney's Office,69,DAO,2,2022,69
-Finance,41126320.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the Director of Finance,35,Finance,2,2022,35
-Finance-Budget Stabilization Reserve,0.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Budget Stabilization Reserve,35-BSR,,2,2022,35
-Finance-Disability-Reg #32 Payroll,2293165.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Reg #32,35-R32,,2,2022,35
-Finance-Recession Reserve and Reopening,75000000.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Recession Reserve,35-RR,,2,2022,35
-Finance-Community College Subsidy,48128075.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Community College Subsidy,35-CC,,2,2022,35
-Finance - Employee Benefits *,1438592740.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Employee Benefits,35-EB,Employee Benefits,2,2022,35
-Employee Benefits: Unemployment Compensation,5465975.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Unemployment Compensation,35-EB-UC,,2,2022,35
-Employee Benefits: Employee Disability,78457582.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Employee Disability,35-EB-DIS,,2,2022,35
-Employee Benefits: Pension Obligation Bonds,91659334.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Pension Obligation Bonds,35-EB-POB,,2,2022,35
-Employee Benefits: Pension,682940619.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Pension,35-EB-PEN,,2,2022,35
-Employee Benefits: FICA,87771546.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: FICA,35-EB-FICA,,2,2022,35
-Employee Benefits: Flex Cash Payments,1000000.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Flex Cash Payments,35-EB-FLEX,,2,2022,35
-Employee Benefits: Health/Medical,476762684.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Health/Medical,35-EB-HM,,2,2022,35
-Employee Benefits: Group Life Insurance,8850000.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Group Life Insurance,35-EB-GLI,,2,2022,35
-Employee Benefits: Group Legal,5535000.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Group Legal,35-EB-GL,,2,2022,35
-Employee Benefits: Tool Allowance,150000.0,2022,Adopted Budget,Full Year,2021-12-31,Employee Benefits: Tool Allowance,35-EB-TA,,2,2022,35
-Finance-Hero Scholarship Awards,25000.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Hero Scholarship Awards,35-HA,,2,2022,35
-Finance-Indemnities,49246000.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Indemnities,35-IN,,2,2022,35
-Finance-Refunds,250000.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Refunds,35-R,,2,2022,35
-Finance-School District Contribution,255953201.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: School District Contribution,35-SD,,2,2022,35
-Finance-Witness Fees,171518.0,2022,Adopted Budget,Full Year,2021-12-31,Finance: Witness Fees,35-WF,,2,2022,35
-Fire,361066229.0,2022,Adopted Budget,Full Year,2021-12-31,Fire Department,13,Fire,2,2022,13
-First Judicial District,116199029.0,2022,Adopted Budget,Full Year,2021-12-31,First Judicial District,84,FJD,2,2022,84
-Fleet Services,45346718.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Fleet Management,25,Fleet,2,2022,25
-Fleet Services - Vehicle Purchases,9745852.0,2022,Adopted Budget,Full Year,2021-12-31,Fleet: Vehicle Lease/Purchases,25-V,,2,2022,25
-Free Library,42786864.0,2022,Adopted Budget,Full Year,2021-12-31,The Free Library of Philadelphia,52,Free Library,2,2022,52
-Human Relations Commission,2387728.0,2022,Adopted Budget,Full Year,2021-12-31,Commission on Human Relations,54,Human Relations,2,2022,54
-Human Services,178273808.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Human Services,22,DHS,2,2022,22
-Labor,3313659.0,2022,Adopted Budget,Full Year,2021-12-31,Labor,03,,2,2022,03
-Law,18947270.0,2022,Adopted Budget,Full Year,2021-12-31,Law Department,44,Law,2,2022,44
-Licenses & Inspections,38934445.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Licenses and Inspections,26,L&I,2,2022,26
-L&I-Board of Building Standards,82018.0,2022,Adopted Budget,Full Year,2021-12-31,L&I: Board of Building and Standards,29,,2,2022,29
-L&I-Board of L & I Review,176071.0,2022,Adopted Budget,Full Year,2021-12-31,L&I: Board of Review,27,,2,2022,27
-Managing Director's Office,125584461.0,2022,Adopted Budget,Full Year,2021-12-31,Managing Director's Office,10,MDO,2,2022,10
-Managing Director-Legal Services,52404449.0,2022,Adopted Budget,Full Year,2021-12-31,MDO: Legal Services,10-LS,,2,2022,10
-Mayor's Office,6714201.0,2022,Adopted Budget,Full Year,2021-12-31,Mayor's Office,05,Mayor,2,2022,05
-Mayor's Office-Scholarships,100000.0,2022,Adopted Budget,Full Year,2021-12-31,Mayor's Office: Scholarships,05-S,,2,2022,05
-Mayor's Office-Comm. Empowerment & Opp.,1509000.0,2022,Adopted Budget,Full Year,2021-12-31,Mayor's Office of Community Empowerment and Opportunity,08,CEO,2,2022,08
-Mural Arts Program,2652179.0,2022,Adopted Budget,Full Year,2021-12-31,Mural Arts Program,50,Mural Arts,2,2022,50
-Office of Behavioral Hith & Intellectual disAbility,23546932.0,2022,Adopted Budget,Full Year,2021-12-31,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,2,2022,15
-Office of the Chief Administrative Officer,10944536.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the Chief Administrative Officer,65,CAO,2,2022,65
-Office of Children and Families,442000.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Children and Families,66,OCF,2,2022,66
-Office of Homeless Services,55321342.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Homeless Services,24,OHS,2,2022,24
-Office of Human Resources,6470804.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Human Resources,56,OHR,2,2022,56
-Office of Innovation and Technology-Base,78787583.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Innovation and Technology,04,OIT,2,2022,04
-Office of Innovation and Technology-911,31334577.0,2022,Adopted Budget,Full Year,2021-12-31,OIT: 911,04-911,,2,2022,04
-Office of the Inspector General,1607423.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the Inspector General,48,OIG,2,2022,48
-Office of Property Assessment,16783833.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Property Assessment,59,OPA,2,2022,59
-Office of Sustainability,1574587.0,2022,Adopted Budget,Full Year,2021-12-31,Office of Sustainability,49,Sustainability,2,2022,49
-Parks and Recreation,62564553.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Parks and Recreation,16,Parks & Recreation,2,2022,16
-Planning & Development,17073828.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Planning and Development,72,Planning & Development,2,2022,72
-Police,729347734.0,2022,Adopted Budget,Full Year,2021-12-31,Police Department,11,Police,2,2022,11
-Prisons,237651313.0,2022,Adopted Budget,Full Year,2021-12-31,Philadelphia Prison System,23,Prisons,2,2022,23
-Procurement,6056338.0,2022,Adopted Budget,Full Year,2021-12-31,Procurement Department,38,Procurement,2,2022,38
-Public Health,163004196.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Public Health,14,Public Health,2,2022,14
-Public Property,73425346.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Public Property,20,Public Property,2,2022,20
-Public Property-SEPTA Subsidy,91214000.0,2022,Adopted Budget,Full Year,2021-12-31,Public Property: SEPTA Subsidy,20-SS,,2,2022,20
-Public Property-Space Rentals,30631626.0,2022,Adopted Budget,Full Year,2021-12-31,Public Property: Space Rentals,20-SR,,2,2022,20
-Public Property-Utilities,24875748.0,2022,Adopted Budget,Full Year,2021-12-31,Public Property: Utilities,20-U,,2,2022,20
-Records,3912713.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Records,31,Records,2,2022,31
-Register of Wills,4281429.0,2022,Adopted Budget,Full Year,2021-12-31,Register of Wills,68,,2,2022,68
-Revenue,26943273.0,2022,Adopted Budget,Full Year,2021-12-31,Department of Revenue,36,Revenue,2,2022,36
-Sheriff,26795874.0,2022,Adopted Budget,Full Year,2021-12-31,Office of the Sheriff,70,Sheriff,2,2022,70
-Sinking Fund Commission (Debt Service),297227515.0,2022,Adopted Budget,Full Year,2021-12-31,Sinking Fund Commission,37,Sinking Fund,2,2022,37
-Streets-Disposal,59762580.0,2022,Adopted Budget,Full Year,2021-12-31,Streets: Disposal,12-D,,2,2022,12
-Streets,113672053.0,2022,Adopted Budget,Full Year,2021-12-31,Streets Department,12,Streets,2,2022,12
 Art Museum Subsidy,2040000.0,2022,Target Budget,Full Year,2021-12-31,Art Museum,34,,2,2022,34
 Auditing (City Controller's Office),9853289.0,2022,Target Budget,Full Year,2021-12-31,City Controller's Office,61,,2,2022,61
 Board of Ethics,975196.0,2022,Target Budget,Full Year,2021-12-31,Board of Ethics,45,,2,2022,45

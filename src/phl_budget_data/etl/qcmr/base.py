@@ -12,21 +12,22 @@ from .. import ETL_DATA_DIR, ETL_DATA_FOLDERS
 from ..core import ETLPipelineAWS
 from ..utils.misc import fiscal_year_quarter_from_path
 
-# def add_as_of_date(row: pd.Series, fiscal_year: int, quarter: int):
-#     """Add the date corresponding to the value for each row."""
 
-#     fy = row["fiscal_year"]
-#     if fy < fiscal_year:
-#         assert row["time_period"] == "Full Year"
-#         return f"{fy}-06-30"
-#     else:
-#         as_of_dates = {
-#             1: f"{fiscal_year-1}-09-30",
-#             2: f"{fiscal_year-1}-12-31",
-#             3: f"{fiscal_year}-03-31",
-#             4: f"{fiscal_year}-06-30",
-#         }
-#         return as_of_dates[quarter]
+def add_as_of_date(row: pd.Series, fiscal_year: int, quarter: int) -> str:
+    """Add the date corresponding to the value for each row."""
+
+    fy = row["fiscal_year"]
+    if fy < fiscal_year:
+        assert row["time_period"] == "Full Year"
+        return f"{fy}-06-30"
+    else:
+        as_of_dates = {
+            1: f"{fiscal_year-1}-09-30",
+            2: f"{fiscal_year-1}-12-31",
+            3: f"{fiscal_year}-03-31",
+            4: f"{fiscal_year}-06-30",
+        }
+        return as_of_dates[quarter]
 
 
 # The various data types extracted from the QCMR

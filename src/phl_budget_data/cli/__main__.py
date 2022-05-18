@@ -12,6 +12,7 @@ from sqlite_utils import Database
 
 from .. import DATA_DIR
 from ..utils import determine_file_name
+from .etl import generate_etl_commands, generate_update_commands
 from .utils import RichClickCommand, RichClickGroup
 
 rich_click.core.COMMAND_GROUPS = {"phl-budget-data etl": []}
@@ -31,11 +32,11 @@ def save(output=None, save_sql=False):
     """Save the processed data products."""
 
     if output is None:
-        output = DATA_DIR / "historical"
+        output = DATA_DIR / "processed"
     else:
         output = Path(output)
 
-    for tag in ["revenue", "spending", "qcmr"]:
+    for tag in ["spending", "qcmr"]:
 
         # Output folder
         output_folder = output / tag
@@ -43,7 +44,7 @@ def save(output=None, save_sql=False):
             output_folder.mkdir(parents=True)
 
         # Get the module
-        mod = importlib.import_module(".." + tag, __package__)
+        mod = importlib.import_module(f"..etl.{tag}.processed", __package__)
 
         # Loop over each data loader
         for name in dir(mod):
@@ -86,7 +87,7 @@ def save(output=None, save_sql=False):
 
         # Determine datasets
         datasets = defaultdict(list)
-        for f in list((DATA_DIR / "historical").glob("**/*.csv")):
+        for f in list((DATA_DIR / "processed").glob("**/*.csv")):
             key = f.parts[-2]
             datasets[key].append(f)
 
@@ -105,25 +106,21 @@ def save(output=None, save_sql=False):
         logger.info("...done")
 
 
-# Add the "etl" and "update" subcommands
-if (Path(__file__).parent / "etl.py").exists():
+@main.group(cls=RichClickGroup)
+def etl():
+    """Run the ETL pipeline for the specified data source (development installation only)."""
+    pass
 
-    # Import
-    from .etl import generate_etl_commands, generate_update_commands
 
-    @main.group(cls=RichClickGroup)
-    def etl():
-        """Run the ETL pipeline for the specified data source (development installation only)."""
-        pass
+@main.group(cls=RichClickGroup)
+def update():
+    """Parse the City's website to scrape and update City of
+    Philadelphia budget data (development installation only)."""
+    pass
 
-    @main.group(cls=RichClickGroup)
-    def update():
-        """Parse the City's website to scrape and update City of
-        Philadelphia budget data (development installation only)."""
-        pass
 
-    # Generate the ETL commands and format the CLI help screen
-    rich_click.core.COMMAND_GROUPS["phl-budget-data etl"] = generate_etl_commands(etl)
+# Generate the ETL commands and format the CLI help screen
+rich_click.core.COMMAND_GROUPS["phl-budget-data etl"] = generate_etl_commands(etl)
 
-    # Generate update commands
-    generate_update_commands(update)
+# Generate update commands
+generate_update_commands(update)

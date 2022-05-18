@@ -8,7 +8,8 @@ from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
 from ...utils.depts import add_department_info
-from ...utils.transformations import convert_to_floats, decimal_to_comma, replace_commas
+from ...utils.transformations import (convert_to_floats, decimal_to_comma,
+                                      replace_commas)
 from ..base import ETLPipelineQCMR, add_as_of_date
 
 
@@ -222,7 +223,7 @@ class DepartmentObligations(ETLPipelineQCMR):
         )
 
         # Assign as-of date
-        data["as_of_date"] = data.apply(add_as_of_date, args=(self,), axis=1)
+        data["as_of_date"] = data.apply(add_as_of_date, args=(self.fiscal_year, self.quarter), axis=1)
 
         # Get general fund
         general_fund = data["dept_name"].str.lower().str.contains("general fund")
