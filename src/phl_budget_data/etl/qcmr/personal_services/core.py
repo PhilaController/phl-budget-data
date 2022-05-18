@@ -1,4 +1,5 @@
 """Class to parse the Personal Services Summary from the QCMR."""
+
 import datetime
 from typing import ClassVar, Literal
 
@@ -7,10 +8,9 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
+from ...utils import transformations as tr
 from ...utils.depts import add_department_info
-from ...utils.transformations import (convert_to_floats, decimal_to_comma,
-                                      fix_zeros)
-from ..base import ETLPipelineQCMR, add_as_of_date
+from ..base import QCMR_DATA_TYPE, ETLPipelineQCMR, add_as_of_date
 
 
 class PersonalServicesSchema(BaseModel):
@@ -59,7 +59,7 @@ class PersonalServicesSchema(BaseModel):
     )
 
 
-def _to_tidy_format(X, fy, qtr):
+def _to_tidy_format(X: pd.DataFrame, fy: int, qtr: int) -> pd.DataFrame:
     """
     Utility function to pivot the data to a tidy format.
 
@@ -154,7 +154,7 @@ class PersonalServices(ETLPipelineQCMR):
         the fiscal quarter
     """
 
-    dtype: ClassVar[str] = "personal-services"
+    dtype: ClassVar[QCMR_DATA_TYPE] = "personal-services"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF using AWS textract."""
@@ -250,9 +250,9 @@ class PersonalServices(ETLPipelineQCMR):
         # Transform the columns
         cols = ["full_time_positions", "class_100_total", "class_100_ot"]
         data = (
-            data.pipe(decimal_to_comma, usecols=cols)
-            .pipe(fix_zeros, usecols=cols)
-            .pipe(convert_to_floats, usecols=cols)
+            data.pipe(tr.decimal_to_comma, usecols=cols)
+            .pipe(tr.fix_zeros, usecols=cols)
+            .pipe(tr.convert_to_floats, usecols=cols)
             .reset_index(drop=True)
             .assign(dept_name=lambda df: df["dept_name"].astype(str).str.strip())
         )
@@ -276,7 +276,7 @@ class PersonalServices(ETLPipelineQCMR):
             .drop(columns=["alias"])
         )
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the totals."""
 
         if not hasattr(self, "validation"):

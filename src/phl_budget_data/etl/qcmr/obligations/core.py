@@ -7,10 +7,9 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
+from ...utils import transformations as tr
 from ...utils.depts import add_department_info
-from ...utils.transformations import (convert_to_floats, decimal_to_comma,
-                                      replace_commas)
-from ..base import ETLPipelineQCMR, add_as_of_date
+from ..base import QCMR_DATA_TYPE, ETLPipelineQCMR, add_as_of_date
 
 
 class DepartmentObligationsSchema(BaseModel):
@@ -54,7 +53,7 @@ class DepartmentObligationsSchema(BaseModel):
     )
 
 
-def remove_line_items(data, start, *stops):
+def remove_line_items(data: pd.DataFrame, start: str, *stops: str) -> pd.DataFrame:
     """Remove the line-items from under a department."""
 
     # Remove line-items for benefits
@@ -76,7 +75,7 @@ def remove_line_items(data, start, *stops):
         return data
 
 
-def get_column_names(fy, q):
+def get_column_names(fy: int, q: int) -> list[str]:
     """Get the column names for the report."""
 
     cols = [f"{fy-1}-Actual-Full Year"]
@@ -100,7 +99,7 @@ def get_column_names(fy, q):
     return cols
 
 
-def fix_pension_rows(data):
+def fix_pension_rows(data: pd.DataFrame) -> pd.DataFrame:
     """Aggregate pension rows."""
 
     # All Pension that is not Pension Obligation Bond
@@ -133,7 +132,7 @@ class DepartmentObligations(ETLPipelineQCMR):
         the fiscal quarter
     """
 
-    dtype: ClassVar[str] = "obligations"
+    dtype: ClassVar[QCMR_DATA_TYPE] = "obligations"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -158,9 +157,9 @@ class DepartmentObligations(ETLPipelineQCMR):
 
         # Apply each of the transformations
         data = (
-            data.pipe(decimal_to_comma, usecols=data.columns[1:])
-            .pipe(replace_commas, usecols=data.columns[1:])
-            .pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(tr.decimal_to_comma, usecols=data.columns[1:])
+            .pipe(tr.replace_commas, usecols=data.columns[1:])
+            .pipe(tr.convert_to_floats, usecols=data.columns[1:])
             .fillna(0)
             .rename(columns={"0": "dept_name"})
             .reset_index(drop=True)
@@ -223,7 +222,9 @@ class DepartmentObligations(ETLPipelineQCMR):
         )
 
         # Assign as-of date
-        data["as_of_date"] = data.apply(add_as_of_date, args=(self.fiscal_year, self.quarter), axis=1)
+        data["as_of_date"] = data.apply(
+            add_as_of_date, args=(self.fiscal_year, self.quarter), axis=1
+        )
 
         # Get general fund
         general_fund = data["dept_name"].str.lower().str.contains("general fund")
@@ -243,7 +244,7 @@ class DepartmentObligations(ETLPipelineQCMR):
             .drop(columns=["alias"])
         )
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         if not hasattr(self, "validation"):

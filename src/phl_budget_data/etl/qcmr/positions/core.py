@@ -7,10 +7,10 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from ...core import validate_data_schema
+from ...utils import transformations as tr
 from ...utils.depts import add_department_info
 from ...utils.misc import get_index_label
-from ...utils.transformations import convert_to_floats, decimal_to_comma, fix_zeros
-from ..base import ETLPipelineQCMR
+from ..base import QCMR_DATA_TYPE, ETLPipelineQCMR
 
 UNIFORMED = ["Police", "Fire", "District Attorney"]
 
@@ -63,7 +63,7 @@ class FullTimePositionsSchema(BaseModel):
     )
 
 
-def _to_tidy_data(df, cols):
+def _to_tidy_data(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     """Pivot data to a tidy format for the specified columns."""
 
     remove = []
@@ -105,7 +105,7 @@ def _to_tidy_data(df, cols):
     return out
 
 
-def _transform_uniformed_depts(x, cols):
+def _transform_uniformed_depts(x: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     """Transform data for uniformed departments."""
 
     XX = (
@@ -135,7 +135,7 @@ class FullTimePositions(ETLPipelineQCMR):
         the fiscal quarter
     """
 
-    dtype: ClassVar[str] = "positions"
+    dtype: ClassVar[QCMR_DATA_TYPE] = "positions"
 
     def extract(self) -> pd.DataFrame:
         """Extract the contents of the PDF."""
@@ -197,9 +197,9 @@ class FullTimePositions(ETLPipelineQCMR):
         )
 
         data = (
-            data.pipe(decimal_to_comma, usecols=["civilian", "uniformed"])
-            .pipe(fix_zeros, usecols=["civilian", "uniformed"])
-            .pipe(convert_to_floats, usecols=["civilian", "uniformed"])
+            data.pipe(tr.decimal_to_comma, usecols=["civilian", "uniformed"])
+            .pipe(tr.fix_zeros, usecols=["civilian", "uniformed"])
+            .pipe(tr.convert_to_floats, usecols=["civilian", "uniformed"])
             .reset_index(drop=True)
             .assign(
                 dept_name=lambda df: df["dept_name"].astype(str).str.strip(),
@@ -222,7 +222,7 @@ class FullTimePositions(ETLPipelineQCMR):
             .drop(columns=["alias"])
         )
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the totals."""
 
         if not hasattr(self, "validation"):
@@ -244,7 +244,6 @@ class FullTimePositions(ETLPipelineQCMR):
 
         diff = A - B
         if not (diff == 0).all():
-            print(diff)
             assert False
 
         return True
