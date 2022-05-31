@@ -20,7 +20,7 @@ rich_click.core.COMMAND_GROUPS = {"phl-budget-data etl": []}
 
 @click.group(cls=RichClickGroup)
 @click.version_option()
-def main():
+def main() -> None:
     """Main command-line interface for working with City of Philadelphia budget data."""
     pass
 
@@ -28,7 +28,7 @@ def main():
 @main.command(cls=RichClickCommand)
 @click.option("--output", type=click.Path(exists=False), help="Output folder.")
 @click.option("--save-sql", is_flag=True, help="Whether to save SQL databases.")
-def save(output=None, save_sql=False):
+def save(output: click.Path = None, save_sql: bool = False) -> None:
     """Save the processed data products."""
 
     if output is None:

@@ -16,7 +16,7 @@ from textual.widget import Reactive, Widget
 from textual.widgets import Header
 
 
-class OptionClick(Message, bubble=True):  # type: ignore
+class OptionClick(Message, bubble=True):
     pass
 
 
