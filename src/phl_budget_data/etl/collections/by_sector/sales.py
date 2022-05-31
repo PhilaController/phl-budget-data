@@ -1,11 +1,16 @@
-from dataclasses import dataclass
+"""Module for parsing sales collections reports."""
 
+from dataclasses import dataclass
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
 import pdfplumber
 
-from ... import ETL_DATA_DIR
+from ... import ETL_DATA_DIR, ETL_DATA_FOLDERS
 from ...core import ETLPipeline
+from ...utils import transformations as tr
 from ...utils.pdf import extract_words
-from ...utils.transformations import *
 
 SECTORS = [
     "All Other Sectors",
@@ -39,7 +44,7 @@ SECTORS = [
 
 
 @dataclass
-class SalesCollectionsBySector(ETLPipeline):
+class SalesCollectionsBySector(ETLPipeline):  # type: ignore
     """
     Fiscal year sales collections by sector.
 
@@ -51,7 +56,7 @@ class SalesCollectionsBySector(ETLPipeline):
 
     fiscal_year: int
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         """Set up necessary variables."""
 
         # The PDF path
@@ -68,7 +73,7 @@ class SalesCollectionsBySector(ETLPipeline):
         self.legacy = self.fiscal_year < 2017
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
         """Internal function to get the file path.
 
         Parameters
@@ -76,8 +81,6 @@ class SalesCollectionsBySector(ETLPipeline):
         kind : {'raw', 'processed'}
             type of data to load
         """
-        assert kind in ["raw", "processed"]
-
         return ETL_DATA_DIR / kind / "collections" / "by-sector" / "sales"
 
     def extract(self) -> pd.DataFrame:
@@ -95,18 +98,20 @@ class SalesCollectionsBySector(ETLPipeline):
             )
 
             ## TOP LEFT
-            top_left = [
-                w
-                for w in all_words
-                if w.text.strip().lower().startswith("construction")
-            ]
-            top_left = min(top_left, key=lambda w: w.x0)
+            top_left = min(
+                [
+                    w
+                    for w in all_words
+                    if w.text.strip().lower().startswith("construction")
+                ],
+                key=lambda w: w.x0,
+            )
 
             ## BOTTOM LEFT
-            bottom_left = [
-                w for w in all_words if w.text.strip().lower().startswith("motor")
-            ]
-            bottom_left = min(bottom_left, key=lambda w: w.x0)
+            bottom_left = min(
+                [w for w in all_words if w.text.strip().lower().startswith("motor")],
+                key=lambda w: w.x0,
+            )
 
             # Crop the main part of the document and extract the words
             cropped = pg.crop(
@@ -133,11 +138,11 @@ class SalesCollectionsBySector(ETLPipeline):
 
         # Apply set of base transformations first
         data = (
-            data.pipe(remove_spaces)
-            .pipe(fix_percentages)
-            .pipe(strip_dollar_signs)
-            .pipe(replace_missing_cells)
-            .pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(tr.remove_spaces)
+            .pipe(tr.fix_percentages)
+            .pipe(tr.strip_dollar_signs)
+            .pipe(tr.replace_missing_cells)
+            .pipe(tr.convert_to_floats, usecols=data.columns[1:])
         ).reset_index(drop=True)
 
         # Check length
@@ -184,7 +189,7 @@ class SalesCollectionsBySector(ETLPipeline):
 
         return data.sort_index()
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Sum up
@@ -209,7 +214,7 @@ class SalesCollectionsBySector(ETLPipeline):
 
         return True
 
-    def load(self, data) -> None:
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data."""
 
         # Get the path

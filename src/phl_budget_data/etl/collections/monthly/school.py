@@ -1,12 +1,15 @@
+"""Module for parsing montly school collections data."""
+from typing import ClassVar
+
 import pandas as pd
 import pdfplumber
 
 from ...utils.misc import rename_tax_rows
 from ...utils.pdf import extract_words, words_to_table
-from .core import MonthlyCollectionsReport, get_column_names
+from .core import COLLECTION_TYPES, MonthlyCollectionsReport, get_column_names
 
 
-class SchoolTaxCollections(MonthlyCollectionsReport):
+class SchoolTaxCollections(MonthlyCollectionsReport):  # type: ignore
     """
     Monthly School District Collections Report.
 
@@ -18,7 +21,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
         the calendar year
     """
 
-    report_type = "school"
+    report_type: ClassVar[COLLECTION_TYPES] = "school"
 
     @property
     def legacy(self) -> bool:
@@ -32,7 +35,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
         with pdfplumber.open(self.path) as pdf:
 
             # Loop over each page
-            out = []
+            out: list[pd.DataFrame] = []
             for pg in pdf.pages:
 
                 # Extract the words
@@ -47,7 +50,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
                     text_tolerance_x=5,
                     column_tolerance=20,
                     min_col_sep=24,
-                    header_column_overlap=10,
+                    row_header_tolerance=10,
                 )
 
                 # Skip the header (first five rows)
@@ -73,7 +76,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
             # Return concatenation
             return pd.concat(out, axis=0, ignore_index=True)
 
-    def transform(self, data):
+    def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform the raw parsing data into a clean data frame."""
 
         # Call base transform
@@ -142,7 +145,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
 
         return data
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Sum up
@@ -157,7 +160,7 @@ class SchoolTaxCollections(MonthlyCollectionsReport):
 
         return True
 
-    def load(self, data) -> None:
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data."""
 
         # Get the path

@@ -3,17 +3,18 @@
 import calendar
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar
+from typing import ClassVar, Literal
 
+import pandas as pd
 import pdfplumber
 
-from ... import ETL_DATA_DIR
+from ... import ETL_DATA_DIR, ETL_DATA_FOLDERS
 from ...core import ETLPipeline
+from ...utils import transformations as tr
 from ...utils.misc import fiscal_from_calendar_year
-from ...utils.transformations import *
 
 
-def get_column_names(month: int, calendar_year: int) -> List[str]:
+def get_column_names(month: int, calendar_year: int) -> list[str]:
     """Columns for monthly collection reports."""
 
     # Get the FY from the calendar year
@@ -39,6 +40,10 @@ def get_column_names(month: int, calendar_year: int) -> List[str]:
     ]
 
 
+# Either City or School collections
+COLLECTION_TYPES = Literal["city", "school"]
+
+
 @dataclass  # type: ignore
 class MonthlyCollectionsReport(ETLPipeline):
     """
@@ -53,7 +58,7 @@ class MonthlyCollectionsReport(ETLPipeline):
         the calendar year
     """
 
-    report_type: ClassVar[str]
+    report_type: ClassVar[COLLECTION_TYPES]
     month: int
     year: int
 
@@ -78,7 +83,7 @@ class MonthlyCollectionsReport(ETLPipeline):
         self.month_name = calendar.month_abbr[self.month].lower()
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> Path:
+    def get_data_directory(cls, kind: Literal[ETL_DATA_FOLDERS]) -> Path:
         """Internal function to get the file path.
 
         Parameters
@@ -86,8 +91,6 @@ class MonthlyCollectionsReport(ETLPipeline):
         kind : {'raw', 'processed'}
             type of data to load
         """
-        assert kind in ["raw", "processed"]
-
         return ETL_DATA_DIR / kind / "collections" / "monthly" / f"{cls.report_type}"
 
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
@@ -95,15 +98,15 @@ class MonthlyCollectionsReport(ETLPipeline):
 
         # Apply each of the transformations
         data = (
-            data.pipe(remove_footnotes)
-            .pipe(fix_duplicated_chars)
-            .pipe(remove_spaces)
-            .pipe(fix_duplicate_parens)
-            .pipe(fix_percentages)
-            .pipe(replace_missing_cells)
-            .pipe(remove_extra_letters, col_num=1)
-            .pipe(convert_to_floats, usecols=data.columns[1:])
-            .pipe(remove_missing_rows, usecols=data.columns[1:])
+            data.pipe(tr.remove_footnotes)
+            .pipe(tr.fix_duplicated_chars)
+            .pipe(tr.remove_spaces)
+            .pipe(tr.fix_duplicate_parens)
+            .pipe(tr.fix_percentages)
+            .pipe(tr.replace_missing_cells)
+            .pipe(tr.remove_extra_letters, col_num=1)
+            .pipe(tr.convert_to_floats, usecols=data.columns[1:])
+            .pipe(tr.remove_missing_rows, usecols=data.columns[1:])
         ).reset_index(drop=True)
 
         # Remove any net accrual columns

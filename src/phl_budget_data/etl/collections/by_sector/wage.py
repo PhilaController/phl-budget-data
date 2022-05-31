@@ -1,13 +1,18 @@
+"""Module for parsing wage collection reports."""
+
 import calendar
 from dataclasses import dataclass
 from operator import attrgetter
+from pathlib import Path
 
+import numpy as np
+import pandas as pd
 import pdfplumber
 
-from ... import ETL_DATA_DIR
+from ... import ETL_DATA_DIR, ETL_DATA_FOLDERS
 from ...core import ETLPipeline
+from ...utils import transformations as tr
 from ...utils.pdf import extract_words, fuzzy_groupby
-from ...utils.transformations import *
 
 SECTORS = [
     "Construction",
@@ -66,7 +71,7 @@ SECTORS = [
 
 
 @dataclass
-class WageCollectionsBySector(ETLPipeline):
+class WageCollectionsBySector(ETLPipeline):  # type: ignore
     """
     Monthly wage collections by sector.
 
@@ -81,7 +86,7 @@ class WageCollectionsBySector(ETLPipeline):
     month: int
     year: int
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         """Set up necessary variables."""
 
         # The PDF path
@@ -110,7 +115,7 @@ class WageCollectionsBySector(ETLPipeline):
             self.month_name = f"{quarter_start}_to_{self.month_name}"
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
         """Internal function to get the file path.
 
         Parameters
@@ -118,7 +123,6 @@ class WageCollectionsBySector(ETLPipeline):
         kind : {'raw', 'processed'}
             type of data to load
         """
-        assert kind in ["raw", "processed"]
         return ETL_DATA_DIR / kind / "collections" / "by-sector" / "wage"
 
     def extract(self) -> pd.DataFrame:
@@ -139,20 +143,24 @@ class WageCollectionsBySector(ETLPipeline):
             )
 
             ## TOP LEFT
-            top_left = [
-                w
-                for w in all_words
-                if w.text.strip().lower().startswith("construction")
-            ]
-            top_left = min(top_left, key=lambda w: w.x0)
+            top_left = min(
+                [
+                    w
+                    for w in all_words
+                    if w.text.strip().lower().startswith("construction")
+                ],
+                key=lambda w: w.x0,
+            )
 
             ## BOTTOM LEFT
-            bottom_left = [
-                w
-                for w in all_words
-                if w.text.strip().lower().startswith("unclassified")
-            ]
-            bottom_left = min(bottom_left, key=lambda w: w.x0)
+            bottom_left = min(
+                [
+                    w
+                    for w in all_words
+                    if w.text.strip().lower().startswith("unclassified")
+                ],
+                key=lambda w: w.x0,
+            )
 
             # Crop the main part of the document and extract the words
             cropped = pg.crop(
@@ -176,10 +184,10 @@ class WageCollectionsBySector(ETLPipeline):
 
         # Apply set of base transformations first
         data = (
-            data.pipe(remove_spaces)
-            .pipe(fix_percentages)
-            .pipe(replace_missing_cells)
-            .pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(tr.remove_spaces)
+            .pipe(tr.fix_percentages)
+            .pipe(tr.replace_missing_cells)
+            .pipe(tr.convert_to_floats, usecols=data.columns[1:])
         ).reset_index(drop=True)
 
         # Check length
@@ -273,7 +281,7 @@ class WageCollectionsBySector(ETLPipeline):
 
         return data
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         cols = [f"{self.month_name}_{self.year-i}" for i in [0, 1, 2, 3]]
@@ -292,7 +300,7 @@ class WageCollectionsBySector(ETLPipeline):
 
         return True
 
-    def load(self, data) -> None:
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data."""
 
         # Path to save data to

@@ -8,11 +8,9 @@ from .city import CityCollectionsReport
 from .core import get_column_names
 
 
-class CityTaxCollections(CityCollectionsReport):
+class CityTaxCollections(CityCollectionsReport):  # type: ignore
     """Monthly City Tax Collections Report."""
 
-
-    
     def transform(self, data: pd.DataFrame) -> pd.DataFrame:
         """Transform."""
 
@@ -149,7 +147,7 @@ class CityTaxCollections(CityCollectionsReport):
 
         return tax
 
-    def load(self, data):
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data into storage."""
 
         # Get the processed data path
@@ -159,7 +157,7 @@ class CityTaxCollections(CityCollectionsReport):
         # Load
         super()._load_csv_data(data, path)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         taxes = [

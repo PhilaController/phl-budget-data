@@ -1,13 +1,13 @@
 """Module for parsing montly city collections data."""
 
-from typing import List, Optional
+from typing import ClassVar, Optional
 
 import pandas as pd
 import pdfplumber
 
 from ...utils.pdf import extract_words, words_to_table
 from ...utils.transformations import remove_empty_columns
-from .core import MonthlyCollectionsReport
+from .core import COLLECTION_TYPES, MonthlyCollectionsReport
 
 
 def find_top_cutoff(pg: pdfplumber.page.Page) -> float:
@@ -58,7 +58,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
         the calendar year
     """
 
-    report_type = "city"
+    report_type: ClassVar[COLLECTION_TYPES] = "city"
 
     @property
     def legacy(self) -> bool:
@@ -72,7 +72,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
         with pdfplumber.open(self.path) as pdf:
 
             # Loop over each page
-            out: List[pd.DataFrame] = []
+            out: list[pd.DataFrame] = []
             for pg in pdf.pages:
 
                 # Is there a width-spanning line at the top?

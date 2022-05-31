@@ -1,10 +1,15 @@
-from dataclasses import dataclass
+"""Module for parsing BIRT collection reports."""
 
+from dataclasses import dataclass
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
 import pdfplumber
 
 from ... import ETL_DATA_DIR
-from ...core import ETLPipeline
-from ...utils.transformations import *
+from ...core import ETL_DATA_FOLDERS, ETLPipeline
+from ...utils import transformations as tr
 
 SECTORS = [
     "Construction",
@@ -45,19 +50,19 @@ SECTORS = [
 
 
 @dataclass
-class BIRTCollectionsBySector(ETLPipeline):
+class BIRTCollectionsBySector(ETLPipeline):  # type: ignore
     """
     Tax year BIRT collections by sector.
     """
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         """Set up necessary variables."""
 
         # The PDF path
         self.path = self.get_data_directory("raw") / "tax-years-2004-2018.pdf"
 
     @classmethod
-    def get_data_directory(cls, kind: str) -> str:
+    def get_data_directory(cls, kind: ETL_DATA_FOLDERS) -> Path:
         """Internal function to get the file path.
 
         Parameters
@@ -65,8 +70,6 @@ class BIRTCollectionsBySector(ETLPipeline):
         kind : {'raw', 'processed'}
             type of data to load
         """
-        assert kind in ["raw", "processed"]
-
         return ETL_DATA_DIR / kind / "collections" / "by-sector" / "birt"
 
     def extract(self) -> pd.DataFrame:
@@ -118,7 +121,9 @@ class BIRTCollectionsBySector(ETLPipeline):
 
         # Apply set of base transformations first
         data = (
-            data.pipe(remove_spaces).pipe(convert_to_floats, usecols=data.columns[1:])
+            data.pipe(tr.remove_spaces).pipe(
+                tr.convert_to_floats, usecols=data.columns[1:]
+            )
         ).reset_index(drop=True)
 
         # Remove total
@@ -168,7 +173,7 @@ class BIRTCollectionsBySector(ETLPipeline):
 
         return data.sort_values("tax_year", ascending=False).reset_index(drop=True)
 
-    def validate(self, data):
+    def validate(self, data: pd.DataFrame) -> bool:
         """Validate the input data."""
 
         # Sub industries
@@ -186,7 +191,7 @@ class BIRTCollectionsBySector(ETLPipeline):
 
         return True
 
-    def load(self, data) -> None:
+    def load(self, data: pd.DataFrame) -> None:
         """Load the data."""
 
         # Get the path
