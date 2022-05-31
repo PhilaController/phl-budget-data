@@ -142,7 +142,7 @@ def _to_tidy_format(X: pd.DataFrame, fy: int, qtr: int) -> pd.DataFrame:
     )
 
 
-class PersonalServices(ETLPipelineQCMR):
+class PersonalServices(ETLPipelineQCMR):  # type: ignore
     """
     The Personal Services Summary from the QCMR.
 
@@ -258,7 +258,9 @@ class PersonalServices(ETLPipelineQCMR):
         )
 
         # Assign as-of date
-        data["as_of_date"] = data.apply(add_as_of_date, args=(self.fiscal_year, self.quarter), axis=1)
+        data["as_of_date"] = data.apply(
+            add_as_of_date, args=(self.fiscal_year, self.quarter), axis=1
+        )
 
         # Get the total for the General Fund and save as the validation
         general_fund = data["dept_name"].str.lower().str.contains("general fund")

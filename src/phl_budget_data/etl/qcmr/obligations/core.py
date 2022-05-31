@@ -120,7 +120,7 @@ def fix_pension_rows(data: pd.DataFrame) -> pd.DataFrame:
     return data.reset_index(drop=True)
 
 
-class DepartmentObligations(ETLPipelineQCMR):
+class DepartmentObligations(ETLPipelineQCMR):  # type: ignore
     """
     The Departmental Obligations Summary Report from the QCMR.
 

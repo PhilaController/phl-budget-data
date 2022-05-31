@@ -21,11 +21,11 @@ class OptionClick(Message, bubble=True):  # type: ignore
 
 
 @rich.repr.auto(angular=False)
-class Option(Widget, can_focus=True):  # type: ignore
+class Option(Widget, can_focus=True):
 
     has_focus: Reactive[bool] = Reactive(False)
     mouse_over: Reactive[bool] = Reactive(False)
-    style: Reactive[str] = Reactive("")
+    style: Reactive[str] = Reactive("")  # type: ignore
     height: Reactive[int | None] = Reactive(None)
 
     def __init__(self, *, name: str | None = None, height: int | None = None) -> None:

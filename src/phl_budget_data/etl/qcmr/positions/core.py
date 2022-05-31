@@ -123,7 +123,7 @@ def _transform_uniformed_depts(x: pd.DataFrame, cols: list[str]) -> pd.DataFrame
     )
 
 
-class FullTimePositions(ETLPipelineQCMR):
+class FullTimePositions(ETLPipelineQCMR):  # type: ignore
     """
     The Full-Time Positions Report from the QCMR.
 
