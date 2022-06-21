@@ -17,7 +17,7 @@ District Attorney,35520200,2018,Actual,Full Year,2018-06-30,District Attorney's 
 Finance,44263571,2018,Actual,Full Year,2018-06-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,0,2018,Actual,Full Year,2018-06-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,2556892,2018,Actual,Full Year,2018-06-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,0,2018,Actual,Full Year,2018-06-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,0,2018,Actual,Full Year,2018-06-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,30409207,2018,Actual,Full Year,2018-06-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,1314021386,2018,Actual,Full Year,2018-06-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,3492886,2018,Actual,Full Year,2018-06-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
@@ -102,7 +102,7 @@ District Attorney,9759163,2019,Target Budget,YTD,2018-09-30,District Attorney's 
 Finance,8784745,2019,Target Budget,YTD,2018-09-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,0,2019,Target Budget,YTD,2018-09-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,492110,2019,Target Budget,YTD,2018-09-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,0,2019,Target Budget,YTD,2018-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,0,2019,Target Budget,YTD,2018-09-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,31909207,2019,Target Budget,YTD,2018-09-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,156324306,2019,Target Budget,YTD,2018-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,782654,2019,Target Budget,YTD,2018-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
@@ -187,7 +187,7 @@ District Attorney,9759163,2019,Actual,YTD,2018-09-30,District Attorney's Office,
 Finance,8784745,2019,Actual,YTD,2018-09-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,0,2019,Actual,YTD,2018-09-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,492110,2019,Actual,YTD,2018-09-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,0,2019,Actual,YTD,2018-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,0,2019,Actual,YTD,2018-09-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,31909207,2019,Actual,YTD,2018-09-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,156324306,2019,Actual,YTD,2018-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,782654,2019,Actual,YTD,2018-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
@@ -272,7 +272,7 @@ District Attorney,41792293,2019,Adopted Budget,Full Year,2018-09-30,District Att
 Finance,24790260,2019,Adopted Budget,Full Year,2018-09-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,0,2019,Adopted Budget,Full Year,2018-09-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,2650000,2019,Adopted Budget,Full Year,2018-09-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,53573000,2019,Adopted Budget,Full Year,2018-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,53573000,2019,Adopted Budget,Full Year,2018-09-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,32409207,2019,Adopted Budget,Full Year,2018-09-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,1360238207,2019,Adopted Budget,Full Year,2018-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,4080260,2019,Adopted Budget,Full Year,2018-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
@@ -357,7 +357,7 @@ District Attorney,41832195,2019,Target Budget,Full Year,2018-09-30,District Atto
 Finance,44592419,2019,Target Budget,Full Year,2018-09-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,20000000,2019,Target Budget,Full Year,2018-09-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,2650000,2019,Target Budget,Full Year,2018-09-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,53573000,2019,Target Budget,Full Year,2018-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,53573000,2019,Target Budget,Full Year,2018-09-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,32409207,2019,Target Budget,Full Year,2018-09-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,1378648880,2019,Target Budget,Full Year,2018-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,4080260,2019,Target Budget,Full Year,2018-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
@@ -442,7 +442,7 @@ District Attorney,41832195,2019,Current Projection,Full Year,2018-09-30,District
 Finance,44592419,2019,Current Projection,Full Year,2018-09-30,Office of the Director of Finance,35,Finance
 Finance-Budget Stabilization Reserve,20000000,2019,Current Projection,Full Year,2018-09-30,Finance: Budget Stabilization Reserve,35-BSR,
 Finance-Disability-Reg #32 Payroll,2650000,2019,Current Projection,Full Year,2018-09-30,Finance: Reg #32,35-R32,
-Finance-Federal Grant Reserve,53573000,2019,Current Projection,Full Year,2018-09-30,Finance: Federal Grant Reserve,35-FGR,
+Finance-Federal Grant Reserve,53573000,2019,Current Projection,Full Year,2018-09-30,Finance: Recession Reserve,35-RR,
 Finance-Community College Subsidy,32409207,2019,Current Projection,Full Year,2018-09-30,Finance: Community College Subsidy,35-CC,
 Finance - Employee Benefits,1378648880,2019,Current Projection,Full Year,2018-09-30,Finance: Employee Benefits,35-EB,Employee Benefits
 Employee Benefits: Unemployment Compensation,4080260,2019,Current Projection,Full Year,2018-09-30,Employee Benefits: Unemployment Compensation,35-EB-UC,
