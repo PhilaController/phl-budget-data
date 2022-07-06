@@ -104,7 +104,7 @@ class WageCollectionsBySector(ETLPipeline):  # type: ignore
         # Number of pages
         with pdfplumber.open(self.path) as pdf:
             self.num_pages = len(pdf.pages)
-        assert self.num_pages in [3, 4, 5]
+        assert self.num_pages in [2, 3, 4, 5]
 
         # Quarterly or monthly?
         self.quarterly = self.year == 2021 and self.month >= 4 or self.year > 2021
@@ -296,6 +296,7 @@ class WageCollectionsBySector(ETLPipeline):  # type: ignore
                 total1 = totals.loc[sector, col]
                 total2 = data.loc[data["sector"] == sector][col].squeeze()
                 diff = total1 - total2
+                print(sector, diff)
                 assert diff < 5
 
         return True

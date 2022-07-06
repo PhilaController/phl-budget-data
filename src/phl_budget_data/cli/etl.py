@@ -239,7 +239,7 @@ def _get_latest_raw_pdf(cls):
     return year, month
 
 
-def _run_monthly_update(month, year, url, css_identifier, *etls):
+def _run_monthly_update(month, year, latest_date, url, css_identifier, *etls):
     """
     Internal function to run update on monthly PDFs.
 
@@ -268,8 +268,7 @@ def _run_monthly_update(month, year, url, css_identifier, *etls):
             raise
 
     # Find out which ones are new
-    last_dt = pd.to_datetime(f"{month}/{year}")
-    new_months = [dt for dt in pdf_urls if pd.to_datetime(dt) > last_dt]
+    new_months = [dt for dt in pdf_urls if pd.to_datetime(dt) > latest_date]
 
     # Download and run ETL
     for dt in new_months:
@@ -333,6 +332,7 @@ def generate_update_commands(update):
         # Get the month/year of last PDF
         cls = collections.WageCollectionsBySector
         year, month = _get_latest_raw_pdf(cls)
+        latest_date = pd.to_datetime(f"{month}/{year}")
 
         # Log
         logger.info(
@@ -348,7 +348,7 @@ def generate_update_commands(update):
         css_identifier = "wage-taxes"
 
         # Run the update
-        _run_monthly_update(month, year, url, css_identifier, cls)
+        _run_monthly_update(month, year, latest_date, url, css_identifier, cls)
 
     @update.command(name="city")
     def update_monthly_city_collections():
@@ -356,6 +356,12 @@ def generate_update_commands(update):
 
         # Get the month/year of next PDF to look for
         year, month = _get_latest_raw_pdf(collections.CityTaxCollections)
+        latest_date = pd.to_datetime(f"{month}/{year}")
+
+        # Log
+        logger.info(
+            f"Checking for PDF report for update since month '{month}' and year '{year}'"
+        )
 
         # Get the fiscal year
         if month < 7:
@@ -367,11 +373,6 @@ def generate_update_commands(update):
         if month == 6:
             fiscal_year += 1
 
-        # Log
-        logger.info(
-            f"Checking for PDF report for update since month '{month}' and year '{year}'"
-        )
-
         # Extract out PDF urls on the city's website
         url = f"https://www.phila.gov/documents/fy-{fiscal_year}-city-monthly-revenue-collections/"
         css_identifier = "revenue-collections"
@@ -380,6 +381,7 @@ def generate_update_commands(update):
         _run_monthly_update(
             month,
             year,
+            latest_date,
             url,
             css_identifier,
             collections.CityTaxCollections,
@@ -394,6 +396,12 @@ def generate_update_commands(update):
         # Get the month/year of next PDF to look for
         cls = collections.SchoolTaxCollections
         year, month = _get_latest_raw_pdf(cls)
+        latest_date = pd.to_datetime(f"{month}/{year}")
+
+        # Log
+        logger.info(
+            f"Checking for PDF report for update since month '{month}' and year '{year}'"
+        )
 
         # Get the fiscal year
         if month < 7:
@@ -415,7 +423,7 @@ def generate_update_commands(update):
         css_identifier = "revenue-collections"
 
         # Run the update
-        _run_monthly_update(month, year, url, css_identifier, cls)
+        _run_monthly_update(month, year, latest_date, url, css_identifier, cls)
 
     # Add the subcommands
     update.add_command(update_monthly_wage_collections, name="wage")
