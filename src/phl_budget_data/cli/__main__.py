@@ -36,7 +36,7 @@ def save(output: click.Path = None, save_sql: bool = False) -> None:
     else:
         output = Path(output)
 
-    for tag in ["spending", "qcmr"]:
+    for tag in ["spending", "qcmr", "collections"]:
 
         # Output folder
         output_folder = output / tag
