@@ -1,0 +1,70 @@
+dept_name_raw,class_100,class_200,class_300_400,class_500,class_700,class_800,class_900,total,fiscal_year,dept_name,dept_code,abbreviation,dept_major_code
+Art Museum,0.0,0.0,0.0,2040000.0,0.0,0.0,0.0,2040000.0,2023,Art Museum,34,,34
+Auditing (City Controller),10285869.0,497450.0,25000.0,0.0,0.0,0.0,0.0,10808319.0,2023,City Controller's Office,61,,61
+Board of Ethics,1121902.0,52500.0,7500.0,0.0,0.0,0.0,0.0,1181902.0,2023,Board of Ethics,45,,45
+Board of Revision of Taxes,1057610.0,37900.0,17727.0,0.0,0.0,0.0,0.0,1113237.0,2023,Board of Revision of Taxes,63,BRT,63
+City Commissioners,10927174.0,15485101.0,2649217.0,0.0,0.0,0.0,0.0,29061492.0,2023,City Commissioner's Office,73,City Commissioners,73
+City Council,16325560.0,5021885.0,528650.0,100.0,0.0,100.0,100.0,21876395.0,2023,City Council,01,,01
+City Treasurer,1579598.0,3116468.0,22224.0,0.0,0.0,0.0,0.0,4718290.0,2023,Office of the City Treasurer,40,City Treasurer,40
+Civil Service Commission,180988.0,29500.0,1094.0,0.0,0.0,0.0,54000000.0,54211582.0,2023,Civil Service Commission,55,,55
+Commerce,5380613.0,9560549.0,62654.0,505000.0,0.0,0.0,0.0,15508816.0,2023,Office of the Director of Commerce,42,Commerce,42
+Commerce-Convention Center Subsidy,0.0,15000000.0,0.0,0.0,0.0,0.0,0.0,15000000.0,2023,Commerce: Convention Center Subsidy,42-CC,,42
+Commerce-Economic Stimulus,0.0,13334550.0,0.0,0.0,0.0,0.0,0.0,13334550.0,2023,Commerce: Economic Stimulus,42-ES,,42
+District Attorney,40467055.0,3343738.0,533417.0,0.0,0.0,0.0,0.0,44344210.0,2023,District Attorney's Office,69,DAO,69
+Finance,10863735.0,4002420.0,38616.0,7820000.0,0.0,34066068.0,0.0,56790839.0,2023,Office of the Director of Finance,35,Finance,35
+Finance-Budget Stabilization,0.0,0.0,0.0,0.0,0.0,40128000.0,0.0,40128000.0,2023,Finance: Budget Stabilization Reserve,35-BSR,,35
+Finance-Community College Subsidy,0.0,0.0,0.0,50106653.0,0.0,0.0,0.0,50106653.0,2023,Finance: Community College Subsidy,35-CC,,35
+Finance-Employee Benefits,1603509081.0,0.0,0.0,0.0,0.0,0.0,0.0,1603509081.0,2023,Finance: Employee Benefits,35-EB,Employee Benefits,35
+Finance-Hero Scholarship Awards,0.0,0.0,0.0,50000.0,0.0,0.0,0.0,50000.0,2023,Finance: Hero Scholarship Awards,35-HA,,35
+Finance-Indemnities,0.0,0.0,0.0,67246000.0,0.0,0.0,0.0,67246000.0,2023,Finance: Indemnities,35-IN,,35
+Finance-Refunds,0.0,0.0,0.0,250000.0,0.0,0.0,0.0,250000.0,2023,Finance: Refunds,35-R,,35
+Finance-Reg #32,2800000.0,0.0,0.0,0.0,0.0,0.0,0.0,2800000.0,2023,Finance: Reg #32,35-R32,,35
+Finance-School District Contribution,0.0,0.0,0.0,269953201.0,0.0,0.0,0.0,269953201.0,2023,Finance: School District Contribution,35-SD,,35
+Finance-Witness Fees,0.0,171518.0,0.0,0.0,0.0,0.0,0.0,171518.0,2023,Finance: Witness Fees,35-WF,,35
+Fire,354321176.0,7068282.0,12445064.0,0.0,0.0,7055640.0,0.0,380890162.0,2023,Fire Department,13,Fire,13
+First Judicial District,111144985.0,8643039.0,2231868.0,0.0,0.0,0.0,0.0,122019892.0,2023,First Judicial District,84,FJD,84
+Fleet Services,20534432.0,5449396.0,32257642.0,0.0,0.0,0.0,0.0,58241470.0,2023,Office of Fleet Management,25,Fleet,25
+Fleet Services -Vehicle Lease/Purch.,0.0,0.0,12507852.0,0.0,0.0,0.0,0.0,12507852.0,2023,Fleet: Vehicle Lease/Purchases,25-V,,25
+Free Library,50911555.0,3496262.0,4042128.0,0.0,0.0,0.0,0.0,58449945.0,2023,The Free Library of Philadelphia,52,Free Library,52
+Human Relations Commission,2502372.0,43333.0,28031.0,0.0,0.0,0.0,0.0,2573736.0,2023,Commission on Human Relations,54,Human Relations,54
+Human Services,34466970.0,152645655.0,2111970.0,0.0,0.0,0.0,0.0,189224595.0,2023,Department of Human Services,22,DHS,22
+L&I-Board of Building Standards,84116.0,0.0,0.0,0.0,0.0,0.0,0.0,84116.0,2023,L&I: Board of Building and Standards,29,,29
+L&I-Board of L&I Review,170377.0,10436.0,0.0,0.0,0.0,0.0,0.0,180813.0,2023,L&I: Board of Review,27,,27
+Labor,3460299.0,519617.0,24420.0,0.0,0.0,0.0,0.0,4004336.0,2023,Labor,03,,03
+Law,15705718.0,5979915.0,190676.0,0.0,0.0,0.0,0.0,21876309.0,2023,Law Department,44,Law,44
+Licenses & Inspection,26670602.0,14146162.0,809475.0,0.0,0.0,0.0,0.0,41626239.0,2023,Department of Licenses and Inspections,26,L&I,26
+Managing Director,35167882.0,90753102.0,2416018.0,4300000.0,0.0,0.0,0.0,132637002.0,2023,Managing Director's Office,10,MDO,10
+Managing Director-Citizens Police Oversight Commission,1085500.0,1315070.0,2000.0,0.0,0.0,0.0,0.0,2402570.0,2023,MDO: Citizens Police Oversight Commission,10-CP,,10
+Managing Director-Legal Services,0.0,59844449.0,0.0,0.0,0.0,0.0,0.0,59844449.0,2023,MDO: Legal Services,10-LS,,10
+Mayor's Office,6301957.0,815680.0,31341.0,0.0,0.0,0.0,0.0,7148978.0,2023,Mayor's Office,05,Mayor,05
+Mayor's Office - Scholarships,0.0,0.0,0.0,100000.0,0.0,0.0,0.0,100000.0,2023,Mayor's Office: Scholarships,05-S,,05
+Mural Arts Program,610850.0,2670610.0,0.0,0.0,0.0,0.0,0.0,3281460.0,2023,Mural Arts Program,50,Mural Arts,50
+Office of Behavioral Health and Intellectual disAbility,3590639.0,23723599.0,0.0,0.0,0.0,0.0,0.0,27314238.0,2023,Behavioral Health and Intellectual Disability Services,15,DBH/IDS,15
+Office of Children and Families,463413.0,0.0,0.0,0.0,0.0,0.0,0.0,463413.0,2023,Office of Children and Families,66,OCF,66
+Office of Community Empowerment and Opportunity,177185.0,1714007.0,3808.0,0.0,0.0,0.0,0.0,1895000.0,2023,Mayor's Office of Community Empowerment and Opportunity,08,CEO,08
+Office of Homeless Services,9931274.0,58638836.0,344127.0,32421.0,0.0,0.0,0.0,68946658.0,2023,Office of Homeless Services,24,OHS,24
+Office of Human Resources,6042760.0,1306067.0,69432.0,0.0,0.0,0.0,0.0,7418259.0,2023,Office of Human Resources,56,OHR,56
+Office of Innovation and Technology,31377472.0,57268720.0,2986610.0,0.0,0.0,0.0,0.0,91632802.0,2023,Office of Innovation and Technology,04,OIT,04
+Office of Innovation and Technology-911,1416547.0,20150466.0,8064399.0,0.0,0.0,0.0,0.0,29631412.0,2023,OIT: 911,04-911,,04
+Office of Property Assessment,15569756.0,1926020.0,362600.0,0.0,0.0,0.0,0.0,17858376.0,2023,Office of Property Assessment,59,OPA,59
+Office of Sustainability,971635.0,516366.0,1000.0,0.0,0.0,175000.0,0.0,1664001.0,2023,Office of Sustainability,49,Sustainability,49
+Office of the Chief Administrative Officer,6368435.0,6427056.0,2082265.0,0.0,0.0,0.0,0.0,14877756.0,2023,Office of the Chief Administrative Officer,65,CAO,65
+Office of the Inspector General,2192863.0,97975.0,5225.0,0.0,0.0,0.0,0.0,2296063.0,2023,Office of the Inspector General,48,OIG,48
+Parks and Recreation,61031936.0,7674442.0,2930025.0,1500000.0,0.0,0.0,0.0,73136403.0,2023,Department of Parks and Recreation,16,Parks & Recreation,16
+Planning and Development,5783913.0,21339463.0,89761.0,3000000.0,0.0,0.0,0.0,30213137.0,2023,Department of Planning and Development,72,Planning & Development,72
+Police,753577996.0,12917116.0,16549152.0,0.0,0.0,5000000.0,0.0,788044264.0,2023,Police Department,11,Police,11
+Prisons,135537939.0,104696211.0,4674595.0,1201757.0,0.0,0.0,0.0,246110502.0,2023,Philadelphia Prison System,23,Prisons,23
+Procurement,3404302.0,3431115.0,39359.0,0.0,0.0,0.0,0.0,6874776.0,2023,Procurement Department,38,Procurement,38
+Public Health,62755979.0,90784022.0,6746403.0,0.0,0.0,923404.0,0.0,161209808.0,2023,Department of Public Health,14,Public Health,14
+Public Property,12050817.0,37608915.0,1338535.0,0.0,0.0,27184004.0,0.0,78182271.0,2023,Department of Public Property,20,Public Property,20
+Public Property-SEPTA Subsidy,0.0,100699000.0,0.0,0.0,0.0,0.0,0.0,100699000.0,2023,Public Property: SEPTA Subsidy,20-SS,,20
+Public Property-Space Rentals,0.0,33293144.0,0.0,0.0,0.0,0.0,0.0,33293144.0,2023,Public Property: Space Rentals,20-SR,,20
+Public Property-Utilities,0.0,32986853.0,0.0,0.0,0.0,0.0,0.0,32986853.0,2023,Public Property: Utilities,20-U,,20
+Records,3374335.0,758985.0,143758.0,0.0,0.0,0.0,0.0,4277078.0,2023,Department of Records,31,Records,31
+Register of Wills,4309771.0,406959.0,140236.0,0.0,0.0,0.0,0.0,4856966.0,2023,Register of Wills,68,,68
+Revenue,21927194.0,5106407.0,774976.0,0.0,0.0,0.0,0.0,27808577.0,2023,Department of Revenue,36,Revenue,36
+Sheriff,28345027.0,1305267.0,1203507.0,0.0,0.0,0.0,0.0,30853801.0,2023,Office of the Sheriff,70,Sheriff,70
+Sinking Fund Commission (Debt Service),0.0,115087498.0,0.0,0.0,193710223.0,0.0,0.0,308797721.0,2023,Sinking Fund Commission,37,Sinking Fund,37
+Streets,122676329.0,17725345.0,21994981.0,53171.0,0.0,0.0,0.0,162449826.0,2023,Streets Department,12,Streets,12
+Streets-Disposal,0.0,55389886.0,0.0,0.0,0.0,0.0,0.0,55389886.0,2023,Streets: Disposal,12-D,,12
+Recession Reserve,0.0,0.0,0.0,0.0,0.0,0.0,32000000.0,32000000.0,2023,Finance: Recession Reserve,35-RR,Recession Reserve,35

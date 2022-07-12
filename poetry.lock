@@ -160,7 +160,7 @@ lxml = ["lxml"]
 
 [[package]]
 name = "billy-penn"
-version = "0.1.6"
+version = "0.1.7"
 description = "A package for meta information about the City of Philadelphia's government."
 category = "main"
 optional = false
@@ -1856,7 +1856,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "018ed27879e649324c05bc1832616a27d513af7a4b3b6728f3a286d6a699e3f0"
+content-hash = "8dabb33bb4214b0cd86531322698d838b59c6a4274c01cd83c9f0ebfc04ec16f"
 
 [metadata.files]
 aiofiles = [
@@ -1930,10 +1930,7 @@ beautifulsoup4 = [
     {file = "beautifulsoup4-4.11.1-py3-none-any.whl", hash = "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"},
     {file = "beautifulsoup4-4.11.1.tar.gz", hash = "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"},
 ]
-billy-penn = [
-    {file = "billy-penn-0.1.6.tar.gz", hash = "sha256:8ad12dbaf989a8c8b22a15ea58f8e46c5f33e0e06b3484a0386a3e8666b10372"},
-    {file = "billy_penn-0.1.6-py3-none-any.whl", hash = "sha256:4cb1f92b8ad2ab0382a0982dce780e6fe2d99b141b1ef96fc6e5a52c1fea8141"},
-]
+billy-penn = []
 black = [
     {file = "black-20.8b1.tar.gz", hash = "sha256:1c02557aa099101b9d21496f8a914e9ed2222ef70336404eeeac8edba836fbea"},
 ]
