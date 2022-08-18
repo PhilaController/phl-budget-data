@@ -1,4 +1,52 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+Receipts - Disbursements,1,-273.9,2022,4,7
+Opening Balance,1,981.3,2022,4,7
+TRAN,1,0.0,2022,4,7
+Closing Balance,1,707.4,2022,4,7
+Receipts - Disbursements,2,125.9,2022,4,8
+Opening Balance,2,707.4,2022,4,8
+TRAN,2,0.0,2022,4,8
+Closing Balance,2,833.3,2022,4,8
+Receipts - Disbursements,3,-40.4,2022,4,9
+Opening Balance,3,833.3,2022,4,9
+TRAN,3,0.0,2022,4,9
+Closing Balance,3,792.9,2022,4,9
+Receipts - Disbursements,4,-163.6,2022,4,10
+Opening Balance,4,792.9,2022,4,10
+TRAN,4,0.0,2022,4,10
+Closing Balance,4,629.4,2022,4,10
+Receipts - Disbursements,5,-105.8,2022,4,11
+Opening Balance,5,629.4,2022,4,11
+TRAN,5,0.0,2022,4,11
+Closing Balance,5,523.6,2022,4,11
+Receipts - Disbursements,6,141.3,2022,4,12
+Opening Balance,6,523.6,2022,4,12
+TRAN,6,0.0,2022,4,12
+Closing Balance,6,664.9,2022,4,12
+Receipts - Disbursements,7,133.3,2022,4,1
+Opening Balance,7,664.9,2022,4,1
+TRAN,7,0.0,2022,4,1
+Closing Balance,7,798.2,2022,4,1
+Receipts - Disbursements,8,39.9,2022,4,2
+Opening Balance,8,798.2,2022,4,2
+TRAN,8,0.0,2022,4,2
+Closing Balance,8,838.2,2022,4,2
+Receipts - Disbursements,9,136.6,2022,4,3
+Opening Balance,9,838.2,2022,4,3
+TRAN,9,0.0,2022,4,3
+Closing Balance,9,974.8,2022,4,3
+Receipts - Disbursements,10,524.2,2022,4,4
+Opening Balance,10,974.8,2022,4,4
+TRAN,10,0.0,2022,4,4
+Closing Balance,10,1498.9,2022,4,4
+Receipts - Disbursements,11,125.9,2022,4,5
+Opening Balance,11,1498.9,2022,4,5
+TRAN,11,0.0,2022,4,5
+Closing Balance,11,1624.8,2022,4,5
+Receipts - Disbursements,12,3.6,2022,4,6
+Opening Balance,12,1624.8,2022,4,6
+TRAN,12,0.0,2022,4,6
+Closing Balance,12,1628.5,2022,4,6
 Receipts - Disbursements,1,-273.9,2022,3,7
 Opening Balance,1,981.3,2022,3,7
 TRAN,1,0.0,2022,3,7

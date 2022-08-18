@@ -1,4 +1,172 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+Payroll,1,110.4,2022,4,7
+Employee Benefits,1,55.1,2022,4,7
+Pension,1,3.5,2022,4,7
+Contracts / Leases,1,34.5,2022,4,7
+Materials / Equipment,1,1.8,2022,4,7
+Contributions / Indemnities,1,6.7,2022,4,7
+Short-Term Debt Service,1,0.0,2022,4,7
+Long-Term Debt Service,1,110.5,2022,4,7
+Interfund Charges,1,0.4,2022,4,7
+Advances / Labor Obligations,1,0.0,2022,4,7
+Current Year Appropriation,1,322.8,2022,4,7
+Prior Year Encumbrances,1,44.0,2022,4,7
+Prior Year Vouchers Payable,1,145.5,2022,4,7
+Total Disbursements,1,512.3,2022,4,7
+Payroll,2,135.5,2022,4,8
+Employee Benefits,2,55.4,2022,4,8
+Pension,2,-0.3,2022,4,8
+Contracts / Leases,2,28.5,2022,4,8
+Materials / Equipment,2,5.7,2022,4,8
+Contributions / Indemnities,2,15.6,2022,4,8
+Short-Term Debt Service,2,0.0,2022,4,8
+Long-Term Debt Service,2,10.3,2022,4,8
+Interfund Charges,2,0.0,2022,4,8
+Advances / Labor Obligations,2,0.0,2022,4,8
+Current Year Appropriation,2,250.6,2022,4,8
+Prior Year Encumbrances,2,37.9,2022,4,8
+Prior Year Vouchers Payable,2,-22.8,2022,4,8
+Total Disbursements,2,265.7,2022,4,8
+Payroll,3,149.7,2022,4,9
+Employee Benefits,3,48.0,2022,4,9
+Pension,3,10.9,2022,4,9
+Contracts / Leases,3,111.4,2022,4,9
+Materials / Equipment,3,3.5,2022,4,9
+Contributions / Indemnities,3,65.9,2022,4,9
+Short-Term Debt Service,3,0.1,2022,4,9
+Long-Term Debt Service,3,0.0,2022,4,9
+Interfund Charges,3,0.0,2022,4,9
+Advances / Labor Obligations,3,0.0,2022,4,9
+Current Year Appropriation,3,389.5,2022,4,9
+Prior Year Encumbrances,3,15.8,2022,4,9
+Prior Year Vouchers Payable,3,16.4,2022,4,9
+Total Disbursements,3,421.7,2022,4,9
+Payroll,4,153.6,2022,4,10
+Employee Benefits,4,53.4,2022,4,10
+Pension,4,76.5,2022,4,10
+Contracts / Leases,4,51.2,2022,4,10
+Materials / Equipment,4,6.0,2022,4,10
+Contributions / Indemnities,4,12.2,2022,4,10
+Short-Term Debt Service,4,0.0,2022,4,10
+Long-Term Debt Service,4,3.0,2022,4,10
+Interfund Charges,4,0.0,2022,4,10
+Advances / Labor Obligations,4,0.0,2022,4,10
+Current Year Appropriation,4,355.9,2022,4,10
+Prior Year Encumbrances,4,14.4,2022,4,10
+Prior Year Vouchers Payable,4,60.2,2022,4,10
+Total Disbursements,4,430.5,2022,4,10
+Payroll,5,149.7,2022,4,11
+Employee Benefits,5,71.9,2022,4,11
+Pension,5,2.2,2022,4,11
+Contracts / Leases,5,99.1,2022,4,11
+Materials / Equipment,5,4.0,2022,4,11
+Contributions / Indemnities,5,73.1,2022,4,11
+Short-Term Debt Service,5,0.0,2022,4,11
+Long-Term Debt Service,5,0.0,2022,4,11
+Interfund Charges,5,6.9,2022,4,11
+Advances / Labor Obligations,5,0.0,2022,4,11
+Current Year Appropriation,5,406.9,2022,4,11
+Prior Year Encumbrances,5,11.7,2022,4,11
+Prior Year Vouchers Payable,5,-16.4,2022,4,11
+Total Disbursements,5,402.3,2022,4,11
+Payroll,6,147.1,2022,4,12
+Employee Benefits,6,52.6,2022,4,12
+Pension,6,3.3,2022,4,12
+Contracts / Leases,6,59.5,2022,4,12
+Materials / Equipment,6,6.0,2022,4,12
+Contributions / Indemnities,6,13.0,2022,4,12
+Short-Term Debt Service,6,0.1,2022,4,12
+Long-Term Debt Service,6,3.7,2022,4,12
+Interfund Charges,6,0.0,2022,4,12
+Advances / Labor Obligations,6,0.0,2022,4,12
+Current Year Appropriation,6,285.3,2022,4,12
+Prior Year Encumbrances,6,5.6,2022,4,12
+Prior Year Vouchers Payable,6,-8.7,2022,4,12
+Total Disbursements,6,282.2,2022,4,12
+Payroll,7,187.4,2022,4,1
+Employee Benefits,7,62.1,2022,4,1
+Pension,7,-0.4,2022,4,1
+Contracts / Leases,7,59.6,2022,4,1
+Materials / Equipment,7,3.7,2022,4,1
+Contributions / Indemnities,7,5.1,2022,4,1
+Short-Term Debt Service,7,0.0,2022,4,1
+Long-Term Debt Service,7,41.8,2022,4,1
+Interfund Charges,7,0.0,2022,4,1
+Advances / Labor Obligations,7,0.0,2022,4,1
+Current Year Appropriation,7,359.3,2022,4,1
+Prior Year Encumbrances,7,6.8,2022,4,1
+Prior Year Vouchers Payable,7,0.9,2022,4,1
+Total Disbursements,7,366.9,2022,4,1
+Payroll,8,155.4,2022,4,2
+Employee Benefits,8,37.9,2022,4,2
+Pension,8,-0.3,2022,4,2
+Contracts / Leases,8,83.2,2022,4,2
+Materials / Equipment,8,7.7,2022,4,2
+Contributions / Indemnities,8,9.4,2022,4,2
+Short-Term Debt Service,8,0.0,2022,4,2
+Long-Term Debt Service,8,0.0,2022,4,2
+Interfund Charges,8,0.0,2022,4,2
+Advances / Labor Obligations,8,0.0,2022,4,2
+Current Year Appropriation,8,293.3,2022,4,2
+Prior Year Encumbrances,8,9.0,2022,4,2
+Prior Year Vouchers Payable,8,1.4,2022,4,2
+Total Disbursements,8,303.7,2022,4,2
+Payroll,9,136.2,2022,4,3
+Employee Benefits,9,52.3,2022,4,3
+Pension,9,652.6,2022,4,3
+Contracts / Leases,9,91.5,2022,4,3
+Materials / Equipment,9,5.8,2022,4,3
+Contributions / Indemnities,9,78.2,2022,4,3
+Short-Term Debt Service,9,0.1,2022,4,3
+Long-Term Debt Service,9,0.0,2022,4,3
+Interfund Charges,9,1.6,2022,4,3
+Advances / Labor Obligations,9,0.0,2022,4,3
+Current Year Appropriation,9,1018.3,2022,4,3
+Prior Year Encumbrances,9,4.3,2022,4,3
+Prior Year Vouchers Payable,9,-92.5,2022,4,3
+Total Disbursements,9,930.1,2022,4,3
+Payroll,10,148.7,2022,4,4
+Employee Benefits,10,55.9,2022,4,4
+Pension,10,-0.3,2022,4,4
+Contracts / Leases,10,52.4,2022,4,4
+Materials / Equipment,10,5.0,2022,4,4
+Contributions / Indemnities,10,3.9,2022,4,4
+Short-Term Debt Service,10,0.0,2022,4,4
+Long-Term Debt Service,10,18.9,2022,4,4
+Interfund Charges,10,1.1,2022,4,4
+Advances / Labor Obligations,10,0.0,2022,4,4
+Current Year Appropriation,10,285.7,2022,4,4
+Prior Year Encumbrances,10,1.7,2022,4,4
+Prior Year Vouchers Payable,10,105.9,2022,4,4
+Total Disbursements,10,393.3,2022,4,4
+Payroll,11,137.5,2022,4,5
+Employee Benefits,11,62.7,2022,4,5
+Pension,11,-0.3,2022,4,5
+Contracts / Leases,11,109.0,2022,4,5
+Materials / Equipment,11,6.9,2022,4,5
+Contributions / Indemnities,11,4.0,2022,4,5
+Short-Term Debt Service,11,0.0,2022,4,5
+Long-Term Debt Service,11,0.0,2022,4,5
+Interfund Charges,11,0.0,2022,4,5
+Advances / Labor Obligations,11,0.0,2022,4,5
+Current Year Appropriation,11,319.8,2022,4,5
+Prior Year Encumbrances,11,24.2,2022,4,5
+Prior Year Vouchers Payable,11,-15.1,2022,4,5
+Total Disbursements,11,329.0,2022,4,5
+Payroll,12,157.0,2022,4,6
+Employee Benefits,12,46.0,2022,4,6
+Pension,12,-6.8,2022,4,6
+Contracts / Leases,12,57.6,2022,4,6
+Materials / Equipment,12,6.5,2022,4,6
+Contributions / Indemnities,12,86.5,2022,4,6
+Short-Term Debt Service,12,0.1,2022,4,6
+Long-Term Debt Service,12,0.0,2022,4,6
+Interfund Charges,12,2.8,2022,4,6
+Advances / Labor Obligations,12,0.0,2022,4,6
+Current Year Appropriation,12,349.7,2022,4,6
+Prior Year Encumbrances,12,2.7,2022,4,6
+Prior Year Vouchers Payable,12,-8.3,2022,4,6
+Total Disbursements,12,344.2,2022,4,6
 Payroll,1,110.4,2022,3,7
 Employee Benefits,1,55.1,2022,3,7
 Pension,1,3.5,2022,3,7

@@ -1,4 +1,184 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+Real Estate Tax,1,7.2,2022,4,7
+"Wage, Earnings, Net Profits",1,93.6,2022,4,7
+Realty Transfer Tax,1,14.2,2022,4,7
+Sales Tax,1,31.5,2022,4,7
+BIRT,1,9.7,2022,4,7
+Beverage Tax,1,7.1,2022,4,7
+Other Taxes,1,8.0,2022,4,7
+Locally Generated Non-Tax,1,34.1,2022,4,7
+Other Governments,1,10.4,2022,4,7
+PICA Other Governments,1,19.5,2022,4,7
+Interfund Transfers,1,0.0,2022,4,7
+Total Current Revenue,1,235.1,2022,4,7
+Prior Year Revenue,1,3.3,2022,4,7
+Other Adjustments,1,0.0,2022,4,7
+Total Cash Receipts,1,238.4,2022,4,7
+Real Estate Tax,2,7.5,2022,4,8
+"Wage, Earnings, Net Profits",2,132.0,2022,4,8
+Realty Transfer Tax,2,25.2,2022,4,8
+Sales Tax,2,34.5,2022,4,8
+BIRT,2,7.9,2022,4,8
+Beverage Tax,2,6.8,2022,4,8
+Other Taxes,2,12.3,2022,4,8
+Locally Generated Non-Tax,2,33.2,2022,4,8
+Other Governments,2,52.9,2022,4,8
+PICA Other Governments,2,43.7,2022,4,8
+Interfund Transfers,2,0.0,2022,4,8
+Total Current Revenue,2,356.0,2022,4,8
+Prior Year Revenue,2,35.6,2022,4,8
+Other Adjustments,2,0.0,2022,4,8
+Total Cash Receipts,2,391.6,2022,4,8
+Real Estate Tax,3,5.3,2022,4,9
+"Wage, Earnings, Net Profits",3,120.6,2022,4,9
+Realty Transfer Tax,3,23.2,2022,4,9
+Sales Tax,3,16.3,2022,4,9
+BIRT,3,32.0,2022,4,9
+Beverage Tax,3,6.6,2022,4,9
+Other Taxes,3,9.6,2022,4,9
+Locally Generated Non-Tax,3,25.7,2022,4,9
+Other Governments,3,85.3,2022,4,9
+PICA Other Governments,3,54.7,2022,4,9
+Interfund Transfers,3,0.0,2022,4,9
+Total Current Revenue,3,379.3,2022,4,9
+Prior Year Revenue,3,2.0,2022,4,9
+Other Adjustments,3,0.0,2022,4,9
+Total Cash Receipts,3,381.3,2022,4,9
+Real Estate Tax,4,3.9,2022,4,10
+"Wage, Earnings, Net Profits",4,120.1,2022,4,10
+Realty Transfer Tax,4,17.2,2022,4,10
+Sales Tax,4,15.3,2022,4,10
+BIRT,4,21.1,2022,4,10
+Beverage Tax,4,8.2,2022,4,10
+Other Taxes,4,8.9,2022,4,10
+Locally Generated Non-Tax,4,24.6,2022,4,10
+Other Governments,4,14.6,2022,4,10
+PICA Other Governments,4,21.9,2022,4,10
+Interfund Transfers,4,0.0,2022,4,10
+Total Current Revenue,4,255.6,2022,4,10
+Prior Year Revenue,4,11.3,2022,4,10
+Other Adjustments,4,0.0,2022,4,10
+Total Cash Receipts,4,266.9,2022,4,10
+Real Estate Tax,5,4.4,2022,4,11
+"Wage, Earnings, Net Profits",5,144.6,2022,4,11
+Realty Transfer Tax,5,25.7,2022,4,11
+Sales Tax,5,17.2,2022,4,11
+BIRT,5,17.3,2022,4,11
+Beverage Tax,5,4.8,2022,4,11
+Other Taxes,5,15.5,2022,4,11
+Locally Generated Non-Tax,5,23.9,2022,4,11
+Other Governments,5,43.2,2022,4,11
+PICA Other Governments,5,0.0,2022,4,11
+Interfund Transfers,5,0.0,2022,4,11
+Total Current Revenue,5,296.5,2022,4,11
+Prior Year Revenue,5,0.0,2022,4,11
+Other Adjustments,5,0.0,2022,4,11
+Total Cash Receipts,5,296.5,2022,4,11
+Real Estate Tax,6,36.1,2022,4,12
+"Wage, Earnings, Net Profits",6,139.0,2022,4,12
+Realty Transfer Tax,6,67.4,2022,4,12
+Sales Tax,6,15.8,2022,4,12
+BIRT,6,66.5,2022,4,12
+Beverage Tax,6,7.1,2022,4,12
+Other Taxes,6,4.0,2022,4,12
+Locally Generated Non-Tax,6,53.1,2022,4,12
+Other Governments,6,0.6,2022,4,12
+PICA Other Governments,6,33.9,2022,4,12
+Interfund Transfers,6,0.0,2022,4,12
+Total Current Revenue,6,423.5,2022,4,12
+Prior Year Revenue,6,0.0,2022,4,12
+Other Adjustments,6,0.0,2022,4,12
+Total Cash Receipts,6,423.5,2022,4,12
+Real Estate Tax,7,43.0,2022,4,1
+"Wage, Earnings, Net Profits",7,178.7,2022,4,1
+Realty Transfer Tax,7,58.3,2022,4,1
+Sales Tax,7,14.7,2022,4,1
+BIRT,7,27.0,2022,4,1
+Beverage Tax,7,6.3,2022,4,1
+Other Taxes,7,12.6,2022,4,1
+Locally Generated Non-Tax,7,27.7,2022,4,1
+Other Governments,7,20.8,2022,4,1
+PICA Other Governments,7,111.1,2022,4,1
+Interfund Transfers,7,0.0,2022,4,1
+Total Current Revenue,7,500.2,2022,4,1
+Prior Year Revenue,7,0.0,2022,4,1
+Other Adjustments,7,0.0,2022,4,1
+Total Cash Receipts,7,500.2,2022,4,1
+Real Estate Tax,8,69.9,2022,4,2
+"Wage, Earnings, Net Profits",8,122.9,2022,4,2
+Realty Transfer Tax,8,64.0,2022,4,2
+Sales Tax,8,18.4,2022,4,2
+BIRT,8,13.3,2022,4,2
+Beverage Tax,8,6.0,2022,4,2
+Other Taxes,8,3.2,2022,4,2
+Locally Generated Non-Tax,8,38.2,2022,4,2
+Other Governments,8,0.6,2022,4,2
+PICA Other Governments,8,7.1,2022,4,2
+Interfund Transfers,8,0.0,2022,4,2
+Total Current Revenue,8,343.7,2022,4,2
+Prior Year Revenue,8,0.0,2022,4,2
+Other Adjustments,8,0.0,2022,4,2
+Total Cash Receipts,8,343.7,2022,4,2
+Real Estate Tax,9,345.6,2022,4,3
+"Wage, Earnings, Net Profits",9,163.7,2022,4,3
+Realty Transfer Tax,9,72.9,2022,4,3
+Sales Tax,9,15.3,2022,4,3
+BIRT,9,47.4,2022,4,3
+Beverage Tax,9,5.2,2022,4,3
+Other Taxes,9,8.6,2022,4,3
+Locally Generated Non-Tax,9,29.5,2022,4,3
+Other Governments,9,33.9,2022,4,3
+PICA Other Governments,9,94.6,2022,4,3
+Interfund Transfers,9,250.0,2022,4,3
+Total Current Revenue,9,1066.7,2022,4,3
+Prior Year Revenue,9,0.0,2022,4,3
+Other Adjustments,9,0.0,2022,4,3
+Total Cash Receipts,9,1066.7,2022,4,3
+Real Estate Tax,10,178.4,2022,4,4
+"Wage, Earnings, Net Profits",10,149.3,2022,4,4
+Realty Transfer Tax,10,71.4,2022,4,4
+Sales Tax,10,26.9,2022,4,4
+BIRT,10,377.2,2022,4,4
+Beverage Tax,10,5.8,2022,4,4
+Other Taxes,10,11.0,2022,4,4
+Locally Generated Non-Tax,10,31.8,2022,4,4
+Other Governments,10,6.1,2022,4,4
+PICA Other Governments,10,59.6,2022,4,4
+Interfund Transfers,10,0.0,2022,4,4
+Total Current Revenue,10,917.5,2022,4,4
+Prior Year Revenue,10,0.0,2022,4,4
+Other Adjustments,10,0.0,2022,4,4
+Total Cash Receipts,10,917.5,2022,4,4
+Real Estate Tax,11,9.9,2022,4,5
+"Wage, Earnings, Net Profits",11,159.8,2022,4,5
+Realty Transfer Tax,11,54.4,2022,4,5
+Sales Tax,11,34.1,2022,4,5
+BIRT,11,67.8,2022,4,5
+Beverage Tax,11,5.9,2022,4,5
+Other Taxes,11,11.6,2022,4,5
+Locally Generated Non-Tax,11,38.3,2022,4,5
+Other Governments,11,12.2,2022,4,5
+PICA Other Governments,11,60.7,2022,4,5
+Interfund Transfers,11,0.0,2022,4,5
+Total Current Revenue,11,454.9,2022,4,5
+Prior Year Revenue,11,0.0,2022,4,5
+Other Adjustments,11,0.0,2022,4,5
+Total Cash Receipts,11,454.9,2022,4,5
+Real Estate Tax,12,4.1,2022,4,6
+"Wage, Earnings, Net Profits",12,129.7,2022,4,6
+Realty Transfer Tax,12,37.0,2022,4,6
+Sales Tax,12,32.9,2022,4,6
+BIRT,12,18.6,2022,4,6
+Beverage Tax,12,6.8,2022,4,6
+Other Taxes,12,8.1,2022,4,6
+Locally Generated Non-Tax,12,35.8,2022,4,6
+Other Governments,12,21.6,2022,4,6
+PICA Other Governments,12,31.0,2022,4,6
+Interfund Transfers,12,22.3,2022,4,6
+Total Current Revenue,12,347.8,2022,4,6
+Prior Year Revenue,12,0.0,2022,4,6
+Other Adjustments,12,0.0,2022,4,6
+Total Cash Receipts,12,347.8,2022,4,6
 Real Estate Tax,1,7.2,2022,3,7
 "Wage, Earnings, Net Profits",1,93.6,2022,3,7
 Realty Transfer Tax,1,14.2,2022,3,7
