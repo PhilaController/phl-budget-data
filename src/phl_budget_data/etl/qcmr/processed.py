@@ -127,8 +127,15 @@ def load_fulltime_positions() -> pd.DataFrame:
     ]
     df = df.drop(duplicates.index)
 
+    latest_report_fy = df["report_fiscal_year"].max()
+
     # Remove duplicates for end-of-year actuals
-    sel = (df["as_of_date"].dt.month == 6) & (df["time_period"] == "YTD")
+    # But keep latest no matter what
+    sel = (
+        (df["as_of_date"].dt.month == 6)
+        & (df["time_period"] == "YTD")
+        & (df["report_fiscal_year"] != latest_report_fy)
+    )
     df = df.loc[~sel]  # Dont keep the YTD values
 
     return df
