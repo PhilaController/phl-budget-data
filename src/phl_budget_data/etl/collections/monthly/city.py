@@ -101,6 +101,8 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
                     row_header_tolerance=20,
                 )
 
+                if not len(data): continue
+
                 # Remove first row of header if we need to
                 for phrase in ["prelim", "final", "budget"]:
                     sel = data[0].str.lower().str.startswith(phrase)
