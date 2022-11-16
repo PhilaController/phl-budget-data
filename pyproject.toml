@@ -18,7 +18,7 @@ pydantic = "^1.9.0"
 loguru = "^0.5.3"
 datasette = "^0.60.2"
 sqlite-utils = "^3.24"
-billy-penn = "0.1.7"
+billy-penn = "0.1.8"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"

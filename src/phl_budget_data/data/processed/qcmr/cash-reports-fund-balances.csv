@@ -1,4 +1,160 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+General Fund,1,1535.8,2023,1,7
+Grants Fund,1,1120.3,2023,1,7
+Community Development,1,-2.1,2023,1,7
+Vehicle Rental Tax,1,8.2,2023,1,7
+Hospital Assessment Fund,1,22.2,2023,1,7
+Housing Trust Fund,1,84.7,2023,1,7
+Budget Stabilization Fund,1,0.0,2023,1,7
+Other Funds,1,14.7,2023,1,7
+Total Operating Funds,1,2783.9,2023,1,7
+Capital Improvement,1,350.9,2023,1,7
+Industrial and Commercial Development,1,10.2,2023,1,7
+Total Capital Funds,1,361.1,2023,1,7
+Consolidated Cash,1,3145.0,2023,1,7
+General Fund,2,1584.6,2023,1,8
+Grants Fund,2,1312.8,2023,1,8
+Community Development,2,-7.9,2023,1,8
+Vehicle Rental Tax,2,9.0,2023,1,8
+Hospital Assessment Fund,2,21.4,2023,1,8
+Housing Trust Fund,2,114.0,2023,1,8
+Budget Stabilization Fund,2,0.0,2023,1,8
+Other Funds,2,14.5,2023,1,8
+Total Operating Funds,2,3048.3,2023,1,8
+Capital Improvement,2,339.5,2023,1,8
+Industrial and Commercial Development,2,10.3,2023,1,8
+Total Capital Funds,2,349.8,2023,1,8
+Consolidated Cash,2,3398.2,2023,1,8
+General Fund,3,1433.0,2023,1,9
+Grants Fund,3,1414.4,2023,1,9
+Community Development,3,-12.7,2023,1,9
+Vehicle Rental Tax,3,2.7,2023,1,9
+Hospital Assessment Fund,3,31.1,2023,1,9
+Housing Trust Fund,3,113.2,2023,1,9
+Budget Stabilization Fund,3,40.1,2023,1,9
+Other Funds,3,15.3,2023,1,9
+Total Operating Funds,3,3037.1,2023,1,9
+Capital Improvement,3,326.3,2023,1,9
+Industrial and Commercial Development,3,10.3,2023,1,9
+Total Capital Funds,3,336.6,2023,1,9
+Consolidated Cash,3,3373.7,2023,1,9
+General Fund,4,1490.4,2023,1,10
+Grants Fund,4,1412.7,2023,1,10
+Community Development,4,-12.4,2023,1,10
+Vehicle Rental Tax,4,3.3,2023,1,10
+Hospital Assessment Fund,4,23.0,2023,1,10
+Housing Trust Fund,4,104.5,2023,1,10
+Budget Stabilization Fund,4,40.1,2023,1,10
+Other Funds,4,14.8,2023,1,10
+Total Operating Funds,4,3076.4,2023,1,10
+Capital Improvement,4,326.8,2023,1,10
+Industrial and Commercial Development,4,10.3,2023,1,10
+Total Capital Funds,4,337.0,2023,1,10
+Consolidated Cash,4,3413.4,2023,1,10
+General Fund,5,1460.9,2023,1,11
+Grants Fund,5,1315.1,2023,1,11
+Community Development,5,-4.2,2023,1,11
+Vehicle Rental Tax,5,3.7,2023,1,11
+Hospital Assessment Fund,5,18.1,2023,1,11
+Housing Trust Fund,5,93.8,2023,1,11
+Budget Stabilization Fund,5,40.1,2023,1,11
+Other Funds,5,11.7,2023,1,11
+Total Operating Funds,5,2939.2,2023,1,11
+Capital Improvement,5,311.8,2023,1,11
+Industrial and Commercial Development,5,10.3,2023,1,11
+Total Capital Funds,5,322.0,2023,1,11
+Consolidated Cash,5,3261.3,2023,1,11
+General Fund,6,1320.4,2023,1,12
+Grants Fund,6,1162.7,2023,1,12
+Community Development,6,-6.1,2023,1,12
+Vehicle Rental Tax,6,4.2,2023,1,12
+Hospital Assessment Fund,6,43.3,2023,1,12
+Housing Trust Fund,6,91.7,2023,1,12
+Budget Stabilization Fund,6,40.1,2023,1,12
+Other Funds,6,11.6,2023,1,12
+Total Operating Funds,6,2667.9,2023,1,12
+Capital Improvement,6,296.8,2023,1,12
+Industrial and Commercial Development,6,10.3,2023,1,12
+Total Capital Funds,6,307.0,2023,1,12
+Consolidated Cash,6,2975.0,2023,1,12
+General Fund,7,1191.1,2023,1,1
+Grants Fund,7,1127.3,2023,1,1
+Community Development,7,-5.2,2023,1,1
+Vehicle Rental Tax,7,4.6,2023,1,1
+Hospital Assessment Fund,7,18.8,2023,1,1
+Housing Trust Fund,7,89.6,2023,1,1
+Budget Stabilization Fund,7,40.1,2023,1,1
+Other Funds,7,11.4,2023,1,1
+Total Operating Funds,7,2477.7,2023,1,1
+Capital Improvement,7,281.8,2023,1,1
+Industrial and Commercial Development,7,10.3,2023,1,1
+Total Capital Funds,7,292.0,2023,1,1
+Consolidated Cash,7,2769.8,2023,1,1
+General Fund,8,1124.1,2023,1,2
+Grants Fund,8,1234.7,2023,1,2
+Community Development,8,-3.0,2023,1,2
+Vehicle Rental Tax,8,5.0,2023,1,2
+Hospital Assessment Fund,8,18.4,2023,1,2
+Housing Trust Fund,8,87.5,2023,1,2
+Budget Stabilization Fund,8,40.1,2023,1,2
+Other Funds,8,11.3,2023,1,2
+Total Operating Funds,8,2518.0,2023,1,2
+Capital Improvement,8,266.8,2023,1,2
+Industrial and Commercial Development,8,10.3,2023,1,2
+Total Capital Funds,8,277.0,2023,1,2
+Consolidated Cash,8,2795.1,2023,1,2
+General Fund,9,1214.9,2023,1,3
+Grants Fund,9,859.7,2023,1,3
+Community Development,9,-2.0,2023,1,3
+Vehicle Rental Tax,9,5.4,2023,1,3
+Hospital Assessment Fund,9,25.1,2023,1,3
+Housing Trust Fund,9,85.4,2023,1,3
+Budget Stabilization Fund,9,40.1,2023,1,3
+Other Funds,9,11.1,2023,1,3
+Total Operating Funds,9,2239.7,2023,1,3
+Capital Improvement,9,251.8,2023,1,3
+Industrial and Commercial Development,9,10.3,2023,1,3
+Total Capital Funds,9,262.0,2023,1,3
+Consolidated Cash,9,2501.8,2023,1,3
+General Fund,10,1626.3,2023,1,4
+Grants Fund,10,984.7,2023,1,4
+Community Development,10,3.0,2023,1,4
+Vehicle Rental Tax,10,5.7,2023,1,4
+Hospital Assessment Fund,10,19.8,2023,1,4
+Housing Trust Fund,10,83.3,2023,1,4
+Budget Stabilization Fund,10,40.1,2023,1,4
+Other Funds,10,11.0,2023,1,4
+Total Operating Funds,10,2773.9,2023,1,4
+Capital Improvement,10,236.8,2023,1,4
+Industrial and Commercial Development,10,10.3,2023,1,4
+Total Capital Funds,10,247.1,2023,1,4
+Consolidated Cash,10,3021.0,2023,1,4
+General Fund,11,1618.3,2023,1,5
+Grants Fund,11,931.3,2023,1,5
+Community Development,11,2.5,2023,1,5
+Vehicle Rental Tax,11,6.1,2023,1,5
+Hospital Assessment Fund,11,47.2,2023,1,5
+Housing Trust Fund,11,81.2,2023,1,5
+Budget Stabilization Fund,11,40.1,2023,1,5
+Other Funds,11,10.8,2023,1,5
+Total Operating Funds,11,2737.5,2023,1,5
+Capital Improvement,11,221.8,2023,1,5
+Industrial and Commercial Development,11,10.3,2023,1,5
+Total Capital Funds,11,232.1,2023,1,5
+Consolidated Cash,11,2969.5,2023,1,5
+General Fund,12,1473.6,2023,1,6
+Grants Fund,12,864.2,2023,1,6
+Community Development,12,0.0,2023,1,6
+Vehicle Rental Tax,12,6.6,2023,1,6
+Hospital Assessment Fund,12,22.7,2023,1,6
+Housing Trust Fund,12,79.1,2023,1,6
+Budget Stabilization Fund,12,40.1,2023,1,6
+Other Funds,12,10.7,2023,1,6
+Total Operating Funds,12,2497.0,2023,1,6
+Capital Improvement,12,206.8,2023,1,6
+Industrial and Commercial Development,12,10.3,2023,1,6
+Total Capital Funds,12,217.1,2023,1,6
+Consolidated Cash,12,2714.0,2023,1,6
 General Fund,1,707.4,2022,4,7
 Grants Fund,1,833.6,2022,4,7
 Community Development,1,-3.7,2022,4,7
