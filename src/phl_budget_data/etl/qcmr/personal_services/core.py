@@ -217,6 +217,8 @@ class PersonalServices(ETLPipelineQCMR):  # type: ignore
         sub_departments = [
             "OIT-Base",
             "OIT-911",
+            "MDO-Base",
+            "MDO-Citizens Police Oversight Comm.",
             "Administration & Management",
             "Performance Mgmt. & Accountability",
             "Juvenile Justice Services",
