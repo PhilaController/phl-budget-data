@@ -8,10 +8,10 @@ readme = "README.md"
 exclude = [ "src/phl_budget_data/data/etl", "src/phl_budget_data/etl", "src/phl_budget_data/cli/etl", "src/phl_budget_data/cli/scrape"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9"
 click = "8.0.1"
-numpy = "^1.20.1"
-pandas = "^1.2.1"
+numpy = ">=1.20"
+pandas = ">=1.2"
 openpyxl = "^3.0.7"
 rich-click = "^0.3.0"
 pydantic = "^1.9.0"
@@ -27,7 +27,7 @@ matplotlib = "^3.3.4"
 jupyterlab_code_formatter = "^1.4.2"
 isort = "^5.7.0"
 selenium = "^3.141.0"
-pdfplumber = ">=0.5.28"
+pdfplumber = "0.7.5"
 webdriver-manager = "^3.3.0"
 intervaltree =  "^3.1.0"
 python-dotenv =  "0.19.2"
@@ -39,6 +39,9 @@ mypy = "^0.941"
 [tool.poetry.scripts]
 phl-budget-data = "phl_budget_data.cli.__main__:main"
 
+
+[tool.poetry.group.dev.dependencies]
+pdfminer-six = "20220524"
 
 [build-system]
 requires = ["poetry-core @ git+https://github.com/python-poetry/poetry-core.git@master"]
