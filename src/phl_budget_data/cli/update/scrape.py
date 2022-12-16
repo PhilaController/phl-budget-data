@@ -1,3 +1,5 @@
+"""Scraping utilities for getting data from phila.gov."""
+
 import calendar
 import time
 from contextlib import contextmanager
@@ -11,28 +13,39 @@ from webdriver_manager.chrome import ChromeDriverManager
 MONTH_LOOKUP = [x.lower() for x in calendar.month_abbr[1:]]
 
 
-def parse_website(url):
+def parse_website(url: str) -> str:
     """Parse the input website."""
+
     req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
     web_byte = urlopen(req).read()
     return web_byte.decode("utf-8")
 
 
-def extract_pdf_urls(url, id):
+def extract_pdf_urls(url: str, css_identifier: str) -> dict[str, str]:
     """Extract PDF urls from the input URL."""
 
     # Parse the website
     soup = BeautifulSoup(parse_website(url), features="html.parser")
 
     # Get the id of the element
-    rows = soup.select(f"table tr[id*={id}]")
+    table_trs = soup.select(f"table tr[id*={css_identifier}]")
 
     out = {}
-    for row in rows:
-        url = row.select_one("a")["href"]
-        id = row["id"]
-        fields = id.split("-")
-        if "-to-" in id:
+    for tr in table_trs:
+        # Get the url
+        a = tr.select_one("a")
+        if a is not None:
+            pdf_url = a["href"]
+        else:
+            raise RuntimeError("Parsing error")
+
+        # Get the element's ID
+        id_str = tr.attrs["id"]
+
+        # Extract out month name and year
+        # NOTE: THIS COULD EASILY BREAK
+        fields = id_str.split("-")
+        if "-to-" in id_str:
             month_name = fields[2][:3]
             year = int(fields[3])
         else:
@@ -40,12 +53,14 @@ def extract_pdf_urls(url, id):
             year = int(fields[1])
         month_num = MONTH_LOOKUP.index(month_name) + 1
 
-        out[f"{month_num}/{year}"] = url
+        # Save it
+        out[f"{month_num}/{year}"] = pdf_url
 
+    # Return
     return out
 
 
-def get_driver(dirname):
+def get_scraping_driver(dirname):
     """Load the driver."""
 
     options = webdriver.ChromeOptions()

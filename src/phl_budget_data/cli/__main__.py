@@ -1,20 +1,20 @@
+"""The main command-line interface for phl-budget-data."""
+
 import importlib
 import itertools
-from collections import defaultdict
 from pathlib import Path
+from typing import Optional
 
 import click
-import numpy as np
-import pandas as pd
 import rich_click
 from loguru import logger
-from sqlite_utils import Database
 
 from .. import DATA_DIR
-from ..utils import determine_file_name
-from .etl import generate_etl_commands, generate_update_commands
-from .utils import RichClickCommand, RichClickGroup
+from .etl import generate_commands as generate_etl_commands
+from .update import generate_commands as generate_update_commands
+from .utils import RichClickCommand, RichClickGroup, determine_file_name
 
+# Set up command groups for the "etl" sub-command
 rich_click.core.COMMAND_GROUPS = {"phl-budget-data etl": []}
 
 
@@ -26,20 +26,22 @@ def main() -> None:
 
 
 @main.command(cls=RichClickCommand)
-@click.option("--output", type=click.Path(exists=False), help="Output folder.")
+@click.option("--output", type=str, help="The output folder.")
 @click.option("--save-sql", is_flag=True, help="Whether to save SQL databases.")
-def save(output: click.Path = None, save_sql: bool = False) -> None:
+def save(output: Optional[str] = None, save_sql: bool = False) -> None:
     """Save the processed data products."""
 
+    # Determine the output path
     if output is None:
-        output = DATA_DIR / "processed"
+        output_path = DATA_DIR / "processed"
     else:
-        output = Path(output)
+        output_path = Path(output)
 
+    # Loop over each tag
     for tag in ["spending", "qcmr", "collections"]:
 
-        # Output folder
-        output_folder = output / tag
+        # Handle output folder
+        output_folder = output_path / tag
         if not output_folder.exists():
             output_folder.mkdir(parents=True)
 
@@ -53,7 +55,7 @@ def save(output: click.Path = None, save_sql: bool = False) -> None:
                 # The function
                 f = getattr(mod, name)
 
-                # Required params
+                # Function has required params
                 if hasattr(f, "model"):
 
                     # Get the params
@@ -73,42 +75,18 @@ def save(output: click.Path = None, save_sql: bool = False) -> None:
                         output_file = output_folder / filename
                         logger.info(f"Saving {output_file}")
                         data.to_csv(output_file, index=False)
-
+                # Function does not have required params
                 else:
-
                     filename = determine_file_name(f).name
                     output_file = output_folder / filename
                     logger.info(f"Saving {output_file}")
                     f().to_csv(output_file, index=False)
 
-    # Save databases too
-    if save_sql:
-        logger.info("Saving SQL databases")
-
-        # Determine datasets
-        datasets = defaultdict(list)
-        for f in list((DATA_DIR / "processed").glob("**/*.csv")):
-            key = f.parts[-2]
-            datasets[key].append(f)
-
-        # Loop over each database
-        for key in datasets:
-
-            # Create the database
-            filename = DATA_DIR / "sql" / (key + ".db")
-            db = Database(filename)
-
-            # Add each dataset
-            for f in datasets[key]:
-                data = pd.read_csv(f).replace(np.nan, None).to_dict(orient="records")
-                db[f.stem].insert_all(data)
-
-        logger.info("...done")
-
 
 @main.group(cls=RichClickGroup)
 def etl():
-    """Run the ETL pipeline for the specified data source (development installation only)."""
+    """Run the ETL pipeline for the specified data source
+    (development installation only)."""
     pass
 
 
