@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar, Final, Literal
+from typing import ClassVar, Literal
 
 import pandas as pd
 import pdfplumber

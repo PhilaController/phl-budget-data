@@ -9,4 +9,4 @@
 __pycache__/
 notebooks/
 .env
-src/phl_budget_data/data/sql/
+.vscode

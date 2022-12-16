@@ -64,6 +64,9 @@ class ETLPipeline(ABC):
 
     path: Path
 
+    def __init__(self, *args, **kwargs):
+        pass
+
     @classmethod
     def __init_subclass__(cls, **kwargs):  # type: ignore
         """Add class to the registry."""
