@@ -39,8 +39,8 @@ def load_city_tax_collections() -> pd.DataFrame:
 
 def load_city_collections() -> pd.DataFrame:
     """
-    Load monthly collections for the City of Philadelphia. This includes tax, non-tax,
-    and other government collections.
+    Load monthly collections for the City of Philadelphia. This includes tax,
+    non-tax, and other government collections.
     """
     return pd.read_csv(CACHE_DIR / "city-collections.csv")
 

@@ -1,6 +1,7 @@
+"""Load processed QCMR data from the data cache."""
+
 from typing import Literal
 
-import numpy as np
 import pandas as pd
 from pydantic import validate_arguments
 
@@ -27,7 +28,7 @@ def load_personal_services_summary() -> pd.DataFrame:
 
     Notes
     -----
-    See raw PDF files in data/raw/qcmr/personal-services/ folder.
+    See raw PDF files in the "data/raw/qcmr/personal-services/" folder.
     """
     return pd.read_csv(
         CACHE_DIR / "personal-services-summary.csv",
@@ -67,9 +68,7 @@ def load_department_obligations() -> pd.DataFrame:
 
 
 @validate_arguments
-def load_cash_reports(
-    kind: CASH_DATA_TYPE
-) -> pd.DataFrame:
+def load_cash_reports(kind: CASH_DATA_TYPE) -> pd.DataFrame:
     """
     Load data from the QCMR cash reports.
 
@@ -83,6 +82,4 @@ def load_cash_reports(
     -----
     See raw PDF files in the "data/raw/qcmr/cash/" folder.
     """
-    return pd.read_csv(
-        CACHE_DIR / f"cash-reports-{kind}.csv"
-    )
+    return pd.read_csv(CACHE_DIR / f"cash-reports-{kind}.csv")
