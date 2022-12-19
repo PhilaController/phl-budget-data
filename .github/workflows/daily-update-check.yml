@@ -1,4 +1,5 @@
 name: Daily Update Check
+
 on:
   schedule:
     - cron: "22 00 * * *"
