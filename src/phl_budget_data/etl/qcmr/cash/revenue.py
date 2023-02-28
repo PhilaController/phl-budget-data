@@ -54,7 +54,7 @@ class CashRevenueSchema(BaseModel):
         return category
 
 
-class CashReportRevenue(CashFlowForecast): #type: ignore
+class CashReportRevenue(CashFlowForecast):  # type: ignore
     """General Fund cash revenues from the QCMR's Cash Flow Forecast."""
 
     report_dtype: ClassVar[CASH_DATA_TYPE] = "revenue"
@@ -108,6 +108,13 @@ class CashReportRevenue(CashFlowForecast): #type: ignore
 
             # Sort it
             data = data.sort_index()
+
+        # Try to remove City/PICA split for Wage
+        for category in ["City, PICA Wage, Earnings, NP", "Tax to PICA"]:
+            sel = data["0"] == category
+            if sel.sum():
+                i = data.loc[sel].index[0]
+                data = data.drop(labels=[i])
 
         # Check the length
         if len(data) != len(categories):
