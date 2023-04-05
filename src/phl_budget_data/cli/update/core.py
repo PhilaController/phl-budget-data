@@ -10,7 +10,7 @@ from loguru import logger
 
 from ...etl import collections
 from ...etl.core import ETLPipeline
-from .scrape import downloaded_pdf, extract_pdf_urls, get_scraping_driver
+from .scrape import cwd, downloaded_pdf, extract_pdf_urls, get_scraping_driver
 
 
 def generate_commands(update: click.Group) -> None:
@@ -183,44 +183,47 @@ def _run_monthly_update(
         # Download to temp dir initially
         with tempfile.TemporaryDirectory() as tmpdir:
 
-            # Get the driver
-            driver = get_scraping_driver(tmpdir)
+            # Change the path
+            with cwd(tmpdir):
 
-            # The remote URL
-            remote_pdf_path = pdf_urls[dt]
+                # Get the driver
+                driver = get_scraping_driver(tmpdir)
 
-            # Log
-            logger.info(f"Downloading PDF from '{remote_pdf_path}'")
+                # The remote URL
+                remote_pdf_path = pdf_urls[dt]
 
-            # Local path
-            dirname = etls[0].get_data_directory("raw")
-            local_pdf_path = dirname / f"{year}_{month:02d}.pdf"
+                # Log
+                logger.info(f"Downloading PDF from '{remote_pdf_path}'")
 
-            # Download the PDF
-            with downloaded_pdf(
-                driver, remote_pdf_path, tmpdir, interval=1
-            ) as pdf_path:
+                # Local path
+                dirname = etls[0].get_data_directory("raw")
+                local_pdf_path = dirname / f"{year}_{month:02d}.pdf"
 
-                if not local_pdf_path.parent.exists():
-                    local_pdf_path.parent.mkdir()
+                # Download the PDF
+                with downloaded_pdf(
+                    driver, remote_pdf_path, tmpdir, interval=1
+                ) as pdf_path:
 
-                pdf_path.rename(local_pdf_path)
+                    if not local_pdf_path.parent.exists():
+                        local_pdf_path.parent.mkdir()
 
-            # Run the ETL
-            try:
-                for cls in etls:
+                    pdf_path.rename(local_pdf_path)
 
-                    # Log
-                    logger.info(f"Running ETL for {cls.__name__}")
+                # Run the ETL
+                try:
+                    for cls in etls:
 
-                    # Run the ETL
-                    report = cls(year=year, month=month)
-                    report.extract_transform_load()
-            except Exception:
+                        # Log
+                        logger.info(f"Running ETL for {cls.__name__}")
 
-                if local_pdf_path.exists():
-                    local_pdf_path.unlink()
-                raise
+                        # Run the ETL
+                        report = cls(year=year, month=month)
+                        report.extract_transform_load()
+                except Exception:
+
+                    if local_pdf_path.exists():
+                        local_pdf_path.unlink()
+                    raise
 
     if not len(new_months):
         logger.info(f"...no updates found")

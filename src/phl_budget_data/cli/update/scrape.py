@@ -1,6 +1,7 @@
 """Scraping utilities for getting data from phila.gov."""
 
 import calendar
+import os
 import time
 from contextlib import contextmanager
 from pathlib import Path
@@ -11,6 +12,16 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 MONTH_LOOKUP = [x.lower() for x in calendar.month_abbr[1:]]
+
+
+@contextmanager
+def cwd(path):
+    oldpwd = os.getcwd()
+    os.chdir(path)
+    try:
+        yield
+    finally:
+        os.chdir(oldpwd)
 
 
 def parse_website(url: str) -> str:
