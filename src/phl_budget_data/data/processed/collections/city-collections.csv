@@ -191,28 +191,28 @@ wage_city,2023,123600373.0,jul,7,1,2022,2022-07-01,Tax
 real_estate,2023,11595000.0,jul,7,1,2022,2022-07-01,Tax
 net_profits_city,2023,1190290.0,jul,7,1,2022,2022-07-01,Tax
 earnings_pica,2023,403127.0,jul,7,1,2022,2022-07-01,Tax
-wage_city,2022,126291484.0,jun,6,12,2022,2022-06-01,Tax
-birt,2022,18564667.0,jun,6,12,2022,2022-06-01,Tax
-real_estate,2022,4129639.0,jun,6,12,2022,2022-06-01,Tax
-other_taxes,2022,-1352024.0,jun,6,12,2022,2022-06-01,Tax
-soda,2022,6759322.0,jun,6,12,2022,2022-06-01,Tax
+wage_city,2022,122834353.0,jun,6,12,2022,2022-06-01,Tax
+birt,2022,59201431.0,jun,6,12,2022,2022-06-01,Tax
+real_estate,2022,-18030669.0,jun,6,12,2022,2022-06-01,Tax
+other_taxes,2022,-1356524.0,jun,6,12,2022,2022-06-01,Tax
+soda,2022,7333640.0,jun,6,12,2022,2022-06-01,Tax
 outdoor_ads,2022,293224.0,jun,6,12,2022,2022-06-01,Tax
 real_estate_transfer,2022,36970473.0,jun,6,12,2022,2022-06-01,Tax
 valet,2022,139712.0,jun,6,12,2022,2022-06-01,Tax
-parking,2022,7360759.0,jun,6,12,2022,2022-06-01,Tax
+parking,2022,7337398.0,jun,6,12,2022,2022-06-01,Tax
 tobacco,2022,33137.0,jun,6,12,2022,2022-06-01,Tax
-amusement,2022,1488304.0,jun,6,12,2022,2022-06-01,Tax
+amusement,2022,1485742.0,jun,6,12,2022,2022-06-01,Tax
 sales,2022,32883999.0,jun,6,12,2022,2022-06-01,Tax
-all_taxes,2022,237172768.0,jun,6,12,2022,2022-06-01,Tax
-wage_earnings_net_profits_city,2022,129733689.0,jun,6,12,2022,2022-06-01,Tax
-wage_earnings_net_profits,2022,178494070.0,jun,6,12,2022,2022-06-01,Tax
-net_profits,2022,5338958.0,jun,6,12,2022,2022-06-01,Tax
+all_taxes,2022,242443971.0,jun,6,12,2022,2022-06-01,Tax
+wage_earnings_net_profits_city,2022,115822383.0,jun,6,12,2022,2022-06-01,Tax
+wage_earnings_net_profits,2022,164582764.0,jun,6,12,2022,2022-06-01,Tax
+net_profits,2022,-5126739.0,jun,6,12,2022,2022-06-01,Tax
 net_profits_pica,2022,2591353.0,jun,6,12,2022,2022-06-01,Tax
-net_profits_city,2022,2747605.0,jun,6,12,2022,2022-06-01,Tax
-earnings,2022,1089379.0,jun,6,12,2022,2022-06-01,Tax
+net_profits_city,2022,-7718092.0,jun,6,12,2022,2022-06-01,Tax
+earnings,2022,1100901.0,jun,6,12,2022,2022-06-01,Tax
 earnings_pica,2022,394779.0,jun,6,12,2022,2022-06-01,Tax
-earnings_city,2022,694600.0,jun,6,12,2022,2022-06-01,Tax
-wage,2022,172065733.0,jun,6,12,2022,2022-06-01,Tax
+earnings_city,2022,706122.0,jun,6,12,2022,2022-06-01,Tax
+wage,2022,168608602.0,jun,6,12,2022,2022-06-01,Tax
 wage_pica,2022,45774249.0,jun,6,12,2022,2022-06-01,Tax
 wage_earnings_net_profits_pica,2022,48760381.0,jun,6,12,2022,2022-06-01,Tax
 tobacco,2022,187683.0,may,5,11,2022,2022-05-01,Tax
@@ -479,30 +479,30 @@ soda,2022,7056521.0,jul,7,1,2021,2021-07-01,Tax
 real_estate,2022,7198308.0,jul,7,1,2021,2021-07-01,Tax
 all_taxes,2022,171142741.0,jul,7,1,2021,2021-07-01,Tax
 wage_pica,2022,36098031.0,jul,7,1,2021,2021-07-01,Tax
-wage_pica,2021,37201884.0,jun,6,12,2021,2021-06-01,Tax
-birt,2021,25652736.0,jun,6,12,2021,2021-06-01,Tax
-wage,2021,155841518.0,jun,6,12,2021,2021-06-01,Tax
-earnings_city,2021,3081376.0,jun,6,12,2021,2021-06-01,Tax
-earnings_pica,2021,1483579.0,jun,6,12,2021,2021-06-01,Tax
-earnings,2021,4564955.0,jun,6,12,2021,2021-06-01,Tax
-net_profits_city,2021,4955281.0,jun,6,12,2021,2021-06-01,Tax
-net_profits_pica,2021,5157261.0,jun,6,12,2021,2021-06-01,Tax
-net_profits,2021,10112543.0,jun,6,12,2021,2021-06-01,Tax
-wage_earnings_net_profits,2021,170519016.0,jun,6,12,2021,2021-06-01,Tax
-wage_earnings_net_profits_pica,2021,43842724.0,jun,6,12,2021,2021-06-01,Tax
-wage_earnings_net_profits_city,2021,126676292.0,jun,6,12,2021,2021-06-01,Tax
+wage_pica,2021,37689239.0,jun,6,12,2021,2021-06-01,Tax
+birt,2021,14077790.0,jun,6,12,2021,2021-06-01,Tax
+wage,2021,156674392.0,jun,6,12,2021,2021-06-01,Tax
+earnings_city,2021,2739884.0,jun,6,12,2021,2021-06-01,Tax
+earnings_pica,2021,1613079.0,jun,6,12,2021,2021-06-01,Tax
+earnings,2021,4352962.0,jun,6,12,2021,2021-06-01,Tax
+net_profits_city,2021,7161675.0,jun,6,12,2021,2021-06-01,Tax
+net_profits_pica,2021,4770044.0,jun,6,12,2021,2021-06-01,Tax
+net_profits,2021,11931719.0,jun,6,12,2021,2021-06-01,Tax
+wage_earnings_net_profits,2021,172959073.0,jun,6,12,2021,2021-06-01,Tax
+wage_earnings_net_profits_pica,2021,44072361.0,jun,6,12,2021,2021-06-01,Tax
+wage_earnings_net_profits_city,2021,128886712.0,jun,6,12,2021,2021-06-01,Tax
 sales,2021,30360846.0,jun,6,12,2021,2021-06-01,Tax
 amusement,2021,424569.0,jun,6,12,2021,2021-06-01,Tax
-tobacco,2021,29505.0,jun,6,12,2021,2021-06-01,Tax
+tobacco,2021,18110.0,jun,6,12,2021,2021-06-01,Tax
 parking,2021,6021158.0,jun,6,12,2021,2021-06-01,Tax
 valet,2021,106077.0,jun,6,12,2021,2021-06-01,Tax
-real_estate_transfer,2021,26415321.0,jun,6,12,2021,2021-06-01,Tax
+real_estate_transfer,2021,26415029.0,jun,6,12,2021,2021-06-01,Tax
 outdoor_ads,2021,231193.0,jun,6,12,2021,2021-06-01,Tax
-soda,2021,6277502.0,jun,6,12,2021,2021-06-01,Tax
+soda,2021,7341541.0,jun,6,12,2021,2021-06-01,Tax
 other_taxes,2021,0.0,jun,6,12,2021,2021-06-01,Tax
-all_taxes,2021,233493651.0,jun,6,12,2021,2021-06-01,Tax
-real_estate,2021,11298452.0,jun,6,12,2021,2021-06-01,Tax
-wage_city,2021,118639635.0,jun,6,12,2021,2021-06-01,Tax
+all_taxes,2021,213978009.0,jun,6,12,2021,2021-06-01,Tax
+real_estate,2021,94984.0,jun,6,12,2021,2021-06-01,Tax
+wage_city,2021,118985153.0,jun,6,12,2021,2021-06-01,Tax
 real_estate,2021,16570278.0,may,5,11,2021,2021-05-01,Tax
 all_taxes,2021,353592982.0,may,5,11,2021,2021-05-01,Tax
 wage_pica,2021,26635061.0,may,5,11,2021,2021-05-01,Tax
@@ -2897,24 +2897,24 @@ traffic_fines,2023,185733.0,jul,7,1,2022,2022-07-01,Non-Tax
 revenue_from_private_sources,2023,4322030.0,jul,7,1,2022,2022-07-01,Non-Tax
 miscellaneous,2023,1738477.0,jul,7,1,2022,2022-07-01,Non-Tax
 interest_earnings,2023,1990985.0,jul,7,1,2022,2022-07-01,Non-Tax
-total_local_nontax_revenue,2022,35926286.0,jun,6,12,2022,2022-06-01,Non-Tax
-commercial_trash_fee,2022,1222528.0,jun,6,12,2022,2022-06-01,Non-Tax
-other_fines,2022,1177658.0,jun,6,12,2022,2022-06-01,Non-Tax
-reimbursements,2022,-970974.0,jun,6,12,2022,2022-06-01,Non-Tax
-asset_sales,2022,9741887.0,jun,6,12,2022,2022-06-01,Non-Tax
+total_local_nontax_revenue,2022,42476047.0,jun,6,12,2022,2022-06-01,Non-Tax
+commercial_trash_fee,2022,799009.0,jun,6,12,2022,2022-06-01,Non-Tax
+other_fines,2022,1177473.0,jun,6,12,2022,2022-06-01,Non-Tax
+reimbursements,2022,-728987.0,jun,6,12,2022,2022-06-01,Non-Tax
+asset_sales,2022,10003539.0,jun,6,12,2022,2022-06-01,Non-Tax
 payments_in_lieu_of_taxes,2022,371075.0,jun,6,12,2022,2022-06-01,Non-Tax
-cable_television,2022,0.0,jun,6,12,2022,2022-06-01,Non-Tax
-miscellaneous,2022,1044221.0,jun,6,12,2022,2022-06-01,Non-Tax
-emergency_medical_services,2022,3062222.0,jun,6,12,2022,2022-06-01,Non-Tax
-interest_earnings,2022,1129313.0,jun,6,12,2022,2022-06-01,Non-Tax
+cable_television,2022,3106285.0,jun,6,12,2022,2022-06-01,Non-Tax
+miscellaneous,2022,2809294.0,jun,6,12,2022,2022-06-01,Non-Tax
+emergency_medical_services,2022,3086688.0,jun,6,12,2022,2022-06-01,Non-Tax
+interest_earnings,2022,812795.0,jun,6,12,2022,2022-06-01,Non-Tax
 traffic_fines,2022,232025.0,jun,6,12,2022,2022-06-01,Non-Tax
-licenses_and_inspection_fees,2022,5762507.0,jun,6,12,2022,2022-06-01,Non-Tax
-streets,2022,1174415.0,jun,6,12,2022,2022-06-01,Non-Tax
-health,2022,8079720.0,jun,6,12,2022,2022-06-01,Non-Tax
+licenses_and_inspection_fees,2022,5485608.0,jun,6,12,2022,2022-06-01,Non-Tax
+streets,2022,1104132.0,jun,6,12,2022,2022-06-01,Non-Tax
+health,2022,8048786.0,jun,6,12,2022,2022-06-01,Non-Tax
 sheriff,2022,0.0,jun,6,12,2022,2022-06-01,Non-Tax
-records,2022,1573965.0,jun,6,12,2022,2022-06-01,Non-Tax
-court_related_costs,2022,1964524.0,jun,6,12,2022,2022-06-01,Non-Tax
-revenue_from_private_sources,2022,361200.0,jun,6,12,2022,2022-06-01,Non-Tax
+records,2022,1551434.0,jun,6,12,2022,2022-06-01,Non-Tax
+court_related_costs,2022,2005692.0,jun,6,12,2022,2022-06-01,Non-Tax
+revenue_from_private_sources,2022,2611200.0,jun,6,12,2022,2022-06-01,Non-Tax
 traffic_fines,2022,217229.0,may,5,11,2022,2022-05-01,Non-Tax
 revenue_from_private_sources,2022,60000.0,may,5,11,2022,2022-05-01,Non-Tax
 total_local_nontax_revenue,2022,38247639.0,may,5,11,2022,2022-05-01,Non-Tax
@@ -3114,23 +3114,23 @@ payments_in_lieu_of_taxes,2022,1086469.0,jul,7,1,2021,2021-07-01,Non-Tax
 asset_sales,2022,471207.0,jul,7,1,2021,2021-07-01,Non-Tax
 revenue_from_private_sources,2022,960855.0,jul,7,1,2021,2021-07-01,Non-Tax
 traffic_fines,2021,301249.0,jun,6,12,2021,2021-06-01,Non-Tax
-interest_earnings,2021,-1602897.0,jun,6,12,2021,2021-06-01,Non-Tax
-revenue_from_private_sources,2021,362760.0,jun,6,12,2021,2021-06-01,Non-Tax
-miscellaneous,2021,2365674.0,jun,6,12,2021,2021-06-01,Non-Tax
-court_related_costs,2021,1514645.0,jun,6,12,2021,2021-06-01,Non-Tax
+interest_earnings,2021,-1189580.0,jun,6,12,2021,2021-06-01,Non-Tax
+revenue_from_private_sources,2021,0.0,jun,6,12,2021,2021-06-01,Non-Tax
+miscellaneous,2021,2727356.0,jun,6,12,2021,2021-06-01,Non-Tax
+court_related_costs,2021,1258119.0,jun,6,12,2021,2021-06-01,Non-Tax
 records,2021,1638657.0,jun,6,12,2021,2021-06-01,Non-Tax
 sheriff,2021,4672.0,jun,6,12,2021,2021-06-01,Non-Tax
 health,2021,9637579.0,jun,6,12,2021,2021-06-01,Non-Tax
 streets,2021,970444.0,jun,6,12,2021,2021-06-01,Non-Tax
-licenses_and_inspection_fees,2021,6089449.0,jun,6,12,2021,2021-06-01,Non-Tax
-total_local_nontax_revenue,2021,29804832.0,jun,6,12,2021,2021-06-01,Non-Tax
+licenses_and_inspection_fees,2021,6087076.0,jun,6,12,2021,2021-06-01,Non-Tax
+total_local_nontax_revenue,2021,27630808.0,jun,6,12,2021,2021-06-01,Non-Tax
 other_fines,2021,947552.0,jun,6,12,2021,2021-06-01,Non-Tax
-commercial_trash_fee,2021,1870689.0,jun,6,12,2021,2021-06-01,Non-Tax
-emergency_medical_services,2021,2467031.0,jun,6,12,2021,2021-06-01,Non-Tax
+commercial_trash_fee,2021,1707511.0,jun,6,12,2021,2021-06-01,Non-Tax
+emergency_medical_services,2021,2465948.0,jun,6,12,2021,2021-06-01,Non-Tax
 cable_television,2021,1724530.0,jun,6,12,2021,2021-06-01,Non-Tax
 payments_in_lieu_of_taxes,2021,105341.0,jun,6,12,2021,2021-06-01,Non-Tax
 asset_sales,2021,246931.0,jun,6,12,2021,2021-06-01,Non-Tax
-reimbursements,2021,1160524.0,jun,6,12,2021,2021-06-01,Non-Tax
+reimbursements,2021,-1002578.0,jun,6,12,2021,2021-06-01,Non-Tax
 total_local_nontax_revenue,2021,41035846.0,may,5,11,2021,2021-05-01,Non-Tax
 revenue_from_private_sources,2021,2653920.0,may,5,11,2021,2021-05-01,Non-Tax
 miscellaneous,2021,10958175.0,may,5,11,2021,2021-05-01,Non-Tax
@@ -4332,11 +4332,11 @@ commonwealth_of_pa,2023,247596.0,jul,7,1,2022,2022-07-01,Other Govt
 other_governmental_units,2023,10245115.0,jul,7,1,2022,2022-07-01,Other Govt
 total_revenue_other_govts,2023,94679858.0,jul,7,1,2022,2022-07-01,Other Govt
 us_government,2023,1057689.0,jul,7,1,2022,2022-07-01,Other Govt
-commonwealth_of_pa,2022,1642326.0,jun,6,12,2022,2022-06-01,Other Govt
-us_government,2022,6103812.0,jun,6,12,2022,2022-06-01,Other Govt
+commonwealth_of_pa,2022,18420458.0,jun,6,12,2022,2022-06-01,Other Govt
+us_government,2022,6714263.0,jun,6,12,2022,2022-06-01,Other Govt
 other_governmental_units,2022,13804286.0,jun,6,12,2022,2022-06-01,Other Govt
-pica_transfer,2022,30971162.0,jun,6,12,2022,2022-06-01,Other Govt
-total_revenue_other_govts,2022,52521586.0,jun,6,12,2022,2022-06-01,Other Govt
+pica_transfer,2022,49925167.0,jun,6,12,2022,2022-06-01,Other Govt
+total_revenue_other_govts,2022,88864174.0,jun,6,12,2022,2022-06-01,Other Govt
 total_revenue_other_govts,2022,72921461.0,may,5,11,2022,2022-05-01,Other Govt
 us_government,2022,615640.0,may,5,11,2022,2022-05-01,Other Govt
 commonwealth_of_pa,2022,4174232.0,may,5,11,2022,2022-05-01,Other Govt
@@ -4392,11 +4392,11 @@ commonwealth_of_pa,2022,424039.0,jul,7,1,2021,2021-07-01,Other Govt
 total_revenue_other_govts,2022,29879516.0,jul,7,1,2021,2021-07-01,Other Govt
 other_governmental_units,2022,9500505.0,jul,7,1,2021,2021-07-01,Other Govt
 pica_transfer,2022,19507316.0,jul,7,1,2021,2021-07-01,Other Govt
-commonwealth_of_pa,2021,1800750.0,jun,6,12,2021,2021-06-01,Other Govt
-total_revenue_other_govts,2021,73719919.0,jun,6,12,2021,2021-06-01,Other Govt
-pica_transfer,2021,63011977.0,jun,6,12,2021,2021-06-01,Other Govt
+commonwealth_of_pa,2021,2897351.0,jun,6,12,2021,2021-06-01,Other Govt
+total_revenue_other_govts,2021,84148424.0,jun,6,12,2021,2021-06-01,Other Govt
+pica_transfer,2021,73440024.0,jun,6,12,2021,2021-06-01,Other Govt
 other_governmental_units,2021,3258347.0,jun,6,12,2021,2021-06-01,Other Govt
-us_government,2021,5648845.0,jun,6,12,2021,2021-06-01,Other Govt
+us_government,2021,4552703.0,jun,6,12,2021,2021-06-01,Other Govt
 commonwealth_of_pa,2021,2260292.0,may,5,11,2021,2021-05-01,Other Govt
 total_revenue_other_govts,2021,41904255.0,may,5,11,2021,2021-05-01,Other Govt
 pica_transfer,2021,30652220.0,may,5,11,2021,2021-05-01,Other Govt
