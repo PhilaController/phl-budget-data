@@ -170,7 +170,8 @@ def _extract_parameters(s: str) -> Optional[dict[str, int]]:
     patterns = [
         "FY(?P<fiscal_year>[0-9]{2})[_-]Q(?P<quarter>[1234])",  # FYXX-QX
         "FY(?P<fiscal_year>[0-9]{2})",  # FYXX
-        "(?P<year>[0-9]{4})[_-](?P<month>[0-9]{2})",  # YYYY-MM
+        "(?P<year>[0-9]{4})[_-](?P<month>[0-9]{2})",  # YYYY-MM,
+        "(?P<year>[0-9]{4})[_-]Q(?P<quarter>[1234])",  # YYYY-QX
     ]
     for pattern in patterns:
         match = re.match(pattern, s)

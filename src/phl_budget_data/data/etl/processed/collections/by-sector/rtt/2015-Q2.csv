@@ -1,0 +1,12 @@
+category,num_records,total,parent_category
+General Commercial (88-2),114.0,2642612.0,Nonresidential
+"Office Buildings, Hotels, and Garages (88-3)",35.0,15516636.0,Nonresidential
+Industrial (88-4),105.0,1640523.0,Nonresidential
+"Other Nonresidential (88-5,88-6,77,78)",283.0,1754454.0,Nonresidential
+Nonresidential,537.0,21554224.0,
+Condominiums (88-8),689.0,8106604.0,Residential
+Apartments (88-1),43.0,5396709.0,Residential
+Single/Multi-family Homes (01 thur 76),8702.0,28814815.0,Residential
+Residential,9434.0,42318128.0,
+Unclassified,185.0,0.0,
+Total,10156.0,63872352.0,

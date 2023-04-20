@@ -12,6 +12,7 @@ from . import (
     CityNonTaxCollections,
     CityOtherGovtsCollections,
     CityTaxCollections,
+    RTTCollectionsBySector,
     SalesCollectionsBySector,
     SchoolTaxCollections,
     WageCollectionsBySector,
@@ -21,6 +22,7 @@ __all__ = [
     "load_birt_collections_by_sector",
     "load_sales_collections_by_sector",
     "load_wage_collections_by_sector",
+    "load_rtt_collections_by_sector",
     "load_city_collections",
     "load_city_tax_collections",
     "load_school_collections",
@@ -77,6 +79,108 @@ def load_birt_collections_by_sector() -> pd.DataFrame:
     return out.sort_values(
         ["tax_year", "parent_sector", "sector"], ascending=True
     ).reset_index(drop=True)
+
+
+def load_rtt_collections_by_sector() -> pd.DataFrame:
+    """Load quarterly RTT collections by sector."""
+
+    # Get the path to the files to load
+    dirname = RTTCollectionsBySector.get_data_directory("processed")
+    files = dirname.glob("*.csv")
+
+    # Fiscal quarters
+    fiscal_quarters = {
+        "jul": 1,
+        "aug": 1,
+        "sep": 1,
+        "oct": 2,
+        "nov": 2,
+        "dec": 2,
+        "jan": 3,
+        "feb": 3,
+        "mar": 3,
+        "apr": 4,
+        "may": 4,
+        "jun": 4,
+    }
+
+    calendar_to_fiscal_quarter = {1: 3, 2: 4, 3: 1, 4: 2}
+
+    out = []
+    for f in files:
+
+        # Quarterly data
+        if "Q" in f.stem:
+            year, quarter = f.stem.split("-")
+            year = int(year)
+            quarter = int(quarter[-1])
+
+            # Get the fiscal year
+            if quarter in [1, 2]:
+                fiscal_year = year
+            else:
+                fiscal_year = year + 1
+
+            # Fiscal quarter
+            fiscal_quarter = calendar_to_fiscal_quarter[quarter]
+
+        # Monthly data
+        else:
+            year, month = map(int, f.stem.split("-"))
+            month_name = calendar.month_abbr[month].lower()
+
+            # Determine the fiscal year and tags
+            fiscal_year = fiscal_from_calendar_year(month, year)
+
+            # Fiscal quarter
+            fiscal_quarter = fiscal_quarters[month_name]
+
+        # Load the data and trim to "total"
+        df = pd.read_csv(f)
+
+        # The data
+        X = df[["category", "parent_category", "num_records", "total"]]
+
+        # Melt the data
+        X = X.melt(id_vars=["category", "parent_category"],).assign(
+            fiscal_quarter=fiscal_quarter,
+            year=year,
+            fiscal_year=fiscal_year,
+        )
+
+        # Save
+        out.append(X)
+
+    # Combine into a single dataframe
+    out = pd.concat(out, ignore_index=True)
+
+    # Aggregate by quarter
+    out = out.groupby(
+        [
+            "category",
+            "parent_category",
+            "year",
+            "fiscal_year",
+            "fiscal_quarter",
+            "variable",
+        ],
+        as_index=False,
+        dropna=False,
+    )["value"].sum()
+
+    # Map quarter to month
+    out["month_start"] = out["fiscal_quarter"].replace(
+        {1: "07", 2: "10", 3: "01", 4: "04"}
+    )
+
+    # Add date
+    out["date"] = pd.to_datetime(
+        out.apply(lambda r: f"{r['year']}-{r['month_start']}", axis=1)
+    )
+
+    return out.sort_values("date", ascending=False, ignore_index=True).drop(
+        columns=["month_start"]
+    )
 
 
 def load_wage_collections_by_sector() -> pd.DataFrame:

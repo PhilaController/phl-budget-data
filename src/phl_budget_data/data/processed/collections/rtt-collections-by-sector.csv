@@ -1,0 +1,881 @@
+category,parent_category,year,fiscal_year,fiscal_quarter,variable,value,date
+Unclassified,,2022,2023,2,total,26890.0,2022-10-01
+Total,,2022,2023,2,total,87441422.0,2022-10-01
+Nonresidential,,2022,2023,2,num_records,373.0,2022-10-01
+Apartments (88-1),Residential,2022,2023,2,num_records,55.0,2022-10-01
+Apartments (88-1),Residential,2022,2023,2,total,26923027.0,2022-10-01
+Total,,2022,2023,2,num_records,8160.0,2022-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2023,2,total,41657499.0,2022-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2023,2,num_records,6907.0,2022-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2023,2,num_records,10.0,2022-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2023,2,total,1456088.0,2022-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2023,2,total,3904483.0,2022-10-01
+Condominiums (88-8),Residential,2022,2023,2,num_records,514.0,2022-10-01
+Condominiums (88-8),Residential,2022,2023,2,total,6777823.0,2022-10-01
+Industrial (88-4),Nonresidential,2022,2023,2,total,2088970.0,2022-10-01
+Industrial (88-4),Nonresidential,2022,2023,2,num_records,55.0,2022-10-01
+Residential,,2022,2023,2,total,75358348.0,2022-10-01
+Residential,,2022,2023,2,num_records,7476.0,2022-10-01
+General Commercial (88-2),Nonresidential,2022,2023,2,num_records,88.0,2022-10-01
+General Commercial (88-2),Nonresidential,2022,2023,2,total,4606643.0,2022-10-01
+Nonresidential,,2022,2023,2,total,12056183.0,2022-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2023,2,num_records,220.0,2022-10-01
+Unclassified,,2022,2023,2,num_records,311.0,2022-10-01
+Total,,2022,2023,1,total,149434832.0,2022-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2023,1,total,57739016.0,2022-07-01
+Unclassified,,2022,2023,1,num_records,150.0,2022-07-01
+Residential,,2022,2023,1,total,119030247.0,2022-07-01
+Industrial (88-4),Nonresidential,2022,2023,1,total,9608553.0,2022-07-01
+Apartments (88-1),Residential,2022,2023,1,num_records,78.0,2022-07-01
+Apartments (88-1),Residential,2022,2023,1,total,49831197.0,2022-07-01
+Total,,2022,2023,1,num_records,10332.0,2022-07-01
+Nonresidential,,2022,2023,1,num_records,531.0,2022-07-01
+Nonresidential,,2022,2023,1,total,30402011.0,2022-07-01
+Residential,,2022,2023,1,num_records,9651.0,2022-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2023,1,num_records,8797.0,2022-07-01
+Condominiums (88-8),Residential,2022,2023,1,num_records,776.0,2022-07-01
+Condominiums (88-8),Residential,2022,2023,1,total,11460034.0,2022-07-01
+Industrial (88-4),Nonresidential,2022,2023,1,num_records,76.0,2022-07-01
+General Commercial (88-2),Nonresidential,2022,2023,1,num_records,131.0,2022-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2023,1,total,6576802.0,2022-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2023,1,num_records,309.0,2022-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2023,1,num_records,15.0,2022-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2023,1,total,5122145.0,2022-07-01
+Unclassified,,2022,2023,1,total,2574.0,2022-07-01
+General Commercial (88-2),Nonresidential,2022,2023,1,total,9094512.0,2022-07-01
+General Commercial (88-2),Nonresidential,2022,2022,4,num_records,138.0,2022-04-01
+Unclassified,,2022,2022,4,num_records,245.0,2022-04-01
+Apartments (88-1),Residential,2022,2022,4,num_records,118.0,2022-04-01
+Apartments (88-1),Residential,2022,2022,4,total,11565699.0,2022-04-01
+General Commercial (88-2),Nonresidential,2022,2022,4,total,5912764.0,2022-04-01
+Condominiums (88-8),Residential,2022,2022,4,num_records,1010.0,2022-04-01
+Condominiums (88-8),Residential,2022,2022,4,total,15067811.0,2022-04-01
+Residential,,2022,2022,4,num_records,12085.0,2022-04-01
+Total,,2022,2022,4,num_records,12955.0,2022-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2022,4,num_records,10957.0,2022-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2022,4,total,76283694.0,2022-04-01
+Industrial (88-4),Nonresidential,2022,2022,4,total,9384346.0,2022-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2022,4,total,16328754.0,2022-04-01
+Total,,2022,2022,4,total,139573310.0,2022-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2022,4,num_records,19.0,2022-04-01
+Unclassified,,2022,2022,4,total,8097.0,2022-04-01
+Industrial (88-4),Nonresidential,2022,2022,4,num_records,84.0,2022-04-01
+Nonresidential,,2022,2022,4,total,36648009.0,2022-04-01
+Residential,,2022,2022,4,total,102917205.0,2022-04-01
+Nonresidential,,2022,2022,4,num_records,625.0,2022-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2022,4,total,5022145.0,2022-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2022,4,num_records,384.0,2022-04-01
+Residential,,2022,2022,3,total,135068715.0,2022-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2022,3,total,12628098.0,2022-01-01
+Total,,2022,2022,3,total,195813482.0,2022-01-01
+Total,,2022,2022,3,num_records,17109.0,2022-01-01
+General Commercial (88-2),Nonresidential,2022,2022,3,num_records,190.0,2022-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2022,3,total,101240529.0,2022-01-01
+Unclassified,,2022,2022,3,num_records,297.0,2022-01-01
+Residential,,2022,2022,3,num_records,15890.0,2022-01-01
+Industrial (88-4),Nonresidential,2022,2022,3,total,15686773.0,2022-01-01
+General Commercial (88-2),Nonresidential,2022,2022,3,total,31139764.0,2022-01-01
+Condominiums (88-8),Residential,2022,2022,3,total,14674168.0,2022-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2022,3,num_records,19.0,2022-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2022,2022,3,total,1290133.0,2022-01-01
+Condominiums (88-8),Residential,2022,2022,3,num_records,1174.0,2022-01-01
+Industrial (88-4),Nonresidential,2022,2022,3,num_records,160.0,2022-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2022,2022,3,num_records,14578.0,2022-01-01
+Apartments (88-1),Residential,2022,2022,3,total,19154017.0,2022-01-01
+Nonresidential,,2022,2022,3,total,60744767.0,2022-01-01
+Nonresidential,,2022,2022,3,num_records,922.0,2022-01-01
+Apartments (88-1),Residential,2022,2022,3,num_records,138.0,2022-01-01
+Unclassified,,2022,2022,3,total,0.0,2022-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2022,2022,3,num_records,553.0,2022-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2022,2,total,9857166.0,2021-10-01
+Apartments (88-1),Residential,2021,2022,2,num_records,102.0,2021-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2022,2,num_records,329.0,2021-10-01
+Unclassified,,2021,2022,2,total,0.0,2021-10-01
+Apartments (88-1),Residential,2021,2022,2,total,31508382.0,2021-10-01
+Residential,,2021,2022,2,num_records,10328.0,2021-10-01
+Industrial (88-4),Nonresidential,2021,2022,2,total,7146365.0,2021-10-01
+Nonresidential,,2021,2022,2,num_records,558.0,2021-10-01
+Residential,,2021,2022,2,total,109568669.0,2021-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2022,2,total,7420987.0,2021-10-01
+Condominiums (88-8),Residential,2021,2022,2,num_records,868.0,2021-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2022,2,num_records,24.0,2021-10-01
+Industrial (88-4),Nonresidential,2021,2022,2,num_records,89.0,2021-10-01
+Condominiums (88-8),Residential,2021,2022,2,total,11136915.0,2021-10-01
+Unclassified,,2021,2022,2,num_records,201.0,2021-10-01
+Total,,2021,2022,2,total,137608101.0,2021-10-01
+Total,,2021,2022,2,num_records,11087.0,2021-10-01
+General Commercial (88-2),Nonresidential,2021,2022,2,num_records,116.0,2021-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2022,2,total,66923372.0,2021-10-01
+Nonresidential,,2021,2022,2,total,28039432.0,2021-10-01
+General Commercial (88-2),Nonresidential,2021,2022,2,total,3614914.0,2021-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2022,2,num_records,9358.0,2021-10-01
+Unclassified,,2021,2022,1,total,19982.0,2021-07-01
+Condominiums (88-8),Residential,2021,2022,1,num_records,487.0,2021-07-01
+Unclassified,,2021,2022,1,num_records,113.0,2021-07-01
+Industrial (88-4),Nonresidential,2021,2022,1,num_records,53.0,2021-07-01
+Industrial (88-4),Nonresidential,2021,2022,1,total,3114282.0,2021-07-01
+Condominiums (88-8),Residential,2021,2022,1,total,6928176.0,2021-07-01
+General Commercial (88-2),Nonresidential,2021,2022,1,num_records,84.0,2021-07-01
+Nonresidential,,2021,2022,1,total,13478846.0,2021-07-01
+General Commercial (88-2),Nonresidential,2021,2022,1,total,2635687.0,2021-07-01
+Apartments (88-1),Residential,2021,2022,1,total,2550466.0,2021-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2022,1,total,2888401.0,2021-07-01
+Apartments (88-1),Residential,2021,2022,1,num_records,52.0,2021-07-01
+Residential,,2021,2022,1,total,47367396.0,2021-07-01
+Residential,,2021,2022,1,num_records,6553.0,2021-07-01
+Total,,2021,2022,1,total,60866225.0,2021-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2022,1,num_records,16.0,2021-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2022,1,total,4840476.0,2021-07-01
+Nonresidential,,2021,2022,1,num_records,357.0,2021-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2022,1,num_records,204.0,2021-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2022,1,total,37888754.0,2021-07-01
+Total,,2021,2022,1,num_records,7023.0,2021-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2022,1,num_records,6014.0,2021-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2021,4,total,49732291.0,2021-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2021,4,total,7724781.0,2021-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2021,4,num_records,7633.0,2021-04-01
+Industrial (88-4),Nonresidential,2021,2021,4,num_records,71.0,2021-04-01
+General Commercial (88-2),Nonresidential,2021,2021,4,num_records,111.0,2021-04-01
+General Commercial (88-2),Nonresidential,2021,2021,4,total,5057429.0,2021-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2021,4,num_records,270.0,2021-04-01
+Industrial (88-4),Nonresidential,2021,2021,4,total,4309658.0,2021-04-01
+Condominiums (88-8),Residential,2021,2021,4,total,8537354.0,2021-04-01
+Condominiums (88-8),Residential,2021,2021,4,num_records,688.0,2021-04-01
+Residential,,2021,2021,4,total,61887311.0,2021-04-01
+Apartments (88-1),Residential,2021,2021,4,total,3617666.0,2021-04-01
+Apartments (88-1),Residential,2021,2021,4,num_records,51.0,2021-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2021,4,num_records,6.0,2021-04-01
+Total,,2021,2021,4,total,79557078.0,2021-04-01
+Total,,2021,2021,4,num_records,9005.0,2021-04-01
+Nonresidential,,2021,2021,4,num_records,458.0,2021-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2021,4,total,490585.0,2021-04-01
+Unclassified,,2021,2021,4,total,87314.0,2021-04-01
+Unclassified,,2021,2021,4,num_records,175.0,2021-04-01
+Nonresidential,,2021,2021,4,total,17582453.0,2021-04-01
+Residential,,2021,2021,4,num_records,8372.0,2021-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2021,3,total,38846973.0,2021-01-01
+Total,,2021,2021,3,num_records,7442.0,2021-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2021,3,num_records,251.0,2021-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2021,2021,3,num_records,6408.0,2021-01-01
+Apartments (88-1),Residential,2021,2021,3,num_records,55.0,2021-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2021,3,num_records,10.0,2021-01-01
+Apartments (88-1),Residential,2021,2021,3,total,6418603.0,2021-01-01
+Total,,2021,2021,3,total,62072216.0,2021-01-01
+Unclassified,,2021,2021,3,total,1702.0,2021-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2021,2021,3,total,1464225.0,2021-01-01
+Residential,,2021,2021,3,num_records,6877.0,2021-01-01
+Unclassified,,2021,2021,3,num_records,151.0,2021-01-01
+Industrial (88-4),Nonresidential,2021,2021,3,total,4722662.0,2021-01-01
+Condominiums (88-8),Residential,2021,2021,3,num_records,414.0,2021-01-01
+Condominiums (88-8),Residential,2021,2021,3,total,4168526.0,2021-01-01
+General Commercial (88-2),Nonresidential,2021,2021,3,total,1817132.0,2021-01-01
+General Commercial (88-2),Nonresidential,2021,2021,3,num_records,90.0,2021-01-01
+Residential,,2021,2021,3,total,49434102.0,2021-01-01
+Industrial (88-4),Nonresidential,2021,2021,3,num_records,63.0,2021-01-01
+Nonresidential,,2021,2021,3,num_records,414.0,2021-01-01
+Nonresidential,,2021,2021,3,total,12636412.0,2021-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2021,2021,3,total,4632393.0,2021-01-01
+Apartments (88-1),Residential,2020,2021,2,num_records,82.0,2020-10-01
+Apartments (88-1),Residential,2020,2021,2,total,9465474.0,2020-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2021,2,num_records,9.0,2020-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2021,2,total,2147418.0,2020-10-01
+Industrial (88-4),Nonresidential,2020,2021,2,total,7073679.0,2020-10-01
+Industrial (88-4),Nonresidential,2020,2021,2,num_records,84.0,2020-10-01
+General Commercial (88-2),Nonresidential,2020,2021,2,num_records,109.0,2020-10-01
+Unclassified,,2020,2021,2,num_records,175.0,2020-10-01
+Unclassified,,2020,2021,2,total,2459.0,2020-10-01
+Condominiums (88-8),Residential,2020,2021,2,num_records,651.0,2020-10-01
+Condominiums (88-8),Residential,2020,2021,2,total,7521220.0,2020-10-01
+Total,,2020,2021,2,total,89306571.0,2020-10-01
+Nonresidential,,2020,2021,2,num_records,501.0,2020-10-01
+Nonresidential,,2020,2021,2,total,17376833.0,2020-10-01
+Residential,,2020,2021,2,total,71927279.0,2020-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2021,2,total,4847823.0,2020-10-01
+Total,,2020,2021,2,num_records,10314.0,2020-10-01
+Residential,,2020,2021,2,num_records,9638.0,2020-10-01
+General Commercial (88-2),Nonresidential,2020,2021,2,total,3307913.0,2020-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2021,2,total,54940585.0,2020-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2021,2,num_records,8905.0,2020-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2021,2,num_records,299.0,2020-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2021,1,num_records,7.0,2020-07-01
+Condominiums (88-8),Residential,2020,2021,1,total,5536127.0,2020-07-01
+General Commercial (88-2),Nonresidential,2020,2021,1,total,3170410.0,2020-07-01
+General Commercial (88-2),Nonresidential,2020,2021,1,num_records,81.0,2020-07-01
+Condominiums (88-8),Residential,2020,2021,1,num_records,561.0,2020-07-01
+Industrial (88-4),Nonresidential,2020,2021,1,num_records,61.0,2020-07-01
+Industrial (88-4),Nonresidential,2020,2021,1,total,1966562.0,2020-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2021,1,total,6142363.0,2020-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2021,1,num_records,250.0,2020-07-01
+Nonresidential,,2020,2021,1,num_records,399.0,2020-07-01
+Nonresidential,,2020,2021,1,total,12016317.0,2020-07-01
+Apartments (88-1),Residential,2020,2021,1,num_records,51.0,2020-07-01
+Residential,,2020,2021,1,total,58075190.0,2020-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2021,1,num_records,7954.0,2020-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2021,1,total,48186199.0,2020-07-01
+Total,,2020,2021,1,num_records,9109.0,2020-07-01
+Total,,2020,2021,1,total,70095057.0,2020-07-01
+Unclassified,,2020,2021,1,num_records,144.0,2020-07-01
+Unclassified,,2020,2021,1,total,3551.0,2020-07-01
+Apartments (88-1),Residential,2020,2021,1,total,4352865.0,2020-07-01
+Residential,,2020,2021,1,num_records,8566.0,2020-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2021,1,total,736981.0,2020-07-01
+Industrial (88-4),Nonresidential,2020,2020,4,total,1395534.0,2020-04-01
+Industrial (88-4),Nonresidential,2020,2020,4,num_records,29.0,2020-04-01
+Residential,,2020,2020,4,num_records,4910.0,2020-04-01
+Residential,,2020,2020,4,total,35513396.0,2020-04-01
+Unclassified,,2020,2020,4,total,0.0,2020-04-01
+General Commercial (88-2),Nonresidential,2020,2020,4,total,2373503.0,2020-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2020,4,total,2684895.0,2020-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2020,4,num_records,8.0,2020-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2020,4,total,12864307.0,2020-04-01
+Apartments (88-1),Residential,2020,2020,4,num_records,36.0,2020-04-01
+Apartments (88-1),Residential,2020,2020,4,total,1688367.0,2020-04-01
+Total,,2020,2020,4,total,54831636.0,2020-04-01
+Total,,2020,2020,4,num_records,5213.0,2020-04-01
+General Commercial (88-2),Nonresidential,2020,2020,4,num_records,48.0,2020-04-01
+Nonresidential,,2020,2020,4,num_records,228.0,2020-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2020,4,num_records,143.0,2020-04-01
+Nonresidential,,2020,2020,4,total,19318241.0,2020-04-01
+Condominiums (88-8),Residential,2020,2020,4,num_records,385.0,2020-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2020,4,num_records,4489.0,2020-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2020,4,total,29250235.0,2020-04-01
+Unclassified,,2020,2020,4,num_records,75.0,2020-04-01
+Condominiums (88-8),Residential,2020,2020,4,total,4574792.0,2020-04-01
+Apartments (88-1),Residential,2020,2020,3,total,5723642.0,2020-01-01
+Apartments (88-1),Residential,2020,2020,3,num_records,67.0,2020-01-01
+Residential,,2020,2020,3,total,54324715.0,2020-01-01
+Residential,,2020,2020,3,num_records,8582.0,2020-01-01
+Condominiums (88-8),Residential,2020,2020,3,total,6368954.0,2020-01-01
+General Commercial (88-2),Nonresidential,2020,2020,3,total,3467965.0,2020-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2020,3,total,881260.0,2020-01-01
+Industrial (88-4),Nonresidential,2020,2020,3,total,2583514.0,2020-01-01
+Industrial (88-4),Nonresidential,2020,2020,3,num_records,60.0,2020-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2020,2020,3,num_records,14.0,2020-01-01
+Unclassified,,2020,2020,3,num_records,184.0,2020-01-01
+Unclassified,,2020,2020,3,total,0.0,2020-01-01
+General Commercial (88-2),Nonresidential,2020,2020,3,num_records,104.0,2020-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2020,3,num_records,7987.0,2020-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2020,2020,3,total,42232118.0,2020-01-01
+Total,,2020,2020,3,total,89356422.0,2020-01-01
+Total,,2020,2020,3,num_records,9269.0,2020-01-01
+Nonresidential,,2020,2020,3,total,35031707.0,2020-01-01
+Nonresidential,,2020,2020,3,num_records,503.0,2020-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2020,3,num_records,325.0,2020-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2020,2020,3,total,28098969.0,2020-01-01
+Condominiums (88-8),Residential,2020,2020,3,num_records,528.0,2020-01-01
+Nonresidential,,2019,2020,2,total,23497083.0,2019-10-01
+Nonresidential,,2019,2020,2,num_records,568.0,2019-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2020,2,num_records,332.0,2019-10-01
+Industrial (88-4),Nonresidential,2019,2020,2,total,7114489.0,2019-10-01
+Industrial (88-4),Nonresidential,2019,2020,2,num_records,91.0,2019-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2020,2,total,4096734.0,2019-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2020,2,total,8414271.0,2019-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2020,2,num_records,31.0,2019-10-01
+General Commercial (88-2),Nonresidential,2019,2020,2,num_records,114.0,2019-10-01
+Apartments (88-1),Residential,2019,2020,2,num_records,95.0,2019-10-01
+Condominiums (88-8),Residential,2019,2020,2,num_records,564.0,2019-10-01
+Residential,,2019,2020,2,num_records,9358.0,2019-10-01
+Apartments (88-1),Residential,2019,2020,2,total,7744374.0,2019-10-01
+Total,,2019,2020,2,total,81151053.0,2019-10-01
+Total,,2019,2020,2,num_records,10096.0,2019-10-01
+General Commercial (88-2),Nonresidential,2019,2020,2,total,3871589.0,2019-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2020,2,total,43565728.0,2019-10-01
+Condominiums (88-8),Residential,2019,2020,2,total,6343867.0,2019-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2020,2,num_records,8699.0,2019-10-01
+Residential,,2019,2020,2,total,57653970.0,2019-10-01
+Unclassified,,2019,2020,2,total,0.0,2019-10-01
+Unclassified,,2019,2020,2,num_records,170.0,2019-10-01
+Condominiums (88-8),Residential,2019,2020,1,num_records,724.0,2019-07-01
+General Commercial (88-2),Nonresidential,2019,2020,1,total,4247372.0,2019-07-01
+General Commercial (88-2),Nonresidential,2019,2020,1,num_records,116.0,2019-07-01
+Apartments (88-1),Residential,2019,2020,1,num_records,76.0,2019-07-01
+Apartments (88-1),Residential,2019,2020,1,total,4556587.0,2019-07-01
+Nonresidential,,2019,2020,1,num_records,553.0,2019-07-01
+Condominiums (88-8),Residential,2019,2020,1,total,8442940.0,2019-07-01
+Total,,2019,2020,1,total,91271559.0,2019-07-01
+Total,,2019,2020,1,num_records,11134.0,2019-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2020,1,num_records,9625.0,2019-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2020,1,total,49689684.0,2019-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2020,1,num_records,12.0,2019-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2020,1,num_records,338.0,2019-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2020,1,total,15547755.0,2019-07-01
+Nonresidential,,2019,2020,1,total,28577431.0,2019-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2020,1,total,5351900.0,2019-07-01
+Residential,,2019,2020,1,num_records,10425.0,2019-07-01
+Industrial (88-4),Nonresidential,2019,2020,1,num_records,87.0,2019-07-01
+Industrial (88-4),Nonresidential,2019,2020,1,total,3430403.0,2019-07-01
+Unclassified,,2019,2020,1,total,4917.0,2019-07-01
+Unclassified,,2019,2020,1,num_records,156.0,2019-07-01
+Residential,,2019,2020,1,total,62689211.0,2019-07-01
+Nonresidential,,2019,2019,4,total,32946038.0,2019-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2019,4,num_records,30.0,2019-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2019,4,num_records,9152.0,2019-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2019,4,total,47431653.0,2019-04-01
+Nonresidential,,2019,2019,4,num_records,651.0,2019-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2019,4,num_records,379.0,2019-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2019,4,total,18964991.0,2019-04-01
+Total,,2019,2019,4,total,102113046.0,2019-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2019,4,total,3358265.0,2019-04-01
+Unclassified,,2019,2019,4,num_records,169.0,2019-04-01
+Condominiums (88-8),Residential,2019,2019,4,total,8491787.0,2019-04-01
+Condominiums (88-8),Residential,2019,2019,4,num_records,692.0,2019-04-01
+Unclassified,,2019,2019,4,total,6064.0,2019-04-01
+Industrial (88-4),Nonresidential,2019,2019,4,total,6249656.0,2019-04-01
+Industrial (88-4),Nonresidential,2019,2019,4,num_records,94.0,2019-04-01
+Total,,2019,2019,4,num_records,10742.0,2019-04-01
+Residential,,2019,2019,4,num_records,9922.0,2019-04-01
+Residential,,2019,2019,4,total,69160944.0,2019-04-01
+Apartments (88-1),Residential,2019,2019,4,total,13237504.0,2019-04-01
+Apartments (88-1),Residential,2019,2019,4,num_records,78.0,2019-04-01
+General Commercial (88-2),Nonresidential,2019,2019,4,num_records,148.0,2019-04-01
+General Commercial (88-2),Nonresidential,2019,2019,4,total,4373125.0,2019-04-01
+Condominiums (88-8),Residential,2019,2019,3,num_records,516.0,2019-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2019,3,num_records,342.0,2019-01-01
+Total,,2019,2019,3,total,58862535.0,2019-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2019,2019,3,total,3549974.0,2019-01-01
+Total,,2019,2019,3,num_records,9544.0,2019-01-01
+Nonresidential,,2019,2019,3,num_records,550.0,2019-01-01
+Nonresidential,,2019,2019,3,total,13203074.0,2019-01-01
+Residential,,2019,2019,3,num_records,8834.0,2019-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2019,3,num_records,16.0,2019-01-01
+Condominiums (88-8),Residential,2019,2019,3,total,7361747.0,2019-01-01
+Unclassified,,2019,2019,3,total,12456.0,2019-01-01
+Unclassified,,2019,2019,3,num_records,160.0,2019-01-01
+Industrial (88-4),Nonresidential,2019,2019,3,total,4332699.0,2019-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2019,3,total,33230911.0,2019-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2019,2019,3,num_records,8254.0,2019-01-01
+Residential,,2019,2019,3,total,45647005.0,2019-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2019,2019,3,total,3391603.0,2019-01-01
+Apartments (88-1),Residential,2019,2019,3,total,5054348.0,2019-01-01
+Apartments (88-1),Residential,2019,2019,3,num_records,64.0,2019-01-01
+General Commercial (88-2),Nonresidential,2019,2019,3,num_records,114.0,2019-01-01
+General Commercial (88-2),Nonresidential,2019,2019,3,total,1928798.0,2019-01-01
+Industrial (88-4),Nonresidential,2019,2019,3,num_records,78.0,2019-01-01
+Nonresidential,,2018,2019,2,total,15825150.0,2018-10-01
+Nonresidential,,2018,2019,2,num_records,611.0,2018-10-01
+Apartments (88-1),Residential,2018,2019,2,num_records,65.0,2018-10-01
+Total,,2018,2019,2,num_records,10859.0,2018-10-01
+Total,,2018,2019,2,total,78462189.0,2018-10-01
+Unclassified,,2018,2019,2,total,16226.0,2018-10-01
+Apartments (88-1),Residential,2018,2019,2,total,12382873.0,2018-10-01
+Unclassified,,2018,2019,2,num_records,196.0,2018-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2019,2,total,5034965.0,2018-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2019,2,num_records,387.0,2018-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2019,2,total,2448500.0,2018-10-01
+General Commercial (88-2),Nonresidential,2018,2019,2,total,2868969.0,2018-10-01
+General Commercial (88-2),Nonresidential,2018,2019,2,num_records,126.0,2018-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2019,2,num_records,9384.0,2018-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2019,2,total,42945764.0,2018-10-01
+Industrial (88-4),Nonresidential,2018,2019,2,num_records,87.0,2018-10-01
+Residential,,2018,2019,2,total,62620813.0,2018-10-01
+Residential,,2018,2019,2,num_records,10052.0,2018-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2019,2,num_records,11.0,2018-10-01
+Industrial (88-4),Nonresidential,2018,2019,2,total,5472717.0,2018-10-01
+Condominiums (88-8),Residential,2018,2019,2,total,7292176.0,2018-10-01
+Condominiums (88-8),Residential,2018,2019,2,num_records,603.0,2018-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2019,1,num_records,9765.0,2018-07-01
+Apartments (88-1),Residential,2018,2019,1,num_records,73.0,2018-07-01
+Apartments (88-1),Residential,2018,2019,1,total,14537726.0,2018-07-01
+Unclassified,,2018,2019,1,num_records,181.0,2018-07-01
+Nonresidential,,2018,2019,1,num_records,614.0,2018-07-01
+General Commercial (88-2),Nonresidential,2018,2019,1,total,4494017.0,2018-07-01
+General Commercial (88-2),Nonresidential,2018,2019,1,num_records,118.0,2018-07-01
+Unclassified,,2018,2019,1,total,0.0,2018-07-01
+Industrial (88-4),Nonresidential,2018,2019,1,total,3805343.0,2018-07-01
+Industrial (88-4),Nonresidential,2018,2019,1,num_records,81.0,2018-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2019,1,total,5359454.0,2018-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2019,1,num_records,10.0,2018-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2019,1,total,46699574.0,2018-07-01
+Nonresidential,,2018,2019,1,total,17373358.0,2018-07-01
+Residential,,2018,2019,1,num_records,10558.0,2018-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2019,1,total,3714544.0,2018-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2019,1,num_records,405.0,2018-07-01
+Condominiums (88-8),Residential,2018,2019,1,num_records,720.0,2018-07-01
+Condominiums (88-8),Residential,2018,2019,1,total,8607308.0,2018-07-01
+Total,,2018,2019,1,total,87217966.0,2018-07-01
+Total,,2018,2019,1,num_records,11353.0,2018-07-01
+Residential,,2018,2019,1,total,69844608.0,2018-07-01
+Industrial (88-4),Nonresidential,2018,2018,4,num_records,113.0,2018-04-01
+Residential,,2018,2018,4,total,65391678.0,2018-04-01
+Residential,,2018,2018,4,num_records,11128.0,2018-04-01
+Unclassified,,2018,2018,4,total,0.0,2018-04-01
+Unclassified,,2018,2018,4,num_records,226.0,2018-04-01
+Industrial (88-4),Nonresidential,2018,2018,4,total,4079580.0,2018-04-01
+Total,,2018,2018,4,num_records,11972.0,2018-04-01
+Apartments (88-1),Residential,2018,2018,4,num_records,72.0,2018-04-01
+Apartments (88-1),Residential,2018,2018,4,total,9549111.0,2018-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2018,4,total,7462005.0,2018-04-01
+General Commercial (88-2),Nonresidential,2018,2018,4,total,3715214.0,2018-04-01
+General Commercial (88-2),Nonresidential,2018,2018,4,num_records,123.0,2018-04-01
+Nonresidential,,2018,2018,4,num_records,618.0,2018-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2018,4,num_records,10215.0,2018-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2018,4,total,45318448.0,2018-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2018,4,total,4163839.0,2018-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2018,4,num_records,370.0,2018-04-01
+Total,,2018,2018,4,total,84812315.0,2018-04-01
+Condominiums (88-8),Residential,2018,2018,4,total,10524119.0,2018-04-01
+Condominiums (88-8),Residential,2018,2018,4,num_records,841.0,2018-04-01
+Nonresidential,,2018,2018,4,total,19420638.0,2018-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2018,4,num_records,12.0,2018-04-01
+Residential,,2018,2018,3,total,52787342.0,2018-01-01
+Unclassified,,2018,2018,3,total,27590.0,2018-01-01
+Unclassified,,2018,2018,3,num_records,167.0,2018-01-01
+Total,,2018,2018,3,total,83377747.0,2018-01-01
+Total,,2018,2018,3,num_records,9728.0,2018-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2018,3,num_records,397.0,2018-01-01
+Residential,,2018,2018,3,num_records,8945.0,2018-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2018,3,total,32673444.0,2018-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2018,2018,3,num_records,8372.0,2018-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2018,3,total,14367963.0,2018-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2018,2018,3,total,8198687.0,2018-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2018,2018,3,num_records,21.0,2018-01-01
+Condominiums (88-8),Residential,2018,2018,3,num_records,508.0,2018-01-01
+General Commercial (88-2),Nonresidential,2018,2018,3,num_records,122.0,2018-01-01
+Apartments (88-1),Residential,2018,2018,3,total,12870052.0,2018-01-01
+Condominiums (88-8),Residential,2018,2018,3,total,7243847.0,2018-01-01
+Apartments (88-1),Residential,2018,2018,3,num_records,65.0,2018-01-01
+Industrial (88-4),Nonresidential,2018,2018,3,total,3457662.0,2018-01-01
+General Commercial (88-2),Nonresidential,2018,2018,3,total,4538503.0,2018-01-01
+Nonresidential,,2018,2018,3,num_records,616.0,2018-01-01
+Nonresidential,,2018,2018,3,total,30562815.0,2018-01-01
+Industrial (88-4),Nonresidential,2018,2018,3,num_records,76.0,2018-01-01
+Condominiums (88-8),Residential,2017,2018,2,total,8433919.0,2017-10-01
+Total,,2017,2018,2,num_records,10436.0,2017-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2018,2,total,19748600.0,2017-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2018,2,num_records,24.0,2017-10-01
+Nonresidential,,2017,2018,2,total,32382166.0,2017-10-01
+Nonresidential,,2017,2018,2,num_records,569.0,2017-10-01
+Apartments (88-1),Residential,2017,2018,2,num_records,79.0,2017-10-01
+Apartments (88-1),Residential,2017,2018,2,total,2840440.0,2017-10-01
+Unclassified,,2017,2018,2,num_records,158.0,2017-10-01
+Total,,2017,2018,2,total,81687042.0,2017-10-01
+General Commercial (88-2),Nonresidential,2017,2018,2,num_records,119.0,2017-10-01
+Condominiums (88-8),Residential,2017,2018,2,num_records,699.0,2017-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2018,2,num_records,340.0,2017-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2018,2,total,7688144.0,2017-10-01
+Residential,,2017,2018,2,total,49304875.0,2017-10-01
+Residential,,2017,2018,2,num_records,9709.0,2017-10-01
+Industrial (88-4),Nonresidential,2017,2018,2,num_records,86.0,2017-10-01
+Industrial (88-4),Nonresidential,2017,2018,2,total,2327861.0,2017-10-01
+General Commercial (88-2),Nonresidential,2017,2018,2,total,2617561.0,2017-10-01
+Unclassified,,2017,2018,2,total,0.0,2017-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2018,2,num_records,8931.0,2017-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2018,2,total,38030517.0,2017-10-01
+Condominiums (88-8),Residential,2017,2018,1,num_records,726.0,2017-07-01
+Condominiums (88-8),Residential,2017,2018,1,total,8912260.0,2017-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2018,1,num_records,10099.0,2017-07-01
+Unclassified,,2017,2018,1,total,0.0,2017-07-01
+Unclassified,,2017,2018,1,num_records,199.0,2017-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2018,1,total,42983236.0,2017-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2018,1,num_records,395.0,2017-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2018,1,num_records,28.0,2017-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2018,1,total,3697510.0,2017-07-01
+General Commercial (88-2),Nonresidential,2017,2018,1,num_records,119.0,2017-07-01
+Residential,,2017,2018,1,total,60264827.0,2017-07-01
+Residential,,2017,2018,1,num_records,10898.0,2017-07-01
+Industrial (88-4),Nonresidential,2017,2018,1,num_records,117.0,2017-07-01
+Industrial (88-4),Nonresidential,2017,2018,1,total,2654686.0,2017-07-01
+Apartments (88-1),Residential,2017,2018,1,total,8369331.0,2017-07-01
+Apartments (88-1),Residential,2017,2018,1,num_records,73.0,2017-07-01
+Nonresidential,,2017,2018,1,num_records,659.0,2017-07-01
+Total,,2017,2018,1,num_records,11756.0,2017-07-01
+General Commercial (88-2),Nonresidential,2017,2018,1,total,1683985.0,2017-07-01
+Nonresidential,,2017,2018,1,total,23237637.0,2017-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2018,1,total,15201456.0,2017-07-01
+Total,,2017,2018,1,total,83502464.0,2017-07-01
+Industrial (88-4),Nonresidential,2017,2017,4,num_records,114.0,2017-04-01
+General Commercial (88-2),Nonresidential,2017,2017,4,num_records,117.0,2017-04-01
+General Commercial (88-2),Nonresidential,2017,2017,4,total,4628683.0,2017-04-01
+Unclassified,,2017,2017,4,num_records,211.0,2017-04-01
+Total,,2017,2017,4,total,66169110.0,2017-04-01
+Residential,,2017,2017,4,total,55448292.0,2017-04-01
+Residential,,2017,2017,4,num_records,10775.0,2017-04-01
+Condominiums (88-8),Residential,2017,2017,4,num_records,732.0,2017-04-01
+Condominiums (88-8),Residential,2017,2017,4,total,9408227.0,2017-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2017,4,num_records,384.0,2017-04-01
+Nonresidential,,2017,2017,4,num_records,629.0,2017-04-01
+Industrial (88-4),Nonresidential,2017,2017,4,total,1410431.0,2017-04-01
+Unclassified,,2017,2017,4,total,77075.0,2017-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2017,4,num_records,14.0,2017-04-01
+Nonresidential,,2017,2017,4,total,10643744.0,2017-04-01
+Apartments (88-1),Residential,2017,2017,4,num_records,86.0,2017-04-01
+Apartments (88-1),Residential,2017,2017,4,total,2719745.0,2017-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2017,4,total,723905.0,2017-04-01
+Total,,2017,2017,4,num_records,11615.0,2017-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2017,4,total,43320319.0,2017-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2017,4,num_records,9957.0,2017-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2017,4,total,3880725.0,2017-04-01
+Residential,,2017,2017,3,total,38699846.0,2017-01-01
+General Commercial (88-2),Nonresidential,2017,2017,3,num_records,137.0,2017-01-01
+Total,,2017,2017,3,total,53249973.0,2017-01-01
+General Commercial (88-2),Nonresidential,2017,2017,3,total,2797418.0,2017-01-01
+Residential,,2017,2017,3,num_records,9818.0,2017-01-01
+Nonresidential,,2017,2017,3,num_records,687.0,2017-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2017,3,total,6622679.0,2017-01-01
+Unclassified,,2017,2017,3,total,0.0,2017-01-01
+Unclassified,,2017,2017,3,num_records,206.0,2017-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2017,2017,3,num_records,23.0,2017-01-01
+Industrial (88-4),Nonresidential,2017,2017,3,num_records,109.0,2017-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2017,3,num_records,418.0,2017-01-01
+Industrial (88-4),Nonresidential,2017,2017,3,total,2382417.0,2017-01-01
+Nonresidential,,2017,2017,3,total,14550128.0,2017-01-01
+Apartments (88-1),Residential,2017,2017,3,num_records,53.0,2017-01-01
+Apartments (88-1),Residential,2017,2017,3,total,1632265.0,2017-01-01
+Condominiums (88-8),Residential,2017,2017,3,num_records,499.0,2017-01-01
+Condominiums (88-8),Residential,2017,2017,3,total,5244820.0,2017-01-01
+Total,,2017,2017,3,num_records,10711.0,2017-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2017,2017,3,total,2747615.0,2017-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2017,3,total,31822761.0,2017-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2017,2017,3,num_records,9266.0,2017-01-01
+Total,,2016,2017,2,num_records,10999.0,2016-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2017,2,total,32950054.0,2016-10-01
+General Commercial (88-2),Nonresidential,2016,2017,2,total,4739435.0,2016-10-01
+General Commercial (88-2),Nonresidential,2016,2017,2,num_records,146.0,2016-10-01
+Residential,,2016,2017,2,total,45279006.0,2016-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2017,2,num_records,9635.0,2016-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2017,2,total,7098494.0,2016-10-01
+Residential,,2016,2017,2,num_records,10249.0,2016-10-01
+Condominiums (88-8),Residential,2016,2017,2,total,6023154.0,2016-10-01
+Condominiums (88-8),Residential,2016,2017,2,num_records,538.0,2016-10-01
+Industrial (88-4),Nonresidential,2016,2017,2,num_records,117.0,2016-10-01
+Industrial (88-4),Nonresidential,2016,2017,2,total,2453160.0,2016-10-01
+Total,,2016,2017,2,total,62316538.0,2016-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2017,2,num_records,31.0,2016-10-01
+Nonresidential,,2016,2017,2,num_records,587.0,2016-10-01
+Apartments (88-1),Residential,2016,2017,2,num_records,76.0,2016-10-01
+Nonresidential,,2016,2017,2,total,17036032.0,2016-10-01
+Unclassified,,2016,2017,2,total,1500.0,2016-10-01
+Unclassified,,2016,2017,2,num_records,163.0,2016-10-01
+Apartments (88-1),Residential,2016,2017,2,total,6305798.0,2016-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2017,2,num_records,293.0,2016-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2017,2,total,2744944.0,2016-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2017,1,total,2079859.0,2016-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2017,1,num_records,304.0,2016-07-01
+Residential,,2016,2017,1,total,50358642.0,2016-07-01
+Residential,,2016,2017,1,num_records,11165.0,2016-07-01
+Industrial (88-4),Nonresidential,2016,2017,1,total,2602069.0,2016-07-01
+Nonresidential,,2016,2017,1,num_records,553.0,2016-07-01
+Total,,2016,2017,1,num_records,11890.0,2016-07-01
+Industrial (88-4),Nonresidential,2016,2017,1,num_records,112.0,2016-07-01
+Nonresidential,,2016,2017,1,total,11221179.0,2016-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2017,1,num_records,10391.0,2016-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2017,1,total,38845097.0,2016-07-01
+Apartments (88-1),Residential,2016,2017,1,num_records,60.0,2016-07-01
+Apartments (88-1),Residential,2016,2017,1,total,3918373.0,2016-07-01
+Total,,2016,2017,1,total,61581021.0,2016-07-01
+Unclassified,,2016,2017,1,num_records,172.0,2016-07-01
+Unclassified,,2016,2017,1,total,1200.0,2016-07-01
+General Commercial (88-2),Nonresidential,2016,2017,1,total,1452287.0,2016-07-01
+General Commercial (88-2),Nonresidential,2016,2017,1,num_records,123.0,2016-07-01
+Condominiums (88-8),Residential,2016,2017,1,num_records,714.0,2016-07-01
+Condominiums (88-8),Residential,2016,2017,1,total,7595171.0,2016-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2017,1,total,5086964.0,2016-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2017,1,num_records,14.0,2016-07-01
+Unclassified,,2016,2016,4,num_records,235.0,2016-04-01
+Nonresidential,,2016,2016,4,total,10214553.0,2016-04-01
+Nonresidential,,2016,2016,4,num_records,619.0,2016-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2016,4,num_records,340.0,2016-04-01
+General Commercial (88-2),Nonresidential,2016,2016,4,num_records,152.0,2016-04-01
+Condominiums (88-8),Residential,2016,2016,4,total,8488823.0,2016-04-01
+Condominiums (88-8),Residential,2016,2016,4,num_records,717.0,2016-04-01
+Residential,,2016,2016,4,total,44970884.0,2016-04-01
+Residential,,2016,2016,4,num_records,11356.0,2016-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2016,4,total,2516244.0,2016-04-01
+Unclassified,,2016,2016,4,total,41546.0,2016-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2016,4,num_records,13.0,2016-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2016,4,total,2529681.0,2016-04-01
+General Commercial (88-2),Nonresidential,2016,2016,4,total,2361308.0,2016-04-01
+Total,,2016,2016,4,total,55226983.0,2016-04-01
+Total,,2016,2016,4,num_records,12210.0,2016-04-01
+Industrial (88-4),Nonresidential,2016,2016,4,total,2807320.0,2016-04-01
+Industrial (88-4),Nonresidential,2016,2016,4,num_records,114.0,2016-04-01
+Apartments (88-1),Residential,2016,2016,4,num_records,65.0,2016-04-01
+Apartments (88-1),Residential,2016,2016,4,total,1468225.0,2016-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2016,4,total,35013836.0,2016-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2016,4,num_records,10574.0,2016-04-01
+Condominiums (88-8),Residential,2016,2016,3,total,4372093.0,2016-01-01
+Industrial (88-4),Nonresidential,2016,2016,3,total,2367981.0,2016-01-01
+Industrial (88-4),Nonresidential,2016,2016,3,num_records,106.0,2016-01-01
+Apartments (88-1),Residential,2016,2016,3,total,5605122.0,2016-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2016,3,total,2238971.0,2016-01-01
+Residential,,2016,2016,3,num_records,9067.0,2016-01-01
+Nonresidential,,2016,2016,3,total,21180779.0,2016-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2016,3,num_records,8589.0,2016-01-01
+Unclassified,,2016,2016,3,total,4566.0,2016-01-01
+Unclassified,,2016,2016,3,num_records,193.0,2016-01-01
+General Commercial (88-2),Nonresidential,2016,2016,3,num_records,145.0,2016-01-01
+General Commercial (88-2),Nonresidential,2016,2016,3,total,3758329.0,2016-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2016,3,total,12815498.0,2016-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2016,2016,3,num_records,17.0,2016-01-01
+Nonresidential,,2016,2016,3,num_records,556.0,2016-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2016,2016,3,total,27095207.0,2016-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2016,2016,3,num_records,288.0,2016-01-01
+Residential,,2016,2016,3,total,37072422.0,2016-01-01
+Condominiums (88-8),Residential,2016,2016,3,num_records,428.0,2016-01-01
+Apartments (88-1),Residential,2016,2016,3,num_records,50.0,2016-01-01
+Total,,2016,2016,3,num_records,9816.0,2016-01-01
+Total,,2016,2016,3,total,58257768.0,2016-01-01
+Apartments (88-1),Residential,2015,2016,2,total,7207514.0,2015-10-01
+Total,,2015,2016,2,num_records,10504.0,2015-10-01
+General Commercial (88-2),Nonresidential,2015,2016,2,num_records,168.0,2015-10-01
+General Commercial (88-2),Nonresidential,2015,2016,2,total,4516097.0,2015-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2016,2,num_records,9103.0,2015-10-01
+Apartments (88-1),Residential,2015,2016,2,num_records,113.0,2015-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2016,2,total,27603776.0,2015-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2016,2,total,5415370.0,2015-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2016,2,num_records,26.0,2015-10-01
+Total,,2015,2016,2,total,55557611.0,2015-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2016,2,num_records,286.0,2015-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2016,2,total,2416231.0,2015-10-01
+Unclassified,,2015,2016,2,total,4200.0,2015-10-01
+Unclassified,,2015,2016,2,num_records,205.0,2015-10-01
+Residential,,2015,2016,2,total,40281007.0,2015-10-01
+Nonresidential,,2015,2016,2,num_records,607.0,2015-10-01
+Nonresidential,,2015,2016,2,total,15272404.0,2015-10-01
+Industrial (88-4),Nonresidential,2015,2016,2,total,2924706.0,2015-10-01
+Industrial (88-4),Nonresidential,2015,2016,2,num_records,127.0,2015-10-01
+Residential,,2015,2016,2,num_records,9692.0,2015-10-01
+Condominiums (88-8),Residential,2015,2016,2,total,5469716.0,2015-10-01
+Condominiums (88-8),Residential,2015,2016,2,num_records,476.0,2015-10-01
+General Commercial (88-2),Nonresidential,2015,2016,1,num_records,157.0,2015-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2016,1,num_records,8890.0,2015-07-01
+Residential,,2015,2016,1,num_records,9654.0,2015-07-01
+Total,,2015,2016,1,total,66761236.0,2015-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2016,1,total,33053489.0,2015-07-01
+Condominiums (88-8),Residential,2015,2016,1,total,7344524.0,2015-07-01
+Nonresidential,,2015,2016,1,total,17860325.0,2015-07-01
+General Commercial (88-2),Nonresidential,2015,2016,1,total,4356589.0,2015-07-01
+Total,,2015,2016,1,num_records,10468.0,2015-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2016,1,num_records,20.0,2015-07-01
+Condominiums (88-8),Residential,2015,2016,1,num_records,688.0,2015-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2016,1,total,7349888.0,2015-07-01
+Residential,,2015,2016,1,total,48900911.0,2015-07-01
+Industrial (88-4),Nonresidential,2015,2016,1,num_records,133.0,2015-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2016,1,num_records,330.0,2015-07-01
+Unclassified,,2015,2016,1,num_records,174.0,2015-07-01
+Nonresidential,,2015,2016,1,num_records,640.0,2015-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2016,1,total,3740003.0,2015-07-01
+Unclassified,,2015,2016,1,total,0.0,2015-07-01
+Industrial (88-4),Nonresidential,2015,2016,1,total,2413845.0,2015-07-01
+Apartments (88-1),Residential,2015,2016,1,total,8502899.0,2015-07-01
+Apartments (88-1),Residential,2015,2016,1,num_records,76.0,2015-07-01
+General Commercial (88-2),Nonresidential,2015,2015,4,total,2642612.0,2015-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2015,4,num_records,35.0,2015-04-01
+Unclassified,,2015,2015,4,total,0.0,2015-04-01
+Unclassified,,2015,2015,4,num_records,185.0,2015-04-01
+Nonresidential,,2015,2015,4,total,21554224.0,2015-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2015,4,total,15516636.0,2015-04-01
+General Commercial (88-2),Nonresidential,2015,2015,4,num_records,114.0,2015-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2015,4,num_records,8702.0,2015-04-01
+Apartments (88-1),Residential,2015,2015,4,total,5396709.0,2015-04-01
+Residential,,2015,2015,4,num_records,9434.0,2015-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2015,4,total,1754454.0,2015-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2015,4,num_records,283.0,2015-04-01
+Total,,2015,2015,4,num_records,10156.0,2015-04-01
+Industrial (88-4),Nonresidential,2015,2015,4,num_records,105.0,2015-04-01
+Industrial (88-4),Nonresidential,2015,2015,4,total,1640523.0,2015-04-01
+Residential,,2015,2015,4,total,42318128.0,2015-04-01
+Nonresidential,,2015,2015,4,num_records,537.0,2015-04-01
+Total,,2015,2015,4,total,63872352.0,2015-04-01
+Apartments (88-1),Residential,2015,2015,4,num_records,43.0,2015-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2015,4,total,28814815.0,2015-04-01
+Condominiums (88-8),Residential,2015,2015,4,total,8106604.0,2015-04-01
+Condominiums (88-8),Residential,2015,2015,4,num_records,689.0,2015-04-01
+General Commercial (88-2),Nonresidential,2015,2015,3,total,4381500.0,2015-01-01
+Nonresidential,,2015,2015,3,total,8966355.0,2015-01-01
+Total,,2015,2015,3,total,37102686.0,2015-01-01
+Total,,2015,2015,3,num_records,8238.0,2015-01-01
+Nonresidential,,2015,2015,3,num_records,557.0,2015-01-01
+General Commercial (88-2),Nonresidential,2015,2015,3,num_records,170.0,2015-01-01
+Industrial (88-4),Nonresidential,2015,2015,3,num_records,108.0,2015-01-01
+Unclassified,,2015,2015,3,total,16752.0,2015-01-01
+Condominiums (88-8),Residential,2015,2015,3,num_records,476.0,2015-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2015,3,total,1636210.0,2015-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2015,2015,3,num_records,269.0,2015-01-01
+Industrial (88-4),Nonresidential,2015,2015,3,total,2048071.0,2015-01-01
+Residential,,2015,2015,3,total,28119578.0,2015-01-01
+Residential,,2015,2015,3,num_records,7499.0,2015-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2015,3,num_records,6965.0,2015-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2015,2015,3,total,19880652.0,2015-01-01
+Unclassified,,2015,2015,3,num_records,182.0,2015-01-01
+Condominiums (88-8),Residential,2015,2015,3,total,4135648.0,2015-01-01
+Apartments (88-1),Residential,2015,2015,3,num_records,58.0,2015-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2015,3,num_records,10.0,2015-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2015,2015,3,total,900574.0,2015-01-01
+Apartments (88-1),Residential,2015,2015,3,total,4103279.0,2015-01-01
+Apartments (88-1),Residential,2014,2015,2,total,5093414.0,2014-10-01
+Condominiums (88-8),Residential,2014,2015,2,total,5193021.0,2014-10-01
+Condominiums (88-8),Residential,2014,2015,2,num_records,500.0,2014-10-01
+Unclassified,,2014,2015,2,num_records,129.0,2014-10-01
+Unclassified,,2014,2015,2,total,8936.0,2014-10-01
+Total,,2014,2015,2,total,49911719.0,2014-10-01
+Total,,2014,2015,2,num_records,7837.0,2014-10-01
+Apartments (88-1),Residential,2014,2015,2,num_records,78.0,2014-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2015,2,total,22781541.0,2014-10-01
+Residential,,2014,2015,2,total,33067977.0,2014-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2015,2,total,3192662.0,2014-10-01
+Industrial (88-4),Nonresidential,2014,2015,2,num_records,84.0,2014-10-01
+General Commercial (88-2),Nonresidential,2014,2015,2,num_records,114.0,2014-10-01
+General Commercial (88-2),Nonresidential,2014,2015,2,total,4412662.0,2014-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2015,2,num_records,6661.0,2014-10-01
+Industrial (88-4),Nonresidential,2014,2015,2,total,1042315.0,2014-10-01
+Nonresidential,,2014,2015,2,total,16834806.0,2014-10-01
+Nonresidential,,2014,2015,2,num_records,469.0,2014-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2015,2,num_records,247.0,2014-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2015,2,num_records,24.0,2014-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2015,2,total,8187167.0,2014-10-01
+Residential,,2014,2015,2,num_records,7239.0,2014-10-01
+Industrial (88-4),Nonresidential,2014,2015,1,num_records,80.0,2014-07-01
+Unclassified,,2014,2015,1,num_records,139.0,2014-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2015,1,num_records,7156.0,2014-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2015,1,total,26004053.0,2014-07-01
+Unclassified,,2014,2015,1,total,30842.0,2014-07-01
+General Commercial (88-2),Nonresidential,2014,2015,1,total,2253611.0,2014-07-01
+General Commercial (88-2),Nonresidential,2014,2015,1,num_records,123.0,2014-07-01
+Industrial (88-4),Nonresidential,2014,2015,1,total,1362453.0,2014-07-01
+Apartments (88-1),Residential,2014,2015,1,total,2278762.0,2014-07-01
+Apartments (88-1),Residential,2014,2015,1,num_records,63.0,2014-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2015,1,total,2381290.0,2014-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2015,1,num_records,245.0,2014-07-01
+Total,,2014,2015,1,num_records,8452.0,2014-07-01
+Residential,,2014,2015,1,total,35690529.0,2014-07-01
+Residential,,2014,2015,1,num_records,7846.0,2014-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2015,1,num_records,19.0,2014-07-01
+Condominiums (88-8),Residential,2014,2015,1,total,7407715.0,2014-07-01
+Condominiums (88-8),Residential,2014,2015,1,num_records,627.0,2014-07-01
+Nonresidential,,2014,2015,1,num_records,467.0,2014-07-01
+Nonresidential,,2014,2015,1,total,12291489.0,2014-07-01
+Total,,2014,2015,1,total,48012860.0,2014-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2015,1,total,6294135.0,2014-07-01
+Condominiums (88-8),Residential,2014,2014,4,num_records,567.0,2014-04-01
+Condominiums (88-8),Residential,2014,2014,4,total,6837742.0,2014-04-01
+Apartments (88-1),Residential,2014,2014,4,total,2925241.0,2014-04-01
+Unclassified,,2014,2014,4,total,105587.0,2014-04-01
+Unclassified,,2014,2014,4,num_records,138.0,2014-04-01
+Industrial (88-4),Nonresidential,2014,2014,4,num_records,74.0,2014-04-01
+Industrial (88-4),Nonresidential,2014,2014,4,total,1133799.0,2014-04-01
+Residential,,2014,2014,4,num_records,7313.0,2014-04-01
+Residential,,2014,2014,4,total,33084574.0,2014-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2014,4,total,7714251.0,2014-04-01
+Apartments (88-1),Residential,2014,2014,4,num_records,45.0,2014-04-01
+Nonresidential,,2014,2014,4,total,15086259.0,2014-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2014,4,num_records,20.0,2014-04-01
+Total,,2014,2014,4,num_records,7871.0,2014-04-01
+Total,,2014,2014,4,total,48276420.0,2014-04-01
+Nonresidential,,2014,2014,4,num_records,420.0,2014-04-01
+General Commercial (88-2),Nonresidential,2014,2014,4,num_records,121.0,2014-04-01
+General Commercial (88-2),Nonresidential,2014,2014,4,total,3636017.0,2014-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2014,4,total,23321591.0,2014-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2014,4,num_records,6701.0,2014-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2014,4,total,2602192.0,2014-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2014,4,num_records,205.0,2014-04-01
+Residential,,2014,2014,3,total,27957309.0,2014-01-01
+Condominiums (88-8),Residential,2014,2014,3,total,4508023.0,2014-01-01
+Condominiums (88-8),Residential,2014,2014,3,num_records,362.0,2014-01-01
+Total,,2014,2014,3,num_records,6021.0,2014-01-01
+Unclassified,,2014,2014,3,num_records,111.0,2014-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2014,3,num_records,10.0,2014-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2014,2014,3,total,927698.0,2014-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2014,3,total,1261695.0,2014-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2014,2014,3,num_records,93.0,2014-01-01
+Residential,,2014,2014,3,num_records,5639.0,2014-01-01
+Unclassified,,2014,2014,3,total,46865.0,2014-01-01
+Total,,2014,2014,3,total,35708543.0,2014-01-01
+Industrial (88-4),Nonresidential,2014,2014,3,num_records,84.0,2014-01-01
+Apartments (88-1),Residential,2014,2014,3,num_records,47.0,2014-01-01
+Nonresidential,,2014,2014,3,num_records,271.0,2014-01-01
+Nonresidential,,2014,2014,3,total,7704370.0,2014-01-01
+General Commercial (88-2),Nonresidential,2014,2014,3,num_records,84.0,2014-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2014,3,num_records,5230.0,2014-01-01
+Industrial (88-4),Nonresidential,2014,2014,3,total,1875482.0,2014-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2014,2014,3,total,15991034.0,2014-01-01
+General Commercial (88-2),Nonresidential,2014,2014,3,total,3639495.0,2014-01-01
+Apartments (88-1),Residential,2014,2014,3,total,7458252.0,2014-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2014,2,num_records,15.0,2013-10-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2014,2,total,6122858.0,2013-10-01
+Unclassified,,2013,2014,2,num_records,142.0,2013-10-01
+Nonresidential,,2013,2014,2,total,11583225.0,2013-10-01
+Nonresidential,,2013,2014,2,num_records,368.0,2013-10-01
+Unclassified,,2013,2014,2,total,80008.0,2013-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2014,2,total,2044202.0,2013-10-01
+Industrial (88-4),Nonresidential,2013,2014,2,num_records,119.0,2013-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2014,2,num_records,6007.0,2013-10-01
+Condominiums (88-8),Residential,2013,2014,2,num_records,543.0,2013-10-01
+Condominiums (88-8),Residential,2013,2014,2,total,5925372.0,2013-10-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2014,2,total,19766087.0,2013-10-01
+General Commercial (88-2),Nonresidential,2013,2014,2,num_records,100.0,2013-10-01
+General Commercial (88-2),Nonresidential,2013,2014,2,total,2182717.0,2013-10-01
+Residential,,2013,2014,2,num_records,6600.0,2013-10-01
+Residential,,2013,2014,2,total,27584977.0,2013-10-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2014,2,num_records,134.0,2013-10-01
+Industrial (88-4),Nonresidential,2013,2014,2,total,1233448.0,2013-10-01
+Total,,2013,2014,2,total,39248211.0,2013-10-01
+Total,,2013,2014,2,num_records,7110.0,2013-10-01
+Apartments (88-1),Residential,2013,2014,2,num_records,50.0,2013-10-01
+Apartments (88-1),Residential,2013,2014,2,total,1893519.0,2013-10-01
+Total,,2013,2014,1,total,38356482.0,2013-07-01
+Residential,,2013,2014,1,num_records,7260.0,2013-07-01
+Total,,2013,2014,1,num_records,7661.0,2013-07-01
+Apartments (88-1),Residential,2013,2014,1,total,2184456.0,2013-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2014,1,num_records,6584.0,2013-07-01
+Apartments (88-1),Residential,2013,2014,1,num_records,48.0,2013-07-01
+General Commercial (88-2),Nonresidential,2013,2014,1,total,827174.0,2013-07-01
+General Commercial (88-2),Nonresidential,2013,2014,1,num_records,49.0,2013-07-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2014,1,total,24644930.0,2013-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2014,1,total,1822118.0,2013-07-01
+Nonresidential,,2013,2014,1,total,4684578.0,2013-07-01
+Nonresidential,,2013,2014,1,num_records,261.0,2013-07-01
+Condominiums (88-8),Residential,2013,2014,1,total,6835457.0,2013-07-01
+Unclassified,,2013,2014,1,num_records,140.0,2013-07-01
+Unclassified,,2013,2014,1,total,7061.0,2013-07-01
+Residential,,2013,2014,1,total,33664843.0,2013-07-01
+Industrial (88-4),Nonresidential,2013,2014,1,total,1004943.0,2013-07-01
+Industrial (88-4),Nonresidential,2013,2014,1,num_records,81.0,2013-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2014,1,total,1030343.0,2013-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2014,1,num_records,9.0,2013-07-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2014,1,num_records,122.0,2013-07-01
+Condominiums (88-8),Residential,2013,2014,1,num_records,628.0,2013-07-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2013,4,total,1679019.0,2013-04-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2013,4,num_records,22.0,2013-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2013,4,num_records,128.0,2013-04-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2013,4,total,895287.0,2013-04-01
+Apartments (88-1),Residential,2013,2013,4,total,1674822.0,2013-04-01
+Apartments (88-1),Residential,2013,2013,4,num_records,48.0,2013-04-01
+General Commercial (88-2),Nonresidential,2013,2013,4,total,3157069.0,2013-04-01
+Condominiums (88-8),Residential,2013,2013,4,num_records,612.0,2013-04-01
+Nonresidential,,2013,2013,4,total,7846535.0,2013-04-01
+Unclassified,,2013,2013,4,total,11643.0,2013-04-01
+Total,,2013,2013,4,num_records,8051.0,2013-04-01
+Total,,2013,2013,4,total,39809478.0,2013-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2013,4,total,22428900.0,2013-04-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2013,4,num_records,6953.0,2013-04-01
+Industrial (88-4),Nonresidential,2013,2013,4,num_records,103.0,2013-04-01
+Industrial (88-4),Nonresidential,2013,2013,4,total,2115160.0,2013-04-01
+Condominiums (88-8),Residential,2013,2013,4,total,7847579.0,2013-04-01
+Nonresidential,,2013,2013,4,num_records,324.0,2013-04-01
+Unclassified,,2013,2013,4,num_records,114.0,2013-04-01
+General Commercial (88-2),Nonresidential,2013,2013,4,num_records,71.0,2013-04-01
+Residential,,2013,2013,4,total,31951300.0,2013-04-01
+Residential,,2013,2013,4,num_records,7613.0,2013-04-01
+General Commercial (88-2),Nonresidential,2013,2013,3,total,3035468.0,2013-01-01
+General Commercial (88-2),Nonresidential,2013,2013,3,num_records,75.0,2013-01-01
+Total,,2013,2013,3,num_records,6923.0,2013-01-01
+Total,,2013,2013,3,total,36133966.0,2013-01-01
+Nonresidential,,2013,2013,3,total,12888534.0,2013-01-01
+Nonresidential,,2013,2013,3,num_records,272.0,2013-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2013,3,total,1096670.0,2013-01-01
+"Other Nonresidential (88-5,88-6,77,78)",Nonresidential,2013,2013,3,num_records,99.0,2013-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2013,3,total,16219032.0,2013-01-01
+Single/Multi-family Homes (01 thur 76),Residential,2013,2013,3,num_records,5995.0,2013-01-01
+Industrial (88-4),Nonresidential,2013,2013,3,num_records,80.0,2013-01-01
+Industrial (88-4),Nonresidential,2013,2013,3,total,1440314.0,2013-01-01
+Apartments (88-1),Residential,2013,2013,3,total,2177251.0,2013-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2013,3,num_records,18.0,2013-01-01
+"Office Buildings, Hotels, and Garages (88-3)",Nonresidential,2013,2013,3,total,7316082.0,2013-01-01
+Residential,,2013,2013,3,num_records,6520.0,2013-01-01
+Residential,,2013,2013,3,total,23216159.0,2013-01-01
+Condominiums (88-8),Residential,2013,2013,3,total,4819875.0,2013-01-01
+Condominiums (88-8),Residential,2013,2013,3,num_records,480.0,2013-01-01
+Unclassified,,2013,2013,3,num_records,131.0,2013-01-01
+Unclassified,,2013,2013,3,total,29273.0,2013-01-01
+Apartments (88-1),Residential,2013,2013,3,num_records,45.0,2013-01-01

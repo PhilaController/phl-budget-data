@@ -85,15 +85,16 @@ def save(output: Optional[str] = None, save_sql: bool = False) -> None:
 
 @main.group(cls=RichClickGroup)
 def etl():
-    """Run the ETL pipeline for the specified data source
-    (development installation only)."""
+    """Run the ETL pipeline for the specified data source."""
     pass
 
 
 @main.group(cls=RichClickGroup)
 def update():
-    """Parse the City's website to scrape and update City of
-    Philadelphia budget data (development installation only)."""
+    """
+    Parse the City's website to scrape and update City of
+    Philadelphia budget data.
+    """
     pass
 
 

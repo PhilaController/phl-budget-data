@@ -11,6 +11,7 @@ __all__ = [
     "load_birt_collections_by_sector",
     "load_sales_collections_by_sector",
     "load_wage_collections_by_sector",
+    # "load_rtt_collections_by_sector",
     "load_city_collections",
     "load_city_tax_collections",
     "load_school_collections",
