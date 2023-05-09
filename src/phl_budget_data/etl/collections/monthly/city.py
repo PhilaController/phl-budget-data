@@ -73,7 +73,7 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
 
             # Loop over each page
             out: list[pd.DataFrame] = []
-            for pg in pdf.pages:
+            for pg_num, pg in enumerate(pdf.pages, start=1):
 
                 # Is there a width-spanning line at the top?
                 top = find_top_cutoff(pg)
@@ -101,7 +101,8 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
                     row_header_tolerance=20,
                 )
 
-                if not len(data): continue
+                if not len(data):
+                    continue
 
                 # Remove first row of header if we need to
                 for phrase in ["prelim", "final", "budget"]:
@@ -110,11 +111,6 @@ class CityCollectionsReport(MonthlyCollectionsReport):  # type: ignore
 
                 # Remove empty columns
                 data = remove_empty_columns(data, use_nan=False)
-
-                # Check number of columns
-                if len(out):
-                    if len(data.columns) != len(out[-1].columns):
-                        raise ValueError("Column mismatch when parsing multiple pages")
 
                 # Save it
                 out.append(data)
