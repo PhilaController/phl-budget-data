@@ -60,7 +60,7 @@ class BlockGeometry(BaseModel):
 class Relationship(BaseModel):
     """How does this block relate to other blocks."""
 
-    Type: Literal["VALUE", "CHILD", "COMPLEX_FEATURES", "MERGED_CELL", "TITLE"]
+    Type: Literal["VALUE", "CHILD", "COMPLEX_FEATURES", "MERGED_CELL", "TITLE", "TABLE_TITLE", "TABLE_FOOTER"]
     Ids: list[str]
 
 
@@ -77,6 +77,8 @@ class TextractBlock(BaseModel):
         "SELECTION_ELEMENT",
         "MERGED_CELL",
         "TITLE",
+        "TABLE_TITLE",
+        "TABLE_FOOTER"
     ]
     Geometry: BlockGeometry
     Id: str
@@ -197,6 +199,8 @@ def map_blocks(
         "SELECTION_ELEMENT",
         "MERGED_CELL",
         "TITLE",
+        "TABLE_TITLE",
+        "TABLE_FOOTER"
     ],
 ) -> dict[str, TextractBlock]:
     return {block.Id: block for block in blocks if block.BlockType == block_type}

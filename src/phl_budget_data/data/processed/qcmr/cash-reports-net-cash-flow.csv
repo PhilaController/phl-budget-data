@@ -1,4 +1,52 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+Receipts - Disbursements,1,-92.7,2023,3,7
+Opening Balance,1,1628.5,2023,3,7
+TRAN,1,0.0,2023,3,7
+Closing Balance,1,1535.8,2023,3,7
+Receipts - Disbursements,2,48.8,2023,3,8
+Opening Balance,2,1535.8,2023,3,8
+TRAN,2,0.0,2023,3,8
+Closing Balance,2,1584.6,2023,3,8
+Receipts - Disbursements,3,-151.5,2023,3,9
+Opening Balance,3,1584.6,2023,3,9
+TRAN,3,0.0,2023,3,9
+Closing Balance,3,1433.0,2023,3,9
+Receipts - Disbursements,4,58.5,2023,3,10
+Opening Balance,4,1433.0,2023,3,10
+TRAN,4,0.0,2023,3,10
+Closing Balance,4,1491.5,2023,3,10
+Receipts - Disbursements,5,-19.1,2023,3,11
+Opening Balance,5,1491.5,2023,3,11
+TRAN,5,0.0,2023,3,11
+Closing Balance,5,1472.4,2023,3,11
+Receipts - Disbursements,6,-404.7,2023,3,12
+Opening Balance,6,1472.4,2023,3,12
+TRAN,6,0.0,2023,3,12
+Closing Balance,6,1067.6,2023,3,12
+Receipts - Disbursements,7,27.5,2023,3,1
+Opening Balance,7,1067.6,2023,3,1
+TRAN,7,0.0,2023,3,1
+Closing Balance,7,1095.2,2023,3,1
+Receipts - Disbursements,8,-15.8,2023,3,2
+Opening Balance,8,1095.2,2023,3,2
+TRAN,8,0.0,2023,3,2
+Closing Balance,8,1079.4,2023,3,2
+Receipts - Disbursements,9,172.8,2023,3,3
+Opening Balance,9,1079.4,2023,3,3
+TRAN,9,0.0,2023,3,3
+Closing Balance,9,1252.2,2023,3,3
+Receipts - Disbursements,10,476.0,2023,3,4
+Opening Balance,10,1252.2,2023,3,4
+TRAN,10,0.0,2023,3,4
+Closing Balance,10,1728.2,2023,3,4
+Receipts - Disbursements,11,-134.6,2023,3,5
+Opening Balance,11,1728.2,2023,3,5
+TRAN,11,0.0,2023,3,5
+Closing Balance,11,1593.6,2023,3,5
+Receipts - Disbursements,12,-111.8,2023,3,6
+Opening Balance,12,1593.6,2023,3,6
+TRAN,12,0.0,2023,3,6
+Closing Balance,12,1481.8,2023,3,6
 Receipts - Disbursements,1,-92.7,2023,2,7
 Opening Balance,1,1628.5,2023,2,7
 TRAN,1,0.0,2023,2,7
