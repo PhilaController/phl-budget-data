@@ -28,7 +28,6 @@ jobs:
         run: |
           poetry install
           git pull origin main
-          poetry run phl-budget-data update wage
           poetry run phl-budget-data update city
           poetry run phl-budget-data update school
           poetry run phl-budget-data save
