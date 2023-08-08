@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 MONTH_LOOKUP = [x.lower() for x in calendar.month_abbr[1:]]
 
@@ -89,9 +89,8 @@ def get_scraping_driver(dirname):
     options.add_experimental_option("prefs", profile)
 
     # Initialize with options
-    driver = webdriver.Chrome(
-        executable_path=ChromeDriverManager().install(), options=options
-    )
+    service = Service()
+    driver = webdriver.Chrome(service=service, options=options)
 
     return driver
 
@@ -122,7 +121,6 @@ def downloaded_pdf(driver, pdf_url, tmpdir, interval=1, time_limit=7):
         else:
             raise ValueError("PDF download failed")
     finally:
-
         # Remove the file after we are done!
         if pdf_path is not None and pdf_path.exists():
             pdf_path.unlink()
