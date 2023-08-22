@@ -51,3 +51,23 @@ You will need AWS credentials for running the parsing scripts. Create a `.env` f
 that is mirrored off of `.env.example` and fill in the values. To get the AWS 
 credentials, go to the "Credentials/" folder on the FPD Sharepoint.
 
+
+## Adding new data
+
+In general, the process for adding new data is:
+
+1. Add the raw PDF files to the appropriate folder in `src/phl_budget_data/data/etl/raw`. Look at past PDF files to make sure you are adding the correct table to the correct folder. You should make sure to add a PDF that only contains the pages with the table information.
+2. Run the appropriate ETL command for the data you are parsing; run `poetry run phl-budget-data etl --help` to see the available commands. For example, to parse the cash report data, run `poetry run phl-budget-data etl CashReport`. This will create a new CSV file in the appropriate folder in `src/phl_budget_data/etl/data/processed`.
+3. Update the files in the processed data folder `src/phl_budget_data/data/processed` by saving new versions: `poetry run phl-budget-data save`.
+
+### Example: Adding new cash report data
+
+1. Extract out the two-page cash report PDF from the latest QCMR and save it to: `src/phl_budget_data/data/etl/raw/qcmr/cash/`.
+2. Run the ETL parsing command. For example, for FY23 Q4 you would run: `poetry run phl-budget-data etl CashReport --fiscal-year 2023 --quarter 4`.
+3. Update the main processed data files: `poetry run phl-budget-data save`.
+
+## Automatic updates for monthly collections
+
+There is a GitHub action in this repository that runs daily and checks the City's website for newly uploaded monthly collection
+reports. These reports are uploaded to the City's [revenue reports](https://www.phila.gov/departments/department-of-revenue/reports/) with
+about a month delay. The script checks for new data and will parse and save it to the repository if it finds a new report.
