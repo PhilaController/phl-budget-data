@@ -1,4 +1,172 @@
 category,fiscal_month,amount,fiscal_year,quarter,month
+Payroll,1,115.0,2023,4,7
+Employee Benefits,1,53.9,2023,4,7
+Pension,1,0.4,2023,4,7
+Contracts / Leases,1,40.0,2023,4,7
+Materials / Equipment,1,1.3,2023,4,7
+Contributions / Indemnities,1,7.1,2023,4,7
+Short-Term Debt Service,1,0.0,2023,4,7
+Long-Term Debt Service,1,123.7,2023,4,7
+Interfund Charges,1,0.4,2023,4,7
+Advances / Labor Obligations,1,0.0,2023,4,7
+Current Year Appropriation,1,341.7,2023,4,7
+Prior Year Encumbrances,1,56.1,2023,4,7
+Prior Year Vouchers Payable,1,108.3,2023,4,7
+Total Disbursements,1,506.1,2023,4,7
+Payroll,2,145.7,2023,4,8
+Employee Benefits,2,62.5,2023,4,8
+Pension,2,-4.4,2023,4,8
+Contracts / Leases,2,51.2,2023,4,8
+Materials / Equipment,2,6.1,2023,4,8
+Contributions / Indemnities,2,16.5,2023,4,8
+Short-Term Debt Service,2,0.0,2023,4,8
+Long-Term Debt Service,2,1.0,2023,4,8
+Interfund Charges,2,29.1,2023,4,8
+Advances / Labor Obligations,2,0.0,2023,4,8
+Current Year Appropriation,2,307.7,2023,4,8
+Prior Year Encumbrances,2,47.2,2023,4,8
+Prior Year Vouchers Payable,2,-7.2,2023,4,8
+Total Disbursements,2,347.6,2023,4,8
+Payroll,3,169.2,2023,4,9
+Employee Benefits,3,44.1,2023,4,9
+Pension,3,11.4,2023,4,9
+Contracts / Leases,3,97.1,2023,4,9
+Materials / Equipment,3,12.0,2023,4,9
+Contributions / Indemnities,3,79.0,2023,4,9
+Short-Term Debt Service,3,0.1,2023,4,9
+Long-Term Debt Service,3,0.0,2023,4,9
+Interfund Charges,3,40.1,2023,4,9
+Advances / Labor Obligations,3,0.0,2023,4,9
+Current Year Appropriation,3,452.9,2023,4,9
+Prior Year Encumbrances,3,22.7,2023,4,9
+Prior Year Vouchers Payable,3,16.3,2023,4,9
+Total Disbursements,3,492.0,2023,4,9
+Payroll,4,144.5,2023,4,10
+Employee Benefits,4,65.1,2023,4,10
+Pension,4,79.9,2023,4,10
+Contracts / Leases,4,71.7,2023,4,10
+Materials / Equipment,4,5.7,2023,4,10
+Contributions / Indemnities,4,16.5,2023,4,10
+Short-Term Debt Service,4,0.0,2023,4,10
+Long-Term Debt Service,4,6.5,2023,4,10
+Interfund Charges,4,0.2,2023,4,10
+Advances / Labor Obligations,4,0.0,2023,4,10
+Current Year Appropriation,4,390.1,2023,4,10
+Prior Year Encumbrances,4,21.4,2023,4,10
+Prior Year Vouchers Payable,4,108.2,2023,4,10
+Total Disbursements,4,519.7,2023,4,10
+Payroll,5,156.3,2023,4,11
+Employee Benefits,5,58.1,2023,4,11
+Pension,5,-4.2,2023,4,11
+Contracts / Leases,5,128.1,2023,4,11
+Materials / Equipment,5,8.9,2023,4,11
+Contributions / Indemnities,5,6.2,2023,4,11
+Short-Term Debt Service,5,0.0,2023,4,11
+Long-Term Debt Service,5,0.0,2023,4,11
+Interfund Charges,5,0.0,2023,4,11
+Advances / Labor Obligations,5,0.0,2023,4,11
+Current Year Appropriation,5,353.4,2023,4,11
+Prior Year Encumbrances,5,10.5,2023,4,11
+Prior Year Vouchers Payable,5,-15.3,2023,4,11
+Total Disbursements,5,348.5,2023,4,11
+Payroll,6,209.6,2023,4,12
+Employee Benefits,6,59.5,2023,4,12
+Pension,6,-2.5,2023,4,12
+Contracts / Leases,6,76.7,2023,4,12
+Materials / Equipment,6,8.1,2023,4,12
+Contributions / Indemnities,6,89.2,2023,4,12
+Short-Term Debt Service,6,0.1,2023,4,12
+Long-Term Debt Service,6,2.9,2023,4,12
+Interfund Charges,6,10.9,2023,4,12
+Advances / Labor Obligations,6,0.0,2023,4,12
+Current Year Appropriation,6,454.5,2023,4,12
+Prior Year Encumbrances,6,288.9,2023,4,12
+Prior Year Vouchers Payable,6,17.5,2023,4,12
+Total Disbursements,6,761.0,2023,4,12
+Payroll,7,144.4,2023,4,1
+Employee Benefits,7,61.8,2023,4,1
+Pension,7,-4.7,2023,4,1
+Contracts / Leases,7,85.8,2023,4,1
+Materials / Equipment,7,6.0,2023,4,1
+Contributions / Indemnities,7,17.4,2023,4,1
+Short-Term Debt Service,7,0.0,2023,4,1
+Long-Term Debt Service,7,40.9,2023,4,1
+Interfund Charges,7,60.0,2023,4,1
+Advances / Labor Obligations,7,0.0,2023,4,1
+Current Year Appropriation,7,411.5,2023,4,1
+Prior Year Encumbrances,7,9.5,2023,4,1
+Prior Year Vouchers Payable,7,-39.1,2023,4,1
+Total Disbursements,7,382.0,2023,4,1
+Payroll,8,161.6,2023,4,2
+Employee Benefits,8,46.8,2023,4,2
+Pension,8,-4.3,2023,4,2
+Contracts / Leases,8,79.5,2023,4,2
+Materials / Equipment,8,7.0,2023,4,2
+Contributions / Indemnities,8,11.1,2023,4,2
+Short-Term Debt Service,8,0.0,2023,4,2
+Long-Term Debt Service,8,0.0,2023,4,2
+Interfund Charges,8,0.0,2023,4,2
+Advances / Labor Obligations,8,0.0,2023,4,2
+Current Year Appropriation,8,301.7,2023,4,2
+Prior Year Encumbrances,8,8.5,2023,4,2
+Prior Year Vouchers Payable,8,33.4,2023,4,2
+Total Disbursements,8,343.5,2023,4,2
+Payroll,9,163.0,2023,4,3
+Employee Benefits,9,55.2,2023,4,3
+Pension,9,663.5,2023,4,3
+Contracts / Leases,9,100.5,2023,4,3
+Materials / Equipment,9,14.6,2023,4,3
+Contributions / Indemnities,9,94.1,2023,4,3
+Short-Term Debt Service,9,0.0,2023,4,3
+Long-Term Debt Service,9,0.0,2023,4,3
+Interfund Charges,9,0.0,2023,4,3
+Advances / Labor Obligations,9,0.0,2023,4,3
+Current Year Appropriation,9,1090.9,2023,4,3
+Prior Year Encumbrances,9,10.3,2023,4,3
+Prior Year Vouchers Payable,9,-8.9,2023,4,3
+Total Disbursements,9,1092.4,2023,4,3
+Payroll,10,145.7,2023,4,4
+Employee Benefits,10,62.7,2023,4,4
+Pension,10,-4.6,2023,4,4
+Contracts / Leases,10,80.8,2023,4,4
+Materials / Equipment,10,3.8,2023,4,4
+Contributions / Indemnities,10,9.2,2023,4,4
+Short-Term Debt Service,10,0.0,2023,4,4
+Long-Term Debt Service,10,15.2,2023,4,4
+Interfund Charges,10,0.0,2023,4,4
+Advances / Labor Obligations,10,0.0,2023,4,4
+Current Year Appropriation,10,312.8,2023,4,4
+Prior Year Encumbrances,10,2.6,2023,4,4
+Prior Year Vouchers Payable,10,36.2,2023,4,4
+Total Disbursements,10,351.7,2023,4,4
+Payroll,11,151.9,2023,4,5
+Employee Benefits,11,55.2,2023,4,5
+Pension,11,-4.4,2023,4,5
+Contracts / Leases,11,79.5,2023,4,5
+Materials / Equipment,11,7.6,2023,4,5
+Contributions / Indemnities,11,36.2,2023,4,5
+Short-Term Debt Service,11,0.1,2023,4,5
+Long-Term Debt Service,11,0.0,2023,4,5
+Interfund Charges,11,25.0,2023,4,5
+Advances / Labor Obligations,11,0.0,2023,4,5
+Current Year Appropriation,11,351.1,2023,4,5
+Prior Year Encumbrances,11,4.7,2023,4,5
+Prior Year Vouchers Payable,11,-43.9,2023,4,5
+Total Disbursements,11,311.9,2023,4,5
+Payroll,12,188.8,2023,4,6
+Employee Benefits,12,46.6,2023,4,6
+Pension,12,-13.6,2023,4,6
+Contracts / Leases,12,73.1,2023,4,6
+Materials / Equipment,12,8.9,2023,4,6
+Contributions / Indemnities,12,79.0,2023,4,6
+Short-Term Debt Service,12,0.0,2023,4,6
+Long-Term Debt Service,12,0.0,2023,4,6
+Interfund Charges,12,71.0,2023,4,6
+Advances / Labor Obligations,12,0.0,2023,4,6
+Current Year Appropriation,12,453.7,2023,4,6
+Prior Year Encumbrances,12,1.5,2023,4,6
+Prior Year Vouchers Payable,12,45.4,2023,4,6
+Total Disbursements,12,500.6,2023,4,6
 Payroll,1,115.0,2023,3,7
 Employee Benefits,1,53.9,2023,3,7
 Pension,1,0.4,2023,3,7

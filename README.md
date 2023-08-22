@@ -21,7 +21,10 @@ There are three folders:
   - `department-obligations.csv`: Data parsed from the Departmental Obligations table in the QCMR
   - `fulltime-positions.csv`: Data parsed from the Fulltime Positions Report table in the QCMR
   - `personal-services-summary.csv`: Data parsed from the Personal Services Summary table in the QCMR
-- 
+- `spending/`: This folder includes data parsed from City Budget-in-Brief documents:
+  - `actual-department-spending.csv`: Historical actual spending by department
+  - `budgeted-department-spending-adopted.csv`: Budgeted spending by department from the adopted budget
+  - `budgeted-department-spending-proposed.csv`: Budgeted spending by department from the proposed budget
 
 ## Development set up
 
@@ -44,4 +47,7 @@ And run the help message for the main command:
 poetry run phl-budget-data --help
 ```
 
+You will need AWS credentials for running the parsing scripts. Create a `.env` file in the root of the project
+that is mirrored off of `.env.example` and fill in the values. To get the AWS 
+credentials, go to the "Credentials/" folder on the FPD Sharepoint.
 
